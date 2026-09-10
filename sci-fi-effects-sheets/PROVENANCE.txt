@@ -1,0 +1,11 @@
+sci-fi-effects-sheets — 由 sci-fi-effects 拼成的圖集
+
+原始素材是 frame sequence（一格一個檔），Runtime 只認 sprite sheet，
+所以用 tools/vfx/pack-sequence.cjs 把每一段序列拼成一張圖集並縮到 128px 格。
+母帶是隔壁的 sci-fi-effects，不要刪。
+
+**授權與母帶相同：Skorpio, CC-BY 4.0（OpenGameArt）——用了就要署名。**
+見素材庫根目錄的 PROVENANCE.md。
+
+elements/ 與 rotators/ 沒有拼進來：那兩個資料夾裡是各自獨立的靜圖
+（radar、ray、tractor_beam、rotator…），不是序列，留在母帶裡直接引用。

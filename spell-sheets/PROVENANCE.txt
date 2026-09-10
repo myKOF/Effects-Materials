@@ -1,0 +1,17 @@
+spell-sheets — 來源與授權待確認
+
+使用者於 2026-09-08 提供，原資料夾名「5個法術特效」，下載來源不明，
+壓縮包裡沒有附任何授權檔。
+
+檔名已補上格線資訊（`_<格寬>x<格高>`），那是本專案所有圖集工具讀格線的
+唯一依據（tools/vfx/vfx-raster.cjs 的 gridOf）。格線是量出來的，
+不是猜的——見 tools/vfx/detect-grid.cjs：
+
+    effect36          4x4  格 128x128  16 格
+    effect51          4x4  格 128x128  16 格（末格空）
+    explosion25       4x4  格 128x128  16 格
+    toonexplosion31   4x4  格 128x128  16 格
+    fire01            8x4  格 128x256  32 格   ← 直立的火焰，格子不是正方形
+
+⚠️ 在授權確認之前不要讓 preset 引用它們。preset 一旦引用，
+   export-assets.cjs 就會把檔案複製進 repo 並隨遊戲出貨。
