@@ -33,6 +33,7 @@ preset 實際引用到的素材。所以
 | `sci-fi-effects` | **Skorpio** (OpenGameArt) | **CC-BY 4.0** | **要署名** |
 | `sci-fi-effects-sheets` | 上者的衍生（pack-sequence.cjs 拼成圖集） | **CC-BY 4.0** | **要署名** |
 | `spell-sheets` | 使用者提供，來源不明 | **未附授權檔** | **待確認** |
+| `claude-authored` | Claude 以程式產生（各子目錄附 SOURCE.md 與產生器，可重現），不含第三方素材 | 專案自製 | 無 |
 | `characters/knight-hd` | 使用者提供的「2D HD Character Knight」素材包（2026-09-22，只收用到的 6 個動作，說明見套件內 README） | **未附授權檔** | **待確認**（遊戲主角已經在用，不走 export-assets 匯出，由 `tools/build_character_sprites.cjs` 產生遊戲版） |
 
 ## sci-fi-effects — 署名怎麼寫
