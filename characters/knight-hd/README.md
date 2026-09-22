@@ -26,7 +26,7 @@
 | `Run.png` | 跑步 walk | 著地腳每幀往後滑約 7 px（原尺寸），用來對齊跑速 |
 | `Melee.png` | 普攻 1 attack1 | 第 6～7 幀出劍 |
 | `Melee2.png` | 普攻 2 attack2 | 第 7～8 幀橫斬 |
-| `Special1.png` | 技能施法 cast | 第 8～9 幀釋放 |
+| `Special1.png` | 技能施法 cast；也當普攻 3 attack3（從第 5 幀開始，與前兩段隨機混著出） | 第 8～9 幀釋放 |
 | `Die.png` | 死亡 die | 第 12 幀倒地、之後停住 |
 
 遊戲裡的版本由 `tools/build_character_sprites.cjs knight` 從這裡產生（裁邊、分離影子算輪廓），
