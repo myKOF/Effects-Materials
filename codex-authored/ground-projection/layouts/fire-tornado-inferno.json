@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "presetId": "fire-tornado-inferno",
+  "groups": [
+    {
+      "id": "fire-tornado-inferno",
+      "name": "fire-tornado-inferno",
+      "layerIds": [
+        "halo",
+        "wave-a",
+        "wave-b",
+        "wave-c",
+        "spray",
+        "ground-flames",
+        "crown-flame-jets",
+        "crown-flame-jets-copy",
+        "baked-fire-column"
+      ]
+    }
+  ],
+  "order": [
+    "group:fire-tornado-inferno"
+  ]
+}

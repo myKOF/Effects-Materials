@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "presetId": "burst-rock-petrify",
+  "groups": [
+    {
+      "id": "burst-rock-petrify",
+      "name": "burst-rock-petrify",
+      "layerIds": [
+        "ground",
+        "wave",
+        "rim",
+        "dust",
+        "rubble"
+      ]
+    }
+  ],
+  "order": [
+    "group:burst-rock-petrify"
+  ]
+}

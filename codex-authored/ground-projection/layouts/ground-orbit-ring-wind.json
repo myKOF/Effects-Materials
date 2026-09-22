@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "presetId": "ground-orbit-ring-wind",
+  "groups": [
+    {
+      "id": "ground-orbit-ring-wind",
+      "name": "ground-orbit-ring-wind",
+      "layerIds": [
+        "halo",
+        "ring",
+        "motes"
+      ]
+    }
+  ],
+  "order": [
+    "group:ground-orbit-ring-wind"
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "ground-orbit-ring-wind",
+  "duration": 2,
+  "loop": true,
+  "layers": [
+    {
+      "id": "halo",
+      "type": "sprite",
+      "assetId": "light-masks-1.0/default/ring_a.png",
+      "zIndex": 0,
+      "scale": {
+        "x": 0.4063,
+        "y": 0.4063
+      },
+      "alpha": 0.14400000000000002,
+      "tint": "#86efac",
+      "blendMode": "add",
+      "duration": 2,
+      "alphaOverLife": [
+        [
+          0,
+          0.14400000000000002
+        ],
+        [
+          0.5,
+          0.20800000000000002
+        ],
+        [
+          1,
+          0.14400000000000002
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "ring",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/circle_02.png",
+      "zIndex": 1,
+      "scale": {
+        "x": 0.3906,
+        "y": 0.3906
+      },
+      "alpha": 0.41600000000000004,
+      "tint": "#86efac",
+      "blendMode": "add",
+      "duration": 2,
+      "alphaOverLife": [
+        [
+          0,
+          0.41600000000000004
+        ],
+        [
+          0.5,
+          0.544
+        ],
+        [
+          1,
+          0.41600000000000004
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "motes",
+      "type": "particle",
+      "assetId": "particle-pack/png-black-background/circle_05.png",
+      "zIndex": 2,
+      "tint": "#86efac",
+      "blendMode": "add",
+      "emission": {
+        "mode": "rate",
+        "rate": 6
+      },
+      "lifetime": [
+        0.5,
+        0.9
+      ],
+      "spawn": {
+        "radius": 96,
+        "shape": "circle"
+      },
+      "speed": [
+        15,
+        40
+      ],
+      "direction": -90,
+      "spread": 60,
+      "gravity": {
+        "x": 0,
+        "y": -40
+      },
+      "drag": 0.8,
+      "orbitalSpeed": 2.5133,
+      "startScale": [
+        0.0059,
+        0.0117
+      ],
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0.4
+        ]
+      ],
+      "projection": {
+        "upright": true,
+        "x": 1,
+        "y": 0.5
+      }
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "radius": 100
+    },
+    "shape": "circle"
+  }
+}

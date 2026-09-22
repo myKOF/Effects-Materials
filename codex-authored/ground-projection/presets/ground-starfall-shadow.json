@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "ground-starfall-shadow",
+  "duration": 5,
+  "loop": false,
+  "layers": [
+    {
+      "id": "shadow",
+      "type": "sprite",
+      "assetId": "light-masks-1.0/transparent/window_h.png",
+      "zIndex": 0,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.2444,
+        "y": 0.2444
+      },
+      "alpha": 1,
+      "tint": "#000000",
+      "blendMode": "normal",
+      "duration": 5,
+      "alphaOverLife": [
+        [
+          0,
+          0.1
+        ],
+        [
+          0.4568,
+          0.169681
+        ],
+        [
+          0.6481,
+          0.251596
+        ],
+        [
+          0.8395,
+          0.450532
+        ],
+        [
+          0.9969,
+          0.707979
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          0.04
+        ],
+        [
+          0.4568,
+          0.263298
+        ],
+        [
+          0.6358,
+          0.421277
+        ],
+        [
+          0.8333,
+          0.684574
+        ],
+        [
+          1,
+          1.105851
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "radius": 100
+    },
+    "shape": "circle"
+  }
+}

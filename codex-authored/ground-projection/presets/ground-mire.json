@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "id": "ground-mire",
+  "duration": 2.1,
+  "loop": true,
+  "layers": [
+    {
+      "id": "fill",
+      "type": "sprite",
+      "assetId": "light-masks-1.0/default/ring_b.png",
+      "zIndex": 0,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.4438,
+        "y": 0.4438
+      },
+      "alpha": 0.8,
+      "tint": "#fa1900",
+      "blendMode": "add",
+      "duration": 2.1,
+      "alphaOverLife": [
+        [
+          0,
+          0.5
+        ],
+        [
+          0.5,
+          0.58
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "edge",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/circle_01.png",
+      "zIndex": 1,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.4438,
+        "y": 0.4438
+      },
+      "alpha": 0.55,
+      "tint": "#7d6533",
+      "blendMode": "add",
+      "duration": 2.1,
+      "alphaOverLife": [
+        [
+          0,
+          0.55
+        ],
+        [
+          0.5,
+          0.4
+        ],
+        [
+          1,
+          0.55
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "ripple-a",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/circle_02.png",
+      "zIndex": 2,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.4438,
+        "y": 0.4438
+      },
+      "alpha": 0.45,
+      "tint": "#fa0000",
+      "blendMode": "add",
+      "duration": 2.1,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          0.45
+        ],
+        [
+          0.9,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          0.35
+        ],
+        [
+          0.9,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "ripple-b",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/circle_02.png",
+      "zIndex": 3,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.4438,
+        "y": 0.4438
+      },
+      "alpha": 0.4,
+      "tint": "#fa0000",
+      "blendMode": "add",
+      "delay": 0.7,
+      "duration": 2.1,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          0.4
+        ],
+        [
+          0.9,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          0.35
+        ],
+        [
+          0.9,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "ripple-c",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/circle_02.png",
+      "zIndex": 4,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.4438,
+        "y": 0.4438
+      },
+      "alpha": 0.35,
+      "tint": "#fa0000",
+      "blendMode": "add",
+      "delay": 1.4,
+      "duration": 2.1,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          0.35
+        ],
+        [
+          0.9,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          0.35
+        ],
+        [
+          0.9,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "bubbles",
+      "type": "particle",
+      "assetId": "new_materials/orb/sphere_28.png",
+      "zIndex": 5,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "tint": "#c16afb",
+      "blendMode": "normal",
+      "emission": {
+        "mode": "rate",
+        "rate": 3
+      },
+      "lifetime": [
+        0.9,
+        1.4
+      ],
+      "spawn": {
+        "height": 102.267,
+        "shape": "box",
+        "width": 204.534
+      },
+      "speed": [
+        4.5452,
+        15.9082
+      ],
+      "direction": -90,
+      "spread": 60,
+      "startScale": [
+        0.0156,
+        0.0289
+      ],
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          0.85
+        ],
+        [
+          0.8,
+          0.7
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          1.1
+        ]
+      ],
+      "projection": {
+        "upright": true,
+        "x": 1,
+        "y": 0.5
+      }
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "radius": 100
+    },
+    "radiusM": 3,
+    "shape": "circle"
+  }
+}

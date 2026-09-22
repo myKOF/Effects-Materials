@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "presetId": "ground-blizzard",
+  "groups": [
+    {
+      "id": "ground-blizzard",
+      "name": "ground-blizzard",
+      "layerIds": [
+        "irregular-frost-0",
+        "irregular-frost-1",
+        "irregular-frost-2",
+        "irregular-frost-3",
+        "irregular-frost-4",
+        "irregular-frost-7",
+        "irregular-frost-8",
+        "ground-ice-mist-0",
+        "ground-ice-mist-1",
+        "ground-ice-mist-2",
+        "driven-snow-0",
+        "driven-snow-1",
+        "driven-snow-2",
+        "tumbling-ice"
+      ]
+    }
+  ],
+  "order": [
+    "group:ground-blizzard"
+  ]
+}

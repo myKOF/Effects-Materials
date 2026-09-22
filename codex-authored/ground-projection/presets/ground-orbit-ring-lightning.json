@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "ground-orbit-ring-lightning",
+  "duration": 2,
+  "loop": true,
+  "layers": [
+    {
+      "id": "halo",
+      "type": "sprite",
+      "assetId": "light-masks-1.0/default/ring_a.png",
+      "zIndex": 0,
+      "scale": {
+        "x": 0.4063,
+        "y": 0.4063
+      },
+      "alpha": 0.162,
+      "tint": "#f2b705",
+      "blendMode": "add",
+      "duration": 2,
+      "alphaOverLife": [
+        [
+          0,
+          0.162
+        ],
+        [
+          0.5,
+          0.23399999999999999
+        ],
+        [
+          1,
+          0.162
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "ring",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/circle_02.png",
+      "zIndex": 1,
+      "scale": {
+        "x": 0.3906,
+        "y": 0.3906
+      },
+      "alpha": 0.46799999999999997,
+      "tint": "#f2b705",
+      "blendMode": "add",
+      "duration": 2,
+      "alphaOverLife": [
+        [
+          0,
+          0.46799999999999997
+        ],
+        [
+          0.5,
+          0.612
+        ],
+        [
+          1,
+          0.46799999999999997
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "motes",
+      "type": "particle",
+      "assetId": "particle-pack/png-black-background/spark_05.png",
+      "zIndex": 2,
+      "tint": "#f2b705",
+      "blendMode": "add",
+      "emission": {
+        "mode": "rate",
+        "rate": 8
+      },
+      "lifetime": [
+        0.12,
+        0.22
+      ],
+      "spawn": {
+        "radius": 96,
+        "shape": "circle"
+      },
+      "speed": [
+        0,
+        10
+      ],
+      "direction": -90,
+      "spread": 60,
+      "gravity": {
+        "x": 0,
+        "y": 0
+      },
+      "drag": 0.8,
+      "orbitalSpeed": 2.5133,
+      "startScale": [
+        0.0156,
+        0.0273
+      ],
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0.4
+        ]
+      ],
+      "projection": {
+        "upright": true,
+        "x": 1,
+        "y": 0.5
+      }
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "radius": 100
+    },
+    "shape": "circle"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "presetId": "burst-fire",
+  "groups": [
+    {
+      "id": "burst-fire",
+      "name": "burst-fire",
+      "layerIds": [
+        "glow",
+        "ball",
+        "wave-a",
+        "wave-b",
+        "wave-c",
+        "flash",
+        "tongues",
+        "ember-puff"
+      ]
+    }
+  ],
+  "order": [
+    "group:burst-fire"
+  ]
+}

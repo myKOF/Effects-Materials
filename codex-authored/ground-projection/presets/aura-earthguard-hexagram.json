@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "aura-earthguard-hexagram",
+  "duration": 8,
+  "loop": true,
+  "layers": [
+    {
+      "id": "white-hexagram-ground",
+      "type": "sprite",
+      "assetId": "codex-authored/earthguard/hexagram-orbit.png",
+      "scale": {
+        "x": 0.5714285714285714,
+        "y": 0.879120879120879
+      },
+      "alpha": 0.8,
+      "blendMode": "add",
+      "duration": 8,
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      },
+      "sheet": {
+        "columns": 8,
+        "count": 96,
+        "fps": 12,
+        "loop": true,
+        "mode": "fps",
+        "rows": 12
+      }
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "radius": 80
+    },
+    "radiusM": 8,
+    "shape": "circle"
+  }
+}
