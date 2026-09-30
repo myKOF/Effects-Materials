@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "id": "slash-wind-crescent",
+  "duration": 0.42,
+  "loop": false,
+  "layers": [
+    {
+      "id": "crescent-blade-0",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/slash_03.png",
+      "zIndex": 0,
+      "position": {
+        "x": -26.5203,
+        "y": 9.1876
+      },
+      "rotation": -0.2094,
+      "scale": {
+        "x": 0.6032,
+        "y": 0.567
+      },
+      "anchor": {
+        "x": 0.31076681064521183,
+        "y": 0.510697036318065
+      },
+      "alpha": 0.85,
+      "tint": "#258fff",
+      "blendMode": "add",
+      "duration": 0.36,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.12,
+          1
+        ],
+        [
+          0.55,
+          0.85
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rotationOverLife": [
+        [
+          0,
+          -0.65
+        ],
+        [
+          1,
+          0.65
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "crescent-blade-1",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/slash_03.png",
+      "zIndex": 1,
+      "position": {
+        "x": -26.5203,
+        "y": 9.1876
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 0.5292,
+        "y": 0.4971
+      },
+      "anchor": {
+        "x": 0.19899222488038276,
+        "y": 0.502380982688391
+      },
+      "alpha": 0.7,
+      "tint": "#25d5e8",
+      "blendMode": "add",
+      "duration": 0.36,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.12,
+          1
+        ],
+        [
+          0.55,
+          0.85
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rotationOverLife": [
+        [
+          0,
+          -0.65
+        ],
+        [
+          1,
+          0.65
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "crescent-blade-2",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/slash_03.png",
+      "zIndex": 2,
+      "position": {
+        "x": -26.5203,
+        "y": 9.1876
+      },
+      "rotation": 0.2094,
+      "scale": {
+        "x": 0.4549,
+        "y": 0.4276
+      },
+      "anchor": {
+        "x": 0.0645384287665251,
+        "y": 0.5133289187644369
+      },
+      "alpha": 0.7,
+      "tint": "#52f7a8",
+      "blendMode": "add",
+      "duration": 0.36,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.12,
+          1
+        ],
+        [
+          0.55,
+          0.85
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rotationOverLife": [
+        [
+          0,
+          -0.65
+        ],
+        [
+          1,
+          0.65
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "fine-inner-edge",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/slash_03.png",
+      "zIndex": 3,
+      "position": {
+        "x": -26.5203,
+        "y": 9.1876
+      },
+      "rotation": 0.1745,
+      "scale": {
+        "x": 0.3807,
+        "y": 0.43
+      },
+      "anchor": {
+        "x": 0.0021711375461210825,
+        "y": 0.5010698115164679
+      },
+      "alpha": 0.3,
+      "tint": "#b8ffe0",
+      "blendMode": "add",
+      "duration": 0.36,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.16,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "rotationOverLife": [
+        [
+          0,
+          -0.65
+        ],
+        [
+          1,
+          0.65
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "wind-fragments",
+      "type": "particle",
+      "assetId": "particle-pack/png-transparent/spark_01.png",
+      "zIndex": 4,
+      "position": {
+        "x": 19.0455,
+        "y": 9.1876
+      },
+      "alpha": 0.5,
+      "tint": "#62edca",
+      "blendMode": "add",
+      "emission": {
+        "count": 16,
+        "mode": "burst"
+      },
+      "lifetime": [
+        0.16,
+        0.32
+      ],
+      "spawn": {
+        "height": 151.8862,
+        "shape": "box",
+        "width": 30.3772
+      },
+      "speed": [
+        63.286,
+        151.8862
+      ],
+      "direction": 175,
+      "spread": 35,
+      "startScale": [
+        0.0098,
+        0.0197
+      ],
+      "alphaOverLife": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "height": 110,
+      "width": 110
+    },
+    "heightM": 6,
+    "shape": "custom",
+    "widthM": 6
+  }
+}
