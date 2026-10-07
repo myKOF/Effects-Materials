@@ -1,0 +1,258 @@
+[
+  {
+    "key": "willow",
+    "file": "willow.png",
+    "originalSha256": "07be52e99f6090204da4a0a185b77f6c834073ed933e7f254bbb2f8454a91dea",
+    "exportSha256": "2803801b96cbaea1f4740e78269b58f78d9a35a1a8fde238252bba8bfd3289ee",
+    "crop": {
+      "left": 27,
+      "top": 32,
+      "width": 974,
+      "height": 961
+    },
+    "size": [
+      512,
+      505
+    ]
+  },
+  {
+    "key": "burnt",
+    "file": "burnt-tree.png",
+    "originalSha256": "fb3fa4e33bf978d2b47004dc9adc11eec2228259bca06975c80409852b43bb9a",
+    "exportSha256": "2511b89fc6298b46e6dae26683ae1a975cf3c31402cadde0a2c13e71998e06b1",
+    "crop": {
+      "left": 196,
+      "top": 15,
+      "width": 795,
+      "height": 996
+    },
+    "size": [
+      409,
+      512
+    ]
+  },
+  {
+    "key": "pine",
+    "file": "snow-pine.png",
+    "originalSha256": "ad5f26f21d1801ee5d04e1a7e4af79cc0654da3d826236b673c1174643eb5379",
+    "exportSha256": "62b67cc9af146fcf2ee92ae6eed44fbe51fe1ee4ee97047187fdcf786b0273a3",
+    "crop": {
+      "left": 162,
+      "top": 43,
+      "width": 700,
+      "height": 952
+    },
+    "size": [
+      376,
+      512
+    ]
+  },
+  {
+    "key": "bones",
+    "file": "beast-bones.png",
+    "originalSha256": "94c9a6f14838002e97dd17975dba9446d1c980c0e3a63c4143a5bc8f75624693",
+    "exportSha256": "9f3334776a85cf206920b544cb9007c26f3c948928cb7e8863bd31a50d3b933a",
+    "crop": {
+      "left": 24,
+      "top": 192,
+      "width": 981,
+      "height": 687
+    },
+    "size": [
+      512,
+      359
+    ]
+  },
+  {
+    "key": "cactus",
+    "file": "cactus.png",
+    "originalSha256": "21a15cd8b4c228989fab60c8663f0136f6917ccc4614bfcc10f91ba62d050573",
+    "exportSha256": "9791a100c181b9636e9813d6911b6ff00abb2a975c381b32cbd9f5053b64af4c",
+    "crop": {
+      "left": 202,
+      "top": 12,
+      "width": 623,
+      "height": 989
+    },
+    "size": [
+      323,
+      512
+    ]
+  },
+  {
+    "key": "ice",
+    "file": "ice-cluster.png",
+    "originalSha256": "4bdd4cff94e45083f01565e344dfe7d66aea219bf50dd1dba112738ed66d34fe",
+    "exportSha256": "68205146b944d3ec8f94da21b9a8d7a85dbb87ba0a52b8c5a4b53a19947c280d",
+    "crop": {
+      "left": 138,
+      "top": 19,
+      "width": 758,
+      "height": 995
+    },
+    "size": [
+      390,
+      512
+    ]
+  },
+  {
+    "key": "void",
+    "file": "void-crystal.png",
+    "originalSha256": "4fa92c130b7ff4f37c8e939dcee714a5f30a20581e6ebfac3e721cd915c4745b",
+    "exportSha256": "8caf0cbdb50c249c0d93e696de9ca3e11b71e508d180533b8e8f213c5b4d772c",
+    "crop": {
+      "left": 179,
+      "top": 33,
+      "width": 706,
+      "height": 964
+    },
+    "size": [
+      375,
+      512
+    ]
+  },
+  {
+    "key": "log",
+    "file": "fallen-log.png",
+    "originalSha256": "e75b70ffe7bff1d8b151f2e673604ca965be95a44e2143a14b449245d3e11e86",
+    "exportSha256": "9604e4ce27baf2864838ba57e1a0bab35af64d87a18ed232cc01eedb509df9f4",
+    "crop": {
+      "left": 18,
+      "top": 72,
+      "width": 993,
+      "height": 887
+    },
+    "size": [
+      512,
+      457
+    ]
+  },
+  {
+    "key": "stump",
+    "file": "swamp-stump.png",
+    "originalSha256": "ae275dc94dcbb569f3692acee16aec92a22664a8cf99750c13c8fd2afa557f38",
+    "exportSha256": "24f047c8a073cb7dca18f873a3e58bc7a18c19ce88151f12dd287e70abceb6f3",
+    "crop": {
+      "left": 37,
+      "top": 110,
+      "width": 964,
+      "height": 817
+    },
+    "size": [
+      512,
+      434
+    ]
+  },
+  {
+    "key": "monolith",
+    "file": "rune-stele.png",
+    "originalSha256": "4de9017e12b34ddc3593a014d791eee295649edf18b957671c45284d78d1de94",
+    "exportSha256": "05f301682566bc27c265542558cac938d27fb11f2869a1479d8206a72d8cc1e3",
+    "crop": {
+      "left": 190,
+      "top": 11,
+      "width": 635,
+      "height": 1002
+    },
+    "size": [
+      324,
+      512
+    ]
+  },
+  {
+    "key": "pillar",
+    "file": "stone-column.png",
+    "originalSha256": "edac294ffd5d7da4b637a52392d3cdd853cda18aceaab105679ab599330e3717",
+    "exportSha256": "b06a2dda549ed0b74866c25543fad884279228283118ff9bb1b73d8a63909bcb",
+    "crop": {
+      "left": 206,
+      "top": 23,
+      "width": 613,
+      "height": 954
+    },
+    "size": [
+      329,
+      512
+    ]
+  },
+  {
+    "key": "arch",
+    "file": "ruined-arch.png",
+    "originalSha256": "608f773b27892aab5e91ee2b8696228f9181d083678bab9620b6bcdd0ced8f73",
+    "exportSha256": "bdc81e146ee6129df4c9e31bad6bf1dd6b41e6188fd0af22ebae751b6214ead4",
+    "crop": {
+      "left": 15,
+      "top": 22,
+      "width": 996,
+      "height": 978
+    },
+    "size": [
+      512,
+      503
+    ]
+  },
+  {
+    "key": "wall",
+    "file": "ruined-wall.png",
+    "originalSha256": "902e2c0503ed560d1bda1fa2635a68fd2ef5c6d40ff018156811a19562a23139",
+    "exportSha256": "215bd1e4f32cdb34c541d394a74d12a10b1be44eb11f65f612379f20b2003c58",
+    "crop": {
+      "left": 41,
+      "top": 39,
+      "width": 949,
+      "height": 948
+    },
+    "size": [
+      512,
+      511
+    ]
+  },
+  {
+    "key": "rubble",
+    "file": "fallen-masonry.png",
+    "originalSha256": "d0345c5cd13a6c6574a95bd859d9ddf089423eabb1385e78f592d71c6dceb835",
+    "exportSha256": "0ee2badfab06171a0f47d8bfbc47f3b603fe0269040842d88be8fea75c8f3ea4",
+    "crop": {
+      "left": 28,
+      "top": 89,
+      "width": 970,
+      "height": 848
+    },
+    "size": [
+      512,
+      448
+    ]
+  },
+  {
+    "key": "urn",
+    "file": "weathered-urn.png",
+    "originalSha256": "34988912d96e452655eadbb43c3b432a3cf9acf651e47d74d620063e4ee2096f",
+    "exportSha256": "b28696a0327ae87b78874713b2824ae2cdde95cf313a4737d61d70c6ceba0f2c",
+    "crop": {
+      "left": 157,
+      "top": 54,
+      "width": 715,
+      "height": 931
+    },
+    "size": [
+      393,
+      512
+    ]
+  },
+  {
+    "key": "grave",
+    "file": "old-gravestone.png",
+    "originalSha256": "834c44f41b16bfdfabf75c5ca12639bf598ab593e9dd50eb21b93985943a838b",
+    "exportSha256": "0c6c3a9a7f41136f635df59ca5f0a649d0fe5758fba7ccc95115350e6b00387e",
+    "crop": {
+      "left": 133,
+      "top": 51,
+      "width": 774,
+      "height": 936
+    },
+    "size": [
+      423,
+      512
+    ]
+  }
+]
