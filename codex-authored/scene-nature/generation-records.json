@@ -238,5 +238,65 @@
       1024
     ],
     "savedSha256": "834c44f41b16bfdfabf75c5ca12639bf598ab593e9dd50eb21b93985943a838b"
+  },
+  {
+    "key": "arenaGate",
+    "tool": "built-in imagegen",
+    "generationFile": "exec-b44f73b6-e7e7-44f8-a9b1-ce171b6cf425.png",
+    "generatedSize": [
+      1254,
+      1254
+    ],
+    "generatedSha256": "ace4a94e8bfc15704159c902a0b67db4ea418e64afa7169b6cd387146067fe74",
+    "savedSize": [
+      1024,
+      1024
+    ],
+    "savedSha256": "a5e65a8b3beef76e1c25b510925d57e2dfa07ce1f0461e3f61050b5cd40573de"
+  },
+  {
+    "key": "arenaBrazier",
+    "tool": "built-in imagegen",
+    "generationFile": "exec-b3ae1320-f90d-4eff-b8aa-55ede60b2191.png",
+    "generatedSize": [
+      1145,
+      1374
+    ],
+    "generatedSha256": "e09994c0e566022233dc32bc1399007e20e232967fabbedae6a297d5d921be38",
+    "savedSize": [
+      853,
+      1024
+    ],
+    "savedSha256": "8de7ae82067a16c995b3ab58789e989a1b099a7ba6b3153d8ad60d8267d49815"
+  },
+  {
+    "key": "arenaSpire",
+    "tool": "built-in imagegen",
+    "generationFile": "exec-c9ec60dc-e754-41a7-9e6b-ffb8fcad5ac2.png",
+    "generatedSize": [
+      1254,
+      1254
+    ],
+    "generatedSha256": "e514f9175b35b704245a40158ff51011fa0db60f29f5525a3fbd2ad5efb056f5",
+    "savedSize": [
+      1024,
+      1024
+    ],
+    "savedSha256": "0a375d49d19c63b3903b52c8a71c46ac766ddfdecbbaf46bc59ae7a39590e6d6"
+  },
+  {
+    "key": "arenaCandles",
+    "tool": "built-in imagegen",
+    "generationFile": "exec-090c783d-5720-459c-bb33-ef5623d0f6be.png",
+    "generatedSize": [
+      1254,
+      1254
+    ],
+    "generatedSha256": "642117f1fd9cd4a470042defe0f0a517ae29ae0cec86a918f1370175ee6ef9ef",
+    "savedSize": [
+      1024,
+      1024
+    ],
+    "savedSha256": "6fe0b95b68e945940f92d8810e9a02204f51cd985cfbe9da44a4fb6d7d35357e"
   }
 ]

@@ -254,5 +254,69 @@
       423,
       512
     ]
+  },
+  {
+    "key": "arenaGate",
+    "file": "arena-gate.png",
+    "originalSha256": "a5e65a8b3beef76e1c25b510925d57e2dfa07ce1f0461e3f61050b5cd40573de",
+    "exportSha256": "e43fde953fe3a2114482c34b9ab5e22bf110f3d7a927314148315fa74b41f3f3",
+    "crop": {
+      "left": 29,
+      "top": 18,
+      "width": 972,
+      "height": 987
+    },
+    "size": [
+      504,
+      512
+    ]
+  },
+  {
+    "key": "arenaBrazier",
+    "file": "arena-brazier.png",
+    "originalSha256": "8de7ae82067a16c995b3ab58789e989a1b099a7ba6b3153d8ad60d8267d49815",
+    "exportSha256": "5548d209e012534a470f2a9a1aae50e4d4918cc09030eac67ee30a2604835da6",
+    "crop": {
+      "left": 41,
+      "top": 99,
+      "width": 770,
+      "height": 864
+    },
+    "size": [
+      456,
+      512
+    ]
+  },
+  {
+    "key": "arenaSpire",
+    "file": "arena-spire.png",
+    "originalSha256": "0a375d49d19c63b3903b52c8a71c46ac766ddfdecbbaf46bc59ae7a39590e6d6",
+    "exportSha256": "b93b3e5a7f5fc6b26a1ff01a7290a15af9263a2b842585e3f2c0b7930de2244b",
+    "crop": {
+      "left": 192,
+      "top": 29,
+      "width": 659,
+      "height": 970
+    },
+    "size": [
+      348,
+      512
+    ]
+  },
+  {
+    "key": "arenaCandles",
+    "file": "arena-candles.png",
+    "originalSha256": "6fe0b95b68e945940f92d8810e9a02204f51cd985cfbe9da44a4fb6d7d35357e",
+    "exportSha256": "1f5f18d0ece06521849fdc7166ce1de690628200cb93c30d154549764544bbbb",
+    "crop": {
+      "left": 141,
+      "top": 71,
+      "width": 744,
+      "height": 911
+    },
+    "size": [
+      418,
+      512
+    ]
   }
 ]
