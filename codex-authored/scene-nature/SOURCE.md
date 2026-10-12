@@ -62,3 +62,9 @@ tools/scene-preview.html 使用正式 Renderer 與獨立角色，不讀取真人
 BossArena.elementOf使用正式BOSS elem，無已知elem時讀attr；火、冰、雷、毒、聖、暗、土及風各有光色，未知或無屬性保留原塔色。毒系綠光，聖系黃白光；法陣、門光、火焰、地面光暈、火星與畫面邊緣一致。Renderer直接接收既有Worker塔戰實體，不修改協議、模擬或存檔。中性物件跨塔／屬性共用，法陣仍只有三份塔別配置，每元素只額外缓存60×84火焰貼圖；不製作3×8套大型貼圖。十九件擺件、四盆火與十二道小燭火，六團局部霧及46個原環境粒子；換場全部回收，暫停沿用既有dt=0凍結。
 
 預覽工具新增BOSS屬性選項及帶屬性後綴PNG匯出。
+
+## 地板隱藏格子感（2026-10-12）
+
+八張256×256原創底圖移除週期性正弦明暗與磚縫入口，避免旋轉平鋪後仍可見菱形格紋；保留隨機細砂點與零星深色裂痕。大面積明暗改由既有battle-decor不規則世界座標色塊提供。BOSS drawArenaFloor原本僅不規則雲紋／灰屑／裂痕，無格線，因此保留。此為既有確定性程序生成器調整，批次生成及環繞濾波需維持像素可重現，不適合以手工繪圖軟體替代；沒有引入外部素材或重新繪製物件。
+
+素材庫重建時以runpy載入gen_ground_tiles.py，將main.__globals__['OUT_DIR']設為本目錄ground再執行main()；遊戲端直接python tools/gen_ground_tiles.py亦可重建相同八張圖。經node tools/scene-renewal/export-source.cjs --apply匯出及--check核對30份來源。Renderer地板圖片快取使用20261012-no-grid；主頁／場景預覽Renderer版號同步。既有地板投影、鏡頭、動態及戰鬥判定均保留。
