@@ -1,0 +1,902 @@
+{
+  "schemaVersion": 1,
+  "id": "hit-gale-burst-07-moon",
+  "duration": 0.271,
+  "loop": false,
+  "deformation": {
+    "amplitude": 2.635,
+    "axis": "x",
+    "end": 40.179,
+    "layers": [
+      "fracture-0",
+      "fracture-1",
+      "fracture-2",
+      "fracture-3",
+      "fracture-4"
+    ],
+    "mirror": true,
+    "start": -35.12,
+    "widthJitter": 0.07
+  },
+  "layers": [
+    {
+      "id": "amber-halo",
+      "type": "sprite",
+      "assetId": "new_materials/orb/spiky_11.png",
+      "zIndex": 0,
+      "position": {
+        "x": 0,
+        "y": -2.5729
+      },
+      "scale": {
+        "x": 0.1798,
+        "y": 0.1798
+      },
+      "alpha": 1,
+      "tint": "#6600ff",
+      "blendMode": "add",
+      "duration": 0.24,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.09,
+          1
+        ],
+        [
+          0.28,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0.0185,
+          0.035106
+        ],
+        [
+          0.2593,
+          0.035106
+        ],
+        [
+          0.5031,
+          1.053191
+        ],
+        [
+          1,
+          1.105851
+        ]
+      ],
+      "rotationOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.9753,
+          6.283185
+        ]
+      ],
+      "offsetXOverLife": 0,
+      "perspective": false,
+      "followDirection": false,
+      "followStretch": false
+    },
+    {
+      "id": "burst-spikes",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/star_08.png",
+      "zIndex": 1,
+      "position": {
+        "x": 0,
+        "y": -2.5729
+      },
+      "rotation": 0.3142,
+      "scale": {
+        "x": 0.2223,
+        "y": 0.2223
+      },
+      "alpha": 1,
+      "tint": "#ffffff",
+      "blendMode": "add",
+      "duration": 0.24,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.09,
+          1
+        ],
+        [
+          0.28,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0.0062,
+          0
+        ],
+        [
+          0.429,
+          0
+        ],
+        [
+          0.5093,
+          1.018085
+        ],
+        [
+          1,
+          1.053191
+        ]
+      ],
+      "offsetXOverLife": 0,
+      "perspective": false,
+      "followDirection": false,
+      "followStretch": false
+    },
+    {
+      "id": "cross-spikes",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/star_08.png",
+      "zIndex": 2,
+      "position": {
+        "x": 0,
+        "y": -2.5729
+      },
+      "rotation": -0.2269,
+      "scale": {
+        "x": 0.1568,
+        "y": 0.1568
+      },
+      "alpha": 0.9,
+      "tint": "#ffffff",
+      "blendMode": "add",
+      "duration": 0.24,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.09,
+          1
+        ],
+        [
+          0.28,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.392,
+          0
+        ],
+        [
+          0.4969,
+          1.000532
+        ],
+        [
+          0.9969,
+          1.018085
+        ]
+      ],
+      "offsetXOverLife": 0,
+      "perspective": false,
+      "followDirection": false,
+      "followStretch": false
+    },
+    {
+      "id": "white-impact",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/star_04.png",
+      "zIndex": 3,
+      "position": {
+        "x": 0,
+        "y": -2.5729
+      },
+      "scale": {
+        "x": 0.1177,
+        "y": 0.1177
+      },
+      "alpha": 1,
+      "tint": "#ffffff",
+      "blendMode": "add",
+      "duration": 0.24,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.09,
+          1
+        ],
+        [
+          0.28,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.3735,
+          0
+        ],
+        [
+          0.5031,
+          0.982979
+        ],
+        [
+          1,
+          1.000532
+        ]
+      ],
+      "offsetXOverLife": 0,
+      "perspective": false,
+      "followDirection": false,
+      "followStretch": false
+    },
+    {
+      "id": "hot-core",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/light_03.png",
+      "zIndex": 4,
+      "position": {
+        "x": 0,
+        "y": -2.5729
+      },
+      "scale": {
+        "x": 0.0522,
+        "y": 0.0522
+      },
+      "alpha": 1,
+      "tint": "#f5a700",
+      "blendMode": "add",
+      "duration": 0.24,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.09,
+          1
+        ],
+        [
+          0.28,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          0.017553
+        ],
+        [
+          0.3827,
+          0.017553
+        ],
+        [
+          0.5062,
+          0.947872
+        ],
+        [
+          1,
+          0.965426
+        ]
+      ],
+      "offsetXOverLife": 0,
+      "perspective": false,
+      "followDirection": false,
+      "followStretch": false
+    },
+    {
+      "id": "fracture-0",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/rotated/spark_06_rotated.png",
+      "zIndex": 5,
+      "position": {
+        "x": 20.0832,
+        "y": -2.5729
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 0.0785,
+        "y": 0.0147
+      },
+      "alpha": 0.55,
+      "tint": "#ffe2a0",
+      "blendMode": "add",
+      "delay": 0.015,
+      "duration": 0.24,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.09,
+          1
+        ],
+        [
+          0.28,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "offsetXOverLife": 0,
+      "perspective": false
+    },
+    {
+      "id": "fracture-1",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/rotated/spark_06_rotated.png",
+      "zIndex": 6,
+      "position": {
+        "x": 6.3326,
+        "y": 16.4858
+      },
+      "rotation": 1.25,
+      "scale": {
+        "x": 0.0785,
+        "y": 0.0147
+      },
+      "alpha": 0.55,
+      "tint": "#ffe2a0",
+      "blendMode": "add",
+      "delay": 0.019,
+      "duration": 0.24,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.09,
+          1
+        ],
+        [
+          0.28,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "offsetXOverLife": 0,
+      "perspective": false
+    },
+    {
+      "id": "fracture-2",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/rotated/spark_06_rotated.png",
+      "zIndex": 7,
+      "position": {
+        "x": -16.0895,
+        "y": 9.4464
+      },
+      "rotation": 2.5,
+      "scale": {
+        "x": 0.0785,
+        "y": 0.0147
+      },
+      "alpha": 0.55,
+      "tint": "#ffe2a0",
+      "blendMode": "add",
+      "delay": 0.023,
+      "duration": 0.24,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.09,
+          1
+        ],
+        [
+          0.28,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "offsetXOverLife": 0,
+      "perspective": false
+    },
+    {
+      "id": "fracture-3",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/rotated/spark_06_rotated.png",
+      "zIndex": 8,
+      "position": {
+        "x": -16.4795,
+        "y": -14.0516
+      },
+      "rotation": 3.75,
+      "scale": {
+        "x": 0.0785,
+        "y": 0.0147
+      },
+      "alpha": 0.55,
+      "tint": "#ffe2a0",
+      "blendMode": "add",
+      "delay": 0.027,
+      "duration": 0.24,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.09,
+          1
+        ],
+        [
+          0.28,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "offsetXOverLife": 0,
+      "perspective": false
+    },
+    {
+      "id": "fracture-4",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/rotated/spark_06_rotated.png",
+      "zIndex": 9,
+      "position": {
+        "x": 5.6968,
+        "y": -21.8311
+      },
+      "rotation": 5,
+      "scale": {
+        "x": 0.0785,
+        "y": 0.0147
+      },
+      "alpha": 0.55,
+      "tint": "#ffe2a0",
+      "blendMode": "add",
+      "delay": 0.031,
+      "duration": 0.24,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.09,
+          1
+        ],
+        [
+          0.28,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "offsetXOverLife": 0,
+      "perspective": false
+    },
+    {
+      "id": "sparks",
+      "type": "particle",
+      "assetId": "particle-pack/png-black-background/rotated/trace_02_rotated.png",
+      "zIndex": 10,
+      "position": {
+        "x": 0,
+        "y": -2.5729
+      },
+      "tint": "#ffd475",
+      "blendMode": "add",
+      "duration": 0.26,
+      "emission": {
+        "count": 9,
+        "mode": "burst"
+      },
+      "lifetime": [
+        0.09,
+        0.2
+      ],
+      "spawn": {
+        "radius": 6.6944,
+        "shape": "circle"
+      },
+      "speed": [
+        58.5759,
+        133.8878
+      ],
+      "direction": 0,
+      "spread": 360,
+      "drag": 4,
+      "startScale": [
+        0.0049,
+        0.0115
+      ],
+      "alignToVelocity": true,
+      "alphaOverLife": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0.15
+        ]
+      ],
+      "perspective": false
+    },
+    {
+      "id": "sprite-12",
+      "type": "sprite",
+      "assetId": "light-masks-1.0/transparent/cone_composed_e.png",
+      "position": {
+        "x": 0.7241,
+        "y": -72.513
+      },
+      "scale": {
+        "x": 0.1872,
+        "y": 0.1295
+      },
+      "alpha": 0.8,
+      "tint": "#e634fe",
+      "blendMode": "screen",
+      "duration": 0.27,
+      "alphaOverLife": [
+        [
+          0,
+          0.345213
+        ],
+        [
+          0.2747,
+          0.98883
+        ],
+        [
+          0.7253,
+          0.49734
+        ],
+        [
+          1,
+          0.134574
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          0.561702
+        ],
+        [
+          0.9815,
+          1.404255
+        ]
+      ],
+      "offsetYOverLife": [
+        [
+          0.0031,
+          -22.085196742088534
+        ],
+        [
+          1,
+          22.447249147696542
+        ]
+      ],
+      "perspective": false
+    },
+    {
+      "id": "sprite-13",
+      "type": "sprite",
+      "assetId": "light-masks-1.0/transparent/shape_a.png",
+      "position": {
+        "x": 0,
+        "y": -32.2612
+      },
+      "scale": {
+        "x": 0.0868,
+        "y": 0.0868
+      },
+      "tint": "#fd0dc9",
+      "duration": 0.27,
+      "offsetYOverLife": [
+        [
+          0,
+          -20.999039525264507
+        ],
+        [
+          0.9938,
+          29.68829725985671
+        ]
+      ],
+      "perspective": false
+    },
+    {
+      "id": "hot-core-copy",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/light_03.png",
+      "zIndex": 4,
+      "position": {
+        "x": 0,
+        "y": -2.5729
+      },
+      "scale": {
+        "x": 0.1605,
+        "y": 0.1605
+      },
+      "alpha": 1,
+      "tint": "#ffe53d",
+      "blendMode": "add",
+      "duration": 0.24,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.09,
+          1
+        ],
+        [
+          0.28,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          0.017553
+        ],
+        [
+          0.3827,
+          0.017553
+        ],
+        [
+          0.5062,
+          0.947872
+        ],
+        [
+          1,
+          0.965426
+        ]
+      ],
+      "offsetXOverLife": 0,
+      "perspective": false,
+      "followDirection": false,
+      "followStretch": false
+    },
+    {
+      "id": "sprite-12-copy",
+      "type": "sprite",
+      "assetId": "light-masks-1.0/transparent/cone_composed_c.png",
+      "position": {
+        "x": 0.7241,
+        "y": -30.9691
+      },
+      "scale": {
+        "x": 0.1872,
+        "y": 0.1295
+      },
+      "alpha": 0.8,
+      "tint": "#e634fe",
+      "blendMode": "screen",
+      "duration": 0.27,
+      "alphaOverLife": [
+        [
+          0,
+          0.345213
+        ],
+        [
+          0.2747,
+          0.98883
+        ],
+        [
+          0.7253,
+          0.49734
+        ],
+        [
+          1,
+          0.134574
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          0.561702
+        ],
+        [
+          0.9815,
+          1.404255
+        ]
+      ],
+      "offsetYOverLife": [
+        [
+          0.0031,
+          -22.085196742088534
+        ],
+        [
+          1,
+          22.447249147696542
+        ]
+      ],
+      "perspective": false
+    },
+    {
+      "id": "amber-halo-copy",
+      "type": "sprite",
+      "assetId": "new_materials/orb/rounded_12.png",
+      "zIndex": 0,
+      "position": {
+        "x": 0,
+        "y": -2.5729
+      },
+      "scale": {
+        "x": 0.1431,
+        "y": 0.1431
+      },
+      "alpha": 0.8,
+      "tint": "#2b00ff",
+      "blendMode": "screen",
+      "duration": 0.24,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.09,
+          1
+        ],
+        [
+          0.28,
+          0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0.0185,
+          0.035106
+        ],
+        [
+          0.2593,
+          0.035106
+        ],
+        [
+          0.5031,
+          1.053191
+        ],
+        [
+          1,
+          1.105851
+        ]
+      ],
+      "offsetXOverLife": 0,
+      "perspective": false,
+      "followDirection": false,
+      "followStretch": false
+    },
+    {
+      "id": "sprite-12-copy-2",
+      "type": "sprite",
+      "assetId": "light-masks-1.0/transparent/cone_composed_c.png",
+      "position": {
+        "x": -0.1237,
+        "y": -55.5563
+      },
+      "scale": {
+        "x": 0.1872,
+        "y": 0.1295
+      },
+      "alpha": 0.8,
+      "tint": "#e634fe",
+      "blendMode": "screen",
+      "duration": 0.27,
+      "alphaOverLife": [
+        [
+          0,
+          0.345213
+        ],
+        [
+          0.2747,
+          0.98883
+        ],
+        [
+          0.7253,
+          0.49734
+        ],
+        [
+          1,
+          0.134574
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          0.561702
+        ],
+        [
+          0.9815,
+          1.404255
+        ]
+      ],
+      "offsetYOverLife": [
+        [
+          0.0031,
+          -22.085196742088534
+        ],
+        [
+          1,
+          22.447249147696542
+        ]
+      ],
+      "perspective": false
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "height": 120,
+      "width": 120
+    },
+    "heightM": 6,
+    "shape": "custom",
+    "widthM": 6
+  }
+}
