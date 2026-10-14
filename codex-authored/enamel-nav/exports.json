@@ -1,108 +1,108 @@
 {
-  "sourceSha256": "5a72baf3c86064029396a5c1e9c64fd41f1898ddd08e7ff8824af353938b9b66",
+  "sourceSha256": "a29ffb83706154d8a1baa51f5aca5a4aa48b391661de8956ff08cd030f59da12",
   "size": 128,
   "icons": [
     {
       "name": "char",
       "crop": {
-        "left": 17,
-        "top": 166,
-        "width": 286,
-        "height": 286
+        "left": 12,
+        "top": 164,
+        "width": 294,
+        "height": 294
       },
-      "sha256": "ac876dab5c348409692fc11dc4a6973ce07f11aa8005efa121a3f40eb9ef75ad"
+      "sha256": "8d870e26adf53e2148e9442a935031d1a70efc5199d6565080181e501177f99e"
     },
     {
       "name": "equip",
       "crop": {
-        "left": 317,
-        "top": 165,
-        "width": 293,
-        "height": 288
+        "left": 313,
+        "top": 163,
+        "width": 301,
+        "height": 296
       },
-      "sha256": "0596af0ec00fef70a34e0018a83f2ee0d7b2ea5c13a0cef514d7bfe1112f4e6d"
+      "sha256": "e6f29171f3f194824dedd8cfd2c89c2027faf444b69d5921dadfec800e0756d3"
     },
     {
       "name": "skills",
       "crop": {
-        "left": 622,
-        "top": 165,
-        "width": 292,
-        "height": 288
+        "left": 618,
+        "top": 163,
+        "width": 298,
+        "height": 296
       },
-      "sha256": "6cef4f1f7e04c3457bd81975d815ec7581d71d3da7742a3f030977fb45947f46"
+      "sha256": "18307779a24581672003da0fe33e0757a6053025acc7526198feba817863d258"
     },
     {
       "name": "newforge",
       "crop": {
-        "left": 926,
-        "top": 165,
-        "width": 292,
-        "height": 288
+        "left": 922,
+        "top": 163,
+        "width": 301,
+        "height": 296
       },
-      "sha256": "efbd4517af2cb2b7bf32cddede016d2473a84566c69398b368db890cb94fac80"
+      "sha256": "30606d7ed250d33881f628c0ff128532b0c9f5630f80b351a1d8925757c545a8"
     },
     {
       "name": "gems",
       "crop": {
-        "left": 1232,
-        "top": 165,
-        "width": 289,
-        "height": 287
+        "left": 1229,
+        "top": 164,
+        "width": 294,
+        "height": 294
       },
-      "sha256": "7ec2bb741198e5b79678060c93df8a4cb471bc2905ce8962d5e45b59e4255313"
+      "sha256": "664159cad5d9d22619e3adc0523a566c0b60edc9827b6789780989c3170d4a41"
     },
     {
       "name": "runes",
       "crop": {
-        "left": 16,
-        "top": 542,
-        "width": 288,
-        "height": 289
+        "left": 12,
+        "top": 541,
+        "width": 294,
+        "height": 292
       },
-      "sha256": "7165bf5bc9485e26f9a31ba0b9338722423970d7fa973dae3ff2175676bfce9e"
+      "sha256": "d5d855fca4af9ef364767d641e92cb8dd3afa3e106d64051577cae515a314602"
     },
     {
       "name": "tower",
       "crop": {
-        "left": 317,
-        "top": 542,
-        "width": 293,
-        "height": 289
+        "left": 313,
+        "top": 541,
+        "width": 300,
+        "height": 293
       },
-      "sha256": "8a8cc0dc0073fed4ba43ba5d22737a0807efef21ecec659421afad09c23b0707"
+      "sha256": "2f16f4e1d02ef486410b8a3d4dc7239ef7715b2f86b64eb4ba906ac250d0785d"
     },
     {
       "name": "talents",
       "crop": {
-        "left": 59,
-        "top": 60,
-        "width": 1133,
-        "height": 1115
+        "left": 44,
+        "top": 39,
+        "width": 1166,
+        "height": 1152
       },
-      "sha256": "c508444f5cd65cda2e1b9d2aa3af3493a593a1372b055930797c44ba19e00910",
+      "sha256": "6a421dba71102b659c2b67c6227530b77731c38e66498417e0f705f494a21f4e",
       "original": "originals/talents.png",
-      "originalSha256": "80ab05e87623c8f80925a8f591e46a27eba7a512cc3debf98d02503ba5baad4b"
+      "originalSha256": "28d3b7bfed3d2d1e6b4fae59e6dabada453c9a969600e021bf63460718b7e644"
     },
     {
       "name": "forge",
       "crop": {
-        "left": 926,
-        "top": 542,
-        "width": 292,
-        "height": 289
+        "left": 921,
+        "top": 541,
+        "width": 301,
+        "height": 293
       },
-      "sha256": "4a92673b168f76eb3bfb047d411cdcb35f68a540ab7b6a280ef2f38d4ae67cf2"
+      "sha256": "17a6b3be78a2ff67b99f0541f16726522f6e6821a2a093faab2a0bac06fe30cd"
     },
     {
       "name": "settings",
       "crop": {
-        "left": 1231,
-        "top": 542,
-        "width": 290,
-        "height": 289
+        "left": 1228,
+        "top": 541,
+        "width": 296,
+        "height": 293
       },
-      "sha256": "b834033c35b4745308bf5b4227cde86cb7d2298232dd4ab8e258fb31c0bfb2e4"
+      "sha256": "a518fa4550dea8779a71ddee5434a20f3839365098e3ea18e341683fef3d0f45"
     }
   ]
 }
