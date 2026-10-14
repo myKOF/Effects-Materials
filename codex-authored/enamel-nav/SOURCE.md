@@ -1,0 +1,11 @@
+# 寶石琺瑯功能頁籤
+
+- 製作：Codex／內建imagegen，2026-10-14。使用者核定第三組琺瑯徽章及單顆藍綠寶石。
+- 來源：本聊天使用者提供的遊戲截圖僅供佈局／風格參考；核定概念圖與十個圖案為本次自行生成，未匯入第三方美術或參考素材庫內容。
+- `originals/approved-concept.png`：核定設計，保留後續編修來源。
+- `originals/badges.png`：imagegen整理的透明PNG母圖，5欄2列，順序為角色／裝備／技能／熔爐／寶石／符文／封魔塔／威能／神鑄／設定。
+- `icons/*.png`：遊戲用128×128真透明PNG，保留母圖的alpha／原始外觀，只作分格裁切、等比縮小與透明留白。
+- `exports.json`：母圖SHA256、每個裁切邊界、遊戲素材SHA256，供重現與一致性驗證。
+- 匯出工具：遊戲倉庫`tools/enamel-nav/export-source.cjs`，沿用`vfx-library-root.cjs`解析素材庫。`--make-icons`需要sharp；`--apply`及`--check`只需要Node內建模組。執行`--make-icons`、`--apply`後檢查`--check`。無本機絕對路徑寫入遊戲設定。
+- Mote Studio已確認可存取；本次需保留核定高精細圖稿並去背，採imagegen而未用像素繪圖工具重畫。
+- 遊戲引用：`index.html`的十個主選單按鈕，樣式`css/ashen-forge.css`；不影響神鑄解鎖／頁籤事件／存檔。
