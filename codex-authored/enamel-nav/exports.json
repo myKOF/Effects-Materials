@@ -1,106 +1,108 @@
 {
-  "sourceSha256": "00bbbaa73614ea8ae38df8356f599df6179ca2db3c64906f6b247ed00af1ef27",
+  "sourceSha256": "5a72baf3c86064029396a5c1e9c64fd41f1898ddd08e7ff8824af353938b9b66",
   "size": 128,
   "icons": [
     {
       "name": "char",
       "crop": {
-        "left": 8,
-        "top": 159,
-        "width": 303,
-        "height": 303
+        "left": 17,
+        "top": 166,
+        "width": 286,
+        "height": 286
       },
-      "sha256": "75a4e4280ad8e3b313b93f873b625925c6de21873bc7595f24e2d7f8f93b7fb1"
+      "sha256": "ac876dab5c348409692fc11dc4a6973ce07f11aa8005efa121a3f40eb9ef75ad"
     },
     {
       "name": "equip",
       "crop": {
-        "left": 311,
-        "top": 158,
-        "width": 306,
-        "height": 304
+        "left": 317,
+        "top": 165,
+        "width": 293,
+        "height": 288
       },
-      "sha256": "0ddf91e5196e8e5f4d2456aa68bcd5f349ac27ad088d8dcf72eebb9424900c48"
+      "sha256": "0596af0ec00fef70a34e0018a83f2ee0d7b2ea5c13a0cef514d7bfe1112f4e6d"
     },
     {
       "name": "skills",
       "crop": {
-        "left": 617,
-        "top": 159,
-        "width": 302,
-        "height": 303
+        "left": 622,
+        "top": 165,
+        "width": 292,
+        "height": 288
       },
-      "sha256": "3ee0ffdcabc9383dd35a4a9f3f1f4b7857f768e5f29cf0844185953f357e758d"
+      "sha256": "6cef4f1f7e04c3457bd81975d815ec7581d71d3da7742a3f030977fb45947f46"
     },
     {
       "name": "newforge",
       "crop": {
-        "left": 919,
-        "top": 158,
-        "width": 304,
-        "height": 305
+        "left": 926,
+        "top": 165,
+        "width": 292,
+        "height": 288
       },
-      "sha256": "c4ee633bbf562bf995d2b77e59b9e92026bf881e8f09605528c343ab8a765d5b"
+      "sha256": "efbd4517af2cb2b7bf32cddede016d2473a84566c69398b368db890cb94fac80"
     },
     {
       "name": "gems",
       "crop": {
-        "left": 1224,
-        "top": 159,
-        "width": 303,
-        "height": 303
+        "left": 1232,
+        "top": 165,
+        "width": 289,
+        "height": 287
       },
-      "sha256": "156a304f1c7e677d7fe2e43ba6d0a782b6b153215e040f8c66cc0b3d54b91f83"
+      "sha256": "7ec2bb741198e5b79678060c93df8a4cb471bc2905ce8962d5e45b59e4255313"
     },
     {
       "name": "runes",
       "crop": {
-        "left": 9,
-        "top": 536,
-        "width": 302,
-        "height": 303
+        "left": 16,
+        "top": 542,
+        "width": 288,
+        "height": 289
       },
-      "sha256": "66ca9d0365b216d1d5d022a19ebfb52a1b3fbdcd88bba08c911c0f1ec0213f83"
+      "sha256": "7165bf5bc9485e26f9a31ba0b9338722423970d7fa973dae3ff2175676bfce9e"
     },
     {
       "name": "tower",
       "crop": {
-        "left": 311,
-        "top": 536,
-        "width": 306,
-        "height": 304
+        "left": 317,
+        "top": 542,
+        "width": 293,
+        "height": 289
       },
-      "sha256": "513396dcf496963f6638ae025bf35fe72960fb090b5166d7fd5e3fd97ad73dc1"
+      "sha256": "8a8cc0dc0073fed4ba43ba5d22737a0807efef21ecec659421afad09c23b0707"
     },
     {
       "name": "talents",
       "crop": {
-        "left": 617,
-        "top": 536,
-        "width": 302,
-        "height": 303
+        "left": 59,
+        "top": 60,
+        "width": 1133,
+        "height": 1115
       },
-      "sha256": "67e51fad25e70d91af4fd98e6e646f509ea993ea6b18d582816539d5248ccce4"
+      "sha256": "c508444f5cd65cda2e1b9d2aa3af3493a593a1372b055930797c44ba19e00910",
+      "original": "originals/talents.png",
+      "originalSha256": "80ab05e87623c8f80925a8f591e46a27eba7a512cc3debf98d02503ba5baad4b"
     },
     {
       "name": "forge",
       "crop": {
-        "left": 919,
-        "top": 536,
-        "width": 304,
-        "height": 304
+        "left": 926,
+        "top": 542,
+        "width": 292,
+        "height": 289
       },
-      "sha256": "5b7ee43fd31729201a1b609720caf54d0877d14924c9a3132f6914e89f89a0ad"
+      "sha256": "4a92673b168f76eb3bfb047d411cdcb35f68a540ab7b6a280ef2f38d4ae67cf2"
     },
     {
       "name": "settings",
       "crop": {
-        "left": 1224,
-        "top": 536,
-        "width": 303,
-        "height": 304
+        "left": 1231,
+        "top": 542,
+        "width": 290,
+        "height": 289
       },
-      "sha256": "a9f031f3730d0fb8abebaa4d57f9b2640568f73c3875ba5b221976b9c36217a9"
+      "sha256": "b834033c35b4745308bf5b4227cde86cb7d2298232dd4ab8e258fb31c0bfb2e4"
     }
   ]
 }
