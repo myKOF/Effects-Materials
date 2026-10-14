@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "en-gold-dome",
+  "duration": 3,
+  "loop": false,
+  "layers": [
+    {
+      "id": "glow",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/light_03.png",
+      "zIndex": 0,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.2633,
+        "y": 0.344
+      },
+      "alpha": 0.5,
+      "tint": "#ffcf3a",
+      "blendMode": "add",
+      "duration": 3,
+      "loop": true,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.08,
+          1
+        ],
+        [
+          0.9,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "scaleOverLife": [
+        [
+          0,
+          0.95
+        ],
+        [
+          0.5,
+          1.05
+        ],
+        [
+          1,
+          0.95
+        ]
+      ],
+      "perspective": false
+    },
+    {
+      "id": "shell",
+      "type": "sprite",
+      "assetId": "new_materials/orb/sphere_41.png",
+      "zIndex": 1,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.2107,
+        "y": 0.2753
+      },
+      "alpha": 0.55,
+      "tint": "#ffe08a",
+      "blendMode": "add",
+      "duration": 3,
+      "loop": true,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.08,
+          1
+        ],
+        [
+          0.9,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "perspective": false
+    },
+    {
+      "id": "rim",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/circle_02.png",
+      "zIndex": 2,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.2195,
+        "y": 0.2866
+      },
+      "alpha": 0.85,
+      "tint": "#fff2b0",
+      "blendMode": "add",
+      "duration": 3,
+      "loop": true,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.08,
+          1
+        ],
+        [
+          0.9,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "perspective": false
+    },
+    {
+      "id": "glints",
+      "type": "particle",
+      "assetId": "particle-pack/png-black-background/star_04.png",
+      "zIndex": 3,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "alpha": 1,
+      "tint": "#fff8d0",
+      "blendMode": "add",
+      "emission": {
+        "mode": "rate",
+        "rate": 8
+      },
+      "lifetime": [
+        0.4,
+        0.8
+      ],
+      "spawn": {
+        "radius": 51.8305,
+        "shape": "circle"
+      },
+      "speed": [
+        5.183,
+        18.1407
+      ],
+      "direction": -90,
+      "spread": 180,
+      "startScale": [
+        0.0152,
+        0.0303
+      ],
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "perspective": false
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "height": 60,
+      "width": 60
+    },
+    "heightM": 6,
+    "shape": "custom",
+    "widthM": 6
+  }
+}
