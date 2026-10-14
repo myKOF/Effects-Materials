@@ -1,106 +1,106 @@
 {
-  "sourceSha256": "754d6377baea58dff8de58e606dc83af241790043d5b2428285ed01295a4f44b",
+  "sourceSha256": "00bbbaa73614ea8ae38df8356f599df6179ca2db3c64906f6b247ed00af1ef27",
   "size": 128,
   "icons": [
     {
       "name": "char",
       "crop": {
-        "left": 12,
-        "top": 179,
-        "width": 292,
-        "height": 284
+        "left": 8,
+        "top": 159,
+        "width": 303,
+        "height": 303
       },
-      "sha256": "d73a5785f58614810f0f7348473dd036c4268c2a42076e423a419f7044766c5c"
+      "sha256": "75a4e4280ad8e3b313b93f873b625925c6de21873bc7595f24e2d7f8f93b7fb1"
     },
     {
       "name": "equip",
       "crop": {
-        "left": 316,
-        "top": 178,
-        "width": 294,
-        "height": 285
+        "left": 311,
+        "top": 158,
+        "width": 306,
+        "height": 304
       },
-      "sha256": "208c16997abdd22590e3faf2903f68de50f1d303494713da279f3dc39f7bf7f3"
+      "sha256": "0ddf91e5196e8e5f4d2456aa68bcd5f349ac27ad088d8dcf72eebb9424900c48"
     },
     {
       "name": "skills",
       "crop": {
-        "left": 621,
-        "top": 178,
-        "width": 293,
-        "height": 285
+        "left": 617,
+        "top": 159,
+        "width": 302,
+        "height": 303
       },
-      "sha256": "3e8c2902158892a9387225c2c7c2d56bee5f8c741def93a4b4d5ab1012df7546"
+      "sha256": "3ee0ffdcabc9383dd35a4a9f3f1f4b7857f768e5f29cf0844185953f357e758d"
     },
     {
       "name": "newforge",
       "crop": {
-        "left": 926,
-        "top": 178,
-        "width": 292,
-        "height": 285
+        "left": 919,
+        "top": 158,
+        "width": 304,
+        "height": 305
       },
-      "sha256": "33d81ab75933180095dce65c65ad01622cd88319734195cf8850383309b6bf31"
+      "sha256": "c4ee633bbf562bf995d2b77e59b9e92026bf881e8f09605528c343ab8a765d5b"
     },
     {
       "name": "gems",
       "crop": {
-        "left": 1233,
-        "top": 178,
-        "width": 292,
-        "height": 285
+        "left": 1224,
+        "top": 159,
+        "width": 303,
+        "height": 303
       },
-      "sha256": "da60a1d0ee1e33525faccf3047dd4409c5f89e5e97eb075945b85b5a4e14a5de"
+      "sha256": "156a304f1c7e677d7fe2e43ba6d0a782b6b153215e040f8c66cc0b3d54b91f83"
     },
     {
       "name": "runes",
       "crop": {
-        "left": 12,
-        "top": 544,
-        "width": 293,
-        "height": 288
+        "left": 9,
+        "top": 536,
+        "width": 302,
+        "height": 303
       },
-      "sha256": "66a72e20bf51e9a45dce6a943892e267c1b3c2a4966a39525ddd3d07b2d8d829"
+      "sha256": "66ca9d0365b216d1d5d022a19ebfb52a1b3fbdcd88bba08c911c0f1ec0213f83"
     },
     {
       "name": "tower",
       "crop": {
-        "left": 316,
-        "top": 544,
-        "width": 294,
-        "height": 289
+        "left": 311,
+        "top": 536,
+        "width": 306,
+        "height": 304
       },
-      "sha256": "8e7dbc56303936b5e2f9d2bb509f12952f7cc219fc4396848d83c6c986ec3c35"
+      "sha256": "513396dcf496963f6638ae025bf35fe72960fb090b5166d7fd5e3fd97ad73dc1"
     },
     {
       "name": "talents",
       "crop": {
-        "left": 621,
-        "top": 544,
-        "width": 294,
-        "height": 288
+        "left": 617,
+        "top": 536,
+        "width": 302,
+        "height": 303
       },
-      "sha256": "4e5d3a99588cb3dd337c0e80484a9011b72aba21a91c60a2ce17a7f8fc1b9192"
+      "sha256": "67e51fad25e70d91af4fd98e6e646f509ea993ea6b18d582816539d5248ccce4"
     },
     {
       "name": "forge",
       "crop": {
-        "left": 925,
-        "top": 543,
-        "width": 294,
-        "height": 289
+        "left": 919,
+        "top": 536,
+        "width": 304,
+        "height": 304
       },
-      "sha256": "98f5c26f8d797ec468b50ad9ee207e7df4a9f2e6a7edcb89104a74dc134e8004"
+      "sha256": "5b7ee43fd31729201a1b609720caf54d0877d14924c9a3132f6914e89f89a0ad"
     },
     {
       "name": "settings",
       "crop": {
-        "left": 1231,
-        "top": 544,
-        "width": 293,
-        "height": 288
+        "left": 1224,
+        "top": 536,
+        "width": 303,
+        "height": 304
       },
-      "sha256": "631004b2ef98a685f0ec72dbd3e5aecdb11965ab279bc37d8b660e9aaad571d1"
+      "sha256": "a9f031f3730d0fb8abebaa4d57f9b2640568f73c3875ba5b221976b9c36217a9"
     }
   ]
 }

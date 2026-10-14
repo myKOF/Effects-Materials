@@ -9,3 +9,10 @@
 - 匯出工具：遊戲倉庫`tools/enamel-nav/export-source.cjs`，沿用`vfx-library-root.cjs`解析素材庫。`--make-icons`需要sharp；`--apply`及`--check`只需要Node內建模組。執行`--make-icons`、`--apply`後檢查`--check`。無本機絕對路徑寫入遊戲設定。
 - Mote Studio已確認可存取；本次需保留核定高精細圖稿並去背，採imagegen而未用像素繪圖工具重畫。
 - 遊戲引用：`index.html`的十個主選單按鈕，樣式`css/ashen-forge.css`；不影響神鑄解鎖／頁籤事件／存檔。
+
+## 2026-10-14 細碎裝飾清理
+
+- 使用者指出小尺寸圖示內圈細紋與光點顯髒，要求十圖全面修整；沿用本素材原創母圖，由內建imagegen重整，未匯入外部美術。
+- 現行`originals/badges.png`改為簡潔連續內圈、平滑深藍底、寬面主體；清除細碎刻紋／光點／散片。單顆寶石維持，符文成完整石塊，威能只留四個主要節點，錘頭與齒輪去除小鉚釘／雕飾。
+- 原稿`originals/approved-concept.png`仍保留為風格來源；舊版透明母圖與匯出保存在Git歷史65318f4，未刪除原始概念圖。
+- 仍沿既有工具分格裁切／縮小／透明留白到128×128，不重畫圖案。以64×64及遊戲38px顯示檢查；所有圖示引用快取更新為20261014-clean。
