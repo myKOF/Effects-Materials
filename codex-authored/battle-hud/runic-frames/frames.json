@@ -6,16 +6,16 @@
   },
   "frames": {
     "health": {
-      "originalSha256": "52d330d8f51aae1c08fa90dcd6184c06d96763a95974678bb7a16e7289b4a0d8",
-      "exportSha256": "345cb4229e720fb14c0ca1136818fb9a82c64d2be19eb8b755dacec0408d78b5",
+      "originalSha256": "cf8a7c1e19507c4c6af8ed063cfea9fa5cded4f4a1ebded11b3d8b988539db48",
+      "exportSha256": "59b21cc1e3d5791b9b84fed733aee455923cc33ebb0fddcd3b4097a603929f88",
       "originalWidth": 1254,
       "originalHeight": 1254,
       "width": 512,
       "height": 512
     },
     "mana": {
-      "originalSha256": "29a34aeb1b2abf2c505185137fbfeecb6b2a10b13e83c11ec86f93beafcc0d85",
-      "exportSha256": "c1c24c85a7b1efdab693c6bd6d7974f96b7a729293a4196b3a347ee47a2d1cea",
+      "originalSha256": "286a588428d546461ce533184f998f62a8aaa6033defc4a0299814fc91a22c7b",
+      "exportSha256": "e6d10ae082d9ef0d68f6027bff494327501880051492cdda4e1b693ef84a119c",
       "originalWidth": 1254,
       "originalHeight": 1254,
       "width": 512,
