@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "frameToGlass": 1.9,
+    "centerX": 0.599,
+    "centerY": 0.518
+  },
+  "frames": {
+    "health": {
+      "originalSha256": "52d330d8f51aae1c08fa90dcd6184c06d96763a95974678bb7a16e7289b4a0d8",
+      "exportSha256": "345cb4229e720fb14c0ca1136818fb9a82c64d2be19eb8b755dacec0408d78b5",
+      "originalWidth": 1254,
+      "originalHeight": 1254,
+      "width": 512,
+      "height": 512
+    },
+    "mana": {
+      "originalSha256": "29a34aeb1b2abf2c505185137fbfeecb6b2a10b13e83c11ec86f93beafcc0d85",
+      "exportSha256": "c1c24c85a7b1efdab693c6bd6d7974f96b7a729293a4196b3a347ee47a2d1cea",
+      "originalWidth": 1254,
+      "originalHeight": 1254,
+      "width": 512,
+      "height": 512
+    }
+  }
+}
