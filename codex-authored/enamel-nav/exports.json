@@ -1,0 +1,108 @@
+{
+  "sourceSha256": "a29ffb83706154d8a1baa51f5aca5a4aa48b391661de8956ff08cd030f59da12",
+  "size": 128,
+  "icons": [
+    {
+      "name": "char",
+      "crop": {
+        "left": 12,
+        "top": 164,
+        "width": 294,
+        "height": 294
+      },
+      "sha256": "8d870e26adf53e2148e9442a935031d1a70efc5199d6565080181e501177f99e"
+    },
+    {
+      "name": "equip",
+      "crop": {
+        "left": 313,
+        "top": 163,
+        "width": 301,
+        "height": 296
+      },
+      "sha256": "e6f29171f3f194824dedd8cfd2c89c2027faf444b69d5921dadfec800e0756d3"
+    },
+    {
+      "name": "skills",
+      "crop": {
+        "left": 618,
+        "top": 163,
+        "width": 298,
+        "height": 296
+      },
+      "sha256": "18307779a24581672003da0fe33e0757a6053025acc7526198feba817863d258"
+    },
+    {
+      "name": "newforge",
+      "crop": {
+        "left": 922,
+        "top": 163,
+        "width": 301,
+        "height": 296
+      },
+      "sha256": "30606d7ed250d33881f628c0ff128532b0c9f5630f80b351a1d8925757c545a8"
+    },
+    {
+      "name": "gems",
+      "crop": {
+        "left": 1229,
+        "top": 164,
+        "width": 294,
+        "height": 294
+      },
+      "sha256": "664159cad5d9d22619e3adc0523a566c0b60edc9827b6789780989c3170d4a41"
+    },
+    {
+      "name": "runes",
+      "crop": {
+        "left": 12,
+        "top": 541,
+        "width": 294,
+        "height": 292
+      },
+      "sha256": "d5d855fca4af9ef364767d641e92cb8dd3afa3e106d64051577cae515a314602"
+    },
+    {
+      "name": "tower",
+      "crop": {
+        "left": 313,
+        "top": 541,
+        "width": 300,
+        "height": 293
+      },
+      "sha256": "2f16f4e1d02ef486410b8a3d4dc7239ef7715b2f86b64eb4ba906ac250d0785d"
+    },
+    {
+      "name": "talents",
+      "crop": {
+        "left": 44,
+        "top": 39,
+        "width": 1166,
+        "height": 1152
+      },
+      "sha256": "6a421dba71102b659c2b67c6227530b77731c38e66498417e0f705f494a21f4e",
+      "original": "originals/talents.png",
+      "originalSha256": "28d3b7bfed3d2d1e6b4fae59e6dabada453c9a969600e021bf63460718b7e644"
+    },
+    {
+      "name": "forge",
+      "crop": {
+        "left": 921,
+        "top": 541,
+        "width": 301,
+        "height": 293
+      },
+      "sha256": "17a6b3be78a2ff67b99f0541f16726522f6e6821a2a093faab2a0bac06fe30cd"
+    },
+    {
+      "name": "settings",
+      "crop": {
+        "left": 1228,
+        "top": 541,
+        "width": 296,
+        "height": 293
+      },
+      "sha256": "a518fa4550dea8779a71ddee5434a20f3839365098e3ea18e341683fef3d0f45"
+    }
+  ]
+}
