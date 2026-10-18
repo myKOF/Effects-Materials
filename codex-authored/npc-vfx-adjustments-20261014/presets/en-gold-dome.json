@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "en-gold-dome",
   "duration": 3,
-  "loop": false,
+  "loop": true,
   "layers": [
     {
       "id": "glow",
@@ -11,13 +11,13 @@
       "zIndex": 0,
       "position": {
         "x": 0,
-        "y": 0
+        "y": -30
       },
       "scale": {
-        "x": 0.2633,
-        "y": 0.344
+        "x": 0.1889,
+        "y": 0.2468
       },
-      "alpha": 0.5,
+      "alpha": 0.2,
       "tint": "#ffcf3a",
       "blendMode": "add",
       "duration": 3,
@@ -59,11 +59,11 @@
     {
       "id": "shell",
       "type": "sprite",
-      "assetId": "new_materials/orb/sphere_41.png",
+      "assetId": "codex-authored/npc-shield/thin-shell.svg",
       "zIndex": 1,
       "position": {
         "x": 0,
-        "y": 0
+        "y": -30
       },
       "scale": {
         "x": 0.2107,
@@ -71,7 +71,7 @@
       },
       "alpha": 0.55,
       "tint": "#ffe08a",
-      "blendMode": "add",
+      "blendMode": "normal",
       "duration": 3,
       "loop": true,
       "alphaOverLife": [
@@ -97,11 +97,11 @@
     {
       "id": "rim",
       "type": "sprite",
-      "assetId": "particle-pack/png-black-background/circle_02.png",
+      "assetId": "codex-authored/npc-shield/thin-rim.svg",
       "zIndex": 2,
       "position": {
         "x": 0,
-        "y": 0
+        "y": -30
       },
       "scale": {
         "x": 0.2195,
@@ -109,7 +109,7 @@
       },
       "alpha": 0.85,
       "tint": "#fff2b0",
-      "blendMode": "add",
+      "blendMode": "screen",
       "duration": 3,
       "loop": true,
       "alphaOverLife": [
@@ -139,7 +139,7 @@
       "zIndex": 3,
       "position": {
         "x": 0,
-        "y": 0
+        "y": -30
       },
       "alpha": 1,
       "tint": "#fff8d0",
