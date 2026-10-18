@@ -1,0 +1,8 @@
+{
+  "original": "originals/dark-gold-seal.png",
+  "target": "images/ui/heaven-power/dark-gold-seal.png",
+  "originalSha256": "d28e94add06fd5503d06a4f15740f3ab58740b988faf9125329ba7da7a805bed",
+  "width": 1254,
+  "height": 1254,
+  "conversion": "byte-identical copy; no crop, recolor or resizing"
+}
