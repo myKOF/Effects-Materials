@@ -1,0 +1,9 @@
+{
+  "original": "originals/hex-backplate.png",
+  "target": "images/ui/gem-resonance/hex-backplate.png",
+  "originalSha256": "7577129b32ef0329c3459dd91bdffdc4346c9a7848234e8ec8a335432d4e3394",
+  "width": 1254,
+  "height": 1254,
+  "alpha": true,
+  "conversion": "byte-identical copy; no crop, recolor or resizing"
+}

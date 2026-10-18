@@ -1,0 +1,14 @@
+# 文字檔一律以 LF 落地。
+#
+# 這個素材庫的 SVG 原本沒有規範行尾：core.autocrlf=true 會在簽出時把 LF 換成
+# CRLF，而 vfx/asset-index.json 記的是掃描當下的檔案大小與 sha256。檔案在不同
+# 電腦（或重新簽出）之後大小就變了，於是 VFX Editor 存檔時的素材同步會失敗，
+# 訊息是「實際大小與索引不符」。2026-10-04 實際擋住過存檔：
+#   water-dome.svg       索引 1394，實際 1416（22 個 CR）
+#   ice-merge-vortex.svg 索引 5341，實際 5342（1 個 CR）
+#
+# 同一份素材在不同電腦上算出不同的 contentHash，也會讓快取破壞子（?v=<hash>）
+# 跟著不同——那是「A 電腦正常、B 電腦吃到舊圖」這類不會有人立刻發現的錯。
+#
+# text=auto 保留 git 的二進位偵測，png／webp 這些不會被碰到。
+* text=auto eol=lf
