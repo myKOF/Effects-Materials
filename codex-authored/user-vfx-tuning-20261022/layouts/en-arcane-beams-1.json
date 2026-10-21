@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "presetId": "en-arcane-beams-1",
+  "groups": [
+    {
+      "id": "en-arcane-beams-1",
+      "name": "en-arcane-beams-1",
+      "layerIds": [
+        "halo",
+        "rod-axis",
+        "barrel-aura",
+        "cylinder-body",
+        "surface-current",
+        "outer-arcs",
+        "hub",
+        "sprite-7"
+      ]
+    }
+  ],
+  "order": [
+    "group:en-arcane-beams-1"
+  ]
+}

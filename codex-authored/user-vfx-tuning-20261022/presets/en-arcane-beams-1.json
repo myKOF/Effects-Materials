@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "en-arcane-beams-1",
+  "duration": 6,
+  "loop": false,
+  "layers": [
+    {
+      "id": "halo",
+      "type": "sprite",
+      "assetId": "light-masks-1.0/default/circle_b.png",
+      "zIndex": 0,
+      "position": {
+        "x": 0.6773,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.0918,
+        "y": 0.0541
+      },
+      "alpha": 0.08,
+      "tint": "#c850ff",
+      "blendMode": "add",
+      "duration": 6,
+      "rotationSpeed": 1.0471975511965976,
+      "projection": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    {
+      "id": "rod-axis",
+      "type": "empty",
+      "position": {
+        "x": 0.6773,
+        "y": 0
+      },
+      "rotation": 1.5707963267948966,
+      "scale": {
+        "x": 1.7244,
+        "y": 1.7244
+      },
+      "duration": 6,
+      "rotationSpeed": 0,
+      "outerScale": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "barrel-aura",
+      "type": "sprite",
+      "parent": "rod-axis",
+      "assetId": "codex-authored/arcane-rod/cylinder.svg",
+      "zIndex": 1,
+      "scale": {
+        "x": 0.2723,
+        "y": 0.1353
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "alpha": 0.24,
+      "tint": "#b866ff",
+      "blendMode": "add",
+      "duration": 8,
+      "loop": true,
+      "rotationSpeed": 1.0471975511965976,
+      "scaleXOverLife": 1,
+      "scaleYOverLife": 1,
+      "outerScale": {
+        "x": 1,
+        "y": 0.6
+      },
+      "perspective": false,
+      "followDirection": false,
+      "followStretch": false
+    },
+    {
+      "id": "cylinder-body",
+      "type": "sprite",
+      "parent": "rod-axis",
+      "assetId": "codex-authored/arcane-rod/cylinder.svg",
+      "zIndex": 2,
+      "scale": {
+        "x": 0.1757,
+        "y": 0.1353
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "alpha": 0.9,
+      "blendMode": "normal",
+      "duration": 8,
+      "loop": true,
+      "rotationSpeed": 1.0471975511965976,
+      "scaleXOverLife": 1,
+      "scaleYOverLife": 1,
+      "outerScale": {
+        "x": 1,
+        "y": 0.6
+      },
+      "perspective": false,
+      "followDirection": false,
+      "followStretch": false
+    },
+    {
+      "id": "surface-current",
+      "type": "sprite",
+      "parent": "rod-axis",
+      "assetId": "codex-authored/arcane-rod/surface-current.svg",
+      "zIndex": 3,
+      "position": {
+        "x": 1.1598,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.1306,
+        "y": 0.1353
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "alpha": 0.55,
+      "blendMode": "normal",
+      "duration": 8,
+      "loop": true,
+      "rotationSpeed": 1.0471975511965976,
+      "scaleXOverLife": 1,
+      "scaleYOverLife": 1,
+      "outerScale": {
+        "x": 1,
+        "y": 0.6
+      },
+      "perspective": false,
+      "followDirection": false,
+      "followStretch": false,
+      "sheet": {
+        "columns": 8,
+        "count": 8,
+        "fps": 12,
+        "loop": true,
+        "mode": "fps",
+        "rows": 1
+      }
+    },
+    {
+      "id": "outer-arcs",
+      "type": "sprite",
+      "parent": "rod-axis",
+      "assetId": "codex-authored/arcane-rod/outer-arcs.svg",
+      "zIndex": 4,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.0856,
+        "y": 0.1353
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "alpha": 1,
+      "blendMode": "add",
+      "duration": 8,
+      "loop": true,
+      "rotationSpeed": 1.0471975511965976,
+      "scaleXOverLife": 1,
+      "scaleYOverLife": 1,
+      "outerScale": {
+        "x": 1,
+        "y": 0.6
+      },
+      "perspective": false,
+      "followDirection": false,
+      "followStretch": false,
+      "sheet": {
+        "columns": 8,
+        "count": 8,
+        "fps": 14,
+        "loop": true,
+        "mode": "fps",
+        "rows": 1
+      }
+    },
+    {
+      "id": "hub",
+      "type": "sprite",
+      "assetId": "codex-authored/arcane-rod/emitter-flare.svg",
+      "zIndex": 9,
+      "position": {
+        "x": 0.6773,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.0429,
+        "y": 0.0429
+      },
+      "alpha": 1,
+      "tint": "#ffffff",
+      "blendMode": "add",
+      "duration": 6
+    },
+    {
+      "id": "sprite-7",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/star_05.png",
+      "scale": {
+        "x": 0.0958,
+        "y": 0.0958
+      },
+      "tint": "#ff80ee",
+      "blendMode": "add",
+      "rotationSpeed": 1.0471975511965976
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "radius": 100
+    },
+    "shape": "circle"
+  }
+}

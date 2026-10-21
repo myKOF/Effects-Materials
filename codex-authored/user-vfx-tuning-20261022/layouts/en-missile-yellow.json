@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "presetId": "en-missile-yellow",
+  "groups": [
+    {
+      "id": "en-missile-yellow",
+      "name": "en-missile-yellow",
+      "layerIds": [
+        "glow",
+        "body",
+        "core",
+        "tail-cone",
+        "tail-cone-inner",
+        "trail",
+        "trailing-points"
+      ]
+    }
+  ],
+  "order": [
+    "group:en-missile-yellow"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "presetId": "en-wall-warn",
+  "groups": [
+    {
+      "id": "en-wall-warn",
+      "name": "en-wall-warn",
+      "layerIds": [
+        "fill",
+        "edge"
+      ]
+    }
+  ],
+  "order": [
+    "group:en-wall-warn"
+  ]
+}

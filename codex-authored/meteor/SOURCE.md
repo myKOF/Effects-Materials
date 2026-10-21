@@ -11,3 +11,5 @@
 既有 `meteor-cracked.png`、`meteor-stylized.png` 不屬本次新作或修改，本紀錄不變更它們的來源與授權。
 
 2026-10-21 拖尾動態修正：comet-tail-envelope、golden-tail-stream、white-tail-thread 由單張靜態 Sprite 改為持續向後剝離的短命粒子，隨壽命伸展、淡出，並用既有 Core 的平移噪聲表現氣流擾動。保留 14 層群組與所有非尾焰圖層、米制尺寸及飛行命中時序；沒有產出新 PNG 或引入外部素材。製作腳本已同步，遊戲與本庫 Preset 逐位元一致。
+
+2026-10-22：依使用者一併Commit要求保存VFX Editor最新已儲存設定，逐位元同步遊戲：presets/proj-meteor-inferno.json、layouts/proj-meteor-inferno.json。不以離線作者重製覆蓋使用者值；完整本輪快照在codex-authored/user-vfx-tuning-20261022。

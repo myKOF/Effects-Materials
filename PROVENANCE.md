@@ -27,7 +27,7 @@ preset 實際引用到的素材。所以
 | `splat-pack` | Kenney (kenney.nl) | CC0 | 無 |
 | `foliage-sprites` | Kenney (kenney.nl) | CC0 | 無 |
 | `new_materials` | 匯整自多個 CC0 來源 | CC0 | 無 |
-| `shape-alpha` | 紋章／裝飾剪影包 | 未附授權檔 | **待確認** |
+| `shape-alpha` | 紋章／裝飾剪影包 | `PDAlpha_017.png`：使用者2026-10-22確認已授權可用於本專案；其餘未提供授權資訊 | 僅確認本次指定檔案，不推定整包為CC0 |
 | `spritemancer-vfx` | CodeManu「VFX Free Pack」(OpenGameArt) | CC0 | 無 |
 | `spritemancer-vfx-256` | 上者的衍生（shrink-sheets.cjs 降解析） | CC0 | 無 |
 | `sci-fi-effects` | **Skorpio** (OpenGameArt) | **CC-BY 4.0** | **要署名** |
@@ -49,6 +49,6 @@ preset 實際引用到的素材。所以
 
 ## 兩個待確認的
 
-`shape-alpha`（177 張紋章與裝飾剪影）與 `spell-sheets`（5 張法術圖集）
-都沒有附授權檔。目前**沒有任何 preset 引用它們**，所以還沒有出貨、
-也還沒有義務；要用之前得先把來源與授權確認清楚。
+`shape-alpha/PDAlpha_017.png`：2026-10-22，使用者在提交確認中直接回覆「已授權」，確認可用於本專案；本次由 en-wall-warn 引用。此紀錄不自行推定CC0或擴及同套件其他圖片。
+
+其餘 `shape-alpha` 與 `spell-sheets` 尚未在本紀錄提供來源與授權；新增使用前仍須逐項確認。

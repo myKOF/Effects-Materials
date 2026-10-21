@@ -21,3 +21,5 @@
 - layouts/en-missile-purple.json: f5b72381ca91a3028c18ca0da44955100d47b65e6d2aa163152b854bf640c90a
 - presets/en-missile-yellow.json: 9462154859a09db8f79c07c558406ed35eb6ee9d54a70ec7fc933fb7bcc696bf
 - layouts/en-missile-yellow.json: 92b38d8c1b806a7766cf77fd87fd72557a78fabc83c8d0f9705a6a2db5542ee0
+
+2026-10-22：依使用者一併Commit要求保存VFX Editor最新已儲存設定，逐位元同步遊戲：presets/en-missile-blue.json、presets/en-missile-purple.json、presets/en-missile-white.json、presets/en-missile-yellow.json。不以離線作者重製覆蓋使用者值；完整本輪快照在codex-authored/user-vfx-tuning-20261022。

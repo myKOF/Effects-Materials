@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-22",
+  "files": [
+    {
+      "file": "layouts/en-arcane-beams-1.json",
+      "sha256": "bee80d97e1fa8e5a798629a850ceb167dfb35dce82662ea35696db098a912d18"
+    },
+    {
+      "file": "layouts/en-burst-fire-shockwave.json",
+      "sha256": "c4b1ec0a23ca8b4ae68f19ad7210d95e89af3a7a2fdd4e94d62c8b289661a7e4"
+    },
+    {
+      "file": "layouts/en-ground-domain-fire.json",
+      "sha256": "29f49a3fd72880e6360d98f85d0328618dc440f68396824f372f62ea0c1dfc2b"
+    },
+    {
+      "file": "layouts/en-mark-storm.json",
+      "sha256": "0863780b23cc89d024f17fd8cff697588a26f839084982be385a75f0e75aaf19"
+    },
+    {
+      "file": "layouts/en-missile-blue.json",
+      "sha256": "ea3282e605589c6ce9a845085b53cec723bd10cfa1006782fac89a4eb3087e55"
+    },
+    {
+      "file": "layouts/en-missile-purple.json",
+      "sha256": "f5b72381ca91a3028c18ca0da44955100d47b65e6d2aa163152b854bf640c90a"
+    },
+    {
+      "file": "layouts/en-missile-white.json",
+      "sha256": "f50e4863bc9d8d1df0e026cab416c107ed2ab8f81313316f9a934d364545973d"
+    },
+    {
+      "file": "layouts/en-missile-yellow.json",
+      "sha256": "92b38d8c1b806a7766cf77fd87fd72557a78fabc83c8d0f9705a6a2db5542ee0"
+    },
+    {
+      "file": "layouts/en-spark.json",
+      "sha256": "93e1d39d4f56845802f8c2acea0fc0412f6434715b676c3836b51570365459a3"
+    },
+    {
+      "file": "layouts/en-toxic-pool.json",
+      "sha256": "bf3eebace3ae43a7b40c0169bbf6aef37adaacd6084df961cf340c22790bff3f"
+    },
+    {
+      "file": "layouts/en-wall-warn.json",
+      "sha256": "f604b439c4e6c9000748b8b09ed64d71c04d0c322ebbea4aaccc0753ed0cddab"
+    },
+    {
+      "file": "layouts/proj-meteor-inferno.json",
+      "sha256": "04fd156d70c3adab57cc31dd752d4e4e2a27569a60239c63f35957bcde5e96d5"
+    },
+    {
+      "file": "presets/en-arcane-beams-1.json",
+      "sha256": "1fb6eb3fabacc75483c775ca5581aefcb29db58d672bd534be3c9791cf135fd1"
+    },
+    {
+      "file": "presets/en-burst-fire-shockwave.json",
+      "sha256": "fd2b9400874dad160f2b8ee70c2cc114f868ffc42f422d2f25cc134e37b13c24"
+    },
+    {
+      "file": "presets/en-ground-domain-fire.json",
+      "sha256": "52f11ce4ec9870e7a0fb3eb07f33fbf304b89ba654c15c451c44f6df8be24d4d"
+    },
+    {
+      "file": "presets/en-mark-storm.json",
+      "sha256": "966a6a7679180532025658f0b3f11716c1aafbc546f0663a3b889872a5b177a5"
+    },
+    {
+      "file": "presets/en-missile-blue.json",
+      "sha256": "7a9aadf877efc5bb29f113132cac6108e149e2a8ba5ee2fd2f441e94eccd7948"
+    },
+    {
+      "file": "presets/en-missile-purple.json",
+      "sha256": "c03790bf79d84b1aeeab69338cf454d7a629fddf161b256412172b29cd21a7ee"
+    },
+    {
+      "file": "presets/en-missile-white.json",
+      "sha256": "fa0663ff2231db70e2ba7ee6967b3cade181098845ef81e819f0128813146cb8"
+    },
+    {
+      "file": "presets/en-missile-yellow.json",
+      "sha256": "bb88af9c2c62fb7d31f953f8ee689e12a42a1d714ac2eee7d3cfab7a6e932580"
+    },
+    {
+      "file": "presets/en-spark.json",
+      "sha256": "c1e7264c1ce2d0ebed1e0c061398540080bf5fb23889e6f05011e557261d450b"
+    },
+    {
+      "file": "presets/en-toxic-pool.json",
+      "sha256": "31d0eaaff201156256ce2bf7401c5d2c86faaaa661f9cc1805f85f64c69c8d33"
+    },
+    {
+      "file": "presets/en-wall-warn.json",
+      "sha256": "03f14c2dbb9b0a4497f5c40f20cac16dffd2b2157b0ce934c0022c8220108712"
+    },
+    {
+      "file": "presets/proj-meteor-inferno.json",
+      "sha256": "483444269dd0047ff0332f315c2c240de08f86c22bc4d67429d435608b592198"
+    }
+  ]
+}

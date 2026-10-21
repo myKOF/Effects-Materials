@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "en-mark-storm",
+  "duration": 1.14,
+  "loop": true,
+  "layers": [
+    {
+      "id": "edge",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/circle_02.png",
+      "zIndex": 1,
+      "scale": {
+        "x": 0.3906,
+        "y": 0.3906
+      },
+      "alpha": 0.8,
+      "tint": "#245feb",
+      "blendMode": "add",
+      "duration": 1.14,
+      "alphaOverLife": [
+        [
+          0,
+          0.75
+        ],
+        [
+          0.5,
+          0.95
+        ],
+        [
+          1,
+          0.75
+        ]
+      ],
+      "scaleOverLife": 1,
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "radius": 100
+    },
+    "shape": "circle"
+  }
+}

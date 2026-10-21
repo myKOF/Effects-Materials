@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "en-wall-warn",
+  "duration": 0.8,
+  "loop": true,
+  "layers": [
+    {
+      "id": "fill",
+      "type": "sprite",
+      "assetId": "light-masks-1.0/transparent/window_b.png",
+      "zIndex": 0,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.6722,
+        "y": 0.1287
+      },
+      "alpha": 0.55,
+      "tint": "#ff0000",
+      "blendMode": "add",
+      "duration": 0.8,
+      "alphaOverLife": [
+        [
+          0,
+          0.4
+        ],
+        [
+          0.5,
+          0.7
+        ],
+        [
+          1,
+          0.4
+        ]
+      ],
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "edge",
+      "type": "sprite",
+      "assetId": "shape-alpha/pdalpha_017.png",
+      "zIndex": 1,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 0.1175,
+        "y": 0.0257
+      },
+      "alpha": 0.9,
+      "tint": "#4d4600",
+      "blendMode": "add",
+      "duration": 0.8,
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "height": 43.55,
+      "width": 200
+    },
+    "shape": "rectangle"
+  }
+}
