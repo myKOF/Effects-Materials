@@ -318,5 +318,101 @@
       418,
       512
     ]
+  },
+  {
+    "key": "mistElder",
+    "file": "mist-elder.png",
+    "originalSha256": "205defa8418e45d60f5c2054644069117e62921fa72c28e12f203216098e19f8",
+    "exportSha256": "2d6c2beac9687623e868f06ffa810229174de992b7f17d3a4fac28a8cf38efb6",
+    "crop": {
+      "left": 10,
+      "top": 10,
+      "width": 836,
+      "height": 1006
+    },
+    "size": [
+      425,
+      512
+    ]
+  },
+  {
+    "key": "lavaOutcrop",
+    "file": "lava-outcrop.png",
+    "originalSha256": "8b4fce0c596aa01fd92f5fadd9649f00ef42373f3e5d7d7fe8c0900586c39717",
+    "exportSha256": "bacdca2993d1931cb761e458fec49cd96f5325bf62be63db73a5696b6f393b73",
+    "crop": {
+      "left": 198,
+      "top": 21,
+      "width": 631,
+      "height": 847
+    },
+    "size": [
+      381,
+      512
+    ]
+  },
+  {
+    "key": "stormSpire",
+    "file": "storm-spire.png",
+    "originalSha256": "7e92c5817774739e6c02e5ea1a8dfb69e90eac4d0931a708b86d98651f4b62e1",
+    "exportSha256": "58dbe0284fce778efe574d703ad41be77ff84bb2f18aabe1f52fece29806c1ab",
+    "crop": {
+      "left": 176,
+      "top": 23,
+      "width": 732,
+      "height": 989
+    },
+    "size": [
+      379,
+      512
+    ]
+  },
+  {
+    "key": "rootArch",
+    "file": "root-arch.png",
+    "originalSha256": "d7a8d7964198c9c93a83d537d4ef9cd4734a1d0be6d6645274cc7d028913d4c4",
+    "exportSha256": "f1ea705f382ac90d4af6bb6507802bcb0308451d4710ec3ab08032972aa1cf6c",
+    "crop": {
+      "left": 9,
+      "top": 8,
+      "width": 1006,
+      "height": 666
+    },
+    "size": [
+      512,
+      339
+    ]
+  },
+  {
+    "key": "lavaVent",
+    "file": "lava-vent.png",
+    "originalSha256": "5ee3ab60f0c830693f59383613d9965157f5472ba95fa3101a9134319b6a33fb",
+    "exportSha256": "f3432cf1f256c735b37d2b50a41e615c21eb04c369ee80b4f7b37f13e7c5e9c5",
+    "crop": {
+      "left": 52,
+      "top": 35,
+      "width": 920,
+      "height": 618
+    },
+    "size": [
+      512,
+      344
+    ]
+  },
+  {
+    "key": "windPine",
+    "file": "wind-pine.png",
+    "originalSha256": "a489d2a4c6581c259d3dc5a626288efccd0186dc1dc218df49894929ed60d5e9",
+    "exportSha256": "a25a2c174ee60c7a2bb890d6a873afe9242bf16827909d893e0e92617c47fe28",
+    "crop": {
+      "left": 211,
+      "top": 0,
+      "width": 702,
+      "height": 680
+    },
+    "size": [
+      512,
+      496
+    ]
   }
 ]

@@ -1,0 +1,110 @@
+[
+  {
+    "key": "mistElder",
+    "tool": "built-in image_gen.imagegen",
+    "rawFile": "mistElder.png",
+    "rawSha256": "0f714270d156d59e661424b6bc3df7e939160bfa49c5f57b4947be1bd4f4babd",
+    "rawSize": [
+      1145,
+      1374
+    ],
+    "originalSha256": "205defa8418e45d60f5c2054644069117e62921fa72c28e12f203216098e19f8",
+    "exportSha256": "2d6c2beac9687623e868f06ffa810229174de992b7f17d3a4fac28a8cf38efb6",
+    "gameFile": "images/scene/mist-elder.png",
+    "exportSize": [
+      425,
+      512
+    ],
+    "promptFile": "PROMPTS.md"
+  },
+  {
+    "key": "rootArch",
+    "tool": "built-in image_gen.imagegen",
+    "rawFile": "rootArch.png",
+    "rawSha256": "ec6ef9a48ca28647c8a0e1d2266eba9af23d2e1220aeb87176b23a47824fdcd6",
+    "rawSize": [
+      1536,
+      1024
+    ],
+    "originalSha256": "d7a8d7964198c9c93a83d537d4ef9cd4734a1d0be6d6645274cc7d028913d4c4",
+    "exportSha256": "f1ea705f382ac90d4af6bb6507802bcb0308451d4710ec3ab08032972aa1cf6c",
+    "gameFile": "images/scene/root-arch.png",
+    "exportSize": [
+      512,
+      339
+    ],
+    "promptFile": "PROMPTS.md"
+  },
+  {
+    "key": "lavaOutcrop",
+    "tool": "built-in image_gen.imagegen",
+    "rawFile": "lavaOutcrop.png",
+    "rawSha256": "fb0a0c71c1b579cc4b61dda1da55bf41f2d1352b1d6c74b292815f49845a0c5e",
+    "rawSize": [
+      1354,
+      1162
+    ],
+    "originalSha256": "8b4fce0c596aa01fd92f5fadd9649f00ef42373f3e5d7d7fe8c0900586c39717",
+    "exportSha256": "bacdca2993d1931cb761e458fec49cd96f5325bf62be63db73a5696b6f393b73",
+    "gameFile": "images/scene/lava-outcrop.png",
+    "exportSize": [
+      381,
+      512
+    ],
+    "promptFile": "PROMPTS.md"
+  },
+  {
+    "key": "lavaVent",
+    "tool": "built-in image_gen.imagegen",
+    "rawFile": "lavaVent.png",
+    "rawSha256": "09000353dc2c5ce6f6505aeabee22957c81194c65dfbc8d52761709ad9b67b0c",
+    "rawSize": [
+      1536,
+      1024
+    ],
+    "originalSha256": "5ee3ab60f0c830693f59383613d9965157f5472ba95fa3101a9134319b6a33fb",
+    "exportSha256": "f3432cf1f256c735b37d2b50a41e615c21eb04c369ee80b4f7b37f13e7c5e9c5",
+    "gameFile": "images/scene/lava-vent.png",
+    "exportSize": [
+      512,
+      344
+    ],
+    "promptFile": "PROMPTS.md"
+  },
+  {
+    "key": "stormSpire",
+    "tool": "built-in image_gen.imagegen",
+    "rawFile": "stormSpire.png",
+    "rawSha256": "d087b0df8800e36edd9d8b4da328d206c232527df169eb2d38b528690dec30eb",
+    "rawSize": [
+      1211,
+      1299
+    ],
+    "originalSha256": "7e92c5817774739e6c02e5ea1a8dfb69e90eac4d0931a708b86d98651f4b62e1",
+    "exportSha256": "58dbe0284fce778efe574d703ad41be77ff84bb2f18aabe1f52fece29806c1ab",
+    "gameFile": "images/scene/storm-spire.png",
+    "exportSize": [
+      379,
+      512
+    ],
+    "promptFile": "PROMPTS.md"
+  },
+  {
+    "key": "windPine",
+    "tool": "built-in image_gen.imagegen",
+    "rawFile": "windPine.png",
+    "rawSha256": "24e55b99d3a7a482b380ceedf34ad6345fe86b7a3b2e2666387642a924d3625c",
+    "rawSize": [
+      1536,
+      1024
+    ],
+    "originalSha256": "a489d2a4c6581c259d3dc5a626288efccd0186dc1dc218df49894929ed60d5e9",
+    "exportSha256": "a25a2c174ee60c7a2bb890d6a873afe9242bf16827909d893e0e92617c47fe28",
+    "gameFile": "images/scene/wind-pine.png",
+    "exportSize": [
+      512,
+      496
+    ],
+    "promptFile": "PROMPTS.md"
+  }
+]

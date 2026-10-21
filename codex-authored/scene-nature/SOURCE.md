@@ -68,3 +68,21 @@ BossArena.elementOf使用正式BOSS elem，無已知elem時讀attr；火、冰�
 八張256×256原創底圖移除週期性正弦明暗與磚縫入口，避免旋轉平鋪後仍可見菱形格紋；保留隨機細砂點與零星深色裂痕。大面積明暗改由既有battle-decor不規則世界座標色塊提供。BOSS drawArenaFloor原本僅不規則雲紋／灰屑／裂痕，無格線，因此保留。此為既有確定性程序生成器調整，批次生成及環繞濾波需維持像素可重現，不適合以手工繪圖軟體替代；沒有引入外部素材或重新繪製物件。
 
 素材庫重建時以runpy載入gen_ground_tiles.py，將main.__globals__['OUT_DIR']設為本目錄ground再執行main()；遊戲端直接python tools/gen_ground_tiles.py亦可重建相同八張圖。經node tools/scene-renewal/export-source.cjs --apply匯出及--check核對30份來源。Renderer地板圖片快取使用20261012-no-grid；主頁／場景預覽Renderer版號同步。既有地板投影、鏡頭、動態及戰鬥判定均保留。
+
+
+## BATTLE-BIOMES-20261022
+
+新增迷霧森林／熔岩山／落雷峰。六件大型物件由內建image_gen原創生成，不含外部圖片參照，不使用附件表格像素；附件只提供名稱、元素及上限。選定原始PNG保存在biomes-20261022，標準母稿存originals（等比縮至1024內），sprites為正式裁透明留白／等比縮至512內的RGBA版本。sprite-exports.json記錄兩側SHA256、裁切及尺寸。沒有重繪或去背處理輸出。
+
+- mistElder／mist-elder：青綠古樹、扭曲樹幹、碎葉及垂藤，左上光、35度俯視。
+- rootArch／root-arch：非對稱天然盤根與樹洞、苔蘚、縱向樹皮、細藤。
+- lavaOutcrop／lava-outcrop：黑玄武岩柱、細橘紅熔縫、小型熔核。
+- lavaVent／lava-vent：低矮多孔火山岩噴口、小範圍熔岩內腔。
+- stormSpire／storm-spire：灰藍雷擊岩、枝狀熔雷玻璃、風化繫繩及破旗。
+- windPine／wind-pine：偏向右側的風切松、裸枝、冷青色碎針葉。
+
+六件提示共同要求：original high-end detailed hand-painted fantasy RPG environment sprite, three-quarter top-down orthographic 35 degree view, upper-left light and cool right shadows, whole isolated object with transparent margins, no text／characters／terrain tile／background。完整生成提示與工具來源見biomes-20261022/PROMPTS.md。
+
+新地面的週期雜訊與材質、小蕨葉、玄武岩小物、熔雷枝及地表碎屑為自製Canvas／DecorSculpt；原創來源battle-decor.js與decor-nature.js均保存並由既有export-source.cjs匯出。RPG Mote Studio可存取，但此次素材需完整手繪式有機形及執行期浮雕圖集，沿內建image_gen與既有程序圖集流程，未使用Mote的範例圖。
+
+正式匯出：node tools/scene-renewal/export-source.cjs --make-sprites --only=mistElder,lavaOutcrop,stormSpire,rootArch,lavaVent,windPine；之後--apply／--check。更新局部母稿時--only只重製選定素材，保留其餘既有匯出紀錄。十張地表／地下共20圖集；不新增VFX Preset。
