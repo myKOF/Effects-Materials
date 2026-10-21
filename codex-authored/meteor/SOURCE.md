@@ -9,3 +9,5 @@
 維持既有尺寸契約（custom，14×14米，authored 60×60）、循環與時長；飛行與命中由原遊戲事件控制。此表定 Preset 同時供殞石術及天穹崩裂的火殞石使用；敵方小殞石與地爆天星另有自己的 Preset。
 
 既有 `meteor-cracked.png`、`meteor-stylized.png` 不屬本次新作或修改，本紀錄不變更它們的來源與授權。
+
+2026-10-21 拖尾動態修正：comet-tail-envelope、golden-tail-stream、white-tail-thread 由單張靜態 Sprite 改為持續向後剝離的短命粒子，隨壽命伸展、淡出，並用既有 Core 的平移噪聲表現氣流擾動。保留 14 層群組與所有非尾焰圖層、米制尺寸及飛行命中時序；沒有產出新 PNG 或引入外部素材。製作腳本已同步，遊戲與本庫 Preset 逐位元一致。
