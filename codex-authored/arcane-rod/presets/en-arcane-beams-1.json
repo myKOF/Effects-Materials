@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "en-arcane-beams-1",
+  "duration": 6,
+  "loop": false,
+  "layers": [
+    {
+      "id": "halo",
+      "type": "sprite",
+      "assetId": "light-masks-1.0/default/circle_b.png",
+      "zIndex": 0,
+      "scale": {
+        "x": 0.07,
+        "y": 0.07
+      },
+      "alpha": 0.25,
+      "tint": "#c850ff",
+      "blendMode": "add",
+      "duration": 6,
+      "projection": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "rod-axis",
+      "type": "empty",
+      "rotation": 1.5707963267948966,
+      "duration": 6,
+      "rotationSpeed": 0.8726646259971648,
+      "outerScale": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "barrel-aura",
+      "type": "sprite",
+      "parent": "rod-axis",
+      "assetId": "codex-authored/arcane-rod/cylinder.svg",
+      "zIndex": 1,
+      "scale": {
+        "x": 0.20492788461538458,
+        "y": 0.09765625
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "alpha": 0.24,
+      "tint": "#b866ff",
+      "blendMode": "add",
+      "duration": 6,
+      "loop": true
+    },
+    {
+      "id": "cylinder-body",
+      "type": "sprite",
+      "parent": "rod-axis",
+      "assetId": "codex-authored/arcane-rod/cylinder.svg",
+      "zIndex": 2,
+      "scale": {
+        "x": 0.13221153846153844,
+        "y": 0.09765625
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "alpha": 0.98,
+      "blendMode": "normal",
+      "duration": 6,
+      "loop": true
+    },
+    {
+      "id": "energy-band-0",
+      "type": "sprite",
+      "parent": "rod-axis",
+      "assetId": "particle-pack/png-black-background/circle_02.png",
+      "zIndex": 4,
+      "scale": {
+        "x": 0.038671875,
+        "y": 0.007877604166666665
+      },
+      "alpha": 0.65,
+      "tint": "#ffe0ff",
+      "blendMode": "add",
+      "delay": 0,
+      "duration": 1.4,
+      "loop": true,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          1
+        ],
+        [
+          0.75,
+          0.8
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "offsetYOverLife": [
+        [
+          0,
+          -4
+        ],
+        [
+          1,
+          -96
+        ]
+      ]
+    },
+    {
+      "id": "energy-band-1",
+      "type": "sprite",
+      "parent": "rod-axis",
+      "assetId": "particle-pack/png-black-background/circle_02.png",
+      "zIndex": 4,
+      "scale": {
+        "x": 0.038671875,
+        "y": 0.007877604166666665
+      },
+      "alpha": 0.65,
+      "tint": "#ffe0ff",
+      "blendMode": "add",
+      "delay": 0.7,
+      "duration": 1.4,
+      "loop": true,
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          1
+        ],
+        [
+          0.75,
+          0.8
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "offsetYOverLife": [
+        [
+          0,
+          -4
+        ],
+        [
+          1,
+          -96
+        ]
+      ]
+    },
+    {
+      "id": "tip-glint",
+      "type": "sprite",
+      "parent": "rod-axis",
+      "assetId": "particle-pack/png-black-background/light_03.png",
+      "zIndex": 5,
+      "position": {
+        "x": 0,
+        "y": -100
+      },
+      "scale": {
+        "x": 0.028,
+        "y": 0.028
+      },
+      "alpha": 0.48,
+      "tint": "#efbaff",
+      "blendMode": "add",
+      "duration": 6,
+      "loop": true
+    },
+    {
+      "id": "hub",
+      "type": "sprite",
+      "assetId": "particle-pack/png-black-background/light_03.png",
+      "zIndex": 9,
+      "scale": {
+        "x": 0.047,
+        "y": 0.047
+      },
+      "alpha": 0.75,
+      "tint": "#f8d8ff",
+      "blendMode": "add",
+      "duration": 6
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "radius": 100
+    },
+    "shape": "circle"
+  }
+}
