@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "presetId": "ground-storm-dance",
+  "groups": [
+    {
+      "id": "ground-storm-dance",
+      "name": "ground-storm-dance",
+      "layerIds": [
+        "wall-back-0",
+        "wall-back-1",
+        "wall-back-2",
+        "floor-green-rim-back",
+        "floor-white-core-back",
+        "wall-front-0",
+        "wall-front-1",
+        "wall-front-2",
+        "floor-green-rim-front",
+        "floor-white-core-front",
+        "tapered-cone-0",
+        "tapered-cone-1",
+        "tapered-cone-2",
+        "tapered-cone-3",
+        "tapered-cone-4",
+        "tapered-cone-5",
+        "tapered-cone-6",
+        "tapered-cone-7",
+        "rising-light-2",
+        "rising-light-4",
+        "rising-light-7",
+        "rising-light-8",
+        "rising-light-10",
+        "rising-light-11"
+      ]
+    }
+  ],
+  "order": [
+    "group:ground-storm-dance"
+  ]
+}

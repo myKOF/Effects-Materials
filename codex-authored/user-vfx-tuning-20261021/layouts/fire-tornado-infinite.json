@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "presetId": "fire-tornado-infinite",
+  "groups": [
+    {
+      "id": "fire-tornado-infinite",
+      "name": "fire-tornado-infinite",
+      "layerIds": [
+        "halo",
+        "wave-a",
+        "wave-b",
+        "wave-c",
+        "spray",
+        "ground-flames",
+        "crown-flame-jets",
+        "baked-fire-column",
+        "crown-flame-jets-copy"
+      ]
+    }
+  ],
+  "order": [
+    "group:fire-tornado-infinite"
+  ]
+}
