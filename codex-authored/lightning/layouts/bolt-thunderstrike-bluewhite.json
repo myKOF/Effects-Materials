@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "presetId": "bolt-thunderstrike-bluewhite",
+  "groups": [
+    {
+      "id": "bolt-thunderstrike-bluewhite",
+      "name": "bolt-thunderstrike-bluewhite",
+      "layerIds": [
+        "seg-b",
+        "seg-c",
+        "blue-corona",
+        "white-core",
+        "branch",
+        "branch-copy",
+        "side-fork"
+      ]
+    },
+    {
+      "id": "group",
+      "name": "新群組",
+      "layerIds": [
+        "blue-droplets",
+        "white-droplets",
+        "electric-fork-0",
+        "electric-fork-1",
+        "electric-fork-2",
+        "electric-fork-3",
+        "electric-fork-4",
+        "impact-core"
+      ]
+    }
+  ],
+  "order": [
+    "group:bolt-thunderstrike-bluewhite",
+    "group:group"
+  ]
+}
