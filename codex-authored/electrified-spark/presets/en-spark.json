@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "en-spark",
+  "duration": 0.5,
+  "loop": true,
+  "layers": [
+    {
+      "id": "current",
+      "type": "sprite",
+      "assetId": "codex-authored/electrified-spark/current.svg",
+      "zIndex": 0,
+      "scale": {
+        "x": 0.22,
+        "y": 0.11
+      },
+      "alpha": 1,
+      "blendMode": "add",
+      "duration": 2,
+      "loop": true,
+      "sheet": {
+        "columns": 16,
+        "count": 64,
+        "fps": 32,
+        "loop": true,
+        "mode": "fps",
+        "rows": 4
+      }
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "radius": 22
+    },
+    "shape": "projectile-circle"
+  }
+}
