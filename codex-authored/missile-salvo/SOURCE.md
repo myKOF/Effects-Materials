@@ -1,23 +1,23 @@
-# NPC 飛彈：縮光暈、長尾跡與剎停齊射
+# NPC 飛彈：柔光錐與淡散光點
 
-2026-10-21 / Codex / MISSILE-SALVO-20261021
+2026-10-21 / Codex / MISSILE-SOFT-CONE-20261021
 
-使用者依專案既有飛彈的GIF要求：縮小光暈、拉長尾跡，後退速度至少加倍，剎停1秒後齊射。
+使用者指出上一版固定光棒尾巴太硬，並指定可改為更好看的光錐。
 
-- 既有光暈直徑縮至40%、透明度減半，光芯與彈頭收細；細長尾芯與世界座標粒子讓方向清楚，保持四色。
-- 沿用既有 particle-pack（Kenney CC0）及 new_materials（素材庫PROVENANCE.md記載CC0）的 light_03、flare_16、circle_05、smoke_04；沒有新增或複製第三方圖片。
-- 本次僅調整既有Preset，不繪製／編修獨立圖片，因此不需點陣繪圖工具。素材製作由遊戲tools/vfx/authoring/author/enemy-skills.cjs的missile函式重現。
-- loop由遊戲權威飛行／停駐事件結束；粒子依真實時間播放，抵達後自然淡出。幾何與傷害判定仍由模擬層決定。
-- 候選配置leg1=0.275秒（原0.55秒）、hold=1秒及說明已保存遊戲param-patches，尚待使用者BAT套用；不將隔離預覽當成正式參數已更新。
-- Preset與layout是必要可編輯來源，與遊戲同名版本逐位元一致。無新bitmap、無素材索引／匯出PNG變更。
+- 移除tail-core固定細長光棒，改為兩層錐尖貼彈頭的漸層柔光錐。亮內芯與淡彩外層依生命期淡出，兩側向後展開。
+- 光錐只在起飛／齊射時短暫出現；世界座標霧點／微光粒子留在真實路徑，低漂移、短發射窗，停駐後散完，不再噴成細長直棒。
+- 彈體持續顯示，由既有權威事件結束；原光暈尺寸、四色、判定幾何、飛行／剎停／齊射／傷害時序不變。
+- 沿用素材庫PROVENANCE.md記錄的particle-pack、light-masks-1.0（Kenney CC0）與new_materials（CC0）。新增引用的cone_composed_c.png已在遊戲出貨索引，沒有新素材檔案或第三方下載。
+- 僅調既有Preset，未繪製／編修獨立點陣圖片。遊戲tools/vfx/authoring/author/enemy-skills.cjs的missile函式可重製。
+- 前一版689d9cf保存原小光暈／長尾芯；此版依使用者修正外觀。新時序leg1=0.275、hold=1仍在遊戲param-patches等待使用者BAT，隔離GIF不代表正式配置已套用。
 
 ## SHA256
 
-- presets/en-missile-white.json: eaa75dea52efa842a9e99f2d54f7ae0ab8d464459d4514b69a370e6410eddb04
-- layouts/en-missile-white.json: 0c14748e861b045c7ffa9491fa3c9f2effddc25a81c2c27438acf4a77828b2fa
-- presets/en-missile-blue.json: 09bad1b1656b24c6fde1325604eed3a390749a21ca13a6e74e2b7089b5d4cc9b
-- layouts/en-missile-blue.json: 28e7a5f7bd23cfd1fb25dd9a3b713a2ab6507f6d87883f327cb4d992b203a085
-- presets/en-missile-purple.json: d60e1460996775abe048966c58eadd806cb1c588d2bf482b3a78e11ef35599ce
-- layouts/en-missile-purple.json: ec4dd9408bdfbe336ec08ef98e21d0ed9d38894fab15191942527b985700e06b
-- presets/en-missile-yellow.json: dee3f9b6f3bc6230cab207b7c86b12596a353c7951507238c86a71071c156036
-- layouts/en-missile-yellow.json: da3077c3c9b5ce59d210aea249e27c6e5de7d690ed422e33d260806fdd4878a0
+- presets/en-missile-white.json: 424ef266443c4873de72e578c1a9608591beb393620b02d8aadcaab72ab83a40
+- layouts/en-missile-white.json: f50e4863bc9d8d1df0e026cab416c107ed2ab8f81313316f9a934d364545973d
+- presets/en-missile-blue.json: 705630e0135e2d92dfeac93d6728a9337094720cb969e14250080ac353dd589f
+- layouts/en-missile-blue.json: ea3282e605589c6ce9a845085b53cec723bd10cfa1006782fac89a4eb3087e55
+- presets/en-missile-purple.json: 10ffe3e552aefc86671af80159be2694d3ca9b68b1cce4cbf35dc27e1dd446bd
+- layouts/en-missile-purple.json: f5b72381ca91a3028c18ca0da44955100d47b65e6d2aa163152b854bf640c90a
+- presets/en-missile-yellow.json: 9462154859a09db8f79c07c558406ed35eb6ee9d54a70ec7fc933fb7bcc696bf
+- layouts/en-missile-yellow.json: 92b38d8c1b806a7766cf77fd87fd72557a78fabc83c8d0f9705a6a2db5542ee0
