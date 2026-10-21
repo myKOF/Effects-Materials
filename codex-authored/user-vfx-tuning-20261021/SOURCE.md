@@ -21,3 +21,5 @@
 同輪提交亦包含使用者最新hit-waterball-splash Preset／layout；不再引用的遊戲匯出貼圖由正式匯出流程移除，素材庫原始檔保留。
 
 同輪最後暫存時新增的使用者proj-starfall Preset／layout亦保存快照，與遊戲index版本逐位元相同。
+
+2026-10-21 隕石坑49%確認時一併保存使用者已儲存的proj-meteor-inferno與en-burst-fire-shockwave-small Preset／layout，直接複製編輯器值、不重製外觀。

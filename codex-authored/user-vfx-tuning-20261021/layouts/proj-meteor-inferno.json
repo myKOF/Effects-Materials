@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "presetId": "proj-meteor-inferno",
+  "groups": [
+    {
+      "id": "proj-meteor-inferno",
+      "name": "proj-meteor-inferno",
+      "layerIds": [
+        "smoke-wake",
+        "comet-tail-envelope",
+        "rolling-flame-tail",
+        "rolling-flame-tail-copy",
+        "rolling-flame-tail-copy-2",
+        "white-tail-thread",
+        "trailing-embers",
+        "meteor-flame-halo",
+        "cracked-meteor-core",
+        "meteor-halo-gold-rim",
+        "white-hot-leading-face",
+        "leading-hot-core",
+        "lava-flow-1",
+        "lava-flow-2"
+      ]
+    }
+  ],
+  "order": [
+    "group:proj-meteor-inferno"
+  ]
+}
