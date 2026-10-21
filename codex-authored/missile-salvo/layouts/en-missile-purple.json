@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "presetId": "en-missile-purple",
+  "groups": [
+    {
+      "id": "en-missile-purple",
+      "name": "en-missile-purple",
+      "layerIds": [
+        "glow",
+        "body",
+        "core",
+        "tail-core",
+        "trail"
+      ]
+    }
+  ],
+  "order": [
+    "group:en-missile-purple"
+  ]
+}
