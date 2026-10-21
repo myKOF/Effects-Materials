@@ -13,3 +13,5 @@
 - proj-icearrow-frost.json
 - proj-waterball-flow.json
 - slash-dual.json
+
+2026-10-21追加：依同一提交授權保存使用者最新burst-frost-freeze與ground-domain-fire兩份Preset及layout，原數值與外觀不重製；祕法棒的使用者編輯與略尖／電流版本另存arcane-rod。
