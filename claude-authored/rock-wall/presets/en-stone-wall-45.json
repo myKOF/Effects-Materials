@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "en-stone-wall-45",
+  "duration": 1.2,
+  "loop": true,
+  "layers": [
+    {
+      "id": "slab",
+      "type": "sprite",
+      "assetId": "claude-authored/rock-wall/wall-slab-045.svg",
+      "zIndex": 2,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.7
+      },
+      "alpha": 1,
+      "tint": "#b5b5b5",
+      "duration": 1.2,
+      "followDirection": false
+    },
+    {
+      "id": "dust",
+      "type": "particle",
+      "assetId": "particle-pack/png-black-background/dirt_01.png",
+      "zIndex": 20,
+      "alpha": 0.5,
+      "tint": "#c4b4e4",
+      "blendMode": "add",
+      "emission": {
+        "mode": "rate",
+        "rate": 8
+      },
+      "lifetime": [
+        0.5,
+        0.9
+      ],
+      "spawn": {
+        "height": 6,
+        "shape": "box",
+        "width": 190
+      },
+      "speed": [
+        6,
+        16
+      ],
+      "direction": -90,
+      "spread": 50,
+      "startScale": [
+        0.0273,
+        0.043
+      ],
+      "alphaOverLife": [
+        [
+          0,
+          0
+        ],
+        [
+          0.3,
+          0.7
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    }
+  ],
+  "sizing": {
+    "authored": {
+      "height": 43.55,
+      "width": 200
+    },
+    "shape": "rectangle"
+  }
+}

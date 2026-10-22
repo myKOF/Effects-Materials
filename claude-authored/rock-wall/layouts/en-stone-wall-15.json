@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "presetId": "en-stone-wall-15",
+  "groups": [
+    {
+      "id": "en-stone-wall-15",
+      "name": "en-stone-wall-15",
+      "layerIds": [
+        "slab",
+        "dust"
+      ]
+    }
+  ],
+  "order": [
+    "group:en-stone-wall-15"
+  ]
+}
