@@ -414,5 +414,149 @@
       512,
       496
     ]
+  },
+  {
+    "key": "magmaPoolA",
+    "file": "magma-pool-a.png",
+    "originalSha256": "aae145c9dcaa34c4831bd5a46902789ee262bd9287b58bde7c48bfaaf1cf3ce4",
+    "exportSha256": "4ef44bfc3e587230e7dee9629659216f3fd3cc55ebf586ad753eb41b310485de",
+    "crop": {
+      "left": 18,
+      "top": 110,
+      "width": 696,
+      "height": 507
+    },
+    "size": [
+      512,
+      373
+    ]
+  },
+  {
+    "key": "burningLogA",
+    "file": "burning-log-a.png",
+    "originalSha256": "cdea4182fdf47db0693565243473930428ef620103fb5ed5295b0512c4c8a41f",
+    "exportSha256": "6acb3be2cabd4d4000247c9aa69a3fbed50ed83f534bc8d8404251158f7b188a",
+    "crop": {
+      "left": 17,
+      "top": 63,
+      "width": 676,
+      "height": 577
+    },
+    "size": [
+      512,
+      437
+    ]
+  },
+  {
+    "key": "slagBoulderA",
+    "file": "slag-boulder-a.png",
+    "originalSha256": "ee019f30c9ac6ee779b68e20fa979ec0e6030eb3e8437f6e6bffa377d2787767",
+    "exportSha256": "cafbc30343497befe388e166a8c0f7920c85356c6536b6d293739d1c27695d58",
+    "crop": {
+      "left": 33,
+      "top": 114,
+      "width": 696,
+      "height": 492
+    },
+    "size": [
+      512,
+      362
+    ]
+  },
+  {
+    "key": "magmaPoolB",
+    "file": "magma-pool-b.png",
+    "originalSha256": "53636685cf8e99008447cb58210bd0c3bd70b13409d0bde614ded48d717157a7",
+    "exportSha256": "22c790ed842be6109a61d71ea9baf0c51e766e798c6e80accada62b2ed85ed17",
+    "crop": {
+      "left": 24,
+      "top": 59,
+      "width": 681,
+      "height": 592
+    },
+    "size": [
+      512,
+      445
+    ]
+  },
+  {
+    "key": "burningLogB",
+    "file": "burning-log-b.png",
+    "originalSha256": "243160d5c2a4290847f1c7f2b7979e0481ec9fe9e593e1556383f020aab9d048",
+    "exportSha256": "0e937a410da8d71c0fdc3cf9f2f3524394df779878220b6fd42aa233a69feba1",
+    "crop": {
+      "left": 28,
+      "top": 65,
+      "width": 663,
+      "height": 582
+    },
+    "size": [
+      512,
+      449
+    ]
+  },
+  {
+    "key": "slagBoulderB",
+    "file": "slag-boulder-b.png",
+    "originalSha256": "47f8714e77d83b91bc04c7fd5095d7d30bc9c11012bcca59783fc14ea1623a11",
+    "exportSha256": "f17a845a87b289a861e81921907908c2d4e73f6cadae8fb9d000e689f93dc603",
+    "crop": {
+      "left": 23,
+      "top": 106,
+      "width": 667,
+      "height": 498
+    },
+    "size": [
+      512,
+      382
+    ]
+  },
+  {
+    "key": "magmaPoolC",
+    "file": "magma-pool-c.png",
+    "originalSha256": "4bab59af77d5641fde7e624c44e887178285d44200693c9ccaff08e892b63019",
+    "exportSha256": "13e88fa0fe0c65d396f9ea826101fdd68d9001d5ca12fca9ab02b8dd7ef1d4e4",
+    "crop": {
+      "left": 21,
+      "top": 109,
+      "width": 682,
+      "height": 536
+    },
+    "size": [
+      512,
+      402
+    ]
+  },
+  {
+    "key": "burningLogC",
+    "file": "burning-log-c.png",
+    "originalSha256": "aea61a4eac12e8dce8c9c9e21de94d340224b8ce0d4aa976edc3012b4bc9222f",
+    "exportSha256": "dd1750c066b4d746ef2885b38bcfae1d92486f498db6523be4b1fa8763669220",
+    "crop": {
+      "left": 26,
+      "top": 63,
+      "width": 681,
+      "height": 584
+    },
+    "size": [
+      512,
+      439
+    ]
+  },
+  {
+    "key": "slagBoulderC",
+    "file": "slag-boulder-c.png",
+    "originalSha256": "ce1e172fbade52ee46c750a04b5e9d8a4e93cd9fbe3dd29cbfd57de49e6e4981",
+    "exportSha256": "7e78a320ec7bfcc96343c825af8cbdb0033810ef9856735d25d20f6d8a59efb3",
+    "crop": {
+      "left": 19,
+      "top": 110,
+      "width": 655,
+      "height": 492
+    },
+    "size": [
+      512,
+      385
+    ]
   }
 ]

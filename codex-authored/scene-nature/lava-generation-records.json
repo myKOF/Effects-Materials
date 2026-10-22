@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-22",
+  "tool": "built-in image_gen",
+  "license": "Original AI-generated artwork created for Idle-RPG. No third-party assets or image inputs.",
+  "prompts": [
+    {
+      "type": "magmaPool",
+      "prompt": "Use case: stylized-concept. Asset type: an original 2D dark fantasy RPG environment sprite sheet with THREE independently designed small volcanic lava puddles, for a hand-painted top-down battle game. Transparent background with true alpha. Wide canvas, three evenly spaced isolated sprites in a single horizontal row, each inside its own equal third, generous transparent gaps. NO ground tile, no floor rectangle, no text, no grid, no labels. Each puddle occupies a wide flattened footprint, viewed from a fixed 45-degree overhead game camera, warm light from upper left. Molten orange-red lava with yellow hot cracks and floating dark charcoal cooling crusts, gritty crumbling porous basalt rim blending into a few loose ash chips. NOT a tall volcanic crater and NOT perfectly round. Left: a kidney-shaped shallow molten basin with broken crust islands. Middle: a crooked narrow split fissure widening into a pool on one end. Right: two asymmetrical connected lobes separated by a fallen charred rock slab. Natural distinct silhouettes, detailed yet readable at 120 pixels wide, painted textured material, rounded organic edges, rich physical volume. No static flames, smoke or flying sparks; those will be animated separately. Each pool fully contained, no overlap. Original artwork, not sourced or copied from any game.",
+      "generatedFile": "exec-bfd168d5-0128-4492-a31f-0f2411292a87.png",
+      "generatedSha256": "0c39b5334651463fdf1484213476b6f4e298c365e356c07c56324787d611d680",
+      "generatedSize": [
+        2172,
+        724
+      ],
+      "variants": [
+        {
+          "key": "magmaPoolA",
+          "cropFromSheet": [
+            0,
+            0,
+            724,
+            724
+          ],
+          "originalSha256": "aae145c9dcaa34c4831bd5a46902789ee262bd9287b58bde7c48bfaaf1cf3ce4"
+        },
+        {
+          "key": "magmaPoolB",
+          "cropFromSheet": [
+            724,
+            0,
+            1448,
+            724
+          ],
+          "originalSha256": "53636685cf8e99008447cb58210bd0c3bd70b13409d0bde614ded48d717157a7"
+        },
+        {
+          "key": "magmaPoolC",
+          "cropFromSheet": [
+            1448,
+            0,
+            2172,
+            724
+          ],
+          "originalSha256": "4bab59af77d5641fde7e624c44e887178285d44200693c9ccaff08e892b63019"
+        }
+      ]
+    },
+    {
+      "type": "burningLog",
+      "prompt": "Use case: stylized-concept. Asset type: an original 2D dark fantasy RPG environment sprite sheet with THREE independently designed charred fallen deadwood piles for a volcanic wasteland, hand-painted top-down battle game. Transparent background with true alpha. Wide canvas with exactly three isolated wood objects in one horizontal row, one within each equal third, generous transparent margins, no overlap. Fixed 45-degree overhead game camera, warm upper-left light, gritty detailed semi-realistic painted style, readable at 125 pixels wide. Blackened cracked bark, splintered rough wood, orange ember-red glow deep inside fissures, ash and a few loose charcoal fragments at the base; no green leaves. First: a thick broken fallen log with a short fork sticking out. Second: a shattered hollow stump lying on its side with jagged split opening facing front-left. Third: two irregular crossed branches with a chunky fire-blackened wood root mass. Each has a very different silhouette, asymmetric rough broken ends. No straight smooth cylinders or geometric stick figures. NO rendered flame, smoke or sparks; fire will be animated separately. No scenery, ground rectangle, labels, text or grid. Entire objects contained and naturally shaded. Original artwork, not sourced or copied from any game.",
+      "generatedFile": "exec-6925edd3-f4b9-4408-a2ad-ce10497cb958.png",
+      "generatedSha256": "45da2c24ce73960e8e388714122864bb9af6566a70ecd16d8d37c134edf38421",
+      "generatedSize": [
+        2172,
+        724
+      ],
+      "variants": [
+        {
+          "key": "burningLogA",
+          "cropFromSheet": [
+            0,
+            0,
+            724,
+            724
+          ],
+          "originalSha256": "cdea4182fdf47db0693565243473930428ef620103fb5ed5295b0512c4c8a41f"
+        },
+        {
+          "key": "burningLogB",
+          "cropFromSheet": [
+            724,
+            0,
+            1448,
+            724
+          ],
+          "originalSha256": "243160d5c2a4290847f1c7f2b7979e0481ec9fe9e593e1556383f020aab9d048"
+        },
+        {
+          "key": "burningLogC",
+          "cropFromSheet": [
+            1448,
+            0,
+            2172,
+            724
+          ],
+          "originalSha256": "aea61a4eac12e8dce8c9c9e21de94d340224b8ce0d4aa976edc3012b4bc9222f"
+        }
+      ]
+    },
+    {
+      "type": "slagBoulder",
+      "prompt": "Use case: stylized-concept. Asset type: an original 2D dark fantasy RPG environment sprite sheet of THREE independently designed fractured volcanic basalt boulders with molten fissures, for a hand-painted top-down battle game. True transparent alpha background. Wide canvas, three isolated sprites arranged in one horizontal row, one in each equal third with generous transparent margins and no overlap. Fixed 45-degree overhead camera, upper-left warm light, realistic gritty painted rock texture matching detailed volcanic environment props. Charcoal-black porous angular rock with rusty dark brown ash, tiny orange-red molten fissures and a few intensely hot yellow cores. Lava is buried inside cracks, not a wide flat vertical orange stripe. First: low irregular heap of sharp lava bombs with a broken hollow cavity. Second: squat split boulder slumping into a jagged crescent. Third: asymmetrical slanted broken basalt shelf supported by smaller rubble, with a glowing seam underneath. All three different silhouette and internal structure, wider than tall, no perfect geometric polygon faces, no crystals or straight aligned spikes. Natural fractured rock crumbles at ground contact, individually small ash pebbles scattered sparsely. No ground tile, no floor rectangle, no static flame or smoke, no grid or text. Readable at 110 pixels wide. Original art, not copied from any game.",
+      "generatedFile": "exec-0e70524f-85b0-4d3a-b90a-75a2886db1d4.png",
+      "generatedSha256": "11c5cb520b66c6d40147c82ce672f23ae6d54a1b5ecf88e7907caa72d3a1535c",
+      "generatedSize": [
+        2172,
+        724
+      ],
+      "variants": [
+        {
+          "key": "slagBoulderA",
+          "cropFromSheet": [
+            0,
+            0,
+            740,
+            724
+          ],
+          "originalSha256": "ee019f30c9ac6ee779b68e20fa979ec0e6030eb3e8437f6e6bffa377d2787767"
+        },
+        {
+          "key": "slagBoulderB",
+          "cropFromSheet": [
+            740,
+            0,
+            1448,
+            724
+          ],
+          "originalSha256": "47f8714e77d83b91bc04c7fd5095d7d30bc9c11012bcca59783fc14ea1623a11"
+        },
+        {
+          "key": "slagBoulderC",
+          "cropFromSheet": [
+            1448,
+            0,
+            2172,
+            724
+          ],
+          "originalSha256": "ce1e172fbade52ee46c750a04b5e9d8a4e93cd9fbe3dd29cbfd57de49e6e4981"
+        }
+      ]
+    }
+  ]
+}
