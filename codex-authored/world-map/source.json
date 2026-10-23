@@ -20,5 +20,70 @@
     "size": 128,
     "alpha": true,
     "style": "cartoon-painted-dark-green-light-green-narrow-arrow"
+  },
+  "labelCovers": {
+    "original": "salvien-labels-cleared-original.png",
+    "originalSha256": "5c52033992a9c14ae8120ff186e9afb7f0b19fca75b9ef7c4fecce39324a8ac4",
+    "width": 1672,
+    "height": 941,
+    "usage": "僅於場景名稱hover／focus／選取時遮除原圖文字，核准地圖本身保持不變",
+    "files": [
+      {
+        "file": "label-cover-desert.png",
+        "sha256": "b8323d9f60bac79fda9109b5ac3edbed2e082c9394fe5360ab3770a5e513742b",
+        "left": 911,
+        "top": 638,
+        "width": 68,
+        "height": 42
+      },
+      {
+        "file": "label-cover-icefield.png",
+        "sha256": "70e374880dd5a63e745b6a8c6f15a35c4273eb57a0ca055f747f769f3801f2a0",
+        "left": 921,
+        "top": 125,
+        "width": 68,
+        "height": 42
+      },
+      {
+        "file": "label-cover-mist_forest.png",
+        "sha256": "7fad3c8fe03f27bfcb284ee6f0dbe6dc7b193e5b0a1cd9c7d720785d03a8bfce",
+        "left": 1295,
+        "top": 304,
+        "width": 112,
+        "height": 42
+      },
+      {
+        "file": "label-cover-lava_mountain.png",
+        "sha256": "db0fff493b6ef69098985e58a2fcaf9c7373534a1b1f2f3b69d536de8f06be69",
+        "left": 604,
+        "top": 493,
+        "width": 90,
+        "height": 42
+      },
+      {
+        "file": "label-cover-swamp.png",
+        "sha256": "43e7fe7e5f07eaf3bed4e05261fca04d026d09fc7503269c63cbb019a3528fad",
+        "left": 1293,
+        "top": 606,
+        "width": 112,
+        "height": 42
+      },
+      {
+        "file": "label-cover-thunder_peak.png",
+        "sha256": "e379c9167c161f09e3c6f447938b0d239e3803e59568ec1a5fbbb672ca240d43",
+        "left": 1020,
+        "top": 522,
+        "width": 90,
+        "height": 42
+      },
+      {
+        "file": "label-cover-undead_mountains.png",
+        "sha256": "0eca22cd3a874da0f31146982772099c05bd50e5ed406b2895466e25bfd1a560",
+        "left": 884,
+        "top": 306,
+        "width": 112,
+        "height": 42
+      }
+    ]
   }
 }
