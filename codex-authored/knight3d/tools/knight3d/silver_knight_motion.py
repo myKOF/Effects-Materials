@@ -186,11 +186,27 @@ def pose(rig,rest,clip,t):
     neck=chestbase+chestR@V((0,0,.60))
     absolute('head',neck,rotate((headpitch,chest[1]*.3,headyaw)))
 
+    # With the shield removed, the off hand is a forward-facing chest guard.
+    # Keep its target in the moving torso frame rather than leaving a world-space
+    # wrist behind the body during a turn. The elbow bends down, not out like a wing.
+    if clip in ['idle','attack1','attack2']:
+        local=V((.34,-.32,.38))
+        if clip=='attack1':
+            local=curve(t,[(0,(.34,-.32,.38)),(.25,(.29,-.39,.43)),
+                (.57,(.30,-.27,.35)),(.76,(.31,-.26,.36)),(1,(.34,-.32,.38))])
+        elif clip=='attack2':
+            local=curve(t,[(0,(.34,-.32,.38)),(.27,(.32,-.36,.46)),
+                (.60,(.37,-.27,.34)),(.78,(.34,-.25,.36)),(1,(.34,-.32,.38))])
+        left=chestbase+chestR@local
+        free=rotate((0,0,chest[2]))@V((0,-1,.10))
+
     for side,sign,wrist,handdir in [('R',-1,right,sword),('L',1,left,free)]:
         shoulder=chestbase+chestR@V((sign*.38,0,.59))
         l1=(V(rest['upper_arm.'+side][1])-V(rest['upper_arm.'+side][0])).length
         l2=(V(rest['forearm.'+side][1])-V(rest['forearm.'+side][0])).length
         pole=shoulder+chestR@V((sign*.42,.30,-.26))
+        if side=='L' and clip in ['idle','attack1','attack2']:
+            pole=shoulder+chestR@V((.18,.04,-.57))
         if clip=='die':
             blend=max(0,min(1,(t-.30)/.40))
             blend=blend*blend*(3-2*blend)
@@ -198,6 +214,12 @@ def pose(rig,rest,clip,t):
         elbow,wrist=two_bone(shoulder,wrist,l1,l2,pole)
         segment('upper_arm.'+side,shoulder,elbow)
         segment('forearm.'+side,elbow,wrist)
+        if side=='L' and clip in ['idle','attack1','attack2']:
+            forward=rotate((0,0,chest[2]))@V((0,-1,0))
+            handdir=(forward*.75+(wrist-elbow).normalized()*.25).normalized()
+            handdir.z=max(.04,min(.32,handdir.z))
+        elif side=='L' and clip=='walk':
+            handdir=(wrist-elbow).normalized()
         handroll=0
         if clip=='die' and side=='R':
             d=handdir.normalized()

@@ -1,6 +1,7 @@
 {
   "revision": 2,
-  "previewPrefix": "knight_revision2",
+  "previewPrefix": "knight_revision2_handfix",
+  "offHand": "forward-facing chest guard",
   "shield": false,
   "proportions": "adult slender, approximately 7.5 heads",
   "status": "preview candidate; no game integration",
@@ -11,7 +12,7 @@
   "bones": 16,
   "meshParts": 1,
   "vertices": 4901,
-  "faces": 4851,
+  "faces": 4853,
   "triangles": 9398,
   "materials": [
     "Knight | single palette material"

@@ -71,7 +71,15 @@ for name,clip in manifest['clips'].items():
             'chestQ':rig.pose.bones['chest'].matrix.to_quaternion(),
             'footR':rig.pose.bones['foot.R'].matrix.translation.copy(),
             'footL':rig.pose.bones['foot.L'].matrix.translation.copy(),
+            'leftFist':(rig.pose.bones['hand.L'].tail-rig.pose.bones['hand.L'].head).normalized(),
+            'leftForearm':(rig.pose.bones['forearm.L'].tail-rig.pose.bones['forearm.L'].head).normalized(),
+            'leftForward':Vector((math.sin(rig.pose.bones['chest'].matrix.to_euler().z),
+                                 -math.cos(rig.pose.bones['chest'].matrix.to_euler().z),0)),
         })
+        if manifest.get('offHand') and name in ['idle','attack1','attack2']:
+            fist=motion[-1]['leftFist']
+            assert fist.z>=0, (name,frame,'Off-hand fist points down',tuple(fist))
+            assert fist.dot(motion[-1]['leftForearm'])>.70, (name,frame,'Bent off-hand wrist')
         if not a.validate_only and frame in clip['renderedFrames']:
             scene.render.filepath=str(folder/('%03d.png'%frame))
             bpy.ops.render.render(write_still=True)
@@ -83,13 +91,20 @@ for name,clip in manifest['clips'].items():
         'chestRotationRadians':max(f['chestQ'].rotation_difference(first['chestQ']).angle for f in motion),
         'footTravelMeters':max(max((f[k]-first[k]).length for f in motion) for k in ['footR','footL']),
     }
+    off_hand={
+        'minimumForwardDot':min(f['leftFist'].dot(f['leftForward']) for f in motion),
+        'minimumForearmDot':min(f['leftFist'].dot(f['leftForearm']) for f in motion),
+        'minimumFistZ':min(f['leftFist'].z for f in motion),
+    }
+    if manifest.get('offHand') and name in ['idle','attack1','attack2']:
+        assert off_hand['minimumForwardDot']>.8, (name,'Off-hand fist faces away',off_hand)
     if manifest.get('revision',1)>=2 and name in ['attack1','attack2']:
         assert whole_body['pelvisTravelMeters']>.15, (name,'No weight transfer',whole_body)
         assert whole_body['pelvisRotationRadians']>.4, (name,'No hip turn',whole_body)
         assert whole_body['chestRotationRadians']>.75, (name,'No torso turn',whole_body)
         assert whole_body['footTravelMeters']>.25, (name,'No full-body step',whole_body)
     metrics['clips'][name]={'frames':clip['frames'],'minimumZ':min(x['z'] for x in minima.values()),
-                            'perFrameFloor':minima,'wholeBody':whole_body}
+                            'perFrameFloor':minima,'wholeBody':whole_body,'offHand':off_hand}
 if not a.validate_only:
     rig.animation_data.action=actions['idle']
     scene.frame_set(1)

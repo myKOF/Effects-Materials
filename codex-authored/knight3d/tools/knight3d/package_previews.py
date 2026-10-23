@@ -82,6 +82,22 @@ for f in range(75):
         d.text((x+20,y+5),labels[name],font=small,fill=(190,207,222))
     tiny.append(board)
 gif_save(tiny,root/(prefix+'_game_size.gif'),[40]*len(tiny))
+if m.get('offHand'):
+    focus=[]
+    for f in range(60):
+        t=f*.04
+        im=Image.new('RGB',(800,462),(15,22,30))
+        d=ImageDraw.Draw(im)
+        d.text((18,10),'左手修正 · 拳面朝前／左肘收放／前臂與手腕銜接',font=font,fill=(225,233,240))
+        for col,name in enumerate(['attack1','attack2']):
+            local=min(t%.8,.499999)
+            index=min(range(len(m['clips'][name]['renderedFrames'])),
+                key=lambda j:abs((m['clips'][name]['renderedFrames'][j]-1)/30-local))
+            crop=cache[name][index].crop((85,45,405,365)).resize((400,400),Image.Resampling.LANCZOS)
+            im.paste(crop,(col*400,62))
+            d.text((col*400+18,39),labels[name],font=small,fill=(180,200,217))
+        focus.append(im)
+    gif_save(focus,root/(prefix+'_offhand_focus.gif'),[40]*len(focus))
 turns=[Image.open(f).convert('RGB') for f in sorted((root/'turntable').glob('*.png'))]
 if turns:
     gif_save(turns,root/(prefix+'_turntable.gif'),[90]*len(turns))
