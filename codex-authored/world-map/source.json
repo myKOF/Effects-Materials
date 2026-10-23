@@ -1,0 +1,24 @@
+{
+  "kind": "salvien-world-map",
+  "version": 1,
+  "date": "2026-10-23",
+  "file": "salvien.png",
+  "sha256": "31adf204890d80235bc9e4d2d1f58b6b306cab9c5a4f7eb46a3a1c29624ae466",
+  "width": 1672,
+  "height": 941,
+  "world": {
+    "name": "薩爾維恩",
+    "englishName": "Salvien",
+    "meaning": "神聖與黑暗力量的交界"
+  },
+  "usage": "使用者核准並明確指定用於本遊戲世界地圖",
+  "cursor": {
+    "file": "location-cursor.png",
+    "sha256": "c56fba7f37528d7fb3ddf3b77c4ab7016ff601d388838ff7dc8b56162b59599d",
+    "original": "location-cursor-original.png",
+    "originalSha256": "5a1bfd2f21734b20514b2ec3c6db5cf235c92124ba92043ff648757370c2982f",
+    "size": 128,
+    "alpha": true,
+    "style": "cartoon-painted-dark-green-light-green-narrow-arrow"
+  }
+}
