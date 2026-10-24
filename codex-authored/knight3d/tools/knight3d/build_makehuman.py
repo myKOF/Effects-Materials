@@ -29,6 +29,8 @@ p.add_argument('--inspect', action='store_true')
 a = p.parse_args(sys.argv[sys.argv.index('--') + 1:])
 OUT = Path(a.output).resolve()
 PREVIEW = Path(a.preview).resolve()
+if any((OUT/name).exists() for name in ['knight_batch1.blend','knight_lookdev.blend']):
+    raise ValueError('Use a separate MakeHuman candidate folder; earlier animation/static packages are frozen.')
 OUT.mkdir(parents=True, exist_ok=True)
 PREVIEW.mkdir(parents=True, exist_ok=True)
 extension_repo = bpy.context.preferences.extensions.repos.new(
