@@ -1,6 +1,21 @@
-# 白銀騎士：MakeHuman＋Blender 靜態候選 R7
+# 白銀騎士：MakeHuman＋Blender 六動作候選 R8
 
-最新任務 `KNIGHT-MAKEHUMAN-STATIC-R7-20261024`。本輪依使用者回饋重做肩臂／腰甲與比例，修正雙腳內扣，原圖與新版統一SE方向，仍只做靜態。R4／R5／R6成品與六動作來源保持不變。
+最新任務 `KNIGHT-MAKEHUMAN-MOTION-R8-20261024`。使用者允許在R7造型基礎上繼續，六動作在獨立 **`makehuman-r8/`**，分支`codex/knight-makehuman-motion`。R7與先前候選保持不變；尚未替換正式遊戲主角。
+
+R8沿原版15影格節奏製作待機／跑動／橫掃／轉身落斬／施法／死亡，保存可編輯Blend與六動畫skinned GLB。保留MakeHuman53骨，加劍與兩片腰掛甲控制共56骨，單網格／材質、兩張40×4色盤，四骨權重上限；數量與大小以R8 manifest／驗收報告為準。頭盔、銀甲、無盾／刀光沿R7，全身以髖胸轉動、重心移動、踏步／蹲身帶動手臂，左手保持前向護姿。
+
+```powershell
+& '<Blender>' --background --factory-startup --python-exit-code 1 --python tools/knight3d/animate_makehuman.py -- --source assets/characters/knight3d/makehuman-r7 --output assets/characters/knight3d/makehuman-r8 --preview '<聊天預覽絕對路徑>' --render all
+python tools/knight3d/package_makehuman_motion.py --asset assets/characters/knight3d/makehuman-r8 --preview '<聊天預覽絕對路徑>'
+node tools/knight3d/sync-library.cjs --apply
+node tools/knight3d/sync-library.cjs --check
+```
+
+聊天`knight3d-makehuman-r8/knight_makehuman_r8_six_game_compare.gif`為六組同向SE、固定比例與腳點的原圖／新版動態對照，尺寸按目前一般鏡頭與600px戰鬥面板估計；不是正式遊戲截圖。六份`<動作>_compare.gif`提供放大動態，`knight_makehuman_r8_keyposes.png`可檢視起手、接觸與收招。原圖盾牌／刀光只留在對照，不加入模型。動作為審查候選，正式動速／命中事件及目標裝置GPU效能待整合時驗收。
+
+## 先前MakeHuman靜態候選 R7（保留供回溯）
+
+任務 `KNIGHT-MAKEHUMAN-STATIC-R7-20261024`。本輪依使用者回饋重做肩臂／腰甲與比例，修正雙腳內扣，原圖與新版統一SE方向，仍只做靜態。R4／R5／R6成品與六動作來源保持不變。
 
 新候選在 **`makehuman-r7/`**，包含可編輯Blend、靜態GLB、原生MHM／MPFB人體JSON、manifest與SOURCE／CC0授權。人體更瘦長，肩甲改薄斜覆片，護臂收長／減少環圈，腰甲改平直雙掛片與腰帶；銀盔保留並露出真人臉部。站姿改前後交錯，後腳外轉60°、前腳8°，髖膝／鞋尖朝向一致。模型使用53骨、零Action，靜態GLB單網格／primitive／材質、兩張40×4色盤；數量與大小以R7 manifest／檔案為準。
 
