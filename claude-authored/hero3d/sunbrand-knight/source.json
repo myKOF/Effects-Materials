@@ -16,7 +16,7 @@
     {
       "source": "images/models/hero3d/SOURCE.md",
       "file": "SOURCE.md",
-      "sha256": "fbb86c210791327f5cffab65cf50aba3ab035b4921d52cc77fdf34d31a4e735e"
+      "sha256": "ec89ffd9da89b65e4d859652538612e93bc0de6c929901321ddeb14596a8b17c"
     },
     {
       "source": "tools/meshy-pipeline/specs/sunbrand-knight.spec.json",
@@ -27,6 +27,13 @@
       "source": "tools/meshy-pipeline/specs/sunbrand-knight.process.json",
       "file": "sunbrand-knight.process.json",
       "sha256": "f96d60e45636c7a957fa550f03926cd9058942528583c9090621de152a33327e"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-28",
+      "commit": "bf37b93bd2ca4cf404b789d126e2d49ee11c436e",
+      "note": "Preserve Claude animation timing provenance; GLB and pipeline specs unchanged."
     }
   ]
 }
