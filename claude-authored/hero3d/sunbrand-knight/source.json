@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-27",
+  "commit": "530cf77c",
+  "purpose": "Preserve existing internal-test model and editable GLB/specs; MakeHuman prototype remains held",
+  "licenseSources": [
+    "https://www.meshy.ai/terms-of-use",
+    "https://docs.meshy.ai/en/webapp/pricing"
+  ],
+  "licenseNote": "Original SOURCE records the user Pro plan. Official terms section 3.2 assign Customer Output to paid users. Preserve original pre-release user confirmation requirement. No new generation or paid calls. Original ignored Blend was not located in the game worktrees; do not claim full pipeline archive.",
+  "files": [
+    {
+      "source": "images/models/hero3d/sunbrand-knight.glb",
+      "file": "sunbrand-knight.glb",
+      "sha256": "e1ab976f8b293d6dce29bfb8f7fe2ea7dc9d6f3af4bd4685edd62a3b2c5b4fc3"
+    },
+    {
+      "source": "images/models/hero3d/SOURCE.md",
+      "file": "SOURCE.md",
+      "sha256": "fbb86c210791327f5cffab65cf50aba3ab035b4921d52cc77fdf34d31a4e735e"
+    },
+    {
+      "source": "tools/meshy-pipeline/specs/sunbrand-knight.spec.json",
+      "file": "sunbrand-knight.spec.json",
+      "sha256": "f74040eafb9018b674eb8bdfc1e957d45ee950c2014a100c7aa7b3b0d8f6de0d"
+    },
+    {
+      "source": "tools/meshy-pipeline/specs/sunbrand-knight.process.json",
+      "file": "sunbrand-knight.process.json",
+      "sha256": "f96d60e45636c7a957fa550f03926cd9058942528583c9090621de152a33327e"
+    }
+  ]
+}
