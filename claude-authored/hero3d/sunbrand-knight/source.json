@@ -11,7 +11,7 @@
     {
       "source": "images/models/hero3d/sunbrand-knight.glb",
       "file": "sunbrand-knight.glb",
-      "sha256": "4ce7e9e6ca104bc0f8107ee124fe537952c72adc71b818d7faf739d9a5133de8"
+      "sha256": "c1a7ea634cab99310effab3e2ce19b78527f64f20ab64504fbf8a8ca281d94ed"
     },
     {
       "source": "images/models/hero3d/SOURCE.md",
@@ -36,7 +36,7 @@
     {
       "source": "tools/meshy-pipeline/src/fix-grips.mjs",
       "file": "tools/fix-grips.mjs",
-      "sha256": "3aef1e051c986aea4f25fbcc7084a65b325fea5ace7b39664babf855a2cf61fd"
+      "sha256": "f5dc0557f5c3dbdf80df2d2ebebd8babb2fe75a1631663b27380c4edd762c7b1"
     },
     {
       "source": "tools/meshy-pipeline/src/data/meshy-dead.json",
@@ -57,6 +57,11 @@
       "source": "tools/meshy-pipeline/src/data/meshy-sword-judgment.json",
       "file": "tools/data/meshy-sword-judgment.json",
       "sha256": "070d6f6e8eb1cd1fab52ebaea584da98cb276519b17b7f571e538b020e246bfc"
+    },
+    {
+      "source": "tools/meshy-pipeline/src/data/meshy-run.json",
+      "file": "tools/data/meshy-run.json",
+      "sha256": "a41bffbd43d02fcf94862dc3fe6e747ffa1eed31dfd673fda14fed846eb8e4b0"
     }
   ],
   "updates": [
@@ -69,6 +74,11 @@
       "date": "2026-10-28",
       "commit": "08282cba0b38168cafa7e0fc284fcd274c664672",
       "note": "Preserve latest Claude cloud death sword model and existing editable grip pipeline, motion samples and cloth map. Original base specifications retained; no regeneration or paid calls."
+    },
+    {
+      "date": "2026-10-29",
+      "commit": "551c3553618f8e6e7c092f0e9c28592a366da404",
+      "note": "Preserve incoming grips36 model, death sword arrows and user-provided Meshy run sample; archive merged fix-grips including EOF correction. No generation or paid calls."
     }
   ]
 }
