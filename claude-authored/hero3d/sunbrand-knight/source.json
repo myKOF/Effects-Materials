@@ -1,13 +1,13 @@
 {
-  "source_commit": "977e4254b7ac4aee1976f70b4cbac657381a11a5",
+  "source_commit": "ba3c949f0d3795e506d8f63a33b70e96142ac67f",
   "source_ref": "origin/ai/claude-kpj271",
   "archived_date": "2026-10-28",
-  "purpose": "Preserve the user-requested existing internal-test model and editable animation sources during develop integration; no new generation.",
+  "purpose": "Preserve the latest user-requested internal-test model and editable attack/death animation sources. Superseded samples remain in Git history.",
   "provenance": "See images/models/hero3d/SOURCE.md. Existing internal-test restriction and production approval requirements remain.",
   "files": [
     {
       "project_path": "images/models/hero3d/sunbrand-knight.glb",
-      "sha256": "ee444e7c0ac77d7df8eaf35d997af394581d1b7478597eaa4524529385b618f4"
+      "sha256": "1021d93e5a9d20236fe32ec4594ca0b9b9bfe55d4faa4ab20cbccaf7529a39cf"
     },
     {
       "project_path": "images/models/hero3d/sunbrand-cloth.json",
@@ -15,7 +15,7 @@
     },
     {
       "project_path": "images/models/hero3d/SOURCE.md",
-      "sha256": "221c97f510ab9161aa7a83043e93350ee6fcca56238eac4ef2d1c59ae4047aeb"
+      "sha256": "2212311688a95d8b9137884bfa60c3a285e4f6991ebeb4f400e457cff30a841b"
     },
     {
       "project_path": "tools/meshy-pipeline/specs/sunbrand-knight.spec.json",
@@ -31,15 +31,24 @@
     },
     {
       "project_path": "tools/meshy-pipeline/src/fix-grips.mjs",
-      "sha256": "826d365608449f1baf895c517662dc66ccaaa576172a3b2631d10af19681033c"
+      "sha256": "6dfe67dd62b3223ef55c245bf2da912c0881ecd102278c30470fcae86255bdc6",
+      "normalization": "Controller removed an extra blank line at EOF; no source code change."
     },
     {
-      "project_path": "tools/meshy-pipeline/src/data/meshy-double-combo-attack.json",
-      "sha256": "f386d74c530358508d9dc963ea9043a1e649108989754f731a46bc75adc9a11d"
+      "project_path": "tools/meshy-pipeline/src/data/meshy-dead.json",
+      "sha256": "7e8f5b0ea0a6bd8e770b34c823e2dfc8b1176bb686a55111ed304327febe643a"
     },
     {
-      "project_path": "tools/meshy-pipeline/src/data/meshy-reaping-swing.json",
-      "sha256": "881c530802397f4a0c2504e49481412fe4e3af61c75fb43381513fb26e60d39f"
+      "project_path": "tools/meshy-pipeline/src/data/meshy-double-combo-2.json",
+      "sha256": "8c845705395d1aadf1c718c7c2db44884ec697d272e6380cce37bc052c152eec"
+    },
+    {
+      "project_path": "tools/meshy-pipeline/src/data/meshy-left-slash.json",
+      "sha256": "679df8f554afe813900cbec4a80b2b89107dde34e4e79e45048ea6e929941125"
+    },
+    {
+      "project_path": "tools/meshy-pipeline/src/data/meshy-sword-judgment.json",
+      "sha256": "070d6f6e8eb1cd1fab52ebaea584da98cb276519b17b7f571e538b020e246bfc"
     }
   ]
 }
