@@ -11,12 +11,12 @@
     {
       "source": "images/models/hero3d/sunbrand-knight.glb",
       "file": "sunbrand-knight.glb",
-      "sha256": "e1ab976f8b293d6dce29bfb8f7fe2ea7dc9d6f3af4bd4685edd62a3b2c5b4fc3"
+      "sha256": "4ce7e9e6ca104bc0f8107ee124fe537952c72adc71b818d7faf739d9a5133de8"
     },
     {
       "source": "images/models/hero3d/SOURCE.md",
       "file": "SOURCE.md",
-      "sha256": "ec89ffd9da89b65e4d859652538612e93bc0de6c929901321ddeb14596a8b17c"
+      "sha256": "2212311688a95d8b9137884bfa60c3a285e4f6991ebeb4f400e457cff30a841b"
     },
     {
       "source": "tools/meshy-pipeline/specs/sunbrand-knight.spec.json",
@@ -27,6 +27,36 @@
       "source": "tools/meshy-pipeline/specs/sunbrand-knight.process.json",
       "file": "sunbrand-knight.process.json",
       "sha256": "f96d60e45636c7a957fa550f03926cd9058942528583c9090621de152a33327e"
+    },
+    {
+      "source": "images/models/hero3d/sunbrand-cloth.json",
+      "file": "sunbrand-cloth.json",
+      "sha256": "8e24616356e5f8282799cebb02aa2c8824261697b4fa24829b1f0bc59d9a3a5b"
+    },
+    {
+      "source": "tools/meshy-pipeline/src/fix-grips.mjs",
+      "file": "tools/fix-grips.mjs",
+      "sha256": "3aef1e051c986aea4f25fbcc7084a65b325fea5ace7b39664babf855a2cf61fd"
+    },
+    {
+      "source": "tools/meshy-pipeline/src/data/meshy-dead.json",
+      "file": "tools/data/meshy-dead.json",
+      "sha256": "7e8f5b0ea0a6bd8e770b34c823e2dfc8b1176bb686a55111ed304327febe643a"
+    },
+    {
+      "source": "tools/meshy-pipeline/src/data/meshy-double-combo-2.json",
+      "file": "tools/data/meshy-double-combo-2.json",
+      "sha256": "8c845705395d1aadf1c718c7c2db44884ec697d272e6380cce37bc052c152eec"
+    },
+    {
+      "source": "tools/meshy-pipeline/src/data/meshy-left-slash.json",
+      "file": "tools/data/meshy-left-slash.json",
+      "sha256": "679df8f554afe813900cbec4a80b2b89107dde34e4e79e45048ea6e929941125"
+    },
+    {
+      "source": "tools/meshy-pipeline/src/data/meshy-sword-judgment.json",
+      "file": "tools/data/meshy-sword-judgment.json",
+      "sha256": "070d6f6e8eb1cd1fab52ebaea584da98cb276519b17b7f571e538b020e246bfc"
     }
   ],
   "updates": [
@@ -34,6 +64,11 @@
       "date": "2026-10-28",
       "commit": "bf37b93bd2ca4cf404b789d126e2d49ee11c436e",
       "note": "Preserve Claude animation timing provenance; GLB and pipeline specs unchanged."
+    },
+    {
+      "date": "2026-10-28",
+      "commit": "08282cba0b38168cafa7e0fc284fcd274c664672",
+      "note": "Preserve latest Claude cloud death sword model and existing editable grip pipeline, motion samples and cloth map. Original base specifications retained; no regeneration or paid calls."
     }
   ]
 }
