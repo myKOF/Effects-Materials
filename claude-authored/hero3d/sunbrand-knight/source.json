@@ -1,5 +1,5 @@
 {
-  "source_commit": "ba3c949f0d3795e506d8f63a33b70e96142ac67f",
+  "source_commit": "a2613a8892e331e7c8617dead011a8c46b8f2cc1",
   "source_ref": "origin/ai/claude-kpj271",
   "archived_date": "2026-10-28",
   "purpose": "Preserve the latest user-requested internal-test model and editable attack/death animation sources. Superseded samples remain in Git history.",
@@ -7,7 +7,7 @@
   "files": [
     {
       "project_path": "images/models/hero3d/sunbrand-knight.glb",
-      "sha256": "1021d93e5a9d20236fe32ec4594ca0b9b9bfe55d4faa4ab20cbccaf7529a39cf"
+      "sha256": "b4881b90685cfab8261977d0ed775812f6ae02da5410f254df70e3cd4bc2fdb9"
     },
     {
       "project_path": "images/models/hero3d/sunbrand-cloth.json",
@@ -31,7 +31,7 @@
     },
     {
       "project_path": "tools/meshy-pipeline/src/fix-grips.mjs",
-      "sha256": "6dfe67dd62b3223ef55c245bf2da912c0881ecd102278c30470fcae86255bdc6",
+      "sha256": "9b2064cff5ed7bcbd72fa7d7858592765fa072dacfd06004cd33a0996b58c6cf",
       "normalization": "Controller removed an extra blank line at EOF; no source code change."
     },
     {
