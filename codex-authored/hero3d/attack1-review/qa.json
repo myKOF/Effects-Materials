@@ -1,0 +1,1263 @@
+{
+  "revision": 6,
+  "panels": {
+    "Cape": {
+      "bone": "Spine02",
+      "vertices": 593,
+      "triangles": 435,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 3.3787980757704617e-07
+    },
+    "Chest": {
+      "bone": "Spine02",
+      "vertices": 837,
+      "triangles": 738,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 5.003048954514006e-07
+    },
+    "Head": {
+      "bone": "Head",
+      "vertices": 389,
+      "triangles": 351,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 4.4901308215300473e-07
+    },
+    "LeftArm": {
+      "bone": "LeftArm",
+      "vertices": 272,
+      "triangles": 144,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 3.1880455914762296e-07,
+      "closedConnectedShell": true,
+      "allVertexPairsChecked": 2701,
+      "maxWholeShellPairDistanceErrorM": 3.5894040509298897e-07
+    },
+    "LeftFoot": {
+      "bone": "LeftFoot",
+      "vertices": 129,
+      "triangles": 146,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 4.1309316040072375e-07
+    },
+    "LeftForeArm": {
+      "bone": "LeftForeArm",
+      "vertices": 432,
+      "triangles": 216,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 3.1988430428120385e-07,
+      "closedConnectedShell": true,
+      "allVertexPairsChecked": 5995,
+      "maxWholeShellPairDistanceErrorM": 4.483099081409314e-07
+    },
+    "LeftHand": {
+      "bone": "LeftHand",
+      "vertices": 146,
+      "triangles": 140,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 3.9870639254036e-07
+    },
+    "LeftLeg": {
+      "bone": "LeftLeg",
+      "vertices": 387,
+      "triangles": 334,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 4.634845415796285e-07
+    },
+    "LeftPauldron": {
+      "bone": "LeftShoulderPlate",
+      "vertices": 86,
+      "triangles": 120,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 4.168207065335938e-07,
+      "closedConnectedShell": true,
+      "allVertexPairsChecked": 1891,
+      "maxWholeShellPairDistanceErrorM": 4.3699896210003253e-07
+    },
+    "LeftUpLeg": {
+      "bone": "LeftUpLeg",
+      "vertices": 472,
+      "triangles": 435,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 1.3008965080718582e-06
+    },
+    "Pelvis": {
+      "bone": "Hips",
+      "vertices": 300,
+      "triangles": 278,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 2.542354400753011e-07
+    },
+    "RightArm": {
+      "bone": "RightArm",
+      "vertices": 280,
+      "triangles": 144,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 3.2333804894819906e-07,
+      "closedConnectedShell": true,
+      "allVertexPairsChecked": 2701,
+      "maxWholeShellPairDistanceErrorM": 3.6976471150598766e-07
+    },
+    "RightFoot": {
+      "bone": "RightFoot",
+      "vertices": 154,
+      "triangles": 154,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 5.21034230371864e-07
+    },
+    "RightForeArm": {
+      "bone": "RightForeArm",
+      "vertices": 448,
+      "triangles": 216,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 4.244623251214996e-07,
+      "closedConnectedShell": true,
+      "allVertexPairsChecked": 5995,
+      "maxWholeShellPairDistanceErrorM": 6.082340900381844e-07
+    },
+    "RightHand": {
+      "bone": "RightHand",
+      "vertices": 41,
+      "triangles": 27,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 3.1728923453183677e-07
+    },
+    "RightLeg": {
+      "bone": "RightLeg",
+      "vertices": 362,
+      "triangles": 331,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 1.415155887307673e-06
+    },
+    "RightPauldron": {
+      "bone": "RightShoulderPlate",
+      "vertices": 86,
+      "triangles": 120,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 3.5686227682629745e-07,
+      "closedConnectedShell": true,
+      "allVertexPairsChecked": 1891,
+      "maxWholeShellPairDistanceErrorM": 4.512329002948068e-07
+    },
+    "RightUpLeg": {
+      "bone": "RightUpLeg",
+      "vertices": 468,
+      "triangles": 411,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 8.929758002762522e-07
+    },
+    "Sword": {
+      "bone": "Sword",
+      "vertices": 322,
+      "triangles": 284,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 6.440411001173985e-07
+    },
+    "Tabard": {
+      "bone": "Hips",
+      "vertices": 289,
+      "triangles": 230,
+      "influencesPerVertex": 1,
+      "maxEdgeLengthErrorM": 2.060511093693318e-07
+    }
+  },
+  "retainedJointCurves": {
+    "Attack2": {
+      "frames": 77,
+      "maxPositionErrorM": 8.837748559772758e-06,
+      "maxQuaternionDotError": 1.0366728560029514e-06
+    },
+    "CombatIdle": {
+      "frames": 41,
+      "maxPositionErrorM": 7.264407780875466e-06,
+      "maxQuaternionDotError": 5.289140647679602e-07
+    },
+    "Death": {
+      "frames": 67,
+      "maxPositionErrorM": 7.967649636278326e-06,
+      "maxQuaternionDotError": 4.2499981334209735e-07
+    },
+    "Run": {
+      "frames": 16,
+      "maxPositionErrorM": 8.649662009177642e-06,
+      "maxQuaternionDotError": 3.5740880455215063e-07
+    }
+  },
+  "samples": [
+    {
+      "frame": 0.0,
+      "gripErrorM": 5.382384136291949e-06,
+      "swordMinZ": 1.162049412727356,
+      "footMinZ": 2.2636066205450334e-05,
+      "hipZ": 0.9199998378753662,
+      "swordDownAngleDeg": -17.999817496786616,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.6330604653492804,
+          "elbowBendDeg": 101.52559581930221
+        },
+        "Right": {
+          "reachRatio": 0.6046112700905283,
+          "elbowBendDeg": 105.65339679213426
+        }
+      }
+    },
+    {
+      "frame": 1.0,
+      "gripErrorM": 5.531921253624124e-06,
+      "swordMinZ": 1.1561729907989502,
+      "footMinZ": 2.2783879103371873e-05,
+      "hipZ": 0.9202914834022522,
+      "swordDownAngleDeg": -23.02716904273982,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.6543571016871198,
+          "elbowBendDeg": 98.33202015951213
+        },
+        "Right": {
+          "reachRatio": 0.5637272843427517,
+          "elbowBendDeg": 111.4334187149323
+        }
+      }
+    },
+    {
+      "frame": 2.0,
+      "gripErrorM": 6.424078148648588e-06,
+      "swordMinZ": 1.137009620666504,
+      "footMinZ": 2.2846043066238053e-05,
+      "hipZ": 0.921107828617096,
+      "swordDownAngleDeg": -36.28105809075766,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.7184795492292293,
+          "elbowBendDeg": 88.20368412482307
+        },
+        "Right": {
+          "reachRatio": 0.46881560121943927,
+          "elbowBendDeg": 124.16400854294432
+        }
+      }
+    },
+    {
+      "frame": 3.0,
+      "gripErrorM": 6.876542816665915e-06,
+      "swordMinZ": 1.1099672317504883,
+      "footMinZ": 2.2843663828098215e-05,
+      "hipZ": 0.9223614931106567,
+      "swordDownAngleDeg": -55.01938121879449,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.8033632828637941,
+          "elbowBendDeg": 73.14239895673079
+        },
+        "Right": {
+          "reachRatio": 0.3763579964920022,
+          "elbowBendDeg": 135.88658407519503
+        }
+      }
+    },
+    {
+      "frame": 4.0,
+      "gripErrorM": 6.434023925553377e-06,
+      "swordMinZ": 1.101367473602295,
+      "footMinZ": 2.278746251249686e-05,
+      "hipZ": 0.9239649772644043,
+      "swordDownAngleDeg": -76.4999199007157,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.8608345742573974,
+          "elbowBendDeg": 61.21693537403738
+        },
+        "Right": {
+          "reachRatio": 0.3372829581935182,
+          "elbowBendDeg": 140.6941186109277
+        }
+      }
+    },
+    {
+      "frame": 5.0,
+      "gripErrorM": 6.259427823119023e-06,
+      "swordMinZ": 1.1000791788101196,
+      "footMinZ": 2.2647300284006633e-05,
+      "hipZ": 0.9258307218551636,
+      "swordDownAngleDeg": -82.01956651851748,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.8630182520590306,
+          "elbowBendDeg": 60.723041484206306
+        },
+        "Right": {
+          "reachRatio": 0.3410384262086269,
+          "elbowBendDeg": 140.23519817313996
+        }
+      }
+    },
+    {
+      "frame": 6.0,
+      "gripErrorM": 6.4189594934925905e-06,
+      "swordMinZ": 1.1039694547653198,
+      "footMinZ": 2.2593836547457613e-05,
+      "hipZ": 0.9278715252876282,
+      "swordDownAngleDeg": -63.28126084264301,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.8290087480730671,
+          "elbowBendDeg": 68.04901109731601
+        },
+        "Right": {
+          "reachRatio": 0.34851742125617435,
+          "elbowBendDeg": 139.3193647762413
+        }
+      }
+    },
+    {
+      "frame": 7.0,
+      "gripErrorM": 6.443442848356272e-06,
+      "swordMinZ": 1.1262801885604858,
+      "footMinZ": 2.279291584272869e-05,
+      "hipZ": 0.9299998879432678,
+      "swordDownAngleDeg": -50.027338389059466,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.7991281748888269,
+          "elbowBendDeg": 73.95421043814538
+        },
+        "Right": {
+          "reachRatio": 0.35693476863592927,
+          "elbowBendDeg": 138.28551542529235
+        }
+      }
+    },
+    {
+      "frame": 8.0,
+      "gripErrorM": 6.965304689648618e-06,
+      "swordMinZ": 1.1391152143478394,
+      "footMinZ": 2.2796293706051074e-05,
+      "hipZ": 0.9321282505989075,
+      "swordDownAngleDeg": -44.99998610379372,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.7886287389062413,
+          "elbowBendDeg": 75.93472294748815
+        },
+        "Right": {
+          "reachRatio": 0.3839094780551156,
+          "elbowBendDeg": 134.94863836660653
+        }
+      }
+    },
+    {
+      "frame": 9.0,
+      "gripErrorM": 6.571855558463249e-06,
+      "swordMinZ": 1.154805064201355,
+      "footMinZ": 2.272683195769787e-05,
+      "hipZ": 0.9341690540313721,
+      "swordDownAngleDeg": -42.03701218604708,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.7718281914174102,
+          "elbowBendDeg": 79.01595412763751
+        },
+        "Right": {
+          "reachRatio": 0.40943292381224355,
+          "elbowBendDeg": 131.75489326991527
+        }
+      }
+    },
+    {
+      "frame": 10.0,
+      "gripErrorM": 6.663656170560878e-06,
+      "swordMinZ": 1.197617769241333,
+      "footMinZ": 2.2610525775235146e-05,
+      "hipZ": 0.9360348582267761,
+      "swordDownAngleDeg": -34.62963181798583,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.7502126296469602,
+          "elbowBendDeg": 82.83872083722345
+        },
+        "Right": {
+          "reachRatio": 0.4255816189130694,
+          "elbowBendDeg": 129.71408306535432
+        }
+      }
+    },
+    {
+      "frame": 11.0,
+      "gripErrorM": 6.400742579253501e-06,
+      "swordMinZ": 1.260702133178711,
+      "footMinZ": 2.2725807866663672e-05,
+      "hipZ": 0.9376384615898132,
+      "swordDownAngleDeg": -24.99995906588945,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.7610303996986816,
+          "elbowBendDeg": 80.94423170707081
+        },
+        "Right": {
+          "reachRatio": 0.46135764454263267,
+          "elbowBendDeg": 125.13102858661318
+        }
+      }
+    },
+    {
+      "frame": 12.0,
+      "gripErrorM": 6.237488845433342e-06,
+      "swordMinZ": 1.3316569328308105,
+      "footMinZ": 2.2569638531422243e-05,
+      "hipZ": 0.9373178482055664,
+      "swordDownAngleDeg": -15.370310218255934,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.8150339813962416,
+          "elbowBendDeg": 70.86398133885507
+        },
+        "Right": {
+          "reachRatio": 0.5160355608134861,
+          "elbowBendDeg": 117.93609632593231
+        }
+      }
+    },
+    {
+      "frame": 13.0,
+      "gripErrorM": 6.1253198306698495e-06,
+      "swordMinZ": 1.3911126852035522,
+      "footMinZ": 2.2718473701388575e-05,
+      "hipZ": 0.9337824583053589,
+      "swordDownAngleDeg": -7.962962159135304,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.8831550768765692,
+          "elbowBendDeg": 55.98327171653679
+        },
+        "Right": {
+          "reachRatio": 0.5675064489847417,
+          "elbowBendDeg": 110.90768495403961
+        }
+      }
+    },
+    {
+      "frame": 14.0,
+      "gripErrorM": 6.410188755064308e-06,
+      "swordMinZ": 1.4159753322601318,
+      "footMinZ": 2.2736172468285076e-05,
+      "hipZ": 0.9274998903274536,
+      "swordDownAngleDeg": -5.000034851265769,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9198461654566493,
+          "elbowBendDeg": 46.22004240514107
+        },
+        "Right": {
+          "reachRatio": 0.5853495714228812,
+          "elbowBendDeg": 108.40260334419118
+        }
+      }
+    },
+    {
+      "frame": 15.0,
+      "gripErrorM": 6.049545702421385e-06,
+      "swordMinZ": 1.3956615924835205,
+      "footMinZ": 2.25514049816411e-05,
+      "hipZ": 0.9192590713500977,
+      "swordDownAngleDeg": -14.375069070392497,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.8852787412772708,
+          "elbowBendDeg": 55.46188015734771
+        },
+        "Right": {
+          "reachRatio": 0.5630136438255025,
+          "elbowBendDeg": 111.53251277014246
+        }
+      }
+    },
+    {
+      "frame": 16.0,
+      "gripErrorM": 5.386166890031362e-06,
+      "swordMinZ": 1.3753581047058105,
+      "footMinZ": 2.2615264242631383e-05,
+      "hipZ": 0.909907341003418,
+      "swordDownAngleDeg": -35.00008733872511,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.8087822478792199,
+          "elbowBendDeg": 72.09221650208244
+        },
+        "Right": {
+          "reachRatio": 0.5410169219069442,
+          "elbowBendDeg": 114.55929433904289
+        }
+      }
+    },
+    {
+      "frame": 17.0,
+      "gripErrorM": 3.65510783092313e-06,
+      "swordMinZ": 1.3934643268585205,
+      "footMinZ": 2.2825572159490548e-05,
+      "hipZ": 0.8999999761581421,
+      "swordDownAngleDeg": -55.625159480890964,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.7474978640138675,
+          "elbowBendDeg": 83.30859245111193
+        },
+        "Right": {
+          "reachRatio": 0.5794205436971004,
+          "elbowBendDeg": 109.23928790470329
+        }
+      }
+    },
+    {
+      "frame": 18.0,
+      "gripErrorM": 5.499583373475169e-06,
+      "swordMinZ": 1.4150266647338867,
+      "footMinZ": 2.2798685677116737e-05,
+      "hipZ": 0.8900926113128662,
+      "swordDownAngleDeg": -65.00016699185772,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.7392577444599793,
+          "elbowBendDeg": 84.72176202808306
+        },
+        "Right": {
+          "reachRatio": 0.6379598776896738,
+          "elbowBendDeg": 100.77080338353807
+        }
+      }
+    },
+    {
+      "frame": 19.0,
+      "gripErrorM": 4.723763580083044e-06,
+      "swordMinZ": 1.2893081903457642,
+      "footMinZ": 2.2842277758172713e-05,
+      "hipZ": 0.8687094449996948,
+      "swordDownAngleDeg": -71.10177771021995,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.6106505171300809,
+          "elbowBendDeg": 104.80978294497757
+        },
+        "Right": {
+          "reachRatio": 0.5530214151889398,
+          "elbowBendDeg": 112.91398491182308
+        }
+      }
+    },
+    {
+      "frame": 20.0,
+      "gripErrorM": 4.829263809783629e-06,
+      "swordMinZ": 1.1944446563720703,
+      "footMinZ": 2.2950560378376395e-05,
+      "hipZ": 0.82874995470047,
+      "swordDownAngleDeg": -87.187682659221,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.6202954016956144,
+          "elbowBendDeg": 103.40540536593284
+        },
+        "Right": {
+          "reachRatio": 0.5813132296375528,
+          "elbowBendDeg": 108.97267029206904
+        }
+      }
+    },
+    {
+      "frame": 21.0,
+      "gripErrorM": 5.556555208424781e-06,
+      "swordMinZ": 1.014691948890686,
+      "footMinZ": 2.3260674424818717e-05,
+      "hipZ": 0.7773321270942688,
+      "swordDownAngleDeg": -70.07015282438347,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.6847328469131392,
+          "elbowBendDeg": 93.63882075724224
+        },
+        "Right": {
+          "reachRatio": 0.604352981007576,
+          "elbowBendDeg": 105.69058790051791
+        }
+      }
+    },
+    {
+      "frame": 22.0,
+      "gripErrorM": 6.0403583388337355e-06,
+      "swordMinZ": 0.868565022945404,
+      "footMinZ": 2.345396569580771e-05,
+      "hipZ": 0.7215739488601685,
+      "swordDownAngleDeg": -43.99985187232309,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.8156303901766714,
+          "elbowBendDeg": 70.74584437787922
+        },
+        "Right": {
+          "reachRatio": 0.7161932722353053,
+          "elbowBendDeg": 88.55862885757956
+        }
+      }
+    },
+    {
+      "frame": 23.0,
+      "gripErrorM": 6.9049589718975384e-06,
+      "swordMinZ": 0.7819374203681946,
+      "footMinZ": 2.397590651526116e-05,
+      "hipZ": 0.6685937643051147,
+      "swordDownAngleDeg": -17.929481897834787,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.8134168685300105,
+          "elbowBendDeg": 71.18344497507144
+        },
+        "Right": {
+          "reachRatio": 0.7295621362919591,
+          "elbowBendDeg": 86.33983576520122
+        }
+      }
+    },
+    {
+      "frame": 24.0,
+      "gripErrorM": 7.41596113748024e-06,
+      "swordMinZ": 0.5695957541465759,
+      "footMinZ": 2.4444914743071422e-05,
+      "hipZ": 0.6237499117851257,
+      "swordDownAngleDeg": 4.812644227195896,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9498301462140397,
+          "elbowBendDeg": 36.47306590069434
+        },
+        "Right": {
+          "reachRatio": 0.943662134970557,
+          "elbowBendDeg": 38.66277408564497
+        }
+      }
+    },
+    {
+      "frame": 25.0,
+      "gripErrorM": 6.6048672100468785e-06,
+      "swordMinZ": 0.20487084984779358,
+      "footMinZ": 2.4470627977279946e-05,
+      "hipZ": 0.5920311808586121,
+      "swordDownAngleDeg": 20.898561021534583,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9402875287202539,
+          "elbowBendDeg": 39.823330108262866
+        },
+        "Right": {
+          "reachRatio": 0.9913761580816489,
+          "elbowBendDeg": 15.06572730362592
+        }
+      }
+    },
+    {
+      "frame": 26.0,
+      "gripErrorM": 6.614810750767406e-06,
+      "swordMinZ": 0.0004950904985889792,
+      "footMinZ": 2.490078259143047e-05,
+      "hipZ": 0.5799998641014099,
+      "swordDownAngleDeg": 27.000135259935682,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9653137385139372,
+          "elbowBendDeg": 30.287096186810345
+        },
+        "Right": {
+          "reachRatio": 0.9914507431138032,
+          "elbowBendDeg": 15.000342538299947
+        }
+      }
+    },
+    {
+      "frame": 27.0,
+      "gripErrorM": 6.7387814047115835e-06,
+      "swordMinZ": 0.0004952430608682334,
+      "footMinZ": 2.490078259143047e-05,
+      "hipZ": 0.5799998641014099,
+      "swordDownAngleDeg": 27.000123030463342,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9653137749906924,
+          "elbowBendDeg": 30.287080063410656
+        },
+        "Right": {
+          "reachRatio": 0.9914507577562862,
+          "elbowBendDeg": 15.000329654816198
+        }
+      }
+    },
+    {
+      "frame": 28.0,
+      "gripErrorM": 6.679732609152097e-06,
+      "swordMinZ": 0.0004956817720085382,
+      "footMinZ": 2.490078259143047e-05,
+      "hipZ": 0.5799998641014099,
+      "swordDownAngleDeg": 27.000106265708816,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9653137595616738,
+          "elbowBendDeg": 30.28708676998798
+        },
+        "Right": {
+          "reachRatio": 0.991450717000245,
+          "elbowBendDeg": 15.00036541970968
+        }
+      }
+    },
+    {
+      "frame": 29.0,
+      "gripErrorM": 6.679732609152097e-06,
+      "swordMinZ": 0.0004956817720085382,
+      "footMinZ": 2.490078259143047e-05,
+      "hipZ": 0.5799998641014099,
+      "swordDownAngleDeg": 27.000106265708816,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9653137595616738,
+          "elbowBendDeg": 30.28708676998798
+        },
+        "Right": {
+          "reachRatio": 0.991450717000245,
+          "elbowBendDeg": 15.00036541970968
+        }
+      }
+    },
+    {
+      "frame": 30.0,
+      "gripErrorM": 6.679732609152097e-06,
+      "swordMinZ": 0.0004956817720085382,
+      "footMinZ": 2.490078259143047e-05,
+      "hipZ": 0.5799998641014099,
+      "swordDownAngleDeg": 27.000106265708816,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9653137595616738,
+          "elbowBendDeg": 30.28708676998798
+        },
+        "Right": {
+          "reachRatio": 0.991450717000245,
+          "elbowBendDeg": 15.00036541970968
+        }
+      }
+    },
+    {
+      "frame": 31.0,
+      "gripErrorM": 6.679732609152097e-06,
+      "swordMinZ": 0.0004956817720085382,
+      "footMinZ": 2.490078259143047e-05,
+      "hipZ": 0.5799998641014099,
+      "swordDownAngleDeg": 27.000106265708816,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9653137595616738,
+          "elbowBendDeg": 30.28708676998798
+        },
+        "Right": {
+          "reachRatio": 0.991450717000245,
+          "elbowBendDeg": 15.00036541970968
+        }
+      }
+    },
+    {
+      "frame": 32.0,
+      "gripErrorM": 6.770687446741024e-06,
+      "swordMinZ": 0.0004951477167196572,
+      "footMinZ": 2.490078259143047e-05,
+      "hipZ": 0.5799998641014099,
+      "swordDownAngleDeg": 27.000129174198694,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9653137499735795,
+          "elbowBendDeg": 30.2870909806455
+        },
+        "Right": {
+          "reachRatio": 0.9914507300900185,
+          "elbowBendDeg": 15.000353972872091
+        }
+      }
+    },
+    {
+      "frame": 33.0,
+      "gripErrorM": 6.712967691140808e-06,
+      "swordMinZ": 0.0004954338073730469,
+      "footMinZ": 2.490078259143047e-05,
+      "hipZ": 0.5799998641014099,
+      "swordDownAngleDeg": 27.000116944738576,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9653137651757778,
+          "elbowBendDeg": 30.287084349667822
+        },
+        "Right": {
+          "reachRatio": 0.9914507083366534,
+          "elbowBendDeg": 15.000373097618763
+        }
+      }
+    },
+    {
+      "frame": 34.0,
+      "gripErrorM": 6.6862817478095515e-06,
+      "swordMinZ": 0.008008155971765518,
+      "footMinZ": 2.4628510800539516e-05,
+      "hipZ": 0.5813164114952087,
+      "swordDownAngleDeg": 26.772243514990436,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9649451579463403,
+          "elbowBendDeg": 30.448539788046162
+        },
+        "Right": {
+          "reachRatio": 0.9914498169241556,
+          "elbowBendDeg": 15.00115627193395
+        }
+      }
+    },
+    {
+      "frame": 35.0,
+      "gripErrorM": 6.816245261949458e-06,
+      "swordMinZ": 0.029725246131420135,
+      "footMinZ": 2.4492248485330492e-05,
+      "hipZ": 0.5851156711578369,
+      "swordDownAngleDeg": 26.114683159619144,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9639262805260417,
+          "elbowBendDeg": 30.890537552745883
+        },
+        "Right": {
+          "reachRatio": 0.9914466451100011,
+          "elbowBendDeg": 15.00394242020542
+        }
+      }
+    },
+    {
+      "frame": 36.0,
+      "gripErrorM": 6.638813674336478e-06,
+      "swordMinZ": 0.06445495784282684,
+      "footMinZ": 2.4704924726393074e-05,
+      "hipZ": 0.5911717414855957,
+      "swordDownAngleDeg": 25.066524034597116,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9624280477418106,
+          "elbowBendDeg": 31.52950204953399
+        },
+        "Right": {
+          "reachRatio": 0.9914409096875796,
+          "elbowBendDeg": 15.008979213616897
+        }
+      }
+    },
+    {
+      "frame": 37.0,
+      "gripErrorM": 6.532362264380226e-06,
+      "swordMinZ": 0.11104022711515427,
+      "footMinZ": 2.4538916477467865e-05,
+      "hipZ": 0.599259078502655,
+      "swordDownAngleDeg": 23.66677604414355,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9606378559208365,
+          "elbowBendDeg": 32.276811935889725
+        },
+        "Right": {
+          "reachRatio": 0.9914317796601448,
+          "elbowBendDeg": 15.016993592956936
+        }
+      }
+    },
+    {
+      "frame": 38.0,
+      "gripErrorM": 6.410938733740967e-06,
+      "swordMinZ": 0.16832830011844635,
+      "footMinZ": 2.4544860934838653e-05,
+      "hipZ": 0.6091521382331848,
+      "swordDownAngleDeg": 21.954535983428688,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9587240789044402,
+          "elbowBendDeg": 33.0575210400404
+        },
+        "Right": {
+          "reachRatio": 0.991416876580857,
+          "elbowBendDeg": 15.030066639593315
+        }
+      }
+    },
+    {
+      "frame": 39.0,
+      "gripErrorM": 6.524572510613648e-06,
+      "swordMinZ": 0.23515169322490692,
+      "footMinZ": 2.4274464522022754e-05,
+      "hipZ": 0.6212664246559143,
+      "swordDownAngleDeg": 19.968849996865533,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9572058833281594,
+          "elbowBendDeg": 33.66433222241238
+        },
+        "Right": {
+          "reachRatio": 0.9913928583559543,
+          "elbowBendDeg": 15.051111599895222
+        }
+      }
+    },
+    {
+      "frame": 40.0,
+      "gripErrorM": 6.77190228952712e-06,
+      "swordMinZ": 0.31030768156051636,
+      "footMinZ": 2.417567156953737e-05,
+      "hipZ": 0.6359245777130127,
+      "swordDownAngleDeg": 17.74878332511111,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9564314853408435,
+          "elbowBendDeg": 33.96979786549244
+        },
+        "Right": {
+          "reachRatio": 0.9913511501983049,
+          "elbowBendDeg": 15.087587316967387
+        }
+      }
+    },
+    {
+      "frame": 41.0,
+      "gripErrorM": 6.720893473326954e-06,
+      "swordMinZ": 0.39092200994491577,
+      "footMinZ": 2.4167513402062468e-05,
+      "hipZ": 0.652760922908783,
+      "swordDownAngleDeg": 15.3334341174753,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9562665410365818,
+          "elbowBendDeg": 34.034517399431394
+        },
+        "Right": {
+          "reachRatio": 0.9912619251884569,
+          "elbowBendDeg": 15.165325891951426
+        }
+      }
+    },
+    {
+      "frame": 42.0,
+      "gripErrorM": 6.843080574251099e-06,
+      "swordMinZ": 0.4756603240966797,
+      "footMinZ": 2.3907154172775336e-05,
+      "hipZ": 0.6714097261428833,
+      "swordDownAngleDeg": 12.761836276456455,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9564547012073518,
+          "elbowBendDeg": 33.96067913324407
+        },
+        "Right": {
+          "reachRatio": 0.9909467179106416,
+          "elbowBendDeg": 15.43683895358015
+        }
+      }
+    },
+    {
+      "frame": 43.0,
+      "gripErrorM": 7.013892888957304e-06,
+      "swordMinZ": 0.5646839141845703,
+      "footMinZ": 2.4027520339586772e-05,
+      "hipZ": 0.6915055513381958,
+      "swordDownAngleDeg": 10.073033859820367,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9474590342229762,
+          "elbowBendDeg": 37.33255961873999
+        },
+        "Right": {
+          "reachRatio": 0.9788842151248497,
+          "elbowBendDeg": 23.599307646136197
+        }
+      }
+    },
+    {
+      "frame": 44.0,
+      "gripErrorM": 7.093409814880788e-06,
+      "swordMinZ": 0.6566475629806519,
+      "footMinZ": 2.3820623027859256e-05,
+      "hipZ": 0.7126824855804443,
+      "swordDownAngleDeg": 7.306119745339847,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.9110133266506424,
+          "elbowBendDeg": 48.73739505428128
+        },
+        "Right": {
+          "reachRatio": 0.9330002551775136,
+          "elbowBendDeg": 42.20126692543687
+        }
+      }
+    },
+    {
+      "frame": 45.0,
+      "gripErrorM": 7.348810144029236e-06,
+      "swordMinZ": 0.7443447113037109,
+      "footMinZ": 2.3509677703259513e-05,
+      "hipZ": 0.7345750331878662,
+      "swordDownAngleDeg": 4.500148353032559,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.8752600353656566,
+          "elbowBendDeg": 57.88377569094757
+        },
+        "Right": {
+          "reachRatio": 0.8879765789086492,
+          "elbowBendDeg": 54.78152201841833
+        }
+      }
+    },
+    {
+      "frame": 46.0,
+      "gripErrorM": 7.399887031584857e-06,
+      "swordMinZ": 0.7959418892860413,
+      "footMinZ": 2.344834865652956e-05,
+      "hipZ": 0.7568174004554749,
+      "swordDownAngleDeg": 1.6942308907523878,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.841200701319198,
+          "elbowBendDeg": 65.50681550392284
+        },
+        "Right": {
+          "reachRatio": 0.8452623061571544,
+          "elbowBendDeg": 64.62635485114053
+        }
+      }
+    },
+    {
+      "frame": 47.0,
+      "gripErrorM": 7.517532097720986e-06,
+      "swordMinZ": 0.8469777703285217,
+      "footMinZ": 2.3413462258758955e-05,
+      "hipZ": 0.7790440917015076,
+      "swordDownAngleDeg": -1.0727455139344368,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.8090113884679673,
+          "elbowBendDeg": 72.04751929484586
+        },
+        "Right": {
+          "reachRatio": 0.8052669391182967,
+          "elbowBendDeg": 72.75872826340294
+        }
+      }
+    },
+    {
+      "frame": 48.0,
+      "gripErrorM": 7.290533263227395e-06,
+      "swordMinZ": 0.896712601184845,
+      "footMinZ": 2.3198359485832043e-05,
+      "hipZ": 0.8008893132209778,
+      "swordDownAngleDeg": -3.761539735673883,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.7788404619554163,
+          "elbowBendDeg": 77.74239883085211
+        },
+        "Right": {
+          "reachRatio": 0.7683167677574168,
+          "elbowBendDeg": 79.62891438191517
+        }
+      }
+    },
+    {
+      "frame": 49.0,
+      "gripErrorM": 6.835566119610775e-06,
+      "swordMinZ": 0.9444018602371216,
+      "footMinZ": 2.2874115529702976e-05,
+      "hipZ": 0.8219873905181885,
+      "swordDownAngleDeg": -6.333152537958072,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.7508566255568859,
+          "elbowBendDeg": 82.72693803588936
+        },
+        "Right": {
+          "reachRatio": 0.7346957719828106,
+          "elbowBendDeg": 85.4756145714649
+        }
+      }
+    },
+    {
+      "frame": 50.0,
+      "gripErrorM": 6.652002897212835e-06,
+      "swordMinZ": 0.9892960786819458,
+      "footMinZ": 2.331265204702504e-05,
+      "hipZ": 0.8419730067253113,
+      "swordDownAngleDeg": -8.748487187141317,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.7252579745649743,
+          "elbowBendDeg": 87.08003980155662
+        },
+        "Right": {
+          "reachRatio": 0.7046481295875846,
+          "elbowBendDeg": 90.43989760773883
+        }
+      }
+    },
+    {
+      "frame": 51.0,
+      "gripErrorM": 6.5881619374584695e-06,
+      "swordMinZ": 1.0306419134140015,
+      "footMinZ": 2.299147854500916e-05,
+      "hipZ": 0.860480010509491,
+      "swordDownAngleDeg": -10.96858119732108,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.7022704566434793,
+          "elbowBendDeg": 90.84588948859007
+        },
+        "Right": {
+          "reachRatio": 0.67837118079006,
+          "elbowBendDeg": 94.61234738646965
+        }
+      }
+    },
+    {
+      "frame": 52.0,
+      "gripErrorM": 6.3335762419800446e-06,
+      "swordMinZ": 1.067684531211853,
+      "footMinZ": 2.2969506972003728e-05,
+      "hipZ": 0.877143144607544,
+      "swordDownAngleDeg": -12.954232381822967,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.6821390010344097,
+          "elbowBendDeg": 94.04647068004556
+        },
+        "Right": {
+          "reachRatio": 0.6560055432017301,
+          "elbowBendDeg": 98.05627804346435
+        }
+      }
+    },
+    {
+      "frame": 53.0,
+      "gripErrorM": 6.053353296712853e-06,
+      "swordMinZ": 1.0996711254119873,
+      "footMinZ": 2.2734475351171568e-05,
+      "hipZ": 0.8915963768959045,
+      "swordDownAngleDeg": -14.666462076307246,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.6651178043510809,
+          "elbowBendDeg": 96.68902760218516
+        },
+        "Right": {
+          "reachRatio": 0.637634316334679,
+          "elbowBendDeg": 100.81928492473362
+        }
+      }
+    },
+    {
+      "frame": 54.0,
+      "gripErrorM": 5.897432669935467e-06,
+      "swordMinZ": 1.1258485317230225,
+      "footMinZ": 2.2875678041600622e-05,
+      "hipZ": 0.9034745693206787,
+      "swordDownAngleDeg": -16.066208529086417,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.6514575414643451,
+          "elbowBendDeg": 98.77126532928567
+        },
+        "Right": {
+          "reachRatio": 0.6232924758672961,
+          "elbowBendDeg": 102.93857686005883
+        }
+      }
+    },
+    {
+      "frame": 55.0,
+      "gripErrorM": 6.1135491260751984e-06,
+      "swordMinZ": 1.1454671621322632,
+      "footMinZ": 2.2876167349750176e-05,
+      "hipZ": 0.9124115705490112,
+      "swordDownAngleDeg": -17.114405822631742,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.6414013413171862,
+          "elbowBendDeg": 100.28366454846952
+        },
+        "Right": {
+          "reachRatio": 0.6129850549733472,
+          "elbowBendDeg": 104.4426401776547
+        }
+      }
+    },
+    {
+      "frame": 56.0,
+      "gripErrorM": 5.668747911555724e-06,
+      "swordMinZ": 1.1577811241149902,
+      "footMinZ": 2.262192174384836e-05,
+      "hipZ": 0.9180418252944946,
+      "swordDownAngleDeg": -17.771957907590856,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.635187957364716,
+          "elbowBendDeg": 101.20986651405475
+        },
+        "Right": {
+          "reachRatio": 0.6067314383244794,
+          "elbowBendDeg": 105.34776585030572
+        }
+      }
+    },
+    {
+      "frame": 57.0,
+      "gripErrorM": 5.382384136291949e-06,
+      "swordMinZ": 1.162049412727356,
+      "footMinZ": 2.2636066205450334e-05,
+      "hipZ": 0.9199998378753662,
+      "swordDownAngleDeg": -17.999817496786616,
+      "arms": {
+        "Left": {
+          "reachRatio": 0.6330604653492804,
+          "elbowBendDeg": 101.52559581930221
+        },
+        "Right": {
+          "reachRatio": 0.6046112700905283,
+          "elbowBendDeg": 105.65339679213426
+        }
+      }
+    }
+  ],
+  "maxWristDeviationDeg": {
+    "Left": 42.85758947565952,
+    "Right": 55.160901435157285
+  },
+  "maxGripErrorM": 0.0032848843571048054,
+  "maxLimbLengthErrorM": 4.796038911365486e-06,
+  "maxGripAtSourceFrame": 20.875,
+  "maxBoneScaleError": 4.291534423828125e-06,
+  "maxNonRootJointTranslationM": 2.628671280656237e-06,
+  "minSwordZ": 0.0004946136614307761,
+  "minFootZ": -2.6261952370987274e-05,
+  "loopPositionErrorM": 0.0,
+  "contact": {
+    "frame": 26.0,
+    "gripErrorM": 6.614810750767406e-06,
+    "swordMinZ": 0.0004950904985889792,
+    "footMinZ": 2.490078259143047e-05,
+    "hipZ": 0.5799998641014099,
+    "swordDownAngleDeg": 27.000135259935682,
+    "arms": {
+      "Left": {
+        "reachRatio": 0.9653137385139372,
+        "elbowBendDeg": 30.287096186810345
+      },
+      "Right": {
+        "reachRatio": 0.9914507431138032,
+        "elbowBendDeg": 15.000342538299947
+      }
+    }
+  },
+  "samplesChecked": 457,
+  "totalTriangles": 5254
+}

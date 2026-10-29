@@ -1,54 +1,111 @@
 {
-  "source_commit": "a2613a8892e331e7c8617dead011a8c46b8f2cc1",
-  "source_ref": "origin/ai/claude-kpj271",
-  "archived_date": "2026-10-28",
-  "purpose": "Preserve the latest user-requested internal-test model and editable attack/death animation sources. Superseded samples remain in Git history.",
-  "provenance": "See images/models/hero3d/SOURCE.md. Existing internal-test restriction and production approval requirements remain.",
+  "date": "2026-10-27",
+  "commit": "530cf77c",
+  "purpose": "Preserve existing internal-test model and editable GLB/specs; MakeHuman prototype remains held",
+  "licenseSources": [
+    "https://www.meshy.ai/terms-of-use",
+    "https://docs.meshy.ai/en/webapp/pricing"
+  ],
+  "licenseNote": "Original SOURCE records the user Pro plan. Official terms section 3.2 assign Customer Output to paid users. Preserve original pre-release user confirmation requirement. No new generation or paid calls. Original ignored Blend was not located in the game worktrees; do not claim full pipeline archive.",
   "files": [
     {
-      "project_path": "images/models/hero3d/sunbrand-knight.glb",
-      "sha256": "b4881b90685cfab8261977d0ed775812f6ae02da5410f254df70e3cd4bc2fdb9"
+      "source": "images/models/hero3d/sunbrand-knight.glb",
+      "file": "sunbrand-knight.glb",
+      "sha256": "c1a7ea634cab99310effab3e2ce19b78527f64f20ab64504fbf8a8ca281d94ed"
     },
     {
-      "project_path": "images/models/hero3d/sunbrand-cloth.json",
-      "sha256": "8e24616356e5f8282799cebb02aa2c8824261697b4fa24829b1f0bc59d9a3a5b"
-    },
-    {
-      "project_path": "images/models/hero3d/SOURCE.md",
+      "source": "images/models/hero3d/SOURCE.md",
+      "file": "SOURCE.md",
       "sha256": "2212311688a95d8b9137884bfa60c3a285e4f6991ebeb4f400e457cff30a841b"
     },
     {
-      "project_path": "tools/meshy-pipeline/specs/sunbrand-knight.spec.json",
+      "source": "tools/meshy-pipeline/specs/sunbrand-knight.spec.json",
+      "file": "sunbrand-knight.spec.json",
       "sha256": "f74040eafb9018b674eb8bdfc1e957d45ee950c2014a100c7aa7b3b0d8f6de0d"
     },
     {
-      "project_path": "tools/meshy-pipeline/specs/sunbrand-knight.process.json",
+      "source": "tools/meshy-pipeline/specs/sunbrand-knight.process.json",
+      "file": "sunbrand-knight.process.json",
       "sha256": "f96d60e45636c7a957fa550f03926cd9058942528583c9090621de152a33327e"
     },
     {
-      "project_path": "tools/meshy-pipeline/specs/sunbrand-knight.concepts.json",
-      "sha256": "f103898ec932e226970f27a70de46154df38323b42c83bf76a744fbdacaa329d"
+      "source": "images/models/hero3d/sunbrand-cloth.json",
+      "file": "sunbrand-cloth.json",
+      "sha256": "8e24616356e5f8282799cebb02aa2c8824261697b4fa24829b1f0bc59d9a3a5b"
     },
     {
-      "project_path": "tools/meshy-pipeline/src/fix-grips.mjs",
-      "sha256": "9b2064cff5ed7bcbd72fa7d7858592765fa072dacfd06004cd33a0996b58c6cf",
-      "normalization": "Controller removed an extra blank line at EOF; no source code change."
+      "source": "tools/meshy-pipeline/src/fix-grips.mjs",
+      "file": "tools/fix-grips.mjs",
+      "sha256": "f5dc0557f5c3dbdf80df2d2ebebd8babb2fe75a1631663b27380c4edd762c7b1"
     },
     {
-      "project_path": "tools/meshy-pipeline/src/data/meshy-dead.json",
+      "source": "tools/meshy-pipeline/src/data/meshy-dead.json",
+      "file": "tools/data/meshy-dead.json",
       "sha256": "7e8f5b0ea0a6bd8e770b34c823e2dfc8b1176bb686a55111ed304327febe643a"
     },
     {
-      "project_path": "tools/meshy-pipeline/src/data/meshy-double-combo-2.json",
+      "source": "tools/meshy-pipeline/src/data/meshy-double-combo-2.json",
+      "file": "tools/data/meshy-double-combo-2.json",
       "sha256": "8c845705395d1aadf1c718c7c2db44884ec697d272e6380cce37bc052c152eec"
     },
     {
-      "project_path": "tools/meshy-pipeline/src/data/meshy-left-slash.json",
+      "source": "tools/meshy-pipeline/src/data/meshy-left-slash.json",
+      "file": "tools/data/meshy-left-slash.json",
       "sha256": "679df8f554afe813900cbec4a80b2b89107dde34e4e79e45048ea6e929941125"
     },
     {
-      "project_path": "tools/meshy-pipeline/src/data/meshy-sword-judgment.json",
+      "source": "tools/meshy-pipeline/src/data/meshy-sword-judgment.json",
+      "file": "tools/data/meshy-sword-judgment.json",
       "sha256": "070d6f6e8eb1cd1fab52ebaea584da98cb276519b17b7f571e538b020e246bfc"
+    },
+    {
+      "source": "tools/meshy-pipeline/src/data/meshy-run.json",
+      "file": "tools/data/meshy-run.json",
+      "sha256": "a41bffbd43d02fcf94862dc3fe6e747ffa1eed31dfd673fda14fed846eb8e4b0"
+    },
+    {
+      "source": "tools/meshy-pipeline/specs/sunbrand-knight.concepts.json",
+      "file": "sunbrand-knight.concepts.json",
+      "sha256": "f103898ec932e226970f27a70de46154df38323b42c83bf76a744fbdacaa329d"
     }
-  ]
+  ],
+  "updates": [
+    {
+      "date": "2026-10-28",
+      "commit": "bf37b93bd2ca4cf404b789d126e2d49ee11c436e",
+      "note": "Preserve Claude animation timing provenance; GLB and pipeline specs unchanged."
+    },
+    {
+      "date": "2026-10-28",
+      "commit": "08282cba0b38168cafa7e0fc284fcd274c664672",
+      "note": "Preserve latest Claude cloud death sword model and existing editable grip pipeline, motion samples and cloth map. Original base specifications retained; no regeneration or paid calls."
+    },
+    {
+      "date": "2026-10-29",
+      "commit": "551c3553618f8e6e7c092f0e9c28592a366da404",
+      "note": "Preserve incoming grips36 model, death sword arrows and user-provided Meshy run sample; archive merged fix-grips including EOF correction. No generation or paid calls."
+    }
+  ],
+  "source_commit": "551c3553618f8e6e7c092f0e9c28592a366da404",
+  "source_ref": "origin/ai/claude-kpj271",
+  "archived_date": "2026-10-29",
+  "provenance": "See images/models/hero3d/SOURCE.md. Existing internal-test restriction and production approval requirements remain.",
+  "previous_archives": [
+    {
+      "asset_commit": "1dfb6759b5f015a02f33a4e9cb9df07e83dc711f",
+      "source_commit": "a2613a8892e331e7c8617dead011a8c46b8f2cc1",
+      "archived_date": "2026-10-28",
+      "purpose": "Preserve the latest user-requested internal-test model and editable attack/death animation sources. Superseded samples remain in Git history.",
+      "layout": "Project-relative paths nested under the archive directory. Superseded duplicates removed from the active archive; original bytes and full manifest remain in this Asset parent commit."
+    }
+  ],
+  "merge_resolution": {
+    "task": "ASSET-MERGE-20261029",
+    "date": "2026-10-29",
+    "parents": [
+      "1dfb6759b5f015a02f33a4e9cb9df07e83dc711f",
+      "3e1041c6ccc340e8c496680475091482dc8c5e67"
+    ],
+    "strategy": "Use the latest verified model and grip pipeline at the existing remote layout; preserve license records, update history and the unique concept specification."
+  }
 }

@@ -1,0 +1,86 @@
+{
+  "task": "RESOURCE-ICONS-ALPHA-20261023",
+  "tool": "Built-in image_gen, transparent_background=true",
+  "source": "Existing project resource icons; no external reference artwork",
+  "prompt": "Use case: background-extraction. Edit target: the attached existing game resource icon icon_<name>.png. Remove only the black/dark rectangular background to genuine full alpha transparency outside the object's silhouette. Preserve the exact existing subject, silhouette, intricate surface details, colors, material shading, composition, orientation and relative size. Retain dark opaque parts INSIDE the object. Preserve colored glow as soft semitransparent colored pixels, without any black matte or rectangular border. Remove any thin rectangular outer frame (especially for the purple essence). Do not redraw, redesign, add text, crop the subject, change layout or add any background. Deliver a single isolated original icon on real transparent background.",
+  "icons": [
+    {
+      "name": "gold",
+      "width": 1254,
+      "height": 1254,
+      "beforeSha256": "84f2ed864664b759c7093727627ef1d16c9e4efe632b83cc3f47a49e4249285d",
+      "sha256": "7c9016b39f071166b2e495fcf12716115291dfb5e7a3cc6d6b34ce09da4577ae",
+      "alpha": {
+        "transparent": 728915,
+        "solidAtLeast250": 823942,
+        "softFrom2To249": 12752,
+        "borderMax": 1
+      }
+    },
+    {
+      "name": "scrap",
+      "width": 1254,
+      "height": 1254,
+      "beforeSha256": "f71683687be8dcf2c1309bdbb5e77ea1554caac8314af54cb383f6b6bf7019e0",
+      "sha256": "76da02df8e691d0ddf42d94aa3a52de3a724316abb454a64e9ba90b5338b74e9",
+      "alpha": {
+        "transparent": 775205,
+        "solidAtLeast250": 759255,
+        "softFrom2To249": 28612,
+        "borderMax": 1
+      }
+    },
+    {
+      "name": "essence",
+      "width": 1254,
+      "height": 1254,
+      "beforeSha256": "133e252e3334ebd6edd3b77343939151713dec6dd460ec2fc98d52492319256a",
+      "sha256": "fd182edecf180033769875b3480f8b9a490c27a743f32f7a44bfdb015d1c1e58",
+      "alpha": {
+        "transparent": 627941,
+        "solidAtLeast250": 783091,
+        "softFrom2To249": 142084,
+        "borderMax": 1
+      }
+    },
+    {
+      "name": "ancient_essence",
+      "width": 1254,
+      "height": 1254,
+      "beforeSha256": "4ab27f643874992283ae4bb2dc732fa54e6cacb3695c0f9bd4ade1995c72d99e",
+      "sha256": "adfa429d9a0c7f2af553be6f901d96ebd451a85d6a0bfb32a0126ce1d82b4221",
+      "alpha": {
+        "transparent": 985264,
+        "solidAtLeast250": 553875,
+        "softFrom2To249": 24231,
+        "borderMax": 1
+      }
+    },
+    {
+      "name": "gems",
+      "width": 1254,
+      "height": 1254,
+      "beforeSha256": "f42add051ee28cb27c0cbe4765d4c3df7ddab0f609b507e58dddd5ef3685e489",
+      "sha256": "6ca06f8d0d38f31d7d63a6afa31afca4524ce9eca8d9999758b4592950ff191d",
+      "alpha": {
+        "transparent": 580607,
+        "solidAtLeast250": 862689,
+        "softFrom2To249": 105504,
+        "borderMax": 1
+      }
+    },
+    {
+      "name": "books",
+      "width": 1254,
+      "height": 1254,
+      "beforeSha256": "d0cef54a9da8ab3092c5c8fc22a59097ccd75cc1863f8a7a2b5152122672d83d",
+      "sha256": "1a4a3d3e806287404226f61ceeac64091494b0c2b1e127e63a6740af708ffaf8",
+      "alpha": {
+        "transparent": 702294,
+        "solidAtLeast250": 846272,
+        "softFrom2To249": 17044,
+        "borderMax": 1
+      }
+    }
+  ]
+}

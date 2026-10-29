@@ -1,0 +1,89 @@
+{
+  "kind": "salvien-world-map",
+  "version": 1,
+  "date": "2026-10-23",
+  "file": "salvien.png",
+  "sha256": "31adf204890d80235bc9e4d2d1f58b6b306cab9c5a4f7eb46a3a1c29624ae466",
+  "width": 1672,
+  "height": 941,
+  "world": {
+    "name": "薩爾維恩",
+    "englishName": "Salvien",
+    "meaning": "神聖與黑暗力量的交界"
+  },
+  "usage": "使用者核准並明確指定用於本遊戲世界地圖",
+  "cursor": {
+    "file": "location-cursor.png",
+    "sha256": "c56fba7f37528d7fb3ddf3b77c4ab7016ff601d388838ff7dc8b56162b59599d",
+    "original": "location-cursor-original.png",
+    "originalSha256": "5a1bfd2f21734b20514b2ec3c6db5cf235c92124ba92043ff648757370c2982f",
+    "size": 128,
+    "alpha": true,
+    "style": "cartoon-painted-dark-green-light-green-narrow-arrow"
+  },
+  "labelCovers": {
+    "original": "salvien-labels-cleared-original.png",
+    "originalSha256": "5c52033992a9c14ae8120ff186e9afb7f0b19fca75b9ef7c4fecce39324a8ac4",
+    "width": 1672,
+    "height": 941,
+    "usage": "僅於場景名稱hover／focus／選取時遮除原圖文字，核准地圖本身保持不變",
+    "files": [
+      {
+        "file": "label-cover-desert.png",
+        "sha256": "b8323d9f60bac79fda9109b5ac3edbed2e082c9394fe5360ab3770a5e513742b",
+        "left": 911,
+        "top": 638,
+        "width": 68,
+        "height": 42
+      },
+      {
+        "file": "label-cover-icefield.png",
+        "sha256": "70e374880dd5a63e745b6a8c6f15a35c4273eb57a0ca055f747f769f3801f2a0",
+        "left": 921,
+        "top": 125,
+        "width": 68,
+        "height": 42
+      },
+      {
+        "file": "label-cover-mist_forest.png",
+        "sha256": "7fad3c8fe03f27bfcb284ee6f0dbe6dc7b193e5b0a1cd9c7d720785d03a8bfce",
+        "left": 1295,
+        "top": 304,
+        "width": 112,
+        "height": 42
+      },
+      {
+        "file": "label-cover-lava_mountain.png",
+        "sha256": "db0fff493b6ef69098985e58a2fcaf9c7373534a1b1f2f3b69d536de8f06be69",
+        "left": 604,
+        "top": 493,
+        "width": 90,
+        "height": 42
+      },
+      {
+        "file": "label-cover-swamp.png",
+        "sha256": "43e7fe7e5f07eaf3bed4e05261fca04d026d09fc7503269c63cbb019a3528fad",
+        "left": 1293,
+        "top": 606,
+        "width": 112,
+        "height": 42
+      },
+      {
+        "file": "label-cover-thunder_peak.png",
+        "sha256": "e379c9167c161f09e3c6f447938b0d239e3803e59568ec1a5fbbb672ca240d43",
+        "left": 1020,
+        "top": 522,
+        "width": 90,
+        "height": 42
+      },
+      {
+        "file": "label-cover-undead_mountains.png",
+        "sha256": "0eca22cd3a874da0f31146982772099c05bd50e5ed406b2895466e25bfd1a560",
+        "left": 884,
+        "top": 306,
+        "width": 112,
+        "height": 42
+      }
+    ]
+  }
+}
