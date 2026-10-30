@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "file": "chaos-reference.png",
+  "width": 406,
+  "height": 600,
+  "sha256": "619855c231fb0a7af060f2a673eb5bacc24fd6218ebcecdd7d0e3c755951468d",
+  "authorization": "User supplied and explicitly authorized reproduction and direct use on 2026-10-30.",
+  "use": "Chaos and godforged chaos equipment icon, tooltip and detail; original pixels retained. CSS nine-slice border and blank interior sampling; subdued lower-left red glow.",
+  "borderSlice": [
+    40,
+    28,
+    42,
+    30
+  ],
+  "blankInterior": {
+    "x": 240,
+    "y": 370,
+    "width": 120,
+    "height": 180
+  },
+  "export": "images/ui/equipment/chaos-reference.png"
+}
