@@ -1,5 +1,15 @@
 # 神界大地圖
 
+## 返回門周圍岩台透視修訂（2026-10-30，版本2）
+
+使用者指出門體較直立、附近地形較斜，要求修改岩石造形與角度。以第一版完整PNG為輸入，內建imagegen局部調整門旁斷岩、門腳承托平台與階梯，補足厚度、接地陰影及斜向三分之四透視。門框與藍白門洞造型／位置維持，保留原CSS動畫及互動熱區；有局部及細部生成差異。RPG Mote Studio沿用本聊天無法連線的替代流程。
+
+god-realm-before-rock-perspective.png保留首版大型門背景，source.json.previous核對其SHA；god-realm.png為最新版本，source.json.version=2。使用者提供的JPG原稿不變。
+
+完整編修提示詞：
+
+Precise LOCAL inpainting edit of this exact existing fantasy world-map background, not a redraw. Canvas 1678x937, keep full framing and scale. The user likes the existing blue oval portal on the left battlefield but its immediate support rocks don't fit its relatively upright orientation versus the slanted island landscape. Change ONLY the rock formation, supporting terrace, nearby broken stones and stair approach IMMEDIATELY around that portal, approximately x=12%..29%, y=36%..71%. Keep the existing bronze-and-stone portal arch silhouette, ornament, blue luminous aperture, aperture center and angle unchanged (so the game's live animated overlay still fits). Give the portal a clearly volumetric thick wedge-shaped rocky plinth, a coherent slightly angled landing and broken stone steps receding into the island in the same oblique elevated three-quarter perspective as the nearby ruin foundations and lava channels. Reshape the jagged rock outcrops flanking and behind the gate to transition naturally from its upright arch into the island's diagonal terrain planes. Show plausible top surfaces and thick darker vertical rock faces, contact shadows under the portal feet, interlocked fractured strata, and restrained warm lava reflected light. The pedestal must be irregular natural basalt integrated into the island, not a flat front-facing rectangular slab or a new grand symmetrical staircase. Make the rocks and portal look like one deliberately built ancient ruin on an angled volcanic island, not an upright cutout pasted onto a steep surface. Preserve the same dark ink outlines, brushwork, scale and palette. Everything outside this local rock region must stay as unchanged as possible: entire rest of battlefield, floating island silhouette, lava routes, all other islands/dragon/whale/chaos vortex/sanctuary, ornate frame and empty bottom parchment. NO text, numbers, labels, arrows, circles or new UI. Do not tilt or move the whole map or portal, do not add a second portal or enlarge the portal.
+
 - 來源：使用者於2026-10-30提供god_world.jpg，明確指定用於本遊戲神界大地圖並授權編修。補充要求太古戰場左側原石門改大型傳送門、與遺跡場景相結合並加動畫光效。
 - 使用依據僅限本次使用者提供並指定的圖稿，不推定其他素材或外部素材包授權。保留未修改原稿god-world-user-original.jpg；SHA256與尺寸見source.json。
 - RPG Mote Studio本次連線無法開啟，採內建imagegen直接編修提供的圖。保留浮島／龍／鯨／聖域／漩渦／遺跡及框邊構圖，移除三處名稱／關卡數、底部舊標題及右上烘焙關閉圖案，原石門改為遺跡一體的石造拱門／階台／藍白門洞。圖稿仍有細部生成差異，非逐像素保留原圖。

@@ -1,11 +1,11 @@
 {
   "kind": "god-world-map",
-  "version": 1,
+  "version": 2,
   "date": "2026-10-30",
   "file": "god-realm.png",
   "width": 1678,
   "height": 937,
-  "sha256": "1c73021d71a1f9dfff608610b6af680d3bc8a26a1f452ce435ef9e76fb735674",
+  "sha256": "b9feadeba98e3b3b64583f2ca8f2dbdd492b9f96c3b5b3b0b94f16ef02b7a1a4",
   "original": {
     "file": "god-world-user-original.jpg",
     "width": 2752,
@@ -32,5 +32,11 @@
     "y": 51.5,
     "width": 13.5,
     "height": 29
-  }
+  },
+  "previous": {
+    "file": "god-realm-before-rock-perspective.png",
+    "sha256": "1c73021d71a1f9dfff608610b6af680d3bc8a26a1f452ce435ef9e76fb735674",
+    "usage": "首版大型門，使用者要求調整門旁岩石透視前版本"
+  },
+  "rockPerspectiveEdit": "保留門框與藍白門洞的位置／角度，將門旁岩層、承托平台與階梯調成接續浮島的斜向三分之四透視及厚實斷岩；細部生成差異。"
 }
