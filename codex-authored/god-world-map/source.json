@@ -1,0 +1,36 @@
+{
+  "kind": "god-world-map",
+  "version": 1,
+  "date": "2026-10-30",
+  "file": "god-realm.png",
+  "width": 1678,
+  "height": 937,
+  "sha256": "1c73021d71a1f9dfff608610b6af680d3bc8a26a1f452ce435ef9e76fb735674",
+  "original": {
+    "file": "god-world-user-original.jpg",
+    "width": 2752,
+    "height": 1536,
+    "sha256": "57187d7dd436ba8ac3ad51e052610c0527319d119b1793321c165c1d9e9e1237"
+  },
+  "usage": "使用者明確指定的神界世界地圖；內建imagegen去除烘焙文字與關卡／舊標題／舊關閉圖案，原石門改成遺跡一體大型返回門。所有名稱／進度與神界標題在遊戲由表疊加。",
+  "locations": {
+    "god_battlefield": {
+      "x": 38.1,
+      "y": 56
+    },
+    "god_chaos": {
+      "x": 63.4,
+      "y": 59.1
+    },
+    "god_sanctuary": {
+      "x": 80.7,
+      "y": 35
+    }
+  },
+  "returnPortal": {
+    "x": 20.4,
+    "y": 51.5,
+    "width": 13.5,
+    "height": 29
+  }
+}
