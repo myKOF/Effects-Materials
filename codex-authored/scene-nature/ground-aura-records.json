@@ -1,0 +1,38 @@
+{
+  "task": "GOD-GROUND-AURA-20261030",
+  "toolChoice": "Built-in image_gen for two original painted ground textures. Sanctuary geometric floor and magic seals are native Canvas art in battle-decor.js, using the established procedural art workflow for exact repeat geometry. No external images supplied.",
+  "assets": [
+    {
+      "key": "battlefield",
+      "prompt": "Use case: stylized-concept. Asset type: ORIGINAL seamless repeatable SQUARE ground texture for a stylized dark fantasy 2D RPG. View directly top-down, uniformly lit, full bleed opaque square, edges matching seamlessly on all sides. Hand-painted broad simple shapes and visible soft brush strokes, simplified game art rather than a photograph, no photogrammetry, no hyperreal pores or tiny gravel noise, no depth-of-field, no vignette or spotlight. Restrained contrast to keep small game characters legible. No standing objects, ruins, bones, weapons, plants, symbols, lettering, rune circles, sky, stars, borders or UI. A continuous solid surface across the full image, NO holes or missing sections. Theme: primordial warfield charred earth, stylized brush-painted warm charcoal-brown and desaturated maroon soil with a handful of chunky shallow dark rock shapes embedded flush into the ground. Broad soft patches of gray ash, a few gentle black scorch marks, restrained THIN ember-orange veins occupying only a tiny fraction of the surface. Quiet painterly background with large grouped brush shapes and reduced small detail, like a painted game map. Keep it somber and ancient, readable warm brown gray soil, not polished stone, not a realistic lava photograph, not a sea of bright red cracks. No deep canyon edges or protruding side faces.",
+      "generatedFile": "exec-093ab2d5-935b-46b0-8448-903a438a0813.png",
+      "source": "generation-sheets/ground-aura-battlefield.png",
+      "sourceSha256": "6872ee751f75b0c333f313312b5ba8f54850e899f902e159844ed524f024b381",
+      "export": "ground/ground_god_battlefield.png",
+      "exportSha256": "906996ca5ca1886c8ed1cac3279f73a67c065d68bd1d837446f0d87fd44f4052"
+    },
+    {
+      "key": "chaos",
+      "prompt": "Use case: stylized-concept. Asset type: ORIGINAL seamless repeatable SQUARE ground texture for a stylized dark fantasy 2D RPG. View directly top-down, uniformly lit, full bleed opaque square, edges matching seamlessly on all sides. Hand-painted broad simple shapes and visible soft brush strokes, simplified game art rather than a photograph, no photogrammetry, no hyperreal pores or tiny gravel noise, no depth-of-field, no vignette or spotlight. Restrained contrast to keep small game characters legible. No standing objects, ruins, bones, weapons, plants, symbols, lettering, rune circles, sky, stars, borders or UI. A continuous solid surface across the full image, NO holes or missing sections. Theme: solid mystical chaos realm earth and dark smooth weathered violet-gray stone, muted indigo and plum brush-painted mineral patches, a few very narrow hairline branching fissures with faint pale cyan-violet light deep inside them. The whole ground is CONTINUOUS SOLID LAND that looks safe to walk across. Cracks must be short and thin, almost like fine scratches, only 1-3 pixels thick at final game scale, far less than one percent of image width. NO wide gaps, NO black holes, NO islands, NO floating land, NO ravines, NO exposed vertical cliff sides, NO geometric polygon cells, NO cosmic nebula visible under the ground. Simplified painterly fantasy soil with subtle color richness, mostly dark violet charcoal, softly lit upper left, not bright blue cracked mud.",
+      "generatedFile": "exec-f307ac06-b661-4165-a47c-8e212ccbc00a.png",
+      "source": "generation-sheets/ground-aura-chaos.png",
+      "sourceSha256": "013c7bd1839c948b7a088a8e1587bb8203296f8e0dc0621473e023ab3f70291b",
+      "export": "ground/ground_god_chaos.png",
+      "exportSha256": "cc6e9c6c6b926a3cbf5611e60d3ad9c935a5934fcad2b9e1bd53963cc9d7d539"
+    }
+  ],
+  "sanctuary": {
+    "source": "battle-decor.js:drawSanctuaryFloor",
+    "size": [
+      1024,
+      1024
+    ],
+    "method": "Periodic marble fields, integer-spaced ivory/lapis panels, wrapped gold seams; Canvas output baked into ground/ground_god_sanctuary.png and identical runtime generator.",
+    "sourceSha256": "5dfac777c54029562f80fd48167ec0ffd3a5788dd4af50fd115d6d228f4fc740",
+    "export": "ground/ground_god_sanctuary.png",
+    "exportSha256": "21ff5474531682e6add54c2964eb3d33d88685660aa9e48f422512e116b95c16",
+    "effects": "Fixed chunk-center geometric seal with two counter-rotating cyan/lavender flow arcs; Canvas atlas native art, no random scene props or collisions."
+  },
+  "sky": "Runtime sky loader, atlas specs, sprites and Renderer hookup removed. Existing sky sources and exports retained as unused historical assets.",
+  "sampling": "Battlefield and chaos runtime ground Canvas uses a mirrored 2x2 repeat of the unmodified exported painting. Each adjacent edge and both texture wrap edges have identical RGBA pixels."
+}
