@@ -1,0 +1,397 @@
+{
+  "task": "GOD-SCENERY-ART-REDO-20261030",
+  "tool": "built-in image_gen",
+  "referenceUse": "The four user-attached pictures were observed only for sky mood and style. They were not copied into the project or supplied as generation inputs. All nine source artworks are original text-to-image generations.",
+  "toolChoice": "RPG Mote Studio was verified reachable in the preceding task. Its pixel pencil/layer workflow is unsuitable for producing these large painted sky and ground assets; built-in image_gen was selected.",
+  "assets": [
+    {
+      "key": "battlefieldSky",
+      "prompt": "Use case: stylized-concept. Asset type: original hand-painted high-fantasy SKYBOX BACKGROUND for a 2.5D RPG, wide landscape 3:2 canvas. Rich atmospheric painterly cinematic environment art with convincing volume and depth. Full-bleed opaque image. Sky occupies 90 percent of frame; only a distant barely visible skyline in the lowest 10 percent, no foreground, ground plane, props, people, UI, text, watermark or border. Deliberately make a NEW composition, not a recreation of any existing image. Fine detailed clouds and starfields with large readable masses, restrained bright highlights, deep shadow structure, NOT flat gradients or vector linework. Theme: a desolate primordial gods' battlefield sky. Enormous charcoal and cold blue-gray stormcloud banks ripped open by a winding pale turquoise dimensional wound that crosses diagonally from upper-right to center-left, with fragments of dark broken sky suspended around it. Sparse tiny stars glimpsed through the cold rift. A turbulent immense circular storm formation offset left, windblown mist sweeping toward the distance, a tragic war-torn atmosphere, distant silhouettes of shattered black fortress spires against gray fog along the bottom. No golden magic circle or neon laser stripes. Barely visible dull ember-red smoke at the extreme lower edge. Majestic and dreadful rather than peaceful heaven.",
+      "generatedFile": "exec-c2a74ec3-16fe-41ec-99fe-74921274d1e1.png",
+      "source": "generation-sheets/redo-battlefieldSky.png",
+      "sourceSha256": "ab37696d74a9d840670e6a435cdce0128e5ad7d358d1c13d43a55d3705946fa3",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "export": "painted/sky-god-battlefield.png",
+      "exportSha256": "591bdb8f9c79c27be60b32f9843eced00e273cfedd2ed7fa46ba021a5ea3fc14"
+    },
+    {
+      "key": "chaosSky",
+      "prompt": "Use case: stylized-concept. Asset type: original hand-painted high-fantasy SKYBOX BACKGROUND for a 2.5D RPG, wide landscape 3:2 canvas. Rich atmospheric painterly cinematic environment art with convincing volume and depth. Full-bleed opaque image. Sky occupies 90 percent of frame; only a distant barely visible skyline in the lowest 10 percent, no foreground, ground plane, props, people, UI, text, watermark or border. Deliberately make a NEW composition, not a recreation of any existing image. Fine detailed clouds and starfields with large readable masses, restrained bright highlights, deep shadow structure, NOT flat gradients or vector linework. Theme: a boundless deep midnight-blue cosmic void with an immense luminous flowing stellar river twisting in multiple broad braided cyan and violet streams, rising from far lower-right through center and sweeping toward upper-left. Rich purple nebula knots and dense fine stars, layered distant nebulous clouds, delicate blue-green aurora curtains and depth between near and far streams. The river should be a thick natural celestial formation of stars and luminous gas, not a thin outlined ribbon or a flat horizontal strip. Only extremely distant shadowy floating land fragments at bottom, no terrestrial forest or buildings, no visible person. Exuberant and mysterious cosmic scale.",
+      "generatedFile": "exec-dbefc627-5277-4e9a-8eee-3d103ebca37a.png",
+      "source": "generation-sheets/redo-chaosSky.png",
+      "sourceSha256": "a958901501f462181411f24058a09ec5bc7bf166c924a3bd4f681012b5834c91",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "export": "painted/sky-god-chaos.png",
+      "exportSha256": "31442d8231abf725d81e9289bcc3dc5c8f0c13a8ce77722d3eeaa521d14388bc"
+    },
+    {
+      "key": "sanctuarySky",
+      "prompt": "Use case: stylized-concept. Asset type: original hand-painted high-fantasy SKYBOX BACKGROUND for a 2.5D RPG, wide landscape 3:2 canvas. Rich atmospheric painterly cinematic environment art with convincing volume and depth. Full-bleed opaque image. Sky occupies 90 percent of frame; only a distant barely visible skyline in the lowest 10 percent, no foreground, ground plane, props, people, UI, text, watermark or border. Deliberately make a NEW composition, not a recreation of any existing image. Fine detailed clouds and starfields with large readable masses, restrained bright highlights, deep shadow structure, NOT flat gradients or vector linework. Theme: an eternal celestial paradise. A glorious luminous golden star river intertwined with pearl-blue, lavender and rose cosmic currents, sweeping upward through the center-right in a broad graceful S and opening into delicate spiraling branches toward the upper left. Luminous small constellations and fine stars throughout a dark indigo-violet firmament. Sculptural pale lilac and warm ivory cloud banks roll in along the lower edge, peach-gold horizon glow beneath them. Brilliant flowing celestial light has texture and intricate sparkling filaments, framed by beautiful deep purple areas for contrast. The clouds have huge volume and soft sunlit edges. No terrestrial objects, no buildings, no people, no text. Grand heavenly sanctuary atmosphere, not a flat white sky.",
+      "generatedFile": "exec-ff360524-ed1f-4e0e-9449-8fb41ac10c9a.png",
+      "source": "generation-sheets/redo-sanctuarySky.png",
+      "sourceSha256": "59d9670171fdca8b5a0d05f09d687c858368b3d6a514dddb3cbea71bb16598e3",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "export": "painted/sky-god-sanctuary.png",
+      "exportSha256": "f6d77d3e464ecd20913d65135dfce9039f11bc139986eac3ebfa32f8f4613301"
+    },
+    {
+      "key": "battlefieldGround",
+      "prompt": "Use case: stylized-concept. Asset type: square seamless TILEABLE GROUND MATERIAL for a hand-painted high-fantasy RPG. Opaque full-bleed square texture, edges should join seamlessly in every direction, uniform detail and lighting across the entire tile, no border, no centered vignette, no text, no characters, no large standing props, no sky or horizon. Detailed painterly physical surfaces and rich material variation, not flat vector shapes. Texture fills entire canvas; a consistent top-down overhead material view suitable to be projected onto the game ground. Primordial battlefield of the gods, charred black-brown earth and volcanic slag. Uneven scorched sediment plates, crushed gravel and fine pale ash deposits, diagonal dragging and impact gouges, scattered tiny rusted metal fragments embedded in soot. Irregular molten orange-red lava fissures branch naturally between dark crust, small localized smoldering patches, most surface dark textured charcoal and reddish brown. Narrow lava is a dramatic accent, not an all-orange lava lake. A tragic ancient blasted battlefield, not a temple floor. ABSOLUTELY NO magic circles, NO runes, NO geometric tile grid, NO polished blue stone. Large irregular natural patches at varied scales, not regular Voronoi cracked mud cells.",
+      "generatedFile": "exec-a20fd5ab-fd97-43d1-bfae-61c9c532237e.png",
+      "source": "generation-sheets/redo-battlefieldGround.png",
+      "sourceSha256": "a881ebdffa906f3a6ca4ef7cb48a56c1bad61d0e12fc2d1635e5bbb71b2c49ba",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "export": "ground/ground_god_battlefield.png",
+      "exportSha256": "e3077892cdce16756aca1b4419a5d505654180f552893b6c0082c67e5644ddee"
+    },
+    {
+      "key": "chaosGround",
+      "prompt": "Use case: stylized-concept. Asset type: square seamless TILEABLE GROUND MATERIAL for a hand-painted high-fantasy RPG. Opaque full-bleed square texture, edges should join seamlessly in every direction, uniform detail and lighting across the entire tile, no border, no centered vignette, no text, no characters, no large standing props, no sky or horizon. Detailed painterly physical surfaces and rich material variation, not flat vector shapes. Texture fills entire canvas; a consistent top-down overhead material view suitable to be projected onto the game ground. An impossible broken world suspended over a bottomless cosmic void. A mosaic of irregular FLOATING BLACK OBSIDIAN AND IRIDESCENT SILVER STONE SLABS seen from overhead with visible thick jagged deep side faces in their cut edges. Slabs have varied polygonal silhouettes and sizes, solid sculptural stratified depth, lustrous midnight violet mirror surfaces with silver mineral veining and narrow cyan luminous fractures. Wide winding EMPTY gaps between plates expose a far deeper dark purple blue nebula with very tiny distant stars. The platforms occupy about 65 percent of the image, empty cosmic abyss occupies the other 35 percent. Several small detached chips hovering at different depths in gaps. Not blue dry soil, NOT a flat black-line cracked-mud texture, NOT regular cells, NOT squares, NO rune circles. Convincing heavy floating rock thickness and different elevation through shading, top faces softly lit upper left, undersides very dark with violet rim light.",
+      "generatedFile": "exec-57f69c03-3dfe-4215-ac7c-00e9730c1088.png",
+      "source": "generation-sheets/redo-chaosGround.png",
+      "sourceSha256": "59926240882c29d42a7560178b811c55eb8a906e1b550b84799b59bbcc4014a2",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "export": "ground/ground_god_chaos.png",
+      "exportSha256": "944a2d980d592260267c5ffe1cae423f1aa3dbacceb44a5203143e4d7eb3e92d"
+    },
+    {
+      "key": "sanctuaryGround",
+      "prompt": "Use case: stylized-concept. Asset type: square seamless TILEABLE GROUND MATERIAL for a hand-painted high-fantasy RPG. Opaque full-bleed square texture, edges should join seamlessly in every direction, uniform detail and lighting across the entire tile, no border, no centered vignette, no text, no characters, no large standing props, no sky or horizon. Detailed painterly physical surfaces and rich material variation, not flat vector shapes. Texture fills entire canvas; a consistent top-down overhead material view suitable to be projected onto the game ground. An ornate glorious celestial sanctuary floor, clear readable architectural detail rather than a blank white wash. Polished PEARL IVORY AND DEEP DESATURATED LAPIS BLUE marble inlaid with warm antique gold, sculpted stone panels at irregular large sizes, fine interlocking gold seams, small star-shaped ivory mosaics and flowing curved gold filigree channels, bevelled stone edges, refined engraved arcane calligraphy and diamond details. The pattern is sophisticated but restrained enough for a game battle ground, ivory marble occupies 50 percent, medium deep blue stone occupies 35 percent, gold and muted luminous cyan engraving occupy 15 percent. Subtle iridescent reflections, clearly visible fine stone veins and panel construction, no giant white glow and no blur. Do not draw huge dominating pentagrams. Luxurious heavenly architecture with contrast between gold metal, blue inlay and ivory stone.",
+      "generatedFile": "exec-50114c34-44aa-4977-b2a4-8ba6b651f812.png",
+      "source": "generation-sheets/redo-sanctuaryGround.png",
+      "sourceSha256": "7d81eed4b40010fb8589a842d6993550e13473bd476551d39f2675fd83c928fb",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "export": "ground/ground_god_sanctuary.png",
+      "exportSha256": "32f2c31e162e6b6a0ca48d5821f4f38630ebc08c0e3d7c5b555cdd960babb076"
+    },
+    {
+      "key": "battlefieldProps",
+      "prompt": "Use case: stylized-concept. Asset type: original RPG environment sprite TILESET SHEET with SIX isolated COMPLETE scenery props in a strict 3 columns by 2 rows grid, wide landscape 1536x1024 canvas. Each object sits entirely inside its own equal 512x512 cell with at least 35 pixels of fully transparent margin on every side. REAL transparent alpha background. No text, labels, borders or characters. Painterly sculptural fantasy environment art viewed orthographically from a 35-degree elevated three-quarter camera, consistent soft upper-left lighting, physical thickness, detailed but readable broad surfaces at 100-pixel game size, tactile shadows and material, NOT flat vector icons. Variety in silhouette and height, the six objects must be completely distinct. No connecting ground or background between the objects, modest small soft contact shadows only, nothing cropped or overlapping cells. Theme: tragic primordial divine WARFIELD. Mostly charcoal basalt, burnt rusted iron, soot, dark worn bronze, tiny ember highlights. Old battlefield devastation rather than ornate temple decor. Row 1 left: shattered bulky black stone fortification rampart, a jagged broken section with burnt metal bracing and rubble; row 1 center: half-buried colossal warrior helmet, cracked antique bronze with a broken horn, dents and ash coating; row 1 right: two leaning tall scorched battle standards with torn deep burgundy fabric, snapped spear shafts, broken metal crest, no readable symbols. Row 2 left: a smashed ancient siege chariot wheel and heavy broken axle with charred black structural ribs, tiny embers; row 2 center: broad low impact crater, thick ragged black slag rim, smoldering orange interior and a little gray smoke, no magic diagram; row 2 right: low pile of shattered swords, spearheads, splintered war shields and ash, grim ancient remains, no bodies. Make low pieces clearly different from tall pieces. No religious magic circles, no white marble, no regular plants.",
+      "generatedFile": "exec-03f3b0d1-6cf0-41d2-bd9a-e87a42fa69f8.png",
+      "source": "generation-sheets/redo-battlefieldProps.png",
+      "sourceSha256": "b42a2539041862e53c2523f608b8f642747cca01f4caaeb80604773dd6dd2b0a",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "objects": [
+        {
+          "key": "warRampart",
+          "crop": {
+            "left": 0,
+            "top": 0,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/warRampart.png",
+          "sha256": "5775c0ae67dc976031d4f13b3f1992317b009aba820b9b4fc93a73c8c3ec78a7"
+        },
+        {
+          "key": "titanHelm",
+          "crop": {
+            "left": 512,
+            "top": 0,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/titanHelm.png",
+          "sha256": "eba710c6d211141ce987d0a217e2e3f526e048c41e9350b218f1f73d8a82516b"
+        },
+        {
+          "key": "charredStandard",
+          "crop": {
+            "left": 1024,
+            "top": 0,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/charredStandard.png",
+          "sha256": "19af156990283ae89fb73ebedb49d1e02cb144b178042c39bb7a18e7b1015fed"
+        },
+        {
+          "key": "siegeWreck",
+          "crop": {
+            "left": 0,
+            "top": 512,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/siegeWreck.png",
+          "sha256": "c7375456dc953cc7fc90169c6875c154450463d6e751485ebc4477ca9b0998fd"
+        },
+        {
+          "key": "emberCrater",
+          "crop": {
+            "left": 512,
+            "top": 512,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/emberCrater.png",
+          "sha256": "d728d931d63b3a24bfc8b1e003672c0c8ea3328f0bad64775b6e67d0a23fd96f"
+        },
+        {
+          "key": "bladeGrave",
+          "crop": {
+            "left": 1024,
+            "top": 512,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/bladeGrave.png",
+          "sha256": "55bb6ea2ce925d8fc435fe4767c08d0ec8c31c013b923b276e704a8117d6729f"
+        }
+      ]
+    },
+    {
+      "key": "chaosProps",
+      "prompt": "Use case: stylized-concept. Asset type: original RPG environment sprite TILESET SHEET with SIX isolated COMPLETE scenery props in a strict 3 columns by 2 rows grid, wide landscape 1536x1024 canvas. Each object sits entirely inside its own equal 512x512 cell with at least 35 pixels of fully transparent margin on every side. REAL transparent alpha background. No text, labels, borders or characters. Painterly sculptural fantasy environment art viewed orthographically from a 35-degree elevated three-quarter camera, consistent soft upper-left lighting, physical thickness, detailed but readable broad surfaces at 100-pixel game size, tactile shadows and material, NOT flat vector icons. Variety in silhouette and height, the six objects must be completely distinct. No connecting ground or background between the objects, modest small soft contact shadows only, nothing cropped or overlapping cells. Theme: alien structures hanging in the cosmic void, black-violet mineral and iridescent silver metal with subtle narrow icy cyan energy seams, weathered otherworldly physical materials. Row 1 left: levitating upside-down ancient citadel foundation fragment, broad ledge above and a taper of deeply layered rock below, several disjoint black architectural ribs; row 1 center: asymmetric angular dimensional arch made of three offset disconnected dark polygonal frames with a narrow violet tear of space, NOT a circular ring; row 1 right: a cluster of seven floating unequal carved metallic cubes and triangular blocks orbiting a small bright cyan focal point, no ground pedestal. Row 2 left: long curved alien spine-like fossil of silver-black cosmic stone, five separated ribs with violet inner glow, low sweeping silhouette; row 2 center: a branching alien crystal coral growth in dark blue glass and silver tips, broad asymmetrical shapes, tiny light in the gaps; row 2 right: three thin impossible levitating tablets of dark stone at staggered heights, decorated with sparse crystalline veins rather than text, each tablet splitting into smaller floating chips. No vegetation, soil, ordinary medieval pillars or repeated circular armillary rings.",
+      "generatedFile": "exec-63084e0d-6e2f-4930-91e3-4bc77c9566aa.png",
+      "source": "generation-sheets/redo-chaosProps.png",
+      "sourceSha256": "9cba8bfc025d09faa5c199e02df342074b551c569427d0334f061910c6c67298",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "objects": [
+        {
+          "key": "riftAnchor",
+          "crop": {
+            "left": 0,
+            "top": 0,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/riftAnchor.png",
+          "sha256": "b527cccb6b75fc5332ca41e76c1f36ac010b1a57ed6a04caec7cf4939be8cc3d"
+        },
+        {
+          "key": "voidArch",
+          "crop": {
+            "left": 512,
+            "top": 0,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/voidArch.png",
+          "sha256": "9f15a572e512d4112eb16738b28e09305ef0cf7c4e31d18697336c522b158875"
+        },
+        {
+          "key": "orbitCubes",
+          "crop": {
+            "left": 1024,
+            "top": 0,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/orbitCubes.png",
+          "sha256": "2d35247e211977fcfb800b74434832ee94a3c67e8d9e4f3dab386ce82cc3d9db"
+        },
+        {
+          "key": "astralSpine",
+          "crop": {
+            "left": 0,
+            "top": 512,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/astralSpine.png",
+          "sha256": "d5b1097d97f8e12578eca625943a839133ac150296ab81cf09f14cae430a96bb"
+        },
+        {
+          "key": "nullBloom",
+          "crop": {
+            "left": 512,
+            "top": 512,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/nullBloom.png",
+          "sha256": "e46fa429d00bc6963ed59c9b055f49198b509d06c070e66122164ad17ff1958d"
+        },
+        {
+          "key": "riftObelisk",
+          "crop": {
+            "left": 1024,
+            "top": 512,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/riftObelisk.png",
+          "sha256": "020a03661b546e6600bbc00f632c9da216f36887fd29302917a96d902e1ad3df"
+        }
+      ]
+    },
+    {
+      "key": "sanctuaryProps",
+      "prompt": "Use case: stylized-concept. Asset type: original RPG environment sprite TILESET SHEET with SIX isolated COMPLETE scenery props in a strict 3 columns by 2 rows grid, wide landscape 1536x1024 canvas. Each object sits entirely inside its own equal 512x512 cell with at least 35 pixels of fully transparent margin on every side. REAL transparent alpha background. No text, labels, borders or characters. Painterly sculptural fantasy environment art viewed orthographically from a 35-degree elevated three-quarter camera, consistent soft upper-left lighting, physical thickness, detailed but readable broad surfaces at 100-pixel game size, tactile shadows and material, NOT flat vector icons. Variety in silhouette and height, the six objects must be completely distinct. No connecting ground or background between the objects, modest small soft contact shadows only, nothing cropped or overlapping cells. Theme: eternal celestial paradise, polished ivory marble, richly sculpted but restrained gold filigree, deep lapis-blue inlay, pale aquamarine crystals, clear light and shade. Row 1 left: a monumental elegant freestanding pointed celestial arch with sculpted feather and star details and two distinct footings, no door and no magic portal; row 1 center: a low circular astronomical sundial of white-gold stone with a tilted slender gold gnomon and deep blue face, engraved star chart but NO readable letters; row 1 right: an elegant tiered crystal fountain, solid white-gold basins with flowing pale blue luminous water cascading between them. Row 2 left: a broad short flight of graceful ivory and gold stairs with a broken blue mosaic landing and two low curved balustrade ends; row 2 center: a small garden-like arrangement of white and pale-blue crystalline fan leaves surrounding two gold-edged geometric stones, not ordinary bushes or flowers; row 2 right: a low fallen ornate ivory architectural capital and two broken carved cornice pieces with gilded acanthus relief and blue inset, sophisticated sculptural debris. All intact silhouettes, no giant glow washing out shape, no opaque background.",
+      "generatedFile": "exec-576e206a-5d1d-46e5-bb99-5023da45014b.png",
+      "source": "generation-sheets/redo-sanctuaryProps.png",
+      "sourceSha256": "6ad47a2627266b0d5ae933d58bf6780bc5000687f5b544748b1ddee9e3e6ce54",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "objects": [
+        {
+          "key": "celestialArch",
+          "crop": {
+            "left": 0,
+            "top": 0,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/celestialArch.png",
+          "sha256": "85dbb27a5a5973b603e83029705efd6640d461e401dc6b30d902843d88c60c4e"
+        },
+        {
+          "key": "starDial",
+          "crop": {
+            "left": 512,
+            "top": 0,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/starDial.png",
+          "sha256": "24876c2fd22ee9b343a4f31f38bce42be065859bc61957ea2d13c2c4e9b8f85e"
+        },
+        {
+          "key": "crystalFountain",
+          "crop": {
+            "left": 1024,
+            "top": 0,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/crystalFountain.png",
+          "sha256": "3d7c5391a2bc30692b05821b5dc3594ade0fd4b0e3a26cc7df7a61c3828d02ae"
+        },
+        {
+          "key": "sanctumStairs",
+          "crop": {
+            "left": 0,
+            "top": 512,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/sanctumStairs.png",
+          "sha256": "62940552d6b5b248faad0672e496cec3ba000a9ccba941368bb82786bd083b4d"
+        },
+        {
+          "key": "prismGarden",
+          "crop": {
+            "left": 512,
+            "top": 512,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/prismGarden.png",
+          "sha256": "8f30b68782439669c78048d4bb3aaa9dabf75b570542a1790dd8a161e9d96f55"
+        },
+        {
+          "key": "fallenCapital",
+          "crop": {
+            "left": 1024,
+            "top": 512,
+            "width": 512,
+            "height": 512
+          },
+          "original": "originals/fallenCapital.png",
+          "sha256": "e409bc72d14334c0d10e1d26dbe2f73b1a72c5c0e70d9f481df17ab97ebac515"
+        }
+      ]
+    }
+  ],
+  "propKeys": [
+    [
+      "warRampart",
+      "war-rampart"
+    ],
+    [
+      "titanHelm",
+      "titan-helm"
+    ],
+    [
+      "charredStandard",
+      "charred-standard"
+    ],
+    [
+      "siegeWreck",
+      "siege-wreck"
+    ],
+    [
+      "emberCrater",
+      "ember-crater"
+    ],
+    [
+      "bladeGrave",
+      "blade-grave"
+    ],
+    [
+      "riftAnchor",
+      "rift-anchor"
+    ],
+    [
+      "voidArch",
+      "void-arch"
+    ],
+    [
+      "orbitCubes",
+      "orbit-cubes"
+    ],
+    [
+      "astralSpine",
+      "astral-spine"
+    ],
+    [
+      "nullBloom",
+      "null-bloom"
+    ],
+    [
+      "riftObelisk",
+      "rift-obelisk"
+    ],
+    [
+      "celestialArch",
+      "celestial-arch"
+    ],
+    [
+      "starDial",
+      "star-dial"
+    ],
+    [
+      "crystalFountain",
+      "crystal-fountain"
+    ],
+    [
+      "sanctumStairs",
+      "sanctum-stairs"
+    ],
+    [
+      "prismGarden",
+      "prism-garden"
+    ],
+    [
+      "fallenCapital",
+      "fallen-capital"
+    ]
+  ]
+}

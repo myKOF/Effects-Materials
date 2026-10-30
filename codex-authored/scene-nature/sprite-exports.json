@@ -750,5 +750,293 @@
       493,
       507
     ]
+  },
+  {
+    "key": "warRampart",
+    "file": "war-rampart.png",
+    "originalSha256": "5775c0ae67dc976031d4f13b3f1992317b009aba820b9b4fc93a73c8c3ec78a7",
+    "exportSha256": "b5b5f731e94d1d6a2f28baf310469e61b48bb544c7b5f2e3b2ecd7cdb026a102",
+    "crop": {
+      "left": 14,
+      "top": 15,
+      "width": 490,
+      "height": 481
+    },
+    "size": [
+      490,
+      481
+    ]
+  },
+  {
+    "key": "titanHelm",
+    "file": "titan-helm.png",
+    "originalSha256": "eba710c6d211141ce987d0a217e2e3f526e048c41e9350b218f1f73d8a82516b",
+    "exportSha256": "0e33a8de3d34be14e810852b75fac4a7a93b229914c23c5f6a1f0d4aec615422",
+    "crop": {
+      "left": 13,
+      "top": 15,
+      "width": 490,
+      "height": 471
+    },
+    "size": [
+      490,
+      471
+    ]
+  },
+  {
+    "key": "charredStandard",
+    "file": "charred-standard.png",
+    "originalSha256": "19af156990283ae89fb73ebedb49d1e02cb144b178042c39bb7a18e7b1015fed",
+    "exportSha256": "fc1245fb7c1782cbef00ed713b1b2c30a2764594bcafb030881ca154496ce2dc",
+    "crop": {
+      "left": 48,
+      "top": 16,
+      "width": 432,
+      "height": 485
+    },
+    "size": [
+      432,
+      485
+    ]
+  },
+  {
+    "key": "siegeWreck",
+    "file": "siege-wreck.png",
+    "originalSha256": "c7375456dc953cc7fc90169c6875c154450463d6e751485ebc4477ca9b0998fd",
+    "exportSha256": "db0f91e9c00241dfcd19c61ffacc64ce9bb62667aa40b400d503528b79f0ee5c",
+    "crop": {
+      "left": 14,
+      "top": 15,
+      "width": 491,
+      "height": 455
+    },
+    "size": [
+      491,
+      455
+    ]
+  },
+  {
+    "key": "emberCrater",
+    "file": "ember-crater.png",
+    "originalSha256": "d728d931d63b3a24bfc8b1e003672c0c8ea3328f0bad64775b6e67d0a23fd96f",
+    "exportSha256": "bc4f51d1137901b313541a0de93419babcb0792a8950a179e45169e4171cc362",
+    "crop": {
+      "left": 9,
+      "top": 6,
+      "width": 498,
+      "height": 462
+    },
+    "size": [
+      498,
+      462
+    ]
+  },
+  {
+    "key": "bladeGrave",
+    "file": "blade-grave.png",
+    "originalSha256": "55bb6ea2ce925d8fc435fe4767c08d0ec8c31c013b923b276e704a8117d6729f",
+    "exportSha256": "87dcc9a52506a2df7098f88f58c10ec74bad0f1cc2d7c0e6b35cd999cbf99e4f",
+    "crop": {
+      "left": 8,
+      "top": 11,
+      "width": 491,
+      "height": 474
+    },
+    "size": [
+      491,
+      474
+    ]
+  },
+  {
+    "key": "riftAnchor",
+    "file": "rift-anchor.png",
+    "originalSha256": "b527cccb6b75fc5332ca41e76c1f36ac010b1a57ed6a04caec7cf4939be8cc3d",
+    "exportSha256": "0c7ce685392b9b8b785182593401862df81ec2b6e8aa7d375030b64c9be3ceeb",
+    "crop": {
+      "left": 38,
+      "top": 17,
+      "width": 466,
+      "height": 492
+    },
+    "size": [
+      466,
+      492
+    ]
+  },
+  {
+    "key": "voidArch",
+    "file": "void-arch.png",
+    "originalSha256": "9f15a572e512d4112eb16738b28e09305ef0cf7c4e31d18697336c522b158875",
+    "exportSha256": "51abae854b255d1562245e0eef86dbe52f8e5545f6695ac19cb161d983dc5ac6",
+    "crop": {
+      "left": 42,
+      "top": 25,
+      "width": 454,
+      "height": 475
+    },
+    "size": [
+      454,
+      475
+    ]
+  },
+  {
+    "key": "orbitCubes",
+    "file": "orbit-cubes.png",
+    "originalSha256": "2d35247e211977fcfb800b74434832ee94a3c67e8d9e4f3dab386ce82cc3d9db",
+    "exportSha256": "796abfe70a170a51a9c369b1506d816f954763dfe3c2c0c48de5d6cfdd532b9d",
+    "crop": {
+      "left": 60,
+      "top": 29,
+      "width": 409,
+      "height": 459
+    },
+    "size": [
+      409,
+      459
+    ]
+  },
+  {
+    "key": "astralSpine",
+    "file": "astral-spine.png",
+    "originalSha256": "d5b1097d97f8e12578eca625943a839133ac150296ab81cf09f14cae430a96bb",
+    "exportSha256": "19cf7dd0d6befc5a80db462dd4af1d3096c96af9e9b62b592b4ce4af5a561a23",
+    "crop": {
+      "left": 26,
+      "top": 126,
+      "width": 486,
+      "height": 272
+    },
+    "size": [
+      486,
+      272
+    ]
+  },
+  {
+    "key": "nullBloom",
+    "file": "null-bloom.png",
+    "originalSha256": "e46fa429d00bc6963ed59c9b055f49198b509d06c070e66122164ad17ff1958d",
+    "exportSha256": "ad3cceda8f13682060052916c5ffbe42eb0b3d6f9cc8dde08b27b3ecdafe34c9",
+    "crop": {
+      "left": 0,
+      "top": 15,
+      "width": 502,
+      "height": 479
+    },
+    "size": [
+      502,
+      479
+    ]
+  },
+  {
+    "key": "riftObelisk",
+    "file": "rift-obelisk.png",
+    "originalSha256": "020a03661b546e6600bbc00f632c9da216f36887fd29302917a96d902e1ad3df",
+    "exportSha256": "f45c50e4bb4200059b9b8759614e02f8d19bd7cf65e7558b4c6645d4c2fb11b1",
+    "crop": {
+      "left": 78,
+      "top": 12,
+      "width": 386,
+      "height": 476
+    },
+    "size": [
+      386,
+      476
+    ]
+  },
+  {
+    "key": "celestialArch",
+    "file": "celestial-arch.png",
+    "originalSha256": "85dbb27a5a5973b603e83029705efd6640d461e401dc6b30d902843d88c60c4e",
+    "exportSha256": "9241e0e00bdb40da9baef66323eda1659c4c74d14b049c1adf45591fa1a66521",
+    "crop": {
+      "left": 46,
+      "top": 11,
+      "width": 410,
+      "height": 499
+    },
+    "size": [
+      410,
+      499
+    ]
+  },
+  {
+    "key": "starDial",
+    "file": "star-dial.png",
+    "originalSha256": "24876c2fd22ee9b343a4f31f38bce42be065859bc61957ea2d13c2c4e9b8f85e",
+    "exportSha256": "f60765cbab5f4322299eb874b8caf3407224f3fb7fbd2c67ee7eca802ef25f4d",
+    "crop": {
+      "left": 21,
+      "top": 52,
+      "width": 478,
+      "height": 437
+    },
+    "size": [
+      478,
+      437
+    ]
+  },
+  {
+    "key": "crystalFountain",
+    "file": "crystal-fountain.png",
+    "originalSha256": "3d7c5391a2bc30692b05821b5dc3594ade0fd4b0e3a26cc7df7a61c3828d02ae",
+    "exportSha256": "e6cccb192d810b708564c02614822dfc6816e2c1c487abe5cd098745e7314a7d",
+    "crop": {
+      "left": 4,
+      "top": 12,
+      "width": 477,
+      "height": 486
+    },
+    "size": [
+      477,
+      486
+    ]
+  },
+  {
+    "key": "sanctumStairs",
+    "file": "sanctum-stairs.png",
+    "originalSha256": "62940552d6b5b248faad0672e496cec3ba000a9ccba941368bb82786bd083b4d",
+    "exportSha256": "9be0b5ffcd8524fb8d8fe0ae37d164af9ba106e9ef5549aafa83981267025dea",
+    "crop": {
+      "left": 2,
+      "top": 23,
+      "width": 510,
+      "height": 439
+    },
+    "size": [
+      510,
+      439
+    ]
+  },
+  {
+    "key": "prismGarden",
+    "file": "prism-garden.png",
+    "originalSha256": "8f30b68782439669c78048d4bb3aaa9dabf75b570542a1790dd8a161e9d96f55",
+    "exportSha256": "6e1b0c897f725701bf4347ab16fb2329f09fd65c6be302eba4f6e46768e93da2",
+    "crop": {
+      "left": 0,
+      "top": 11,
+      "width": 487,
+      "height": 472
+    },
+    "size": [
+      487,
+      472
+    ]
+  },
+  {
+    "key": "fallenCapital",
+    "file": "fallen-capital.png",
+    "originalSha256": "e409bc72d14334c0d10e1d26dbe2f73b1a72c5c0e70d9f481df17ab97ebac515",
+    "exportSha256": "b4eb7eb8780724d959e8ac0f4fead5e8441ade2459760a4c255e3427151317ed",
+    "crop": {
+      "left": 3,
+      "top": 32,
+      "width": 496,
+      "height": 461
+    },
+    "size": [
+      496,
+      461
+    ]
   }
 ]
