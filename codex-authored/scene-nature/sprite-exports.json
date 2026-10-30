@@ -558,5 +558,197 @@
       512,
       385
     ]
+  },
+  {
+    "key": "godBlade",
+    "file": "divine-god-blade.png",
+    "originalSha256": "f6076bc6386e7a5f2699b9c69c4da8932c90a9fdd88fd93ac1af2dcd388431e1",
+    "exportSha256": "bd9b062b481cea6f1f45e2d77902f0473c4dd429dc7715b51d162d83aea1c7ee",
+    "crop": {
+      "left": 81,
+      "top": 2,
+      "width": 468,
+      "height": 630
+    },
+    "size": [
+      380,
+      512
+    ]
+  },
+  {
+    "key": "warCrown",
+    "file": "divine-war-crown.png",
+    "originalSha256": "30f454b71f7f6a0c87e75a64789809eef3fb3543976e9df69ad3aaed84580029",
+    "exportSha256": "386396d2c5f2ac1a839e8b2bb7a59624e6a50aac2febf4d962a634bef1491a4c",
+    "crop": {
+      "left": 38,
+      "top": 2,
+      "width": 552,
+      "height": 630
+    },
+    "size": [
+      449,
+      512
+    ]
+  },
+  {
+    "key": "sunRelic",
+    "file": "divine-sun-relic.png",
+    "originalSha256": "e8f86b265ad9b4c33b404007eccb595de5c41eade4754eb2de6178a6443fa00b",
+    "exportSha256": "546bfcdb6fb5d35b7045a7986bb2fec6cf022ea8f6f47a0ef77d09400527dcdb",
+    "crop": {
+      "left": 14,
+      "top": 0,
+      "width": 613,
+      "height": 614
+    },
+    "size": [
+      511,
+      512
+    ]
+  },
+  {
+    "key": "chainShard",
+    "file": "divine-chain-shard.png",
+    "originalSha256": "e6643d855c80ba67ab7ad6782dda68c11810a8adfebbdf1815012a0e6a70f8fc",
+    "exportSha256": "46bf298dae929e024adf4f99f36a07fc4b0779c60809276fbbc165d9ccbd32f2",
+    "crop": {
+      "left": 0,
+      "top": 67,
+      "width": 619,
+      "height": 533
+    },
+    "size": [
+      512,
+      441
+    ]
+  },
+  {
+    "key": "voidGyre",
+    "file": "divine-void-gyre.png",
+    "originalSha256": "a786ab4eff0b4097b42cdc4577b644e9121279be2b8b2d423b5879ddf73e10c2",
+    "exportSha256": "b6c5a47712b32d0183fe469efcae60070524b84472bd6ea07b479fd958d20071",
+    "crop": {
+      "left": 62,
+      "top": 28,
+      "width": 552,
+      "height": 589
+    },
+    "size": [
+      480,
+      512
+    ]
+  },
+  {
+    "key": "voidPrism",
+    "file": "divine-void-prism.png",
+    "originalSha256": "22f2b8b95bd4a06dba67eb62b5d6257aeeb1528e565507f374d191435ea36411",
+    "exportSha256": "8f4567a49088396c5988bce4be607827082b2a1943d8ce8d5ab99e73e8c45cb9",
+    "crop": {
+      "left": 68,
+      "top": 6,
+      "width": 504,
+      "height": 614
+    },
+    "size": [
+      420,
+      512
+    ]
+  },
+  {
+    "key": "voidSpindle",
+    "file": "divine-void-spindle.png",
+    "originalSha256": "cb8455609a4d97d8db130ed8f139428bd5f8375c7521891a24031e00db1e7ab6",
+    "exportSha256": "819fd18352ff6e007acfc32b445e439802664e308f2ab7ee323b0f36f3ee40fb",
+    "crop": {
+      "left": 135,
+      "top": 0,
+      "width": 387,
+      "height": 621
+    },
+    "size": [
+      319,
+      512
+    ]
+  },
+  {
+    "key": "voidLens",
+    "file": "divine-void-lens.png",
+    "originalSha256": "b7ffa2b18d1f36523b234159011146760807df1acadd556e18657e3bead02851",
+    "exportSha256": "80e1c0630a34bcfa3c625020b27fb5d774aa80cf82e11cf6cd5a0c9ba6c7db63",
+    "crop": {
+      "left": 29,
+      "top": 17,
+      "width": 576,
+      "height": 608
+    },
+    "size": [
+      485,
+      512
+    ]
+  },
+  {
+    "key": "seraphWing",
+    "file": "divine-seraph-wing.png",
+    "originalSha256": "96abb9687dcc53290cc1493c78662068a5a3e232d7d1944e2026fdfb5dd953da",
+    "exportSha256": "4c3f6184b8c339b821ee3e8d285c6ac48147e3c030168d1d421c5f29f646ea44",
+    "crop": {
+      "left": 138,
+      "top": 57,
+      "width": 424,
+      "height": 532
+    },
+    "size": [
+      408,
+      512
+    ]
+  },
+  {
+    "key": "celestialHarp",
+    "file": "divine-celestial-harp.png",
+    "originalSha256": "e77822eba2a4aea260849225130d525680d534c95be9984857a30bfdeefe361d",
+    "exportSha256": "63eed2d93ac169a7ad59aa1728292fa4656cd0b13bfd83f0454b8afb96f79635",
+    "crop": {
+      "left": 153,
+      "top": 71,
+      "width": 333,
+      "height": 530
+    },
+    "size": [
+      322,
+      512
+    ]
+  },
+  {
+    "key": "haloDais",
+    "file": "divine-halo-dais.png",
+    "originalSha256": "40ef8cae860b00e2838fc99f63d6ca26fb9fbe48f4bff4c532ac78846d027f7c",
+    "exportSha256": "1a0b95a07f0763f68e56bb093c00a27a27ef92af94af9c877ec611aafe2169f5",
+    "crop": {
+      "left": 136,
+      "top": 10,
+      "width": 434,
+      "height": 512
+    },
+    "size": [
+      434,
+      512
+    ]
+  },
+  {
+    "key": "lightLotus",
+    "file": "divine-light-lotus.png",
+    "originalSha256": "fb1429b62311edac658a9c9e5cd2682ee407872a70144aa4545e562e85b52ac3",
+    "exportSha256": "7c48b8c5d28b5d4073cb3b2d7e0f9f67631f17cdea764161b04710cfd8f158b9",
+    "crop": {
+      "left": 59,
+      "top": 22,
+      "width": 493,
+      "height": 507
+    },
+    "size": [
+      493,
+      507
+    ]
   }
 ]

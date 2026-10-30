@@ -1,0 +1,178 @@
+{
+  "task": "GOD-SCENERY-REBUILD-20261030",
+  "date": "2026-10-30",
+  "records": [
+    {
+      "realm": "battlefield",
+      "file": "exec-77f524ba-32d3-4119-82de-2c47c71c87a6.png",
+      "prompt": "Use case: stylized-concept. Asset type: original RPG environment tileset sheet, FOUR isolated complete scenery props in a strict 2x2 grid, each object contained entirely in its own equal quadrant with generous transparent margins. Square canvas. Real transparent alpha background. No text, labels, lettering, frames, terrain sheet or characters. Style: richly hand-painted high fantasy game environment art, three-quarter overhead camera, roughly 35 degrees looking down, orthographic, upright objects with their feet at bottom. Sculptural volume, tactile chipped material, broad painterly brushwork, striking silhouette, strong cool deep shadows and warm light from upper left, readable at 150 pixels. NOT flat vector, not icons, not line drawings, not photorealistic. Soft modest contact shadows only. Entire object uncut, no overlapping quadrants. No external source or copyrighted reference. Theme: primordial divine battlefield, ancient celestial weapons, burnished dark bronze, weathered gold, slate steel, restrained amber energy. TOP LEFT: an immense ancient broadsword embedded in a small shattered circular celestial plinth, ornate carved gold guard, engraved broad steel blade with a luminous central fissure, fractured floating chips. TOP RIGHT: a broken huge upright celestial crown wheel, thick sculpted gilded stone ring with missing upper right section and ornate spikes, suspended amber diamond in center, rubble fused base. BOTTOM LEFT: a monumental sun reliquary, carved bronze sun disk with radiating sculpted rays, recessed blazing amber core, dark wing-shaped supports and layered low pedestal. BOTTOM RIGHT: a pile of enormous broken interlocking bronze chains and a shattered sacred shackle, massive textured irregular links piled diagonally, dark heavy metal and gold edge highlights. Make each a different sophisticated believable 3D sculptural relic, no trees rocks bushes or ordinary ruins.",
+      "tool": "built-in image_gen",
+      "source": "Original AI-generated from descriptive text; no external reference images",
+      "background": "transparent",
+      "selectedFile": "exec-77f524ba-32d3-4119-82de-2c47c71c87a6.png",
+      "selectedSha256": "84d91832a437c9b2bf179d317d26058e3267c2f414a575d7879329cbaee1d569",
+      "sheetSize": [
+        1254,
+        1254
+      ],
+      "objects": [
+        {
+          "key": "godBlade",
+          "crop": {
+            "left": 0,
+            "top": 0,
+            "width": 627,
+            "height": 632
+          },
+          "originalSha256": "f6076bc6386e7a5f2699b9c69c4da8932c90a9fdd88fd93ac1af2dcd388431e1"
+        },
+        {
+          "key": "warCrown",
+          "crop": {
+            "left": 627,
+            "top": 0,
+            "width": 627,
+            "height": 632
+          },
+          "originalSha256": "30f454b71f7f6a0c87e75a64789809eef3fb3543976e9df69ad3aaed84580029"
+        },
+        {
+          "key": "sunRelic",
+          "crop": {
+            "left": 0,
+            "top": 632,
+            "width": 627,
+            "height": 622
+          },
+          "originalSha256": "e8f86b265ad9b4c33b404007eccb595de5c41eade4754eb2de6178a6443fa00b"
+        },
+        {
+          "key": "chainShard",
+          "crop": {
+            "left": 627,
+            "top": 632,
+            "width": 627,
+            "height": 622
+          },
+          "originalSha256": "e6643d855c80ba67ab7ad6782dda68c11810a8adfebbdf1815012a0e6a70f8fc"
+        }
+      ]
+    },
+    {
+      "realm": "chaos",
+      "file": "exec-b8cfc5a6-3d43-4487-8810-1bb4c90645d1.png",
+      "prompt": "Use case: stylized-concept. Asset type: original RPG environment tileset sheet, FOUR isolated complete scenery props in a strict 2x2 grid, each object contained entirely in its own equal quadrant with generous transparent margins. Square canvas. Real transparent alpha background. No text, labels, lettering, frames, terrain sheet or characters. Style: richly hand-painted high fantasy game environment art, three-quarter overhead camera, roughly 35 degrees looking down, orthographic, upright objects with their feet at bottom. Sculptural volume, tactile chipped material, broad painterly brushwork, striking silhouette, strong cool deep shadows and warm light from upper left, readable at 150 pixels. NOT flat vector, not icons, not line drawings, not photorealistic. Soft modest contact shadows only. Entire object uncut, no overlapping quadrants. No external source or copyrighted reference. Theme: the shattered void beyond reality, mysterious cosmic machinery, black obsidian alloy, iridescent violet steel, amethyst and icy cyan glows, sophisticated eldritch but beautiful. TOP LEFT: a giant broken vertical void gyroscope portal wheel, thick segmented engraved dark curved ring with missing upper side, cyan rim, a suspended purple singularity inside, floating geometric shards near its small low base. TOP RIGHT: a cluster of three levitating gigantic dark prismatic shard monoliths, irregular long twisting jagged blades of solid black-purple crystalline material, brilliant narrow cyan cracks, tiny rocks beneath, visibly floating with gaps. BOTTOM LEFT: a levitating spindle of four separated elaborate diamond-shaped black metal plates stacked vertically around a cyan energy filament, carved faces and purple trim, no tall solid support. BOTTOM RIGHT: an intricate celestial armillary lens, two interlocking inclined elliptical dark metallic rings around an amethyst faceted core, a low fractured asymmetrical base. Each object fully visible and separated, no vegetation, no ordinary rocks or mortal buildings. Painterly sculpted thickness and surface texture, not simple geometry.",
+      "tool": "built-in image_gen",
+      "source": "Original AI-generated from descriptive text; no external reference images",
+      "background": "transparent",
+      "selectedFile": "exec-b8cfc5a6-3d43-4487-8810-1bb4c90645d1.png",
+      "selectedSha256": "f6a0f92e5e4cca49b40d98f7e67936c8ad5884c69ec15b688bd706f5ae83f940",
+      "sheetSize": [
+        1254,
+        1254
+      ],
+      "objects": [
+        {
+          "key": "voidGyre",
+          "crop": {
+            "left": 0,
+            "top": 0,
+            "width": 627,
+            "height": 620
+          },
+          "originalSha256": "a786ab4eff0b4097b42cdc4577b644e9121279be2b8b2d423b5879ddf73e10c2"
+        },
+        {
+          "key": "voidPrism",
+          "crop": {
+            "left": 627,
+            "top": 0,
+            "width": 627,
+            "height": 620
+          },
+          "originalSha256": "22f2b8b95bd4a06dba67eb62b5d6257aeeb1528e565507f374d191435ea36411"
+        },
+        {
+          "key": "voidSpindle",
+          "crop": {
+            "left": 0,
+            "top": 620,
+            "width": 627,
+            "height": 634
+          },
+          "originalSha256": "cb8455609a4d97d8db130ed8f139428bd5f8375c7521891a24031e00db1e7ab6"
+        },
+        {
+          "key": "voidLens",
+          "crop": {
+            "left": 627,
+            "top": 620,
+            "width": 627,
+            "height": 634
+          },
+          "originalSha256": "b7ffa2b18d1f36523b234159011146760807df1acadd556e18657e3bead02851"
+        }
+      ]
+    },
+    {
+      "realm": "sanctuary",
+      "file": "exec-61b72073-eb9b-41a5-8c8d-4ccd679222bb.png",
+      "prompt": "Use case: stylized-concept. Asset type: original RPG environment tileset sheet, FOUR isolated complete scenery props in a strict 2x2 grid, each object contained entirely in its own equal quadrant with generous transparent margins. Square canvas. Real transparent alpha background. No text, labels, lettering, frames, terrain sheet or characters. Style: richly hand-painted high fantasy game environment art, three-quarter overhead camera, roughly 35 degrees looking down, orthographic, upright objects with their feet at bottom. Sculptural volume, tactile chipped material, broad painterly brushwork, striking silhouette, strong cool deep shadows and warm light from upper left, readable at 150 pixels. NOT flat vector, not icons, not line drawings, not photorealistic. Soft modest contact shadows only. Entire object uncut, no overlapping quadrants. No external source or copyrighted reference. Theme: eternal heavenly sanctuary, pristine pearl white carved stone and gilded filigree, celestial pale blue crystals, soft rainbow opalescence, luxurious heavenly architecture. TOP LEFT: a monumental seraphic wing shrine, two lavish sculpted white feathered angel wings sweeping upward around a blue sacred jewel and ornate gilded white central pillar, broad low white-gold polygonal pedestal. TOP RIGHT: a tall ornate celestial harp, elegantly curved gilded frame with carved rococo flourishes and blue white glistening strings, pearl white sides, layered white marble pedestal. BOTTOM LEFT: a radiant halo reliquary dais, white-gold slender sculpture carrying a large vertical embossed gilded halo enclosing an icy diamond crystal, low elegant white steps. BOTTOM RIGHT: an opalescent large crystal lotus, two tiers of sculpted thick pearl-white translucent petals tipped pale blue and gold enclosing a luminous warm white jewel, delicate circular white gold base. Sophisticated sculpted thickness, no ordinary pillars copied from mortal ruins, no potted plants, no trees. Soft internal light without big external opaque halos, restrained sparkles.",
+      "tool": "built-in image_gen",
+      "source": "Original AI-generated from descriptive text; no external reference images",
+      "background": "transparent",
+      "selectedFile": "exec-e60ab640-13b1-4fcd-99d6-f5ba8aeffcf6.png",
+      "selectedSha256": "1aaba8c3e5ba7b7e7d7dc83bbc0d224bb378f6c99e132acc66480112cb9f1ea0",
+      "sheetSize": [
+        1254,
+        1254
+      ],
+      "objects": [
+        {
+          "key": "seraphWing",
+          "crop": {
+            "left": 0,
+            "top": 0,
+            "width": 627,
+            "height": 640
+          },
+          "originalSha256": "96abb9687dcc53290cc1493c78662068a5a3e232d7d1944e2026fdfb5dd953da"
+        },
+        {
+          "key": "celestialHarp",
+          "crop": {
+            "left": 627,
+            "top": 0,
+            "width": 627,
+            "height": 640
+          },
+          "originalSha256": "e77822eba2a4aea260849225130d525680d534c95be9984857a30bfdeefe361d"
+        },
+        {
+          "key": "haloDais",
+          "crop": {
+            "left": 0,
+            "top": 640,
+            "width": 627,
+            "height": 614
+          },
+          "originalSha256": "40ef8cae860b00e2838fc99f63d6ca26fb9fbe48f4bff4c532ac78846d027f7c"
+        },
+        {
+          "key": "lightLotus",
+          "crop": {
+            "left": 627,
+            "top": 640,
+            "width": 627,
+            "height": 614
+          },
+          "originalSha256": "fb1429b62311edac658a9c9e5cd2682ee407872a70144aa4545e562e85b52ac3"
+        }
+      ],
+      "edit": "Built-in image_gen precise-object-edit: preserve all four designs; reconstruct clipped tips; scale each complete object down inside its own quadrant with transparent safety margins.",
+      "editSourceSha256": "bf9570abad72e2de5a0cae9e5721d39f3c3379a8df518e59a971868e62a75d87",
+      "editPrompt": "Edit this original transparent 2x2 celestial props tileset. Preserve the four designs, materials, color, richly painted sculptural look and exact quadrant assignments. The upper wing tips and harp ornament touch and are cut off at the canvas top; reconstruct their complete tips. Scale each individual complete object DOWN so its entire silhouette including every feather, ornament, halo, glow and pedestal fits inside the central 80 percent of its own quadrant, with at least 35px fully transparent safety space on ALL four sides of EACH quadrant. Four objects remain separate, evenly spaced in 2x2 grid, no overlapping quadrants. Output transparent alpha square canvas, no opaque background, text, captions or border. Do not invent extra objects."
+    }
+  ],
+  "toolChoice": "RPG Mote Studio was initially inaccessible through the web-open tool. A direct Chromium check subsequently loaded the app successfully and showed its 48x48 pencil/layers/timeline pixel-editing workflow. This task needs original painterly complete large scenery props, so built-in image_gen was selected as more suitable for generating them. No third-party images were supplied."
+}
