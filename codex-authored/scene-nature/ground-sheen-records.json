@@ -1,0 +1,22 @@
+{
+  "task": "GOD-GROUND-SHEEN-20261031",
+  "method": "Existing native Canvas procedural art; no input images edited, generated or acquired. No new sprites or runtime drawing passes. Fissures baked once into the mirrored chaos painting; sanctuary slab gloss baked once into its floor and elliptical reflected light baked into the existing sanctumFlow atlas frame.",
+  "source": "battle-decor.js",
+  "sourceSha256": "c5b81427aa5d7c63050ca55f2fa52002259b0506617094d983ba5573d4d21943",
+  "chaos": {
+    "base": "ground/ground_god_chaos.png",
+    "baseSha256": "cc6e9c6c6b926a3cbf5611e60d3ad9c935a5934fcad2b9e1bd53963cc9d7d539",
+    "method": "24 fixed-seed short branching paths, about 24-72 pixels long, luminous 1.15px core with 4.8px soft halo at 1024 resolution, no holes, paths avoid all wrap edges. Base painting remains unchanged."
+  },
+  "sanctuary": {
+    "export": "ground/ground_god_sanctuary.png",
+    "exportSha256": "3704b56d0a0761de56d560d3018c183fc6a13bf2024dd5481716a2dfcbab4bb8",
+    "size": [
+      1024,
+      1024
+    ],
+    "method": "Directional broad specular and narrow sheen clipped to each slab, beneath its corner ornaments. Soft ellipse reflected illumination in existing counter-rotating flow sprites. Existing 6 sources/18 sprites normal and 2/2 lite budgets retained.",
+    "previousExport": "ground/archive/ground_god_sanctuary-before-ground-sheen.png",
+    "previousSha256": "21ff5474531682e6add54c2964eb3d33d88685660aa9e48f422512e116b95c16"
+  }
+}
