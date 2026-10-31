@@ -1,0 +1,321 @@
+{
+  "task": "EQUIP-AI-ICONS-20261031",
+  "generator": "OpenAI built-in imagegen",
+  "authorization": "User requested original AI icons and approved two style anchors, then explicitly expanded to eight hard armor icons and requested all installed.",
+  "styleAnchors": [
+    "sources/equip/icon_chest_cloth.png",
+    "sources/equip/icon_boots_leather.png"
+  ],
+  "referencePolicy": "Only existing user-provided project equipment illustrations were used as references; no external stock or third-party asset was imported.",
+  "normalization": "High-quality bicubic resize to opaque 1024x1024 RGB PNG, then snap RGB channels <=8 together to exact #000000 to remove imperceptible generator/background noise. No painting, subject changes or compositing.",
+  "assets": [
+    {
+      "target": "images/equip/icon_shoulder_cloth.png",
+      "source": "sources/equip/icon_shoulder_cloth.png",
+      "export": "exports/equip/icon_shoulder_cloth.png",
+      "prompt": "Use case: stylized-concept. Generate ONE Idle-RPG equipment inventory icon as square 1024x1024 PNG. The attached tunic and boots are STYLE REFERENCES ONLY, not edit targets. Match their hand-painted dark fantasy ARPG realism, warm restrained edge light, rich midtones, fine worn material texture and 3D volume. Single game inventory item icon, centered object occupying about 85% of frame, slightly top-down 3/4 view, detailed worn texture, solid pure black #000000 opaque background, no text, border, hands, person or mannequin. Item: a pair of padded cloth shoulder pads, quilted fabric with stitched hems, joined by a strap. Clearly readable at 28px, fully visible, compact balanced silhouette. Preserve the specific material and identity. Paired equipment must have exactly TWO matching pieces arranged as ONE icon. No floor, extra props, letters, symbols resembling text, watermark, gray vignette, atmospheric fog or background halo. Illuminate the actual object enough to match the approved tunic and leather boots: soft directional light revealing midtones, gentle cream highlights, avoid crushed black shadows. Do not make a cartoon, vector or flat outline icon.",
+      "sourceSha256": "9e9642f77d7156a51383b8cfe2365681c8505460abd866850d6cbf96de47db4e",
+      "sha256": "1cca91b59ac0cc7a3755b9f088d5c05f4676cdad84f8288902096ef7db67383f",
+      "bytes": 1278006,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_helmet_leather.png",
+      "source": "sources/equip/icon_helmet_leather.png",
+      "export": "exports/equip/icon_helmet_leather.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a worn brown leather cap with ear flaps and stitched seams, small rivets. Exactly ONE SINGLE cap, not two, not a pair, no alternate views",
+      "sourceSha256": "ee70b0755120b61fbb67f76eb635f69ff10cc9660bd6c128ea34a3231103092e",
+      "sha256": "29762c8a9eb1a09916f48f3bfa263fc32464ea6ca857f545a168a5fab4aa5503",
+      "bytes": 1351841,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_helmet_iron.png",
+      "source": "sources/equip/icon_helmet_iron.png",
+      "export": "exports/equip/icon_helmet_iron.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a plain iron kettle helmet with nose guard and cheek plates, riveted, no horns. Exactly ONE SINGLE helmet, not two, not a pair, no alternate views. Silver gray iron, not bronze",
+      "sourceSha256": "29f320c564fa8202fe983522785bb88e6d22973ae6ecdcd51d5d720fdb059546",
+      "sha256": "5f6b1f9fb4383ebb13ac8bf72fdfd4b64eb3198464aafde0a1ad4c2aa14a5741",
+      "bytes": 1315352,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_shoulder_iron.png",
+      "source": "sources/equip/icon_shoulder_iron.png",
+      "export": "exports/equip/icon_shoulder_iron.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a pair of layered iron pauldrons made of overlapping steel plates with rivets",
+      "sourceSha256": "8f8d7786185c60636c9ffba351e06eb176a14445d68f2e4d3986cd832129721c",
+      "sha256": "a75e51518fcd43527bc0331ca598c4c95b7fabda371105c91e5a16b98d0434aa",
+      "bytes": 1194777,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_chest_mail.png",
+      "source": "sources/equip/icon_chest_mail.png",
+      "export": "exports/equip/icon_chest_mail.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a chainmail hauberk with short sleeves, interlocking steel rings, leather collar and hem",
+      "sourceSha256": "25217903c8ef0c18f256ae571d8784ae6482a971210d81101a8bb40ccb7039e0",
+      "sha256": "2f210f219f3f75f2c05ee69626f92c8bd76c8f50675ed2fbc67fa9a3b31ccf0e",
+      "bytes": 1497352,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_belt_rope.png",
+      "source": "sources/equip/icon_belt_rope.png",
+      "export": "exports/equip/icon_belt_rope.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a coiled twisted hemp rope belt tied with a knot, frayed ends hanging",
+      "sourceSha256": "9825e10ea7939bdd77bfd6b9ddd2437bd7aa406c1995059900b335bf7071aa1c",
+      "sha256": "c67314a9e00697f9ffe4550799d61e86fdb7a99fea98890627a303ffb65bf0e3",
+      "bytes": 1134365,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_belt_chain.png",
+      "source": "sources/equip/icon_belt_chain.png",
+      "export": "exports/equip/icon_belt_chain.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a heavy steel chain-link belt with an iron plate buckle",
+      "sourceSha256": "27367370614b6b606c8410d0474e2cd0a1dc373fb07b48148064fc59ccb9dd8e",
+      "sha256": "f50ea1b46db089bb9f68ae3a3cd85ae01284b26ea891ad189d2f239776edf063",
+      "bytes": 1138339,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_gloves_cloth.png",
+      "source": "sources/equip/icon_gloves_cloth.png",
+      "export": "exports/equip/icon_gloves_cloth.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a pair of plain cloth gloves with a wide fabric cuff, stitched",
+      "sourceSha256": "366477c2146b04b595c188d3e56955339205623b3a088b489fa1ef5878185a4f",
+      "sha256": "5d71f17f617ee2eb4666b5de601f8c4496bab8e224ac653093d36178164c77bf",
+      "bytes": 1389219,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_gloves_leather.png",
+      "source": "sources/equip/icon_gloves_leather.png",
+      "export": "exports/equip/icon_gloves_leather.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a pair of brown leather gloves with a buckled cuff strap, stitched seams",
+      "sourceSha256": "52c957d4e30cc4f4a0df3def1c505a1a88884f584d6ee1d486f3a6cdca2366fe",
+      "sha256": "441d3ce4eb9193c0c00d5741daeef7959f86901aeafcc0e5cb3d3013e1217bd2",
+      "bytes": 1439784,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_wrist_cloth.png",
+      "source": "sources/equip/icon_wrist_cloth.png",
+      "export": "exports/equip/icon_wrist_cloth.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a pair of wrapped cloth wrist bandages, loose tail end hanging",
+      "sourceSha256": "54066430b383e8dc62ec90c95402a500c569fba616127d8dcbd74abc333c9324",
+      "sha256": "63f6de4b39c81b779bdcbd04a373cd4d02d5d43c308bb9e8571843dc0c67dd09",
+      "bytes": 1405279,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_wrist_leather.png",
+      "source": "sources/equip/icon_wrist_leather.png",
+      "export": "exports/equip/icon_wrist_leather.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a pair of leather bracers with three buckled straps and stitching",
+      "sourceSha256": "f96a21bca665c3a218221237c141ccaeb3c80bb4fde666aef421a8d1c7e996a0",
+      "sha256": "7c02336975a58fde97a5deb047eaecd22629b0bd2109844e5ac2946a5fcfbb1c",
+      "bytes": 1401501,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_legs_cloth.png",
+      "source": "sources/equip/icon_legs_cloth.png",
+      "export": "exports/equip/icon_legs_cloth.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a pair of simple cloth trousers with a drawstring waist, worn folds, no armor",
+      "sourceSha256": "04e4d866689e4b3b5df1fa5b288cc78afb253c340058d725765ca64a9491becd",
+      "sha256": "d69cf74383b80b72ddf520fbd03b7d8e91d4e3cca9e53630aaaeeb3dfb268357",
+      "bytes": 1279755,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_boots_straw.png",
+      "source": "sources/equip/icon_boots_straw.png",
+      "export": "exports/equip/icon_boots_straw.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a pair of woven straw sandals with rope toe straps. Exactly the requested object/count only. Any glowing wind effect is tightly confined to the boots, keep all background black.",
+      "sourceSha256": "b477d26f43922404486efdea3412c7c81d772665f206a73647ba5e479bc9a3b7",
+      "sha256": "dce1925f2bc08f28adc018f89e988e9da9391487724e639987e72c7194864d12",
+      "bytes": 1331371,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_boots_wind.png",
+      "source": "sources/equip/icon_boots_wind.png",
+      "export": "exports/equip/icon_boots_wind.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a pair of light teal boots with small white feathered wings on the sides, magical wind glow. Exactly the requested object/count only. Any glowing wind effect is tightly confined to the boots, keep all background black.",
+      "sourceSha256": "a22ef2012d84e737d40da77bf92f7b84e6de5f5613caea39a9f499ac4bf9e0cd",
+      "sha256": "1321b898d0978ab364e23280c4e4eef458c707b1d4e68258918f65b4bfce8543",
+      "bytes": 1510588,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_ring_bronze.png",
+      "source": "sources/equip/icon_ring_bronze.png",
+      "export": "exports/equip/icon_ring_bronze.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a plain bronze ring band with faint engravings, no gem. Exactly the requested object/count only. Any glowing wind effect is tightly confined to the boots, keep all background black.",
+      "sourceSha256": "b1a2928f58a329a1aaffdb6827783bdc3448a37d0c14e7f86ac9c38576e60203",
+      "sha256": "aba1092d91cf2fa5678f1955c5319cab28840314db1a742539490c412083ac22",
+      "bytes": 1048347,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_ring_silver.png",
+      "source": "sources/equip/icon_ring_silver.png",
+      "export": "exports/equip/icon_ring_silver.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a polished silver ring with one small blue gem. Exactly the requested object/count only. Any glowing wind effect is tightly confined to the boots, keep all background black.",
+      "sourceSha256": "1b37138b092d5191aa702f9374501df6323cded12a86f1c25143f207a537fdae",
+      "sha256": "fd5adcaa2ac082798b2cc37ae5f30137d1765a4e96a4c8cb0a613258910d0b20",
+      "bytes": 1040213,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_amulet_wood.png",
+      "source": "sources/equip/icon_amulet_wood.png",
+      "export": "exports/equip/icon_amulet_wood.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a carved wooden pendant on a rough cord, leaf rune carving. Exactly the requested object/count only. Any glowing wind effect is tightly confined to the boots, keep all background black.",
+      "sourceSha256": "fb51b005677c89cdda173e44b927f4db263cd5256f85def1b72dcacfc64236a9",
+      "sha256": "8ebefa5cf3d75d99dc0380c6a2105944d74616e6dd0e915df15d3eda061fd492",
+      "bytes": 870292,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_amulet_silver.png",
+      "source": "sources/equip/icon_amulet_silver.png",
+      "export": "exports/equip/icon_amulet_silver.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a fine silver chain necklace with a small round silver pendant holding a star-shaped blue gem. Exactly the requested object/count only. Any glowing wind effect is tightly confined to the boots, keep all background black.",
+      "sourceSha256": "9302d33a728ab0a9d66ac57adc47d3898963b9c6f13719c6bd7a806090a5e8f0",
+      "sha256": "d738696cef7ab5acd1efdc318081c4c2487c5ef38d4a4a6a661c4cd82e90973f",
+      "bytes": 634847,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/icon_helmet.png",
+      "source": "sources/icon_helmet.png",
+      "export": "exports/icon_helmet.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: an ornate heavy steel full-face helmet, angular cheek plates, two curved dark horns and crown rivets, richly engraved but no lettering. Exactly ONE helmet only. Image 3 is ONLY the OLD SHAPE/DESIGN reference for this same slot. Reimagine it in the NEW BRIGHTER material treatment of images 1 and 2. Keep its heavy fantasy identity but replace blackened metal with clearly visible silver-gray steel broad midtone surfaces, warm reflected light and bright engraved edges. Brown leather at joints. No glowing red eyes or dark black coating. Retain readable volume with minimal deep shadow. Do NOT reproduce old darkness. No text/runes/letters.",
+      "sourceSha256": "abdd408aeb23a8edad5eb7b0accb8c01453a292e3ce115130ef72e4329f8d1ce",
+      "sha256": "dc8737973eab9ee5d39c06c66a6b8474a1b42723e0fe9e03c30b290dbf028700",
+      "bytes": 1374970,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/icon_shoulder.png",
+      "source": "sources/icon_shoulder.png",
+      "export": "exports/icon_shoulder.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a pair of imposing layered heavy steel pauldrons with restrained spikes, engraved silver edges and leather connecting straps. Exactly ONE MATCHING PAIR only. Image 3 is ONLY the OLD SHAPE/DESIGN reference for this same slot. Reimagine it in the NEW BRIGHTER material treatment of images 1 and 2. Keep its heavy fantasy identity but replace blackened metal with clearly visible silver-gray steel broad midtone surfaces, warm reflected light and bright engraved edges. Brown leather at joints. No glowing red eyes or dark black coating. Retain readable volume with minimal deep shadow. Do NOT reproduce old darkness. No text/runes/letters.",
+      "sourceSha256": "60e39a07958322e9c4a5f5bdac2d5f6ce99378e832d3c6dfb22336d1a0f30489",
+      "sha256": "e008e918fbfc08482b41b5d2910c5f7bf1974d43f04ed363d429a4d0f1036171",
+      "bytes": 1188097,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/icon_chest.png",
+      "source": "sources/icon_chest.png",
+      "export": "exports/icon_chest.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a heavy engraved steel plate cuirass with layered shoulder guards, a central sculpted skull relief and brown leather side straps; distinct silver-gray metal planes. Exactly ONE cuirass only. Image 3 is ONLY the OLD SHAPE/DESIGN reference for this same slot. Reimagine it in the NEW BRIGHTER material treatment of images 1 and 2. Keep its heavy fantasy identity but replace blackened metal with clearly visible silver-gray steel broad midtone surfaces, warm reflected light and bright engraved edges. Brown leather at joints. No glowing red eyes or dark black coating. Retain readable volume with minimal deep shadow. Do NOT reproduce old darkness. No text/runes/letters.",
+      "sourceSha256": "ec239f89cf6f2eb345bd35445839a52478c8fb14fe1467ac812bb235cf259fa3",
+      "sha256": "91e9556c20cde7eea048128ad124d525f6ead0e98e748c36c3803b9c826fd6b5",
+      "bytes": 1699559,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/icon_belt.png",
+      "source": "sources/icon_belt.png",
+      "export": "exports/icon_belt.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a broad heavy leather-and-steel armor belt curled into a compact oval, large sculpted metal buckle and articulated rectangular steel plaques. Exactly ONE belt only. Image 3 is ONLY the OLD SHAPE/DESIGN reference for this same slot. Reimagine it in the NEW BRIGHTER material treatment of images 1 and 2. Keep its heavy fantasy identity but replace blackened metal with clearly visible silver-gray steel broad midtone surfaces, warm reflected light and bright engraved edges. Brown leather at joints. No glowing red eyes or dark black coating. Retain readable volume with minimal deep shadow. Do NOT reproduce old darkness. No text/runes/letters.",
+      "sourceSha256": "e3c3694a253fe9263a4c34c018cbeae3283da4f605abd9fa7750ae7898db4dfa",
+      "sha256": "4a3dc2adb8f64cf613bcecf1be23ba405c28480e2dd24df3e2a095c0cd457c43",
+      "bytes": 1288842,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/icon_gloves.png",
+      "source": "sources/icon_gloves.png",
+      "export": "exports/icon_gloves.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a pair of articulated heavy steel gauntlets with engraved wrist cuffs, segmented fingers and small defensive spikes. Exactly ONE MATCHING PAIR only. Image 3 is ONLY the OLD SHAPE/DESIGN reference for this same slot. Reimagine it in the NEW BRIGHTER material treatment of images 1 and 2. Keep its heavy fantasy identity but replace blackened metal with clearly visible silver-gray steel broad midtone surfaces, warm reflected light and bright engraved edges. Brown leather at joints. No glowing red eyes or dark black coating. Retain readable volume with minimal deep shadow. Do NOT reproduce old darkness. No text/runes/letters.",
+      "sourceSha256": "f5981b10740398cfe6dae07e7250c728bc0c010134195dde0b1babb22541ddb4",
+      "sha256": "0deddd982e62b936d73608ea3092008416c85c14d2ec773f8f4973b88bee093b",
+      "bytes": 1558474,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/icon_wrist.png",
+      "source": "sources/icon_wrist.png",
+      "export": "exports/icon_wrist.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a pair of heavy polished worn steel forearm bracers with layered plates, engraved edges and brown leather fastening straps; no gloves. Exactly ONE MATCHING PAIR only. Image 3 is ONLY the OLD SHAPE/DESIGN reference for this same slot. Reimagine it in the NEW BRIGHTER material treatment of images 1 and 2. Keep its heavy fantasy identity but replace blackened metal with clearly visible silver-gray steel broad midtone surfaces, warm reflected light and bright engraved edges. Brown leather at joints. No glowing red eyes or dark black coating. Retain readable volume with minimal deep shadow. Do NOT reproduce old darkness. No text/runes/letters.",
+      "sourceSha256": "a9a4b2aaf1444108dae7ca7a6a31d9fb867d6569579242fe5ce6805b488dc736",
+      "sha256": "2974897d4ec78cec184972ce1d3cd8d6eabdbfb7f835d2a7c405e001be24674b",
+      "bytes": 1592762,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/icon_legs_armor.png",
+      "source": "sources/icon_legs_armor.png",
+      "export": "exports/icon_legs_armor.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a matching pair of heavy articulated plate leg armor, steel thigh plates, knee guards and overlapping greaves, brown leather attachments, no boots or body. Exactly ONE MATCHING PAIR only. Image 3 is ONLY the OLD SHAPE/DESIGN reference for this same slot. Reimagine it in the NEW BRIGHTER material treatment of images 1 and 2. Keep its heavy fantasy identity but replace blackened metal with clearly visible silver-gray steel broad midtone surfaces, warm reflected light and bright engraved edges. Brown leather at joints. No glowing red eyes or dark black coating. Retain readable volume with minimal deep shadow. Do NOT reproduce old darkness. No text/runes/letters.",
+      "sourceSha256": "d740bc75bf98cc43386596f1378b5cb8a58d80bcaa921bf33c12cb82554064b1",
+      "sha256": "a5920b39897a2cde40dd59002844c43c4ce178d6fe3cab6ebfa15a7b0760bdd2",
+      "bytes": 1259097,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/icon_legs.png",
+      "source": "sources/icon_legs.png",
+      "export": "exports/icon_legs.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a pair of heavy armored boots with segmented bright steel toe caps, steel shin plates, engraved cuffs and brown leather joints. Exactly ONE MATCHING PAIR only. Image 3 is ONLY the OLD SHAPE/DESIGN reference for this same slot. Reimagine it in the NEW BRIGHTER material treatment of images 1 and 2. Keep its heavy fantasy identity but replace blackened metal with clearly visible silver-gray steel broad midtone surfaces, warm reflected light and bright engraved edges. Brown leather at joints. No glowing red eyes or dark black coating. Retain readable volume with minimal deep shadow. Do NOT reproduce old darkness. No text/runes/letters.",
+      "sourceSha256": "eb6d8c7304eee7d982e79c35837f907f9488faa8410d30619b5de5ce08518626",
+      "sha256": "1511d21da0677c62500e27c4af3a521c9bc8438ef2c4e4ea5f2c7e58e1f6f206",
+      "bytes": 1205817,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_chest_cloth.png",
+      "source": "sources/equip/icon_chest_cloth.png",
+      "export": "exports/equip/icon_chest_cloth.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a simple coarse linen cloth tunic, short sleeves, V-neck with lacing, worn fabric folds. Approved first style anchor.",
+      "sourceSha256": "d1f341adbb786568b25f614a48a790ba356effaf9597d2eeb3faa40d7a0132bd",
+      "sha256": "ece4ec6c87b5a397abc0c31a340f3fe8213aa8e88ba22e646afd8b1e1e0223c3",
+      "bytes": 1445806,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "target": "images/equip/icon_boots_leather.png",
+      "source": "sources/equip/icon_boots_leather.png",
+      "export": "exports/equip/icon_boots_leather.png",
+      "prompt": "Use case: stylized-concept. Create ONE square 1024x1024 PNG game inventory icon. Attached tunic and boots are STYLE REFERENCES ONLY, not subjects to repeat. Match their hand-painted fantasy ARPG realistic illustration, clearly lit earthy midtones, fine worn texture, warm subtle rim light, material volume. Center subject filling 85% of frame, slightly top-down 3/4 view, entire silhouette inside edges. Opaque PURE BLACK #000000 background, no gray/vignette/halo, no floor, no scene, no extra props. NO TEXT, letters, watermark, border, hands, person or mannequin. Readable as an inventory icon at 28px. Preserve the subject's own material color; do NOT tint steel brown: steel is luminous silver-gray with cream highlights. Item: a pair of brown leather boots with laces and a buckle strap. Approved second style anchor.",
+      "sourceSha256": "cd6407c72945dd4076d17ff79814acfcda4902032346155edf89a1de5b81c8a2",
+      "sha256": "8c3a972aa792b77e977bb470d175cfdf6f5725c410145ddbb20ee0f667ccdc93",
+      "bytes": 1297281,
+      "width": 1024,
+      "height": 1024
+    }
+  ]
+}

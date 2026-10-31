@@ -19,6 +19,13 @@ preset 實際引用到的素材。所以
 
 ## 各 package
 
+### codex-authored/equipment-icons-20261031
+
+- 使用者委託 Codex 使用 OpenAI 內建 imagegen 原創生成，已確認布衣與皮靴風格，並追加授權八張硬甲及全部換上。
+- 20 張名稱專屬裝備與 8 張通用硬甲；只參考本專案既有裝備圖及本批已核准生成圖，未匯入外部第三方素材。
+- 原生生成 PNG、實際提示詞、1024 PNG 匯出、SHA256 及可重現的尺寸／黑位正規化和逐檔複製工具保存在該 package。詳見 source.json；export.cjs 接受遊戲根目錄與 --apply／--check。
+- 這些為靜態裝備圖示，沿既有 images/equip 與 images/icon 路徑引用，不是 VFX Preset，不加入 VFX 專屬匯出索引。
+
 | package | 來源 | 授權 | 署名義務 |
 |---|---|---|---|
 | `particle-pack` | Kenney (kenney.nl) | CC0 | 無 |
