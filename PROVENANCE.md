@@ -35,6 +35,8 @@ preset 實際引用到的素材。所以
 | `spell-sheets` | 使用者提供，來源不明 | **未附授權檔** | **待確認** |
 | `claude-authored` | Claude 以程式產生（各子目錄附 SOURCE.md 與產生器，可重現），不含第三方素材 | 專案自製 | 無 |
 | `characters/knight-hd` | 使用者提供的「2D HD Character Knight」素材包（2026-09-22，只收用到的 6 個動作，說明見套件內 README） | **未附授權檔** | **待確認**（遊戲主角已經在用，不走 export-assets 匯出，由 `tools/build_character_sprites.cjs` 產生遊戲版） |
+| `GandalfHardcore Hell Asset Pack 32x32`（The Damned Enemies and NPCs） | GandalfHardcore（itch.io），使用者購入 | 套件 READ ME：可用於商業／非商業遊戲並可修改；禁止轉售、重新包裝散布、AI 訓練、NFT、納入遊戲開發工具 | 無署名義務；**不得單獨散布素材檔**。有「covered」（遮蔽）版的角色一律用 covered 版，未遮蔽版未使用。2026-10-31 起以 `tools/npc-sprites/build_npc_sprites.py` 切成 `images/sprites/npc/` 給 NPC 使用 |
+| `Monsters Creatures Fantasy 2` | 使用者購入 | **套件內未附授權檔**（使用者 2026-10-31 明確指示使用於遊戲 NPC，並表示為付費取得） | **待補授權文件**；同上，經 `build_npc_sprites.py` 切成 `images/sprites/npc/`（Bat／Mimic／Rat／Slime） |
 
 ## sci-fi-effects — 署名怎麼寫
 
