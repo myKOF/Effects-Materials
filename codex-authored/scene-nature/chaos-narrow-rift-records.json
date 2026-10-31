@@ -1,0 +1,47 @@
+{
+  "task": "CHAOS-NARROW-RIFT-20261031",
+  "tool": "Built-in image_gen, precise-object-edit",
+  "prompt": "Use case: precise-object-edit.\nAsset type: opaque SQUARE seamless top-down ground texture for a stylized dark fantasy RPG, 1024 x 1024.\nInput images: Image 1 is the editable original game ground painting. Image 2 is the user-provided MATERIAL REFERENCE ONLY for broken purple rock lips, recessed cliff walls and blue-violet light down inside openings. Do not copy its island shapes, layout, objects or composition.\nPrimary request: repaint Image 1 as a mostly continuous dark violet-grey BASALT BEDROCK floor with several winding narrow physical RIFTS. These are small deep openings cut into the rock with actual jagged chipped edges and a little visible faceted inner rock wall, then blue/violet mysterious light down below. They are NOT lines of lightning painted on soil.\nScale is critical: a person can step across every opening in one ordinary stride. At 1024 resolution, visible dark opening widths generally 18–28 pixels, maximum 32 pixels, tapering to fine fissures at the ends. Lengths can vary from 120 to 400 pixels. About 93–96 percent of the square must remain solid usable rock surface. Keep plenty of broad quiet connected fighting space. Irregular winding individual cracks with sparse short branches, not a uniform polygon-cell network.\nThe rock edge is a narrow chipped grey-lilac rim, with dark purple recessed inner side faces, and restrained electric cyan/violet glow deeper underneath. Make the depth and broken mineral walls readable rather than a flat light stroke. The openings are slim even where they bend; NO huge gaps, NO broad rivers of space, NO floating islands, NO hanging platforms, NO exposed outer edges of an island, NO enormous canyon.\nMedium: hand-painted stylized fantasy environment texture with chunky faceted stone groups, matching the existing game object's painterly style. Moderately dark and readable under small characters, restrained pale edge highlights. Mostly desaturated charcoal, plum and violet-grey stone, small azure/violet light accents inside the rifts.\nComposition: directly overhead orthographic, full bleed square, uniformly lit, repeatable matching left/right and top/bottom edges. No perspective scene, horizon, sky, vignette, central spotlight, border, grid, runes, symbols, lettering, figures, weapons, plants, buildings or loose standing objects. Opaque background. Do not preserve the old soil-like brush texture if it prevents clear rock recesses. New original crack layout.",
+  "inputs": [
+    {
+      "role": "Editable target, our original chaos ground painting",
+      "file": "ground/archive/ground_god_chaos-before-narrow-rift.png",
+      "sha256": "cc6e9c6c6b926a3cbf5611e60d3ad9c935a5934fcad2b9e1bd53963cc9d7d539"
+    },
+    {
+      "role": "User supplied reference for fractured purple rock edges and recessed blue-violet light only; no direct crop, redistribution or copied layout",
+      "fileName": "codex-clipboard-e93deb96-7655-48ad-b6af-0a88c1902917.png",
+      "sha256": "4756e48d10a690ac4ce448e0078277c4f2ec8603ad955845d2b4b3dde766766c"
+    }
+  ],
+  "source": {
+    "file": "generation-sheets/chaos-narrow-rift.png",
+    "generatedFile": "exec-2836d56f-4fab-4f66-96c6-ee82471f55cf.png",
+    "sha256": "74d0b5f217ce65f50f0406fe3a7dbd44c734e39669d0d4effed7eaacdcd48155",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  "export": {
+    "file": "ground/ground_god_chaos.png",
+    "sha256": "e417ce8681bda2fa53c348a682437ced7bd2020a27844d12cf6b534abcd784eb",
+    "size": [
+      1024,
+      1024
+    ],
+    "method": "Standard resize and opaque RGBA PNG export, no programmatic repainting. Runtime mirrored 2x2 sampling at 512 pixels per quadrant preserves matching wrap edges."
+  },
+  "proceduralSources": [
+    {
+      "file": "battle-decor.js",
+      "sha256": "230c9f2956e31ba8ece93f11cbd5b368591915548eec05e91273427db20303c7"
+    },
+    {
+      "file": "decor-nature.js",
+      "sha256": "4c09487f590d5d7494d90c8ed4b47f5a2893c191860e1bb6096c6f560151ab1c"
+    }
+  ],
+  "removed": "The former 24 flat luminous line paths in drawChaosFissures were removed. Physical recesses, chipped lips and glow are now part of the new raster ground.",
+  "runtime": "Ground texture remains decorative. No change to terrain collisions, movement or falling rules; no new sprites or per-frame draws."
+}
