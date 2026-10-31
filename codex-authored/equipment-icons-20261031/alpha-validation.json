@@ -1,0 +1,422 @@
+﻿[
+    {
+        "target":  "images/equip/icon_shoulder_cloth.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1463815,
+        "transparentPixels":  589694,
+        "partialPixels":  457400,
+        "opaquePixels":  1482,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_helmet_leather.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1588765,
+        "transparentPixels":  538002,
+        "partialPixels":  508995,
+        "opaquePixels":  1579,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_helmet_iron.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1540667,
+        "transparentPixels":  555889,
+        "partialPixels":  491263,
+        "opaquePixels":  1424,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_shoulder_iron.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1374873,
+        "transparentPixels":  624812,
+        "partialPixels":  421920,
+        "opaquePixels":  1844,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_chest_mail.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1760004,
+        "transparentPixels":  493858,
+        "partialPixels":  552917,
+        "opaquePixels":  1801,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_belt_rope.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1341875,
+        "transparentPixels":  636332,
+        "partialPixels":  410800,
+        "opaquePixels":  1444,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_belt_chain.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1407704,
+        "transparentPixels":  612930,
+        "partialPixels":  432255,
+        "opaquePixels":  3391,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_gloves_cloth.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1624440,
+        "transparentPixels":  550136,
+        "partialPixels":  496002,
+        "opaquePixels":  2438,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_gloves_leather.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1688207,
+        "transparentPixels":  505775,
+        "partialPixels":  540877,
+        "opaquePixels":  1924,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_wrist_cloth.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1611616,
+        "transparentPixels":  568638,
+        "partialPixels":  477761,
+        "opaquePixels":  2177,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_wrist_leather.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1620963,
+        "transparentPixels":  523588,
+        "partialPixels":  523263,
+        "opaquePixels":  1725,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_legs_cloth.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1490518,
+        "transparentPixels":  591186,
+        "partialPixels":  455646,
+        "opaquePixels":  1744,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_boots_straw.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1563424,
+        "transparentPixels":  579184,
+        "partialPixels":  467204,
+        "opaquePixels":  2188,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_boots_wind.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1786070,
+        "transparentPixels":  512245,
+        "partialPixels":  534705,
+        "opaquePixels":  1626,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_ring_bronze.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1396939,
+        "transparentPixels":  611516,
+        "partialPixels":  435016,
+        "opaquePixels":  2044,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_ring_silver.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1207472,
+        "transparentPixels":  683638,
+        "partialPixels":  363260,
+        "opaquePixels":  1678,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_amulet_wood.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1089517,
+        "transparentPixels":  719739,
+        "partialPixels":  325644,
+        "opaquePixels":  3193,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_amulet_silver.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  799458,
+        "transparentPixels":  808945,
+        "partialPixels":  236964,
+        "opaquePixels":  2667,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/icon_helmet.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1663651,
+        "transparentPixels":  538066,
+        "partialPixels":  507822,
+        "opaquePixels":  2688,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/icon_shoulder.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1406933,
+        "transparentPixels":  618617,
+        "partialPixels":  427189,
+        "opaquePixels":  2770,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/icon_chest.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1983602,
+        "transparentPixels":  436736,
+        "partialPixels":  609962,
+        "opaquePixels":  1878,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/icon_belt.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1510815,
+        "transparentPixels":  576251,
+        "partialPixels":  470228,
+        "opaquePixels":  2097,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/icon_gloves.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1833634,
+        "transparentPixels":  491107,
+        "partialPixels":  554577,
+        "opaquePixels":  2892,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/icon_wrist.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1885730,
+        "transparentPixels":  459681,
+        "partialPixels":  586334,
+        "opaquePixels":  2561,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/icon_legs_armor.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1484375,
+        "transparentPixels":  591930,
+        "partialPixels":  454404,
+        "opaquePixels":  2242,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/icon_legs.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1442380,
+        "transparentPixels":  609676,
+        "partialPixels":  436481,
+        "opaquePixels":  2419,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_chest_cloth.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1673682,
+        "transparentPixels":  521350,
+        "partialPixels":  525574,
+        "opaquePixels":  1652,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    },
+    {
+        "target":  "images/equip/icon_boots_leather.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  1584957,
+        "transparentPixels":  536360,
+        "partialPixels":  510487,
+        "opaquePixels":  1729,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+    }
+]

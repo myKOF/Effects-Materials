@@ -21,9 +21,11 @@ preset 實際引用到的素材。所以
 
 ### codex-authored/equipment-icons-20261031
 
+- 2026-11-01：依使用者實際裝備欄截圖要求，使用內建 imagegen 對全部28張做黑底移除；新增 alpha-sources，保留原始黑底來源，遊戲匯出改為帶實際alpha的透明RGBA PNG。source.json保留原生圖與去背來源雜湊及提示，alpha-validation.json記錄逐圖透明像素與角落驗證。
+
 - 使用者委託 Codex 使用 OpenAI 內建 imagegen 原創生成，已確認布衣與皮靴風格，並追加授權八張硬甲及全部換上。
 - 20 張名稱專屬裝備與 8 張通用硬甲；只參考本專案既有裝備圖及本批已核准生成圖，未匯入外部第三方素材。
-- 原生生成 PNG、實際提示詞、1024 PNG 匯出、SHA256 及可重現的尺寸／黑位正規化和逐檔複製工具保存在該 package。詳見 source.json；export.cjs 接受遊戲根目錄與 --apply／--check。
+- 原生生成 PNG、去背來源、實際提示詞、1024 RGBA PNG 匯出、SHA256 及可重現的尺寸／alpha保留正規化和逐檔複製工具保存在該 package。詳見 source.json；export.cjs 接受遊戲根目錄與 --apply／--check。
 - 這些為靜態裝備圖示，沿既有 images/equip 與 images/icon 路徑引用，不是 VFX Preset，不加入 VFX 專屬匯出索引。
 
 | package | 來源 | 授權 | 署名義務 |
