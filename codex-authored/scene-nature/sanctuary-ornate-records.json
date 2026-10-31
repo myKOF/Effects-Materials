@@ -1,0 +1,47 @@
+{
+  "task": "SANCTUARY-ORNATE-20261031",
+  "tool": "Built-in image_gen, new original redraw",
+  "prompt": "Use case: stylized-concept.\nAsset type: NEW ORIGINAL opaque square 1024 x 1024 fantasy RPG floor material texture, directly overhead.\nInput images: Image 1 is our old simple game floor, a palette and flat-material reference only. Image 2 is the user's desired ornamental STYLE REFERENCE ONLY. Repaint original artwork with closely matching luxurious visual character, not a screenshot copy or crop. Do not reproduce the person, magic circles, scene perspective or exact ornament drawing from Image 2.\nPRIMARY LAYOUT: exactly TWO rows and TWO columns of large square marble panels, aligned HORIZONTALLY AND VERTICALLY to the image edges. Four full square panels fill the entire image: upper-left and lower-right luminous ivory/pearl white marble; upper-right and lower-left deep navy blue marble. The vertical and horizontal seams are precisely at the midpoint. This is a FLAT texture, NOT a diamond-perspective scene; our renderer rotates and projects the texture later.\nDraw a very ornate heavenly sanctuary floor: rich ivory marble with delicate warm grey and gold mineral veins, deep luminous lapis-navy marble with visible ivory/cyan mineral streaks and polished depth. Each panel has fine multiple parallel golden inlay lines, small engraved flourishes and sculpted chamfered gold edging. At the meeting point of four tiles place an intricate radiant golden eight-point celestial star mounting holding a bright cut sapphire/diamond gem. Repeat the corresponding partial gold mounting at image corners and seam ends so the floor can repeat. In each tile center, a smaller elegant four-point gold star with a tiny faceted pale-blue gem, matching the reference's motif hierarchy. Gold work is detailed dimensional jewelry-like metal with crisp small edge glints, warm shadows and thin engraved filigree, not flat yellow lines.\nSurface finish: visibly polished reflective marble, soft luxurious pearly highlights across white stone and clear cool reflections in navy stone; restrained diagonal gleaming bands. Reflected illumination stays on the surface, not vertical light beams. Legible in a game, rich yet uncluttered. Strongly match the white/navy/gold ornament richness and jewel-like joints of Image 2 while drawing fresh original ornament details.\nConstraints: seamless full-bleed repeatable square, no outer border, no horizon, no sky, NO character or creature, no freestanding objects, no UI, no text, no watermark. NO magic circles, runic rings, giant circular compass roses or ground halos baked into this texture, because real animated magic seals are rendered separately. No top-bottom perspective shrink. Exactly 2x2 straight square panels, not 4x4, not 3x3, and not diamond-oriented tiles. Keep panel faces opaque and the whole floor solid.",
+  "inputs": [
+    {
+      "role": "Our previous simple floor, palette/material reference only",
+      "file": "ground/archive/ground_god_sanctuary-before-ornate.png",
+      "sha256": "3704b56d0a0761de56d560d3018c183fc6a13bf2024dd5481716a2dfcbab4bb8"
+    },
+    {
+      "role": "User-provided ornate floor style reference only. User explicitly requires a redraw; screenshot, character and magic circles are not copied into the asset.",
+      "fileName": "codex-clipboard-a463b64a-8257-4701-892b-dbb808150a71.png",
+      "sha256": "95955da72c6e44127cfc32cb2e73ce94fdadd6388f812071f4b8bd2be4b1d1dd"
+    }
+  ],
+  "source": {
+    "file": "generation-sheets/sanctuary-ornate.png",
+    "generatedFile": "exec-8eb2c108-d04b-4a87-8447-e5bd62edb799.png",
+    "sha256": "1e2d7562d3801fde85f41894706ee75484e8fc9abcf1261a118da8c156a88e36",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  "export": {
+    "file": "ground/ground_god_sanctuary.png",
+    "sha256": "af2e1a85ed8e12da9b1aef0b75e6a73eba7a26c2a115d8d1f63addd9dfb55bc1",
+    "size": [
+      1024,
+      1024
+    ],
+    "method": "Standard opaque RGBA resize. 2x2 painted panels sampled into 512px quadrant, native Canvas blends only the 10px wrap edge then repeats in the same orientation to preserve alternating ivory/navy. Runtime 1024 material cache has a 4x4 panel density matching the previous floor."
+  },
+  "proceduralSources": [
+    {
+      "file": "battle-decor.js",
+      "sha256": "64ffb967b5b2e5073a88c37f91126b255be3610a91f287a187cc29d63a4d0306"
+    },
+    {
+      "file": "decor-nature.js",
+      "sha256": "b6e4051f3757c36c098fbfc29772c39180009a19c8aac6a2de9eb9b61aebe94c"
+    }
+  ],
+  "effects": "Existing 6-source/18-sprite pool retained; seal alpha .62, cyan flow .82, lavender flow .58 plus .10 breathing; brighter gold/cyan/lavender tint, thicker ring arcs and prebaked annular halo. No new sprites, timers or per-frame image drawing.",
+  "preservedChaosSha256": "e417ce8681bda2fa53c348a682437ced7bd2020a27844d12cf6b534abcd784eb"
+}
