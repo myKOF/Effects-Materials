@@ -1,0 +1,52 @@
+[
+  {
+    "id": "thunder_peak_5",
+    "name": "電光獵豹",
+    "key": "npc_thunder_peak_5",
+    "batch": 14,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "豹金／雷藍",
+    "type": "quadruped",
+    "subject": "An ELECTRIC LEOPARD, complete lithe four-legged big cat with ochre-grey spotted fur, a full inward-curled tail, small slate-blue electric markings and pale amber eyes.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "thunder_peak_6",
+    "name": "風蝕守衛",
+    "key": "npc_thunder_peak_6",
+    "batch": 14,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "風石／銅青",
+    "type": "walker",
+    "subject": "A WIND-ERODED GUARDIAN, complete ancient stone-and-bronze armored warrior with a weathered faceplate, two articulated legs, a broad chipped round shield and compact short sword, dusty teal cloth.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "thunder_peak_7",
+    "name": "積雨雲靈",
+    "key": "npc_thunder_peak_7",
+    "batch": 14,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "雲灰／淡紫",
+    "type": "hover",
+    "subject": "A RAIN-CLOUD SPIRIT, compact connected layered dark blue-grey cloud body, two hooked cloud arms, a curling pointed lower cloud tail, small pale gold eye slits and subtle lavender inner lightning seams.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "thunder_peak_8",
+    "name": "暴風女妖",
+    "key": "npc_thunder_peak_8",
+    "batch": 14,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "靛藍／銀白",
+    "type": "hover",
+    "subject": "A STORM BANSHEE, complete spectral adult female figure in flowing dark indigo and slate robes, long pale silver hair, clawed arms and a connected wind-torn lower skirt, small amber eye highlights.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  }
+]

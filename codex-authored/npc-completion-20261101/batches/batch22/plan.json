@@ -1,0 +1,51 @@
+[
+  {
+    "id": "god_sanctuary_2",
+    "name": "天使",
+    "key": "npc_god_sanctuary_2",
+    "batch": 22,
+    "nativeHeight": 70,
+    "height": 52,
+    "color": "象牙／天藍",
+    "type": "flyer",
+    "subject": "An ANGEL, full armored adult androgynous humanoid with complete two legs and two arms, short ash-blond hair, ivory tunic and silver-bronze light armor, two complete pale feather wings and a compact straight sword; no nudity.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_sanctuary_3",
+    "name": "天使巡狩",
+    "key": "npc_god_sanctuary_3",
+    "batch": 22,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "天藍／古金",
+    "type": "archer",
+    "subject": "An ANGELIC HUNTRESS, full armored adult female humanoid with complete legs and arms, muted golden-brown hair, slate-blue and cream tunic, bronze bracers, two complete folded pale feather wings, a short recurved bow in both hands.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_sanctuary_4",
+    "name": "審判使者",
+    "key": "npc_god_sanctuary_4",
+    "batch": 22,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "聖灰／暗紅",
+    "type": "walker",
+    "subject": "A JUDGEMENT MESSENGER, complete tall masked ceremonial warrior, cream and dark slate armor, pale gold faceplate, dusty burgundy cloth, two complete legs and two arms holding a compact heavy balance-shaped war hammer.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_sanctuary_5",
+    "name": "聖域守衛",
+    "key": "npc_god_sanctuary_5",
+    "batch": 22,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "象牙／銅青",
+    "type": "walker",
+    "subject": "A SANCTUARY GUARD, complete armored infantry with ivory-grey plate, tarnished gold edges, muted teal waist cloth, two complete legs, one compact spear and small kite shield; all tips fit cell.",
+    "readyStartFallback": true
+  }
+]

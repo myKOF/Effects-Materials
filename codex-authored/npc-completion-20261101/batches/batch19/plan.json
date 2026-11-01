@@ -1,0 +1,52 @@
+[
+  {
+    "id": "god_chaos_2",
+    "name": "虛空行者",
+    "key": "npc_god_chaos_2",
+    "batch": 19,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "虛空紫／冷銀",
+    "type": "walker",
+    "subject": "A VOID WALKER, complete lean hooded humanoid with a dark empty face and pale cyan slit eyes, layered charcoal-violet torn robes, two complete thin legs and two long clawed hands, dull silver belt.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_chaos_3",
+    "name": "時空魔靈",
+    "key": "npc_god_chaos_3",
+    "batch": 19,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "時藍／古金",
+    "type": "hover",
+    "subject": "A SPACE-TIME SPIRIT, complete connected floating spirit with a small faceted bronze clocklike mask, slate-blue spectral torso, two long ribbon arms and tapering violet shroud, tiny pale gold runic marks.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_chaos_4",
+    "name": "裂縫幻影",
+    "key": "npc_god_chaos_4",
+    "batch": 19,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "裂隙青／煙紫",
+    "type": "hover",
+    "subject": "A RIFT PHANTOM, one complete narrow spectral silhouette in dark teal-grey torn cloak, two connected offset translucent face-like masks forming one head, clawed arms and a connected ragged lower body; not multiple separate characters.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_chaos_5",
+    "name": "混沌噬魂獸",
+    "key": "npc_god_chaos_5",
+    "batch": 19,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "噬魂紫／骨白",
+    "type": "quadruped",
+    "subject": "A CHAOS SOUL-EATER, complete low predatory four-legged creature with leathery dark purple skin, a toothy angular jaw, full barbed curled tail, ivory claws and restrained pale turquoise scars.",
+    "readyStartFallback": true
+  }
+]

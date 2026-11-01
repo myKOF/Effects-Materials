@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "description": "原創荒漠第二批四款NPC、四組動作及八階段雙足步態",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.0",
+    "@napi-rs/canvas": "^0.1.0"
+  },
+  "name": "desert-npc-batch2-20261101"
+}

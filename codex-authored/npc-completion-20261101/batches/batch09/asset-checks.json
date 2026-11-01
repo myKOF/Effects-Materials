@@ -1,0 +1,41 @@
+{
+  "status": "Authorized all NPC completion",
+  "characters": 4,
+  "strips": 16,
+  "poses": 100,
+  "nativePixels": true,
+  "gifs": {
+    "npc_mist_forest_9": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "npc_mist_forest_10": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "npc_mist_forest_11": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "npc_mist_forest_12": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    }
+  }
+}

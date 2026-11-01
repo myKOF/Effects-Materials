@@ -1,0 +1,18 @@
+{
+  "npc_icefield_5_idle.png": "fb5660102dd2782cbbdde7330d585f111a7e369c932350a6350158d298e7ec6e",
+  "npc_icefield_5_walk.png": "b174d911c6da0bc0c0fa0e833e6547f8fdced737bacc2599c8792882fb2f93f1",
+  "npc_icefield_5_attack.png": "76021ec60706befe2bfad6b582f32f4acb4893d20facae120c4f31b3ff93320e",
+  "npc_icefield_5_die.png": "d60be056e60c1d23a30a5e75583bd1190bd2fdfb7a1680d64548bbb28d69735a",
+  "npc_icefield_6_idle.png": "299e0dbf03b8cd36b749d8df5cc06e79e56cc311b2fdff909d180373bf4ebf5c",
+  "npc_icefield_6_walk.png": "99d52838e09d88dd15719c8e3189c1a8d565b57ef2f366b34cb8228be34c381e",
+  "npc_icefield_6_attack.png": "187254d07dcb88a693210a4dcd654210b3cd97627b2daf7df67e9265232e9931",
+  "npc_icefield_6_die.png": "d4aa01046e681aa428a74af6b3e921ddbefabfd2b98e4e76350cadfb1801a52e",
+  "npc_icefield_7_idle.png": "5c96a9c02cb83b7193501a2f3a671bc212a4cf34b1e9e2139b7d167071836bb6",
+  "npc_icefield_7_walk.png": "5cbd4df967e0e8a06f53dea9397e3012beaa19976515cc7edcf0ac1df46dcb3e",
+  "npc_icefield_7_attack.png": "e030db4e4793617a58fb27506c8a7de2d45c36e6761a27741eb80b5784863201",
+  "npc_icefield_7_die.png": "3da46940e0fe1598fd6eee3127672a7cd6262d32d80c437cae162d7085cc3466",
+  "npc_icefield_8_idle.png": "827703794e12e8a90f640570acacea617b4018bed12f111ac48c1d032ef4205b",
+  "npc_icefield_8_walk.png": "58f268df7e4998b592162bfe1efb423724085349338bec118d4dbefa5419e484",
+  "npc_icefield_8_attack.png": "43173ebbc2b973444322a62ef395815b7952d4a534981b47dd7022a3ed2aed7f",
+  "npc_icefield_8_die.png": "760bca6e37debcc745fcc845d6e24fef28519b9d13a5885f2306a35dd166d1f6"
+}

@@ -11,6 +11,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "burning_skull_attack": {
@@ -18,6 +19,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "demon_eye_walk": {
@@ -25,6 +27,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "demon_eye_attack": {
@@ -32,6 +35,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "demon_mine_walk": {
@@ -39,6 +43,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "demon_mine_attack": {
@@ -46,6 +51,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "plague_flies_walk": {
@@ -53,6 +59,7 @@
       "unique": 7,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "plague_flies_attack": {
@@ -60,6 +67,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "memento_skeleton_walk": {
@@ -67,6 +75,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "memento_skeleton_attack": {
@@ -74,6 +83,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "memento_skeleton_die": {
@@ -81,13 +91,15 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "tree_damned_walk": {
       "frames": 8,
-      "unique": 5,
+      "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": true,
       "transparent": true
     },
     "tree_damned_attack": {
@@ -95,6 +107,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "cheeky_devil_walk": {
@@ -102,6 +115,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "cheeky_devil_attack": {
@@ -109,6 +123,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "cheeky_devil_die": {
@@ -116,6 +131,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "hell_giant_walk": {
@@ -123,6 +139,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "hell_giant_attack": {
@@ -130,6 +147,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "hell_giant_die": {
@@ -137,6 +155,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "flying_demon_head_walk": {
@@ -144,6 +163,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "flying_demon_head_attack": {
@@ -151,6 +171,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "old_demon_walk": {
@@ -158,6 +179,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": true,
       "transparent": true
     },
     "old_demon_attack": {
@@ -165,6 +187,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "old_demon_die": {
@@ -172,6 +195,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "large_skull_walk": {
@@ -179,6 +203,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "bat_walk": {
@@ -186,6 +211,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "bloated_damned_attack": {
@@ -193,6 +219,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "skull_candle_walk": {
@@ -200,6 +227,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "skull_candle_attack": {
@@ -207,6 +235,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "burning_skull_blue_walk": {
@@ -214,6 +243,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "burning_skull_blue_attack": {
@@ -221,6 +251,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "the_devil_walk": {
@@ -228,6 +259,7 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "the_devil_attack": {
@@ -235,6 +267,7 @@
       "unique": 5,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     },
     "the_devil_die": {
@@ -242,8 +275,8 @@
       "unique": 8,
       "nativePixels": true,
       "palettePreserved": true,
+      "paintedWalk": false,
       "transparent": true
     }
-  },
-  "moteRoundtrip": true
+  }
 }

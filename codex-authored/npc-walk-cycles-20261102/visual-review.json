@@ -1,0 +1,566 @@
+{
+  "skeleton_warrior_sword": {
+    "pngSHA256": "dd46417d33d4fa227516de6360a1afb02aa050e107f153eb35c8c488453b0e6a",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "skeleton_warrior_axe": {
+    "pngSHA256": "37ae6e35454e4ae67fb213ac55f01725be368821030103b97072d7cbcb5dcbe3",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "skeleton_mage_staff": {
+    "pngSHA256": "cd2a0c0755ce6a36f90c09040e8b5141c369a41630f4b3b06eebd5c8cae24a41",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "skeleton_mage_book": {
+    "pngSHA256": "0893e9d0af36d42ce3a1b725160f240b16d3c89b02082c4185638e42dd661733",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "old_demon": {
+    "pngSHA256": "ba210fbfad7f7d1501d8cbc22bad89f57640eb406118230703b60f022ce2e961",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "tree_damned": {
+    "pngSHA256": "704b2dc923bb29ac13b84e0a15ef0c63ad48562409221ee8c9f1f685146824da",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "desert_goblin": {
+    "pngSHA256": "d248510e153a3b612bcf21f605519ca0f8a53794811bffc67405bdfbd53069d7",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "desert_skeleton": {
+    "pngSHA256": "04f98c896f2148a3dc19955c6d4d4052c7e4cfbfc2c0ddbf4c33042ae6d6c150",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "desert_tree_spirit": {
+    "pngSHA256": "566120c6b4da20c9bf04cee493c75e2146494c0f7e1912f301895f1a9af47749",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "desert_lizard_warrior": {
+    "pngSHA256": "3ece681aaad357cd0fcc79ce55216284fe4948b8a8ce7b54e6d7567326652099",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "desert_orc": {
+    "pngSHA256": "45f932a620a3b471274f06318fe9ccc182d867a21dd5774dd2a0ba75b362d110",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_desert_11": {
+    "pngSHA256": "56b748d2ef29de09108cbeb1381389f330ee1cdb2a7691e22dfb60b19f2e82e5",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_icefield_4": {
+    "pngSHA256": "8a44300766b95115deb76647290680221fa511e3bcdda4e8e52212366312f978",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_icefield_5": {
+    "pngSHA256": "b174d911c6da0bc0c0fa0e833e6547f8fdced737bacc2599c8792882fb2f93f1",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_icefield_9": {
+    "pngSHA256": "dd98db77e020aaf3891028ea588fbfa963169cd88f01b32c7e74d10b515d7b24",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_icefield_11": {
+    "pngSHA256": "1f1d5de331b2a06212001d3de606c19e37595d4ccc1638876590322fbacac6e7",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_mist_forest_2": {
+    "pngSHA256": "6524be9cfb750c10f9b4edbbf07b2d5db99abf5ff0e444d6d28124cae54b3aa6",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_mist_forest_5": {
+    "pngSHA256": "fd8afaac5e0a3af07c4d683d9255339483a3ccb8fb9ed5a2b41f78ae5998640d",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_mist_forest_7": {
+    "pngSHA256": "8321b4587bf4ee89428cec6161e830e453b06d8c083a5b62a8d08812a0275bc9",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_mist_forest_8": {
+    "pngSHA256": "ccac78be0f04544faff9301d99bc22617f44560fc7f098f941d1773d2d7f320b",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_mist_forest_10": {
+    "pngSHA256": "39b01a574d217fb40f8a921a3a79ebf2ad093f158ca5c82e424c2836beb1f129",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_mist_forest_12": {
+    "pngSHA256": "ef43943f6f79cf21a411f3ffe64abc066a0257260fa4f99f0e50fecd5236edb6",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_lava_mountain_2": {
+    "pngSHA256": "644dc4155023b75a1700e9736eecb58fda583303001fb50a0593cce21e10caf7",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_lava_mountain_11": {
+    "pngSHA256": "b4c0b7dd97f79d950b8ec57773dffa01f10eb377d77e580d910d1aad9064b2b5",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_lava_mountain_12": {
+    "pngSHA256": "a76d4592455dae5169fefa14f05fb7f5661b010d3a68924f32b42a61c69ba334",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_lava_mountain_6": {
+    "pngSHA256": "f7f7a0f9678f0ebd3c75791f4e8f063138741c5fa7da98b472285f7bce0e6916",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_thunder_peak_3": {
+    "pngSHA256": "59e80c35b1d4336a438b130950292a54f99b7f9b972baa71c2e05910ded1a10c",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_thunder_peak_6": {
+    "pngSHA256": "30b333229e052fcf1f632c6631c8a5073458835590664538f9a3e90c1dd74db6",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_battlefield_2": {
+    "pngSHA256": "d20f421c83b164b7a08c651280e7e977b8d78b851f0f6195a73b3c477eaeb4d1",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_battlefield_3": {
+    "pngSHA256": "4f7556449c5770308281fc129ec9bc91c0957b91dd44776eae2fe019a74738c2",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_battlefield_4": {
+    "pngSHA256": "8e16b49fd6e9225f27894ff561d72802039c2f4b712c6fe367326452c34b8636",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_battlefield_5": {
+    "pngSHA256": "f104dbb6a99d58b42e23d531133f81e110f07fc8e4c8018e331c2f0f38bb4017",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_battlefield_6": {
+    "pngSHA256": "325883eab1bda8ba2adeb2a72e792a430466fd624e96cb9d924904980fd4fb21",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_battlefield_7": {
+    "pngSHA256": "369a8d169438d772c68183a38ce0ba090db812762a9d25124fd95750a3ab8aa6",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_battlefield_9": {
+    "pngSHA256": "8ad1837bfeec652d746cb9b4601f3599a2e752431a39e8b444e5885fe4ca1534",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_battlefield_11": {
+    "pngSHA256": "c3279e96d3ffe726ce7f0edcb4ea790a90162a29a39fb1b385135c12e32eb43f",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_chaos_2": {
+    "pngSHA256": "ef8b98073a32fee6df1bde6d2aefa2bb7ea4cad8cd58d2bd57f5d2dc2dec4930",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_chaos_6": {
+    "pngSHA256": "b6124080f919e0a2c59f33fb20dd2b46eb3030949d8f88d5ae8b3d70c8da7f2d",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_chaos_9": {
+    "pngSHA256": "b049ec29310d584cd8b69a67002caf7efe1c0e84c66c5799fcea456b31268011",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_chaos_12": {
+    "pngSHA256": "73179061d37d6f9b229302cfeb7db499ed57f89b11b5e791a0055221ebea9c1d",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_sanctuary_3": {
+    "pngSHA256": "652ec900e40a6cb0f5fa76e2bd25cf3cb32e506a5042da30df30b49d2e5b1c08",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_sanctuary_4": {
+    "pngSHA256": "01cbb0de5ab131b7ecb0bc2be46d3d47dcce4827d7ba405bafc0874112859a54",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_sanctuary_5": {
+    "pngSHA256": "b2b9f54f925912227c7437662f83f46fa75dba19d1ecbe25a9da7632715d793f",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_sanctuary_7": {
+    "pngSHA256": "b95e0e0c91f57c51108f14cc2ef13c6de3a25b75a9498ceac912241821eaf19d",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_sanctuary_9": {
+    "pngSHA256": "9ad958af226b1f204152c11b4c7b86bc796e96765a128f32f4d6821e5488728d",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_sanctuary_10": {
+    "pngSHA256": "9b3b891ce71c4115eb3c6b6391afa94ce9559e939e75b4886e5a42431b6083d6",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  },
+  "npc_god_sanctuary_12": {
+    "pngSHA256": "9c2e03b69226198f5bcc18826a0708dbe1aa1c61a2b5e17d952906946fb9ef52",
+    "reviewer": "Codex",
+    "date": "2026-11-02",
+    "checks": [
+      "complete-body",
+      "consistent-facing",
+      "equipment-retained",
+      "support-and-passing-poses",
+      "8-to-1-sequence"
+    ]
+  }
+}

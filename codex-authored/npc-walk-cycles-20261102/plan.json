@@ -1,0 +1,288 @@
+[
+  {
+    "key": "skeleton_warrior_sword",
+    "name": "骷髏劍盾兵",
+    "packageRoot": "../skeleton-four-20261101",
+    "subject": "Ivory skeleton, rusty sword and small round red shield, brick-red waistcloth."
+  },
+  {
+    "key": "skeleton_warrior_axe",
+    "name": "骷髏斧衛",
+    "packageRoot": "../skeleton-four-20261101",
+    "subject": "Ivory skeleton, bronze helmet, heavy short battleaxe held in both hands, muted moss-green cloth."
+  },
+  {
+    "key": "skeleton_mage_staff",
+    "name": "骷髏杖法師",
+    "packageRoot": "../skeleton-four-20261101",
+    "subject": "Ivory skeleton, deep blue hood and ragged blue cloth, compact wooden staff with amber stone."
+  },
+  {
+    "key": "skeleton_mage_book",
+    "name": "骷髏咒書師",
+    "packageRoot": "../skeleton-four-20261101",
+    "subject": "Ivory skeleton, muted plum waistcloth and shouldercloth, open brown spellbook held steadily in front."
+  },
+  {
+    "key": "old_demon",
+    "name": "枯杖老魔",
+    "packageRoot": "../npc-actions-20261101",
+    "subject": "The identical hunched gaunt rust-red/black horned old demon, very long thin complete legs, dark brown loincloth and ONE crooked tall wooden staff held steady.",
+    "legacy": true,
+    "facing": -1
+  },
+  {
+    "key": "tree_damned",
+    "name": "腐爛樹人",
+    "packageRoot": "../npc-actions-20261101",
+    "subject": "The identical slender grey-brown rotten tree humanoid, stern knot face, pointed branching crown, two branch arms, animate TWO short articulated root legs under the trunk. Preserve the complete tree crown and branches.",
+    "legacy": true,
+    "facing": 1
+  },
+  {
+    "key": "desert_goblin",
+    "name": "哥布林",
+    "packageRoot": "../desert-npc-batch1-20261101",
+    "subject": "One original full-body GOBLIN (哥布林), lean hunched small humanoid with olive-green skin, long pointed ears, hooked nose, beady amber eyes, complete arms and two complete legs/feet. Worn brown leather vest, dusty ochre trousers, a small rust-red neck scarf and belt, dull iron short cleaver in right hand, empty left hand; no shield. Head/body proportions grounded, not a giant chibi head. Weathered green/brown with one restrained rust-red accent. Match the sprite scale/detail of the project's articulated skeleton warriors.\nIDLE: breathing and small shoulder/ear motion, cleaver low. MOVE: a six-pose crouched walk with clearly alternating bent knees/feet and counter-swinging weapon. ATTACK: low ready, pull cleaver back, raise it, sharp chopping slash toward LEFT, follow-through, recover. DIE: recoil, knees buckle, pitch sideways, hit ground, cleaver and full body settle, final complete goblin corpse; no decapitation or graphic gore."
+  },
+  {
+    "key": "desert_skeleton",
+    "name": "骷髏兵",
+    "packageRoot": "../desert-npc-batch1-20261101",
+    "subject": "One original full-body DESERT SKELETON SOLDIER (骷髏兵), match the recently created skeleton warriors' weathered ivory/ochre skull and bones, hollow dark eye sockets, thin neck, ribcage, spine, pelvis, TWO complete articulated legs and TWO feet. A distinct desert infantry variation: small battered open-face bronze skullcap, short tattered muted turquoise/verdigris waist cloth and shoulder scrap, brown leather belt, a rusty curved short scimitar in right hand and a small plain weathered bronze buckler in the left. Ivory bones, brown leather, dull bronze and restrained faded turquoise accent. Sparse equipment keeps most bones visible. Not a recolor of the earlier red shield or green axe soldiers; new skullcap/cloth/scimitar silhouette. All equipment stays attached in alive poses.\nIDLE: subtle skull/shoulder breathing, scimitar down, buckler near ribs. MOVE: six-pose complete leg/joint walking cycle, knees and ankles alternate, weapon counter-swing. ATTACK: ready, withdraw sword, shoulder rotates, curved scimitar slashes decisively LEFT, follow through, recover; buckler on opposite arm. DIE: recoil, knees buckle, fall sideways, bones and scimitar land, skeleton settles into a low corpse, final full skeletal remains with helmet/buckler/weapon near same foot baseline, not six skull-only frames."
+  },
+  {
+    "key": "desert_tree_spirit",
+    "name": "樹妖",
+    "packageRoot": "../desert-npc-batch2-20261101",
+    "subject": "One original TREE SPIRIT / TREANT (樹妖), a full-body animated gnarled tree monster. Heavy weathered umber-grey trunk torso, a clear stern face formed from bark knots with two small amber eye slits, crooked branch crown, TWO thick branching arms and hands, TWO separated articulated root legs/feet. Sparse desaturated moss-green leaves and a little pale lichen are modest color accents; mostly readable dry bark and root anatomy. No human armor, no staff, not a static tree stump, not a branch-only half body, no cute face. Match the grounded detailed low-res skeleton style. All branch tips and roots fully inside each cell.\nIDLE: subtle torso/branch breathing and tiny leaf motion, root feet grounded. MOVE: six heavy walking poses with clearly alternating root knees/feet, trunk and arms counter-swing, do not slide a static tree. ATTACK: ready, trunk twists backward, raises one thick branch arm, heavy downward branch-claw swipe/slam toward LEFT, follow-through, recover; other root arm balances. DIE: recoil, root knees buckle, trunk lists, falls onto side, branches/roots settle, a low complete wooden corpse remains. No giant explosion, no extra trees or detached decorative foliage outside the cell."
+  },
+  {
+    "key": "desert_lizard_warrior",
+    "name": "蜥蜴戰士",
+    "packageRoot": "../desert-npc-batch2-20261101",
+    "subject": "One original LIZARD WARRIOR (蜥蜴戰士), a full-body lean reptilian humanoid with a long angular lizard snout, small ochre eyes, teal/sage-green scales with pale warm belly, a short low dorsal crest, two clawed arms, TWO digitigrade articulated legs and two clawed feet, and a COMPLETE long tapering tail curling inward behind it so it fits its cell. Weathered bronze shoulder scale and wrist bands, sparse brown leather straps and a muted rust-red waist cloth. Carries ONE compact bronze-tipped SHORT SPEAR in both hands, NO shield. The spear shaft and tip must fit inside the cell in every thrust. Reptilian, not a human in a lizard mask, not a dragon with wings, no modern weapons. Limited teal/bronze/rust accent colors with dark contours.\nIDLE: guarded slight breathing, short spear diagonal across torso, complete feet and tail. MOVE: six crouched stalking/walking poses with alternating knee/hock/feet articulation, tail counterbalances, spear held steadily. ATTACK: ready, pull spear toward rear, brace legs, thrust spear strongly LEFT, follow-through, pull back to guard; both hands visibly hold shaft throughout. DIE: recoil, knees collapse, tips sideways, body and spear hit ground, tail curls and settles, final complete reptile corpse with spear. No tail being cut off and no graphic gore."
+  },
+  {
+    "key": "desert_orc",
+    "name": "半獸人",
+    "packageRoot": "../desert-npc-batch2-20261101",
+    "subject": "One original ORC / HALF-BEAST BRUTE (半獸人), a full-body broad heavy muscular humanoid, much broader shoulders and more massive anatomy than the previously drawn small goblin. Rough grey-olive skin, short low brow and broad flattened nose, two small visible upward lower tusks, tiny amber eyes, short dark coarse hair, complete TWO arms/hands and TWO strong legs/feet. Battered dark iron shoulder plate and forearm bracer, brown leather belts and boots, short dusty russet-red waist wrap with a little dull bone ornament. Holds a broad chipped heavy IRON CHOPPER / short cleaver in its right hand, empty left fist. Not a goblin, pig animal, human bandit, giant boss, or futuristic soldier. Grounded ordinary enemy scale, restrained grey-olive/iron/leather/russet colors, same dark outlined pixel-art detail as our skeletons. All body parts and blade stay inside cell margins.\nIDLE: heavy chest/shoulder breathing, chopper low and left fist clenched. MOVE: six weighty strides with alternating thighs/knees/feet and shoulder/weapon counter-swing; articulate, do not translate a static body. ATTACK: ready, pull blade back, lift blade and shoulder, heavy diagonal chopping strike toward LEFT, broad follow-through, recover. DIE: recoil, knees buckle, stumble sideways, fall to side, chopper/full body settle, final complete orc corpse, no graphic gore."
+  },
+  {
+    "key": "npc_desert_11",
+    "name": "牛頭人",
+    "packageRoot": "../npc-completion-20261101/batches/batch03",
+    "subject": "A full-body MINOTAUR, brown bull head with two ivory horns, dark chestnut fur, broad humanoid torso and two strong hooved legs; battered iron belt and bronze two-handed short battle axe, faded red waist cloth."
+  },
+  {
+    "key": "npc_icefield_4",
+    "name": "雷電魔像",
+    "packageRoot": "../npc-completion-20261101/batches/batch04",
+    "subject": "A LIGHTNING GOLEM, full heavy body made of slate-violet rock plates around a muted amber electric core, two thick arms and two jointed stone legs; a few connected golden conductive cracks."
+  },
+  {
+    "key": "npc_icefield_5",
+    "name": "雪怪",
+    "packageRoot": "../npc-completion-20261101/batches/batch05",
+    "subject": "A hunched YETI, full furry humanoid with silver-white shaggy fur, blue-grey face and hands, cream horns and two complete large feet; thick shoulders, no weapon."
+  },
+  {
+    "key": "npc_icefield_9",
+    "name": "寒冰魔像",
+    "packageRoot": "../npc-completion-20261101/batches/batch06",
+    "subject": "An ICE GOLEM, full squat body of rough opaque pale turquoise glacier slabs, frost-white bevels, two heavy arms and two jointed legs, a small deep sapphire core; jagged ice shoulder plates."
+  },
+  {
+    "key": "npc_icefield_11",
+    "name": "骷髏弓箭手",
+    "packageRoot": "../npc-completion-20261101/batches/batch06",
+    "subject": "A full-body SKELETON ARCHER, weathered ivory bones, complete ribcage pelvis and two legs, faded indigo hood and short waist cloth, small rusty recurved bow held with both bony hands and a few arrows in a quiver."
+  },
+  {
+    "key": "npc_mist_forest_2",
+    "name": "盤根樹衛",
+    "packageRoot": "../npc-completion-20261101/batches/batch07",
+    "subject": "A ROOTBOUND TREE GUARD, full thick timber humanoid with a stump-like stern face, branching mossy shoulders, two heavy root arms and two complete root legs; warm bark, dark moss and a few ochre leaves."
+  },
+  {
+    "key": "npc_mist_forest_5",
+    "name": "古藤行者",
+    "packageRoot": "../npc-completion-20261101/batches/batch08",
+    "subject": "An ANCIENT VINE WALKER, lean full humanoid woven from grey-brown roots and dark green vines, a hollow wooden mask face, two long vine arms and two clearly separated root legs; sparse burgundy leaves."
+  },
+  {
+    "key": "npc_mist_forest_7",
+    "name": "蕨葉獵手",
+    "packageRoot": "../npc-completion-20261101/batches/batch08",
+    "subject": "A FERN HUNTER, full agile forest creature with a narrow bark mask, tawny moss-fur torso, fern fronds on shoulders, two clawed arms and two digitigrade legs, a short dark-wood hooked spear held in both hands."
+  },
+  {
+    "key": "npc_mist_forest_8",
+    "name": "森岩巨像",
+    "packageRoot": "../npc-completion-20261101/batches/batch08",
+    "subject": "A FOREST ROCK COLOSSUS, complete broad grey stone body with moss-filled cracks, an ancient carved face, two massive stone fists and two sturdy jointed legs, a few worn ochre runes."
+  },
+  {
+    "key": "npc_mist_forest_10",
+    "name": "根鬚守望者",
+    "packageRoot": "../npc-completion-20261101/batches/batch09",
+    "subject": "A ROOT WHISKER WATCHER, full tall dry root humanoid with a broad elder tree face, long branching root beard attached to chest, two clawlike branch arms and two root feet, sage-green lichen and tan bark."
+  },
+  {
+    "key": "npc_mist_forest_12",
+    "name": "千年森靈",
+    "packageRoot": "../npc-completion-20261101/batches/batch09",
+    "subject": "A MILLENNIAL FOREST SPIRIT, complete sturdy ancient wooden guardian with a crown of short gnarled branches, ivory bark face, warm dark wood torso, two arm-like boughs and two root legs; moss, a few gold leaves."
+  },
+  {
+    "key": "npc_lava_mountain_2",
+    "name": "玄武岩衛",
+    "packageRoot": "../npc-completion-20261101/batches/batch10",
+    "subject": "A BASALT GUARD, full stocky humanoid of angular charcoal basalt plates, two stone fists and two legs, dull iron-grey shoulder slabs, restrained dark orange core cracks and an ancient stone mask face."
+  },
+  {
+    "key": "npc_lava_mountain_6",
+    "name": "黑曜石魔像",
+    "packageRoot": "../npc-completion-20261101/batches/batch11",
+    "subject": "An OBSIDIAN GOLEM, complete powerful humanoid of glossy but pixel-shaded black-blue obsidian shards, two heavy fists and two jointed legs, a restrained muted turquoise core and violet edge facets."
+  },
+  {
+    "key": "npc_lava_mountain_11",
+    "name": "裂地巨人",
+    "packageRoot": "../npc-completion-20261101/batches/batch12",
+    "subject": "An EARTH-SPLITTING GIANT, complete broad stony humanoid, weathered warm-grey rocky skin, dark rust cloth around waist, two heavy arms and two full legs, a short cracked stone hammer in both hands."
+  },
+  {
+    "key": "npc_lava_mountain_12",
+    "name": "熔山領主",
+    "packageRoot": "../npc-completion-20261101/batches/batch12",
+    "subject": "A MOLTEN MOUNTAIN LORD, complete heavily plated volcanic humanoid with basalt shoulder crowns, a stern dark stone face, two thick arms and two rootlike stone legs, muted lava-orange chest seams and dark bronze accents."
+  },
+  {
+    "key": "npc_thunder_peak_3",
+    "name": "雷擊石靈",
+    "packageRoot": "../npc-completion-20261101/batches/batch13",
+    "subject": "A LIGHTNING STONE SPIRIT, compact full rocky humanoid of cool grey stone, two fists and two jointed stone legs, a carved angular face and restrained golden crack patterns."
+  },
+  {
+    "key": "npc_thunder_peak_6",
+    "name": "風蝕守衛",
+    "packageRoot": "../npc-completion-20261101/batches/batch14",
+    "subject": "A WIND-ERODED GUARDIAN, complete ancient stone-and-bronze armored warrior with a weathered faceplate, two articulated legs, a broad chipped round shield and compact short sword, dusty teal cloth."
+  },
+  {
+    "key": "npc_god_battlefield_2",
+    "name": "遠古神兵",
+    "packageRoot": "../npc-completion-20261101/batches/batch16",
+    "subject": "An ANCIENT DIVINE SOLDIER, complete slender armored humanoid with weathered ivory and bronze plates, a dark mask face, two full legs and both arms, blue-grey cloth, one compact straight sword and small bronze buckler."
+  },
+  {
+    "key": "npc_god_battlefield_3",
+    "name": "破天戰將",
+    "packageRoot": "../npc-completion-20261101/batches/batch16",
+    "subject": "A SKYBREAK WAR GENERAL, complete heavily armored ancient warrior with slate steel and worn gold armor, crimson waist cloth, horned faceguard, two legs and two hands on a compact poleaxe."
+  },
+  {
+    "key": "npc_god_battlefield_4",
+    "name": "烈焰神衛",
+    "packageRoot": "../npc-completion-20261101/batches/batch16",
+    "subject": "A FLAME DIVINE GUARD, complete armored warrior of blackened bronze and iron, pale gold faceplate, muted ember-orange chest emblem, dark wine-red cloth, a compact heavy sword held in both hands."
+  },
+  {
+    "key": "npc_god_battlefield_5",
+    "name": "狂暴泰坦",
+    "packageRoot": "../npc-completion-20261101/batches/batch16",
+    "subject": "A RAGING TITAN, complete massive broad humanoid with rough ash-grey stone-like skin, dark purple cloth belt, two thick full legs and two muscular fists, sparse aged golden chains on wrists."
+  },
+  {
+    "key": "npc_god_battlefield_6",
+    "name": "神魔殘骸",
+    "packageRoot": "../npc-completion-20261101/batches/batch17",
+    "subject": "A GOD-DEMON REMNANT, complete reassembled skeletal and stone-bodied monster with ivory ribs, tarnished green bronze armor fragments, an asymmetrical cracked skull, two complete legs and two clawed arms."
+  },
+  {
+    "key": "npc_god_battlefield_7",
+    "name": "不朽英靈",
+    "packageRoot": "../npc-completion-20261101/batches/batch17",
+    "subject": "An IMMORTAL HERO SPIRIT, full armored adult spectral knight with silver-grey plate, pale blue spectral face, faded violet tabard, complete two legs, one short shining ivory sword and a small battered shield."
+  },
+  {
+    "key": "npc_god_battlefield_9",
+    "name": "滅世魔將",
+    "packageRoot": "../npc-completion-20261101/batches/batch17",
+    "subject": "A WORLD-RUIN DEMON GENERAL, complete muscular dark basalt-red demon in battered black iron armor, two short ivory horns, two digitigrade legs and two arms, dull teal waist sash, one broad chipped sword."
+  },
+  {
+    "key": "npc_god_battlefield_11",
+    "name": "戰爭主宰",
+    "packageRoot": "../npc-completion-20261101/batches/batch18",
+    "subject": "A WAR DOMINATOR, complete imposing bronze and charcoal armored ancient warrior with a narrow closed helmet, dark crimson capelet, two complete legs, two hands gripping one short trident; all three prongs visible."
+  },
+  {
+    "key": "npc_god_chaos_2",
+    "name": "虛空行者",
+    "packageRoot": "../npc-completion-20261101/batches/batch19",
+    "subject": "A VOID WALKER, complete lean hooded humanoid with a dark empty face and pale cyan slit eyes, layered charcoal-violet torn robes, two complete thin legs and two long clawed hands, dull silver belt."
+  },
+  {
+    "key": "npc_god_chaos_6",
+    "name": "蝕天巨煞",
+    "packageRoot": "../npc-completion-20261101/batches/batch20",
+    "subject": "A SKY-ECLIPSE FIEND, complete hulking grey-black demon with a blunt horned head, two long muscular arms and two digitigrade legs, bone shoulder spikes, a short dusty plum waistcloth and dull amber chest marks."
+  },
+  {
+    "key": "npc_god_chaos_9",
+    "name": "混沌使者",
+    "packageRoot": "../npc-completion-20261101/batches/batch20",
+    "subject": "A CHAOS EMISSARY, full adult robed cultist monster with an ivory cracked mask, muted wine-purple robes, bronze clasps, two complete legs, holding a small tarnished staff with one teal crystal; no text symbols."
+  },
+  {
+    "key": "npc_god_chaos_12",
+    "name": "混沌大天尊",
+    "packageRoot": "../npc-completion-20261101/batches/batch21",
+    "subject": "A GRAND CHAOS LORD, complete ancient masked humanoid with slate-violet and aged bronze armor, two short swept horns, burgundy cloth panels, two complete legs, holding one compact hooked crescent staff with both hands."
+  },
+  {
+    "key": "npc_god_sanctuary_3",
+    "name": "天使巡狩",
+    "packageRoot": "../npc-completion-20261101/batches/batch22",
+    "subject": "An ANGELIC HUNTRESS, full armored adult female humanoid with complete legs and arms, muted golden-brown hair, slate-blue and cream tunic, bronze bracers, two complete folded pale feather wings, a short recurved bow in both hands."
+  },
+  {
+    "key": "npc_god_sanctuary_4",
+    "name": "審判使者",
+    "packageRoot": "../npc-completion-20261101/batches/batch22",
+    "subject": "A JUDGEMENT MESSENGER, complete tall masked ceremonial warrior, cream and dark slate armor, pale gold faceplate, dusty burgundy cloth, two complete legs and two arms holding a compact heavy balance-shaped war hammer."
+  },
+  {
+    "key": "npc_god_sanctuary_5",
+    "name": "聖域守衛",
+    "packageRoot": "../npc-completion-20261101/batches/batch22",
+    "subject": "A SANCTUARY GUARD, complete armored infantry with ivory-grey plate, tarnished gold edges, muted teal waist cloth, two complete legs, one compact spear and small kite shield; all tips fit cell."
+  },
+  {
+    "key": "npc_god_sanctuary_7",
+    "name": "巨靈像",
+    "packageRoot": "../npc-completion-20261101/batches/batch23",
+    "subject": "A COLOSSAL SPIRIT STATUE, complete ancient humanoid statue with cream sandstone and aged bronze joints, a stern carved face, two massive arms and two full legs, muted lapis-blue chest inlay and worn cloth sash."
+  },
+  {
+    "key": "npc_god_sanctuary_9",
+    "name": "聖地執法者",
+    "packageRoot": "../npc-completion-20261101/batches/batch23",
+    "subject": "A HOLY LAND ENFORCER, complete stern masked armored warrior with warm grey and bronze armor, deep desaturated blue tabard, two complete legs, a compact square-headed mace in one hand and a small closed ivory law book in the other."
+  },
+  {
+    "key": "npc_god_sanctuary_10",
+    "name": "神王護衛長",
+    "packageRoot": "../npc-completion-20261101/batches/batch24",
+    "subject": "A GOD-KING GUARD CAPTAIN, full broad ceremonial knight with complete two legs and two arms, worn gold and charcoal steel armor, a short muted crimson cape, crowned closed helmet and a compact broad sword with small shield."
+  },
+  {
+    "key": "npc_god_sanctuary_12",
+    "name": "神聖執法官",
+    "packageRoot": "../npc-completion-20261101/batches/batch24",
+    "subject": "A SACRED EXECUTIONER, complete tall armored ancient sentinel with ivory and slate-blue plates, tarnished gold faceguard, muted plum waist cloth, two full legs and two hands holding one compact crescent-bladed poleaxe."
+  }
+]

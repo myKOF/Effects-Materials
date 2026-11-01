@@ -1,0 +1,18 @@
+{
+  "npc_lava_mountain_11_idle.png": "26e1cdde863cd3e5be71ae8c09434e5b777bf710783acbeb6ccbf29db9673503",
+  "npc_lava_mountain_11_walk.png": "b4c0b7dd97f79d950b8ec57773dffa01f10eb377d77e580d910d1aad9064b2b5",
+  "npc_lava_mountain_11_attack.png": "ab602b89212fe114519022f84e2fb682f34f9e86192b7c153b4bbc7a7994ef6b",
+  "npc_lava_mountain_11_die.png": "c4f55bb26f0d7f2d4636d1b1a610cf215bc53a17d825621f2601a6755a109b63",
+  "npc_lava_mountain_12_idle.png": "19a528ebd55dfd6a35c1fbbc21b1fa7612f8478447cfb36edfed6be4692d6b75",
+  "npc_lava_mountain_12_walk.png": "a76d4592455dae5169fefa14f05fb7f5661b010d3a68924f32b42a61c69ba334",
+  "npc_lava_mountain_12_attack.png": "a6fa467ceb0d4ba168ed88ea563cb8a14c90168eadf48f9d5595f63f2277104e",
+  "npc_lava_mountain_12_die.png": "82ae9cb63bae7534e113440b9354f920f4c659b1209cbc84605c328446a5c8e4",
+  "npc_swamp_6_idle.png": "0a1b80e5796aac26ce24d760084d5c6d4c8c00a6179f03834e777e3cd220843f",
+  "npc_swamp_6_walk.png": "db2c49dc628cb9723dfdb3202e258b09a60c6c3c43f8093dad1ede566848ed02",
+  "npc_swamp_6_attack.png": "28c9819eeb2d7b232030483ee679ff6241cced7c61db01445e9422984a3649a0",
+  "npc_swamp_6_die.png": "a97725f06f52c752bcc86a350a181a62d930ba619d3c68542f6657fb8c301aa8",
+  "npc_swamp_11_idle.png": "87338a56e9733983364aab449b3ac750b40e598e2bfa77a2f0a510326a4ed51d",
+  "npc_swamp_11_walk.png": "54176a3b07a629a56802f5d6477661ec6716fef506ffc1be81039d0449293ee6",
+  "npc_swamp_11_attack.png": "fb345ea1647a5b4fad8666c76f9b473fad52ff246c783a0a4aa2f492573d7882",
+  "npc_swamp_11_die.png": "b409547ad17a7b9efd8a0816151f5c729892efc2a464d8c784b535103075406b"
+}

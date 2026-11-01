@@ -1,0 +1,154 @@
+{
+  "chars": {
+    "npc_icefield_5": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "npc_icefield_6": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7188,
+      "facing": -1,
+      "height": 46
+    },
+    "npc_icefield_7": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7188,
+      "facing": -1,
+      "height": 46
+    },
+    "npc_icefield_8": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.8846,
+      "facing": -1,
+      "height": 46
+    }
+  },
+  "stems": {
+    "npc_icefield_5_idle": {
+      "char": "npc_icefield_5",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    },
+    "npc_icefield_5_walk": {
+      "char": "npc_icefield_5",
+      "frames": 8,
+      "fps": 11.11111111111111,
+      "loop": true,
+      "hold": false
+    },
+    "npc_icefield_5_attack": {
+      "char": "npc_icefield_5",
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "hold": false
+    },
+    "npc_icefield_5_die": {
+      "char": "npc_icefield_5",
+      "frames": 6,
+      "fps": 8.333333333333334,
+      "loop": false,
+      "hold": true
+    },
+    "npc_icefield_6_idle": {
+      "char": "npc_icefield_6",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    },
+    "npc_icefield_6_walk": {
+      "char": "npc_icefield_6",
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "hold": false
+    },
+    "npc_icefield_6_attack": {
+      "char": "npc_icefield_6",
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "hold": false
+    },
+    "npc_icefield_6_die": {
+      "char": "npc_icefield_6",
+      "frames": 6,
+      "fps": 8.333333333333334,
+      "loop": false,
+      "hold": true
+    },
+    "npc_icefield_7_idle": {
+      "char": "npc_icefield_7",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    },
+    "npc_icefield_7_walk": {
+      "char": "npc_icefield_7",
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "hold": false
+    },
+    "npc_icefield_7_attack": {
+      "char": "npc_icefield_7",
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "hold": false
+    },
+    "npc_icefield_7_die": {
+      "char": "npc_icefield_7",
+      "frames": 6,
+      "fps": 8.333333333333334,
+      "loop": false,
+      "hold": true
+    },
+    "npc_icefield_8_idle": {
+      "char": "npc_icefield_8",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    },
+    "npc_icefield_8_walk": {
+      "char": "npc_icefield_8",
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "hold": false
+    },
+    "npc_icefield_8_attack": {
+      "char": "npc_icefield_8",
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "hold": false
+    },
+    "npc_icefield_8_die": {
+      "char": "npc_icefield_8",
+      "frames": 6,
+      "fps": 8.333333333333334,
+      "loop": false,
+      "hold": true
+    }
+  }
+}

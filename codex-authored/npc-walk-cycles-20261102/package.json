@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "description": "原創雙足NPC八階段步態來源與整理工具",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.0",
+    "@napi-rs/canvas": "^0.1.0"
+  },
+  "name": "npc-walk-cycles-20261102"
+}

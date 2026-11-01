@@ -1,0 +1,574 @@
+{
+  "npc_god_battlefield_2": {
+    "sourceSHA256": "a9772653a3204682c697cb943afb24bbbfd9543fca95a84a8eeb26136702a795",
+    "outputSHA256": "d20f421c83b164b7a08c651280e7e977b8d78b851f0f6195a73b3c477eaeb4d1",
+    "frames": 8,
+    "frameMs": 90,
+    "phases": [
+      "near-contact",
+      "near-support",
+      "far-passing",
+      "far-forward",
+      "far-contact",
+      "far-support",
+      "near-passing",
+      "near-forward"
+    ],
+    "bounds": [
+      {
+        "l": 37,
+        "r": 91,
+        "t": 39,
+        "b": 112,
+        "n": 1747
+      },
+      {
+        "l": 39,
+        "r": 87,
+        "t": 40,
+        "b": 112,
+        "n": 1589
+      },
+      {
+        "l": 35,
+        "r": 89,
+        "t": 39,
+        "b": 112,
+        "n": 1574
+      },
+      {
+        "l": 35,
+        "r": 89,
+        "t": 39,
+        "b": 112,
+        "n": 1681
+      },
+      {
+        "l": 37,
+        "r": 94,
+        "t": 41,
+        "b": 112,
+        "n": 1725
+      },
+      {
+        "l": 39,
+        "r": 88,
+        "t": 41,
+        "b": 112,
+        "n": 1555
+      },
+      {
+        "l": 36,
+        "r": 88,
+        "t": 40,
+        "b": 112,
+        "n": 1574
+      },
+      {
+        "l": 36,
+        "r": 89,
+        "t": 40,
+        "b": 112,
+        "n": 1656
+      }
+    ],
+    "jointGuide": "gait-guide.png",
+    "legs": {
+      "region": {
+        "top": 88,
+        "left": 31,
+        "right": 89,
+        "baseline": 112
+      },
+      "adjacentLowerLegChange": [
+        {
+          "from": 1,
+          "to": 2,
+          "changedPixels": 552,
+          "ratio": 0.7031847133757961
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "changedPixels": 359,
+          "ratio": 0.6023489932885906
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "changedPixels": 436,
+          "ratio": 0.665648854961832
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "changedPixels": 463,
+          "ratio": 0.6165113182423435
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "changedPixels": 454,
+          "ratio": 0.6143437077131259
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "changedPixels": 389,
+          "ratio": 0.6164817749603804
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "changedPixels": 421,
+          "ratio": 0.6506955177743431
+        },
+        {
+          "from": 8,
+          "to": 1,
+          "changedPixels": 302,
+          "ratio": 0.4487369985141159
+        }
+      ],
+      "footWidths": [
+        41,
+        19,
+        11,
+        37,
+        39,
+        23,
+        11,
+        35
+      ]
+    }
+  },
+  "npc_god_battlefield_3": {
+    "sourceSHA256": "98486b95a86ff2e734e8ccf581aeafadd2bc1dd3ccd756b9e964098220affd1c",
+    "outputSHA256": "4f7556449c5770308281fc129ec9bc91c0957b91dd44776eae2fe019a74738c2",
+    "frames": 8,
+    "frameMs": 90,
+    "phases": [
+      "near-contact",
+      "near-support",
+      "far-passing",
+      "far-forward",
+      "far-contact",
+      "far-support",
+      "near-passing",
+      "near-forward"
+    ],
+    "bounds": [
+      {
+        "l": 36,
+        "r": 98,
+        "t": 41,
+        "b": 112,
+        "n": 2502
+      },
+      {
+        "l": 37,
+        "r": 98,
+        "t": 41,
+        "b": 112,
+        "n": 2426
+      },
+      {
+        "l": 41,
+        "r": 93,
+        "t": 41,
+        "b": 112,
+        "n": 2125
+      },
+      {
+        "l": 37,
+        "r": 100,
+        "t": 41,
+        "b": 112,
+        "n": 2453
+      },
+      {
+        "l": 35,
+        "r": 100,
+        "t": 40,
+        "b": 112,
+        "n": 2592
+      },
+      {
+        "l": 36,
+        "r": 98,
+        "t": 40,
+        "b": 112,
+        "n": 2412
+      },
+      {
+        "l": 40,
+        "r": 92,
+        "t": 40,
+        "b": 112,
+        "n": 2132
+      },
+      {
+        "l": 36,
+        "r": 98,
+        "t": 40,
+        "b": 112,
+        "n": 2537
+      }
+    ],
+    "jointGuide": "gait-guide.png",
+    "legs": {
+      "region": {
+        "top": 88,
+        "left": 35,
+        "right": 94,
+        "baseline": 112
+      },
+      "adjacentLowerLegChange": [
+        {
+          "from": 1,
+          "to": 2,
+          "changedPixels": 328,
+          "ratio": 0.3561346362649294
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "changedPixels": 471,
+          "ratio": 0.5401376146788991
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "changedPixels": 496,
+          "ratio": 0.5760743321718932
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "changedPixels": 302,
+          "ratio": 0.34514285714285714
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "changedPixels": 440,
+          "ratio": 0.4661016949152542
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "changedPixels": 419,
+          "ratio": 0.5115995115995116
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "changedPixels": 572,
+          "ratio": 0.6197183098591549
+        },
+        {
+          "from": 8,
+          "to": 1,
+          "changedPixels": 150,
+          "ratio": 0.17942583732057416
+        }
+      ],
+      "footWidths": [
+        48,
+        35,
+        11,
+        40,
+        52,
+        34,
+        12,
+        49
+      ]
+    }
+  },
+  "npc_god_battlefield_4": {
+    "sourceSHA256": "a2d374504499fb8bc1b7c2f840ebbe89e86738d3b5a0e7cbf9f116aa6c127a5a",
+    "outputSHA256": "8e16b49fd6e9225f27894ff561d72802039c2f4b712c6fe367326452c34b8636",
+    "frames": 8,
+    "frameMs": 90,
+    "phases": [
+      "near-contact",
+      "near-support",
+      "far-passing",
+      "far-forward",
+      "far-contact",
+      "far-support",
+      "near-passing",
+      "near-forward"
+    ],
+    "bounds": [
+      {
+        "l": 27,
+        "r": 97,
+        "t": 40,
+        "b": 112,
+        "n": 2367
+      },
+      {
+        "l": 29,
+        "r": 93,
+        "t": 40,
+        "b": 112,
+        "n": 2032
+      },
+      {
+        "l": 26,
+        "r": 94,
+        "t": 40,
+        "b": 112,
+        "n": 2066
+      },
+      {
+        "l": 26,
+        "r": 91,
+        "t": 40,
+        "b": 112,
+        "n": 2108
+      },
+      {
+        "l": 26,
+        "r": 97,
+        "t": 41,
+        "b": 112,
+        "n": 2287
+      },
+      {
+        "l": 28,
+        "r": 94,
+        "t": 41,
+        "b": 112,
+        "n": 2054
+      },
+      {
+        "l": 26,
+        "r": 95,
+        "t": 41,
+        "b": 112,
+        "n": 2056
+      },
+      {
+        "l": 26,
+        "r": 93,
+        "t": 41,
+        "b": 112,
+        "n": 2132
+      }
+    ],
+    "jointGuide": "gait-guide.png",
+    "legs": {
+      "region": {
+        "top": 88,
+        "left": 30,
+        "right": 89,
+        "baseline": 112
+      },
+      "adjacentLowerLegChange": [
+        {
+          "from": 1,
+          "to": 2,
+          "changedPixels": 609,
+          "ratio": 0.5822179732313576
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "changedPixels": 375,
+          "ratio": 0.4635352286773795
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "changedPixels": 361,
+          "ratio": 0.44348894348894347
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "changedPixels": 491,
+          "ratio": 0.49797160243407707
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "changedPixels": 516,
+          "ratio": 0.5170340681362725
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "changedPixels": 246,
+          "ratio": 0.32625994694960214
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "changedPixels": 357,
+          "ratio": 0.4348355663824604
+        },
+        {
+          "from": 8,
+          "to": 1,
+          "changedPixels": 435,
+          "ratio": 0.4429735234215886
+        }
+      ],
+      "footWidths": [
+        50,
+        22,
+        21,
+        31,
+        46,
+        26,
+        14,
+        32
+      ]
+    }
+  },
+  "npc_god_battlefield_5": {
+    "sourceSHA256": "48099e557215c02954fc83b0291bc2a98358eaf71a0ebf8159bac1b9b0a3c279",
+    "outputSHA256": "f104dbb6a99d58b42e23d531133f81e110f07fc8e4c8018e331c2f0f38bb4017",
+    "frames": 8,
+    "frameMs": 90,
+    "phases": [
+      "near-contact",
+      "near-support",
+      "far-passing",
+      "far-forward",
+      "far-contact",
+      "far-support",
+      "near-passing",
+      "near-forward"
+    ],
+    "bounds": [
+      {
+        "l": 34,
+        "r": 99,
+        "t": 39,
+        "b": 112,
+        "n": 2962
+      },
+      {
+        "l": 37,
+        "r": 94,
+        "t": 40,
+        "b": 112,
+        "n": 2640
+      },
+      {
+        "l": 39,
+        "r": 93,
+        "t": 40,
+        "b": 112,
+        "n": 2535
+      },
+      {
+        "l": 37,
+        "r": 93,
+        "t": 41,
+        "b": 112,
+        "n": 2635
+      },
+      {
+        "l": 33,
+        "r": 99,
+        "t": 40,
+        "b": 112,
+        "n": 2993
+      },
+      {
+        "l": 36,
+        "r": 96,
+        "t": 41,
+        "b": 112,
+        "n": 2638
+      },
+      {
+        "l": 37,
+        "r": 93,
+        "t": 41,
+        "b": 112,
+        "n": 2544
+      },
+      {
+        "l": 35,
+        "r": 100,
+        "t": 41,
+        "b": 112,
+        "n": 2823
+      }
+    ],
+    "jointGuide": "gait-guide.png",
+    "legs": {
+      "region": {
+        "top": 88,
+        "left": 34,
+        "right": 92,
+        "baseline": 112
+      },
+      "adjacentLowerLegChange": [
+        {
+          "from": 1,
+          "to": 2,
+          "changedPixels": 568,
+          "ratio": 0.5503875968992248
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "changedPixels": 235,
+          "ratio": 0.3040103492884864
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "changedPixels": 606,
+          "ratio": 0.5872093023255814
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "changedPixels": 227,
+          "ratio": 0.2323439099283521
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "changedPixels": 664,
+          "ratio": 0.5814360770577933
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "changedPixels": 184,
+          "ratio": 0.2332065906210393
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "changedPixels": 558,
+          "ratio": 0.5386100386100386
+        },
+        {
+          "from": 8,
+          "to": 1,
+          "changedPixels": 310,
+          "ratio": 0.31536113936927773
+        }
+      ],
+      "footWidths": [
+        55,
+        32,
+        22,
+        52,
+        58,
+        31,
+        27,
+        52
+      ]
+    }
+  }
+}

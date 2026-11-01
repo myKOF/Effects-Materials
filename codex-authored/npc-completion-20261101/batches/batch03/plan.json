@@ -1,0 +1,53 @@
+[
+  {
+    "id": "desert_9",
+    "name": "幽靈",
+    "key": "npc_desert_9",
+    "batch": 3,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "霜灰／淡紫",
+    "type": "hover",
+    "subject": "An eerie full-body tattered ghost, a hollow hood-like spectral face, flowing pale blue-grey ectoplasm, two long connected clawlike arms and a trailing wispy lower body; small muted violet highlights.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "desert_10",
+    "name": "石像鬼",
+    "key": "npc_desert_10",
+    "batch": 3,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "石灰／暗青",
+    "type": "flyer",
+    "subject": "A crouched winged STONE GARGOYLE, complete muscular basalt-grey body, horned animal face, two arms, two clawed legs and full folded or opened batlike stone wings; dusty blue stone and sparse bronze lichen.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "desert_11",
+    "name": "牛頭人",
+    "key": "npc_desert_11",
+    "batch": 3,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "栗褐／赭紅",
+    "type": "walker",
+    "subject": "A full-body MINOTAUR, brown bull head with two ivory horns, dark chestnut fur, broad humanoid torso and two strong hooved legs; battered iron belt and bronze two-handed short battle axe, faded red waist cloth.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "desert_12",
+    "name": "雙足飛龍",
+    "key": "npc_desert_12",
+    "batch": 3,
+    "nativeHeight": 70,
+    "height": 52,
+    "color": "沙綠／銅褐",
+    "type": "flyer",
+    "subject": "A complete TWO-LEGGED WYVERN, sand-olive reptile body, two large membranous forelimb wings, two hind legs only, complete tapering curled tail, ochre underside and muted copper membranes. No extra human arms.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  }
+]

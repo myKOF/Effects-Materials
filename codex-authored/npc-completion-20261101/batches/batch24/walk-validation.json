@@ -1,0 +1,288 @@
+{
+  "npc_god_sanctuary_10": {
+    "sourceSHA256": "0a96b409711e970ccfc2d85955b40e85efcc946fb2a6c11aca4f1cab3a8b4621",
+    "outputSHA256": "9b3b891ce71c4115eb3c6b6391afa94ce9559e939e75b4886e5a42431b6083d6",
+    "frames": 8,
+    "frameMs": 90,
+    "phases": [
+      "near-contact",
+      "near-support",
+      "far-passing",
+      "far-forward",
+      "far-contact",
+      "far-support",
+      "near-passing",
+      "near-forward"
+    ],
+    "bounds": [
+      {
+        "l": 27,
+        "r": 94,
+        "t": 40,
+        "b": 112,
+        "n": 2174
+      },
+      {
+        "l": 29,
+        "r": 92,
+        "t": 40,
+        "b": 112,
+        "n": 1972
+      },
+      {
+        "l": 31,
+        "r": 93,
+        "t": 40,
+        "b": 112,
+        "n": 1889
+      },
+      {
+        "l": 30,
+        "r": 92,
+        "t": 40,
+        "b": 112,
+        "n": 1985
+      },
+      {
+        "l": 30,
+        "r": 97,
+        "t": 41,
+        "b": 112,
+        "n": 2166
+      },
+      {
+        "l": 31,
+        "r": 95,
+        "t": 41,
+        "b": 112,
+        "n": 2015
+      },
+      {
+        "l": 44,
+        "r": 93,
+        "t": 41,
+        "b": 112,
+        "n": 1804
+      },
+      {
+        "l": 31,
+        "r": 94,
+        "t": 41,
+        "b": 112,
+        "n": 1966
+      }
+    ],
+    "jointGuide": "gait-guide.png",
+    "legs": {
+      "region": {
+        "top": 88,
+        "left": 30,
+        "right": 88,
+        "baseline": 112
+      },
+      "adjacentLowerLegChange": [
+        {
+          "from": 1,
+          "to": 2,
+          "changedPixels": 514,
+          "ratio": 0.5762331838565022
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "changedPixels": 150,
+          "ratio": 0.23961661341853036
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "changedPixels": 353,
+          "ratio": 0.4855570839064649
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "changedPixels": 461,
+          "ratio": 0.5191441441441441
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "changedPixels": 569,
+          "ratio": 0.5853909465020576
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "changedPixels": 313,
+          "ratio": 0.44084507042253523
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "changedPixels": 402,
+          "ratio": 0.5537190082644629
+        },
+        {
+          "from": 8,
+          "to": 1,
+          "changedPixels": 528,
+          "ratio": 0.5866666666666667
+        }
+      ],
+      "footWidths": [
+        43,
+        19,
+        12,
+        31,
+        49,
+        23,
+        12,
+        28
+      ]
+    }
+  },
+  "npc_god_sanctuary_12": {
+    "sourceSHA256": "9d7a6b58f02ea5f0a84010209e46c4599dba63eea2796c6142b3beefef3586bc",
+    "outputSHA256": "9c2e03b69226198f5bcc18826a0708dbe1aa1c61a2b5e17d952906946fb9ef52",
+    "frames": 8,
+    "frameMs": 90,
+    "phases": [
+      "near-contact",
+      "near-support",
+      "far-passing",
+      "far-forward",
+      "far-contact",
+      "far-support",
+      "near-passing",
+      "near-forward"
+    ],
+    "bounds": [
+      {
+        "l": 34,
+        "r": 92,
+        "t": 41,
+        "b": 112,
+        "n": 2126
+      },
+      {
+        "l": 34,
+        "r": 90,
+        "t": 40,
+        "b": 112,
+        "n": 2075
+      },
+      {
+        "l": 34,
+        "r": 89,
+        "t": 40,
+        "b": 112,
+        "n": 2008
+      },
+      {
+        "l": 34,
+        "r": 92,
+        "t": 40,
+        "b": 112,
+        "n": 2155
+      },
+      {
+        "l": 34,
+        "r": 95,
+        "t": 40,
+        "b": 112,
+        "n": 2183
+      },
+      {
+        "l": 34,
+        "r": 91,
+        "t": 40,
+        "b": 112,
+        "n": 2080
+      },
+      {
+        "l": 34,
+        "r": 90,
+        "t": 40,
+        "b": 112,
+        "n": 2049
+      },
+      {
+        "l": 34,
+        "r": 92,
+        "t": 40,
+        "b": 112,
+        "n": 2120
+      }
+    ],
+    "jointGuide": "gait-guide.png",
+    "legs": {
+      "region": {
+        "top": 88,
+        "left": 26,
+        "right": 85,
+        "baseline": 112
+      },
+      "adjacentLowerLegChange": [
+        {
+          "from": 1,
+          "to": 2,
+          "changedPixels": 256,
+          "ratio": 0.35310344827586204
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "changedPixels": 107,
+          "ratio": 0.17803660565723795
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "changedPixels": 286,
+          "ratio": 0.4011220196353436
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "changedPixels": 136,
+          "ratio": 0.20148148148148148
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "changedPixels": 287,
+          "ratio": 0.40252454417952316
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "changedPixels": 150,
+          "ratio": 0.25125628140703515
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "changedPixels": 287,
+          "ratio": 0.41654571843251087
+        },
+        {
+          "from": 8,
+          "to": 1,
+          "changedPixels": 201,
+          "ratio": 0.2847025495750708
+        }
+      ],
+      "footWidths": [
+        37,
+        23,
+        30,
+        33,
+        35,
+        19,
+        14,
+        33
+      ]
+    }
+  }
+}

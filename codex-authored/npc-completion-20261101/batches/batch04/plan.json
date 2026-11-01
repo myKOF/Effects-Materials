@@ -1,0 +1,52 @@
+[
+  {
+    "id": "Icefield_1",
+    "name": "寒霜狼",
+    "key": "npc_icefield_1",
+    "batch": 4,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "銀白／冰藍",
+    "type": "quadruped",
+    "subject": "A natural FROST WOLF, complete four-legged anatomy and bushy tail, off-white and silver-grey winter coat, desaturated icy blue shadow, a few tiny frost crystals along shoulder fur, pale amber eyes.",
+    "variant": "wolf",
+    "readyStartFallback": true
+  },
+  {
+    "id": "Icefield_2",
+    "name": "雪原巨熊",
+    "key": "npc_icefield_2",
+    "batch": 4,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "米白／冷灰",
+    "type": "quadruped",
+    "subject": "A powerful SNOW BEAR, thick cream-white winter fur, dark grey paws and nose, massive shoulders, complete four legs and small round ears; old tan scars, no clothing or weapons.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "Icefield_3",
+    "name": "冰原史萊姆",
+    "key": "npc_icefield_3",
+    "batch": 4,
+    "nativeHeight": 48,
+    "height": 34,
+    "color": "冰青／淡紫",
+    "type": "slime",
+    "subject": "An ICEFIELD SLIME, squat translucent glacial-cyan gel, milky white inner frost nucleus, irregular frozen droplet crest, dark teal slit eyes and subtle lavender shadow. No limbs or cartoon smile.",
+    "variant": "slime",
+    "readyStartFallback": true
+  },
+  {
+    "id": "Icefield_4",
+    "name": "雷電魔像",
+    "key": "npc_icefield_4",
+    "batch": 4,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "岩紫／電金",
+    "type": "walker",
+    "subject": "A LIGHTNING GOLEM, full heavy body made of slate-violet rock plates around a muted amber electric core, two thick arms and two jointed stone legs; a few connected golden conductive cracks.",
+    "readyStartFallback": true
+  }
+]

@@ -7,20 +7,21 @@ const plan=JSON.parse(fs.readFileSync(path.join(root,'plan.json'))),manifest=JSO
  const report={status:'Approved GIF — replacement authorized',characters:4,strips:0,poses:0,nativePixels:true,gifs:{}},hashes={};
  for(const spec of plan){
   for(const action of ['idle','walk','attack','die']){
+   const expectedFrames=action==='walk'&&fs.existsSync(path.join(root,'../npc-walk-cycles-20261102/sources',spec.key+'.png'))?8:6;
    const stem=spec.key+'_'+action,bytes=fs.readFileSync(path.join(root,'exports',stem+'.png')),im=PNG.sync.read(bytes),mote=JSON.parse(fs.readFileSync(path.join(root,'mote',stem+'.mote'))),unique=new Set();
-   assert.equal(im.width,768);assert.equal(im.height,128);assert.equal(mote.width,128);assert.equal(mote.height,128);assert.equal(mote.frames.length,6);
-   assert.equal(manifest.stems[stem].frames,6);assert.equal(manifest.stems[stem].hold,action==='die');assert.equal(manifest.stems[stem].loop,action==='idle'||action==='walk');
-   for(let i=0;i<6;i++){
+   assert.equal(im.width,128*expectedFrames);assert.equal(im.height,128);assert.equal(mote.width,128);assert.equal(mote.height,128);assert.equal(mote.frames.length,expectedFrames);
+   assert.equal(manifest.stems[stem].frames,expectedFrames);assert.equal(manifest.stems[stem].hold,action==='die');assert.equal(manifest.stems[stem].loop,action==='idle'||action==='walk');
+   for(let i=0;i<expectedFrames;i++){
     const pixels=Buffer.alloc(128*128*4),runs=Object.values(mote.frames[i].cels)[0];let at=0;
     for(let r=0;r<runs.length;r+=2)for(let n=0;n<runs[r];n++){pixels.writeUInt32LE(runs[r+1]>>>0,at);at+=4;}assert.equal(at,pixels.length);
     let visible=0;
     for(let y=0;y<128;y++){
-     assert.ok(pixels.subarray(y*128*4,(y+1)*128*4).equals(im.data.subarray((y*768+i*128)*4,(y*768+(i+1)*128)*4)),stem+' native RGBA');
+     assert.ok(pixels.subarray(y*128*4,(y+1)*128*4).equals(im.data.subarray((y*im.width+i*128)*4,(y*im.width+(i+1)*128)*4)),stem+' native RGBA');
      for(let x=0;x<128;x++)if(pixels[(y*128+x)*4+3]){visible++;assert.ok(x>=3&&x<125&&y>=3&&y<125,stem+' transparent margin');}
     }
     assert.ok(visible>100,stem+' visible full sprite');unique.add(sha(pixels));report.poses++;
    }
-   assert.equal(unique.size,6,stem+' distinct poses');hashes[stem+'.png']=sha(bytes);report.strips++;
+   assert.equal(unique.size,expectedFrames,stem+' distinct poses');hashes[stem+'.png']=sha(bytes);report.strips++;
   }
   const gif=await sharp(path.join(preview,spec.key+'.gif'),{animated:true}).metadata();assert.equal(gif.pages,36);assert.equal(gif.width,512);assert.equal(gif.pageHeight,576);assert.ok(gif.delay.every(n=>n===80));
   report.gifs[spec.key]={frames:gif.pages,frameMs:80,totalMs:gif.delay.reduce((a,b)=>a+b,0),loop:gif.loop,width:gif.width,height:gif.pageHeight};assert.equal(report.gifs[spec.key].totalMs,2880);assert.equal(gif.loop,0);

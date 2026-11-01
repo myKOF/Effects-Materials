@@ -80,7 +80,7 @@
   "tree_damned_walk": {
    "char": "tree_damned",
    "frames": 8,
-   "fps": 12,
+   "fps": 11.11111111111111,
    "loop": true,
    "hold": false
   },
@@ -150,7 +150,7 @@
   "old_demon_walk": {
    "char": "old_demon",
    "frames": 8,
-   "fps": 12,
+   "fps": 11.11111111111111,
    "loop": true,
    "hold": false
   },

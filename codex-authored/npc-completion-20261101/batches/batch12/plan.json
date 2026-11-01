@@ -1,0 +1,51 @@
+[
+  {
+    "id": "lava_mountain_11",
+    "name": "裂地巨人",
+    "key": "npc_lava_mountain_11",
+    "batch": 12,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "岩灰／鏽紅",
+    "type": "walker",
+    "subject": "An EARTH-SPLITTING GIANT, complete broad stony humanoid, weathered warm-grey rocky skin, dark rust cloth around waist, two heavy arms and two full legs, a short cracked stone hammer in both hands.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "lava_mountain_12",
+    "name": "熔山領主",
+    "key": "npc_lava_mountain_12",
+    "batch": 12,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "玄岩／熔橙",
+    "type": "walker",
+    "subject": "A MOLTEN MOUNTAIN LORD, complete heavily plated volcanic humanoid with basalt shoulder crowns, a stern dark stone face, two thick arms and two rootlike stone legs, muted lava-orange chest seams and dark bronze accents.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "swamp_6",
+    "name": "泥漿怪",
+    "key": "npc_swamp_6",
+    "batch": 12,
+    "nativeHeight": 48,
+    "height": 34,
+    "color": "泥褐／苔綠",
+    "type": "slime",
+    "subject": "A MUD CREATURE, squat lumpy umber-grey mud body with a small moss-green nucleus and dark sleepy eye slits, thick viscous folds, a few dull tan clay flecks. Not a humanoid or cartoon face.",
+    "variant": "slime",
+    "readyStartFallback": true
+  },
+  {
+    "id": "swamp_11",
+    "name": "深沼水蛇",
+    "key": "npc_swamp_11",
+    "batch": 12,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "沼綠／赭紅",
+    "type": "serpent",
+    "subject": "A DEEP-SWAMP WATER SNAKE, complete coiled serpent with a long full tapering tail, olive-black scales, pale ochre belly, rusty red side markings and amber eyes, a broad low venomous head.",
+    "readyStartFallback": true
+  }
+]

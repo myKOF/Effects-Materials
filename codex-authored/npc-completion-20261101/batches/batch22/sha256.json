@@ -1,0 +1,18 @@
+{
+  "npc_god_sanctuary_2_idle.png": "71a5dd4f02e32b9a1b0a89108d5d3ad0cd92662a78be5471022a31bf2ef0e957",
+  "npc_god_sanctuary_2_walk.png": "681343edda0c5ae999ef374a00cc009466fe0bff6c5f29e0a6fa7a45341a96c2",
+  "npc_god_sanctuary_2_attack.png": "bef9590cfdb09c82d1fc71d7aae900c83060339483bce15b80d5f0abfb0aaad2",
+  "npc_god_sanctuary_2_die.png": "4d22e25411594cb16f4341d49276709974048c2fbff2cc8460661860670dd287",
+  "npc_god_sanctuary_3_idle.png": "f8ff7b5b7eda125893e6d76fc54d686f3cc5f2fae3b8cbda0122be541a5e8ab9",
+  "npc_god_sanctuary_3_walk.png": "652ec900e40a6cb0f5fa76e2bd25cf3cb32e506a5042da30df30b49d2e5b1c08",
+  "npc_god_sanctuary_3_attack.png": "e56f331464efab0902276be77472162916fdbfca506723fb9521a068ea51701f",
+  "npc_god_sanctuary_3_die.png": "288bc25b3e8f8f64869af9530cd88fb8af9913169e6348e2d7140fe55e19241f",
+  "npc_god_sanctuary_4_idle.png": "54242e081908b2479a7de38c3850ee85ff22db4b9624a639d3d7b25268d8206c",
+  "npc_god_sanctuary_4_walk.png": "01cbb0de5ab131b7ecb0bc2be46d3d47dcce4827d7ba405bafc0874112859a54",
+  "npc_god_sanctuary_4_attack.png": "fc8fed16f876b24283be299d73c9370133ed45e2655fa7b7b1cc63c7f72c034d",
+  "npc_god_sanctuary_4_die.png": "4f3c674aede169457da4e476c627e43d0d150102712b3bb99858873b794d88cc",
+  "npc_god_sanctuary_5_idle.png": "3d80f57b9dec0d088956d950fd92787e8e6381912489bd4e21a9c5507868c37e",
+  "npc_god_sanctuary_5_walk.png": "b2b9f54f925912227c7437662f83f46fa75dba19d1ecbe25a9da7632715d793f",
+  "npc_god_sanctuary_5_attack.png": "155079d20184fc92d2aa09d40543e686d74dedd25f7385b05f118fd3168e25bd",
+  "npc_god_sanctuary_5_die.png": "f049e99bd2431f83fa37734798e1be156cb66fb1b01cfb8bafc0a20db14c864d"
+}

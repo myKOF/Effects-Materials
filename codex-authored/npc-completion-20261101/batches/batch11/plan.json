@@ -1,0 +1,52 @@
+[
+  {
+    "id": "lava_mountain_6",
+    "name": "黑曜石魔像",
+    "key": "npc_lava_mountain_6",
+    "batch": 11,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "黑曜／暗青",
+    "type": "walker",
+    "subject": "An OBSIDIAN GOLEM, complete powerful humanoid of glossy but pixel-shaded black-blue obsidian shards, two heavy fists and two jointed legs, a restrained muted turquoise core and violet edge facets.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "lava_mountain_7",
+    "name": "烈焰獵犬",
+    "key": "npc_lava_mountain_7",
+    "batch": 11,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "焦褐／焰橙",
+    "type": "quadruped",
+    "subject": "A FLAME HOUND, complete muscular four-legged dark brindle dog with a full short tail, charcoal fur, small connected ember mane on shoulders and rusty orange cracks around jaw; not a generic fireball.",
+    "variant": "wolf",
+    "readyStartFallback": true
+  },
+  {
+    "id": "lava_mountain_8",
+    "name": "熔核巨蟹",
+    "key": "npc_lava_mountain_8",
+    "batch": 11,
+    "nativeHeight": 50,
+    "height": 34,
+    "color": "鐵紅／熔金",
+    "type": "crab",
+    "subject": "A MOLTEN-CORE CRAB, complete broad armored crab with two big jointed pincers and six visible side walking legs, dark iron-red shell, a small amber molten vent on back and grey ridges.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "lava_mountain_10",
+    "name": "燼翼火鳥",
+    "key": "npc_lava_mountain_10",
+    "batch": 11,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "銅紅／焦金",
+    "type": "flyer",
+    "subject": "An EMBER-WING FIREBIRD, complete hawklike bird with full articulated copper-red wings, charcoal feather tips, ochre throat and tail feathers with small connected ember glows; two talons.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  }
+]

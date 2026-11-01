@@ -1,0 +1,52 @@
+[
+  {
+    "id": "god_battlefield_6",
+    "name": "神魔殘骸",
+    "key": "npc_god_battlefield_6",
+    "batch": 17,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "殘骨／銅綠",
+    "type": "walker",
+    "subject": "A GOD-DEMON REMNANT, complete reassembled skeletal and stone-bodied monster with ivory ribs, tarnished green bronze armor fragments, an asymmetrical cracked skull, two complete legs and two clawed arms.",
+    "variant": "skeleton",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_battlefield_7",
+    "name": "不朽英靈",
+    "key": "npc_god_battlefield_7",
+    "batch": 17,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "銀灰／魂紫",
+    "type": "walker",
+    "subject": "An IMMORTAL HERO SPIRIT, full armored adult spectral knight with silver-grey plate, pale blue spectral face, faded violet tabard, complete two legs, one short shining ivory sword and a small battered shield.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_battlefield_8",
+    "name": "裁決之劍",
+    "key": "npc_god_battlefield_8",
+    "batch": 17,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "古銀／紅晶",
+    "type": "hover",
+    "subject": "A SWORD OF JUDGEMENT entity: one large complete ancient floating broad sword, weathered silver blade, gold-brown crossguard, dark ruby pommel, a short connected spectral ribbon around hilt suggesting two small arms; no humanoid head or legs.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_battlefield_9",
+    "name": "滅世魔將",
+    "key": "npc_god_battlefield_9",
+    "batch": 17,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "暗赤／鐵黑",
+    "type": "walker",
+    "subject": "A WORLD-RUIN DEMON GENERAL, complete muscular dark basalt-red demon in battered black iron armor, two short ivory horns, two digitigrade legs and two arms, dull teal waist sash, one broad chipped sword.",
+    "readyStartFallback": true
+  }
+]

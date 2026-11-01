@@ -1,8 +1,7 @@
 {
   "characters": 4,
   "strips": 16,
-  "poses": 96,
+  "poses": 104,
   "nativePixels": true,
-  "originalImages": 100,
-  "moteRoundtrip": true
+  "originalImages": 100
 }

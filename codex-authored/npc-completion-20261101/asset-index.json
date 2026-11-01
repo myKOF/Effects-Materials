@@ -1,0 +1,2965 @@
+{
+  "version": 1,
+  "characters": [
+    {
+      "id": "desert_9",
+      "name": "幽靈",
+      "char": "npc_desert_9",
+      "folder": "batch03"
+    },
+    {
+      "id": "desert_10",
+      "name": "石像鬼",
+      "char": "npc_desert_10",
+      "folder": "batch03"
+    },
+    {
+      "id": "desert_11",
+      "name": "牛頭人",
+      "char": "npc_desert_11",
+      "folder": "batch03"
+    },
+    {
+      "id": "desert_12",
+      "name": "雙足飛龍",
+      "char": "npc_desert_12",
+      "folder": "batch03"
+    },
+    {
+      "id": "Icefield_1",
+      "name": "寒霜狼",
+      "char": "npc_icefield_1",
+      "folder": "batch04"
+    },
+    {
+      "id": "Icefield_2",
+      "name": "雪原巨熊",
+      "char": "npc_icefield_2",
+      "folder": "batch04"
+    },
+    {
+      "id": "Icefield_3",
+      "name": "冰原史萊姆",
+      "char": "npc_icefield_3",
+      "folder": "batch04"
+    },
+    {
+      "id": "Icefield_4",
+      "name": "雷電魔像",
+      "char": "npc_icefield_4",
+      "folder": "batch04"
+    },
+    {
+      "id": "Icefield_5",
+      "name": "雪怪",
+      "char": "npc_icefield_5",
+      "folder": "batch05"
+    },
+    {
+      "id": "Icefield_6",
+      "name": "冰墓幽靈",
+      "char": "npc_icefield_6",
+      "folder": "batch05"
+    },
+    {
+      "id": "Icefield_7",
+      "name": "女妖",
+      "char": "npc_icefield_7",
+      "folder": "batch05"
+    },
+    {
+      "id": "Icefield_8",
+      "name": "幽魂",
+      "char": "npc_icefield_8",
+      "folder": "batch05"
+    },
+    {
+      "id": "Icefield_9",
+      "name": "寒冰魔像",
+      "char": "npc_icefield_9",
+      "folder": "batch06"
+    },
+    {
+      "id": "Icefield_10",
+      "name": "冰晶元素",
+      "char": "npc_icefield_10",
+      "folder": "batch06"
+    },
+    {
+      "id": "Icefield_11",
+      "name": "骷髏弓箭手",
+      "char": "npc_icefield_11",
+      "folder": "batch06"
+    },
+    {
+      "id": "Icefield_12",
+      "name": "寒冰龍王",
+      "char": "npc_icefield_12",
+      "folder": "batch06"
+    },
+    {
+      "id": "mist_forest_1",
+      "name": "霧角鹿",
+      "char": "npc_mist_forest_1",
+      "folder": "batch07"
+    },
+    {
+      "id": "mist_forest_2",
+      "name": "盤根樹衛",
+      "char": "npc_mist_forest_2",
+      "folder": "batch07"
+    },
+    {
+      "id": "mist_forest_3",
+      "name": "苔背甲蟲",
+      "char": "npc_mist_forest_3",
+      "folder": "batch07"
+    },
+    {
+      "id": "mist_forest_4",
+      "name": "林間風靈",
+      "char": "npc_mist_forest_4",
+      "folder": "batch07"
+    },
+    {
+      "id": "mist_forest_5",
+      "name": "古藤行者",
+      "char": "npc_mist_forest_5",
+      "folder": "batch08"
+    },
+    {
+      "id": "mist_forest_6",
+      "name": "迷霧飛蛾",
+      "char": "npc_mist_forest_6",
+      "folder": "batch08"
+    },
+    {
+      "id": "mist_forest_7",
+      "name": "蕨葉獵手",
+      "char": "npc_mist_forest_7",
+      "folder": "batch08"
+    },
+    {
+      "id": "mist_forest_8",
+      "name": "森岩巨像",
+      "char": "npc_mist_forest_8",
+      "folder": "batch08"
+    },
+    {
+      "id": "mist_forest_9",
+      "name": "霧翼梟",
+      "char": "npc_mist_forest_9",
+      "folder": "batch09"
+    },
+    {
+      "id": "mist_forest_10",
+      "name": "根鬚守望者",
+      "char": "npc_mist_forest_10",
+      "folder": "batch09"
+    },
+    {
+      "id": "mist_forest_11",
+      "name": "翠風妖狐",
+      "char": "npc_mist_forest_11",
+      "folder": "batch09"
+    },
+    {
+      "id": "mist_forest_12",
+      "name": "千年森靈",
+      "char": "npc_mist_forest_12",
+      "folder": "batch09"
+    },
+    {
+      "id": "lava_mountain_2",
+      "name": "玄武岩衛",
+      "char": "npc_lava_mountain_2",
+      "folder": "batch10"
+    },
+    {
+      "id": "lava_mountain_3",
+      "name": "炭焰蜥蜴",
+      "char": "npc_lava_mountain_3",
+      "folder": "batch10"
+    },
+    {
+      "id": "lava_mountain_4",
+      "name": "火山甲蟲",
+      "char": "npc_lava_mountain_4",
+      "folder": "batch10"
+    },
+    {
+      "id": "lava_mountain_5",
+      "name": "灰燼飛蝠",
+      "char": "npc_lava_mountain_5",
+      "folder": "batch10"
+    },
+    {
+      "id": "lava_mountain_6",
+      "name": "黑曜石魔像",
+      "char": "npc_lava_mountain_6",
+      "folder": "batch11"
+    },
+    {
+      "id": "lava_mountain_7",
+      "name": "烈焰獵犬",
+      "char": "npc_lava_mountain_7",
+      "folder": "batch11"
+    },
+    {
+      "id": "lava_mountain_8",
+      "name": "熔核巨蟹",
+      "char": "npc_lava_mountain_8",
+      "folder": "batch11"
+    },
+    {
+      "id": "lava_mountain_10",
+      "name": "燼翼火鳥",
+      "char": "npc_lava_mountain_10",
+      "folder": "batch11"
+    },
+    {
+      "id": "lava_mountain_11",
+      "name": "裂地巨人",
+      "char": "npc_lava_mountain_11",
+      "folder": "batch12"
+    },
+    {
+      "id": "lava_mountain_12",
+      "name": "熔山領主",
+      "char": "npc_lava_mountain_12",
+      "folder": "batch12"
+    },
+    {
+      "id": "swamp_6",
+      "name": "泥漿怪",
+      "char": "npc_swamp_6",
+      "folder": "batch12"
+    },
+    {
+      "id": "swamp_11",
+      "name": "深沼水蛇",
+      "char": "npc_swamp_11",
+      "folder": "batch12"
+    },
+    {
+      "id": "thunder_peak_1",
+      "name": "雷羽鷹",
+      "char": "npc_thunder_peak_1",
+      "folder": "batch13"
+    },
+    {
+      "id": "thunder_peak_2",
+      "name": "疾風山羊",
+      "char": "npc_thunder_peak_2",
+      "folder": "batch13"
+    },
+    {
+      "id": "thunder_peak_3",
+      "name": "雷擊石靈",
+      "char": "npc_thunder_peak_3",
+      "folder": "batch13"
+    },
+    {
+      "id": "thunder_peak_4",
+      "name": "嵐翼飛蛇",
+      "char": "npc_thunder_peak_4",
+      "folder": "batch13"
+    },
+    {
+      "id": "thunder_peak_5",
+      "name": "電光獵豹",
+      "char": "npc_thunder_peak_5",
+      "folder": "batch14"
+    },
+    {
+      "id": "thunder_peak_6",
+      "name": "風蝕守衛",
+      "char": "npc_thunder_peak_6",
+      "folder": "batch14"
+    },
+    {
+      "id": "thunder_peak_7",
+      "name": "積雨雲靈",
+      "char": "npc_thunder_peak_7",
+      "folder": "batch14"
+    },
+    {
+      "id": "thunder_peak_8",
+      "name": "暴風女妖",
+      "char": "npc_thunder_peak_8",
+      "folder": "batch14"
+    },
+    {
+      "id": "thunder_peak_10",
+      "name": "峰巔風靈",
+      "char": "npc_thunder_peak_10",
+      "folder": "batch15"
+    },
+    {
+      "id": "thunder_peak_11",
+      "name": "奔雷麒麟",
+      "char": "npc_thunder_peak_11",
+      "folder": "batch15"
+    },
+    {
+      "id": "thunder_peak_12",
+      "name": "天嵐之主",
+      "char": "npc_thunder_peak_12",
+      "folder": "batch15"
+    },
+    {
+      "id": "god_battlefield_1",
+      "name": "太古戰魂",
+      "char": "npc_god_battlefield_1",
+      "folder": "batch15"
+    },
+    {
+      "id": "god_battlefield_2",
+      "name": "遠古神兵",
+      "char": "npc_god_battlefield_2",
+      "folder": "batch16"
+    },
+    {
+      "id": "god_battlefield_3",
+      "name": "破天戰將",
+      "char": "npc_god_battlefield_3",
+      "folder": "batch16"
+    },
+    {
+      "id": "god_battlefield_4",
+      "name": "烈焰神衛",
+      "char": "npc_god_battlefield_4",
+      "folder": "batch16"
+    },
+    {
+      "id": "god_battlefield_5",
+      "name": "狂暴泰坦",
+      "char": "npc_god_battlefield_5",
+      "folder": "batch16"
+    },
+    {
+      "id": "god_battlefield_6",
+      "name": "神魔殘骸",
+      "char": "npc_god_battlefield_6",
+      "folder": "batch17"
+    },
+    {
+      "id": "god_battlefield_7",
+      "name": "不朽英靈",
+      "char": "npc_god_battlefield_7",
+      "folder": "batch17"
+    },
+    {
+      "id": "god_battlefield_8",
+      "name": "裁決之劍",
+      "char": "npc_god_battlefield_8",
+      "folder": "batch17"
+    },
+    {
+      "id": "god_battlefield_9",
+      "name": "滅世魔將",
+      "char": "npc_god_battlefield_9",
+      "folder": "batch17"
+    },
+    {
+      "id": "god_battlefield_10",
+      "name": "太古龍魂",
+      "char": "npc_god_battlefield_10",
+      "folder": "batch18"
+    },
+    {
+      "id": "god_battlefield_11",
+      "name": "戰爭主宰",
+      "char": "npc_god_battlefield_11",
+      "folder": "batch18"
+    },
+    {
+      "id": "god_battlefield_12",
+      "name": "殞星巨獸",
+      "char": "npc_god_battlefield_12",
+      "folder": "batch18"
+    },
+    {
+      "id": "god_chaos_1",
+      "name": "混沌幼獸",
+      "char": "npc_god_chaos_1",
+      "folder": "batch18"
+    },
+    {
+      "id": "god_chaos_2",
+      "name": "虛空行者",
+      "char": "npc_god_chaos_2",
+      "folder": "batch19"
+    },
+    {
+      "id": "god_chaos_3",
+      "name": "時空魔靈",
+      "char": "npc_god_chaos_3",
+      "folder": "batch19"
+    },
+    {
+      "id": "god_chaos_4",
+      "name": "裂縫幻影",
+      "char": "npc_god_chaos_4",
+      "folder": "batch19"
+    },
+    {
+      "id": "god_chaos_5",
+      "name": "混沌噬魂獸",
+      "char": "npc_god_chaos_5",
+      "folder": "batch19"
+    },
+    {
+      "id": "god_chaos_6",
+      "name": "蝕天巨煞",
+      "char": "npc_god_chaos_6",
+      "folder": "batch20"
+    },
+    {
+      "id": "god_chaos_7",
+      "name": "虛空之眼",
+      "char": "npc_god_chaos_7",
+      "folder": "batch20"
+    },
+    {
+      "id": "god_chaos_8",
+      "name": "元素狂暴體",
+      "char": "npc_god_chaos_8",
+      "folder": "batch20"
+    },
+    {
+      "id": "god_chaos_9",
+      "name": "混沌使者",
+      "char": "npc_god_chaos_9",
+      "folder": "batch20"
+    },
+    {
+      "id": "god_chaos_10",
+      "name": "星雲魔獸",
+      "char": "npc_god_chaos_10",
+      "folder": "batch21"
+    },
+    {
+      "id": "god_chaos_11",
+      "name": "創世餘燼",
+      "char": "npc_god_chaos_11",
+      "folder": "batch21"
+    },
+    {
+      "id": "god_chaos_12",
+      "name": "混沌大天尊",
+      "char": "npc_god_chaos_12",
+      "folder": "batch21"
+    },
+    {
+      "id": "god_sanctuary_1",
+      "name": "巡天聖光",
+      "char": "npc_god_sanctuary_1",
+      "folder": "batch21"
+    },
+    {
+      "id": "god_sanctuary_2",
+      "name": "天使",
+      "char": "npc_god_sanctuary_2",
+      "folder": "batch22"
+    },
+    {
+      "id": "god_sanctuary_3",
+      "name": "天使巡狩",
+      "char": "npc_god_sanctuary_3",
+      "folder": "batch22"
+    },
+    {
+      "id": "god_sanctuary_4",
+      "name": "審判使者",
+      "char": "npc_god_sanctuary_4",
+      "folder": "batch22"
+    },
+    {
+      "id": "god_sanctuary_5",
+      "name": "聖域守衛",
+      "char": "npc_god_sanctuary_5",
+      "folder": "batch22"
+    },
+    {
+      "id": "god_sanctuary_6",
+      "name": "曜光巨龍",
+      "char": "npc_god_sanctuary_6",
+      "folder": "batch23"
+    },
+    {
+      "id": "god_sanctuary_7",
+      "name": "巨靈像",
+      "char": "npc_god_sanctuary_7",
+      "folder": "batch23"
+    },
+    {
+      "id": "god_sanctuary_8",
+      "name": "永恒靈體",
+      "char": "npc_god_sanctuary_8",
+      "folder": "batch23"
+    },
+    {
+      "id": "god_sanctuary_9",
+      "name": "聖地執法者",
+      "char": "npc_god_sanctuary_9",
+      "folder": "batch23"
+    },
+    {
+      "id": "god_sanctuary_10",
+      "name": "神王護衛長",
+      "char": "npc_god_sanctuary_10",
+      "folder": "batch24"
+    },
+    {
+      "id": "god_sanctuary_11",
+      "name": "智慧晶體",
+      "char": "npc_god_sanctuary_11",
+      "folder": "batch24"
+    },
+    {
+      "id": "god_sanctuary_12",
+      "name": "神聖執法官",
+      "char": "npc_god_sanctuary_12",
+      "folder": "batch24"
+    }
+  ],
+  "assets": [
+    {
+      "stem": "npc_desert_9_idle",
+      "file": "batches/batch03/exports/npc_desert_9_idle.png",
+      "native": "batches/batch03/mote/npc_desert_9_idle.mote",
+      "sha256": "46d66f0b634dc71df1e2cc9d8cddac41bbfe7270f6908bc0c604a82bdbe70783",
+      "nativeSHA256": "014d8e1fcf0a302d254903a0ffa8dd5b6d979abf84beac3b047db40aebd06b6a"
+    },
+    {
+      "stem": "npc_desert_9_walk",
+      "file": "batches/batch03/exports/npc_desert_9_walk.png",
+      "native": "batches/batch03/mote/npc_desert_9_walk.mote",
+      "sha256": "539ac3a46fd44c42a8a01fcd5c8f2b96189998369a8255ccbc22e9e89ca69c6c",
+      "nativeSHA256": "fbe22f8f6951c9d4dfc1f5631486b9015ad5e81e72b4adc9b804c5910fd1e5aa"
+    },
+    {
+      "stem": "npc_desert_9_attack",
+      "file": "batches/batch03/exports/npc_desert_9_attack.png",
+      "native": "batches/batch03/mote/npc_desert_9_attack.mote",
+      "sha256": "44961ae69bf65b69525c98f56bf8c4173bd93f08f4316cd9bd84b742be60d012",
+      "nativeSHA256": "92fb59c9364736e525b337e508eee1dcfc8eed623ed7f8fcb5c26d9fe444a6ae"
+    },
+    {
+      "stem": "npc_desert_9_die",
+      "file": "batches/batch03/exports/npc_desert_9_die.png",
+      "native": "batches/batch03/mote/npc_desert_9_die.mote",
+      "sha256": "e78f25bf8fd78276304bd890255d0683883273ab1d9cfef4087978547ef33386",
+      "nativeSHA256": "af3c887fd4c89378f4f05171d13862dc282bd8bb227ac0523f275b66f6a6beb2"
+    },
+    {
+      "stem": "npc_desert_10_idle",
+      "file": "batches/batch03/exports/npc_desert_10_idle.png",
+      "native": "batches/batch03/mote/npc_desert_10_idle.mote",
+      "sha256": "b00ca8a5989c6023a021766785302c76e7dc8d2918080752ec860266de232846",
+      "nativeSHA256": "1e05492c67caee9ffc48a5a5757aaf94ecb6a96d24a69d7a7a30e1210fee4655"
+    },
+    {
+      "stem": "npc_desert_10_walk",
+      "file": "batches/batch03/exports/npc_desert_10_walk.png",
+      "native": "batches/batch03/mote/npc_desert_10_walk.mote",
+      "sha256": "c458e57c5fd43e5b26dd504d01439704c6311c79c332f84a9a890596e33483c4",
+      "nativeSHA256": "d3452a2a0fc22a19152ec4e2efab1ce27f266582f21f4f020a134bf40c7f16ad"
+    },
+    {
+      "stem": "npc_desert_10_attack",
+      "file": "batches/batch03/exports/npc_desert_10_attack.png",
+      "native": "batches/batch03/mote/npc_desert_10_attack.mote",
+      "sha256": "48a11bcf73af28750ecd6ad81f73044f22f154cf22f24253a1121007455aa32b",
+      "nativeSHA256": "40919d63dc8edbcbd4775355282b3c8221d66dd66177a68f72bec7f3a3e0c5eb"
+    },
+    {
+      "stem": "npc_desert_10_die",
+      "file": "batches/batch03/exports/npc_desert_10_die.png",
+      "native": "batches/batch03/mote/npc_desert_10_die.mote",
+      "sha256": "7c8e96c4f35970d2c864d5ccb6b976cb8fa36a083fdf789a653f63addac1a3f6",
+      "nativeSHA256": "9d9afd87806462c4e063362a0cbf5237cc34486ff232487e3872669ff2e1282e"
+    },
+    {
+      "stem": "npc_desert_11_idle",
+      "file": "batches/batch03/exports/npc_desert_11_idle.png",
+      "native": "batches/batch03/mote/npc_desert_11_idle.mote",
+      "sha256": "f5e3933a82eebd7c27c20cf5caa901aa5783afbcd4306f140ac225f939adda90",
+      "nativeSHA256": "9a38e693e0755aba949043d3c65dbfc2c9955ddf3470466cc943566ac3b93eda"
+    },
+    {
+      "stem": "npc_desert_11_walk",
+      "file": "batches/batch03/exports/npc_desert_11_walk.png",
+      "native": "batches/batch03/mote/npc_desert_11_walk.mote",
+      "sha256": "56b748d2ef29de09108cbeb1381389f330ee1cdb2a7691e22dfb60b19f2e82e5",
+      "nativeSHA256": "231cd5602ce95d1155088f53d84ea04e8ba0552edf37345ff86a3066196ba973"
+    },
+    {
+      "stem": "npc_desert_11_attack",
+      "file": "batches/batch03/exports/npc_desert_11_attack.png",
+      "native": "batches/batch03/mote/npc_desert_11_attack.mote",
+      "sha256": "86ebdf4be98357787725580cc3393020f7137d3c688f9c9c9e5bdb74d56f9d39",
+      "nativeSHA256": "02373d062e6560fe2be335b4b2222a93533df4ba6fef26c6e36b6fce2bf492cb"
+    },
+    {
+      "stem": "npc_desert_11_die",
+      "file": "batches/batch03/exports/npc_desert_11_die.png",
+      "native": "batches/batch03/mote/npc_desert_11_die.mote",
+      "sha256": "8b64159b2c2b47f64c3c0f465e6a79de2939d25898e78adb3810c70b53de9533",
+      "nativeSHA256": "7a7aa3b03c5c86fbe622160ff91553cbca9ec8d382a6d60284e4a6a7518502f1"
+    },
+    {
+      "stem": "npc_desert_12_idle",
+      "file": "batches/batch03/exports/npc_desert_12_idle.png",
+      "native": "batches/batch03/mote/npc_desert_12_idle.mote",
+      "sha256": "71ef8aaabce78849e4fec33cdb9437bb14b55d56f9becbba9e9f12243b27c475",
+      "nativeSHA256": "1b19538051f89a25a0718bd323ead4a5043fe0ed90531b626b002e1d0d2da122"
+    },
+    {
+      "stem": "npc_desert_12_walk",
+      "file": "batches/batch03/exports/npc_desert_12_walk.png",
+      "native": "batches/batch03/mote/npc_desert_12_walk.mote",
+      "sha256": "7124adfcaad907d825c8c530d5ec34ff59796196b0fd1873f96ec57474faae23",
+      "nativeSHA256": "8a00d013e9a607be25a64c0bd3cca9d15ed3242f815f8cdbcf699e6d343922dd"
+    },
+    {
+      "stem": "npc_desert_12_attack",
+      "file": "batches/batch03/exports/npc_desert_12_attack.png",
+      "native": "batches/batch03/mote/npc_desert_12_attack.mote",
+      "sha256": "6cbc58936fd8b9708e6a906d276dd282579f7e2cccae495fdf825ca9971dbfe4",
+      "nativeSHA256": "d94b4f494d4cc6fafce56c7379de35cb0ee1b8f3da7aaae3c0f42233f74ac2f1"
+    },
+    {
+      "stem": "npc_desert_12_die",
+      "file": "batches/batch03/exports/npc_desert_12_die.png",
+      "native": "batches/batch03/mote/npc_desert_12_die.mote",
+      "sha256": "34f88dbdf70bef921f3637930f47cfaac36c57cd6ee3da9a02610b5966b27d14",
+      "nativeSHA256": "a3ec8cf07b3c2a603ba91c77767944894ea01238e9f05f79e7e4bbaca858c050"
+    },
+    {
+      "stem": "npc_icefield_1_idle",
+      "file": "batches/batch04/exports/npc_icefield_1_idle.png",
+      "native": "batches/batch04/mote/npc_icefield_1_idle.mote",
+      "sha256": "f2581560c4e979cc0c994bd61d12ffaf561f0e88436613ed4948e9179d846217",
+      "nativeSHA256": "bf4c74ea018667dfb6dbda0121f355828fda6d54614b3cdf6d6c12ae72226cff"
+    },
+    {
+      "stem": "npc_icefield_1_walk",
+      "file": "batches/batch04/exports/npc_icefield_1_walk.png",
+      "native": "batches/batch04/mote/npc_icefield_1_walk.mote",
+      "sha256": "3f41595abf648c56f9edca6ff5f7450c3296645d928eb6703215ac2f0b853ad8",
+      "nativeSHA256": "2fca8b90cc17932238f14341ae99176eba188b7fe58885ea2d55a46fc413b1ea"
+    },
+    {
+      "stem": "npc_icefield_1_attack",
+      "file": "batches/batch04/exports/npc_icefield_1_attack.png",
+      "native": "batches/batch04/mote/npc_icefield_1_attack.mote",
+      "sha256": "4acb78efaea8f5919905072ece5d485f7a915048a8bd94a2f6a1ce44de45316d",
+      "nativeSHA256": "7d15f134cfb1d4df7b4be63dca6fb13d2039ecce1f021eb068cecbeb29e19770"
+    },
+    {
+      "stem": "npc_icefield_1_die",
+      "file": "batches/batch04/exports/npc_icefield_1_die.png",
+      "native": "batches/batch04/mote/npc_icefield_1_die.mote",
+      "sha256": "b446b40b0697b63ad27c8333904b6b6b89d71edab42e7a16b63892dfcc5943e4",
+      "nativeSHA256": "e7a73895cb0e7238910ed4c48c688638255acea6e94c196476a474679e94e617"
+    },
+    {
+      "stem": "npc_icefield_2_idle",
+      "file": "batches/batch04/exports/npc_icefield_2_idle.png",
+      "native": "batches/batch04/mote/npc_icefield_2_idle.mote",
+      "sha256": "9fae0eea888ff4424d685c54e768a5b7b23d035d449832ef3ad6443759409d6e",
+      "nativeSHA256": "e5eb9673b6613056332f2242d8c31aa8c1dea3aff40ba09a70c736539fdb52e2"
+    },
+    {
+      "stem": "npc_icefield_2_walk",
+      "file": "batches/batch04/exports/npc_icefield_2_walk.png",
+      "native": "batches/batch04/mote/npc_icefield_2_walk.mote",
+      "sha256": "e34b2169edfd1e9dec33ed0b2f29dfc61f90e8d2edb5759b4c2bd244d456c5a7",
+      "nativeSHA256": "1c8a455e99f647d4f8e9314ac86a1c30e70765f8792c9610e89538f045ee224d"
+    },
+    {
+      "stem": "npc_icefield_2_attack",
+      "file": "batches/batch04/exports/npc_icefield_2_attack.png",
+      "native": "batches/batch04/mote/npc_icefield_2_attack.mote",
+      "sha256": "4c3696480bf7296f5ab960b1807334f3cbe97df8870905e013f340b1665141f0",
+      "nativeSHA256": "58bf29aecbc62535f271a1be360c91441ce2aeea29ea7421f3f72c73035b73f5"
+    },
+    {
+      "stem": "npc_icefield_2_die",
+      "file": "batches/batch04/exports/npc_icefield_2_die.png",
+      "native": "batches/batch04/mote/npc_icefield_2_die.mote",
+      "sha256": "1dc431db4671d35ce8184ebe23a28e895915e275c7ca9cb4f6a71b5aa1757851",
+      "nativeSHA256": "2c5e4bca226b946f48df2e2fd7a966c6216b91f0997c69fb4577f9dd0b63fe99"
+    },
+    {
+      "stem": "npc_icefield_3_idle",
+      "file": "batches/batch04/exports/npc_icefield_3_idle.png",
+      "native": "batches/batch04/mote/npc_icefield_3_idle.mote",
+      "sha256": "bc131f2fdcd3292aac59e9045fcf818352cae8b6e10730a35828a6466282ea13",
+      "nativeSHA256": "4b779e190a72288be6ce7fd0878ee0fd2f1ee250b1d925bf213f7ba1594c2e94"
+    },
+    {
+      "stem": "npc_icefield_3_walk",
+      "file": "batches/batch04/exports/npc_icefield_3_walk.png",
+      "native": "batches/batch04/mote/npc_icefield_3_walk.mote",
+      "sha256": "f4e6abdb5d68f7ceb36a6b3ea9a0b4fd2a141f9ea621fac32b1900c92fe3cbba",
+      "nativeSHA256": "2877186f2a86323d793fa5ccff1750d8b03fb00fe0d9070798a09518c187428b"
+    },
+    {
+      "stem": "npc_icefield_3_attack",
+      "file": "batches/batch04/exports/npc_icefield_3_attack.png",
+      "native": "batches/batch04/mote/npc_icefield_3_attack.mote",
+      "sha256": "76a3a0c937692b871d340a25d6aed4044f64ab02ffcca14fee9236b18bdff250",
+      "nativeSHA256": "65d2a10e87751a2b79f5cc3ab130364aaf716fd3ae55805f7ba5a3f87d6ef018"
+    },
+    {
+      "stem": "npc_icefield_3_die",
+      "file": "batches/batch04/exports/npc_icefield_3_die.png",
+      "native": "batches/batch04/mote/npc_icefield_3_die.mote",
+      "sha256": "10e30fa758d5fb6e813eb8e54a4e18088e178db761c99cf4c1a1196a20831629",
+      "nativeSHA256": "cbd7fb792489e6b0f66ec47983fb6df7a320ebbea5bf1dff21faabf42a188861"
+    },
+    {
+      "stem": "npc_icefield_4_idle",
+      "file": "batches/batch04/exports/npc_icefield_4_idle.png",
+      "native": "batches/batch04/mote/npc_icefield_4_idle.mote",
+      "sha256": "ec22052cea9c8b3c6425240bffb4ff6953cd5c047810deddde006f8fbbd87729",
+      "nativeSHA256": "62cf395b036dc07ef4fb0c10ecc9f82611e974c7fb51e27b16e788c2ae2c68df"
+    },
+    {
+      "stem": "npc_icefield_4_walk",
+      "file": "batches/batch04/exports/npc_icefield_4_walk.png",
+      "native": "batches/batch04/mote/npc_icefield_4_walk.mote",
+      "sha256": "8a44300766b95115deb76647290680221fa511e3bcdda4e8e52212366312f978",
+      "nativeSHA256": "d50a63b8d881f73cf888980d884d1bf91b0409785161997b49e57bd85896decb"
+    },
+    {
+      "stem": "npc_icefield_4_attack",
+      "file": "batches/batch04/exports/npc_icefield_4_attack.png",
+      "native": "batches/batch04/mote/npc_icefield_4_attack.mote",
+      "sha256": "dd3f8c3f9656f01bff81d79690dd1d37cc423f96e61679fb093a2b7d8d2113fd",
+      "nativeSHA256": "2f0d2f9f0be1215fc90a05963a222f8aac7ff602e62246ff95a3eeca3d3c94cd"
+    },
+    {
+      "stem": "npc_icefield_4_die",
+      "file": "batches/batch04/exports/npc_icefield_4_die.png",
+      "native": "batches/batch04/mote/npc_icefield_4_die.mote",
+      "sha256": "b79ab69bc7ed00813aea45df07802d8d9706cedf79a40f276c1e05d387059120",
+      "nativeSHA256": "96f8c1b5d5932c5691c3800ed4259b0d02bba4d440d82558a49f364d2c46c3c4"
+    },
+    {
+      "stem": "npc_icefield_5_idle",
+      "file": "batches/batch05/exports/npc_icefield_5_idle.png",
+      "native": "batches/batch05/mote/npc_icefield_5_idle.mote",
+      "sha256": "fb5660102dd2782cbbdde7330d585f111a7e369c932350a6350158d298e7ec6e",
+      "nativeSHA256": "8fa1308c485c09352b814fd362157cbe577531b5fa9fb0f7cf30a5954f5894b1"
+    },
+    {
+      "stem": "npc_icefield_5_walk",
+      "file": "batches/batch05/exports/npc_icefield_5_walk.png",
+      "native": "batches/batch05/mote/npc_icefield_5_walk.mote",
+      "sha256": "b174d911c6da0bc0c0fa0e833e6547f8fdced737bacc2599c8792882fb2f93f1",
+      "nativeSHA256": "b2fa86c8f45421d013f3dd1b727f25741296c299a01361ecdde6096129b2c946"
+    },
+    {
+      "stem": "npc_icefield_5_attack",
+      "file": "batches/batch05/exports/npc_icefield_5_attack.png",
+      "native": "batches/batch05/mote/npc_icefield_5_attack.mote",
+      "sha256": "76021ec60706befe2bfad6b582f32f4acb4893d20facae120c4f31b3ff93320e",
+      "nativeSHA256": "8f8c028081971bfceb3238d686f7e49bd4841c02b2cab5c9b654c2cd824197b9"
+    },
+    {
+      "stem": "npc_icefield_5_die",
+      "file": "batches/batch05/exports/npc_icefield_5_die.png",
+      "native": "batches/batch05/mote/npc_icefield_5_die.mote",
+      "sha256": "d60be056e60c1d23a30a5e75583bd1190bd2fdfb7a1680d64548bbb28d69735a",
+      "nativeSHA256": "b233af2dc89e7e65d6ed80a4b48bd95346f841ffff1914c5831e57f9c01d057b"
+    },
+    {
+      "stem": "npc_icefield_6_idle",
+      "file": "batches/batch05/exports/npc_icefield_6_idle.png",
+      "native": "batches/batch05/mote/npc_icefield_6_idle.mote",
+      "sha256": "299e0dbf03b8cd36b749d8df5cc06e79e56cc311b2fdff909d180373bf4ebf5c",
+      "nativeSHA256": "f251f3f7b3f0cca83a2d9d03528ce7e51986c0b8e29eecc5946247eda5be7965"
+    },
+    {
+      "stem": "npc_icefield_6_walk",
+      "file": "batches/batch05/exports/npc_icefield_6_walk.png",
+      "native": "batches/batch05/mote/npc_icefield_6_walk.mote",
+      "sha256": "99d52838e09d88dd15719c8e3189c1a8d565b57ef2f366b34cb8228be34c381e",
+      "nativeSHA256": "2b6d3151b96875b2716ebda5328067006b05ac64dd55ca6d1c48164bb1ad1546"
+    },
+    {
+      "stem": "npc_icefield_6_attack",
+      "file": "batches/batch05/exports/npc_icefield_6_attack.png",
+      "native": "batches/batch05/mote/npc_icefield_6_attack.mote",
+      "sha256": "187254d07dcb88a693210a4dcd654210b3cd97627b2daf7df67e9265232e9931",
+      "nativeSHA256": "59f14545f19196f770823ced66321a5624ef023802a7e35349427ecc4d407b42"
+    },
+    {
+      "stem": "npc_icefield_6_die",
+      "file": "batches/batch05/exports/npc_icefield_6_die.png",
+      "native": "batches/batch05/mote/npc_icefield_6_die.mote",
+      "sha256": "d4aa01046e681aa428a74af6b3e921ddbefabfd2b98e4e76350cadfb1801a52e",
+      "nativeSHA256": "e757061e9f7c61371d5978c898bbacd54ecc4cb6103b71791d6b1adf4fca01a9"
+    },
+    {
+      "stem": "npc_icefield_7_idle",
+      "file": "batches/batch05/exports/npc_icefield_7_idle.png",
+      "native": "batches/batch05/mote/npc_icefield_7_idle.mote",
+      "sha256": "5c96a9c02cb83b7193501a2f3a671bc212a4cf34b1e9e2139b7d167071836bb6",
+      "nativeSHA256": "998037d0a8d6bd23724190c883efe46c169ffa8e372163ff3d18e7aa750c2ecf"
+    },
+    {
+      "stem": "npc_icefield_7_walk",
+      "file": "batches/batch05/exports/npc_icefield_7_walk.png",
+      "native": "batches/batch05/mote/npc_icefield_7_walk.mote",
+      "sha256": "5cbd4df967e0e8a06f53dea9397e3012beaa19976515cc7edcf0ac1df46dcb3e",
+      "nativeSHA256": "1927ff4fcb90eda11eb902157f2f6863eec6d9b94cc544d6e2459bc46ad0660e"
+    },
+    {
+      "stem": "npc_icefield_7_attack",
+      "file": "batches/batch05/exports/npc_icefield_7_attack.png",
+      "native": "batches/batch05/mote/npc_icefield_7_attack.mote",
+      "sha256": "e030db4e4793617a58fb27506c8a7de2d45c36e6761a27741eb80b5784863201",
+      "nativeSHA256": "3ef2d9fbabe5cadc90657352e552c938db8d2336f1c64ae621ec1b045f43d8a2"
+    },
+    {
+      "stem": "npc_icefield_7_die",
+      "file": "batches/batch05/exports/npc_icefield_7_die.png",
+      "native": "batches/batch05/mote/npc_icefield_7_die.mote",
+      "sha256": "3da46940e0fe1598fd6eee3127672a7cd6262d32d80c437cae162d7085cc3466",
+      "nativeSHA256": "e93142c202c1680d36b435e381500e6721210287c0a2b54bc706f001c1f9a396"
+    },
+    {
+      "stem": "npc_icefield_8_idle",
+      "file": "batches/batch05/exports/npc_icefield_8_idle.png",
+      "native": "batches/batch05/mote/npc_icefield_8_idle.mote",
+      "sha256": "827703794e12e8a90f640570acacea617b4018bed12f111ac48c1d032ef4205b",
+      "nativeSHA256": "5260a6ee36c55c1aed45a7d4f594e05b5cc9c9bff9350eee333cb76e48db60ef"
+    },
+    {
+      "stem": "npc_icefield_8_walk",
+      "file": "batches/batch05/exports/npc_icefield_8_walk.png",
+      "native": "batches/batch05/mote/npc_icefield_8_walk.mote",
+      "sha256": "58f268df7e4998b592162bfe1efb423724085349338bec118d4dbefa5419e484",
+      "nativeSHA256": "5723eb7f56de759909ec8e2030ee62a1db7574a357218b9ff897154da15ccf2c"
+    },
+    {
+      "stem": "npc_icefield_8_attack",
+      "file": "batches/batch05/exports/npc_icefield_8_attack.png",
+      "native": "batches/batch05/mote/npc_icefield_8_attack.mote",
+      "sha256": "43173ebbc2b973444322a62ef395815b7952d4a534981b47dd7022a3ed2aed7f",
+      "nativeSHA256": "05e219c7d7967826e6ea04ebad179d8d8fb2e797b9846b01d9e48447b7ebcd60"
+    },
+    {
+      "stem": "npc_icefield_8_die",
+      "file": "batches/batch05/exports/npc_icefield_8_die.png",
+      "native": "batches/batch05/mote/npc_icefield_8_die.mote",
+      "sha256": "760bca6e37debcc745fcc845d6e24fef28519b9d13a5885f2306a35dd166d1f6",
+      "nativeSHA256": "ad3cab268a2a51d0b0285b00d03b88423f198d5e47d7b8c50384b81c8c9e0ea1"
+    },
+    {
+      "stem": "npc_icefield_9_idle",
+      "file": "batches/batch06/exports/npc_icefield_9_idle.png",
+      "native": "batches/batch06/mote/npc_icefield_9_idle.mote",
+      "sha256": "f9cbdeba0897afeb9c0b2ac54051d3a4b8d2e9bc711c48f0a754cacc7b05d38b",
+      "nativeSHA256": "c7937f06d5792f19924f0b6afa263f72192d0eb07eb4882bef360c8312088338"
+    },
+    {
+      "stem": "npc_icefield_9_walk",
+      "file": "batches/batch06/exports/npc_icefield_9_walk.png",
+      "native": "batches/batch06/mote/npc_icefield_9_walk.mote",
+      "sha256": "dd98db77e020aaf3891028ea588fbfa963169cd88f01b32c7e74d10b515d7b24",
+      "nativeSHA256": "f29ba529780248fa657394207f0ec5c4d454c37d58281f7dad3b9f3eb1a95133"
+    },
+    {
+      "stem": "npc_icefield_9_attack",
+      "file": "batches/batch06/exports/npc_icefield_9_attack.png",
+      "native": "batches/batch06/mote/npc_icefield_9_attack.mote",
+      "sha256": "fd80928f4694981fb61f18e2d0a453bfbd96ff0f892c558419a1fb02ea941f63",
+      "nativeSHA256": "9aaea873fe05d35fad25dc7b9efd986f0ca3898dfb6eabe1f21482eab8f1132a"
+    },
+    {
+      "stem": "npc_icefield_9_die",
+      "file": "batches/batch06/exports/npc_icefield_9_die.png",
+      "native": "batches/batch06/mote/npc_icefield_9_die.mote",
+      "sha256": "8fa3c3d4fd7e04f7439e5ecf1645ea0d8fdf0b3f07b42e4d4841e18c37cff518",
+      "nativeSHA256": "cf40378322e9ea0f3a2223d55bca4b77da895a03e51319ada359e91f7e8dafd1"
+    },
+    {
+      "stem": "npc_icefield_10_idle",
+      "file": "batches/batch06/exports/npc_icefield_10_idle.png",
+      "native": "batches/batch06/mote/npc_icefield_10_idle.mote",
+      "sha256": "dde9d80b1942314fcdd498c14929720ab8dbe2840f8135c15f63fc4108618775",
+      "nativeSHA256": "cf753e3890c6bdf61a2668a4357400c3da08d7035048633419dc6165b876b54b"
+    },
+    {
+      "stem": "npc_icefield_10_walk",
+      "file": "batches/batch06/exports/npc_icefield_10_walk.png",
+      "native": "batches/batch06/mote/npc_icefield_10_walk.mote",
+      "sha256": "b63dadba7dbc6b4a8fe34b701280bc88bd3c0b204f1ee14970da39e63e501133",
+      "nativeSHA256": "45f2e5842defb1743cbdd487bccd2aa451fb06e14cf2e708cbedf8161578c76c"
+    },
+    {
+      "stem": "npc_icefield_10_attack",
+      "file": "batches/batch06/exports/npc_icefield_10_attack.png",
+      "native": "batches/batch06/mote/npc_icefield_10_attack.mote",
+      "sha256": "cf08fbaecd9215a948d112a2edba1441a39c51ccde02eb5685a798a1f86ca068",
+      "nativeSHA256": "779cd5d8742cdbd474ee9608e56510f62d04ca142464eb7aa7d32424d363f733"
+    },
+    {
+      "stem": "npc_icefield_10_die",
+      "file": "batches/batch06/exports/npc_icefield_10_die.png",
+      "native": "batches/batch06/mote/npc_icefield_10_die.mote",
+      "sha256": "063c65d8fda26e18da8d4ab6338ad18a5ae51dd8f3f553ede69c77531093d6f2",
+      "nativeSHA256": "e5376ee011ce56c006157bf935f4e7075d073612852c95c07e2f2f8eb8ee3566"
+    },
+    {
+      "stem": "npc_icefield_11_idle",
+      "file": "batches/batch06/exports/npc_icefield_11_idle.png",
+      "native": "batches/batch06/mote/npc_icefield_11_idle.mote",
+      "sha256": "4e054bd33fdecf488b5fe2abe507d3fc6062ca5f96329bb0e38967a629d413c2",
+      "nativeSHA256": "2ab3156e16da8165e38e3d2b61307f51c0490157eb51a3c824050f0327ab8ccc"
+    },
+    {
+      "stem": "npc_icefield_11_walk",
+      "file": "batches/batch06/exports/npc_icefield_11_walk.png",
+      "native": "batches/batch06/mote/npc_icefield_11_walk.mote",
+      "sha256": "1f1d5de331b2a06212001d3de606c19e37595d4ccc1638876590322fbacac6e7",
+      "nativeSHA256": "f30b9a604ffcdeb301852e536abb7fa6f0a156e9f44c9140fcb61a8b3e186881"
+    },
+    {
+      "stem": "npc_icefield_11_attack",
+      "file": "batches/batch06/exports/npc_icefield_11_attack.png",
+      "native": "batches/batch06/mote/npc_icefield_11_attack.mote",
+      "sha256": "4c10821a0416d23962ac0f5d38efd27e5c1cf0faaf884f63c67e178523e3d70f",
+      "nativeSHA256": "cca78baf59454ceafc98c59b6f64c89f7253e662c39925a126c27396b977b685"
+    },
+    {
+      "stem": "npc_icefield_11_die",
+      "file": "batches/batch06/exports/npc_icefield_11_die.png",
+      "native": "batches/batch06/mote/npc_icefield_11_die.mote",
+      "sha256": "84576e83e01e334f0ca7152d8427f1ca9fc8bf67dc99234c97bd6a9bb6ed8d34",
+      "nativeSHA256": "8b1cca8f98a13f98f551a4a057d81f33a6d51c10c16af28e9a0571b361c7f0cb"
+    },
+    {
+      "stem": "npc_icefield_12_idle",
+      "file": "batches/batch06/exports/npc_icefield_12_idle.png",
+      "native": "batches/batch06/mote/npc_icefield_12_idle.mote",
+      "sha256": "7ebe3d880736807743143718d3224c85d9c86fcf743832946cea25352f290249",
+      "nativeSHA256": "0ab5552818658c18ee58499d5a4daad6654588534bfd3e0b5f5b4fe0d26cea5a"
+    },
+    {
+      "stem": "npc_icefield_12_walk",
+      "file": "batches/batch06/exports/npc_icefield_12_walk.png",
+      "native": "batches/batch06/mote/npc_icefield_12_walk.mote",
+      "sha256": "9a8930242e6f4583fcbcc8088766ce539f73cc6be1d768c408a21a77f23a1b9b",
+      "nativeSHA256": "f8b251390b814933f4590fb7cff1c81cdf2b909910547764ec0a0ebbe8fefeb2"
+    },
+    {
+      "stem": "npc_icefield_12_attack",
+      "file": "batches/batch06/exports/npc_icefield_12_attack.png",
+      "native": "batches/batch06/mote/npc_icefield_12_attack.mote",
+      "sha256": "e6caa51402aa6e8d4f8942553ef457b057a19ac278d0ecfc0721b12b7e3715f8",
+      "nativeSHA256": "a47cd3589d37e370d450827b81ba27f511952400bf504e2122abd3f30b324945"
+    },
+    {
+      "stem": "npc_icefield_12_die",
+      "file": "batches/batch06/exports/npc_icefield_12_die.png",
+      "native": "batches/batch06/mote/npc_icefield_12_die.mote",
+      "sha256": "032fc4fd4ed12f70940cccad458e2f265d0ca146835d2ffbd5221bbf344f3d29",
+      "nativeSHA256": "83ceb8e1e420bd01bb020715c91a5c5f5d4856b99892f5eef858acfdbf5a215b"
+    },
+    {
+      "stem": "npc_mist_forest_1_idle",
+      "file": "batches/batch07/exports/npc_mist_forest_1_idle.png",
+      "native": "batches/batch07/mote/npc_mist_forest_1_idle.mote",
+      "sha256": "7f10f38708b4630981a1ed7c1c3391ec6019be5b1f45f84389e109672765f0f0",
+      "nativeSHA256": "c6d0a0e6e56d5287964c19d2b92bf0c95b0d682d038200d8b8958e1b3c7b04cf"
+    },
+    {
+      "stem": "npc_mist_forest_1_walk",
+      "file": "batches/batch07/exports/npc_mist_forest_1_walk.png",
+      "native": "batches/batch07/mote/npc_mist_forest_1_walk.mote",
+      "sha256": "9c64701267bb01c6efac7b5841f8d4b3833cf28a4fe2ba5c662672bb416574ca",
+      "nativeSHA256": "65466e6c471304059eee673cb91552498365cf01888427249d1ac405d5a2f623"
+    },
+    {
+      "stem": "npc_mist_forest_1_attack",
+      "file": "batches/batch07/exports/npc_mist_forest_1_attack.png",
+      "native": "batches/batch07/mote/npc_mist_forest_1_attack.mote",
+      "sha256": "0059df383f0af901f58d2207d0be6080bae239e0aabccb0281f5128baccb7b76",
+      "nativeSHA256": "7026b66c242ba909d0525d417e737c788ed94ceea97dad6880ad4f1280d5ac7c"
+    },
+    {
+      "stem": "npc_mist_forest_1_die",
+      "file": "batches/batch07/exports/npc_mist_forest_1_die.png",
+      "native": "batches/batch07/mote/npc_mist_forest_1_die.mote",
+      "sha256": "22280ca03d40f66c47308e79e8acd78e16803e9de999be0404be6dca09b15e08",
+      "nativeSHA256": "fb10bd1111304dc95ec2035f63eda3197ee7e5de7bd128a2195bdfa91ccb4f4d"
+    },
+    {
+      "stem": "npc_mist_forest_2_idle",
+      "file": "batches/batch07/exports/npc_mist_forest_2_idle.png",
+      "native": "batches/batch07/mote/npc_mist_forest_2_idle.mote",
+      "sha256": "6514635535de1a526b73ff4838d5251f5ff5086e034daea213c3ccc86998b93e",
+      "nativeSHA256": "79a385d2ee675e5ad07f06be974fb75bcbea3de44f2485b0549845455f2f7fab"
+    },
+    {
+      "stem": "npc_mist_forest_2_walk",
+      "file": "batches/batch07/exports/npc_mist_forest_2_walk.png",
+      "native": "batches/batch07/mote/npc_mist_forest_2_walk.mote",
+      "sha256": "6524be9cfb750c10f9b4edbbf07b2d5db99abf5ff0e444d6d28124cae54b3aa6",
+      "nativeSHA256": "faced21f97054737dbdc43331f153547025e07daea69ee20b9cc8053e703725c"
+    },
+    {
+      "stem": "npc_mist_forest_2_attack",
+      "file": "batches/batch07/exports/npc_mist_forest_2_attack.png",
+      "native": "batches/batch07/mote/npc_mist_forest_2_attack.mote",
+      "sha256": "323e69c0395052def2fe17f6266c2572ca7e9ccbf096ef3322a17a428d38b443",
+      "nativeSHA256": "abda46508a4b0d1a7a954b7fd5f13e56d6b6cb72b9ab6bc77d5305c897217121"
+    },
+    {
+      "stem": "npc_mist_forest_2_die",
+      "file": "batches/batch07/exports/npc_mist_forest_2_die.png",
+      "native": "batches/batch07/mote/npc_mist_forest_2_die.mote",
+      "sha256": "e51e40785c2c079238b70520654b63de5064c6cd39b74ca7edef79f0739a398d",
+      "nativeSHA256": "597e4ef866a18af5a0f3255adb38514150c1bccca1230aa2621855afdb2460df"
+    },
+    {
+      "stem": "npc_mist_forest_3_idle",
+      "file": "batches/batch07/exports/npc_mist_forest_3_idle.png",
+      "native": "batches/batch07/mote/npc_mist_forest_3_idle.mote",
+      "sha256": "930811deff8ee939493191bf3ba4cc1055dd965444459c0f72d1bf12b1f91ed8",
+      "nativeSHA256": "62c71717da3430a138d1d0ab7f01ef2bf0f648d6f892974d9e9b287c490fbb33"
+    },
+    {
+      "stem": "npc_mist_forest_3_walk",
+      "file": "batches/batch07/exports/npc_mist_forest_3_walk.png",
+      "native": "batches/batch07/mote/npc_mist_forest_3_walk.mote",
+      "sha256": "b1501dd6fcbe173219f677ea693561525e6eea892c010b56cbcbbbc034a8cf1f",
+      "nativeSHA256": "03bcbfcd88862174721e25e59ee56937945d414c5247999bd6944fb2e4665466"
+    },
+    {
+      "stem": "npc_mist_forest_3_attack",
+      "file": "batches/batch07/exports/npc_mist_forest_3_attack.png",
+      "native": "batches/batch07/mote/npc_mist_forest_3_attack.mote",
+      "sha256": "da8b386d26f91ccc994d36fb811940084150f6d4f14d60e5e638e9b0bd20b94e",
+      "nativeSHA256": "498ce9fb06fe1b2cd96f83336af069d0366bf2ed4f7272ddc8ba3936f4732d7e"
+    },
+    {
+      "stem": "npc_mist_forest_3_die",
+      "file": "batches/batch07/exports/npc_mist_forest_3_die.png",
+      "native": "batches/batch07/mote/npc_mist_forest_3_die.mote",
+      "sha256": "f59f91cfa04f98e8c8927cce00268949c824dc0481c5e281354b096d6e129034",
+      "nativeSHA256": "b45f77d1887a4f8b80ab60388ee495f14fd988ec249828e916d6da7b0a046373"
+    },
+    {
+      "stem": "npc_mist_forest_4_idle",
+      "file": "batches/batch07/exports/npc_mist_forest_4_idle.png",
+      "native": "batches/batch07/mote/npc_mist_forest_4_idle.mote",
+      "sha256": "4bfd065e080b5a62715835109d3e91e977b108d71158d530245478c0ea697bd9",
+      "nativeSHA256": "36ec13727f9e1e71aad47319178d5a41b2745d1fb188f105261e2420a5ae6bc9"
+    },
+    {
+      "stem": "npc_mist_forest_4_walk",
+      "file": "batches/batch07/exports/npc_mist_forest_4_walk.png",
+      "native": "batches/batch07/mote/npc_mist_forest_4_walk.mote",
+      "sha256": "f1335fe7229d54eebb29331431d8882b5cca91ca4557cf85397acaf1fa43ad2d",
+      "nativeSHA256": "525ec4ad084193a8ce6558dc40a1f5c96e961f865200d3cfbfe37880d047b8d0"
+    },
+    {
+      "stem": "npc_mist_forest_4_attack",
+      "file": "batches/batch07/exports/npc_mist_forest_4_attack.png",
+      "native": "batches/batch07/mote/npc_mist_forest_4_attack.mote",
+      "sha256": "0ed1522a2beec62d234988d5b0838ada16ab362ddb9f3d6f5bb643ebcea98337",
+      "nativeSHA256": "cae98d378088347ae13a92cbc98d8662d2e688793c67ffdbf4acb9c7de08751d"
+    },
+    {
+      "stem": "npc_mist_forest_4_die",
+      "file": "batches/batch07/exports/npc_mist_forest_4_die.png",
+      "native": "batches/batch07/mote/npc_mist_forest_4_die.mote",
+      "sha256": "82d48c60398b74979a28c240efcc75d109ee3d47dcd4efb8c443dbe882448cc9",
+      "nativeSHA256": "864a1adf03ab0453e082fae710f905599c229a22f3859a4d618de87460ab80dd"
+    },
+    {
+      "stem": "npc_mist_forest_5_idle",
+      "file": "batches/batch08/exports/npc_mist_forest_5_idle.png",
+      "native": "batches/batch08/mote/npc_mist_forest_5_idle.mote",
+      "sha256": "075adf354acebca8df17aff712d288f7d6375c6b326c0ee7bd8ae2762bd7929d",
+      "nativeSHA256": "02531fef91eb1332e7d73fe8a401811554e2eb71a88c2e645dc510c783080d8e"
+    },
+    {
+      "stem": "npc_mist_forest_5_walk",
+      "file": "batches/batch08/exports/npc_mist_forest_5_walk.png",
+      "native": "batches/batch08/mote/npc_mist_forest_5_walk.mote",
+      "sha256": "fd8afaac5e0a3af07c4d683d9255339483a3ccb8fb9ed5a2b41f78ae5998640d",
+      "nativeSHA256": "2a1a19ff49272d216089a8e27e99c515de1edd1ffd5380d1a292993027745297"
+    },
+    {
+      "stem": "npc_mist_forest_5_attack",
+      "file": "batches/batch08/exports/npc_mist_forest_5_attack.png",
+      "native": "batches/batch08/mote/npc_mist_forest_5_attack.mote",
+      "sha256": "75e82d03daa2e9770caa9bbd8ab003c8c6eb3e5a203df704de572d9869a1511e",
+      "nativeSHA256": "7214e4013dfabe8599ed583bb8f417eb0432c076ef690f6e59f13f5caac99a6b"
+    },
+    {
+      "stem": "npc_mist_forest_5_die",
+      "file": "batches/batch08/exports/npc_mist_forest_5_die.png",
+      "native": "batches/batch08/mote/npc_mist_forest_5_die.mote",
+      "sha256": "4f0c0fb91adf5e940a59d2c523945460d799fd9a50c63d8926938fe1f814e034",
+      "nativeSHA256": "67d6582317af8191499431286ff11144f902f8eb52f156b327d3f666efb49c57"
+    },
+    {
+      "stem": "npc_mist_forest_6_idle",
+      "file": "batches/batch08/exports/npc_mist_forest_6_idle.png",
+      "native": "batches/batch08/mote/npc_mist_forest_6_idle.mote",
+      "sha256": "4d05574a5f72e8c1e51fef3af389a74ce5909de0820288f4acd16704199dd5e7",
+      "nativeSHA256": "65f49723041bef057057eb00cc9db95aaa45810c00ef84db906897d79c11cffa"
+    },
+    {
+      "stem": "npc_mist_forest_6_walk",
+      "file": "batches/batch08/exports/npc_mist_forest_6_walk.png",
+      "native": "batches/batch08/mote/npc_mist_forest_6_walk.mote",
+      "sha256": "22fb3ca8f43ab2f7ded9d811f848acb3680d6cb76d670dad246433253b97f6b1",
+      "nativeSHA256": "97aa5eeceb824ce5dae063fb3b32cc4c70921dc1e7311d61d7854cd0b103a46a"
+    },
+    {
+      "stem": "npc_mist_forest_6_attack",
+      "file": "batches/batch08/exports/npc_mist_forest_6_attack.png",
+      "native": "batches/batch08/mote/npc_mist_forest_6_attack.mote",
+      "sha256": "a4ad5e90ea7d3f04434980c5b85c611073142f5ce1bce50193bb77f39d4b0da5",
+      "nativeSHA256": "80dfadd53b9fcc63ea02a840d495ad776649f230079039f670c01f07f97fa7c6"
+    },
+    {
+      "stem": "npc_mist_forest_6_die",
+      "file": "batches/batch08/exports/npc_mist_forest_6_die.png",
+      "native": "batches/batch08/mote/npc_mist_forest_6_die.mote",
+      "sha256": "28f6b48c9e7687da07f04328d159b456df73feabce0ffecfefa3af5d09eaa1fc",
+      "nativeSHA256": "87615fbc192dbba2e990024d7aaf5d23a386775301fa82bc9dc882ee63068cf0"
+    },
+    {
+      "stem": "npc_mist_forest_7_idle",
+      "file": "batches/batch08/exports/npc_mist_forest_7_idle.png",
+      "native": "batches/batch08/mote/npc_mist_forest_7_idle.mote",
+      "sha256": "d0bcf73a8177bbe8535b0d5590f9ae590d675d61bd827c7c9c22fe8a99faf72f",
+      "nativeSHA256": "5f79ca33fe8ecfed27d51d7ef9edc2afc7dd7057f718e538a2be45ff5a9c891e"
+    },
+    {
+      "stem": "npc_mist_forest_7_walk",
+      "file": "batches/batch08/exports/npc_mist_forest_7_walk.png",
+      "native": "batches/batch08/mote/npc_mist_forest_7_walk.mote",
+      "sha256": "8321b4587bf4ee89428cec6161e830e453b06d8c083a5b62a8d08812a0275bc9",
+      "nativeSHA256": "93e1ca312c83c8c9b43c8f82d4031e02a3555277cec4bafd47926d47553cccdd"
+    },
+    {
+      "stem": "npc_mist_forest_7_attack",
+      "file": "batches/batch08/exports/npc_mist_forest_7_attack.png",
+      "native": "batches/batch08/mote/npc_mist_forest_7_attack.mote",
+      "sha256": "455b06c358a0bb68965c8ed3aae4e81e0ca39d1e38f1944d75dd8d4b073a9e63",
+      "nativeSHA256": "e694c97b54a882cde67d4cfa83227fb42b039f8144e4883c9c3f43be9fe8929b"
+    },
+    {
+      "stem": "npc_mist_forest_7_die",
+      "file": "batches/batch08/exports/npc_mist_forest_7_die.png",
+      "native": "batches/batch08/mote/npc_mist_forest_7_die.mote",
+      "sha256": "d37636190980b6f89001c76cfbcc50ee47a03874cedd455215298c0858071d97",
+      "nativeSHA256": "86dfcd5d95fffb561f9d3193738aaadce239c4f62db0e927b282b41d57500dd9"
+    },
+    {
+      "stem": "npc_mist_forest_8_idle",
+      "file": "batches/batch08/exports/npc_mist_forest_8_idle.png",
+      "native": "batches/batch08/mote/npc_mist_forest_8_idle.mote",
+      "sha256": "e050f34d66b85f66696884cd358936674e737cea5ff2a0c506f850fac3cf13f9",
+      "nativeSHA256": "5f1e77df5b0bf2677d08db7fc115996ba4e07acafaaa8d2d5c38d6de6b311c3d"
+    },
+    {
+      "stem": "npc_mist_forest_8_walk",
+      "file": "batches/batch08/exports/npc_mist_forest_8_walk.png",
+      "native": "batches/batch08/mote/npc_mist_forest_8_walk.mote",
+      "sha256": "ccac78be0f04544faff9301d99bc22617f44560fc7f098f941d1773d2d7f320b",
+      "nativeSHA256": "063855d6a848f38eafcb08b6eee4ca9c878453e2b3dfbaea71df5dcdd593f12b"
+    },
+    {
+      "stem": "npc_mist_forest_8_attack",
+      "file": "batches/batch08/exports/npc_mist_forest_8_attack.png",
+      "native": "batches/batch08/mote/npc_mist_forest_8_attack.mote",
+      "sha256": "3672b3b1444f3782b8eddaa8c2d7faa8a63c645fb9e01f321ef09069e7d2bc2d",
+      "nativeSHA256": "122eb57984489b1eb8ca0f210707475fe4dadfd5f69260bdc3c222808d34bcec"
+    },
+    {
+      "stem": "npc_mist_forest_8_die",
+      "file": "batches/batch08/exports/npc_mist_forest_8_die.png",
+      "native": "batches/batch08/mote/npc_mist_forest_8_die.mote",
+      "sha256": "e4c2d2c364e8d30ce0590e959f5f13aa5156d27537a64c42e524a89c6a8c87f9",
+      "nativeSHA256": "46908a4936ed1bb8aa6b2de3385a39bf419350989409941bf2edb6414baae975"
+    },
+    {
+      "stem": "npc_mist_forest_9_idle",
+      "file": "batches/batch09/exports/npc_mist_forest_9_idle.png",
+      "native": "batches/batch09/mote/npc_mist_forest_9_idle.mote",
+      "sha256": "fe92f4823f1e0f4ace4df01762e4ca70e3a0532cdbdc0968e80fbedd82c3f392",
+      "nativeSHA256": "3364e2191f0aff44cc7670c3496e5188495b28c1d23211558b9a1ffcf2e9ac3d"
+    },
+    {
+      "stem": "npc_mist_forest_9_walk",
+      "file": "batches/batch09/exports/npc_mist_forest_9_walk.png",
+      "native": "batches/batch09/mote/npc_mist_forest_9_walk.mote",
+      "sha256": "4285b1e96cefbe0aee08d8679c8d4a49884ebe17341fadfa7c0347b677a7e8b4",
+      "nativeSHA256": "62bb27004e9aae2c82772116409b70e4ec86dfdda30dd45f44ec7c356cc902c8"
+    },
+    {
+      "stem": "npc_mist_forest_9_attack",
+      "file": "batches/batch09/exports/npc_mist_forest_9_attack.png",
+      "native": "batches/batch09/mote/npc_mist_forest_9_attack.mote",
+      "sha256": "a5c014d6d98ee288613b5a9d7b4dc5359de49fa24ca1393f73de103939e91b91",
+      "nativeSHA256": "bc5356ffc9f843fb615b414c92232e7ec320b87df2391d2c756ed97c521398dc"
+    },
+    {
+      "stem": "npc_mist_forest_9_die",
+      "file": "batches/batch09/exports/npc_mist_forest_9_die.png",
+      "native": "batches/batch09/mote/npc_mist_forest_9_die.mote",
+      "sha256": "b4fb7935d277a40dfaf23ff392ac5ed66627cbc4a7b4182103cf9b4d7423c86f",
+      "nativeSHA256": "2cd5244c953fb450bc04d5fef4aad10028620f65a92bb3f006aae79d009c2615"
+    },
+    {
+      "stem": "npc_mist_forest_10_idle",
+      "file": "batches/batch09/exports/npc_mist_forest_10_idle.png",
+      "native": "batches/batch09/mote/npc_mist_forest_10_idle.mote",
+      "sha256": "dc77e80b55c78f9b42be01d9616e297ec00dd6c9766631c1c04f1d9a8b9622e5",
+      "nativeSHA256": "6607563550f9ffebb5fe0e6321694e20ce60a491a837deb4fcee2dbfd347b67a"
+    },
+    {
+      "stem": "npc_mist_forest_10_walk",
+      "file": "batches/batch09/exports/npc_mist_forest_10_walk.png",
+      "native": "batches/batch09/mote/npc_mist_forest_10_walk.mote",
+      "sha256": "39b01a574d217fb40f8a921a3a79ebf2ad093f158ca5c82e424c2836beb1f129",
+      "nativeSHA256": "b95a771aeb41b7080ec7374f6d899cd293c0a02b6cfeee25f0aff187d8c781a3"
+    },
+    {
+      "stem": "npc_mist_forest_10_attack",
+      "file": "batches/batch09/exports/npc_mist_forest_10_attack.png",
+      "native": "batches/batch09/mote/npc_mist_forest_10_attack.mote",
+      "sha256": "1836b01d9c0a9828f9cda172409529a8ea46f498655ebb7c210fd66a2cd2dfac",
+      "nativeSHA256": "8e7749cbb484c0eb26e9087763195b5b31e7c7d41e96e5617c0bcb1a57a522a0"
+    },
+    {
+      "stem": "npc_mist_forest_10_die",
+      "file": "batches/batch09/exports/npc_mist_forest_10_die.png",
+      "native": "batches/batch09/mote/npc_mist_forest_10_die.mote",
+      "sha256": "80dd902da672c58beb64e930c2378c4545331b6358d448875fbbc3ddc6bfcee9",
+      "nativeSHA256": "e6eb676d7747fc21defb4c1bf8a77bac8cd20cc5c3a26a9d95d8c29361e822ce"
+    },
+    {
+      "stem": "npc_mist_forest_11_idle",
+      "file": "batches/batch09/exports/npc_mist_forest_11_idle.png",
+      "native": "batches/batch09/mote/npc_mist_forest_11_idle.mote",
+      "sha256": "42e007f9d14cd603880557888c707a4df14edaca66adc874d285187936b0888b",
+      "nativeSHA256": "0ba40a8606998d66e0b5ade640e15abb219c596f834ebd6931aeddd5d00d013a"
+    },
+    {
+      "stem": "npc_mist_forest_11_walk",
+      "file": "batches/batch09/exports/npc_mist_forest_11_walk.png",
+      "native": "batches/batch09/mote/npc_mist_forest_11_walk.mote",
+      "sha256": "3517b5f20bd6a2fc4385274e1e6afaa4715c764b7cb66d126ad61f5f6c62329d",
+      "nativeSHA256": "b3c3bc21129c30927c27c4e8ceebb7a967e87a85d387f077f32e2de33e4b3134"
+    },
+    {
+      "stem": "npc_mist_forest_11_attack",
+      "file": "batches/batch09/exports/npc_mist_forest_11_attack.png",
+      "native": "batches/batch09/mote/npc_mist_forest_11_attack.mote",
+      "sha256": "d8f8fcd1582336972bba529870271ae0b26be8786a823ff922ca05fcecb63758",
+      "nativeSHA256": "1b49ad5a84f0f7833a3bd83bab943ed9d67de6365df0cff02c7ce34f392646f7"
+    },
+    {
+      "stem": "npc_mist_forest_11_die",
+      "file": "batches/batch09/exports/npc_mist_forest_11_die.png",
+      "native": "batches/batch09/mote/npc_mist_forest_11_die.mote",
+      "sha256": "375ed3dfbb8feb6defed79bb32868d16368b054f50d0bd0fc7a022e7036c874f",
+      "nativeSHA256": "3f757f488bf5cec4af106b6f7728fa90d2ffc67dbebf86f7c9bccab36d5b9364"
+    },
+    {
+      "stem": "npc_mist_forest_12_idle",
+      "file": "batches/batch09/exports/npc_mist_forest_12_idle.png",
+      "native": "batches/batch09/mote/npc_mist_forest_12_idle.mote",
+      "sha256": "c3909ae463cb16b886c4ad8f6713cfddde762d72761c760c7b8acb4366448f8d",
+      "nativeSHA256": "9c3afee323ad03a940a01887cc0b7a58c9addaa25bc11be9c9a6a6ca36fa9b21"
+    },
+    {
+      "stem": "npc_mist_forest_12_walk",
+      "file": "batches/batch09/exports/npc_mist_forest_12_walk.png",
+      "native": "batches/batch09/mote/npc_mist_forest_12_walk.mote",
+      "sha256": "ef43943f6f79cf21a411f3ffe64abc066a0257260fa4f99f0e50fecd5236edb6",
+      "nativeSHA256": "db5a922b9fe1b23f5a3e9eb21d180dd3251c0349a27d3a7d0d0b9ed2fed87ca7"
+    },
+    {
+      "stem": "npc_mist_forest_12_attack",
+      "file": "batches/batch09/exports/npc_mist_forest_12_attack.png",
+      "native": "batches/batch09/mote/npc_mist_forest_12_attack.mote",
+      "sha256": "b469d7780d4c9c152395ffb3d74d5e3783cf090f18dbe7b3f9f86f7f395a53c9",
+      "nativeSHA256": "cb8480868110acfefabf9648c3c2ac1fe11ea8aaa64384a2e317d527ea238cac"
+    },
+    {
+      "stem": "npc_mist_forest_12_die",
+      "file": "batches/batch09/exports/npc_mist_forest_12_die.png",
+      "native": "batches/batch09/mote/npc_mist_forest_12_die.mote",
+      "sha256": "84b4b25303edf04dc204b02533ba17d09ae5a70c5a50e8b804e31ac0e647289c",
+      "nativeSHA256": "cb020b5342e091918f8155cfbcf3bed1c83ea7e9fa411309201ede8fb20dbd04"
+    },
+    {
+      "stem": "npc_lava_mountain_2_idle",
+      "file": "batches/batch10/exports/npc_lava_mountain_2_idle.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_2_idle.mote",
+      "sha256": "e887d11c1fa40acc4cfe9d3609049a207a4dfbc1cf4ae76cf59bd080b4f4994c",
+      "nativeSHA256": "82e51b363d3f500e4d3a14bc1c19c0a021e2d863ae778ebb00487c7be8426c2d"
+    },
+    {
+      "stem": "npc_lava_mountain_2_walk",
+      "file": "batches/batch10/exports/npc_lava_mountain_2_walk.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_2_walk.mote",
+      "sha256": "644dc4155023b75a1700e9736eecb58fda583303001fb50a0593cce21e10caf7",
+      "nativeSHA256": "9f5bb8758e09196e3f158b129b1ccbb1a51b704a186737ea9bc7ba9bf611821b"
+    },
+    {
+      "stem": "npc_lava_mountain_2_attack",
+      "file": "batches/batch10/exports/npc_lava_mountain_2_attack.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_2_attack.mote",
+      "sha256": "599b80056087f70c4e3d33aefcd836350c2b6d7da42b930a85117793eb8a75df",
+      "nativeSHA256": "c2a1b2738da9476f5f69a5b61bafab8ab8ce532645211b85dce95894e12c0781"
+    },
+    {
+      "stem": "npc_lava_mountain_2_die",
+      "file": "batches/batch10/exports/npc_lava_mountain_2_die.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_2_die.mote",
+      "sha256": "638b9d7e700f1e2c14d20153956461dba7672323d6f3a7e748eb8b45bd63ba4b",
+      "nativeSHA256": "ba1a980310e0872409691029ac15412aaad2c3f271e5a06abe10f6e2cfa8ed9b"
+    },
+    {
+      "stem": "npc_lava_mountain_3_idle",
+      "file": "batches/batch10/exports/npc_lava_mountain_3_idle.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_3_idle.mote",
+      "sha256": "101fe88aeec6e7b5865abcb2925a28908efef6c965cc367587ea08a626997fa3",
+      "nativeSHA256": "5736b59e7d8056c9e9095722b41020c4455c780ea6ccdac627d9d69925ba27a3"
+    },
+    {
+      "stem": "npc_lava_mountain_3_walk",
+      "file": "batches/batch10/exports/npc_lava_mountain_3_walk.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_3_walk.mote",
+      "sha256": "1b7b2cfccfac66eb78b26d22b756cac3f7f1e9c98159e60ed8512e97f2bbb9f2",
+      "nativeSHA256": "b18065c451be5d8c51f1734d9a366b1a2f07a4bc02712292a0872dea541dfa55"
+    },
+    {
+      "stem": "npc_lava_mountain_3_attack",
+      "file": "batches/batch10/exports/npc_lava_mountain_3_attack.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_3_attack.mote",
+      "sha256": "32712c84bc40b095efc622e23a2294cc95b2c33a96b6fb1102e1b23d4ff9d45f",
+      "nativeSHA256": "0f82e9ca9afbdb02c75d08456050e9f8854e15f7c6e5f52b4aae1b417bab4835"
+    },
+    {
+      "stem": "npc_lava_mountain_3_die",
+      "file": "batches/batch10/exports/npc_lava_mountain_3_die.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_3_die.mote",
+      "sha256": "ab1022f189843006c164fe3b4ed1bac7398bfa951c07fa2f1f7aa57d4a926a64",
+      "nativeSHA256": "3428fead8134f2fe805b074e757a28003c9deeb2ae0ad35165c10295462bd2a2"
+    },
+    {
+      "stem": "npc_lava_mountain_4_idle",
+      "file": "batches/batch10/exports/npc_lava_mountain_4_idle.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_4_idle.mote",
+      "sha256": "973f59cdcf852f189c7797627d0e8cf183fcddb77a81b45317f65cfc69e9d20a",
+      "nativeSHA256": "918bda00e8286e8f6bb7cd30503ba71f38cf07df1b53564d2304099313fa64b3"
+    },
+    {
+      "stem": "npc_lava_mountain_4_walk",
+      "file": "batches/batch10/exports/npc_lava_mountain_4_walk.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_4_walk.mote",
+      "sha256": "7ffb1cfa10df2cd3843bf671ba1055f590a87efb2e5515aab24da0627abd61b7",
+      "nativeSHA256": "68ce4b2aa6d8a61f870a0159a8b3f87aa04d7b20efb161ba5a79d788d6230f18"
+    },
+    {
+      "stem": "npc_lava_mountain_4_attack",
+      "file": "batches/batch10/exports/npc_lava_mountain_4_attack.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_4_attack.mote",
+      "sha256": "839bd33691e3933737e666058eecb15c9d213534c83f1c64451e1af83416c54a",
+      "nativeSHA256": "de8ae8198ff6a6a02621a1890b4ea6d50dacfbd90d7a3fe213685a0d39434fae"
+    },
+    {
+      "stem": "npc_lava_mountain_4_die",
+      "file": "batches/batch10/exports/npc_lava_mountain_4_die.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_4_die.mote",
+      "sha256": "3c065f6335e9e8d6055db05f11889e49549082ba89db8d0cb77f23f62fc4796b",
+      "nativeSHA256": "7ddb4e47708a2ff46d3e863435209c51612488f92082b89d048c1580ffe3d3bb"
+    },
+    {
+      "stem": "npc_lava_mountain_5_idle",
+      "file": "batches/batch10/exports/npc_lava_mountain_5_idle.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_5_idle.mote",
+      "sha256": "8f3fe92e2b72b17f6245f2f0c6d5db6b42298ceeaf43204ee4ce910c3f37ea69",
+      "nativeSHA256": "bcbaf32e3ebf705be9ebeebf2cef1c67612b6ceec367662742ea84414c0b3f3b"
+    },
+    {
+      "stem": "npc_lava_mountain_5_walk",
+      "file": "batches/batch10/exports/npc_lava_mountain_5_walk.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_5_walk.mote",
+      "sha256": "534d09063b647363a47c237e5be0deb35ac152a6604446f02bfcb8412b7e7c85",
+      "nativeSHA256": "73dc48ceeb7ff62836b7cc1352f13bf843a6d0a4b69a198a00e37fc3bd0968d3"
+    },
+    {
+      "stem": "npc_lava_mountain_5_attack",
+      "file": "batches/batch10/exports/npc_lava_mountain_5_attack.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_5_attack.mote",
+      "sha256": "f385d882820ae7c068735f22edb6d3319d2629c8772f0f5d9b7f0e309bcc4cdb",
+      "nativeSHA256": "3d3c2a4159bffc604a2ec91748c16f4408e9ef888a72106a369704323079da1c"
+    },
+    {
+      "stem": "npc_lava_mountain_5_die",
+      "file": "batches/batch10/exports/npc_lava_mountain_5_die.png",
+      "native": "batches/batch10/mote/npc_lava_mountain_5_die.mote",
+      "sha256": "f779f23ebc521376652725d1984e0a88357f9386a294a14a5ccf3398c136874f",
+      "nativeSHA256": "90f4751511afea9050f8939227e59576232cbd3ce612c90d63d80c0a25868389"
+    },
+    {
+      "stem": "npc_lava_mountain_6_idle",
+      "file": "batches/batch11/exports/npc_lava_mountain_6_idle.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_6_idle.mote",
+      "sha256": "c844154269e95fce7352a6307eaf7312cf068a8b362c2c113d74c87aaafa47ff",
+      "nativeSHA256": "67cae62e97c67093a66344573bb83a3d7d6e821f897e0f54be5b97680867a7dd"
+    },
+    {
+      "stem": "npc_lava_mountain_6_walk",
+      "file": "batches/batch11/exports/npc_lava_mountain_6_walk.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_6_walk.mote",
+      "sha256": "f7f7a0f9678f0ebd3c75791f4e8f063138741c5fa7da98b472285f7bce0e6916",
+      "nativeSHA256": "27f0aa1ca153db3619410ffa043cf404977e9501f55d2b4b22ac164937952950"
+    },
+    {
+      "stem": "npc_lava_mountain_6_attack",
+      "file": "batches/batch11/exports/npc_lava_mountain_6_attack.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_6_attack.mote",
+      "sha256": "697a61b98af9a528146ecbd2457c7bb354438f552870d06915274a17d7d02025",
+      "nativeSHA256": "a6417818d9604963d49516eed9576669c996009778012c93ebbb1c6c995eff3c"
+    },
+    {
+      "stem": "npc_lava_mountain_6_die",
+      "file": "batches/batch11/exports/npc_lava_mountain_6_die.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_6_die.mote",
+      "sha256": "c63c6444dd1e801b8d7deaebb857d5404511be5bd07ddaeb56f268423e0b684d",
+      "nativeSHA256": "ab37b7bb23629a818db65d3e7608f5fac65dc509d9fb713e6887fdebbe3feaed"
+    },
+    {
+      "stem": "npc_lava_mountain_7_idle",
+      "file": "batches/batch11/exports/npc_lava_mountain_7_idle.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_7_idle.mote",
+      "sha256": "1523f71f62c0c597e6c251a6f02371617b1789c724dd1aea2ec9bc172fc1b6e8",
+      "nativeSHA256": "ddce909f5fa138f16461a3b2ead9aa3c0db5e996e593e5ae72cec509a70456e6"
+    },
+    {
+      "stem": "npc_lava_mountain_7_walk",
+      "file": "batches/batch11/exports/npc_lava_mountain_7_walk.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_7_walk.mote",
+      "sha256": "e18e576022d0c851b6f85bcb78d8a5d9415b331d30e871884a30fe83ca664b8f",
+      "nativeSHA256": "61e72343d922a7e573ddd6c6012f5a5bbc917eb2e0cbfa00c8436c85f3f7ad0f"
+    },
+    {
+      "stem": "npc_lava_mountain_7_attack",
+      "file": "batches/batch11/exports/npc_lava_mountain_7_attack.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_7_attack.mote",
+      "sha256": "dd7bbf8a5330bb42fc53beb0dea19148712e11cb56ab2bdfd7f077d8f656a845",
+      "nativeSHA256": "a64e0c7614c4484984aaa8423d575e4917a36cd2b48926f72bc3dfcb7e440967"
+    },
+    {
+      "stem": "npc_lava_mountain_7_die",
+      "file": "batches/batch11/exports/npc_lava_mountain_7_die.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_7_die.mote",
+      "sha256": "5b29ab2d21a0a327147c5f22ae674f0fbc07124945cd2a53cee25625cf44daf3",
+      "nativeSHA256": "0f7e379995860682a31a1b8e81beaf002b9570c8afe2996c475e12892dcaad83"
+    },
+    {
+      "stem": "npc_lava_mountain_8_idle",
+      "file": "batches/batch11/exports/npc_lava_mountain_8_idle.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_8_idle.mote",
+      "sha256": "8b14f28ab4db53937e33c5dbcdd815fb4da09885a8829b8101086e4e24e338b0",
+      "nativeSHA256": "43b62cc15bc2dd5a57f2fd5443efee9fcf966c9e1759018c33b5faeaee195680"
+    },
+    {
+      "stem": "npc_lava_mountain_8_walk",
+      "file": "batches/batch11/exports/npc_lava_mountain_8_walk.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_8_walk.mote",
+      "sha256": "373927da2b647cc629be2ddbb1623dab46abc8eeffc2a6b00d6c55e0aae52259",
+      "nativeSHA256": "3ba2bcce6b879ba7cf493f1d166334ef7fb8abd2ae8c467e245e3526f1418c78"
+    },
+    {
+      "stem": "npc_lava_mountain_8_attack",
+      "file": "batches/batch11/exports/npc_lava_mountain_8_attack.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_8_attack.mote",
+      "sha256": "1ea56c5fa61685ed9d301d93b4f484d5ce1a2b98995a1e5e32d2a77f3682dcbf",
+      "nativeSHA256": "5956b6e1e9a61b07bf76538f72e611d7c19c945986e759efa7bc1f3dcbb9dc96"
+    },
+    {
+      "stem": "npc_lava_mountain_8_die",
+      "file": "batches/batch11/exports/npc_lava_mountain_8_die.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_8_die.mote",
+      "sha256": "ffb9351dba4c03b10e7dbfa9cb5476c73dfe29e4d3445ff7e921594075bb731d",
+      "nativeSHA256": "af16d4131c172c81fe0de5262d052d4d7b62edae7407df4155ea80b25aa557c9"
+    },
+    {
+      "stem": "npc_lava_mountain_10_idle",
+      "file": "batches/batch11/exports/npc_lava_mountain_10_idle.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_10_idle.mote",
+      "sha256": "d3b98b43df0f21c401af4f44ff49b1efe4deadec780bde786937d4bfcb0a2e43",
+      "nativeSHA256": "676b0a7abcade591fc11b60aa6b1e504b00227ba87aeb43078175fd379188213"
+    },
+    {
+      "stem": "npc_lava_mountain_10_walk",
+      "file": "batches/batch11/exports/npc_lava_mountain_10_walk.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_10_walk.mote",
+      "sha256": "fdb1753b667c9c3c4d6b1eba771c695de5e7606c0ef39b8a998cd057e404b485",
+      "nativeSHA256": "cd370790474b58067fb5543f5f79d6a90d3c03b987ea44b9a79a52689f2c2456"
+    },
+    {
+      "stem": "npc_lava_mountain_10_attack",
+      "file": "batches/batch11/exports/npc_lava_mountain_10_attack.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_10_attack.mote",
+      "sha256": "138b5a3d26f1b7f6d688a041ff1f78f87d6cde5835c3f891dcb345e0358eab4f",
+      "nativeSHA256": "76593253ab978885800c7d7a2c96ffb8417d5636de8b7a622e8545e261960eb3"
+    },
+    {
+      "stem": "npc_lava_mountain_10_die",
+      "file": "batches/batch11/exports/npc_lava_mountain_10_die.png",
+      "native": "batches/batch11/mote/npc_lava_mountain_10_die.mote",
+      "sha256": "a2020edbf82bbfaa09391653a469b80311488783706b1c1f27187895fba9f9ab",
+      "nativeSHA256": "b58d7d7098975b6a1e2a4af780977644c5e0267c1ab4fe4daf9b1a78c2b13817"
+    },
+    {
+      "stem": "npc_lava_mountain_11_idle",
+      "file": "batches/batch12/exports/npc_lava_mountain_11_idle.png",
+      "native": "batches/batch12/mote/npc_lava_mountain_11_idle.mote",
+      "sha256": "26e1cdde863cd3e5be71ae8c09434e5b777bf710783acbeb6ccbf29db9673503",
+      "nativeSHA256": "a167e66191f21e06563e72aa3368cc128b928a6a694b2c55921b4f64ce958afa"
+    },
+    {
+      "stem": "npc_lava_mountain_11_walk",
+      "file": "batches/batch12/exports/npc_lava_mountain_11_walk.png",
+      "native": "batches/batch12/mote/npc_lava_mountain_11_walk.mote",
+      "sha256": "b4c0b7dd97f79d950b8ec57773dffa01f10eb377d77e580d910d1aad9064b2b5",
+      "nativeSHA256": "59e350b72c81926c3b2379f0b361ad9d12715e9460cd1a3a7507caa00d964156"
+    },
+    {
+      "stem": "npc_lava_mountain_11_attack",
+      "file": "batches/batch12/exports/npc_lava_mountain_11_attack.png",
+      "native": "batches/batch12/mote/npc_lava_mountain_11_attack.mote",
+      "sha256": "ab602b89212fe114519022f84e2fb682f34f9e86192b7c153b4bbc7a7994ef6b",
+      "nativeSHA256": "6a7ebbbd19b665d40bbf756871b0183fec238d61b072ccb14c8182f85f3507b8"
+    },
+    {
+      "stem": "npc_lava_mountain_11_die",
+      "file": "batches/batch12/exports/npc_lava_mountain_11_die.png",
+      "native": "batches/batch12/mote/npc_lava_mountain_11_die.mote",
+      "sha256": "c4f55bb26f0d7f2d4636d1b1a610cf215bc53a17d825621f2601a6755a109b63",
+      "nativeSHA256": "3c1e070fb87c30c6262c4a34a29f3b79685cd3893a8de1a649cc233d1e6b2c5e"
+    },
+    {
+      "stem": "npc_lava_mountain_12_idle",
+      "file": "batches/batch12/exports/npc_lava_mountain_12_idle.png",
+      "native": "batches/batch12/mote/npc_lava_mountain_12_idle.mote",
+      "sha256": "19a528ebd55dfd6a35c1fbbc21b1fa7612f8478447cfb36edfed6be4692d6b75",
+      "nativeSHA256": "029a285c14d9737124aac446b7eb011cdc5be6789aacb62faae1663e39a9be54"
+    },
+    {
+      "stem": "npc_lava_mountain_12_walk",
+      "file": "batches/batch12/exports/npc_lava_mountain_12_walk.png",
+      "native": "batches/batch12/mote/npc_lava_mountain_12_walk.mote",
+      "sha256": "a76d4592455dae5169fefa14f05fb7f5661b010d3a68924f32b42a61c69ba334",
+      "nativeSHA256": "a48e954c80d37f0fc003736760256a8c808b3bea42eb9e2d0cbf3809a0e34b74"
+    },
+    {
+      "stem": "npc_lava_mountain_12_attack",
+      "file": "batches/batch12/exports/npc_lava_mountain_12_attack.png",
+      "native": "batches/batch12/mote/npc_lava_mountain_12_attack.mote",
+      "sha256": "a6fa467ceb0d4ba168ed88ea563cb8a14c90168eadf48f9d5595f63f2277104e",
+      "nativeSHA256": "370b3832520fd812dc1c75eadcd0bff4e66931853189da0a394af161e231efdb"
+    },
+    {
+      "stem": "npc_lava_mountain_12_die",
+      "file": "batches/batch12/exports/npc_lava_mountain_12_die.png",
+      "native": "batches/batch12/mote/npc_lava_mountain_12_die.mote",
+      "sha256": "82ae9cb63bae7534e113440b9354f920f4c659b1209cbc84605c328446a5c8e4",
+      "nativeSHA256": "f2449c4362ef6b9d6f510574d30f855a2f4e8bff5152cd1946ec11ab29190adb"
+    },
+    {
+      "stem": "npc_swamp_6_idle",
+      "file": "batches/batch12/exports/npc_swamp_6_idle.png",
+      "native": "batches/batch12/mote/npc_swamp_6_idle.mote",
+      "sha256": "0a1b80e5796aac26ce24d760084d5c6d4c8c00a6179f03834e777e3cd220843f",
+      "nativeSHA256": "bad605f137bacd6b561a157aef83006f80895181b89c94650148e7ca8e2bee17"
+    },
+    {
+      "stem": "npc_swamp_6_walk",
+      "file": "batches/batch12/exports/npc_swamp_6_walk.png",
+      "native": "batches/batch12/mote/npc_swamp_6_walk.mote",
+      "sha256": "db2c49dc628cb9723dfdb3202e258b09a60c6c3c43f8093dad1ede566848ed02",
+      "nativeSHA256": "68eee67d96ed6a85cdfef685464c8e7ef8e9c4e75737d3a0a67b0a21c74af488"
+    },
+    {
+      "stem": "npc_swamp_6_attack",
+      "file": "batches/batch12/exports/npc_swamp_6_attack.png",
+      "native": "batches/batch12/mote/npc_swamp_6_attack.mote",
+      "sha256": "28c9819eeb2d7b232030483ee679ff6241cced7c61db01445e9422984a3649a0",
+      "nativeSHA256": "3e995b67bfbd7dc6d0ed6a7e3da96b82694929975fc2610c24d268472b70fb6f"
+    },
+    {
+      "stem": "npc_swamp_6_die",
+      "file": "batches/batch12/exports/npc_swamp_6_die.png",
+      "native": "batches/batch12/mote/npc_swamp_6_die.mote",
+      "sha256": "a97725f06f52c752bcc86a350a181a62d930ba619d3c68542f6657fb8c301aa8",
+      "nativeSHA256": "4ea2473208785b6af1966a5973d329bdf820f3a252549ac3adf64a0e9a64d2eb"
+    },
+    {
+      "stem": "npc_swamp_11_idle",
+      "file": "batches/batch12/exports/npc_swamp_11_idle.png",
+      "native": "batches/batch12/mote/npc_swamp_11_idle.mote",
+      "sha256": "87338a56e9733983364aab449b3ac750b40e598e2bfa77a2f0a510326a4ed51d",
+      "nativeSHA256": "dd8d027ecdce66061980fb019ee73cad360afeb42c0288d23756d3ff692b61cf"
+    },
+    {
+      "stem": "npc_swamp_11_walk",
+      "file": "batches/batch12/exports/npc_swamp_11_walk.png",
+      "native": "batches/batch12/mote/npc_swamp_11_walk.mote",
+      "sha256": "54176a3b07a629a56802f5d6477661ec6716fef506ffc1be81039d0449293ee6",
+      "nativeSHA256": "e01162c1f4aee4d77826ce886da27603cd4d764b56f740758b22753b79cbe0c4"
+    },
+    {
+      "stem": "npc_swamp_11_attack",
+      "file": "batches/batch12/exports/npc_swamp_11_attack.png",
+      "native": "batches/batch12/mote/npc_swamp_11_attack.mote",
+      "sha256": "fb345ea1647a5b4fad8666c76f9b473fad52ff246c783a0a4aa2f492573d7882",
+      "nativeSHA256": "e3bb1cd143c3ac713c44afeb3b98d7404bfb50966946efa64e58854dbdf5ece4"
+    },
+    {
+      "stem": "npc_swamp_11_die",
+      "file": "batches/batch12/exports/npc_swamp_11_die.png",
+      "native": "batches/batch12/mote/npc_swamp_11_die.mote",
+      "sha256": "b409547ad17a7b9efd8a0816151f5c729892efc2a464d8c784b535103075406b",
+      "nativeSHA256": "d3c84ddf267d1dcbf2b38acad9803c6d2cc66f67fd19615a023f69d66751e2e3"
+    },
+    {
+      "stem": "npc_thunder_peak_1_idle",
+      "file": "batches/batch13/exports/npc_thunder_peak_1_idle.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_1_idle.mote",
+      "sha256": "24d6386b6c7d988ad72b61d71e156fc917e80c30d4c1ec94a989c8de8c1293c0",
+      "nativeSHA256": "a6644b746c86fe20a077160f17395ac7bb0dac9aac18c320caf6147cb7e02ba7"
+    },
+    {
+      "stem": "npc_thunder_peak_1_walk",
+      "file": "batches/batch13/exports/npc_thunder_peak_1_walk.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_1_walk.mote",
+      "sha256": "c62a46e3eaa4b7e56431ea74045168d72f94eabaa43156712c966ea17990a2df",
+      "nativeSHA256": "6200cfa84ec71b81b0c3eef12da0c57154402457c99e1e67027f5ad8f6c0c428"
+    },
+    {
+      "stem": "npc_thunder_peak_1_attack",
+      "file": "batches/batch13/exports/npc_thunder_peak_1_attack.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_1_attack.mote",
+      "sha256": "2675eb82289c729062c0f0b6a0629954afd17c51a86dfc64d1557b26de2b001b",
+      "nativeSHA256": "c0aedc86bf64c0783be326a1a89d230674c59de8c3b052e94e80455a4582ca6c"
+    },
+    {
+      "stem": "npc_thunder_peak_1_die",
+      "file": "batches/batch13/exports/npc_thunder_peak_1_die.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_1_die.mote",
+      "sha256": "7849163190e22877b4f17fead0a1f5196b480d5e5f0fd51d76415171de355778",
+      "nativeSHA256": "2c01aa167cc077b9754ba41de4629bc971cdd0dd477dfac2935b12a1eeeedd18"
+    },
+    {
+      "stem": "npc_thunder_peak_2_idle",
+      "file": "batches/batch13/exports/npc_thunder_peak_2_idle.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_2_idle.mote",
+      "sha256": "36e707f8450488ff9c13199219fd8aa84d4171c2f21ccce8af13b993eeab7291",
+      "nativeSHA256": "4152cb5630c5c9716a8b0ba6f5d1312115e139f12a9b9ca59a89be35723d808f"
+    },
+    {
+      "stem": "npc_thunder_peak_2_walk",
+      "file": "batches/batch13/exports/npc_thunder_peak_2_walk.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_2_walk.mote",
+      "sha256": "3f8a2fcac7c1419ccf21ff576f807a289ec9e904618bc1c9b4c969042e1bf79f",
+      "nativeSHA256": "250d10706a68ff45e034afe03e7f05b33f2b6b1d2fbbbffe42e7cdb6188e6e32"
+    },
+    {
+      "stem": "npc_thunder_peak_2_attack",
+      "file": "batches/batch13/exports/npc_thunder_peak_2_attack.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_2_attack.mote",
+      "sha256": "061606865557cf9f0d1148fb13b2f659de14c6a929634b30d62c7959ed8913c1",
+      "nativeSHA256": "b773c2ec43f1acbb45faea58b35fb0b026dd887e6ce658e39597f0ffc81c3f3f"
+    },
+    {
+      "stem": "npc_thunder_peak_2_die",
+      "file": "batches/batch13/exports/npc_thunder_peak_2_die.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_2_die.mote",
+      "sha256": "d2ea3549cc095685bfaaa72e25c5ec2dfe1c6dcdbc0386b62469093926dc6020",
+      "nativeSHA256": "127bf50c4ab606e409714e8368cfca2a8ce012dfe5343f359fddd8392093a603"
+    },
+    {
+      "stem": "npc_thunder_peak_3_idle",
+      "file": "batches/batch13/exports/npc_thunder_peak_3_idle.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_3_idle.mote",
+      "sha256": "cf2af15253a11eea268a9f1982a4893ba86f6d6da81642f5c8aaef74d1846f61",
+      "nativeSHA256": "4537afe4a043b4cafb1ed7e24d39435d5f48b01a0353dc022fdc7ee16e10089d"
+    },
+    {
+      "stem": "npc_thunder_peak_3_walk",
+      "file": "batches/batch13/exports/npc_thunder_peak_3_walk.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_3_walk.mote",
+      "sha256": "59e80c35b1d4336a438b130950292a54f99b7f9b972baa71c2e05910ded1a10c",
+      "nativeSHA256": "19e8a5eb3f577bd659d7262e9067c02d17b1b8d2e278bdc541c6c4300a1a03af"
+    },
+    {
+      "stem": "npc_thunder_peak_3_attack",
+      "file": "batches/batch13/exports/npc_thunder_peak_3_attack.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_3_attack.mote",
+      "sha256": "6880a2abcb1bff6795a3ff7283efa4b9a0e4f971865ed70a66a6d795cccbb1d3",
+      "nativeSHA256": "ff305b17d7ae2f49c8ee6aeafb787722dbcacce8ba281e49b684857a2f6c330e"
+    },
+    {
+      "stem": "npc_thunder_peak_3_die",
+      "file": "batches/batch13/exports/npc_thunder_peak_3_die.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_3_die.mote",
+      "sha256": "9eea6da0af961776c1afa156d30b244cf4862eeac3fbdc691af6d862b39dd13c",
+      "nativeSHA256": "d9330c71a69661a6a55bd53aeade482b471dbb5cf928d824df372078da027a7a"
+    },
+    {
+      "stem": "npc_thunder_peak_4_idle",
+      "file": "batches/batch13/exports/npc_thunder_peak_4_idle.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_4_idle.mote",
+      "sha256": "2d66002a0fe4da8baf2f6b06c881ab4f85f46bee264aa90c4baa59df1b1b9ba0",
+      "nativeSHA256": "a51f046ba858017fa1471389dc02d3f0c29bc357e5f4b8cc006de3c5d43e7409"
+    },
+    {
+      "stem": "npc_thunder_peak_4_walk",
+      "file": "batches/batch13/exports/npc_thunder_peak_4_walk.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_4_walk.mote",
+      "sha256": "2c67db8be8be7185ac5aac4afd4085a7b1648c848060f5a04190efe0dec271b2",
+      "nativeSHA256": "9747f16126f811b5991b2f2abf56cdacc7ab09960b19fdbafd264ec718c0119f"
+    },
+    {
+      "stem": "npc_thunder_peak_4_attack",
+      "file": "batches/batch13/exports/npc_thunder_peak_4_attack.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_4_attack.mote",
+      "sha256": "410f475c8d13d01cd5efcd834986cd038e850b1ec985b1602e0a4bd061cba263",
+      "nativeSHA256": "d2c72c78f9aadb79c4393caed79f1f914ea683d7265366fa9be09379c8c7726c"
+    },
+    {
+      "stem": "npc_thunder_peak_4_die",
+      "file": "batches/batch13/exports/npc_thunder_peak_4_die.png",
+      "native": "batches/batch13/mote/npc_thunder_peak_4_die.mote",
+      "sha256": "f35adb3686fecdc9152e02eab97be329e6da88540206b21758ab6cebc10a1d96",
+      "nativeSHA256": "50f63df3e34587269b7b784c350eeec737237e2d524b5fec321844e51a03152f"
+    },
+    {
+      "stem": "npc_thunder_peak_5_idle",
+      "file": "batches/batch14/exports/npc_thunder_peak_5_idle.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_5_idle.mote",
+      "sha256": "e95315b1529c3fd82482c89be84966290766532e6ee4775c6a836d7295886ef8",
+      "nativeSHA256": "8cd814fa400af3b069dc55d892466b4e119dd3432237a4372affc653ad8a2efd"
+    },
+    {
+      "stem": "npc_thunder_peak_5_walk",
+      "file": "batches/batch14/exports/npc_thunder_peak_5_walk.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_5_walk.mote",
+      "sha256": "635d0b59538d212729bf099b95637b1a745a3668a0b3befb836670d6dac701db",
+      "nativeSHA256": "b4ffaae569b2ca017345752175b63a14b609ca6c4ef519e7f8268daf8d56a5f0"
+    },
+    {
+      "stem": "npc_thunder_peak_5_attack",
+      "file": "batches/batch14/exports/npc_thunder_peak_5_attack.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_5_attack.mote",
+      "sha256": "6e9ca83e97333ffb5e689c5a449954ff19deafa53d5cdd17a844a4f25f328322",
+      "nativeSHA256": "46fc4b6c130342edaffe1694e63f05116d67f139e7b29bd21b31a0052e262f31"
+    },
+    {
+      "stem": "npc_thunder_peak_5_die",
+      "file": "batches/batch14/exports/npc_thunder_peak_5_die.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_5_die.mote",
+      "sha256": "b7f0c3378beeff6cb5f967dea172bae0eaaadc3b38b2222f3053768c042fa883",
+      "nativeSHA256": "00c234eeeef3eba2bb7148463731c98d25ecb2143fa140f38b35596ea55ebac1"
+    },
+    {
+      "stem": "npc_thunder_peak_6_idle",
+      "file": "batches/batch14/exports/npc_thunder_peak_6_idle.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_6_idle.mote",
+      "sha256": "e5b5ebc51e4decd7c11ce2c428ce09bd203220de5881f7e07dac22dc78f3de62",
+      "nativeSHA256": "b75ea51e97f763bf4a686bc63afb68136997578c53129ed7f8df2559d7522c62"
+    },
+    {
+      "stem": "npc_thunder_peak_6_walk",
+      "file": "batches/batch14/exports/npc_thunder_peak_6_walk.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_6_walk.mote",
+      "sha256": "30b333229e052fcf1f632c6631c8a5073458835590664538f9a3e90c1dd74db6",
+      "nativeSHA256": "c1722e621f2215a39dec1a5b63d0a9d3130805be25e912c8535406d30baee4ca"
+    },
+    {
+      "stem": "npc_thunder_peak_6_attack",
+      "file": "batches/batch14/exports/npc_thunder_peak_6_attack.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_6_attack.mote",
+      "sha256": "da80a463713f0474fc43832402562559acfed61232ade6068636c710a4267280",
+      "nativeSHA256": "69b814a79146cc619a9914a9fafff56635cbdf07d95f0a565423d25a77bdef3e"
+    },
+    {
+      "stem": "npc_thunder_peak_6_die",
+      "file": "batches/batch14/exports/npc_thunder_peak_6_die.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_6_die.mote",
+      "sha256": "f70ac8285e136376e96f34821ea3cd9d5b6b7110fc3ee9f0b8fb88a10cb1ce89",
+      "nativeSHA256": "1a2571f661477bdecfa0fcd93548f436bc4d3f0a5ae6484f137ded67b15af555"
+    },
+    {
+      "stem": "npc_thunder_peak_7_idle",
+      "file": "batches/batch14/exports/npc_thunder_peak_7_idle.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_7_idle.mote",
+      "sha256": "6dad98ec288b69f2c54b02c89d108de6ed91dec747eecb789d91510cf6339327",
+      "nativeSHA256": "2fb3870b5a105e9ae8e232f22600252b600a3a5a1bf9607ae461a5163e13da0f"
+    },
+    {
+      "stem": "npc_thunder_peak_7_walk",
+      "file": "batches/batch14/exports/npc_thunder_peak_7_walk.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_7_walk.mote",
+      "sha256": "f46a6b75c587ea3c6af621e146681686e171bfa031ec5bdde432b5a1a412abb3",
+      "nativeSHA256": "8758943db1177877bec2760b14b4a1eaecd75074d295babd70b4a11f67d96aea"
+    },
+    {
+      "stem": "npc_thunder_peak_7_attack",
+      "file": "batches/batch14/exports/npc_thunder_peak_7_attack.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_7_attack.mote",
+      "sha256": "06c32bf86431a3332c0e9480c8cfe4160afc0e32f29da159446f88d8fd2c9e7c",
+      "nativeSHA256": "7e5d53685d2c6cf96d8ca254199407126a150a07bf92497d6ecddbb016a39cfa"
+    },
+    {
+      "stem": "npc_thunder_peak_7_die",
+      "file": "batches/batch14/exports/npc_thunder_peak_7_die.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_7_die.mote",
+      "sha256": "daeec9f50114b7ff6a865ccb74ada1373c8b3042316cb781aaf9d847e2657328",
+      "nativeSHA256": "8670acf9423e81563ea43295b3c5915afec8ab097c101b304ced9f54b6bd43cd"
+    },
+    {
+      "stem": "npc_thunder_peak_8_idle",
+      "file": "batches/batch14/exports/npc_thunder_peak_8_idle.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_8_idle.mote",
+      "sha256": "8a5bc8788d0fdf91b72b0b7dd39e2129a0f04ff0c3260052497302fd8e1669b7",
+      "nativeSHA256": "47bdf1e530f792e6fac96ad0c3218c8c8390a17b10cda585a767ef8b3fe62a27"
+    },
+    {
+      "stem": "npc_thunder_peak_8_walk",
+      "file": "batches/batch14/exports/npc_thunder_peak_8_walk.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_8_walk.mote",
+      "sha256": "9a3db075ff6991fdc5224659339c3585ced8666b0a236846f5163e276d8b2d60",
+      "nativeSHA256": "aa176f5e45dff56eb3b9265147c466bd6e0f9a17cb472d56f4937884859348d9"
+    },
+    {
+      "stem": "npc_thunder_peak_8_attack",
+      "file": "batches/batch14/exports/npc_thunder_peak_8_attack.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_8_attack.mote",
+      "sha256": "2f742f574ca1bc4cb2f1bb1f9c9e56a37618978658d7f5fcf4e3695dbd3bcdb6",
+      "nativeSHA256": "6129fff08a727b4da3a59ce3b609b974fcb984880c23e75c4df8f2a328db1179"
+    },
+    {
+      "stem": "npc_thunder_peak_8_die",
+      "file": "batches/batch14/exports/npc_thunder_peak_8_die.png",
+      "native": "batches/batch14/mote/npc_thunder_peak_8_die.mote",
+      "sha256": "0ea1cf0a3efb079a805718df4986b4ad1f0fdd930644b2cc8c025cf973fd5fbd",
+      "nativeSHA256": "336614412a1cee5f38ce5febbe49ada6998a3ba80d59a088ee837fc7198fc0de"
+    },
+    {
+      "stem": "npc_thunder_peak_10_idle",
+      "file": "batches/batch15/exports/npc_thunder_peak_10_idle.png",
+      "native": "batches/batch15/mote/npc_thunder_peak_10_idle.mote",
+      "sha256": "14fb8aac63459dfb6273ed44198b991d0324e61312139be8100d5c02d06141b7",
+      "nativeSHA256": "a2ab326396078ab0c403ea2dffb88d7c14470ac02b9e22c688ebfaec46509fdc"
+    },
+    {
+      "stem": "npc_thunder_peak_10_walk",
+      "file": "batches/batch15/exports/npc_thunder_peak_10_walk.png",
+      "native": "batches/batch15/mote/npc_thunder_peak_10_walk.mote",
+      "sha256": "acc03d5c97f91b155c33d4dc32264e7373b059f9bda689a3930fac63f87ffc38",
+      "nativeSHA256": "c49d29bf808aa54a2cdc367cf6bb2fccd7e63c8a67a08e461c18980638f2f0c0"
+    },
+    {
+      "stem": "npc_thunder_peak_10_attack",
+      "file": "batches/batch15/exports/npc_thunder_peak_10_attack.png",
+      "native": "batches/batch15/mote/npc_thunder_peak_10_attack.mote",
+      "sha256": "60457af4e589cd484ba4e0f1a404bd5d2ed3028d492e45f8b87deb399606e0e2",
+      "nativeSHA256": "183181f943f39371bffe78bb57f302d7582652957b62bde5c52e96fc05c32131"
+    },
+    {
+      "stem": "npc_thunder_peak_10_die",
+      "file": "batches/batch15/exports/npc_thunder_peak_10_die.png",
+      "native": "batches/batch15/mote/npc_thunder_peak_10_die.mote",
+      "sha256": "70d186ef292484138dc5d81f2bc92a07fa98c3a6dbe5d65b057c397f2c038ad6",
+      "nativeSHA256": "631e73c02c9c35f34f935cbfd99267f2a6f4ee494b0f9a5783e6c62d2dd2016c"
+    },
+    {
+      "stem": "npc_thunder_peak_11_idle",
+      "file": "batches/batch15/exports/npc_thunder_peak_11_idle.png",
+      "native": "batches/batch15/mote/npc_thunder_peak_11_idle.mote",
+      "sha256": "6922ec7cfd2ab9c4ab58cf12291e556d8db1891e28c5f5c91f457eb9f6868c9c",
+      "nativeSHA256": "e2632f3973d64cd13b336975648cd143ef0668c86030399d8389392506564b74"
+    },
+    {
+      "stem": "npc_thunder_peak_11_walk",
+      "file": "batches/batch15/exports/npc_thunder_peak_11_walk.png",
+      "native": "batches/batch15/mote/npc_thunder_peak_11_walk.mote",
+      "sha256": "c76239781efbd11c531e763ee51ac7cd5d55b10a5de732e965e5821b1f50c029",
+      "nativeSHA256": "4f8fed1bc86b4e5982af2a69bfbdc2fb195b6fb258026691277fd2adf761e22e"
+    },
+    {
+      "stem": "npc_thunder_peak_11_attack",
+      "file": "batches/batch15/exports/npc_thunder_peak_11_attack.png",
+      "native": "batches/batch15/mote/npc_thunder_peak_11_attack.mote",
+      "sha256": "8dc8e91a44f02addcb31d44a2190ad174fce0ba6a15c36baaf469c67c7d00bfd",
+      "nativeSHA256": "6b6c21bb2f03d17ab415cb142d1717902f8fb19ba007b598138f7d27993bb446"
+    },
+    {
+      "stem": "npc_thunder_peak_11_die",
+      "file": "batches/batch15/exports/npc_thunder_peak_11_die.png",
+      "native": "batches/batch15/mote/npc_thunder_peak_11_die.mote",
+      "sha256": "ff8d1633e1bab53a972994492c2a9b9933977d2c8b9cf03376c997c6e1319aac",
+      "nativeSHA256": "2778d08de3153d2e5eb62be53e39d85b4cb4abdbf1d93e17a3fc1c0805205333"
+    },
+    {
+      "stem": "npc_thunder_peak_12_idle",
+      "file": "batches/batch15/exports/npc_thunder_peak_12_idle.png",
+      "native": "batches/batch15/mote/npc_thunder_peak_12_idle.mote",
+      "sha256": "86c2f31ed457938430f50e54a3f536d6ebfef8d6e748c9400546d0eda77b2651",
+      "nativeSHA256": "47339a1b272a1b8c0134205626a953d395d8884a59d256a2ecf16306a9712d9b"
+    },
+    {
+      "stem": "npc_thunder_peak_12_walk",
+      "file": "batches/batch15/exports/npc_thunder_peak_12_walk.png",
+      "native": "batches/batch15/mote/npc_thunder_peak_12_walk.mote",
+      "sha256": "7ebd91a1e0038f7e9270a94b7babd314240e41349d9e4c082f998b795d355f49",
+      "nativeSHA256": "976d2f946b940f9f2dbffb2ccaeaa1197eeccfa9c30fa9227f5a50be0378bff4"
+    },
+    {
+      "stem": "npc_thunder_peak_12_attack",
+      "file": "batches/batch15/exports/npc_thunder_peak_12_attack.png",
+      "native": "batches/batch15/mote/npc_thunder_peak_12_attack.mote",
+      "sha256": "8a96d22f8811801428eb4cb6faf263cf99e45c947e442b8711f587e2863120fe",
+      "nativeSHA256": "abaa9c24e2f74c6783f8efe06ffeb172d6d33ea655584b4af96be821d3fc7628"
+    },
+    {
+      "stem": "npc_thunder_peak_12_die",
+      "file": "batches/batch15/exports/npc_thunder_peak_12_die.png",
+      "native": "batches/batch15/mote/npc_thunder_peak_12_die.mote",
+      "sha256": "a8434fc6095dc1508e60d4f424b0ef847152f0530a55d25eb07811b798f52ba6",
+      "nativeSHA256": "e086d1be63a8207d6d36a92e4d1eb4d64d3929d79971caebe2ff168af8be7e0f"
+    },
+    {
+      "stem": "npc_god_battlefield_1_idle",
+      "file": "batches/batch15/exports/npc_god_battlefield_1_idle.png",
+      "native": "batches/batch15/mote/npc_god_battlefield_1_idle.mote",
+      "sha256": "077fca22515a50239113ce11125f0429aebeec7803c390d4817c94e0ebc97be1",
+      "nativeSHA256": "7c32950283989984b13c5511567f24c744bd150384a9e17a75c88b37bcd1a752"
+    },
+    {
+      "stem": "npc_god_battlefield_1_walk",
+      "file": "batches/batch15/exports/npc_god_battlefield_1_walk.png",
+      "native": "batches/batch15/mote/npc_god_battlefield_1_walk.mote",
+      "sha256": "8b7394c579fa68bf87a4d71ad6d9927422463390dee6c5ef100183d33a767172",
+      "nativeSHA256": "5526ba0eebbffce19ec3101d2897ce266b37ece1e2b91965c054cfc0cd8a3292"
+    },
+    {
+      "stem": "npc_god_battlefield_1_attack",
+      "file": "batches/batch15/exports/npc_god_battlefield_1_attack.png",
+      "native": "batches/batch15/mote/npc_god_battlefield_1_attack.mote",
+      "sha256": "23500f9a02f5c1cc9eb63cbd0164425decec5d2e28a72bcf5f7448ba2a083cb5",
+      "nativeSHA256": "33be8c079e048b29856e4650532770cad4ee3976313b78cfe0c57d71ff066b1b"
+    },
+    {
+      "stem": "npc_god_battlefield_1_die",
+      "file": "batches/batch15/exports/npc_god_battlefield_1_die.png",
+      "native": "batches/batch15/mote/npc_god_battlefield_1_die.mote",
+      "sha256": "f23bbaf1b53a98def62f0159cb665cfe4545c2662be55b5bff9c074e51d25fb3",
+      "nativeSHA256": "a7af9126c857bc9d582fddd37da654ef79fa659e8f631cfb89c3f731fa84775d"
+    },
+    {
+      "stem": "npc_god_battlefield_2_idle",
+      "file": "batches/batch16/exports/npc_god_battlefield_2_idle.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_2_idle.mote",
+      "sha256": "b846065aee9d80f4e67e7a3ecb405ca450bba1e3c4215e67da3a1a02010c9bd9",
+      "nativeSHA256": "af074e66aff594a644b9b71750e2225d424d940b076fab2c9a0385de35519af7"
+    },
+    {
+      "stem": "npc_god_battlefield_2_walk",
+      "file": "batches/batch16/exports/npc_god_battlefield_2_walk.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_2_walk.mote",
+      "sha256": "d20f421c83b164b7a08c651280e7e977b8d78b851f0f6195a73b3c477eaeb4d1",
+      "nativeSHA256": "20eef8d09aed449136a8929b7c1cd2e942e8ae545c1c6f9f15df448f63d1217f"
+    },
+    {
+      "stem": "npc_god_battlefield_2_attack",
+      "file": "batches/batch16/exports/npc_god_battlefield_2_attack.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_2_attack.mote",
+      "sha256": "762d8ac521671207cbebf65afe1cca84e2f9112a7694bc6f53f3dbe0c71e5ca4",
+      "nativeSHA256": "2e02d12548f91da8b37348c37d89ee3e4f0a5ec76215120275a39292394baac2"
+    },
+    {
+      "stem": "npc_god_battlefield_2_die",
+      "file": "batches/batch16/exports/npc_god_battlefield_2_die.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_2_die.mote",
+      "sha256": "6c8ca3d0da6eb16a33cd3867b6ac2867f4f7c3b19a2be210f8a94cc9521de090",
+      "nativeSHA256": "a321218877471f3a74735dfaa4cdc8b0b9274c01d780d2b6fee4a1e825dca0ce"
+    },
+    {
+      "stem": "npc_god_battlefield_3_idle",
+      "file": "batches/batch16/exports/npc_god_battlefield_3_idle.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_3_idle.mote",
+      "sha256": "601b3c0e2bc0ab70e21d9ce52c8f4bee8f8817255710aed2266f4f803a390c8d",
+      "nativeSHA256": "e6befacc17e35175a7e5850edfcb326b59f31a56eea6289c765adf5f7e3f4973"
+    },
+    {
+      "stem": "npc_god_battlefield_3_walk",
+      "file": "batches/batch16/exports/npc_god_battlefield_3_walk.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_3_walk.mote",
+      "sha256": "4f7556449c5770308281fc129ec9bc91c0957b91dd44776eae2fe019a74738c2",
+      "nativeSHA256": "73e7f4349d9e7af75d8bbc750ff1ee0085cb55bace7b64462ffc96bef473786f"
+    },
+    {
+      "stem": "npc_god_battlefield_3_attack",
+      "file": "batches/batch16/exports/npc_god_battlefield_3_attack.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_3_attack.mote",
+      "sha256": "f31430e2d950cfb94ada05257330faacbc949f314cd84abd027031523d6db626",
+      "nativeSHA256": "b88c04bb503028755408651df787a99fffec60c94aa6c54eca5351d716a3f5f3"
+    },
+    {
+      "stem": "npc_god_battlefield_3_die",
+      "file": "batches/batch16/exports/npc_god_battlefield_3_die.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_3_die.mote",
+      "sha256": "228655cd297ccc56f31b824f661d2d4aba3983c0028bad86836e56bb0f1ec921",
+      "nativeSHA256": "04d807b50cd66a43a52ec57971f08006cf33bbc7107c1e386cf1410c49708969"
+    },
+    {
+      "stem": "npc_god_battlefield_4_idle",
+      "file": "batches/batch16/exports/npc_god_battlefield_4_idle.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_4_idle.mote",
+      "sha256": "ec282274b4e1a61272e48ac9aa4a85b672d24715d1d6ba8a67c6ea34e1f0512f",
+      "nativeSHA256": "fb4f1c98473d0714baed7b6cd2082d2185876d7e944e3003a0c6ee62f8e73964"
+    },
+    {
+      "stem": "npc_god_battlefield_4_walk",
+      "file": "batches/batch16/exports/npc_god_battlefield_4_walk.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_4_walk.mote",
+      "sha256": "8e16b49fd6e9225f27894ff561d72802039c2f4b712c6fe367326452c34b8636",
+      "nativeSHA256": "be485b2ab428700b94e594be747f9e3d38dbd4957483699197e4feb04d676864"
+    },
+    {
+      "stem": "npc_god_battlefield_4_attack",
+      "file": "batches/batch16/exports/npc_god_battlefield_4_attack.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_4_attack.mote",
+      "sha256": "e674217b7b10c2eb2c99937f3c2887445726ce6bf647b6ea985c6e0ac411cd53",
+      "nativeSHA256": "aaafc1dc3470b4106dfbbeb39d4f6c3fc7faff9bc634a9d6869030694b9e3c3d"
+    },
+    {
+      "stem": "npc_god_battlefield_4_die",
+      "file": "batches/batch16/exports/npc_god_battlefield_4_die.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_4_die.mote",
+      "sha256": "5ad3fbbdd1854e1d18d238e0156111668e1ae02d30597fd5d8e2d0c12776e65e",
+      "nativeSHA256": "4abc2451d7ae152f7b7d73eda616e6f7803857413ef08957986b6c0dfefb51e2"
+    },
+    {
+      "stem": "npc_god_battlefield_5_idle",
+      "file": "batches/batch16/exports/npc_god_battlefield_5_idle.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_5_idle.mote",
+      "sha256": "ec4f9ce2198cf5f5a4c1db5064af26ec4411ad465cf3b65923502962c2857f26",
+      "nativeSHA256": "aab4e1ddab26ee753a405099c160ecb04b52d54d5bc61faa35e6bcfa20a2e124"
+    },
+    {
+      "stem": "npc_god_battlefield_5_walk",
+      "file": "batches/batch16/exports/npc_god_battlefield_5_walk.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_5_walk.mote",
+      "sha256": "f104dbb6a99d58b42e23d531133f81e110f07fc8e4c8018e331c2f0f38bb4017",
+      "nativeSHA256": "3d2108e7fc6539ba082b383a39e20d4acdd56d067ba04bc1ac885653b0ebf855"
+    },
+    {
+      "stem": "npc_god_battlefield_5_attack",
+      "file": "batches/batch16/exports/npc_god_battlefield_5_attack.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_5_attack.mote",
+      "sha256": "a5db7684f7436fc37f67f71b4f89a798a4f4a909ae488127a5961a7993db5cb8",
+      "nativeSHA256": "31824fdf4aa8c9881f5307b418c9153a09ba767887c3b99da8842ea1320b99e3"
+    },
+    {
+      "stem": "npc_god_battlefield_5_die",
+      "file": "batches/batch16/exports/npc_god_battlefield_5_die.png",
+      "native": "batches/batch16/mote/npc_god_battlefield_5_die.mote",
+      "sha256": "f4dc450387d65b1283bad09de019ec860e8411419b73a5ceef7b04c952673fbb",
+      "nativeSHA256": "91128d81286621e831efce059ebc49fe48382b15642ff40876dc51f23c07783f"
+    },
+    {
+      "stem": "npc_god_battlefield_6_idle",
+      "file": "batches/batch17/exports/npc_god_battlefield_6_idle.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_6_idle.mote",
+      "sha256": "26b326d97b54c6bbe36db55757ac8bf6dbbbde33ec7d51c677267730d60840f2",
+      "nativeSHA256": "10d2877ddf99d6c0570f882ebf5fdc2e88890926dacbdf627e60f3a9229e6dee"
+    },
+    {
+      "stem": "npc_god_battlefield_6_walk",
+      "file": "batches/batch17/exports/npc_god_battlefield_6_walk.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_6_walk.mote",
+      "sha256": "325883eab1bda8ba2adeb2a72e792a430466fd624e96cb9d924904980fd4fb21",
+      "nativeSHA256": "2e182dea87c87accf2102406e48f443b6523f5bc81062c2630592a5b51f31d05"
+    },
+    {
+      "stem": "npc_god_battlefield_6_attack",
+      "file": "batches/batch17/exports/npc_god_battlefield_6_attack.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_6_attack.mote",
+      "sha256": "05ed51e9d6b829508fb22c4ce5b35b4939fb3210d7e9d743f9af5fa79621deea",
+      "nativeSHA256": "c15be543f25d4d0a56afe5b6f5b8a7155850620b0baf29057210fdeb863771cc"
+    },
+    {
+      "stem": "npc_god_battlefield_6_die",
+      "file": "batches/batch17/exports/npc_god_battlefield_6_die.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_6_die.mote",
+      "sha256": "6b28839aa5d1af298cb552a62d0e35abab8ff82c08d025db3f3c8e8586a3e3df",
+      "nativeSHA256": "9cebd4d846d2d8a5fe884fff0bc0a04dcb5837a86eb0ab5576e78987c2572eab"
+    },
+    {
+      "stem": "npc_god_battlefield_7_idle",
+      "file": "batches/batch17/exports/npc_god_battlefield_7_idle.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_7_idle.mote",
+      "sha256": "6735a81064a4a38878c5db626e0de156b5127ecf6891093a243ac1dc7b58f06a",
+      "nativeSHA256": "a99e83e527716a88fe2666601100bd0cc4a174cadabfedd32e9ee33e9a10345d"
+    },
+    {
+      "stem": "npc_god_battlefield_7_walk",
+      "file": "batches/batch17/exports/npc_god_battlefield_7_walk.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_7_walk.mote",
+      "sha256": "369a8d169438d772c68183a38ce0ba090db812762a9d25124fd95750a3ab8aa6",
+      "nativeSHA256": "41ce281c0e9fe9b40c5a7d902c6934dcb66cfdb18f1fcc27708efe8491e0c8c5"
+    },
+    {
+      "stem": "npc_god_battlefield_7_attack",
+      "file": "batches/batch17/exports/npc_god_battlefield_7_attack.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_7_attack.mote",
+      "sha256": "ed9b6e5e08b76f2e9adc4f7aeecf9474e8bc7a5acbffe6c70c7eab9b09636a04",
+      "nativeSHA256": "4334191c8e1add26cb8643046d5a3f8e6e08045a06b76e4b20da8d4d76de16d2"
+    },
+    {
+      "stem": "npc_god_battlefield_7_die",
+      "file": "batches/batch17/exports/npc_god_battlefield_7_die.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_7_die.mote",
+      "sha256": "db3d04a9ff996a263e672107fa95c6a43f293757a21da9949af1244063678fd2",
+      "nativeSHA256": "e780983bf0a42cab21e438b5962baded977297b128975d22f72cbf876b548a09"
+    },
+    {
+      "stem": "npc_god_battlefield_8_idle",
+      "file": "batches/batch17/exports/npc_god_battlefield_8_idle.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_8_idle.mote",
+      "sha256": "fb7032567af4d2efa427619e6ac8c42f2eeb5ec2f155998f1ffc66ca72584266",
+      "nativeSHA256": "da3e4686ae01bfc7d9a694973acb9bac07b07e1b014dc96477840ba634f1fcff"
+    },
+    {
+      "stem": "npc_god_battlefield_8_walk",
+      "file": "batches/batch17/exports/npc_god_battlefield_8_walk.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_8_walk.mote",
+      "sha256": "1ebe82f08eeaeec025c33158abb143a70e4f6059e06bad584e28894ba937c3fb",
+      "nativeSHA256": "cbf523c2192758cfea9f4d7bd6f6fb2facc8e1eb43dedac87e46dc0f508ef609"
+    },
+    {
+      "stem": "npc_god_battlefield_8_attack",
+      "file": "batches/batch17/exports/npc_god_battlefield_8_attack.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_8_attack.mote",
+      "sha256": "8720aba2e8c3a9d066524e51396daca94e81dbfe3eebe748f646045694a23428",
+      "nativeSHA256": "b7e91e81e4ffe8b415165dcc64fabffa5c120fd1c987c5ba38f507966a33854e"
+    },
+    {
+      "stem": "npc_god_battlefield_8_die",
+      "file": "batches/batch17/exports/npc_god_battlefield_8_die.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_8_die.mote",
+      "sha256": "26dfe8317c85b21237560037f1f4f2b93a5561093ef78a69256c2e8a3411032a",
+      "nativeSHA256": "36a375b6127fb556a5341d554f775159a1c78e3e623204892e137726b51123ed"
+    },
+    {
+      "stem": "npc_god_battlefield_9_idle",
+      "file": "batches/batch17/exports/npc_god_battlefield_9_idle.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_9_idle.mote",
+      "sha256": "26ab31363d0c2c7098c7300ff3ef6b4011557d80893ab3925e6360b23c3549bf",
+      "nativeSHA256": "11998f8641be3daa5c259b1309cdc4b7d2bd15ca152203c2de490b05353db8f0"
+    },
+    {
+      "stem": "npc_god_battlefield_9_walk",
+      "file": "batches/batch17/exports/npc_god_battlefield_9_walk.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_9_walk.mote",
+      "sha256": "8ad1837bfeec652d746cb9b4601f3599a2e752431a39e8b444e5885fe4ca1534",
+      "nativeSHA256": "f52deddf106ab33d144d88aa2cbc258fe08fa65b9f9dc792598ed169e7b42f71"
+    },
+    {
+      "stem": "npc_god_battlefield_9_attack",
+      "file": "batches/batch17/exports/npc_god_battlefield_9_attack.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_9_attack.mote",
+      "sha256": "7ba3246b4c47e817d4f94376522fe5ca02a91e34b4bf23ca514f5f366429958a",
+      "nativeSHA256": "6cfcb1efce7f48e09d9796d215257ee620742c01b850a431fe685564a98a1da2"
+    },
+    {
+      "stem": "npc_god_battlefield_9_die",
+      "file": "batches/batch17/exports/npc_god_battlefield_9_die.png",
+      "native": "batches/batch17/mote/npc_god_battlefield_9_die.mote",
+      "sha256": "b15a2d88b6c123d49d519f2fc62782347b9a324662c343b361532a12d3c145bb",
+      "nativeSHA256": "6914e9311e49b0d332aed102b353d8c4d65d3866cdde36ddd2f441f2bbc38b2f"
+    },
+    {
+      "stem": "npc_god_battlefield_10_idle",
+      "file": "batches/batch18/exports/npc_god_battlefield_10_idle.png",
+      "native": "batches/batch18/mote/npc_god_battlefield_10_idle.mote",
+      "sha256": "8ac0ff4cfd408fb9ae93bee18861f9a3c5be35a37b247ec8ca7cdf83635adfb1",
+      "nativeSHA256": "d01166daca300222d29a6e58b1568e89188d697a68907d9f6319fd1485ce62b1"
+    },
+    {
+      "stem": "npc_god_battlefield_10_walk",
+      "file": "batches/batch18/exports/npc_god_battlefield_10_walk.png",
+      "native": "batches/batch18/mote/npc_god_battlefield_10_walk.mote",
+      "sha256": "cdbf438729cf56ea576251f63303888d6f683fc29040d0b305bcb75f2480a596",
+      "nativeSHA256": "20eff69d99f5eab80fb20855ce14e50ea0713fe8f0b5c81ce5cdb26268ee514d"
+    },
+    {
+      "stem": "npc_god_battlefield_10_attack",
+      "file": "batches/batch18/exports/npc_god_battlefield_10_attack.png",
+      "native": "batches/batch18/mote/npc_god_battlefield_10_attack.mote",
+      "sha256": "7e93ccc74440c91874af67dfafe2521e76d86d5fc4fc145a124909687b9a2edd",
+      "nativeSHA256": "94e40b216833b90c714922163ceb4b21a7269a67fe60b14120a5a1eba61ce4da"
+    },
+    {
+      "stem": "npc_god_battlefield_10_die",
+      "file": "batches/batch18/exports/npc_god_battlefield_10_die.png",
+      "native": "batches/batch18/mote/npc_god_battlefield_10_die.mote",
+      "sha256": "7ff183a662c09c4a4b190088133b48f032f0e7f8589edba650a5100fb051bf01",
+      "nativeSHA256": "f20874400f0a38688663105df46694686edebfa01002c3bf7e35bdf5cfbda72d"
+    },
+    {
+      "stem": "npc_god_battlefield_11_idle",
+      "file": "batches/batch18/exports/npc_god_battlefield_11_idle.png",
+      "native": "batches/batch18/mote/npc_god_battlefield_11_idle.mote",
+      "sha256": "eb609afdda279c346ecfc67b90180ff4660a3f334efb8c825c70e8c1471d4cf7",
+      "nativeSHA256": "496562308341f79f64aee0719fc547e2b56169dc437523d8e8472bd5a833530e"
+    },
+    {
+      "stem": "npc_god_battlefield_11_walk",
+      "file": "batches/batch18/exports/npc_god_battlefield_11_walk.png",
+      "native": "batches/batch18/mote/npc_god_battlefield_11_walk.mote",
+      "sha256": "c3279e96d3ffe726ce7f0edcb4ea790a90162a29a39fb1b385135c12e32eb43f",
+      "nativeSHA256": "1909417449dbb371d7750ad168881bb7ef3b52b5fd58e7cd631eff2e8c6e5c95"
+    },
+    {
+      "stem": "npc_god_battlefield_11_attack",
+      "file": "batches/batch18/exports/npc_god_battlefield_11_attack.png",
+      "native": "batches/batch18/mote/npc_god_battlefield_11_attack.mote",
+      "sha256": "3e5a3c132c7d2db33bd009234757f4fa559468bcfce0a86c8bcd21e847278f2c",
+      "nativeSHA256": "ad0bd6a884b84a9e69b2ed63ff3568998db8e5edc0319bb797db6d22b7421fc5"
+    },
+    {
+      "stem": "npc_god_battlefield_11_die",
+      "file": "batches/batch18/exports/npc_god_battlefield_11_die.png",
+      "native": "batches/batch18/mote/npc_god_battlefield_11_die.mote",
+      "sha256": "b65b7f07bd6cac50a9b4367bbc5090b74abfaaedf64b34d22d41a08614ffa8e3",
+      "nativeSHA256": "01c65f12c19a7d230585dfbac5c9d748515250e58dfbe6ba27384a9f0beeccf0"
+    },
+    {
+      "stem": "npc_god_battlefield_12_idle",
+      "file": "batches/batch18/exports/npc_god_battlefield_12_idle.png",
+      "native": "batches/batch18/mote/npc_god_battlefield_12_idle.mote",
+      "sha256": "7a11eaf816eeea5328382a7a5d1492824e05949141b5ba9f9581e8732768cd34",
+      "nativeSHA256": "1dfe1fe6a02ea9901e9e9464d5c3191354a05dd226a8be985d85719898001b7b"
+    },
+    {
+      "stem": "npc_god_battlefield_12_walk",
+      "file": "batches/batch18/exports/npc_god_battlefield_12_walk.png",
+      "native": "batches/batch18/mote/npc_god_battlefield_12_walk.mote",
+      "sha256": "900fae153110e5ddd1f663e5b89f4b15f1feee00c1cdc6b8db97a6228d7ba1ed",
+      "nativeSHA256": "bbfff87c84a36142956ad2bbc1c2769f2a82f02791f5e01e0e8f415c46204283"
+    },
+    {
+      "stem": "npc_god_battlefield_12_attack",
+      "file": "batches/batch18/exports/npc_god_battlefield_12_attack.png",
+      "native": "batches/batch18/mote/npc_god_battlefield_12_attack.mote",
+      "sha256": "688c6074432536071b3b2879717facbd0b068e021dd1740bb57dd65cb59dc80b",
+      "nativeSHA256": "1f0f714f466f4a729cbed1364f0f058767c5895f4b83a00ad735f6ae20f61dae"
+    },
+    {
+      "stem": "npc_god_battlefield_12_die",
+      "file": "batches/batch18/exports/npc_god_battlefield_12_die.png",
+      "native": "batches/batch18/mote/npc_god_battlefield_12_die.mote",
+      "sha256": "28f974d5f1330e80bf2e373dabd77be27999416aaec2ae414b99c765cfc7f449",
+      "nativeSHA256": "181b740c4cda27b7c03f6eb983c4ee62327eee15b3b4983add94a38f1565f429"
+    },
+    {
+      "stem": "npc_god_chaos_1_idle",
+      "file": "batches/batch18/exports/npc_god_chaos_1_idle.png",
+      "native": "batches/batch18/mote/npc_god_chaos_1_idle.mote",
+      "sha256": "67b65c0227746db7b589651045abbf22ac9ecac2392c3896a607d6df059d4ff4",
+      "nativeSHA256": "b45f5434678239e6c368ea91452e47b1d3c115a5c1b982847b3df41d9fd75001"
+    },
+    {
+      "stem": "npc_god_chaos_1_walk",
+      "file": "batches/batch18/exports/npc_god_chaos_1_walk.png",
+      "native": "batches/batch18/mote/npc_god_chaos_1_walk.mote",
+      "sha256": "e73ac7e1b6d163536bb29f0a45f18545df0ce7a9970497531ddac7f3f7a14198",
+      "nativeSHA256": "285d373b6cb3d4c8b7ee8202eb4ec47fcf9a9a995144cdc09ecf2a888c8bf97d"
+    },
+    {
+      "stem": "npc_god_chaos_1_attack",
+      "file": "batches/batch18/exports/npc_god_chaos_1_attack.png",
+      "native": "batches/batch18/mote/npc_god_chaos_1_attack.mote",
+      "sha256": "d68bb151707c8b06e11d7d1e6ff2890d5c526441c7490e2ef6cd5dded65a0cad",
+      "nativeSHA256": "376f2a23a09a3490d3d88c39d772c2ab01913a241fe4214fe057d6b899ca8558"
+    },
+    {
+      "stem": "npc_god_chaos_1_die",
+      "file": "batches/batch18/exports/npc_god_chaos_1_die.png",
+      "native": "batches/batch18/mote/npc_god_chaos_1_die.mote",
+      "sha256": "27db40a162e864c5ec02216f668ca599a44861d3678cf3a1d3187718feccc508",
+      "nativeSHA256": "0f82f41d62d77f52a9e2b38c0f5fe6b06fdbcc92902534aeb8968653907c47a3"
+    },
+    {
+      "stem": "npc_god_chaos_2_idle",
+      "file": "batches/batch19/exports/npc_god_chaos_2_idle.png",
+      "native": "batches/batch19/mote/npc_god_chaos_2_idle.mote",
+      "sha256": "29a2ca85923c9f537b452c774890d7288e1efa87b871768fdcde0c8417ee0393",
+      "nativeSHA256": "0db02f1cc6f5a3ae68980cc3cb0805d49b83d55063f719c42ff06686e14ae6c8"
+    },
+    {
+      "stem": "npc_god_chaos_2_walk",
+      "file": "batches/batch19/exports/npc_god_chaos_2_walk.png",
+      "native": "batches/batch19/mote/npc_god_chaos_2_walk.mote",
+      "sha256": "ef8b98073a32fee6df1bde6d2aefa2bb7ea4cad8cd58d2bd57f5d2dc2dec4930",
+      "nativeSHA256": "7d58d48f2f82e4872c57c05fc935ad478dcfd8d2901c3eba32e9e6969b029163"
+    },
+    {
+      "stem": "npc_god_chaos_2_attack",
+      "file": "batches/batch19/exports/npc_god_chaos_2_attack.png",
+      "native": "batches/batch19/mote/npc_god_chaos_2_attack.mote",
+      "sha256": "52c31dc5e1a15d4a7ba16946db54152997587f25b07e69c0c4af32da533026e8",
+      "nativeSHA256": "81c3fdb8ca0e1da6a5d7bb0aeba246307d2094fc3110b17b3cbaddcb4504eadd"
+    },
+    {
+      "stem": "npc_god_chaos_2_die",
+      "file": "batches/batch19/exports/npc_god_chaos_2_die.png",
+      "native": "batches/batch19/mote/npc_god_chaos_2_die.mote",
+      "sha256": "acabdcf059b3c1b213a303a353054b3ffc9567b67d32068a1588e01b0bd64bd5",
+      "nativeSHA256": "ddc24923b8e576be3f27ef11d6b34f22e1308aa75eb53fd3edfd6daa8738994f"
+    },
+    {
+      "stem": "npc_god_chaos_3_idle",
+      "file": "batches/batch19/exports/npc_god_chaos_3_idle.png",
+      "native": "batches/batch19/mote/npc_god_chaos_3_idle.mote",
+      "sha256": "b26d6908956d0bf95f43cb0f8ff03d8c27158e0c74b02fc1a1dcf1c502f7241d",
+      "nativeSHA256": "5a0fad6cf78b198253d52372f794d76dbb2e6887149991c481d69b6f4cd54d90"
+    },
+    {
+      "stem": "npc_god_chaos_3_walk",
+      "file": "batches/batch19/exports/npc_god_chaos_3_walk.png",
+      "native": "batches/batch19/mote/npc_god_chaos_3_walk.mote",
+      "sha256": "50cf036b1bc9aa2514d65916769e3bda3638aaba47c451df41568483b8d64baa",
+      "nativeSHA256": "d319401c34d52b616eb2eddb4c4c68d50060dfb99f0be5111b96292d91834835"
+    },
+    {
+      "stem": "npc_god_chaos_3_attack",
+      "file": "batches/batch19/exports/npc_god_chaos_3_attack.png",
+      "native": "batches/batch19/mote/npc_god_chaos_3_attack.mote",
+      "sha256": "8adab3fc6cb4a77ac062561eafba3b79ba3dde1773c05d31d49dd6a127edfa7d",
+      "nativeSHA256": "df22cd5f69d9e12201844558f58f36f5db8fea1e8a7b88dde6b4eeb8a04ff72d"
+    },
+    {
+      "stem": "npc_god_chaos_3_die",
+      "file": "batches/batch19/exports/npc_god_chaos_3_die.png",
+      "native": "batches/batch19/mote/npc_god_chaos_3_die.mote",
+      "sha256": "8db94c7dfa4df09859a3966a181289d1c8c8aeb5528c6d5e03afbf07a91b8e3b",
+      "nativeSHA256": "b97920c01bce132355feaed1336b8520060a938d0dbcf229faedce439e68f89a"
+    },
+    {
+      "stem": "npc_god_chaos_4_idle",
+      "file": "batches/batch19/exports/npc_god_chaos_4_idle.png",
+      "native": "batches/batch19/mote/npc_god_chaos_4_idle.mote",
+      "sha256": "ec48b80d8a79210e612d3423e7b6e8de283d81db2c035501644d6dfa339e8e74",
+      "nativeSHA256": "f0452eccb9373effcb793a453029624a559c4c1d04d25f24a0425389673de752"
+    },
+    {
+      "stem": "npc_god_chaos_4_walk",
+      "file": "batches/batch19/exports/npc_god_chaos_4_walk.png",
+      "native": "batches/batch19/mote/npc_god_chaos_4_walk.mote",
+      "sha256": "f4a77f263725e98afc63df78739694d1536ce5528ee7ffdd28b1a400b4d1856c",
+      "nativeSHA256": "247d5341898b8fd9f5a0e0bf166c188ff9db8144af124eb1b0ad3b6a918e5e71"
+    },
+    {
+      "stem": "npc_god_chaos_4_attack",
+      "file": "batches/batch19/exports/npc_god_chaos_4_attack.png",
+      "native": "batches/batch19/mote/npc_god_chaos_4_attack.mote",
+      "sha256": "1cd7f81c3e1ab00761b2d38aa17c6e5d370a0a099f85cc734f2bab35e679a35d",
+      "nativeSHA256": "4daf92594b50e77907dbb52be4ac03973935a572066de1a80dc35e9ecd622544"
+    },
+    {
+      "stem": "npc_god_chaos_4_die",
+      "file": "batches/batch19/exports/npc_god_chaos_4_die.png",
+      "native": "batches/batch19/mote/npc_god_chaos_4_die.mote",
+      "sha256": "494f3571da75a7fa68743dfca756f99391eddb40cc2e8e4cce4a5234642917c2",
+      "nativeSHA256": "fc5275cb6490e68b30435b9271a4071740d892aaf198584157cf1f329f2a9903"
+    },
+    {
+      "stem": "npc_god_chaos_5_idle",
+      "file": "batches/batch19/exports/npc_god_chaos_5_idle.png",
+      "native": "batches/batch19/mote/npc_god_chaos_5_idle.mote",
+      "sha256": "d830bb411ef9e360e952cc5cdb0b031bb14409cf8115617962df6a2f8730296f",
+      "nativeSHA256": "cb73c747efb8d1d4df4a4a3e6e5b5601703b963dc840e6ede71e3e792d94290a"
+    },
+    {
+      "stem": "npc_god_chaos_5_walk",
+      "file": "batches/batch19/exports/npc_god_chaos_5_walk.png",
+      "native": "batches/batch19/mote/npc_god_chaos_5_walk.mote",
+      "sha256": "6781ee6259e5af8ce0099830c2558eb98ab53e65aa24f888d74d3f7f4b49b63a",
+      "nativeSHA256": "7381ba3532387eccb33f1122a2b8334435416147b68ef216ccfb449e9a6bfc6d"
+    },
+    {
+      "stem": "npc_god_chaos_5_attack",
+      "file": "batches/batch19/exports/npc_god_chaos_5_attack.png",
+      "native": "batches/batch19/mote/npc_god_chaos_5_attack.mote",
+      "sha256": "fc1ecb361fe0d43916c408d7fd9e42806c2a98f89029a7f2b40204d4db83c719",
+      "nativeSHA256": "a8729a77e7f518e3256ac4b77cea1f13900129ad1b0b3f3de92323322e83ec42"
+    },
+    {
+      "stem": "npc_god_chaos_5_die",
+      "file": "batches/batch19/exports/npc_god_chaos_5_die.png",
+      "native": "batches/batch19/mote/npc_god_chaos_5_die.mote",
+      "sha256": "9984c15a995a23139aabb3f266760353c60e933fb4437506dc8222977ce08034",
+      "nativeSHA256": "7f5009cb77b91dfd92e2437d2d43b3e39ac57b6c132494e7845e8244b1c8aff7"
+    },
+    {
+      "stem": "npc_god_chaos_6_idle",
+      "file": "batches/batch20/exports/npc_god_chaos_6_idle.png",
+      "native": "batches/batch20/mote/npc_god_chaos_6_idle.mote",
+      "sha256": "2e1062e5f9f11427686abae3a8d7afef112d2feee1074aba0e0ef98ab44bdceb",
+      "nativeSHA256": "3b81e7ba3b742c93c822954d3307cab52195752a8956a4a12a9b11ebea42e10e"
+    },
+    {
+      "stem": "npc_god_chaos_6_walk",
+      "file": "batches/batch20/exports/npc_god_chaos_6_walk.png",
+      "native": "batches/batch20/mote/npc_god_chaos_6_walk.mote",
+      "sha256": "b6124080f919e0a2c59f33fb20dd2b46eb3030949d8f88d5ae8b3d70c8da7f2d",
+      "nativeSHA256": "15491fd7b8e5d157edbd3ae97abc7765dabf3d5a14a80739bc625a8b6f5edde4"
+    },
+    {
+      "stem": "npc_god_chaos_6_attack",
+      "file": "batches/batch20/exports/npc_god_chaos_6_attack.png",
+      "native": "batches/batch20/mote/npc_god_chaos_6_attack.mote",
+      "sha256": "b0879d5d8ddd79e1cc7e92ee0ed1ee5b1f9001e8ada0a004803579e9f004a722",
+      "nativeSHA256": "09396bec708ba62c7cfecc4733bb01b8d9d9330f4ab09db5f21709af04c2b1f8"
+    },
+    {
+      "stem": "npc_god_chaos_6_die",
+      "file": "batches/batch20/exports/npc_god_chaos_6_die.png",
+      "native": "batches/batch20/mote/npc_god_chaos_6_die.mote",
+      "sha256": "c0f0f132005d4eed30f2f5c2174c1fd8f01abcdb1b5eceab7f5ad60a6675a95a",
+      "nativeSHA256": "39b30321c75deacf62ccd54398dc64966c59b928514537699c433711bf494a82"
+    },
+    {
+      "stem": "npc_god_chaos_7_idle",
+      "file": "batches/batch20/exports/npc_god_chaos_7_idle.png",
+      "native": "batches/batch20/mote/npc_god_chaos_7_idle.mote",
+      "sha256": "fc8755d5ff25ba0ac279abb93942c2d2a70feb62d4e8e8534df8e32c6944dc1a",
+      "nativeSHA256": "af2af2cf14645d7a3748af7f19f0502876972e03057bbf6f91e377226de29d5b"
+    },
+    {
+      "stem": "npc_god_chaos_7_walk",
+      "file": "batches/batch20/exports/npc_god_chaos_7_walk.png",
+      "native": "batches/batch20/mote/npc_god_chaos_7_walk.mote",
+      "sha256": "40f5199c641025f6aa25ea0a013db7b1d7ce2b7c33481c188b18a1cbca109bfc",
+      "nativeSHA256": "09977820e94aa83316383cd8cf30440d87fdd4f9324186d01cf6d66fd19bbc28"
+    },
+    {
+      "stem": "npc_god_chaos_7_attack",
+      "file": "batches/batch20/exports/npc_god_chaos_7_attack.png",
+      "native": "batches/batch20/mote/npc_god_chaos_7_attack.mote",
+      "sha256": "08727bec18684f6ccf6901f06efab375bdd9c7a28c105881c544365f1836ea81",
+      "nativeSHA256": "56ad77233632310607ebeb4656e514fa5359a8a025bd57a58f704f79a6856454"
+    },
+    {
+      "stem": "npc_god_chaos_7_die",
+      "file": "batches/batch20/exports/npc_god_chaos_7_die.png",
+      "native": "batches/batch20/mote/npc_god_chaos_7_die.mote",
+      "sha256": "d51b11730686acc500fd08b3af78087c699a55c9e7494ec04bea9fee67f860b9",
+      "nativeSHA256": "369019eaec992411e3568bdbc49bdf20fd0dfdf547068e51bcac136c656f1484"
+    },
+    {
+      "stem": "npc_god_chaos_8_idle",
+      "file": "batches/batch20/exports/npc_god_chaos_8_idle.png",
+      "native": "batches/batch20/mote/npc_god_chaos_8_idle.mote",
+      "sha256": "5dee57f3de16a87796e82f36cbb60849d368d5e4286b15e2e678ad34453893d9",
+      "nativeSHA256": "ff1224b7f82f5a31f62664a0fdf43216dbef0dcae2c7f8fa4c9587baf5704cd6"
+    },
+    {
+      "stem": "npc_god_chaos_8_walk",
+      "file": "batches/batch20/exports/npc_god_chaos_8_walk.png",
+      "native": "batches/batch20/mote/npc_god_chaos_8_walk.mote",
+      "sha256": "2bd48e5a0227de3ede34448a255543b9baf9150a63e2b1b021f79d4800949f0b",
+      "nativeSHA256": "588ebe96f0855404cce9b83bb477e165dd38ba53a84760da90e0b5ede1fc4aa7"
+    },
+    {
+      "stem": "npc_god_chaos_8_attack",
+      "file": "batches/batch20/exports/npc_god_chaos_8_attack.png",
+      "native": "batches/batch20/mote/npc_god_chaos_8_attack.mote",
+      "sha256": "9b8c6a52e6654a8925711594e7b2b17c788e067338f00e6055aae5bd6de121e9",
+      "nativeSHA256": "3a302d77aac858f4e8f73536e5fbea4404dbafcf34073364353ab29f7faed8c6"
+    },
+    {
+      "stem": "npc_god_chaos_8_die",
+      "file": "batches/batch20/exports/npc_god_chaos_8_die.png",
+      "native": "batches/batch20/mote/npc_god_chaos_8_die.mote",
+      "sha256": "02cbdf8e2df16ce8e8444f8429b634506775f1e843b224aded5aba8826688aca",
+      "nativeSHA256": "5fb96e252c195a7df5cf1c22597a38f5769490d00596defaaaacd502a4880bb0"
+    },
+    {
+      "stem": "npc_god_chaos_9_idle",
+      "file": "batches/batch20/exports/npc_god_chaos_9_idle.png",
+      "native": "batches/batch20/mote/npc_god_chaos_9_idle.mote",
+      "sha256": "99480ce1da1e56b1e737398afdfed2af280268a96371845b5f30f255c2165c0e",
+      "nativeSHA256": "082cd7474024d3b3184a5ce5e0992df00ba465e46102724ada85438b9895e02c"
+    },
+    {
+      "stem": "npc_god_chaos_9_walk",
+      "file": "batches/batch20/exports/npc_god_chaos_9_walk.png",
+      "native": "batches/batch20/mote/npc_god_chaos_9_walk.mote",
+      "sha256": "b049ec29310d584cd8b69a67002caf7efe1c0e84c66c5799fcea456b31268011",
+      "nativeSHA256": "0ceaab9ae153a058ecd83f633d2a11a91e7ce22b062bd6c54e20cf15ff085d9c"
+    },
+    {
+      "stem": "npc_god_chaos_9_attack",
+      "file": "batches/batch20/exports/npc_god_chaos_9_attack.png",
+      "native": "batches/batch20/mote/npc_god_chaos_9_attack.mote",
+      "sha256": "0742733d2aa598c4c1c4f4165a23ca3bfcb471837be49fa39a7a44ed76b1aae4",
+      "nativeSHA256": "b20e2826c086a711a912b188be220219a169e893e225cf122b0658c24f3cd194"
+    },
+    {
+      "stem": "npc_god_chaos_9_die",
+      "file": "batches/batch20/exports/npc_god_chaos_9_die.png",
+      "native": "batches/batch20/mote/npc_god_chaos_9_die.mote",
+      "sha256": "5e190beb564233745bded273e76b0f6f6da5ac68e2b9aab1768ab083099d8a45",
+      "nativeSHA256": "89bb23b322b6c1ff9aca699faca6372e5b7dfd0d80e307696636143e162025b0"
+    },
+    {
+      "stem": "npc_god_chaos_10_idle",
+      "file": "batches/batch21/exports/npc_god_chaos_10_idle.png",
+      "native": "batches/batch21/mote/npc_god_chaos_10_idle.mote",
+      "sha256": "78ec9dc7d18ede63d23fa2e1748d628f5a83369fd20d6f632a94418196982632",
+      "nativeSHA256": "732c43b603b0de3b4b022f870c7e0f5783faf7b3d2d449d6f9167ae35e381626"
+    },
+    {
+      "stem": "npc_god_chaos_10_walk",
+      "file": "batches/batch21/exports/npc_god_chaos_10_walk.png",
+      "native": "batches/batch21/mote/npc_god_chaos_10_walk.mote",
+      "sha256": "025f0b9d94aa6f4f7709526b343af14d4d5ae06a7c1a37ca44f8ce3c73fa27c2",
+      "nativeSHA256": "141a71ddc69f2de05c23cd7f0a161b54fd283b41951744a9a9c8da914504acc3"
+    },
+    {
+      "stem": "npc_god_chaos_10_attack",
+      "file": "batches/batch21/exports/npc_god_chaos_10_attack.png",
+      "native": "batches/batch21/mote/npc_god_chaos_10_attack.mote",
+      "sha256": "42413e3faccd980747a58a8a5d64d66648972c303e5432244284b7f648d151eb",
+      "nativeSHA256": "2e26510f52a5b0d8b008a6254c94f1a9313db1a58511aafcef5a64f7aa4df782"
+    },
+    {
+      "stem": "npc_god_chaos_10_die",
+      "file": "batches/batch21/exports/npc_god_chaos_10_die.png",
+      "native": "batches/batch21/mote/npc_god_chaos_10_die.mote",
+      "sha256": "af726327c1ee01e78cff9b2e07bba4840f9d4d009416082e49f03400c55285aa",
+      "nativeSHA256": "4db22113ca20311c081ba64759d21c5820785eec50802e36f78ead4f499d4ffb"
+    },
+    {
+      "stem": "npc_god_chaos_11_idle",
+      "file": "batches/batch21/exports/npc_god_chaos_11_idle.png",
+      "native": "batches/batch21/mote/npc_god_chaos_11_idle.mote",
+      "sha256": "54904b7973617f48ee06a03de9bd4d7ae58abd1e3f38975d2de4657e5276bae6",
+      "nativeSHA256": "25f4fb7904a797b61302a968758d6464a239c72374517ab90f17165918532cda"
+    },
+    {
+      "stem": "npc_god_chaos_11_walk",
+      "file": "batches/batch21/exports/npc_god_chaos_11_walk.png",
+      "native": "batches/batch21/mote/npc_god_chaos_11_walk.mote",
+      "sha256": "b0f34b8f1b4eb4e867e7643041dc9185e4f1707534793d0112999de6c33b7e9c",
+      "nativeSHA256": "a296033ad247d74b61a07b9d3dc7491406f5f48150fec4a8a18e2b3381f2a840"
+    },
+    {
+      "stem": "npc_god_chaos_11_attack",
+      "file": "batches/batch21/exports/npc_god_chaos_11_attack.png",
+      "native": "batches/batch21/mote/npc_god_chaos_11_attack.mote",
+      "sha256": "83992f2d7d2e30d65b2f7c8144c503f23d6cf1cb76675e32bdd0bef621aa4fae",
+      "nativeSHA256": "a85f07cec3e4c42cee1ba4e9506f78f93e6a29a08585fe00d42ab25520b80249"
+    },
+    {
+      "stem": "npc_god_chaos_11_die",
+      "file": "batches/batch21/exports/npc_god_chaos_11_die.png",
+      "native": "batches/batch21/mote/npc_god_chaos_11_die.mote",
+      "sha256": "d438a45c03448441447ea7bf18301236b5a5f67182585cbe6d4971c93e2e17d0",
+      "nativeSHA256": "d0597865582887d4fbc4d4dcf24df080e466b6134c0aacd937665f4554fc7a26"
+    },
+    {
+      "stem": "npc_god_chaos_12_idle",
+      "file": "batches/batch21/exports/npc_god_chaos_12_idle.png",
+      "native": "batches/batch21/mote/npc_god_chaos_12_idle.mote",
+      "sha256": "f3775f22f7e3bb50454a104115dd73839b7013a1c9d2eb1bbd0cc3a75923fd55",
+      "nativeSHA256": "a33f39225be7b574cf129de53092c2a2c0f3221f192dfe1f48daf8e929fcd800"
+    },
+    {
+      "stem": "npc_god_chaos_12_walk",
+      "file": "batches/batch21/exports/npc_god_chaos_12_walk.png",
+      "native": "batches/batch21/mote/npc_god_chaos_12_walk.mote",
+      "sha256": "73179061d37d6f9b229302cfeb7db499ed57f89b11b5e791a0055221ebea9c1d",
+      "nativeSHA256": "ef25d99037b875e739c330539bdaebf5e851319fe3b22d83954934344477362b"
+    },
+    {
+      "stem": "npc_god_chaos_12_attack",
+      "file": "batches/batch21/exports/npc_god_chaos_12_attack.png",
+      "native": "batches/batch21/mote/npc_god_chaos_12_attack.mote",
+      "sha256": "b9b13ccc790f35f9d98b4ace6aedf628d0e455348a504130957b2fb25b1926a1",
+      "nativeSHA256": "c7cd5a33c520023651e4aa5fa5135c16f45892c15942f337953fc7e522e8b6e7"
+    },
+    {
+      "stem": "npc_god_chaos_12_die",
+      "file": "batches/batch21/exports/npc_god_chaos_12_die.png",
+      "native": "batches/batch21/mote/npc_god_chaos_12_die.mote",
+      "sha256": "82e90f736234c306f300a2a31dd22aa5c2e79ec1413d336f6ee201a312a1758b",
+      "nativeSHA256": "383869be1dc47e1b5021a95f528a5d40bd9c8485705ba9a33a0765b77bce33c5"
+    },
+    {
+      "stem": "npc_god_sanctuary_1_idle",
+      "file": "batches/batch21/exports/npc_god_sanctuary_1_idle.png",
+      "native": "batches/batch21/mote/npc_god_sanctuary_1_idle.mote",
+      "sha256": "25d09de2033c5d4fe0a01c8a71380731f82f5d65e1a7b55ee9571a18f28d7e82",
+      "nativeSHA256": "e14c9e18fd1515aa8c43328f136d6a7c93748e8dc624210301004dd8d40d995b"
+    },
+    {
+      "stem": "npc_god_sanctuary_1_walk",
+      "file": "batches/batch21/exports/npc_god_sanctuary_1_walk.png",
+      "native": "batches/batch21/mote/npc_god_sanctuary_1_walk.mote",
+      "sha256": "9f73fd35007a6b925c0ee49de451e0fbfcb914b96f4e04da2506152599f50b20",
+      "nativeSHA256": "372588be649df36f5b795759b79e323c32f6613ae30cf52c84dc8cf59d376ca4"
+    },
+    {
+      "stem": "npc_god_sanctuary_1_attack",
+      "file": "batches/batch21/exports/npc_god_sanctuary_1_attack.png",
+      "native": "batches/batch21/mote/npc_god_sanctuary_1_attack.mote",
+      "sha256": "d40e1cb09304ec565c90a3944af4371b60c3b4f2be9ebb84f53c66785bdda650",
+      "nativeSHA256": "a886c2bcfadcabf534b0e3d2549f903ea63a0b6b303249dcd378bb9da2850057"
+    },
+    {
+      "stem": "npc_god_sanctuary_1_die",
+      "file": "batches/batch21/exports/npc_god_sanctuary_1_die.png",
+      "native": "batches/batch21/mote/npc_god_sanctuary_1_die.mote",
+      "sha256": "f6d78847dbc201195634d71f6ec990d4984ef723b6a814f1ecaf967e87df4887",
+      "nativeSHA256": "26246524f292a590093e578b82ed5bb3f1b797267bd7fa2dc5af5e9e16fbe4bc"
+    },
+    {
+      "stem": "npc_god_sanctuary_2_idle",
+      "file": "batches/batch22/exports/npc_god_sanctuary_2_idle.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_2_idle.mote",
+      "sha256": "71a5dd4f02e32b9a1b0a89108d5d3ad0cd92662a78be5471022a31bf2ef0e957",
+      "nativeSHA256": "6e44e277a50967ee9f5be0dd968a52abda699e674078dfef88470b0dd68a8990"
+    },
+    {
+      "stem": "npc_god_sanctuary_2_walk",
+      "file": "batches/batch22/exports/npc_god_sanctuary_2_walk.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_2_walk.mote",
+      "sha256": "681343edda0c5ae999ef374a00cc009466fe0bff6c5f29e0a6fa7a45341a96c2",
+      "nativeSHA256": "da652170deecb0ce70fec9adcfd874904078135f438192a6d14dcaab8e9a3b62"
+    },
+    {
+      "stem": "npc_god_sanctuary_2_attack",
+      "file": "batches/batch22/exports/npc_god_sanctuary_2_attack.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_2_attack.mote",
+      "sha256": "bef9590cfdb09c82d1fc71d7aae900c83060339483bce15b80d5f0abfb0aaad2",
+      "nativeSHA256": "275ad78a82133cd626dce1fcd7ebc762a1b04d413dcd8a1545cfe0f40dd33a9f"
+    },
+    {
+      "stem": "npc_god_sanctuary_2_die",
+      "file": "batches/batch22/exports/npc_god_sanctuary_2_die.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_2_die.mote",
+      "sha256": "4d22e25411594cb16f4341d49276709974048c2fbff2cc8460661860670dd287",
+      "nativeSHA256": "3a4e9a4890ca2b88a6d94e52c7a37307273064838f527d08245afbdd2bae53ab"
+    },
+    {
+      "stem": "npc_god_sanctuary_3_idle",
+      "file": "batches/batch22/exports/npc_god_sanctuary_3_idle.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_3_idle.mote",
+      "sha256": "f8ff7b5b7eda125893e6d76fc54d686f3cc5f2fae3b8cbda0122be541a5e8ab9",
+      "nativeSHA256": "0273c9b519a543bfe9850b2d4704a917cfcb612cf481a1bf7427aed760158a65"
+    },
+    {
+      "stem": "npc_god_sanctuary_3_walk",
+      "file": "batches/batch22/exports/npc_god_sanctuary_3_walk.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_3_walk.mote",
+      "sha256": "652ec900e40a6cb0f5fa76e2bd25cf3cb32e506a5042da30df30b49d2e5b1c08",
+      "nativeSHA256": "018eae86e6adb04979cf1a55afcd4404971eea293b1373c8107f9d6ea4d1aff2"
+    },
+    {
+      "stem": "npc_god_sanctuary_3_attack",
+      "file": "batches/batch22/exports/npc_god_sanctuary_3_attack.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_3_attack.mote",
+      "sha256": "e56f331464efab0902276be77472162916fdbfca506723fb9521a068ea51701f",
+      "nativeSHA256": "22edfc074a2524abe7a1810a7607d9608ab4168e2dfd494f20a7e0a33055d529"
+    },
+    {
+      "stem": "npc_god_sanctuary_3_die",
+      "file": "batches/batch22/exports/npc_god_sanctuary_3_die.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_3_die.mote",
+      "sha256": "288bc25b3e8f8f64869af9530cd88fb8af9913169e6348e2d7140fe55e19241f",
+      "nativeSHA256": "87fa52937da21ab17fd5c4bc9e6d2246533f594f9be3093fa41a0da0a34b77f9"
+    },
+    {
+      "stem": "npc_god_sanctuary_4_idle",
+      "file": "batches/batch22/exports/npc_god_sanctuary_4_idle.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_4_idle.mote",
+      "sha256": "54242e081908b2479a7de38c3850ee85ff22db4b9624a639d3d7b25268d8206c",
+      "nativeSHA256": "682000fc3d469c764f1531201e71e30ea9eda4895395284d5f2e4d441fb9b5b4"
+    },
+    {
+      "stem": "npc_god_sanctuary_4_walk",
+      "file": "batches/batch22/exports/npc_god_sanctuary_4_walk.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_4_walk.mote",
+      "sha256": "01cbb0de5ab131b7ecb0bc2be46d3d47dcce4827d7ba405bafc0874112859a54",
+      "nativeSHA256": "4e2677db5607b2bd60281dc4196af71b693361fc32e4fdd16d1f4737b2184273"
+    },
+    {
+      "stem": "npc_god_sanctuary_4_attack",
+      "file": "batches/batch22/exports/npc_god_sanctuary_4_attack.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_4_attack.mote",
+      "sha256": "fc8fed16f876b24283be299d73c9370133ed45e2655fa7b7b1cc63c7f72c034d",
+      "nativeSHA256": "379ee0e85b848ce212f17f08a3665115917c4419dab145952323764f859c121d"
+    },
+    {
+      "stem": "npc_god_sanctuary_4_die",
+      "file": "batches/batch22/exports/npc_god_sanctuary_4_die.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_4_die.mote",
+      "sha256": "4f3c674aede169457da4e476c627e43d0d150102712b3bb99858873b794d88cc",
+      "nativeSHA256": "88271ccc3944fd61163366b29dca7c60f637dce6e68831a8f99841cfab59672e"
+    },
+    {
+      "stem": "npc_god_sanctuary_5_idle",
+      "file": "batches/batch22/exports/npc_god_sanctuary_5_idle.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_5_idle.mote",
+      "sha256": "3d80f57b9dec0d088956d950fd92787e8e6381912489bd4e21a9c5507868c37e",
+      "nativeSHA256": "0b1cb6c15d3d4682211a929952db03a5c2023bbfdfe902256cbf42e1c4bd934c"
+    },
+    {
+      "stem": "npc_god_sanctuary_5_walk",
+      "file": "batches/batch22/exports/npc_god_sanctuary_5_walk.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_5_walk.mote",
+      "sha256": "b2b9f54f925912227c7437662f83f46fa75dba19d1ecbe25a9da7632715d793f",
+      "nativeSHA256": "30e1ea3e36268b4eb7b6078519cdd304ef0f48326ae1bcb79ed114cacfe308bd"
+    },
+    {
+      "stem": "npc_god_sanctuary_5_attack",
+      "file": "batches/batch22/exports/npc_god_sanctuary_5_attack.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_5_attack.mote",
+      "sha256": "155079d20184fc92d2aa09d40543e686d74dedd25f7385b05f118fd3168e25bd",
+      "nativeSHA256": "98f913478c7eada582d24dc9acb1fb59a60b5b805bf252c2e20b200947394a97"
+    },
+    {
+      "stem": "npc_god_sanctuary_5_die",
+      "file": "batches/batch22/exports/npc_god_sanctuary_5_die.png",
+      "native": "batches/batch22/mote/npc_god_sanctuary_5_die.mote",
+      "sha256": "f049e99bd2431f83fa37734798e1be156cb66fb1b01cfb8bafc0a20db14c864d",
+      "nativeSHA256": "bb4b8a9bf2b4e9dc299601424a72f92aa8912032418751f921e7799b4c6150d2"
+    },
+    {
+      "stem": "npc_god_sanctuary_6_idle",
+      "file": "batches/batch23/exports/npc_god_sanctuary_6_idle.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_6_idle.mote",
+      "sha256": "c4eaadf6c16c729fc0b0f7db9fb08141a521f5474347afd982165c788d1878bf",
+      "nativeSHA256": "12b72a83b245aa78e90ca8df854e2286d29428cc63c696998a946fed984f8ce1"
+    },
+    {
+      "stem": "npc_god_sanctuary_6_walk",
+      "file": "batches/batch23/exports/npc_god_sanctuary_6_walk.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_6_walk.mote",
+      "sha256": "4ea1409a6d9cdb99c0f1ed66a51e5b7d109ac90a4fd2348716b4d6c7f51102a0",
+      "nativeSHA256": "5ec0f33a16bee3a96b2cdd6f30c20797e5dd00174cfc8f2135535acb992e20e7"
+    },
+    {
+      "stem": "npc_god_sanctuary_6_attack",
+      "file": "batches/batch23/exports/npc_god_sanctuary_6_attack.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_6_attack.mote",
+      "sha256": "f746224a71bb8d2822b052a885a5b207d4e96374eb4021d694e748fa4aae548f",
+      "nativeSHA256": "eb6ac707476a855f9476fbf8bb81e641ca3f65a464dd0c2b86d5e665ee4cf457"
+    },
+    {
+      "stem": "npc_god_sanctuary_6_die",
+      "file": "batches/batch23/exports/npc_god_sanctuary_6_die.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_6_die.mote",
+      "sha256": "e40b22a7b261dbc399a216ae940ea84067038ed7f94dc7fd9dab2c92a81998db",
+      "nativeSHA256": "42ef8002de3a8b0717e33def4b3dd329743fbab3bab9f7e5e675a6a85ead3b35"
+    },
+    {
+      "stem": "npc_god_sanctuary_7_idle",
+      "file": "batches/batch23/exports/npc_god_sanctuary_7_idle.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_7_idle.mote",
+      "sha256": "9eebfc805b1cb13a1445eab8d3a9596531b141511ef8c88ca134a59e09faa208",
+      "nativeSHA256": "cf934e2d0059a165c1ca5c5999e41de7469a6a4d84cb494bdba5d0c3942b04b1"
+    },
+    {
+      "stem": "npc_god_sanctuary_7_walk",
+      "file": "batches/batch23/exports/npc_god_sanctuary_7_walk.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_7_walk.mote",
+      "sha256": "b95e0e0c91f57c51108f14cc2ef13c6de3a25b75a9498ceac912241821eaf19d",
+      "nativeSHA256": "329ebe5bae067b6d084eebeb7b2beb6bd410c1f6ae7f1a63436aeb66299cb6a4"
+    },
+    {
+      "stem": "npc_god_sanctuary_7_attack",
+      "file": "batches/batch23/exports/npc_god_sanctuary_7_attack.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_7_attack.mote",
+      "sha256": "a3fd869d6a585cb99898f5e4e6aa82775cfdb0be5e6ed9ad4add4af46ff09260",
+      "nativeSHA256": "b3af60759fafae2940ad9216403d38190db992f0f14b2d3c433695a7d55ddbb7"
+    },
+    {
+      "stem": "npc_god_sanctuary_7_die",
+      "file": "batches/batch23/exports/npc_god_sanctuary_7_die.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_7_die.mote",
+      "sha256": "911d7b2951c4f76d3ae0344c49793011edfebd47ec12ac67f6263ff4d559ebf2",
+      "nativeSHA256": "215854c7680f902d251474c85748ce2cd82eba3a938381faadc5eede1c9e87ec"
+    },
+    {
+      "stem": "npc_god_sanctuary_8_idle",
+      "file": "batches/batch23/exports/npc_god_sanctuary_8_idle.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_8_idle.mote",
+      "sha256": "cd3a793fc1a1efb05c9f36188195357f53c415966df11ea01aa91ecd49c6bd35",
+      "nativeSHA256": "6a534d7f668a2d39be4a154b43400a709ad20a12838e1dbbf57ec698a34511c5"
+    },
+    {
+      "stem": "npc_god_sanctuary_8_walk",
+      "file": "batches/batch23/exports/npc_god_sanctuary_8_walk.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_8_walk.mote",
+      "sha256": "8777aa1994aac8ca49c2cba4b5095312151e55479d5d7611ae06970a47ec5fba",
+      "nativeSHA256": "432114e562e6433124392de1798c542a6d8a8c98f508e28abab601ccc2a937e1"
+    },
+    {
+      "stem": "npc_god_sanctuary_8_attack",
+      "file": "batches/batch23/exports/npc_god_sanctuary_8_attack.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_8_attack.mote",
+      "sha256": "1244245cbfc3929c99a7a10f02d9185a078ebd62df1533527e674c7f5d33702f",
+      "nativeSHA256": "efbbf7f2965ba84768a3057a845539f91419c893d6271a8302a12ad765f2175e"
+    },
+    {
+      "stem": "npc_god_sanctuary_8_die",
+      "file": "batches/batch23/exports/npc_god_sanctuary_8_die.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_8_die.mote",
+      "sha256": "9b38f2c0111289d86e668c326b28d28d5d9a1344e6c1b2f3b5b29da31522c4e0",
+      "nativeSHA256": "de356e4e178e20b0c65318b541b78550e663b09357df09425d8524ffb11fe0bd"
+    },
+    {
+      "stem": "npc_god_sanctuary_9_idle",
+      "file": "batches/batch23/exports/npc_god_sanctuary_9_idle.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_9_idle.mote",
+      "sha256": "aec6cb79caa66ae39b80cbe90ccb999d3ace3e7926c4af90fad30dcd0c7a6b9c",
+      "nativeSHA256": "2137b5c10f07fe5948eea97e038b1e09ffc102026b7c16ca55235146c14c1cdd"
+    },
+    {
+      "stem": "npc_god_sanctuary_9_walk",
+      "file": "batches/batch23/exports/npc_god_sanctuary_9_walk.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_9_walk.mote",
+      "sha256": "9ad958af226b1f204152c11b4c7b86bc796e96765a128f32f4d6821e5488728d",
+      "nativeSHA256": "ed919fff463ddd02b967de4582babe55b7c080cdd03047846811ed08f1534b00"
+    },
+    {
+      "stem": "npc_god_sanctuary_9_attack",
+      "file": "batches/batch23/exports/npc_god_sanctuary_9_attack.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_9_attack.mote",
+      "sha256": "fb6e0efe81a4efe166c841800b3438f67c1f7294e8a96d68302b0da84e855b2d",
+      "nativeSHA256": "236a533e1cea696be564baf0eb676efd9ba27c7f414f1ef1456b6bf7e2c9e99d"
+    },
+    {
+      "stem": "npc_god_sanctuary_9_die",
+      "file": "batches/batch23/exports/npc_god_sanctuary_9_die.png",
+      "native": "batches/batch23/mote/npc_god_sanctuary_9_die.mote",
+      "sha256": "eff1f7d38db6f2711c45ba7e38ca3ddfc0a82a43de80a10b45ca33ad0abb3431",
+      "nativeSHA256": "0e0e39d0ee790daf6171c3981b91fdf2a068357468377e23080f27640c3318a1"
+    },
+    {
+      "stem": "npc_god_sanctuary_10_idle",
+      "file": "batches/batch24/exports/npc_god_sanctuary_10_idle.png",
+      "native": "batches/batch24/mote/npc_god_sanctuary_10_idle.mote",
+      "sha256": "4b8ea877b911eec569d095c0ca4c5cbb3a6288e36684797276bb8627f41fdcb1",
+      "nativeSHA256": "0b823015ae6196e0404d29de6c56d788e5a55eddb920b033d373c1b524fbf467"
+    },
+    {
+      "stem": "npc_god_sanctuary_10_walk",
+      "file": "batches/batch24/exports/npc_god_sanctuary_10_walk.png",
+      "native": "batches/batch24/mote/npc_god_sanctuary_10_walk.mote",
+      "sha256": "9b3b891ce71c4115eb3c6b6391afa94ce9559e939e75b4886e5a42431b6083d6",
+      "nativeSHA256": "fbf3078294eccb18c8cf6c37fc7982752a60bb4d255dee960785dc202602d254"
+    },
+    {
+      "stem": "npc_god_sanctuary_10_attack",
+      "file": "batches/batch24/exports/npc_god_sanctuary_10_attack.png",
+      "native": "batches/batch24/mote/npc_god_sanctuary_10_attack.mote",
+      "sha256": "b8ed7c11fcd67a597c3121c64dc20c733d344fba63bcd6c88642351fa613eaba",
+      "nativeSHA256": "1d0c42e7cfeb9980f2be997a2101c6a19c24b700d0cda6c912884fd4724b670b"
+    },
+    {
+      "stem": "npc_god_sanctuary_10_die",
+      "file": "batches/batch24/exports/npc_god_sanctuary_10_die.png",
+      "native": "batches/batch24/mote/npc_god_sanctuary_10_die.mote",
+      "sha256": "bd7682197a8ee870d730a70e37dde5a97c1032e98c1e43df0b60ea335ce586c2",
+      "nativeSHA256": "22d9feae65247b6e8883ba5bcfded3d8de50cb4f85f729e4414b5a732435453f"
+    },
+    {
+      "stem": "npc_god_sanctuary_11_idle",
+      "file": "batches/batch24/exports/npc_god_sanctuary_11_idle.png",
+      "native": "batches/batch24/mote/npc_god_sanctuary_11_idle.mote",
+      "sha256": "53a036b8c113cdd554f2a161783d631b11e9fcab5f62f926fa71631bdf455c10",
+      "nativeSHA256": "ba71c0d24a62f875a231697032903a001671710298ba231182e8e1749397bcfb"
+    },
+    {
+      "stem": "npc_god_sanctuary_11_walk",
+      "file": "batches/batch24/exports/npc_god_sanctuary_11_walk.png",
+      "native": "batches/batch24/mote/npc_god_sanctuary_11_walk.mote",
+      "sha256": "70447e5df6729e2186e33c0ef71e3bb417e0eb9cf22a041b2ef493bb751eba28",
+      "nativeSHA256": "518696fcdbd35222d661aebbbbf9cb7bef5d582d50da7431eca8e9248b90ced9"
+    },
+    {
+      "stem": "npc_god_sanctuary_11_attack",
+      "file": "batches/batch24/exports/npc_god_sanctuary_11_attack.png",
+      "native": "batches/batch24/mote/npc_god_sanctuary_11_attack.mote",
+      "sha256": "2ddd332eb6d8fd46201dbb9404454954909e84d94ba4d963a49153c525b97836",
+      "nativeSHA256": "a3f8ce054152c2fed76d58424e1833f96b8a7ebe13e14ccd1cc9fafbcd51681c"
+    },
+    {
+      "stem": "npc_god_sanctuary_11_die",
+      "file": "batches/batch24/exports/npc_god_sanctuary_11_die.png",
+      "native": "batches/batch24/mote/npc_god_sanctuary_11_die.mote",
+      "sha256": "6ab8ecced575cca84c811ed653997f9bdc40e879b7960695c82d2ec80c3d4a18",
+      "nativeSHA256": "36eedb9c37f39ba8baecc97734caf021e0438a4c9df8cd339c8a1e1786844e93"
+    },
+    {
+      "stem": "npc_god_sanctuary_12_idle",
+      "file": "batches/batch24/exports/npc_god_sanctuary_12_idle.png",
+      "native": "batches/batch24/mote/npc_god_sanctuary_12_idle.mote",
+      "sha256": "76f0a655e8962c9018281a767d60dc1db3f206f2b72601fa717996d553d3e9e4",
+      "nativeSHA256": "0bc7af9661b1c43f8f05a3df9a8ef4ea014150daac2754ca4a844a15f5b7fe98"
+    },
+    {
+      "stem": "npc_god_sanctuary_12_walk",
+      "file": "batches/batch24/exports/npc_god_sanctuary_12_walk.png",
+      "native": "batches/batch24/mote/npc_god_sanctuary_12_walk.mote",
+      "sha256": "9c2e03b69226198f5bcc18826a0708dbe1aa1c61a2b5e17d952906946fb9ef52",
+      "nativeSHA256": "3e915a09c574b4fbba538eabba7814f2b1558cd5456e1659eba3380bc5d22fd4"
+    },
+    {
+      "stem": "npc_god_sanctuary_12_attack",
+      "file": "batches/batch24/exports/npc_god_sanctuary_12_attack.png",
+      "native": "batches/batch24/mote/npc_god_sanctuary_12_attack.mote",
+      "sha256": "f075d5983a5ccca46854c1104b65ff7c3697e523b10eba168eee5de4d4bd88be",
+      "nativeSHA256": "d9dcceee6e1f4f6d6e632d159b353b5d0aaf60c20a2316facdfc9a57ba66ed61"
+    },
+    {
+      "stem": "npc_god_sanctuary_12_die",
+      "file": "batches/batch24/exports/npc_god_sanctuary_12_die.png",
+      "native": "batches/batch24/mote/npc_god_sanctuary_12_die.mote",
+      "sha256": "a1ad9445dd18a5d3cde2b409db87af7451d5633dfec54cc13aba0481645da208",
+      "nativeSHA256": "ff11dac1cf4da0462d329b0896bea4bf0f6f438caa771adaa8fd257d95a872c8"
+    }
+  ]
+}

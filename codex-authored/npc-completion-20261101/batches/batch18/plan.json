@@ -1,0 +1,51 @@
+[
+  {
+    "id": "god_battlefield_10",
+    "name": "太古龍魂",
+    "key": "npc_god_battlefield_10",
+    "batch": 18,
+    "nativeHeight": 70,
+    "height": 52,
+    "color": "龍魂青／古銅",
+    "type": "flyer",
+    "subject": "An ANCIENT DRAGON SOUL, complete compact translucent jade-grey dragon with four clawed legs, full spectral wings and a curled long tail, bronze horns and ivory chest plates; restrained connected wisps.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_battlefield_11",
+    "name": "戰爭主宰",
+    "key": "npc_god_battlefield_11",
+    "batch": 18,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "銅金／戰紅",
+    "type": "walker",
+    "subject": "A WAR DOMINATOR, complete imposing bronze and charcoal armored ancient warrior with a narrow closed helmet, dark crimson capelet, two complete legs, two hands gripping one short trident; all three prongs visible.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_battlefield_12",
+    "name": "殞星巨獸",
+    "key": "npc_god_battlefield_12",
+    "batch": 18,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "隕黑／熔橙",
+    "type": "quadruped",
+    "subject": "A FALLEN-STAR BEHEMOTH, complete heavy four-legged horned beast with charcoal rocky hide, a full short stone tail, dull orange meteor seams and slate violet shoulder crystals.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_chaos_1",
+    "name": "混沌幼獸",
+    "key": "npc_god_chaos_1",
+    "batch": 18,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "混沌藍／暗桃",
+    "type": "quadruped",
+    "subject": "A CHAOS CUB, complete small but feral four-legged alien beast with mottled indigo fur, a long inward-curled tail, two little bone horns, dark face and restrained dusty magenta markings; no cute puppy eyes.",
+    "readyStartFallback": true
+  }
+]

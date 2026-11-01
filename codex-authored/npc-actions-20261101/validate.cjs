@@ -6,6 +6,7 @@ const manifest=JSON.parse(fs.readFileSync(path.join(__dirname,'manifest.json')))
 const report={characters:Object.keys(plan.chars).length,actions:{},stems:{}};
 for(const [name,hash]of Object.entries(JSON.parse(fs.readFileSync(path.join(__dirname,'sources-sha256.json')))))assert.equal(sha(fs.readFileSync(path.join(__dirname,'sources',name))),hash,name+' source changed');
 for(const [stem,meta]of Object.entries(manifest.stems)){
+ const repainted=stem==='old_demon_walk'||stem==='tree_damned_walk';
  const im=read(path.join(__dirname,'exports',stem+'.png')),d=plan.chars[meta.char],w=d.meta.cellW,h=d.meta.cellH;
  const src=read(path.join(__dirname,'sources',d.idle+'.png')),palette=new Set();
  for(let p=0;p<src.data.length;p+=4)if(src.data[p+3])palette.add(src.data.subarray(p,p+4).toString('hex'));
@@ -22,11 +23,12 @@ for(const [stem,meta]of Object.entries(manifest.stems)){
   }
   assert.ok(visible>0&&visible<w*h,stem+' alpha');frames.push(pixels);
  }
+ if(repainted){const colors=new Set();for(let at=0;at<im.data.length;at+=4)if(im.data[at+3])colors.add(im.data.subarray(at,at+4).toString('hex'));assert.ok(colors.size<=48,stem+' limited painted palette');assert.equal(meta.frames,8);}
  const unique=new Set(frames.map(sha));assert.ok(unique.size>=3,stem+' must animate');
  const action=stem.slice(meta.char.length+1);if(action==='attack')assert.ok(frames[0].equals(frames.at(-1)),stem+' return pose');
  assert.equal(meta.loop,action==='walk');assert.equal(meta.hold,action==='die');
  assert.equal(sha(fs.readFileSync(path.join(game,'images/sprites/npc',stem+'.png'))),sha(fs.readFileSync(path.join(__dirname,'exports',stem+'.png'))));
- report.actions[action]=(report.actions[action]||0)+1;report.stems[stem]={frames:meta.frames,unique:unique.size,nativePixels:true,palettePreserved:true,transparent:true};
+ report.actions[action]=(report.actions[action]||0)+1;report.stems[stem]={frames:meta.frames,unique:unique.size,nativePixels:true,palettePreserved:true,paintedWalk:repainted,transparent:true};
 }
 for(const [name,hash]of Object.entries(JSON.parse(fs.readFileSync(path.join(__dirname,'original-game-png-sha256.json')))))assert.equal(sha(fs.readFileSync(path.join(game,'images/sprites/npc',name))),hash,name+' original changed');
 if(process.argv[3]){const a=read(process.argv[3]),b=read(path.join(__dirname,'exports/memento_skeleton_attack.png'));assert.equal(a.width,b.width);assert.equal(a.height,b.height);assert.ok(a.data.equals(b.data),'Mote roundtrip pixels');report.moteRoundtrip=true;}

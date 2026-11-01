@@ -1,0 +1,52 @@
+[
+  {
+    "id": "god_chaos_10",
+    "name": "星雲魔獸",
+    "key": "npc_god_chaos_10",
+    "batch": 21,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "星雲藍／灰桃",
+    "type": "quadruped",
+    "subject": "A NEBULA BEAST, complete four-legged pantherlike alien with dark desaturated navy fur, a full thick curled tail, short ivory dorsal fins, muted mauve flank spots and pale amber eyes.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_chaos_11",
+    "name": "創世餘燼",
+    "key": "npc_god_chaos_11",
+    "batch": 21,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "餘燼金／暗紫",
+    "type": "hover",
+    "subject": "An EMBER OF CREATION, complete connected small phoenix-like ember spirit with a charcoal core, ochre-orange featherlike flame arms, muted violet inner embers and a tapering connected lower flame plume.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_chaos_12",
+    "name": "混沌大天尊",
+    "key": "npc_god_chaos_12",
+    "batch": 21,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "混沌紫／古銅",
+    "type": "walker",
+    "subject": "A GRAND CHAOS LORD, complete ancient masked humanoid with slate-violet and aged bronze armor, two short swept horns, burgundy cloth panels, two complete legs, holding one compact hooked crescent staff with both hands.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_sanctuary_1",
+    "name": "巡天聖光",
+    "key": "npc_god_sanctuary_1",
+    "batch": 21,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "聖白／暖金",
+    "type": "hover",
+    "subject": "A PATROLLING HOLY LIGHT entity, complete connected small winged lantern-like spirit: ivory faceted core with a stern tiny dark face, two full short pale gold feather wings, muted blue lower ribbon, tarnished bronze frame.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  }
+]

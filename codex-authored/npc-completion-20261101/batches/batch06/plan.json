@@ -1,0 +1,53 @@
+[
+  {
+    "id": "Icefield_9",
+    "name": "寒冰魔像",
+    "key": "npc_icefield_9",
+    "batch": 6,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "霜白／寶石藍",
+    "type": "walker",
+    "subject": "An ICE GOLEM, full squat body of rough opaque pale turquoise glacier slabs, frost-white bevels, two heavy arms and two jointed legs, a small deep sapphire core; jagged ice shoulder plates.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "Icefield_10",
+    "name": "冰晶元素",
+    "key": "npc_icefield_10",
+    "batch": 6,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "冰藍／紫晶",
+    "type": "hover",
+    "subject": "An ICE CRYSTAL ELEMENTAL, a large readable faceted azure central crystal body connected to smaller ice-spike arms by short solid frost bridges, several connected lower crystal roots, pale violet facets.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "Icefield_11",
+    "name": "骷髏弓箭手",
+    "key": "npc_icefield_11",
+    "batch": 6,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "骨白／靛藍",
+    "type": "archer",
+    "subject": "A full-body SKELETON ARCHER, weathered ivory bones, complete ribcage pelvis and two legs, faded indigo hood and short waist cloth, small rusty recurved bow held with both bony hands and a few arrows in a quiver.",
+    "variant": "skeleton",
+    "readyStartFallback": true
+  },
+  {
+    "id": "Icefield_12",
+    "name": "寒冰龍王",
+    "key": "npc_icefield_12",
+    "batch": 6,
+    "nativeHeight": 70,
+    "height": 52,
+    "color": "銀藍／冰青",
+    "type": "flyer",
+    "subject": "An ICE DRAGON KING, a complete compact western dragon with silver-blue scales, ivory horns, two folded or articulated wings, four clawed legs and a full curled tail; pale cyan ice fins, readable ordinary enemy sprite.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  }
+]

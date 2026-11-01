@@ -1,0 +1,41 @@
+{
+  "status": "Authorized all NPC completion",
+  "characters": 4,
+  "strips": 16,
+  "poses": 102,
+  "nativePixels": true,
+  "gifs": {
+    "npc_god_battlefield_6": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "npc_god_battlefield_7": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "npc_god_battlefield_8": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "npc_god_battlefield_9": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    }
+  }
+}

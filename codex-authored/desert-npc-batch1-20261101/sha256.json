@@ -4,7 +4,7 @@
   "desert_slime_attack.png": "6860f4f742b53e2d40246331c42c43904e37da28a3a6103302d82092fbbb3912",
   "desert_slime_die.png": "2f051207fe9ce9c998769e9220be2731152da5a2056521137f786c5aaf57e2cb",
   "desert_goblin_idle.png": "acb683a3778a1ceb363ba2917406db76e982491fac5a4f0bfa224c22db88203d",
-  "desert_goblin_walk.png": "9b75e7f564015d85daea9aae423a9f30a8898bb42c61eed2685005325241e0ad",
+  "desert_goblin_walk.png": "d248510e153a3b612bcf21f605519ca0f8a53794811bffc67405bdfbd53069d7",
   "desert_goblin_attack.png": "dd498890f168d04c69b09903cd7e8c424d3a8356407f5f1222e5d30f2129ee03",
   "desert_goblin_die.png": "755d7ee15d78a27b36b994057b0ce8096e74615c79adac34e7d55ee9e584b0cd",
   "desert_wolf_idle.png": "0143a5054887e2421952b35c0ed57f2b257007a0121dc362a7763cfa39df6df4",
@@ -12,7 +12,7 @@
   "desert_wolf_attack.png": "3c67527c101ac79f45906f67a26588b6faf5402e34162c403dc191eed5086641",
   "desert_wolf_die.png": "89e4eb3d1ae34b609f93ab4b07ed9200d1826fe338e90891ca536a821dcdd16a",
   "desert_skeleton_idle.png": "bc3b75963ca7659ee4b3abf1d329663830b54cfd8e3e2234352863ff599bf9d0",
-  "desert_skeleton_walk.png": "5884b9f445e2cc627e5c5db2c5f2c67e98d7d1f3f9adcb2b03fbee33601e2535",
+  "desert_skeleton_walk.png": "04f98c896f2148a3dc19955c6d4d4052c7e4cfbfc2c0ddbf4c33042ae6d6c150",
   "desert_skeleton_attack.png": "e7539e6247c9d1e07330323307e1c20d939bf9b00e8838ac16b8dfacc49c4e3a",
   "desert_skeleton_die.png": "6bc05649e77bef63d798331a9c8f61d04b6f5f018140421ffb1aab37924a5eca"
 }

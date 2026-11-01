@@ -1,0 +1,41 @@
+{
+  "status": "Authorized all NPC completion",
+  "characters": 4,
+  "strips": 16,
+  "poses": 98,
+  "nativePixels": true,
+  "gifs": {
+    "npc_icefield_1": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "npc_icefield_2": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "npc_icefield_3": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "npc_icefield_4": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    }
+  }
+}

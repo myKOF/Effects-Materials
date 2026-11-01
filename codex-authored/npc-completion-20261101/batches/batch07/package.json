@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "description": "原創NPC四組動作來源與驗證：霧角鹿、盤根樹衛、苔背甲蟲、林間風靈",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.0",
+    "@napi-rs/canvas": "^0.1.0"
+  },
+  "name": "npc-completion-batch07"
+}

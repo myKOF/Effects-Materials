@@ -1,0 +1,52 @@
+[
+  {
+    "id": "lava_mountain_2",
+    "name": "玄武岩衛",
+    "key": "npc_lava_mountain_2",
+    "batch": 10,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "玄黑／暗橙",
+    "type": "walker",
+    "subject": "A BASALT GUARD, full stocky humanoid of angular charcoal basalt plates, two stone fists and two legs, dull iron-grey shoulder slabs, restrained dark orange core cracks and an ancient stone mask face.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "lava_mountain_3",
+    "name": "炭焰蜥蜴",
+    "key": "npc_lava_mountain_3",
+    "batch": 10,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "焦黑／炭紅",
+    "type": "quadruped",
+    "subject": "A CHARFLAME LIZARD, complete four-legged low reptile with blackened charcoal scales, full curled tapering tail, rusty red flank stripes and tiny ember-orange throat highlights. No wings.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "lava_mountain_4",
+    "name": "火山甲蟲",
+    "key": "npc_lava_mountain_4",
+    "batch": 10,
+    "nativeHeight": 50,
+    "height": 34,
+    "color": "黑紫／銅橙",
+    "type": "beetle",
+    "subject": "A VOLCANIC BEETLE, complete six-legged beetle with thick black-violet carapace, rusty copper mandibles, narrow dull orange seams and short curved horns.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "lava_mountain_5",
+    "name": "灰燼飛蝠",
+    "key": "npc_lava_mountain_5",
+    "batch": 10,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "灰燼／銅紅",
+    "type": "flyer",
+    "subject": "An ASH-WING BAT, compact ash-grey furry bat with full rust-brown membranous wings, pointed ears, two small clawed feet, ember-amber eyes and a little soot on its fur.",
+    "variant": "bat",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  }
+]

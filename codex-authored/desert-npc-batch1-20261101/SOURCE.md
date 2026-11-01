@@ -14,3 +14,5 @@ RPG Mote Studio已確認可開啟128平方六幀原生來源；hosted沒有目�
 GIF為預覽，放本聊天visualizations/desert-batch1：每款512×576，2×2標示待機／移動／攻擊／死亡，36格每格80ms、總2.88秒循環；各動作依自己的幀時序播放，攻擊恢復待命、死亡停終幀後重播。validate.cjs獨立解碼Mote RLE與96幀PNG逐點比RGBA，檢查四動作、每組六個不同姿勢、透明外緣及GIF明確延遲。遊戲NPC.xlsx仍是配置權威，本批四款四階級只更新動作及圖像備註，名稱／回退外觀／數值／技能／解鎖保持原值。
 
 重製：安裝package.json依賴後 `node normalize.cjs <preview-directory>`；再 `node validate.cjs <preview-directory>`。來源及輸出SHA見sources-sha256.json／sha256.json，驗證見validation.json／asset-checks.json。`node export.cjs <game-root> --apply`同步16PNG與metadata，`--check`／`--source-check`唯讀核對。遊戲export_supplemental依本機素材庫設定解析本套件，打包前先檢查來源，不在正式目錄直接做破壞性重建；先素材庫再遊戲Commit，詳見遊戲docs/AI_TASKS.md之NPC-DESERT-BATCH1-20261101。
+
+2026-11-02步態修正：依使用者指出的直接換腳／只動手問題，本包落地雙足角色的walk改由相鄰npc-walk-cycles-20261102保存的AI新繪八階段姿勢組成；原製作器保存為*-base.cjs，再套用該包步態。移動八幀、其他三動作保持，原生Mote及SHA同步，原色盤與角色尺寸／朝向保留。最終匯出要求來源／輸出SHA、腳部量測及visual-review.json目視SHA吻合。原來源與授權限制繼續適用。

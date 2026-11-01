@@ -1,0 +1,18 @@
+{
+  "npc_god_battlefield_10_idle.png": "8ac0ff4cfd408fb9ae93bee18861f9a3c5be35a37b247ec8ca7cdf83635adfb1",
+  "npc_god_battlefield_10_walk.png": "cdbf438729cf56ea576251f63303888d6f683fc29040d0b305bcb75f2480a596",
+  "npc_god_battlefield_10_attack.png": "7e93ccc74440c91874af67dfafe2521e76d86d5fc4fc145a124909687b9a2edd",
+  "npc_god_battlefield_10_die.png": "7ff183a662c09c4a4b190088133b48f032f0e7f8589edba650a5100fb051bf01",
+  "npc_god_battlefield_11_idle.png": "eb609afdda279c346ecfc67b90180ff4660a3f334efb8c825c70e8c1471d4cf7",
+  "npc_god_battlefield_11_walk.png": "c3279e96d3ffe726ce7f0edcb4ea790a90162a29a39fb1b385135c12e32eb43f",
+  "npc_god_battlefield_11_attack.png": "3e5a3c132c7d2db33bd009234757f4fa559468bcfce0a86c8bcd21e847278f2c",
+  "npc_god_battlefield_11_die.png": "b65b7f07bd6cac50a9b4367bbc5090b74abfaaedf64b34d22d41a08614ffa8e3",
+  "npc_god_battlefield_12_idle.png": "7a11eaf816eeea5328382a7a5d1492824e05949141b5ba9f9581e8732768cd34",
+  "npc_god_battlefield_12_walk.png": "900fae153110e5ddd1f663e5b89f4b15f1feee00c1cdc6b8db97a6228d7ba1ed",
+  "npc_god_battlefield_12_attack.png": "688c6074432536071b3b2879717facbd0b068e021dd1740bb57dd65cb59dc80b",
+  "npc_god_battlefield_12_die.png": "28f974d5f1330e80bf2e373dabd77be27999416aaec2ae414b99c765cfc7f449",
+  "npc_god_chaos_1_idle.png": "67b65c0227746db7b589651045abbf22ac9ecac2392c3896a607d6df059d4ff4",
+  "npc_god_chaos_1_walk.png": "e73ac7e1b6d163536bb29f0a45f18545df0ce7a9970497531ddac7f3f7a14198",
+  "npc_god_chaos_1_attack.png": "d68bb151707c8b06e11d7d1e6ff2890d5c526441c7490e2ef6cd5dded65a0cad",
+  "npc_god_chaos_1_die.png": "27db40a162e864c5ec02216f668ca599a44861d3678cf3a1d3187718feccc508"
+}

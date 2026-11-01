@@ -1,0 +1,160 @@
+{
+  "old_demon": {
+    "sourceSHA256": "dfeefb4b55dede323eb41202fd6017a840d8116bbad66a287586322d6e2f8b40",
+    "outputSHA256": "ba210fbfad7f7d1501d8cbc22bad89f57640eb406118230703b60f022ce2e961",
+    "frames": 8,
+    "frameMs": 90,
+    "originalCell": [
+      80,
+      64
+    ],
+    "originalFacing": -1,
+    "legs": {
+      "region": {
+        "top": 92,
+        "left": 2,
+        "right": 91,
+        "baseline": 128
+      },
+      "adjacentLowerLegChange": [
+        {
+          "from": 1,
+          "to": 2,
+          "changedPixels": 1050,
+          "ratio": 0.9075194468452895
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "changedPixels": 606,
+          "ratio": 0.6488222698072805
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "changedPixels": 815,
+          "ratio": 0.7761904761904762
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "changedPixels": 583,
+          "ratio": 0.6268817204301075
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "changedPixels": 890,
+          "ratio": 0.8105646630236795
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "changedPixels": 681,
+          "ratio": 0.7283422459893049
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "changedPixels": 805,
+          "ratio": 0.8855885588558856
+        },
+        {
+          "from": 8,
+          "to": 1,
+          "changedPixels": 510,
+          "ratio": 0.6181818181818182
+        }
+      ],
+      "footWidths": [
+        61,
+        49,
+        42,
+        58,
+        28,
+        57,
+        39,
+        59
+      ]
+    }
+  },
+  "tree_damned": {
+    "sourceSHA256": "f01bda405f7f2fceeab459856f631205f2c16707c30eefd85fd2dfe1896b35ad",
+    "outputSHA256": "704b2dc923bb29ac13b84e0a15ef0c63ad48562409221ee8c9f1f685146824da",
+    "frames": 8,
+    "frameMs": 90,
+    "originalCell": [
+      64,
+      64
+    ],
+    "originalFacing": 1,
+    "legs": {
+      "region": {
+        "top": 95,
+        "left": 24,
+        "right": 106,
+        "baseline": 128
+      },
+      "adjacentLowerLegChange": [
+        {
+          "from": 1,
+          "to": 2,
+          "changedPixels": 751,
+          "ratio": 0.771047227926078
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "changedPixels": 336,
+          "ratio": 0.4933920704845815
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "changedPixels": 778,
+          "ratio": 0.8259023354564756
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "changedPixels": 439,
+          "ratio": 0.5110593713620489
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "changedPixels": 731,
+          "ratio": 0.7428861788617886
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "changedPixels": 377,
+          "ratio": 0.52
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "changedPixels": 695,
+          "ratio": 0.7739420935412027
+        },
+        {
+          "from": 8,
+          "to": 1,
+          "changedPixels": 461,
+          "ratio": 0.5348027842227379
+        }
+      ],
+      "footWidths": [
+        56,
+        34,
+        20,
+        54,
+        58,
+        34,
+        20,
+        49
+      ]
+    }
+  }
+}

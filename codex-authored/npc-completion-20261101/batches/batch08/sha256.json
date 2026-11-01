@@ -1,0 +1,18 @@
+{
+  "npc_mist_forest_5_idle.png": "075adf354acebca8df17aff712d288f7d6375c6b326c0ee7bd8ae2762bd7929d",
+  "npc_mist_forest_5_walk.png": "fd8afaac5e0a3af07c4d683d9255339483a3ccb8fb9ed5a2b41f78ae5998640d",
+  "npc_mist_forest_5_attack.png": "75e82d03daa2e9770caa9bbd8ab003c8c6eb3e5a203df704de572d9869a1511e",
+  "npc_mist_forest_5_die.png": "4f0c0fb91adf5e940a59d2c523945460d799fd9a50c63d8926938fe1f814e034",
+  "npc_mist_forest_6_idle.png": "4d05574a5f72e8c1e51fef3af389a74ce5909de0820288f4acd16704199dd5e7",
+  "npc_mist_forest_6_walk.png": "22fb3ca8f43ab2f7ded9d811f848acb3680d6cb76d670dad246433253b97f6b1",
+  "npc_mist_forest_6_attack.png": "a4ad5e90ea7d3f04434980c5b85c611073142f5ce1bce50193bb77f39d4b0da5",
+  "npc_mist_forest_6_die.png": "28f6b48c9e7687da07f04328d159b456df73feabce0ffecfefa3af5d09eaa1fc",
+  "npc_mist_forest_7_idle.png": "d0bcf73a8177bbe8535b0d5590f9ae590d675d61bd827c7c9c22fe8a99faf72f",
+  "npc_mist_forest_7_walk.png": "8321b4587bf4ee89428cec6161e830e453b06d8c083a5b62a8d08812a0275bc9",
+  "npc_mist_forest_7_attack.png": "455b06c358a0bb68965c8ed3aae4e81e0ca39d1e38f1944d75dd8d4b073a9e63",
+  "npc_mist_forest_7_die.png": "d37636190980b6f89001c76cfbcc50ee47a03874cedd455215298c0858071d97",
+  "npc_mist_forest_8_idle.png": "e050f34d66b85f66696884cd358936674e737cea5ff2a0c506f850fac3cf13f9",
+  "npc_mist_forest_8_walk.png": "ccac78be0f04544faff9301d99bc22617f44560fc7f098f941d1773d2d7f320b",
+  "npc_mist_forest_8_attack.png": "3672b3b1444f3782b8eddaa8c2d7faa8a63c645fb9e01f321ef09069e7d2bc2d",
+  "npc_mist_forest_8_die.png": "e4c2d2c364e8d30ce0590e959f5f13aa5156d27537a64c42e524a89c6a8c87f9"
+}

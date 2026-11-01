@@ -1,0 +1,53 @@
+[
+  {
+    "id": "thunder_peak_10",
+    "name": "峰巔風靈",
+    "key": "npc_thunder_peak_10",
+    "batch": 15,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "風青／古銅",
+    "type": "hover",
+    "subject": "A SUMMIT WIND SPIRIT, a compact humanoid silhouette built from connected desaturated cyan wind ribbons around a dark stone face, two ribbon arms and one tapering swirl below, bronze talisman on chest.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "thunder_peak_11",
+    "name": "奔雷麒麟",
+    "key": "npc_thunder_peak_11",
+    "batch": 15,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "雷藍／鬃金",
+    "type": "quadruped",
+    "subject": "A THUNDER QILIN, complete four-legged Eastern chimera with a deerlike body, short dragon muzzle, single branching golden horn, slate-blue scales, cream mane and a full curling tail.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "thunder_peak_12",
+    "name": "天嵐之主",
+    "key": "npc_thunder_peak_12",
+    "batch": 15,
+    "nativeHeight": 70,
+    "height": 52,
+    "color": "嵐紫／淡金",
+    "type": "flyer",
+    "subject": "A LORD OF SKY STORMS, complete compact wyvern with slate-violet armored scales, two full wing forelimbs and two hind legs, ivory horns, a full curled tail and muted amber membrane seams.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_battlefield_1",
+    "name": "太古戰魂",
+    "key": "npc_god_battlefield_1",
+    "batch": 15,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "魂青／暗紅",
+    "type": "hover",
+    "subject": "An ANCIENT BATTLE SOUL, complete floating spectral veteran with a tarnished bronze open-face helmet, pale teal skeletal face, tattered dark red cloak, two gaunt arms and connected ghostly lower shroud; holds one short broken sword.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  }
+]

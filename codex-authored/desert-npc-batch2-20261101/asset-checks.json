@@ -1,0 +1,41 @@
+{
+  "status": "Review — preview only, not configured",
+  "characters": 4,
+  "strips": 16,
+  "poses": 102,
+  "nativePixels": true,
+  "gifs": {
+    "desert_shadow_bat": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "desert_tree_spirit": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "desert_lizard_warrior": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "desert_orc": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    }
+  }
+}

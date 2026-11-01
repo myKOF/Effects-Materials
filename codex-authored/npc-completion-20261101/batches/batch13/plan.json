@@ -1,0 +1,52 @@
+[
+  {
+    "id": "thunder_peak_1",
+    "name": "雷羽鷹",
+    "key": "npc_thunder_peak_1",
+    "batch": 13,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "鋼藍／雷金",
+    "type": "flyer",
+    "subject": "A THUNDERFEATHER EAGLE, complete eagle with full steel-blue and charcoal wings, cream head and golden beak/talons, a few sharp pale violet feather accents.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "thunder_peak_2",
+    "name": "疾風山羊",
+    "key": "npc_thunder_peak_2",
+    "batch": 13,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "雪灰／角褐",
+    "type": "quadruped",
+    "subject": "A GALE MOUNTAIN GOAT, complete four-legged shaggy grey-white mountain goat with large curved bronze-brown horns, dark hooves, a muted teal shoulder marking and tawny beard.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "thunder_peak_3",
+    "name": "雷擊石靈",
+    "key": "npc_thunder_peak_3",
+    "batch": 13,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "冷石／電金",
+    "type": "walker",
+    "subject": "A LIGHTNING STONE SPIRIT, compact full rocky humanoid of cool grey stone, two fists and two jointed stone legs, a carved angular face and restrained golden crack patterns.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "thunder_peak_4",
+    "name": "嵐翼飛蛇",
+    "key": "npc_thunder_peak_4",
+    "batch": 13,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "嵐紫／霜藍",
+    "type": "serpent",
+    "subject": "A STORM-WING FLYING SERPENT, complete sinuous slate-purple scaled snake with a full curling tail and two small attached batlike fins/wings behind its head, pale blue underside and ochre eyes.",
+    "readyStartFallback": true,
+    "hoverLift": 14
+  }
+]

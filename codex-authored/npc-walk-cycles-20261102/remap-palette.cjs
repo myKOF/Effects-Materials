@@ -1,0 +1,4 @@
+'use strict';
+// Technical palette normalization: the new poses use the character's existing colors.
+function remap(image,references){const colors=new Map();for(const ref of references)for(let p=0;p<ref.data.length;p+=4)if(ref.data[p+3]>=48){const rgba=Array.from(ref.data.subarray(p,p+4));colors.set(rgba.join(','),rgba);}const palette=[...colors.values()],cache=new Map();if(!palette.length)throw Error('Missing character palette');for(let p=0;p<image.data.length;p+=4){if(!image.data[p+3]){image.data.fill(0,p,p+4);continue;}const rgba=Array.from(image.data.subarray(p,p+4)),key=rgba.join(',');let selected=cache.get(key);if(!selected){let best=Infinity;for(const color of palette){const d=(rgba[0]-color[0])**2*.3+(rgba[1]-color[1])**2*.59+(rgba[2]-color[2])**2*.11+(rgba[3]-color[3])**2*.1;if(d<best){best=d;selected=color;}}cache.set(key,selected);}for(let i=0;i<4;i++)image.data[p+i]=selected[i];}return image;}
+module.exports={remap};

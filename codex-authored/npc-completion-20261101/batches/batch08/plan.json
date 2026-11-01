@@ -1,0 +1,59 @@
+[
+  {
+    "id": "mist_forest_5",
+    "name": "古藤行者",
+    "key": "npc_mist_forest_5",
+    "batch": 8,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "藤綠／暗紅",
+    "type": "walker",
+    "subject": "An ANCIENT VINE WALKER, lean full humanoid woven from grey-brown roots and dark green vines, a hollow wooden mask face, two long vine arms and two clearly separated root legs; sparse burgundy leaves.",
+    "readyStartFallback": true,
+    "poseOverrides": {
+      "attack": {
+        "2": {
+          "file": "sources/npc_mist_forest_5-attack-2-replacement.png",
+          "heightRatio": 0.94
+        }
+      }
+    }
+  },
+  {
+    "id": "mist_forest_6",
+    "name": "迷霧飛蛾",
+    "key": "npc_mist_forest_6",
+    "batch": 8,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "霧紫／灰綠",
+    "type": "flyer",
+    "subject": "A MIST MOTH, complete large nocturnal moth with a fuzzy plum-brown thorax, two broad muted grey-violet patterned wings, four small curled leg tips and feathery antennae; tiny pale green eyespots.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "mist_forest_7",
+    "name": "蕨葉獵手",
+    "key": "npc_mist_forest_7",
+    "batch": 8,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "蕨綠／土金",
+    "type": "walker",
+    "subject": "A FERN HUNTER, full agile forest creature with a narrow bark mask, tawny moss-fur torso, fern fronds on shoulders, two clawed arms and two digitigrade legs, a short dark-wood hooked spear held in both hands.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "mist_forest_8",
+    "name": "森岩巨像",
+    "key": "npc_mist_forest_8",
+    "batch": 8,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "石灰／苔綠",
+    "type": "walker",
+    "subject": "A FOREST ROCK COLOSSUS, complete broad grey stone body with moss-filled cracks, an ancient carved face, two massive stone fists and two sturdy jointed legs, a few worn ochre runes.",
+    "readyStartFallback": true
+  }
+]

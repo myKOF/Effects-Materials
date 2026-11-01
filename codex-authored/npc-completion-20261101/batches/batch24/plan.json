@@ -1,0 +1,39 @@
+[
+  {
+    "id": "god_sanctuary_10",
+    "name": "神王護衛長",
+    "key": "npc_god_sanctuary_10",
+    "batch": 24,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "王金／暗紅",
+    "type": "walker",
+    "subject": "A GOD-KING GUARD CAPTAIN, full broad ceremonial knight with complete two legs and two arms, worn gold and charcoal steel armor, a short muted crimson cape, crowned closed helmet and a compact broad sword with small shield.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_sanctuary_11",
+    "name": "智慧晶體",
+    "key": "npc_god_sanctuary_11",
+    "batch": 24,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "智藍／古銅",
+    "type": "hover",
+    "subject": "A WISDOM CRYSTAL, one complete large faceted pale sapphire central crystal inside an aged bronze frame, two short connected crystal fins/arms and a tapered lower point, a small ivory eye-like glint and muted violet facets.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_sanctuary_12",
+    "name": "神聖執法官",
+    "key": "npc_god_sanctuary_12",
+    "batch": 24,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "聖銀／灰紫",
+    "type": "walker",
+    "subject": "A SACRED EXECUTIONER, complete tall armored ancient sentinel with ivory and slate-blue plates, tarnished gold faceguard, muted plum waist cloth, two full legs and two hands holding one compact crescent-bladed poleaxe.",
+    "readyStartFallback": true
+  }
+]

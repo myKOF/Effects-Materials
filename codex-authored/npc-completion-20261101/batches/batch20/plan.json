@@ -1,0 +1,60 @@
+[
+  {
+    "id": "god_chaos_6",
+    "name": "蝕天巨煞",
+    "key": "npc_god_chaos_6",
+    "batch": 20,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "煞黑／暗琥珀",
+    "type": "walker",
+    "subject": "A SKY-ECLIPSE FIEND, complete hulking grey-black demon with a blunt horned head, two long muscular arms and two digitigrade legs, bone shoulder spikes, a short dusty plum waistcloth and dull amber chest marks.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_chaos_7",
+    "name": "虛空之眼",
+    "key": "npc_god_chaos_7",
+    "batch": 20,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "眼紫／琥珀",
+    "type": "hover",
+    "subject": "A VOID EYE monster, one complete dark violet leathery spherical eye with a single pale amber iris, thick charcoal eyelids, six short curved connected tendrils and dull blue ridge plates; no humanoid torso.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_chaos_8",
+    "name": "元素狂暴體",
+    "key": "npc_god_chaos_8",
+    "batch": 20,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "元素藍／焰橙",
+    "type": "hover",
+    "subject": "An ELEMENTAL RAGE BODY, complete connected golem-like swirling charcoal form with a small pale mask face, two broad elemental arms and a tapering rooted lower body, restrained blue lightning cracks and rusty orange core.",
+    "hoverLift": 14,
+    "readyStartFallback": true,
+    "poseOverrides": {
+      "attack": {
+        "3": {
+          "file": "sources/npc_god_chaos_8-attack-3-replacement.png",
+          "heightRatio": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "god_chaos_9",
+    "name": "混沌使者",
+    "key": "npc_god_chaos_9",
+    "batch": 20,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "酒紫／晶青",
+    "type": "walker",
+    "subject": "A CHAOS EMISSARY, full adult robed cultist monster with an ivory cracked mask, muted wine-purple robes, bronze clasps, two complete legs, holding a small tarnished staff with one teal crystal; no text symbols.",
+    "readyStartFallback": true
+  }
+]

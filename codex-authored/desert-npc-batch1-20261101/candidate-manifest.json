@@ -75,8 +75,8 @@
     },
     "desert_goblin_walk": {
       "char": "desert_goblin",
-      "frames": 6,
-      "fps": 10,
+      "frames": 8,
+      "fps": 11.11111111111111,
       "loop": true,
       "hold": false
     },
@@ -131,8 +131,8 @@
     },
     "desert_skeleton_walk": {
       "char": "desert_skeleton",
-      "frames": 6,
-      "fps": 10,
+      "frames": 8,
+      "fps": 11.11111111111111,
       "loop": true,
       "hold": false
     },

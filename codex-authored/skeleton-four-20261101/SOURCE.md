@@ -16,3 +16,5 @@
 candidate-manifest.json為該批匯出metadata（名稱保留自預覽階段）；replacements.json記錄使用者核准的替換，遊戲NPC.xlsx仍是名稱、動作與數值權威，兩法師魔法型／24米／6米每秒由來源表套用。export.cjs與遊戲既有export_supplemental一起匯出並核對SHA；舊四款的PNG與metadata完整保留於遊戲，另列retiredChars，現行NPC不再使用。完整重建須先取得來源套件與此套件，來源檢查在清空輸出前執行。
 
 重製：安裝package.json依賴後`node normalize.cjs <preview-directory>`；需套用時依sha256.json核對16張輸出，再`node export.cjs <game-root> --apply`；`--check`／`--source-check`唯讀驗證。遊戲以既有vfx-library-root解析素材庫位置，沒有本機路徑寫入受控設定。驗證與雙倉庫Commit見遊戲docs/AI_TASKS.md之NPC-SKELETON-FOUR-20261101。
+
+2026-11-02步態修正：依使用者指出的直接換腳／只動手問題，本包落地雙足角色的walk改由相鄰npc-walk-cycles-20261102保存的AI新繪八階段姿勢組成；原製作器保存為*-base.cjs，再套用該包步態。移動八幀、其他三動作保持，原生Mote及SHA同步，原色盤與角色尺寸／朝向保留。最終匯出要求來源／輸出SHA、腳部量測及visual-review.json目視SHA吻合。原來源與授權限制繼續適用。

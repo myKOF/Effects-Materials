@@ -1,0 +1,18 @@
+{
+  "npc_mist_forest_1_idle.png": "7f10f38708b4630981a1ed7c1c3391ec6019be5b1f45f84389e109672765f0f0",
+  "npc_mist_forest_1_walk.png": "9c64701267bb01c6efac7b5841f8d4b3833cf28a4fe2ba5c662672bb416574ca",
+  "npc_mist_forest_1_attack.png": "0059df383f0af901f58d2207d0be6080bae239e0aabccb0281f5128baccb7b76",
+  "npc_mist_forest_1_die.png": "22280ca03d40f66c47308e79e8acd78e16803e9de999be0404be6dca09b15e08",
+  "npc_mist_forest_2_idle.png": "6514635535de1a526b73ff4838d5251f5ff5086e034daea213c3ccc86998b93e",
+  "npc_mist_forest_2_walk.png": "6524be9cfb750c10f9b4edbbf07b2d5db99abf5ff0e444d6d28124cae54b3aa6",
+  "npc_mist_forest_2_attack.png": "323e69c0395052def2fe17f6266c2572ca7e9ccbf096ef3322a17a428d38b443",
+  "npc_mist_forest_2_die.png": "e51e40785c2c079238b70520654b63de5064c6cd39b74ca7edef79f0739a398d",
+  "npc_mist_forest_3_idle.png": "930811deff8ee939493191bf3ba4cc1055dd965444459c0f72d1bf12b1f91ed8",
+  "npc_mist_forest_3_walk.png": "b1501dd6fcbe173219f677ea693561525e6eea892c010b56cbcbbbc034a8cf1f",
+  "npc_mist_forest_3_attack.png": "da8b386d26f91ccc994d36fb811940084150f6d4f14d60e5e638e9b0bd20b94e",
+  "npc_mist_forest_3_die.png": "f59f91cfa04f98e8c8927cce00268949c824dc0481c5e281354b096d6e129034",
+  "npc_mist_forest_4_idle.png": "4bfd065e080b5a62715835109d3e91e977b108d71158d530245478c0ea697bd9",
+  "npc_mist_forest_4_walk.png": "f1335fe7229d54eebb29331431d8882b5cca91ca4557cf85397acaf1fa43ad2d",
+  "npc_mist_forest_4_attack.png": "0ed1522a2beec62d234988d5b0838ada16ab362ddb9f3d6f5bb643ebcea98337",
+  "npc_mist_forest_4_die.png": "82d48c60398b74979a28c240efcc75d109ee3d47dcd4efb8c443dbe882448cc9"
+}

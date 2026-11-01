@@ -1,0 +1,18 @@
+{
+  "npc_thunder_peak_10_idle.png": "14fb8aac63459dfb6273ed44198b991d0324e61312139be8100d5c02d06141b7",
+  "npc_thunder_peak_10_walk.png": "acc03d5c97f91b155c33d4dc32264e7373b059f9bda689a3930fac63f87ffc38",
+  "npc_thunder_peak_10_attack.png": "60457af4e589cd484ba4e0f1a404bd5d2ed3028d492e45f8b87deb399606e0e2",
+  "npc_thunder_peak_10_die.png": "70d186ef292484138dc5d81f2bc92a07fa98c3a6dbe5d65b057c397f2c038ad6",
+  "npc_thunder_peak_11_idle.png": "6922ec7cfd2ab9c4ab58cf12291e556d8db1891e28c5f5c91f457eb9f6868c9c",
+  "npc_thunder_peak_11_walk.png": "c76239781efbd11c531e763ee51ac7cd5d55b10a5de732e965e5821b1f50c029",
+  "npc_thunder_peak_11_attack.png": "8dc8e91a44f02addcb31d44a2190ad174fce0ba6a15c36baaf469c67c7d00bfd",
+  "npc_thunder_peak_11_die.png": "ff8d1633e1bab53a972994492c2a9b9933977d2c8b9cf03376c997c6e1319aac",
+  "npc_thunder_peak_12_idle.png": "86c2f31ed457938430f50e54a3f536d6ebfef8d6e748c9400546d0eda77b2651",
+  "npc_thunder_peak_12_walk.png": "7ebd91a1e0038f7e9270a94b7babd314240e41349d9e4c082f998b795d355f49",
+  "npc_thunder_peak_12_attack.png": "8a96d22f8811801428eb4cb6faf263cf99e45c947e442b8711f587e2863120fe",
+  "npc_thunder_peak_12_die.png": "a8434fc6095dc1508e60d4f424b0ef847152f0530a55d25eb07811b798f52ba6",
+  "npc_god_battlefield_1_idle.png": "077fca22515a50239113ce11125f0429aebeec7803c390d4817c94e0ebc97be1",
+  "npc_god_battlefield_1_walk.png": "8b7394c579fa68bf87a4d71ad6d9927422463390dee6c5ef100183d33a767172",
+  "npc_god_battlefield_1_attack.png": "23500f9a02f5c1cc9eb63cbd0164425decec5d2e28a72bcf5f7448ba2a083cb5",
+  "npc_god_battlefield_1_die.png": "f23bbaf1b53a98def62f0159cb665cfe4545c2662be55b5bff9c074e51d25fb3"
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "Icefield_5",
+    "name": "雪怪",
+    "key": "npc_icefield_5",
+    "batch": 5,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "雪白／灰藍",
+    "type": "walker",
+    "subject": "A hunched YETI, full furry humanoid with silver-white shaggy fur, blue-grey face and hands, cream horns and two complete large feet; thick shoulders, no weapon.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "Icefield_6",
+    "name": "冰墓幽靈",
+    "key": "npc_icefield_6",
+    "batch": 5,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "灰青／古銅",
+    "type": "hover",
+    "subject": "An ICE TOMB GHOST, gaunt complete spectral figure wrapped in ragged pale burial cloth, icy teal face and dark hollow eyes, bronze burial clasp, long skeletal translucent arms and a tapering connected shroud.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "Icefield_7",
+    "name": "女妖",
+    "key": "npc_icefield_7",
+    "batch": 5,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "灰藍／暗酒紅",
+    "type": "hover",
+    "subject": "A BANSHEE, complete spectral adult female silhouette in torn muted burgundy and charcoal dress, pale grey-blue face, long silver hair, clawed arms, floating ragged skirt; frightening sorrowful face, no exposed nudity.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "Icefield_8",
+    "name": "幽魂",
+    "key": "npc_icefield_8",
+    "batch": 5,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "煙灰／暗紫",
+    "type": "hover",
+    "subject": "A PALE WRAITH, tall narrow translucent smoke-grey cloaked spirit with violet eye slits, long connected tendril arms, a split trailing lower cloak and subtle desaturated green rim accents.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  }
+]

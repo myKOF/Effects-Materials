@@ -1,0 +1,18 @@
+{
+  "npc_desert_9_idle.png": "46d66f0b634dc71df1e2cc9d8cddac41bbfe7270f6908bc0c604a82bdbe70783",
+  "npc_desert_9_walk.png": "539ac3a46fd44c42a8a01fcd5c8f2b96189998369a8255ccbc22e9e89ca69c6c",
+  "npc_desert_9_attack.png": "44961ae69bf65b69525c98f56bf8c4173bd93f08f4316cd9bd84b742be60d012",
+  "npc_desert_9_die.png": "e78f25bf8fd78276304bd890255d0683883273ab1d9cfef4087978547ef33386",
+  "npc_desert_10_idle.png": "b00ca8a5989c6023a021766785302c76e7dc8d2918080752ec860266de232846",
+  "npc_desert_10_walk.png": "c458e57c5fd43e5b26dd504d01439704c6311c79c332f84a9a890596e33483c4",
+  "npc_desert_10_attack.png": "48a11bcf73af28750ecd6ad81f73044f22f154cf22f24253a1121007455aa32b",
+  "npc_desert_10_die.png": "7c8e96c4f35970d2c864d5ccb6b976cb8fa36a083fdf789a653f63addac1a3f6",
+  "npc_desert_11_idle.png": "f5e3933a82eebd7c27c20cf5caa901aa5783afbcd4306f140ac225f939adda90",
+  "npc_desert_11_walk.png": "56b748d2ef29de09108cbeb1381389f330ee1cdb2a7691e22dfb60b19f2e82e5",
+  "npc_desert_11_attack.png": "86ebdf4be98357787725580cc3393020f7137d3c688f9c9c9e5bdb74d56f9d39",
+  "npc_desert_11_die.png": "8b64159b2c2b47f64c3c0f465e6a79de2939d25898e78adb3810c70b53de9533",
+  "npc_desert_12_idle.png": "71ef8aaabce78849e4fec33cdb9437bb14b55d56f9becbba9e9f12243b27c475",
+  "npc_desert_12_walk.png": "7124adfcaad907d825c8c530d5ec34ff59796196b0fd1873f96ec57474faae23",
+  "npc_desert_12_attack.png": "6cbc58936fd8b9708e6a906d276dd282579f7e2cccae495fdf825ca9971dbfe4",
+  "npc_desert_12_die.png": "34f88dbdf70bef921f3637930f47cfaac36c57cd6ee3da9a02610b5966b27d14"
+}

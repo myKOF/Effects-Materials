@@ -1,0 +1,411 @@
+{
+  "missing": [
+    {
+      "id": "desert_5",
+      "name": "暗影蝠"
+    },
+    {
+      "id": "desert_6",
+      "name": "樹妖"
+    },
+    {
+      "id": "desert_7",
+      "name": "蜥蜴戰士"
+    },
+    {
+      "id": "desert_8",
+      "name": "半獸人"
+    },
+    {
+      "id": "desert_9",
+      "name": "幽靈"
+    },
+    {
+      "id": "desert_10",
+      "name": "石像鬼"
+    },
+    {
+      "id": "desert_11",
+      "name": "牛頭人"
+    },
+    {
+      "id": "desert_12",
+      "name": "雙足飛龍"
+    },
+    {
+      "id": "Icefield_1",
+      "name": "寒霜狼"
+    },
+    {
+      "id": "Icefield_2",
+      "name": "雪原巨熊"
+    },
+    {
+      "id": "Icefield_3",
+      "name": "冰原史萊姆"
+    },
+    {
+      "id": "Icefield_4",
+      "name": "雷電魔像"
+    },
+    {
+      "id": "Icefield_5",
+      "name": "雪怪"
+    },
+    {
+      "id": "Icefield_6",
+      "name": "冰墓幽靈"
+    },
+    {
+      "id": "Icefield_7",
+      "name": "女妖"
+    },
+    {
+      "id": "Icefield_8",
+      "name": "幽魂"
+    },
+    {
+      "id": "Icefield_9",
+      "name": "寒冰魔像"
+    },
+    {
+      "id": "Icefield_10",
+      "name": "冰晶元素"
+    },
+    {
+      "id": "Icefield_11",
+      "name": "骷髏弓箭手"
+    },
+    {
+      "id": "Icefield_12",
+      "name": "寒冰龍王"
+    },
+    {
+      "id": "mist_forest_1",
+      "name": "霧角鹿"
+    },
+    {
+      "id": "mist_forest_2",
+      "name": "盤根樹衛"
+    },
+    {
+      "id": "mist_forest_3",
+      "name": "苔背甲蟲"
+    },
+    {
+      "id": "mist_forest_4",
+      "name": "林間風靈"
+    },
+    {
+      "id": "mist_forest_5",
+      "name": "古藤行者"
+    },
+    {
+      "id": "mist_forest_6",
+      "name": "迷霧飛蛾"
+    },
+    {
+      "id": "mist_forest_7",
+      "name": "蕨葉獵手"
+    },
+    {
+      "id": "mist_forest_8",
+      "name": "森岩巨像"
+    },
+    {
+      "id": "mist_forest_9",
+      "name": "霧翼梟"
+    },
+    {
+      "id": "mist_forest_10",
+      "name": "根鬚守望者"
+    },
+    {
+      "id": "mist_forest_11",
+      "name": "翠風妖狐"
+    },
+    {
+      "id": "mist_forest_12",
+      "name": "千年森靈"
+    },
+    {
+      "id": "lava_mountain_2",
+      "name": "玄武岩衛"
+    },
+    {
+      "id": "lava_mountain_3",
+      "name": "炭焰蜥蜴"
+    },
+    {
+      "id": "lava_mountain_4",
+      "name": "火山甲蟲"
+    },
+    {
+      "id": "lava_mountain_5",
+      "name": "灰燼飛蝠"
+    },
+    {
+      "id": "lava_mountain_6",
+      "name": "黑曜石魔像"
+    },
+    {
+      "id": "lava_mountain_7",
+      "name": "烈焰獵犬"
+    },
+    {
+      "id": "lava_mountain_8",
+      "name": "熔核巨蟹"
+    },
+    {
+      "id": "lava_mountain_10",
+      "name": "燼翼火鳥"
+    },
+    {
+      "id": "lava_mountain_11",
+      "name": "裂地巨人"
+    },
+    {
+      "id": "lava_mountain_12",
+      "name": "熔山領主"
+    },
+    {
+      "id": "swamp_6",
+      "name": "泥漿怪"
+    },
+    {
+      "id": "swamp_11",
+      "name": "深沼水蛇"
+    },
+    {
+      "id": "thunder_peak_1",
+      "name": "雷羽鷹"
+    },
+    {
+      "id": "thunder_peak_2",
+      "name": "疾風山羊"
+    },
+    {
+      "id": "thunder_peak_3",
+      "name": "雷擊石靈"
+    },
+    {
+      "id": "thunder_peak_4",
+      "name": "嵐翼飛蛇"
+    },
+    {
+      "id": "thunder_peak_5",
+      "name": "電光獵豹"
+    },
+    {
+      "id": "thunder_peak_6",
+      "name": "風蝕守衛"
+    },
+    {
+      "id": "thunder_peak_7",
+      "name": "積雨雲靈"
+    },
+    {
+      "id": "thunder_peak_8",
+      "name": "暴風女妖"
+    },
+    {
+      "id": "thunder_peak_10",
+      "name": "峰巔風靈"
+    },
+    {
+      "id": "thunder_peak_11",
+      "name": "奔雷麒麟"
+    },
+    {
+      "id": "thunder_peak_12",
+      "name": "天嵐之主"
+    },
+    {
+      "id": "god_battlefield_1",
+      "name": "太古戰魂"
+    },
+    {
+      "id": "god_battlefield_2",
+      "name": "遠古神兵"
+    },
+    {
+      "id": "god_battlefield_3",
+      "name": "破天戰將"
+    },
+    {
+      "id": "god_battlefield_4",
+      "name": "烈焰神衛"
+    },
+    {
+      "id": "god_battlefield_5",
+      "name": "狂暴泰坦"
+    },
+    {
+      "id": "god_battlefield_6",
+      "name": "神魔殘骸"
+    },
+    {
+      "id": "god_battlefield_7",
+      "name": "不朽英靈"
+    },
+    {
+      "id": "god_battlefield_8",
+      "name": "裁決之劍"
+    },
+    {
+      "id": "god_battlefield_9",
+      "name": "滅世魔將"
+    },
+    {
+      "id": "god_battlefield_10",
+      "name": "太古龍魂"
+    },
+    {
+      "id": "god_battlefield_11",
+      "name": "戰爭主宰"
+    },
+    {
+      "id": "god_battlefield_12",
+      "name": "殞星巨獸"
+    },
+    {
+      "id": "god_chaos_1",
+      "name": "混沌幼獸"
+    },
+    {
+      "id": "god_chaos_2",
+      "name": "虛空行者"
+    },
+    {
+      "id": "god_chaos_3",
+      "name": "時空魔靈"
+    },
+    {
+      "id": "god_chaos_4",
+      "name": "裂縫幻影"
+    },
+    {
+      "id": "god_chaos_5",
+      "name": "混沌噬魂獸"
+    },
+    {
+      "id": "god_chaos_6",
+      "name": "蝕天巨煞"
+    },
+    {
+      "id": "god_chaos_7",
+      "name": "虛空之眼"
+    },
+    {
+      "id": "god_chaos_8",
+      "name": "元素狂暴體"
+    },
+    {
+      "id": "god_chaos_9",
+      "name": "混沌使者"
+    },
+    {
+      "id": "god_chaos_10",
+      "name": "星雲魔獸"
+    },
+    {
+      "id": "god_chaos_11",
+      "name": "創世餘燼"
+    },
+    {
+      "id": "god_chaos_12",
+      "name": "混沌大天尊"
+    },
+    {
+      "id": "god_sanctuary_1",
+      "name": "巡天聖光"
+    },
+    {
+      "id": "god_sanctuary_2",
+      "name": "天使"
+    },
+    {
+      "id": "god_sanctuary_3",
+      "name": "天使巡狩"
+    },
+    {
+      "id": "god_sanctuary_4",
+      "name": "審判使者"
+    },
+    {
+      "id": "god_sanctuary_5",
+      "name": "聖域守衛"
+    },
+    {
+      "id": "god_sanctuary_6",
+      "name": "曜光巨龍"
+    },
+    {
+      "id": "god_sanctuary_7",
+      "name": "巨靈像"
+    },
+    {
+      "id": "god_sanctuary_8",
+      "name": "永恒靈體"
+    },
+    {
+      "id": "god_sanctuary_9",
+      "name": "聖地執法者"
+    },
+    {
+      "id": "god_sanctuary_10",
+      "name": "神王護衛長"
+    },
+    {
+      "id": "god_sanctuary_11",
+      "name": "智慧晶體"
+    },
+    {
+      "id": "god_sanctuary_12",
+      "name": "神聖執法官"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "tower_boss_1",
+      "name": "烈焰魔君"
+    },
+    {
+      "id": "tower_boss_2",
+      "name": "冰霜女皇"
+    },
+    {
+      "id": "tower_boss_3",
+      "name": "雷霆巨獸"
+    },
+    {
+      "id": "tower_boss_4",
+      "name": "鋼鐵魔像"
+    },
+    {
+      "id": "tower_boss_5",
+      "name": "劇毒之母"
+    },
+    {
+      "id": "tower_boss_6",
+      "name": "深淵領主"
+    },
+    {
+      "id": "tower_boss_7",
+      "name": "亡靈霜龍"
+    },
+    {
+      "id": "tower_boss_8",
+      "name": "聖焰審判官"
+    },
+    {
+      "id": "tower_boss_9",
+      "name": "風暴泰坦"
+    },
+    {
+      "id": "tower_boss_10",
+      "name": "混沌之影"
+    }
+  ],
+  "source": "Idle-RPG config/Excel/NPC.xlsx; art coverage audit only, not gameplay authority"
+}

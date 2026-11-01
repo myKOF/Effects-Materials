@@ -1,0 +1,446 @@
+{
+  "desert_9": [
+    "hover",
+    "An eerie full-body tattered ghost, a hollow hood-like spectral face, flowing pale blue-grey ectoplasm, two long connected clawlike arms and a trailing wispy lower body; small muted violet highlights.",
+    "霜灰／淡紫"
+  ],
+  "desert_10": [
+    "flyer",
+    "A crouched winged STONE GARGOYLE, complete muscular basalt-grey body, horned animal face, two arms, two clawed legs and full folded or opened batlike stone wings; dusty blue stone and sparse bronze lichen.",
+    "石灰／暗青"
+  ],
+  "desert_11": [
+    "walker",
+    "A full-body MINOTAUR, brown bull head with two ivory horns, dark chestnut fur, broad humanoid torso and two strong hooved legs; battered iron belt and bronze two-handed short battle axe, faded red waist cloth.",
+    "栗褐／赭紅"
+  ],
+  "desert_12": [
+    "flyer",
+    "A complete TWO-LEGGED WYVERN, sand-olive reptile body, two large membranous forelimb wings, two hind legs only, complete tapering curled tail, ochre underside and muted copper membranes. No extra human arms.",
+    "沙綠／銅褐"
+  ],
+  "Icefield_1": [
+    "quadruped",
+    "A natural FROST WOLF, complete four-legged anatomy and bushy tail, off-white and silver-grey winter coat, desaturated icy blue shadow, a few tiny frost crystals along shoulder fur, pale amber eyes.",
+    "銀白／冰藍",
+    "wolf"
+  ],
+  "Icefield_2": [
+    "quadruped",
+    "A powerful SNOW BEAR, thick cream-white winter fur, dark grey paws and nose, massive shoulders, complete four legs and small round ears; old tan scars, no clothing or weapons.",
+    "米白／冷灰"
+  ],
+  "Icefield_3": [
+    "slime",
+    "An ICEFIELD SLIME, squat translucent glacial-cyan gel, milky white inner frost nucleus, irregular frozen droplet crest, dark teal slit eyes and subtle lavender shadow. No limbs or cartoon smile.",
+    "冰青／淡紫",
+    "slime"
+  ],
+  "Icefield_4": [
+    "walker",
+    "A LIGHTNING GOLEM, full heavy body made of slate-violet rock plates around a muted amber electric core, two thick arms and two jointed stone legs; a few connected golden conductive cracks.",
+    "岩紫／電金"
+  ],
+  "Icefield_5": [
+    "walker",
+    "A hunched YETI, full furry humanoid with silver-white shaggy fur, blue-grey face and hands, cream horns and two complete large feet; thick shoulders, no weapon.",
+    "雪白／灰藍"
+  ],
+  "Icefield_6": [
+    "hover",
+    "An ICE TOMB GHOST, gaunt complete spectral figure wrapped in ragged pale burial cloth, icy teal face and dark hollow eyes, bronze burial clasp, long skeletal translucent arms and a tapering connected shroud.",
+    "灰青／古銅"
+  ],
+  "Icefield_7": [
+    "hover",
+    "A BANSHEE, complete spectral adult female silhouette in torn muted burgundy and charcoal dress, pale grey-blue face, long silver hair, clawed arms, floating ragged skirt; frightening sorrowful face, no exposed nudity.",
+    "灰藍／暗酒紅"
+  ],
+  "Icefield_8": [
+    "hover",
+    "A PALE WRAITH, tall narrow translucent smoke-grey cloaked spirit with violet eye slits, long connected tendril arms, a split trailing lower cloak and subtle desaturated green rim accents.",
+    "煙灰／暗紫"
+  ],
+  "Icefield_9": [
+    "walker",
+    "An ICE GOLEM, full squat body of rough opaque pale turquoise glacier slabs, frost-white bevels, two heavy arms and two jointed legs, a small deep sapphire core; jagged ice shoulder plates.",
+    "霜白／寶石藍"
+  ],
+  "Icefield_10": [
+    "hover",
+    "An ICE CRYSTAL ELEMENTAL, a large readable faceted azure central crystal body connected to smaller ice-spike arms by short solid frost bridges, several connected lower crystal roots, pale violet facets.",
+    "冰藍／紫晶"
+  ],
+  "Icefield_11": [
+    "archer",
+    "A full-body SKELETON ARCHER, weathered ivory bones, complete ribcage pelvis and two legs, faded indigo hood and short waist cloth, small rusty recurved bow held with both bony hands and a few arrows in a quiver.",
+    "骨白／靛藍",
+    "skeleton"
+  ],
+  "Icefield_12": [
+    "flyer",
+    "An ICE DRAGON KING, a complete compact western dragon with silver-blue scales, ivory horns, two folded or articulated wings, four clawed legs and a full curled tail; pale cyan ice fins, readable ordinary enemy sprite.",
+    "銀藍／冰青"
+  ],
+  "mist_forest_1": [
+    "quadruped",
+    "A MIST-ANTLER DEER, complete graceful four-legged stag with branching ivory antlers, tawny brown coat, soft pale grey spots and desaturated teal mist markings on flank.",
+    "鹿褐／灰青"
+  ],
+  "mist_forest_2": [
+    "walker",
+    "A ROOTBOUND TREE GUARD, full thick timber humanoid with a stump-like stern face, branching mossy shoulders, two heavy root arms and two complete root legs; warm bark, dark moss and a few ochre leaves.",
+    "樹褐／深苔",
+    "tree"
+  ],
+  "mist_forest_3": [
+    "beetle",
+    "A MOSS-BACK BEETLE, complete six-legged armored forest beetle, broad dark olive wing cases with patches of moss, bronze-brown head and mandibles, jointed hooked feet and short antennae.",
+    "苔綠／青銅"
+  ],
+  "mist_forest_4": [
+    "hover",
+    "A FOREST WIND SPIRIT, compact connected swirl-body with a small dark face, pale desaturated jade ribbons forming two arms, curling leafy lower tendrils, tiny ochre leaf accents; all ribbons connected to body.",
+    "淡玉／葉黃"
+  ],
+  "mist_forest_5": [
+    "walker",
+    "An ANCIENT VINE WALKER, lean full humanoid woven from grey-brown roots and dark green vines, a hollow wooden mask face, two long vine arms and two clearly separated root legs; sparse burgundy leaves.",
+    "藤綠／暗紅"
+  ],
+  "mist_forest_6": [
+    "flyer",
+    "A MIST MOTH, complete large nocturnal moth with a fuzzy plum-brown thorax, two broad muted grey-violet patterned wings, four small curled leg tips and feathery antennae; tiny pale green eyespots.",
+    "霧紫／灰綠"
+  ],
+  "mist_forest_7": [
+    "walker",
+    "A FERN HUNTER, full agile forest creature with a narrow bark mask, tawny moss-fur torso, fern fronds on shoulders, two clawed arms and two digitigrade legs, a short dark-wood hooked spear held in both hands.",
+    "蕨綠／土金"
+  ],
+  "mist_forest_8": [
+    "walker",
+    "A FOREST ROCK COLOSSUS, complete broad grey stone body with moss-filled cracks, an ancient carved face, two massive stone fists and two sturdy jointed legs, a few worn ochre runes.",
+    "石灰／苔綠"
+  ],
+  "mist_forest_9": [
+    "flyer",
+    "A MIST-WING OWL, complete large owl, muted grey-brown feathers with pale cream face disk and chest, amber eyes, full articulated wings, two taloned legs and short tail.",
+    "灰褐／乳白"
+  ],
+  "mist_forest_10": [
+    "walker",
+    "A ROOT WHISKER WATCHER, full tall dry root humanoid with a broad elder tree face, long branching root beard attached to chest, two clawlike branch arms and two root feet, sage-green lichen and tan bark.",
+    "枯褐／鼠尾草"
+  ],
+  "mist_forest_11": [
+    "quadruped",
+    "An EMERALD WIND FOX, full slender fox with complete four legs, a broad flowing single tail curling inward, rust-brown and cream fur with restrained jade-green markings and pale teal eyes.",
+    "狐赭／翠綠"
+  ],
+  "mist_forest_12": [
+    "walker",
+    "A MILLENNIAL FOREST SPIRIT, complete sturdy ancient wooden guardian with a crown of short gnarled branches, ivory bark face, warm dark wood torso, two arm-like boughs and two root legs; moss, a few gold leaves.",
+    "古木／葉金",
+    "tree"
+  ],
+  "lava_mountain_2": [
+    "walker",
+    "A BASALT GUARD, full stocky humanoid of angular charcoal basalt plates, two stone fists and two legs, dull iron-grey shoulder slabs, restrained dark orange core cracks and an ancient stone mask face.",
+    "玄黑／暗橙"
+  ],
+  "lava_mountain_3": [
+    "quadruped",
+    "A CHARFLAME LIZARD, complete four-legged low reptile with blackened charcoal scales, full curled tapering tail, rusty red flank stripes and tiny ember-orange throat highlights. No wings.",
+    "焦黑／炭紅"
+  ],
+  "lava_mountain_4": [
+    "beetle",
+    "A VOLCANIC BEETLE, complete six-legged beetle with thick black-violet carapace, rusty copper mandibles, narrow dull orange seams and short curved horns.",
+    "黑紫／銅橙"
+  ],
+  "lava_mountain_5": [
+    "flyer",
+    "An ASH-WING BAT, compact ash-grey furry bat with full rust-brown membranous wings, pointed ears, two small clawed feet, ember-amber eyes and a little soot on its fur.",
+    "灰燼／銅紅",
+    "bat"
+  ],
+  "lava_mountain_6": [
+    "walker",
+    "An OBSIDIAN GOLEM, complete powerful humanoid of glossy but pixel-shaded black-blue obsidian shards, two heavy fists and two jointed legs, a restrained muted turquoise core and violet edge facets.",
+    "黑曜／暗青"
+  ],
+  "lava_mountain_7": [
+    "quadruped",
+    "A FLAME HOUND, complete muscular four-legged dark brindle dog with a full short tail, charcoal fur, small connected ember mane on shoulders and rusty orange cracks around jaw; not a generic fireball.",
+    "焦褐／焰橙",
+    "wolf"
+  ],
+  "lava_mountain_8": [
+    "crab",
+    "A MOLTEN-CORE CRAB, complete broad armored crab with two big jointed pincers and six visible side walking legs, dark iron-red shell, a small amber molten vent on back and grey ridges.",
+    "鐵紅／熔金"
+  ],
+  "lava_mountain_10": [
+    "flyer",
+    "An EMBER-WING FIREBIRD, complete hawklike bird with full articulated copper-red wings, charcoal feather tips, ochre throat and tail feathers with small connected ember glows; two talons.",
+    "銅紅／焦金"
+  ],
+  "lava_mountain_11": [
+    "walker",
+    "An EARTH-SPLITTING GIANT, complete broad stony humanoid, weathered warm-grey rocky skin, dark rust cloth around waist, two heavy arms and two full legs, a short cracked stone hammer in both hands.",
+    "岩灰／鏽紅"
+  ],
+  "lava_mountain_12": [
+    "walker",
+    "A MOLTEN MOUNTAIN LORD, complete heavily plated volcanic humanoid with basalt shoulder crowns, a stern dark stone face, two thick arms and two rootlike stone legs, muted lava-orange chest seams and dark bronze accents.",
+    "玄岩／熔橙"
+  ],
+  "swamp_6": [
+    "slime",
+    "A MUD CREATURE, squat lumpy umber-grey mud body with a small moss-green nucleus and dark sleepy eye slits, thick viscous folds, a few dull tan clay flecks. Not a humanoid or cartoon face.",
+    "泥褐／苔綠",
+    "slime"
+  ],
+  "swamp_11": [
+    "serpent",
+    "A DEEP-SWAMP WATER SNAKE, complete coiled serpent with a long full tapering tail, olive-black scales, pale ochre belly, rusty red side markings and amber eyes, a broad low venomous head.",
+    "沼綠／赭紅"
+  ],
+  "thunder_peak_1": [
+    "flyer",
+    "A THUNDERFEATHER EAGLE, complete eagle with full steel-blue and charcoal wings, cream head and golden beak/talons, a few sharp pale violet feather accents.",
+    "鋼藍／雷金"
+  ],
+  "thunder_peak_2": [
+    "quadruped",
+    "A GALE MOUNTAIN GOAT, complete four-legged shaggy grey-white mountain goat with large curved bronze-brown horns, dark hooves, a muted teal shoulder marking and tawny beard.",
+    "雪灰／角褐"
+  ],
+  "thunder_peak_3": [
+    "walker",
+    "A LIGHTNING STONE SPIRIT, compact full rocky humanoid of cool grey stone, two fists and two jointed stone legs, a carved angular face and restrained golden crack patterns.",
+    "冷石／電金"
+  ],
+  "thunder_peak_4": [
+    "serpent",
+    "A STORM-WING FLYING SERPENT, complete sinuous slate-purple scaled snake with a full curling tail and two small attached batlike fins/wings behind its head, pale blue underside and ochre eyes.",
+    "嵐紫／霜藍"
+  ],
+  "thunder_peak_5": [
+    "quadruped",
+    "An ELECTRIC LEOPARD, complete lithe four-legged big cat with ochre-grey spotted fur, a full inward-curled tail, small slate-blue electric markings and pale amber eyes.",
+    "豹金／雷藍"
+  ],
+  "thunder_peak_6": [
+    "walker",
+    "A WIND-ERODED GUARDIAN, complete ancient stone-and-bronze armored warrior with a weathered faceplate, two articulated legs, a broad chipped round shield and compact short sword, dusty teal cloth.",
+    "風石／銅青"
+  ],
+  "thunder_peak_7": [
+    "hover",
+    "A RAIN-CLOUD SPIRIT, compact connected layered dark blue-grey cloud body, two hooked cloud arms, a curling pointed lower cloud tail, small pale gold eye slits and subtle lavender inner lightning seams.",
+    "雲灰／淡紫"
+  ],
+  "thunder_peak_8": [
+    "hover",
+    "A STORM BANSHEE, complete spectral adult female figure in flowing dark indigo and slate robes, long pale silver hair, clawed arms and a connected wind-torn lower skirt, small amber eye highlights.",
+    "靛藍／銀白"
+  ],
+  "thunder_peak_10": [
+    "hover",
+    "A SUMMIT WIND SPIRIT, a compact humanoid silhouette built from connected desaturated cyan wind ribbons around a dark stone face, two ribbon arms and one tapering swirl below, bronze talisman on chest.",
+    "風青／古銅"
+  ],
+  "thunder_peak_11": [
+    "quadruped",
+    "A THUNDER QILIN, complete four-legged Eastern chimera with a deerlike body, short dragon muzzle, single branching golden horn, slate-blue scales, cream mane and a full curling tail.",
+    "雷藍／鬃金"
+  ],
+  "thunder_peak_12": [
+    "flyer",
+    "A LORD OF SKY STORMS, complete compact wyvern with slate-violet armored scales, two full wing forelimbs and two hind legs, ivory horns, a full curled tail and muted amber membrane seams.",
+    "嵐紫／淡金"
+  ],
+  "god_battlefield_1": [
+    "hover",
+    "An ANCIENT BATTLE SOUL, complete floating spectral veteran with a tarnished bronze open-face helmet, pale teal skeletal face, tattered dark red cloak, two gaunt arms and connected ghostly lower shroud; holds one short broken sword.",
+    "魂青／暗紅"
+  ],
+  "god_battlefield_2": [
+    "walker",
+    "An ANCIENT DIVINE SOLDIER, complete slender armored humanoid with weathered ivory and bronze plates, a dark mask face, two full legs and both arms, blue-grey cloth, one compact straight sword and small bronze buckler.",
+    "象牙／古銅"
+  ],
+  "god_battlefield_3": [
+    "walker",
+    "A SKYBREAK WAR GENERAL, complete heavily armored ancient warrior with slate steel and worn gold armor, crimson waist cloth, horned faceguard, two legs and two hands on a compact poleaxe.",
+    "鋼灰／戰紅"
+  ],
+  "god_battlefield_4": [
+    "walker",
+    "A FLAME DIVINE GUARD, complete armored warrior of blackened bronze and iron, pale gold faceplate, muted ember-orange chest emblem, dark wine-red cloth, a compact heavy sword held in both hands.",
+    "焦銅／焰橙"
+  ],
+  "god_battlefield_5": [
+    "walker",
+    "A RAGING TITAN, complete massive broad humanoid with rough ash-grey stone-like skin, dark purple cloth belt, two thick full legs and two muscular fists, sparse aged golden chains on wrists.",
+    "灰岩／帝紫"
+  ],
+  "god_battlefield_6": [
+    "walker",
+    "A GOD-DEMON REMNANT, complete reassembled skeletal and stone-bodied monster with ivory ribs, tarnished green bronze armor fragments, an asymmetrical cracked skull, two complete legs and two clawed arms.",
+    "殘骨／銅綠",
+    "skeleton"
+  ],
+  "god_battlefield_7": [
+    "walker",
+    "An IMMORTAL HERO SPIRIT, full armored adult spectral knight with silver-grey plate, pale blue spectral face, faded violet tabard, complete two legs, one short shining ivory sword and a small battered shield.",
+    "銀灰／魂紫"
+  ],
+  "god_battlefield_8": [
+    "hover",
+    "A SWORD OF JUDGEMENT entity: one large complete ancient floating broad sword, weathered silver blade, gold-brown crossguard, dark ruby pommel, a short connected spectral ribbon around hilt suggesting two small arms; no humanoid head or legs.",
+    "古銀／紅晶"
+  ],
+  "god_battlefield_9": [
+    "walker",
+    "A WORLD-RUIN DEMON GENERAL, complete muscular dark basalt-red demon in battered black iron armor, two short ivory horns, two digitigrade legs and two arms, dull teal waist sash, one broad chipped sword.",
+    "暗赤／鐵黑"
+  ],
+  "god_battlefield_10": [
+    "flyer",
+    "An ANCIENT DRAGON SOUL, complete compact translucent jade-grey dragon with four clawed legs, full spectral wings and a curled long tail, bronze horns and ivory chest plates; restrained connected wisps.",
+    "龍魂青／古銅"
+  ],
+  "god_battlefield_11": [
+    "walker",
+    "A WAR DOMINATOR, complete imposing bronze and charcoal armored ancient warrior with a narrow closed helmet, dark crimson capelet, two complete legs, two hands gripping one short trident; all three prongs visible.",
+    "銅金／戰紅"
+  ],
+  "god_battlefield_12": [
+    "quadruped",
+    "A FALLEN-STAR BEHEMOTH, complete heavy four-legged horned beast with charcoal rocky hide, a full short stone tail, dull orange meteor seams and slate violet shoulder crystals.",
+    "隕黑／熔橙"
+  ],
+  "god_chaos_1": [
+    "quadruped",
+    "A CHAOS CUB, complete small but feral four-legged alien beast with mottled indigo fur, a long inward-curled tail, two little bone horns, dark face and restrained dusty magenta markings; no cute puppy eyes.",
+    "混沌藍／暗桃"
+  ],
+  "god_chaos_2": [
+    "walker",
+    "A VOID WALKER, complete lean hooded humanoid with a dark empty face and pale cyan slit eyes, layered charcoal-violet torn robes, two complete thin legs and two long clawed hands, dull silver belt.",
+    "虛空紫／冷銀"
+  ],
+  "god_chaos_3": [
+    "hover",
+    "A SPACE-TIME SPIRIT, complete connected floating spirit with a small faceted bronze clocklike mask, slate-blue spectral torso, two long ribbon arms and tapering violet shroud, tiny pale gold runic marks.",
+    "時藍／古金"
+  ],
+  "god_chaos_4": [
+    "hover",
+    "A RIFT PHANTOM, one complete narrow spectral silhouette in dark teal-grey torn cloak, two connected offset translucent face-like masks forming one head, clawed arms and a connected ragged lower body; not multiple separate characters.",
+    "裂隙青／煙紫"
+  ],
+  "god_chaos_5": [
+    "quadruped",
+    "A CHAOS SOUL-EATER, complete low predatory four-legged creature with leathery dark purple skin, a toothy angular jaw, full barbed curled tail, ivory claws and restrained pale turquoise scars.",
+    "噬魂紫／骨白"
+  ],
+  "god_chaos_6": [
+    "walker",
+    "A SKY-ECLIPSE FIEND, complete hulking grey-black demon with a blunt horned head, two long muscular arms and two digitigrade legs, bone shoulder spikes, a short dusty plum waistcloth and dull amber chest marks.",
+    "煞黑／暗琥珀"
+  ],
+  "god_chaos_7": [
+    "hover",
+    "A VOID EYE monster, one complete dark violet leathery spherical eye with a single pale amber iris, thick charcoal eyelids, six short curved connected tendrils and dull blue ridge plates; no humanoid torso.",
+    "眼紫／琥珀"
+  ],
+  "god_chaos_8": [
+    "hover",
+    "An ELEMENTAL RAGE BODY, complete connected golem-like swirling charcoal form with a small pale mask face, two broad elemental arms and a tapering rooted lower body, restrained blue lightning cracks and rusty orange core.",
+    "元素藍／焰橙"
+  ],
+  "god_chaos_9": [
+    "walker",
+    "A CHAOS EMISSARY, full adult robed cultist monster with an ivory cracked mask, muted wine-purple robes, bronze clasps, two complete legs, holding a small tarnished staff with one teal crystal; no text symbols.",
+    "酒紫／晶青"
+  ],
+  "god_chaos_10": [
+    "quadruped",
+    "A NEBULA BEAST, complete four-legged pantherlike alien with dark desaturated navy fur, a full thick curled tail, short ivory dorsal fins, muted mauve flank spots and pale amber eyes.",
+    "星雲藍／灰桃"
+  ],
+  "god_chaos_11": [
+    "hover",
+    "An EMBER OF CREATION, complete connected small phoenix-like ember spirit with a charcoal core, ochre-orange featherlike flame arms, muted violet inner embers and a tapering connected lower flame plume.",
+    "餘燼金／暗紫"
+  ],
+  "god_chaos_12": [
+    "walker",
+    "A GRAND CHAOS LORD, complete ancient masked humanoid with slate-violet and aged bronze armor, two short swept horns, burgundy cloth panels, two complete legs, holding one compact hooked crescent staff with both hands.",
+    "混沌紫／古銅"
+  ],
+  "god_sanctuary_1": [
+    "hover",
+    "A PATROLLING HOLY LIGHT entity, complete connected small winged lantern-like spirit: ivory faceted core with a stern tiny dark face, two full short pale gold feather wings, muted blue lower ribbon, tarnished bronze frame.",
+    "聖白／暖金"
+  ],
+  "god_sanctuary_2": [
+    "flyer",
+    "An ANGEL, full armored adult androgynous humanoid with complete two legs and two arms, short ash-blond hair, ivory tunic and silver-bronze light armor, two complete pale feather wings and a compact straight sword; no nudity.",
+    "象牙／天藍"
+  ],
+  "god_sanctuary_3": [
+    "archer",
+    "An ANGELIC HUNTRESS, full armored adult female humanoid with complete legs and arms, muted golden-brown hair, slate-blue and cream tunic, bronze bracers, two complete folded pale feather wings, a short recurved bow in both hands.",
+    "天藍／古金"
+  ],
+  "god_sanctuary_4": [
+    "walker",
+    "A JUDGEMENT MESSENGER, complete tall masked ceremonial warrior, cream and dark slate armor, pale gold faceplate, dusty burgundy cloth, two complete legs and two arms holding a compact heavy balance-shaped war hammer.",
+    "聖灰／暗紅"
+  ],
+  "god_sanctuary_5": [
+    "walker",
+    "A SANCTUARY GUARD, complete armored infantry with ivory-grey plate, tarnished gold edges, muted teal waist cloth, two complete legs, one compact spear and small kite shield; all tips fit cell.",
+    "象牙／銅青"
+  ],
+  "god_sanctuary_6": [
+    "flyer",
+    "A RADIANT DRAGON, complete compact pale ivory western dragon with full wings, four clawed legs, a curled full tail, desaturated golden neck plates and muted sky-blue membrane shadows.",
+    "曜白／淡金"
+  ],
+  "god_sanctuary_7": [
+    "walker",
+    "A COLOSSAL SPIRIT STATUE, complete ancient humanoid statue with cream sandstone and aged bronze joints, a stern carved face, two massive arms and two full legs, muted lapis-blue chest inlay and worn cloth sash.",
+    "砂白／青金"
+  ],
+  "god_sanctuary_8": [
+    "hover",
+    "An ETERNAL SPIRIT, complete floating adult humanoid spectral silhouette, pale grey-lavender face, ivory flowing shroud, two long connected arms, a tapering lower robe and muted gold shoulder ornaments.",
+    "靈白／淡紫"
+  ],
+  "god_sanctuary_9": [
+    "walker",
+    "A HOLY LAND ENFORCER, complete stern masked armored warrior with warm grey and bronze armor, deep desaturated blue tabard, two complete legs, a compact square-headed mace in one hand and a small closed ivory law book in the other.",
+    "法灰／深藍"
+  ],
+  "god_sanctuary_10": [
+    "walker",
+    "A GOD-KING GUARD CAPTAIN, full broad ceremonial knight with complete two legs and two arms, worn gold and charcoal steel armor, a short muted crimson cape, crowned closed helmet and a compact broad sword with small shield.",
+    "王金／暗紅"
+  ],
+  "god_sanctuary_11": [
+    "hover",
+    "A WISDOM CRYSTAL, one complete large faceted pale sapphire central crystal inside an aged bronze frame, two short connected crystal fins/arms and a tapered lower point, a small ivory eye-like glint and muted violet facets.",
+    "智藍／古銅"
+  ],
+  "god_sanctuary_12": [
+    "walker",
+    "A SACRED EXECUTIONER, complete tall armored ancient sentinel with ivory and slate-blue plates, tarnished gold faceguard, muted plum waist cloth, two full legs and two hands holding one compact crescent-bladed poleaxe.",
+    "聖銀／灰紫"
+  ]
+}

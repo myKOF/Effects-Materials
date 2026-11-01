@@ -1,0 +1,18 @@
+{
+  "desert_shadow_bat_idle.png": "c9341f01adf278e5ec78d19d0fd65737f7df97bf7addf4cbe0388fc8c43b2b80",
+  "desert_shadow_bat_walk.png": "3b150b6323727489b060da72f1ebdc59ba7bfe336a139d7efce5a909e62246a6",
+  "desert_shadow_bat_attack.png": "e00fb90d8491fc97a7c9b1aa997ad304de5a85511375c3481d28e317a705f829",
+  "desert_shadow_bat_die.png": "c2fb77cd57b2824e9cb9cab97a6359fe8a8a8b020fce0908c3f594b02071584a",
+  "desert_tree_spirit_idle.png": "23e27a7f33ca5fc0f7a3a9e7aa4f3118cc2b364a74bb3cfce7ca337a1cd5239f",
+  "desert_tree_spirit_walk.png": "566120c6b4da20c9bf04cee493c75e2146494c0f7e1912f301895f1a9af47749",
+  "desert_tree_spirit_attack.png": "c492ab323bd2f56bb75d9c0f62fb436f0a368f4e89ffee7599d2dd86295e871f",
+  "desert_tree_spirit_die.png": "4e49a730187f699e825685ca8f11ecc974af75d4ffb0a1e412139297ce972b88",
+  "desert_lizard_warrior_idle.png": "732d6dd1e4e1c0311267b7a38ce91cca324a20ff06bbc5f12a80a01ceabda494",
+  "desert_lizard_warrior_walk.png": "3ece681aaad357cd0fcc79ce55216284fe4948b8a8ce7b54e6d7567326652099",
+  "desert_lizard_warrior_attack.png": "ef9a282e0311a2ab9265b677c72a2908c39f9c31ee95fe91adcb0813fbea8958",
+  "desert_lizard_warrior_die.png": "1f687bd4a7d3a0a4679d47837b210351a6f24ce73afa8c80a360b59d2a2b757a",
+  "desert_orc_idle.png": "89aff41ca9615ac253528cf00358631d3b5f023f363d013bd6ae756c8098a56f",
+  "desert_orc_walk.png": "45f932a620a3b471274f06318fe9ccc182d867a21dd5774dd2a0ba75b362d110",
+  "desert_orc_attack.png": "6b47da8e5a4c1685531b253e2de2391342824311a38618cd725843c8c3dae14e",
+  "desert_orc_die.png": "d4647b4512612ff8b1e890d1f7a79d1740b7f9fe13074c32c095692978207a53"
+}

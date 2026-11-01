@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "description": "原創一般NPC四動作來源、原生Mote與完整匯出索引",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.0",
+    "@napi-rs/canvas": "^0.1.0"
+  },
+  "name": "npc-completion-20261101"
+}

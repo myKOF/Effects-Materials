@@ -1,0 +1,288 @@
+{
+  "npc_mist_forest_10": {
+    "sourceSHA256": "479dbeccb0ce4fc4fca3245f5957af404e19ad0d4c27fa2e5732ce0d1a77f8ef",
+    "outputSHA256": "39b01a574d217fb40f8a921a3a79ebf2ad093f158ca5c82e424c2836beb1f129",
+    "frames": 8,
+    "frameMs": 90,
+    "phases": [
+      "near-contact",
+      "near-support",
+      "far-passing",
+      "far-forward",
+      "far-contact",
+      "far-support",
+      "near-passing",
+      "near-forward"
+    ],
+    "bounds": [
+      {
+        "l": 34,
+        "r": 78,
+        "t": 42,
+        "b": 112,
+        "n": 1823
+      },
+      {
+        "l": 39,
+        "r": 79,
+        "t": 42,
+        "b": 112,
+        "n": 1654
+      },
+      {
+        "l": 38,
+        "r": 77,
+        "t": 43,
+        "b": 112,
+        "n": 1554
+      },
+      {
+        "l": 35,
+        "r": 77,
+        "t": 43,
+        "b": 112,
+        "n": 1738
+      },
+      {
+        "l": 33,
+        "r": 79,
+        "t": 41,
+        "b": 112,
+        "n": 1816
+      },
+      {
+        "l": 39,
+        "r": 78,
+        "t": 42,
+        "b": 112,
+        "n": 1646
+      },
+      {
+        "l": 40,
+        "r": 77,
+        "t": 42,
+        "b": 112,
+        "n": 1557
+      },
+      {
+        "l": 35,
+        "r": 78,
+        "t": 42,
+        "b": 112,
+        "n": 1793
+      }
+    ],
+    "jointGuide": "gait-guide.png",
+    "legs": {
+      "region": {
+        "top": 89,
+        "left": 26,
+        "right": 83,
+        "baseline": 112
+      },
+      "adjacentLowerLegChange": [
+        {
+          "from": 1,
+          "to": 2,
+          "changedPixels": 367,
+          "ratio": 0.5373352855051244
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "changedPixels": 254,
+          "ratio": 0.4774436090225564
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "changedPixels": 403,
+          "ratio": 0.6209553158705701
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "changedPixels": 355,
+          "ratio": 0.4896551724137931
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "changedPixels": 474,
+          "ratio": 0.6345381526104418
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "changedPixels": 212,
+          "ratio": 0.41245136186770426
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "changedPixels": 410,
+          "ratio": 0.6202723146747352
+        },
+        {
+          "from": 8,
+          "to": 1,
+          "changedPixels": 221,
+          "ratio": 0.3333333333333333
+        }
+      ],
+      "footWidths": [
+        43,
+        26,
+        18,
+        40,
+        46,
+        22,
+        21,
+        41
+      ]
+    }
+  },
+  "npc_mist_forest_12": {
+    "sourceSHA256": "db1a9f8bad150db86573a73fb7e3777efa6aa426b8787803dddc53c135801d96",
+    "outputSHA256": "ef43943f6f79cf21a411f3ffe64abc066a0257260fa4f99f0e50fecd5236edb6",
+    "frames": 8,
+    "frameMs": 90,
+    "phases": [
+      "near-contact",
+      "near-support",
+      "far-passing",
+      "far-forward",
+      "far-contact",
+      "far-support",
+      "near-passing",
+      "near-forward"
+    ],
+    "bounds": [
+      {
+        "l": 40,
+        "r": 89,
+        "t": 40,
+        "b": 112,
+        "n": 2192
+      },
+      {
+        "l": 43,
+        "r": 86,
+        "t": 40,
+        "b": 112,
+        "n": 1946
+      },
+      {
+        "l": 43,
+        "r": 86,
+        "t": 40,
+        "b": 112,
+        "n": 1873
+      },
+      {
+        "l": 42,
+        "r": 87,
+        "t": 40,
+        "b": 112,
+        "n": 2083
+      },
+      {
+        "l": 38,
+        "r": 90,
+        "t": 40,
+        "b": 112,
+        "n": 2225
+      },
+      {
+        "l": 43,
+        "r": 86,
+        "t": 40,
+        "b": 112,
+        "n": 1924
+      },
+      {
+        "l": 43,
+        "r": 85,
+        "t": 40,
+        "b": 112,
+        "n": 1940
+      },
+      {
+        "l": 43,
+        "r": 88,
+        "t": 40,
+        "b": 112,
+        "n": 2091
+      }
+    ],
+    "jointGuide": "gait-guide.png",
+    "legs": {
+      "region": {
+        "top": 88,
+        "left": 31,
+        "right": 90,
+        "baseline": 112
+      },
+      "adjacentLowerLegChange": [
+        {
+          "from": 1,
+          "to": 2,
+          "changedPixels": 518,
+          "ratio": 0.5755555555555556
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "changedPixels": 248,
+          "ratio": 0.41471571906354515
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "changedPixels": 534,
+          "ratio": 0.6617100371747212
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "changedPixels": 283,
+          "ratio": 0.336104513064133
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "changedPixels": 615,
+          "ratio": 0.6612903225806451
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "changedPixels": 245,
+          "ratio": 0.39708265802269044
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "changedPixels": 452,
+          "ratio": 0.5802310654685494
+        },
+        {
+          "from": 8,
+          "to": 1,
+          "changedPixels": 263,
+          "ratio": 0.32112332112332115
+        }
+      ],
+      "footWidths": [
+        49,
+        26,
+        17,
+        44,
+        52,
+        24,
+        19,
+        44
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "key": "desert_shadow_bat",
+    "id": "desert_5",
+    "name": "暗影蝠",
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "靛紫／暗紅",
+    "subject": "One original SHADOW BAT (暗影蝠), a sinister small natural bat monster, compact charcoal-indigo furry body, recognizable pointed ears and little amber eyes, full symmetrical articulated forelimb wings in three-quarter LEFT view with dark plum/wine-red membranes, tiny claws and feet. Not a vampire person, dragon, bird, floating skull, or cute cartoon. Restrained indigo-charcoal/plum body with a few warm amber pixels. Complete wings always visible, even maximum span; make the whole bat small enough for its wing tips to stay within the central 60% of every cell.\nIDLE six hovering wingbeat poses: high raised wings, half-down, wide spread, low cupped, upstroke, almost raised; head/body stays near a consistent hovering center around 50% of cell height, not standing on ground. MOVE is a different forward-flight wing cycle, body leans LEFT, wings sweep back, articulated fingers and membranes fold and unfold. ATTACK is a visible magical shriek/spit: hover ready, wings draw back, head recoils, jaws open toward LEFT with one tiny attached muted violet flash at the mouth, wings brace, close jaws and recover; no large detached projectile crossing cells. DIE: startled recoil in air, wings crumple, bat tilts and drops, lands at the 86% ground baseline, wings fold around body, final small full-body grounded bat corpse; no graphic gore.",
+    "hoverLift": 18
+  },
+  {
+    "key": "desert_tree_spirit",
+    "id": "desert_6",
+    "name": "樹妖",
+    "nativeHeight": 82,
+    "height": 62,
+    "color": "枯木褐／苔綠",
+    "subject": "One original TREE SPIRIT / TREANT (樹妖), a full-body animated gnarled tree monster. Heavy weathered umber-grey trunk torso, a clear stern face formed from bark knots with two small amber eye slits, crooked branch crown, TWO thick branching arms and hands, TWO separated articulated root legs/feet. Sparse desaturated moss-green leaves and a little pale lichen are modest color accents; mostly readable dry bark and root anatomy. No human armor, no staff, not a static tree stump, not a branch-only half body, no cute face. Match the grounded detailed low-res skeleton style. All branch tips and roots fully inside each cell.\nIDLE: subtle torso/branch breathing and tiny leaf motion, root feet grounded. MOVE: six heavy walking poses with clearly alternating root knees/feet, trunk and arms counter-swing, do not slide a static tree. ATTACK: ready, trunk twists backward, raises one thick branch arm, heavy downward branch-claw swipe/slam toward LEFT, follow-through, recover; other root arm balances. DIE: recoil, root knees buckle, trunk lists, falls onto side, branches/roots settle, a low complete wooden corpse remains. No giant explosion, no extra trees or detached decorative foliage outside the cell."
+  },
+  {
+    "key": "desert_lizard_warrior",
+    "id": "desert_7",
+    "name": "蜥蜴戰士",
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "青綠／青銅",
+    "subject": "One original LIZARD WARRIOR (蜥蜴戰士), a full-body lean reptilian humanoid with a long angular lizard snout, small ochre eyes, teal/sage-green scales with pale warm belly, a short low dorsal crest, two clawed arms, TWO digitigrade articulated legs and two clawed feet, and a COMPLETE long tapering tail curling inward behind it so it fits its cell. Weathered bronze shoulder scale and wrist bands, sparse brown leather straps and a muted rust-red waist cloth. Carries ONE compact bronze-tipped SHORT SPEAR in both hands, NO shield. The spear shaft and tip must fit inside the cell in every thrust. Reptilian, not a human in a lizard mask, not a dragon with wings, no modern weapons. Limited teal/bronze/rust accent colors with dark contours.\nIDLE: guarded slight breathing, short spear diagonal across torso, complete feet and tail. MOVE: six crouched stalking/walking poses with alternating knee/hock/feet articulation, tail counterbalances, spear held steadily. ATTACK: ready, pull spear toward rear, brace legs, thrust spear strongly LEFT, follow-through, pull back to guard; both hands visibly hold shaft throughout. DIE: recoil, knees collapse, tips sideways, body and spear hit ground, tail curls and settles, final complete reptile corpse with spear. No tail being cut off and no graphic gore."
+  },
+  {
+    "key": "desert_orc",
+    "id": "desert_8",
+    "name": "半獸人",
+    "nativeHeight": 78,
+    "height": 58,
+    "color": "灰橄欖／赭紅",
+    "subject": "One original ORC / HALF-BEAST BRUTE (半獸人), a full-body broad heavy muscular humanoid, much broader shoulders and more massive anatomy than the previously drawn small goblin. Rough grey-olive skin, short low brow and broad flattened nose, two small visible upward lower tusks, tiny amber eyes, short dark coarse hair, complete TWO arms/hands and TWO strong legs/feet. Battered dark iron shoulder plate and forearm bracer, brown leather belts and boots, short dusty russet-red waist wrap with a little dull bone ornament. Holds a broad chipped heavy IRON CHOPPER / short cleaver in its right hand, empty left fist. Not a goblin, pig animal, human bandit, giant boss, or futuristic soldier. Grounded ordinary enemy scale, restrained grey-olive/iron/leather/russet colors, same dark outlined pixel-art detail as our skeletons. All body parts and blade stay inside cell margins.\nIDLE: heavy chest/shoulder breathing, chopper low and left fist clenched. MOVE: six weighty strides with alternating thighs/knees/feet and shoulder/weapon counter-swing; articulate, do not translate a static body. ATTACK: ready, pull blade back, lift blade and shoulder, heavy diagonal chopping strike toward LEFT, broad follow-through, recover. DIE: recoil, knees buckle, stumble sideways, fall to side, chopper/full body settle, final complete orc corpse, no graphic gore."
+  }
+]

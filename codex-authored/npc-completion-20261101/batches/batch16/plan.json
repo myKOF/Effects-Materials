@@ -1,0 +1,50 @@
+[
+  {
+    "id": "god_battlefield_2",
+    "name": "遠古神兵",
+    "key": "npc_god_battlefield_2",
+    "batch": 16,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "象牙／古銅",
+    "type": "walker",
+    "subject": "An ANCIENT DIVINE SOLDIER, complete slender armored humanoid with weathered ivory and bronze plates, a dark mask face, two full legs and both arms, blue-grey cloth, one compact straight sword and small bronze buckler.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_battlefield_3",
+    "name": "破天戰將",
+    "key": "npc_god_battlefield_3",
+    "batch": 16,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "鋼灰／戰紅",
+    "type": "walker",
+    "subject": "A SKYBREAK WAR GENERAL, complete heavily armored ancient warrior with slate steel and worn gold armor, crimson waist cloth, horned faceguard, two legs and two hands on a compact poleaxe.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_battlefield_4",
+    "name": "烈焰神衛",
+    "key": "npc_god_battlefield_4",
+    "batch": 16,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "焦銅／焰橙",
+    "type": "walker",
+    "subject": "A FLAME DIVINE GUARD, complete armored warrior of blackened bronze and iron, pale gold faceplate, muted ember-orange chest emblem, dark wine-red cloth, a compact heavy sword held in both hands.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_battlefield_5",
+    "name": "狂暴泰坦",
+    "key": "npc_god_battlefield_5",
+    "batch": 16,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "灰岩／帝紫",
+    "type": "walker",
+    "subject": "A RAGING TITAN, complete massive broad humanoid with rough ash-grey stone-like skin, dark purple cloth belt, two thick full legs and two muscular fists, sparse aged golden chains on wrists.",
+    "readyStartFallback": true
+  }
+]

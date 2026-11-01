@@ -1,0 +1,10 @@
+'use strict';
+const fs=require('fs'),path=require('path'),assert=require('assert/strict'),crypto=require('crypto'),root=__dirname,sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+function exportAssets(game,mode){assert.ok(['--apply','--check','--source-check'].includes(mode));const index=JSON.parse(fs.readFileSync(root+'/asset-index.json')),extra=JSON.parse(fs.readFileSync(root+'/candidate-manifest.json')),hashes=JSON.parse(fs.readFileSync(root+'/sha256.json')),nativeHashes=JSON.parse(fs.readFileSync(root+'/native-sha256.json')),dir=path.join(path.resolve(game),'images/sprites/npc'),file=path.join(dir,'npc.json'),m=mode==='--source-check'?extra:JSON.parse(fs.readFileSync(file));assert.equal(index.characters.length,87);assert.equal(index.assets.length,348);const folders=new Set();
+ for(const a of index.assets)folders.add(path.dirname(path.dirname(path.resolve(root,a.file))));for(const folder of folders)require('../npc-walk-cycles-20261102/verify.cjs').verify(folder);
+ for(const a of index.assets){const source=path.resolve(root,a.file),native=path.resolve(root,a.native);assert.ok(source.startsWith(root+path.sep)&&native.startsWith(root+path.sep));const bytes=fs.readFileSync(source),meta=extra.stems[a.stem],c=extra.chars[meta.char];assert.equal(sha(bytes),a.sha256);assert.equal(a.sha256,hashes[a.stem+'.png']);assert.equal(sha(fs.readFileSync(native)),a.nativeSHA256);assert.equal(a.nativeSHA256,nativeHashes[a.stem+'.mote']);assert.equal(bytes.readUInt32BE(16),c.cellW*meta.frames);assert.equal(bytes.readUInt32BE(20),c.cellH);
+  if(mode==='--source-check')continue;if(mode==='--apply'){fs.writeFileSync(path.join(dir,a.stem+'.png'),bytes);m.stems[a.stem]=meta;m.chars[meta.char]=c;}assert.equal(sha(fs.readFileSync(path.join(dir,a.stem+'.png'))),a.sha256);assert.deepEqual(m.stems[a.stem],meta);assert.deepEqual(m.chars[meta.char],c);
+ }
+ if(mode==='--apply')fs.writeFileSync(file,JSON.stringify(m,null,1)+'\n');console.log('All-NPC source package: 87 characters / 348 PNG + Mote hashes and metadata match ('+mode+').');
+}
+if(require.main===module)exportAssets(process.argv[2],process.argv[3]);module.exports={exportAssets};

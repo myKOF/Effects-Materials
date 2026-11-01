@@ -1,0 +1,52 @@
+[
+  {
+    "id": "god_sanctuary_6",
+    "name": "曜光巨龍",
+    "key": "npc_god_sanctuary_6",
+    "batch": 23,
+    "nativeHeight": 70,
+    "height": 52,
+    "color": "曜白／淡金",
+    "type": "flyer",
+    "subject": "A RADIANT DRAGON, complete compact pale ivory western dragon with full wings, four clawed legs, a curled full tail, desaturated golden neck plates and muted sky-blue membrane shadows.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_sanctuary_7",
+    "name": "巨靈像",
+    "key": "npc_god_sanctuary_7",
+    "batch": 23,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "砂白／青金",
+    "type": "walker",
+    "subject": "A COLOSSAL SPIRIT STATUE, complete ancient humanoid statue with cream sandstone and aged bronze joints, a stern carved face, two massive arms and two full legs, muted lapis-blue chest inlay and worn cloth sash.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_sanctuary_8",
+    "name": "永恒靈體",
+    "key": "npc_god_sanctuary_8",
+    "batch": 23,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "靈白／淡紫",
+    "type": "hover",
+    "subject": "An ETERNAL SPIRIT, complete floating adult humanoid spectral silhouette, pale grey-lavender face, ivory flowing shroud, two long connected arms, a tapering lower robe and muted gold shoulder ornaments.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "god_sanctuary_9",
+    "name": "聖地執法者",
+    "key": "npc_god_sanctuary_9",
+    "batch": 23,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "法灰／深藍",
+    "type": "walker",
+    "subject": "A HOLY LAND ENFORCER, complete stern masked armored warrior with warm grey and bronze armor, deep desaturated blue tabard, two complete legs, a compact square-headed mace in one hand and a small closed ivory law book in the other.",
+    "readyStartFallback": true
+  }
+]

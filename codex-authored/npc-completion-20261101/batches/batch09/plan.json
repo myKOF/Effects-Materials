@@ -1,0 +1,52 @@
+[
+  {
+    "id": "mist_forest_9",
+    "name": "霧翼梟",
+    "key": "npc_mist_forest_9",
+    "batch": 9,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "灰褐／乳白",
+    "type": "flyer",
+    "subject": "A MIST-WING OWL, complete large owl, muted grey-brown feathers with pale cream face disk and chest, amber eyes, full articulated wings, two taloned legs and short tail.",
+    "hoverLift": 14,
+    "readyStartFallback": true
+  },
+  {
+    "id": "mist_forest_10",
+    "name": "根鬚守望者",
+    "key": "npc_mist_forest_10",
+    "batch": 9,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "枯褐／鼠尾草",
+    "type": "walker",
+    "subject": "A ROOT WHISKER WATCHER, full tall dry root humanoid with a broad elder tree face, long branching root beard attached to chest, two clawlike branch arms and two root feet, sage-green lichen and tan bark.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "mist_forest_11",
+    "name": "翠風妖狐",
+    "key": "npc_mist_forest_11",
+    "batch": 9,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "狐赭／翠綠",
+    "type": "quadruped",
+    "subject": "An EMERALD WIND FOX, full slender fox with complete four legs, a broad flowing single tail curling inward, rust-brown and cream fur with restrained jade-green markings and pale teal eyes.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "mist_forest_12",
+    "name": "千年森靈",
+    "key": "npc_mist_forest_12",
+    "batch": 9,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "古木／葉金",
+    "type": "walker",
+    "subject": "A MILLENNIAL FOREST SPIRIT, complete sturdy ancient wooden guardian with a crown of short gnarled branches, ivory bark face, warm dark wood torso, two arm-like boughs and two root legs; moss, a few gold leaves.",
+    "variant": "tree",
+    "readyStartFallback": true
+  }
+]

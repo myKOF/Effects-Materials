@@ -1,0 +1,145 @@
+{
+  "npc_lava_mountain_2": {
+    "sourceSHA256": "f0489e0d09a5076f689ce08acbf74da8fc72410c2a9ac276f9757de9e4c0e66d",
+    "outputSHA256": "644dc4155023b75a1700e9736eecb58fda583303001fb50a0593cce21e10caf7",
+    "frames": 8,
+    "frameMs": 90,
+    "phases": [
+      "near-contact",
+      "near-support",
+      "far-passing",
+      "far-forward",
+      "far-contact",
+      "far-support",
+      "near-passing",
+      "near-forward"
+    ],
+    "bounds": [
+      {
+        "l": 36,
+        "r": 95,
+        "t": 41,
+        "b": 112,
+        "n": 2531
+      },
+      {
+        "l": 40,
+        "r": 91,
+        "t": 40,
+        "b": 112,
+        "n": 2210
+      },
+      {
+        "l": 39,
+        "r": 92,
+        "t": 40,
+        "b": 112,
+        "n": 2209
+      },
+      {
+        "l": 37,
+        "r": 95,
+        "t": 41,
+        "b": 112,
+        "n": 2484
+      },
+      {
+        "l": 36,
+        "r": 96,
+        "t": 40,
+        "b": 112,
+        "n": 2470
+      },
+      {
+        "l": 39,
+        "r": 94,
+        "t": 40,
+        "b": 112,
+        "n": 2271
+      },
+      {
+        "l": 41,
+        "r": 91,
+        "t": 40,
+        "b": 112,
+        "n": 2179
+      },
+      {
+        "l": 36,
+        "r": 95,
+        "t": 41,
+        "b": 112,
+        "n": 2456
+      }
+    ],
+    "jointGuide": "gait-guide.png",
+    "legs": {
+      "region": {
+        "top": 88,
+        "left": 34,
+        "right": 93,
+        "baseline": 112
+      },
+      "adjacentLowerLegChange": [
+        {
+          "from": 1,
+          "to": 2,
+          "changedPixels": 573,
+          "ratio": 0.6467268623024831
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "changedPixels": 118,
+          "ratio": 0.23274161735700197
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "changedPixels": 622,
+          "ratio": 0.7309048178613397
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "changedPixels": 228,
+          "ratio": 0.2980392156862745
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "changedPixels": 687,
+          "ratio": 0.7532894736842105
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "changedPixels": 263,
+          "ratio": 0.4457627118644068
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "changedPixels": 642,
+          "ratio": 0.7387802071346375
+        },
+        {
+          "from": 8,
+          "to": 1,
+          "changedPixels": 283,
+          "ratio": 0.33690476190476193
+        }
+      ],
+      "footWidths": [
+        46,
+        23,
+        20,
+        45,
+        51,
+        25,
+        19,
+        48
+      ]
+    }
+  }
+}

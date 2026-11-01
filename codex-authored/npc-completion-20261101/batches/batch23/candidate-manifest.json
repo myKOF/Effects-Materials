@@ -1,0 +1,154 @@
+{
+  "chars": {
+    "npc_god_sanctuary_6": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7429,
+      "facing": -1,
+      "height": 52
+    },
+    "npc_god_sanctuary_7": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "npc_god_sanctuary_8": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7188,
+      "facing": -1,
+      "height": 46
+    },
+    "npc_god_sanctuary_9": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    }
+  },
+  "stems": {
+    "npc_god_sanctuary_6_idle": {
+      "char": "npc_god_sanctuary_6",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    },
+    "npc_god_sanctuary_6_walk": {
+      "char": "npc_god_sanctuary_6",
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "hold": false
+    },
+    "npc_god_sanctuary_6_attack": {
+      "char": "npc_god_sanctuary_6",
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "hold": false
+    },
+    "npc_god_sanctuary_6_die": {
+      "char": "npc_god_sanctuary_6",
+      "frames": 6,
+      "fps": 8.333333333333334,
+      "loop": false,
+      "hold": true
+    },
+    "npc_god_sanctuary_7_idle": {
+      "char": "npc_god_sanctuary_7",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    },
+    "npc_god_sanctuary_7_walk": {
+      "char": "npc_god_sanctuary_7",
+      "frames": 8,
+      "fps": 11.11111111111111,
+      "loop": true,
+      "hold": false
+    },
+    "npc_god_sanctuary_7_attack": {
+      "char": "npc_god_sanctuary_7",
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "hold": false
+    },
+    "npc_god_sanctuary_7_die": {
+      "char": "npc_god_sanctuary_7",
+      "frames": 6,
+      "fps": 8.333333333333334,
+      "loop": false,
+      "hold": true
+    },
+    "npc_god_sanctuary_8_idle": {
+      "char": "npc_god_sanctuary_8",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    },
+    "npc_god_sanctuary_8_walk": {
+      "char": "npc_god_sanctuary_8",
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "hold": false
+    },
+    "npc_god_sanctuary_8_attack": {
+      "char": "npc_god_sanctuary_8",
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "hold": false
+    },
+    "npc_god_sanctuary_8_die": {
+      "char": "npc_god_sanctuary_8",
+      "frames": 6,
+      "fps": 8.333333333333334,
+      "loop": false,
+      "hold": true
+    },
+    "npc_god_sanctuary_9_idle": {
+      "char": "npc_god_sanctuary_9",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    },
+    "npc_god_sanctuary_9_walk": {
+      "char": "npc_god_sanctuary_9",
+      "frames": 8,
+      "fps": 11.11111111111111,
+      "loop": true,
+      "hold": false
+    },
+    "npc_god_sanctuary_9_attack": {
+      "char": "npc_god_sanctuary_9",
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "hold": false
+    },
+    "npc_god_sanctuary_9_die": {
+      "char": "npc_god_sanctuary_9",
+      "frames": 6,
+      "fps": 8.333333333333334,
+      "loop": false,
+      "hold": true
+    }
+  }
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "mist_forest_1",
+    "name": "霧角鹿",
+    "key": "npc_mist_forest_1",
+    "batch": 7,
+    "nativeHeight": 54,
+    "height": 38,
+    "color": "鹿褐／灰青",
+    "type": "quadruped",
+    "subject": "A MIST-ANTLER DEER, complete graceful four-legged stag with branching ivory antlers, tawny brown coat, soft pale grey spots and desaturated teal mist markings on flank.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "mist_forest_2",
+    "name": "盤根樹衛",
+    "key": "npc_mist_forest_2",
+    "batch": 7,
+    "nativeHeight": 72,
+    "height": 54,
+    "color": "樹褐／深苔",
+    "type": "walker",
+    "subject": "A ROOTBOUND TREE GUARD, full thick timber humanoid with a stump-like stern face, branching mossy shoulders, two heavy root arms and two complete root legs; warm bark, dark moss and a few ochre leaves.",
+    "variant": "tree",
+    "readyStartFallback": true
+  },
+  {
+    "id": "mist_forest_3",
+    "name": "苔背甲蟲",
+    "key": "npc_mist_forest_3",
+    "batch": 7,
+    "nativeHeight": 50,
+    "height": 34,
+    "color": "苔綠／青銅",
+    "type": "beetle",
+    "subject": "A MOSS-BACK BEETLE, complete six-legged armored forest beetle, broad dark olive wing cases with patches of moss, bronze-brown head and mandibles, jointed hooked feet and short antennae.",
+    "readyStartFallback": true
+  },
+  {
+    "id": "mist_forest_4",
+    "name": "林間風靈",
+    "key": "npc_mist_forest_4",
+    "batch": 7,
+    "nativeHeight": 64,
+    "height": 46,
+    "color": "淡玉／葉黃",
+    "type": "hover",
+    "subject": "A FOREST WIND SPIRIT, compact connected swirl-body with a small dark face, pale desaturated jade ribbons forming two arms, curling leafy lower tendrils, tiny ochre leaf accents; all ribbons connected to body.",
+    "hoverLift": 14,
+    "readyStartFallback": true,
+    "poseOverrides": {
+      "attack": {
+        "2": {
+          "file": "sources/npc_mist_forest_4-attack-2-replacement.png",
+          "heightRatio": 1
+        }
+      }
+    }
+  }
+]
