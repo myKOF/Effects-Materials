@@ -1,0 +1,1 @@
+{"private":true,"description":"Approved first desert NPC batch, four original pixel characters and sixteen animations","engines":{"node":">=20"},"dependencies":{"pngjs":"^7.0.0","sharp":"^0.34.0","@napi-rs/canvas":"^0.1.0"}}

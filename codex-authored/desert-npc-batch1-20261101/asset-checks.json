@@ -1,0 +1,41 @@
+{
+  "status": "Approved GIF — replacement authorized",
+  "characters": 4,
+  "strips": 16,
+  "poses": 96,
+  "nativePixels": true,
+  "gifs": {
+    "desert_slime": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "desert_goblin": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "desert_wolf": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    },
+    "desert_skeleton": {
+      "frames": 36,
+      "frameMs": 80,
+      "totalMs": 2880,
+      "loop": 0,
+      "width": 512,
+      "height": 576
+    }
+  }
+}
