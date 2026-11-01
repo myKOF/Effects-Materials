@@ -1,0 +1,6 @@
+{
+  "swamp_8": {"oldChar":"memento_skeleton","char":"skeleton_mage_book","name":"骷髏咒書師","appearance":"💀","magic":true,"runSpeed":6,"atkRange":24},
+  "swamp_10": {"oldChar":"cheeky_devil","char":"skeleton_warrior_sword","name":"骷髏劍盾兵","appearance":"💀"},
+  "swamp_12": {"oldChar":"hell_giant","char":"skeleton_warrior_axe","name":"骷髏斧衛","appearance":"💀"},
+  "undead_12": {"oldChar":"the_devil","char":"skeleton_mage_staff","name":"骷髏杖法師","appearance":"skeleton_mage_staff","magic":true,"runSpeed":6,"atkRange":24}
+}

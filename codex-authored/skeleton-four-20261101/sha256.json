@@ -1,0 +1,18 @@
+{
+  "skeleton_mage_book_attack.png": "5ead164117458eda637bd15248c9f65145594aacdc6a5b39f52093e9e8116bb3",
+  "skeleton_mage_book_die.png": "7bdc9aaff0f870eeb57468d31ce294a5572f99da5af7502da18d517a085f4396",
+  "skeleton_mage_book_idle.png": "4390e350c9db4b7b4827a7df4089b474e555a55b7c22836c30f96f188952a3c5",
+  "skeleton_mage_book_walk.png": "47885fa6e2240bb45b24855ef77d7d05a5483bdb2cf5c70e58a9f3e3beb37011",
+  "skeleton_mage_staff_attack.png": "eba3890153b6321760fef35b524df0cbeac89cc31889bbc11da3c0e56b2d5f72",
+  "skeleton_mage_staff_die.png": "101a17d12ff5b00d9cf91b1e8c611a72ad1b911d9b5a1cb9c80ae63cd7f3828d",
+  "skeleton_mage_staff_idle.png": "6a817d67c1873a642324b09d7400a3c15388b339785bf31316a78eb0101e8f3a",
+  "skeleton_mage_staff_walk.png": "7532104523ca768ec8b55bfb6a7cece2867306541bfe75ecc20058b25401a8a4",
+  "skeleton_warrior_axe_attack.png": "c57c3ed98d8cb330c1beb8e9e56a3663b92e6516db2ed9e8217d71babdc5d01c",
+  "skeleton_warrior_axe_die.png": "c49d695c0669ea0200332673104d093fa581ea78afcafe4239b0fd288bac4b26",
+  "skeleton_warrior_axe_idle.png": "0b39b0f5f1016fa74a49a8da7cefe61bd92f862ffec24231af4682346112fc6f",
+  "skeleton_warrior_axe_walk.png": "fdf23f248d26fd4fab77b650db7ba5c78ae5bb88076971c156502b44f8660935",
+  "skeleton_warrior_sword_attack.png": "675f41790e4931f4bb987cb6df7720d6fb0872616cc6257086e92f13def6d41e",
+  "skeleton_warrior_sword_die.png": "a62ddd6fbfa79c60a58b6dc59bd77c2de922cc2abb00fd8ab8ceb786fb08397b",
+  "skeleton_warrior_sword_idle.png": "36764be8f8dce18fba370126cfe62009ebcfe0f7a0b89b5e1e821d7855fd6027",
+  "skeleton_warrior_sword_walk.png": "eb1b47743ea7752db91d319e8891c146441b0d8067e1bb39a2b63e9b4d3f6eaf"
+}
