@@ -23,3 +23,5 @@
 同輪最後暫存時新增的使用者proj-starfall Preset／layout亦保存快照，與遊戲index版本逐位元相同。
 
 2026-10-21 隕石坑49%確認時一併保存使用者已儲存的proj-meteor-inferno與en-burst-fire-shockwave-small Preset／layout，直接複製編輯器值、不重製外觀。
+
+2026-11-01：依使用者『做完可以直接commit，包含我改的一起』保存本次已儲存的burst-frost-nova.json。直接同步遊戲編輯器輸出，保持使用者縮放／位置／粒子值，不重製外觀；沿用既有assetId與授權、未新增外部素材。SHA256：1fce71c345c6d4c09f7b96ca0f0ef4c9881313286ee660db17d8e053896351ec；格式驗證與正式出貨素材檢查通過。舊layout未改。
