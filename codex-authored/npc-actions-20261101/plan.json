@@ -1,0 +1,487 @@
+{
+  "version": 1,
+  "chars": {
+    "burning_skull": {
+      "char": "burning_skull",
+      "ids": [
+        "lava_mountain_1"
+      ],
+      "names": [
+        "燃燒骷髏"
+      ],
+      "missing": [
+        "walk",
+        "attack"
+      ],
+      "idle": "burning_skull_idle",
+      "meta": {
+        "cellW": 64,
+        "cellH": 64,
+        "anchorX": 0.5156,
+        "anchorY": 0.75,
+        "scale": 1.1111,
+        "facing": 1,
+        "height": 50
+      },
+      "idleMeta": {
+        "char": "burning_skull",
+        "frames": 5,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "demon_eye": {
+      "char": "demon_eye",
+      "ids": [
+        "swamp_3"
+      ],
+      "names": [
+        "沼澤魔眼"
+      ],
+      "missing": [
+        "walk",
+        "attack"
+      ],
+      "idle": "demon_eye_idle",
+      "meta": {
+        "cellW": 64,
+        "cellH": 64,
+        "anchorX": 0.5078,
+        "anchorY": 0.875,
+        "scale": 1.2821,
+        "facing": -1,
+        "height": 50
+      },
+      "idleMeta": {
+        "char": "demon_eye",
+        "frames": 7,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "demon_mine": {
+      "char": "demon_mine",
+      "ids": [
+        "swamp_5"
+      ],
+      "names": [
+        "瘴氣地雷魔"
+      ],
+      "missing": [
+        "walk",
+        "attack"
+      ],
+      "idle": "demon_mine_idle",
+      "meta": {
+        "cellW": 64,
+        "cellH": 64,
+        "anchorX": 0.4922,
+        "anchorY": 0.8281,
+        "scale": 1.0256,
+        "facing": 1,
+        "height": 40
+      },
+      "idleMeta": {
+        "char": "demon_mine",
+        "frames": 6,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "plague_flies": {
+      "char": "plague_flies",
+      "ids": [
+        "swamp_7"
+      ],
+      "names": [
+        "毒蚊群"
+      ],
+      "missing": [
+        "walk",
+        "attack"
+      ],
+      "idle": "plague_flies_idle",
+      "meta": {
+        "cellW": 32,
+        "cellH": 32,
+        "anchorX": 0.5,
+        "anchorY": 0.7812,
+        "scale": 1.0732,
+        "facing": 1,
+        "height": 22
+      },
+      "idleMeta": {
+        "char": "plague_flies",
+        "frames": 4,
+        "fps": 14,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "memento_skeleton": {
+      "char": "memento_skeleton",
+      "ids": [
+        "swamp_8"
+      ],
+      "names": [
+        "枯骨抄寫者"
+      ],
+      "missing": [
+        "walk",
+        "attack",
+        "die"
+      ],
+      "idle": "memento_skeleton_idle",
+      "meta": {
+        "cellW": 128,
+        "cellH": 64,
+        "anchorX": 0.5078,
+        "anchorY": 1,
+        "scale": 0.9062,
+        "facing": -1,
+        "height": 58
+      },
+      "idleMeta": {
+        "char": "memento_skeleton",
+        "frames": 24,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "tree_damned": {
+      "char": "tree_damned",
+      "ids": [
+        "swamp_9"
+      ],
+      "names": [
+        "腐爛樹人"
+      ],
+      "missing": [
+        "walk",
+        "attack"
+      ],
+      "idle": "tree_damned_idle",
+      "meta": {
+        "cellW": 64,
+        "cellH": 64,
+        "anchorX": 0.4688,
+        "anchorY": 1,
+        "scale": 1.2157,
+        "facing": 1,
+        "height": 62
+      },
+      "idleMeta": {
+        "char": "tree_damned",
+        "frames": 1,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "cheeky_devil": {
+      "char": "cheeky_devil",
+      "ids": [
+        "swamp_10"
+      ],
+      "names": [
+        "頑皮小惡魔"
+      ],
+      "missing": [
+        "walk",
+        "attack",
+        "die"
+      ],
+      "idle": "cheeky_devil_idle",
+      "meta": {
+        "cellW": 64,
+        "cellH": 64,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "scale": 1.2414,
+        "facing": -1,
+        "height": 54
+      },
+      "idleMeta": {
+        "char": "cheeky_devil",
+        "frames": 10,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "hell_giant": {
+      "char": "hell_giant",
+      "ids": [
+        "swamp_12"
+      ],
+      "names": [
+        "赤膚獄巨魔"
+      ],
+      "missing": [
+        "walk",
+        "attack",
+        "die"
+      ],
+      "idle": "hell_giant_idle",
+      "meta": {
+        "cellW": 112,
+        "cellH": 128,
+        "anchorX": 0.5045,
+        "anchorY": 1,
+        "scale": 0.7541,
+        "facing": 1,
+        "height": 92
+      },
+      "idleMeta": {
+        "char": "hell_giant",
+        "frames": 10,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "flying_demon_head": {
+      "char": "flying_demon_head",
+      "ids": [
+        "undead_2"
+      ],
+      "names": [
+        "嗜血飛首"
+      ],
+      "missing": [
+        "walk",
+        "attack"
+      ],
+      "idle": "flying_demon_head_idle",
+      "meta": {
+        "cellW": 64,
+        "cellH": 64,
+        "anchorX": 0.5234,
+        "anchorY": 0.7031,
+        "scale": 1.5385,
+        "facing": -1,
+        "height": 40
+      },
+      "idleMeta": {
+        "char": "flying_demon_head",
+        "frames": 5,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "old_demon": {
+      "char": "old_demon",
+      "ids": [
+        "undead_4"
+      ],
+      "names": [
+        "枯杖老魔"
+      ],
+      "missing": [
+        "walk",
+        "attack",
+        "die"
+      ],
+      "idle": "old_demon_idle",
+      "meta": {
+        "cellW": 80,
+        "cellH": 64,
+        "anchorX": 0.5062,
+        "anchorY": 1,
+        "scale": 1.0545,
+        "facing": -1,
+        "height": 58
+      },
+      "idleMeta": {
+        "char": "old_demon",
+        "frames": 7,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "large_skull": {
+      "char": "large_skull",
+      "ids": [
+        "undead_6"
+      ],
+      "names": [
+        "紅袍巨顱"
+      ],
+      "missing": [
+        "walk"
+      ],
+      "idle": "large_skull_idle",
+      "meta": {
+        "cellW": 128,
+        "cellH": 128,
+        "anchorX": 0.5156,
+        "anchorY": 0.8555,
+        "scale": 0.7885,
+        "facing": -1,
+        "height": 82
+      },
+      "idleMeta": {
+        "char": "large_skull",
+        "frames": 10,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "bat": {
+      "char": "bat",
+      "ids": [
+        "undead_7"
+      ],
+      "names": [
+        "血月吸血蝠"
+      ],
+      "missing": [
+        "walk"
+      ],
+      "idle": "bat_idle",
+      "meta": {
+        "cellW": 87,
+        "cellH": 87,
+        "anchorX": 0.546,
+        "anchorY": 0.7126,
+        "scale": 1.6667,
+        "facing": 1,
+        "height": 40
+      },
+      "idleMeta": {
+        "char": "bat",
+        "frames": 11,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "bloated_damned": {
+      "char": "bloated_damned",
+      "ids": [
+        "undead_8"
+      ],
+      "names": [
+        "劇毒腐屍"
+      ],
+      "missing": [
+        "attack"
+      ],
+      "idle": "bloated_damned_idle",
+      "meta": {
+        "cellW": 64,
+        "cellH": 64,
+        "anchorX": 0.4922,
+        "anchorY": 1,
+        "scale": 1.3488,
+        "facing": -1,
+        "height": 58
+      },
+      "idleMeta": {
+        "char": "bloated_damned",
+        "frames": 5,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "skull_candle": {
+      "char": "skull_candle",
+      "ids": [
+        "undead_10"
+      ],
+      "names": [
+        "燭顱法師"
+      ],
+      "missing": [
+        "walk",
+        "attack"
+      ],
+      "idle": "skull_candle_idle",
+      "meta": {
+        "cellW": 64,
+        "cellH": 64,
+        "anchorX": 0.5156,
+        "anchorY": 0.9922,
+        "scale": 0.8254,
+        "facing": -1,
+        "height": 52
+      },
+      "idleMeta": {
+        "char": "skull_candle",
+        "frames": 6,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "burning_skull_blue": {
+      "char": "burning_skull_blue",
+      "ids": [
+        "undead_11"
+      ],
+      "names": [
+        "幽焰骷髏"
+      ],
+      "missing": [
+        "walk",
+        "attack"
+      ],
+      "idle": "burning_skull_blue_idle",
+      "meta": {
+        "cellW": 64,
+        "cellH": 64,
+        "anchorX": 0.5156,
+        "anchorY": 0.75,
+        "scale": 1.1111,
+        "facing": 1,
+        "height": 50
+      },
+      "idleMeta": {
+        "char": "burning_skull_blue",
+        "frames": 5,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    },
+    "the_devil": {
+      "char": "the_devil",
+      "ids": [
+        "undead_12"
+      ],
+      "names": [
+        "煉獄鍋魔"
+      ],
+      "missing": [
+        "walk",
+        "attack",
+        "die"
+      ],
+      "idle": "the_devil_idle",
+      "meta": {
+        "cellW": 96,
+        "cellH": 112,
+        "anchorX": 0.4896,
+        "anchorY": 1,
+        "scale": 0.7547,
+        "facing": 1,
+        "height": 80
+      },
+      "idleMeta": {
+        "char": "the_devil",
+        "frames": 28,
+        "fps": 8,
+        "loop": true,
+        "hold": false
+      }
+    }
+  }
+}

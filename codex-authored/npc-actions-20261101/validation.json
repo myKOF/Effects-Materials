@@ -1,0 +1,249 @@
+{
+  "characters": 16,
+  "actions": {
+    "walk": 15,
+    "attack": 14,
+    "die": 5
+  },
+  "stems": {
+    "burning_skull_walk": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "burning_skull_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "demon_eye_walk": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "demon_eye_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "demon_mine_walk": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "demon_mine_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "plague_flies_walk": {
+      "frames": 8,
+      "unique": 7,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "plague_flies_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "memento_skeleton_walk": {
+      "frames": 8,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "memento_skeleton_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "memento_skeleton_die": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "tree_damned_walk": {
+      "frames": 8,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "tree_damned_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "cheeky_devil_walk": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "cheeky_devil_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "cheeky_devil_die": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "hell_giant_walk": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "hell_giant_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "hell_giant_die": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "flying_demon_head_walk": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "flying_demon_head_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "old_demon_walk": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "old_demon_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "old_demon_die": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "large_skull_walk": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "bat_walk": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "bloated_damned_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "skull_candle_walk": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "skull_candle_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "burning_skull_blue_walk": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "burning_skull_blue_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "the_devil_walk": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "the_devil_attack": {
+      "frames": 6,
+      "unique": 5,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    },
+    "the_devil_die": {
+      "frames": 8,
+      "unique": 8,
+      "nativePixels": true,
+      "palettePreserved": true,
+      "transparent": true
+    }
+  },
+  "moteRoundtrip": true
+}
