@@ -1,0 +1,12 @@
+{
+  "changedGamePng": 8,
+  "otherGamePngUnchanged": 488,
+  "manifestChange": "npc_god_chaos_8 native scale compensation only; target visible height remains 46, NPC table multiplier unchanged",
+  "palette": {
+    "blue": 43881,
+    "orange": 6031,
+    "neutral": 1241,
+    "other": 196
+  },
+  "source": "built-in image_gen; self-owned project references only"
+}

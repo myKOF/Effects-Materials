@@ -20,7 +20,7 @@
     "height": 46,
     "color": "冰藍／紫晶",
     "type": "hover",
-    "subject": "An ICE CRYSTAL ELEMENTAL, a large readable faceted azure central crystal body connected to smaller ice-spike arms by short solid frost bridges, several connected lower crystal roots, pale violet facets.",
+    "subject": "An ice elemental with the existing crystal head and arms; a compact irregular cluster of overlapping lower crystal facets, short central broken end, no legs or feet. Hover locomotion.",
     "hoverLift": 14,
     "readyStartFallback": true
   },

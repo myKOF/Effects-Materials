@@ -31,19 +31,11 @@
     "batch": 20,
     "nativeHeight": 64,
     "height": 46,
-    "color": "元素藍／焰橙",
+    "color": "深藍／暖橙",
     "type": "hover",
-    "subject": "An ELEMENTAL RAGE BODY, complete connected golem-like swirling charcoal form with a small pale mask face, two broad elemental arms and a tapering rooted lower body, restrained blue lightning cracks and rusty orange core.",
+    "subject": "A readable floating navy-blue and amber-orange elemental, broad planes and short blunt curled wisp instead of legs. Modest shoulder bevels, two forearm plates, a stern brow facet, few clean chest collar seams and one broad tail ridge; about 20% more detail than the minimal design, without fine cracks or extra colors.",
     "hoverLift": 14,
-    "readyStartFallback": true,
-    "poseOverrides": {
-      "attack": {
-        "3": {
-          "file": "sources/npc_god_chaos_8-attack-3-replacement.png",
-          "heightRatio": 1
-        }
-      }
-    }
+    "readyStartFallback": true
   },
   {
     "id": "god_chaos_9",
