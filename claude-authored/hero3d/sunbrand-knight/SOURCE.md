@@ -1,5 +1,7 @@
 # 3D 主角模型：黃金騎士（Sunbrand Knight）
 
+2026-11-02：正式GLB以Blender縮短整劍總長10%，固定護手／握柄與寬厚，其他資料保持。可編輯Blend、未縮短輸入、重建工具、SHA與預覽見[sword-length-20261102/SOURCE.md](sword-length-20261102/SOURCE.md)。
+
 - 檔案：`sunbrand-knight.glb`（約 700 KB）：4903 個三角面（Meshy 原模型 4911 個，拿掉 8 個錯綁的尖刺三角面，見下方「動作修正」）、25 根骨骼、一張 1024×1024 貼圖、五個動畫（`CombatIdle`、`Run`、`Attack1`、`Attack2`、`Death`，24 fps）。
 - **製作方式**：以 Meshy AI 生成（文字生圖 → 圖生 3D → 貼圖 → 綁骨架 → 動作庫動畫），再用 Blender 腳本處理（鏡像成右手持劍、修劍與披風權重、獨立劍骨骼、動作整理與修正）。
   完整流程、參數、任務編號與成本見 `tools/meshy-pipeline/README.md` 與其 `assets/Reports/`（Meshy 任務編號在 `cost-report.json`）。

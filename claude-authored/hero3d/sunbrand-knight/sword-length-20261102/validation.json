@@ -1,0 +1,20 @@
+{
+  "inputSha256": "c1a7ea634cab99310effab3e2ce19b78527f64f20ab64504fbf8a8ca281d94ed",
+  "outputSha256": "ad6645d1db9ebfd18240049e36d3db075ca2e3aa27b7f3c1e6e568a2ed435bc4",
+  "changedVertices": 84,
+  "swordMin": -24.22840690612793,
+  "swordMaxBefore": 100.18348693847656,
+  "swordMaxAfter": 87.74229431152344,
+  "totalLengthRatio": 0.8999999739374381,
+  "bladeRoot": 23.0,
+  "bladeLengthRatio": 0.8388102186368259,
+  "unchangedOutsideBladePositions": true,
+  "animations": [
+    "Attack1",
+    "Attack2",
+    "CombatIdle",
+    "Death",
+    "Run"
+  ],
+  "blenderVersion": "5.2.3 LTS"
+}
