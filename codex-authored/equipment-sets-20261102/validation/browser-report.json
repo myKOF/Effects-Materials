@@ -1,0 +1,17 @@
+{
+  "newCount": 62,
+  "legacyCount": 43,
+  "wrong": [],
+  "imageCount": 106,
+  "ready": true,
+  "errors": [],
+  "warnings": [],
+  "failed": [],
+  "narrowOverflow": false,
+  "detailSelections": 8,
+  "viewportWidths": [
+    1440,
+    390
+  ],
+  "scope": "production makeEquipment, itemCellHTML, itemIconFile, itemHeaderHTML and CSS; isolated fixture, no player saves or gameplay"
+}

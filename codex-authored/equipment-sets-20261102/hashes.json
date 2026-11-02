@@ -1,0 +1,374 @@
+[
+  {
+    "key": "dawnweave_helmet",
+    "file": "icon_dawnweave_helmet.png",
+    "sha256": "b041c19da6dbec8b96f5b8bea5d67740708c1fa13f21f7ee4433e5bbaa9ff60e",
+    "rawSha256": "c5cdf4f936497f7f2dc00c2c2e00d24505cdb074fc7b2e3ceb85bf5152549490"
+  },
+  {
+    "key": "dawnweave_shoulder",
+    "file": "icon_dawnweave_shoulder.png",
+    "sha256": "7ac77c95dc3380e9cc36663b6ed408df561abadb16bb4cd0ee913e0b439e60b3",
+    "rawSha256": "78eb839e032822197c45b6105fa6b9cea1bc54081f7d6a462e763d4688b3d0a1"
+  },
+  {
+    "key": "dawnweave_chest",
+    "file": "icon_dawnweave_chest.png",
+    "sha256": "3248ac27075464d842ed59ace2a887532d9d7b8c4cf2e98546eb1464f09c3c35",
+    "rawSha256": "6bf6b85feb8cf69461a839b95dfe07756312638e9c89a2fe8be58f1861483640"
+  },
+  {
+    "key": "dawnweave_belt",
+    "file": "icon_dawnweave_belt.png",
+    "sha256": "aef8a2046dd6f4580d3ac575b48e27b8371dd94fe957b70f42e7702dd9b9c737",
+    "rawSha256": "3694518a18748bcd926c399f762244911c640a9d91c6a9548e83a4f8d4fd0889"
+  },
+  {
+    "key": "dawnweave_gloves",
+    "file": "icon_dawnweave_gloves.png",
+    "sha256": "7aed5e2a29f83cd72fe94254979eb95cf90d9e84667c4fe8c04050f9790fa25c",
+    "rawSha256": "71f025dd18c5d01d627daeefa54a30e1f31e8af44542f6a87a2c3ef60a1f1d9b"
+  },
+  {
+    "key": "dawnweave_wrist",
+    "file": "icon_dawnweave_wrist.png",
+    "sha256": "2b07cad5011a7a4eb149a196bef3bb6f196b42dd616b56beaf0ec13a297f1dfa",
+    "rawSha256": "31db60d32cb8f7bd56eb35a58e8209b8f49abea755b02a88be68286f2b89e5e9"
+  },
+  {
+    "key": "dawnweave_legs",
+    "file": "icon_dawnweave_legs.png",
+    "sha256": "7f236915d267964a0ab7be28b6ce4023734f15990549ec34beff71765401f161",
+    "rawSha256": "13e9ca307ac334bfb8b59a315fb080d5045f325ea51ea8cd7f5caf6734234af7"
+  },
+  {
+    "key": "dawnweave_boots",
+    "file": "icon_dawnweave_boots.png",
+    "sha256": "c2a463437acd112047ef5479e468c2655a664b82fd4cc85ecd8b9aa9f587071c",
+    "rawSha256": "526f0f962341bf56f987749d9dd37bf3fe8691c1cd44703bdbfd016c524adf1f"
+  },
+  {
+    "key": "ivorypilgrim_helmet",
+    "file": "icon_ivorypilgrim_helmet.png",
+    "sha256": "6b1c996997a48e99292f03526d0c9031e5c0fd4bf24a795ca00e4313e4002c5b",
+    "rawSha256": "3c69b8bfd3b91298f41530a1ca5f2df57a7786134b11070c1ccf74ca56f324b7"
+  },
+  {
+    "key": "ivorypilgrim_shoulder",
+    "file": "icon_ivorypilgrim_shoulder.png",
+    "sha256": "e4b02bc2ad101d83a8f102822cda4303ac488c9f9e9575a17839fb3113df76b6",
+    "rawSha256": "5da009d3cba29b857f7931ae918511bab93af3f55970703a3f2d9ec1491af626"
+  },
+  {
+    "key": "ivorypilgrim_chest",
+    "file": "icon_ivorypilgrim_chest.png",
+    "sha256": "49fe6e0d4b757529a9d95d65655ec27b988ce20809b557a44aa7783340991e82",
+    "rawSha256": "95378a309f35d9bde70085da0c57ad556a02caadb8e9011506f9907f7ab8bcb9"
+  },
+  {
+    "key": "ivorypilgrim_belt",
+    "file": "icon_ivorypilgrim_belt.png",
+    "sha256": "0a52f06e66c89972647ad90ffe4ad7c5a1d774fec6bd7554a7e471dc8a337564",
+    "rawSha256": "d5ba0f261d7d763ab91fca8d230f6624acdbb3451b70dedf56ccf0f309f3e52a"
+  },
+  {
+    "key": "ivorypilgrim_gloves",
+    "file": "icon_ivorypilgrim_gloves.png",
+    "sha256": "e4406917e60e77df3764914697f79b5fb81e0da9b54545aebea54c524e544bd3",
+    "rawSha256": "13f913843c30769a0ed08ad5f537dd2a3d6f02a0636ac5ff1ed0f2499fc733c6"
+  },
+  {
+    "key": "ivorypilgrim_wrist",
+    "file": "icon_ivorypilgrim_wrist.png",
+    "sha256": "ae61ed6411e6406399a839f7bfb09c310eee013c9a6fd941ee4737dd647416bb",
+    "rawSha256": "6a1c389ba7317eaf3a9b7e559681b38e9bab38373e984216aafd0a6ba25c5942"
+  },
+  {
+    "key": "ivorypilgrim_legs",
+    "file": "icon_ivorypilgrim_legs.png",
+    "sha256": "affecfdfe26b7eb4739a2c0675f83c8af709e8f47bea2c6f763b877b116ac97f",
+    "rawSha256": "5bd46b243406cf3c9abbbaa7b8ffc7ae8577e06593328c8730dc1049767c0901"
+  },
+  {
+    "key": "ivorypilgrim_boots",
+    "file": "icon_ivorypilgrim_boots.png",
+    "sha256": "e7be27ca019f0fcb086cc7f14483566f52611db7d2e307e98ea00dd39b90c675",
+    "rawSha256": "5c30483a7a20a5a039bfe349f2e206e1ff00d96cf662d76469f9d0ad8fbe2e7f"
+  },
+  {
+    "key": "amberhunt_helmet",
+    "file": "icon_amberhunt_helmet.png",
+    "sha256": "6e6eec03b6455ce5962669282ad82c7fa0c004e44202a8de235078e6e83f8de5",
+    "rawSha256": "fe371b373e404f83ac4e7606ff68cae5056f75f0450a5b9a25a899b08e76a41a"
+  },
+  {
+    "key": "amberhunt_shoulder",
+    "file": "icon_amberhunt_shoulder.png",
+    "sha256": "35df29de41facb76646fd816869c5f1aa1e243c13322bb35f408a60e3313a863",
+    "rawSha256": "b03ac37ffb2dfb90f9a8b6e3b801649d69300a09998a562631ce9e518ff6cf9d"
+  },
+  {
+    "key": "amberhunt_chest",
+    "file": "icon_amberhunt_chest.png",
+    "sha256": "274a8c7bb81f20f6b23c42d5583bf1ee5a4554f8b2829e20348d031e38f5f45f",
+    "rawSha256": "c0d4e0d473db5cc8a0338d4c591466563afea9807c65fb5d88edba189452c1e4"
+  },
+  {
+    "key": "amberhunt_belt",
+    "file": "icon_amberhunt_belt.png",
+    "sha256": "a5f95054e74323a496d2d99c3e2c1b5ad0505aeecbf99dde4b93e5a4e3908bbe",
+    "rawSha256": "a9c8d60cdf80f1ece97dfdea92ad233d752a5569688eb143904a95b53d96ec5b"
+  },
+  {
+    "key": "amberhunt_gloves",
+    "file": "icon_amberhunt_gloves.png",
+    "sha256": "2dd1d88dee8f0f0677f7e2e8ac2d59fd934af74944d3ffbc863db814d3598c16",
+    "rawSha256": "5650616c3b6ff9beecddaf4eef0dcec4c2bdce85c3463bee5fcd6af6567c289f"
+  },
+  {
+    "key": "amberhunt_wrist",
+    "file": "icon_amberhunt_wrist.png",
+    "sha256": "c21c99592f29a7d11916524dccaf763e44fe2af814c1b09f7da2c54c5a90cff1",
+    "rawSha256": "a23a605d27c941793cb0f11de7ef57ab8c79c8e8af5518fb61e3a41f35e732b1"
+  },
+  {
+    "key": "amberhunt_legs",
+    "file": "icon_amberhunt_legs.png",
+    "sha256": "4f92640151f41b24ce23cc02b47d23128aaa67b5cff82fd9971938f6948e728c",
+    "rawSha256": "ecd05d4c85e145fd316dc208245010f234663ca6f1020ecb40d828fa0f3e3270"
+  },
+  {
+    "key": "amberhunt_boots",
+    "file": "icon_amberhunt_boots.png",
+    "sha256": "db3f5f3ceab5e2e1991449e67ab303471a2ef1f7105a95e5565f91372678f182",
+    "rawSha256": "9ccf9da46574b43d17e427707c61602f16878158f785d80829ddea200e80c7c7"
+  },
+  {
+    "key": "redwanderer_helmet",
+    "file": "icon_redwanderer_helmet.png",
+    "sha256": "162a8c6fd13af511c724fd0ce3fbcf077c4444a62b35f249dd712be10fb2678d",
+    "rawSha256": "7d056d00a39196cf96380306dd11ee44cf0eb7dc9e4ce582fec2bb123ab5352e"
+  },
+  {
+    "key": "redwanderer_shoulder",
+    "file": "icon_redwanderer_shoulder.png",
+    "sha256": "a750347bbc3a59d5f968c499a0cfce61c4eff3f0231f24b43b642a19de8f2d07",
+    "rawSha256": "76d9bfb043730e8920e05fee94a2270f7e5032dafdeed2daadf7bcdc375def88"
+  },
+  {
+    "key": "redwanderer_chest",
+    "file": "icon_redwanderer_chest.png",
+    "sha256": "01ae4d6d903d318ef02a4856e34e9722efabf12ab5ad60af1306c4861baf5576",
+    "rawSha256": "5c4d330925f9bc9b89d4ed08837b59589872b35d2d98af2792b68edc997b51a9"
+  },
+  {
+    "key": "redwanderer_belt",
+    "file": "icon_redwanderer_belt.png",
+    "sha256": "29d93f254487054321d9521ff8de2fe8b2daf73df47521be869222c4980818ba",
+    "rawSha256": "55cbfc868d736b278e0567c7d01c4f434fab33f77e7153dea3ce728cb7941974"
+  },
+  {
+    "key": "redwanderer_gloves",
+    "file": "icon_redwanderer_gloves.png",
+    "sha256": "f044e9de09256f58bcc33165192ebd7af4bad5a274361e81c7c2eb09f3b9a3c5",
+    "rawSha256": "0fc84da560a8c35dde428b6dcb87d72e4c3ce5090a0dfa908a56347a409db1a7"
+  },
+  {
+    "key": "redwanderer_wrist",
+    "file": "icon_redwanderer_wrist.png",
+    "sha256": "09fa9b6ed338ec927a1dcc12e3b86e6dc1d7a6cb062d3a5987707598bafca190",
+    "rawSha256": "4197b0c2f214b07d088106c604f838e0d46043c2469e7de397282043265ae9bb"
+  },
+  {
+    "key": "redwanderer_legs",
+    "file": "icon_redwanderer_legs.png",
+    "sha256": "04033d4ac87d80d978151bc611f732b8d301363c8e376dc448c40c58198aa597",
+    "rawSha256": "ea80fb81601721edf83b2999199d062c13c222fd15a3c7e3e34b202fcba79ede"
+  },
+  {
+    "key": "redwanderer_boots",
+    "file": "icon_redwanderer_boots.png",
+    "sha256": "efff0f728ef6ebf1e101affcba615d62af285065be9f7d929055d334475dd621",
+    "rawSha256": "384188d592af1fa9176c40910247c5b3e46b3d5224c4c15c1c765744a76ce3a9"
+  },
+  {
+    "key": "blackoath_helmet",
+    "file": "icon_blackoath_helmet.png",
+    "sha256": "0342d73234261670b00cf80fd62183434e143f8abfd2d7143d674dc252ac656c",
+    "rawSha256": "b7b50b27bc13194d49b0b72fd9622516a6f745dd1824fcce3874712fc14d79bd"
+  },
+  {
+    "key": "blackoath_shoulder",
+    "file": "icon_blackoath_shoulder.png",
+    "sha256": "9328a0c4f8b9ed390bd9494f65e1f08e5a562f862ee29b5d2c228c9fd6d6b30f",
+    "rawSha256": "f9de29bbaa5480de4b8183bae8bb724a888c2514a1dbe9845c3ba8641955c3fe"
+  },
+  {
+    "key": "blackoath_chest",
+    "file": "icon_blackoath_chest.png",
+    "sha256": "2597e7cba245b5ffd188fe09093fc95c9aa5c4b776bb02531855c60f06ec828f",
+    "rawSha256": "9910e270e308f0ffc4053707a62f900e4db79087b9f21808fb422d182e529beb"
+  },
+  {
+    "key": "blackoath_belt",
+    "file": "icon_blackoath_belt.png",
+    "sha256": "eb6a6ca7fa5b31396b24180f59329ea99845481952141e123eca4df79426f191",
+    "rawSha256": "5e9643de7cb5fd832659b8a2bd3dca86957e9f8a2cb19969f62cda8688132b27"
+  },
+  {
+    "key": "blackoath_gloves",
+    "file": "icon_blackoath_gloves.png",
+    "sha256": "3efe681d3faedaf05f2c5a4459e3142cfe834f1d03bbdb5b8afbc33ae66e8927",
+    "rawSha256": "e97b5521b7e2072ac980a6aec0cc02053395b03fd1e8aebcdec821374cc46097"
+  },
+  {
+    "key": "blackoath_wrist",
+    "file": "icon_blackoath_wrist.png",
+    "sha256": "555e73bd5c9f9130bfac6abce4447a3fac66a4402a38b57f2bdd01c9dbd6e819",
+    "rawSha256": "450d1e513e5aed5b83d0d8a753f7d17c96b634b70151d26e4001d9b8f373a11a"
+  },
+  {
+    "key": "blackoath_legs",
+    "file": "icon_blackoath_legs.png",
+    "sha256": "b0b8014b5939cf6b6318fa1402a4b6c3f33cd2cb87104fe135192c996d1a2521",
+    "rawSha256": "e72425d42f05d02b4d12735de337c064e3b16b3d57c47c2656840408b1814319"
+  },
+  {
+    "key": "blackoath_boots",
+    "file": "icon_blackoath_boots.png",
+    "sha256": "8735423cfa881d3ab987d1d77bd71235f264ff66ce65609f24d8d437aa34ac7b",
+    "rawSha256": "ec2a764ad46747e03e25db2a35a4c3cb6a951add18ab771804baa7f891b28186"
+  },
+  {
+    "key": "frostbastion_helmet",
+    "file": "icon_frostbastion_helmet.png",
+    "sha256": "e468b3af5b41327f17b41bdb21d84134ebbdcd81a03697cfa9f0a6712f4eeb80",
+    "rawSha256": "14111db4d76be79c53c2d9c97672b2082a851bc51b3cedc82a3c4547a5ba6e51"
+  },
+  {
+    "key": "frostbastion_shoulder",
+    "file": "icon_frostbastion_shoulder.png",
+    "sha256": "4d7fc9824ad553842c287dd4a53030ebd7968095a0ec33562f1b51c46e55f271",
+    "rawSha256": "9083e926e6fe0937bc4594bfdf741ce2eb4377545e12b89de00bb0fe92414f4b"
+  },
+  {
+    "key": "frostbastion_chest",
+    "file": "icon_frostbastion_chest.png",
+    "sha256": "81de544714d1d3b685e621298caf7e4d2408232895cc2cdf4361c69174fa6597",
+    "rawSha256": "0bdcb617e77401e7cc59820818f6fc66f734dd4782fdfd4a8fec70d6e19b7a77"
+  },
+  {
+    "key": "frostbastion_belt",
+    "file": "icon_frostbastion_belt.png",
+    "sha256": "0e58a2f387738c120ad4cd1980450721db479820a77101f2115fbb4edb1b4f2a",
+    "rawSha256": "58869d237acd7814538f2a88c89e386f53679d5af1bf8d1ff8eefcca140a9c85"
+  },
+  {
+    "key": "frostbastion_gloves",
+    "file": "icon_frostbastion_gloves.png",
+    "sha256": "98c6fe35d6924b7a4d19a37c5132e98d309991f9788ead3ba93c2e55aee732b7",
+    "rawSha256": "f66641b30234fbebedf46cbc19cea791ac33063024f7606dbd2aa35e3e03f1f9"
+  },
+  {
+    "key": "frostbastion_wrist",
+    "file": "icon_frostbastion_wrist.png",
+    "sha256": "2cb3b37580da823528e193b4094e6105c7825084714ef4b273474e6e52b2e91b",
+    "rawSha256": "5992376651030929ef96809193ecedb1998eef2f5a4aac4eb390cf8822e792d6"
+  },
+  {
+    "key": "frostbastion_legs",
+    "file": "icon_frostbastion_legs.png",
+    "sha256": "c3139639cd6df1a52b41fe41a467dc2fa6ae93bb0563dfdf12f892b10b7afa68",
+    "rawSha256": "144eb357262316a77d086d1d3d348b227cd65c5c55d24fa558b222c938ede0f7"
+  },
+  {
+    "key": "frostbastion_boots",
+    "file": "icon_frostbastion_boots.png",
+    "sha256": "11cfaa0b0a2331936bcb528885d4aec4e7f53434b5ee9643f1a9ea79cae39c33",
+    "rawSha256": "f2ff9be20adbd07d41db10757e95f6db012c798a2587f298c32e8250efb9f2ad"
+  },
+  {
+    "key": "ring_sunseal",
+    "file": "icon_ring_sunseal.png",
+    "sha256": "4ce188bfb2a089b33057983e6ddba705c081cb8e5a98aaac9f6aba411b1733cb",
+    "rawSha256": "b4b8117e01d1749c649e7deed909bb430629476c06be9a7c81c55715e25da585"
+  },
+  {
+    "key": "ring_amberleaf",
+    "file": "icon_ring_amberleaf.png",
+    "sha256": "d4e4e5eb814bf2a9ea0938516e5976a3114bc5b9bce834ffa5fa5aed4c32f906",
+    "rawSha256": "a4e1a2767d9d90338fa12bf29fd7b50a477dab91a7867a83a48e2292371f17ac"
+  },
+  {
+    "key": "ring_moonpearl",
+    "file": "icon_ring_moonpearl.png",
+    "sha256": "6976652919919e9c42cade9c12b2b56bdfcc08e5c94e5e88e86b0699a518e38d",
+    "rawSha256": "1379b5636ff42b8e674a78580ece66a218a49b7a51730173024f34d1d14119ba"
+  },
+  {
+    "key": "ring_rubyfang",
+    "file": "icon_ring_rubyfang.png",
+    "sha256": "60e3ea7f6e21a4f7c510f5271e34d7790c3ab8a75f9844884519bfb9c231435f",
+    "rawSha256": "a19a3d7cfbcdf2da943666a486e508e7cf88e6624796a37c34dab1c3578ac84e"
+  },
+  {
+    "key": "ring_mossknot",
+    "file": "icon_ring_mossknot.png",
+    "sha256": "285c1958af0d4b593f2a67ecaa57e91270c81574830fd3dd203391af23d60e8e",
+    "rawSha256": "e1d416396e92f1921fee7bcde3309e0d62105a80e32433a9e2a6db693b6952c6"
+  },
+  {
+    "key": "ring_sapphiretide",
+    "file": "icon_ring_sapphiretide.png",
+    "sha256": "5081d2b3c461babbada7b7d33478f674803e892a542464d560c32d9a8aea5e4a",
+    "rawSha256": "2cc22c9db99e72dcb8890c01eaa6f0a920f38ec670fa3a59182adc090d9aeca8"
+  },
+  {
+    "key": "ring_violetcrown",
+    "file": "icon_ring_violetcrown.png",
+    "sha256": "9c31293d34a5894e321659e4d7a44e9f23513e8ac738f1beb8439e1a7cc79ae7",
+    "rawSha256": "5c9c5157a718e59e49afb5fd57576be00a27c775b5d75a3a48df408ce6f1c695"
+  },
+  {
+    "key": "ring_obsidianeye",
+    "file": "icon_ring_obsidianeye.png",
+    "sha256": "4b567a4db3f18f1d2654cef872669b85fe24ffadb25faeda7707e3fc4284dd39",
+    "rawSha256": "512e7e76ca01b09cd8db84dbf3a61a8796e3c262d61b28386fcb57a0b4da5dc5"
+  },
+  {
+    "key": "amulet_dawncompass",
+    "file": "icon_amulet_dawncompass.png",
+    "sha256": "22d374b58a164fbafcf26515a6b7d78dea42a2d30fedb4f23c43b51556ababd9",
+    "rawSha256": "1f0e3689f26e43a734deb72baa84a7ed3e69663d3b21f39cfe475fbe22a036de"
+  },
+  {
+    "key": "amulet_amberacorn",
+    "file": "icon_amulet_amberacorn.png",
+    "sha256": "f3f8bc93cdb83948f60ae9214acd89a10474a832a26b107c5a06af3fad284747",
+    "rawSha256": "eb69074870bc5fb5a25afdc2dc40567c8a527f73ba6c69299d2330aedb129a82"
+  },
+  {
+    "key": "amulet_ivorymoon",
+    "file": "icon_amulet_ivorymoon.png",
+    "sha256": "5406749bf2892636afdb42150730edd5839ee23d60d10740662603ab9bd89e34",
+    "rawSha256": "cde3dcde7554f0f0d2a9ec57995554ca7d83de325fb2cd622009a001b907f602"
+  },
+  {
+    "key": "amulet_rubycrest",
+    "file": "icon_amulet_rubycrest.png",
+    "sha256": "3299e135ab95775da308b59b49d9cbac34fa981389db4a2b5311be625fe05dff",
+    "rawSha256": "23d6b3123065e32423c363f2d1ff3d0a85c25f6e520c5e2c2d1e171974ae5720"
+  },
+  {
+    "key": "amulet_verdantkey",
+    "file": "icon_amulet_verdantkey.png",
+    "sha256": "a1f1554a6d2a79b7153d427e1312e53768a560efccc370984e4a5ca7db4e0822",
+    "rawSha256": "c039810d35bd00cf3523ca190b61d50e97fdcdea28da542fde74b3a6ddb7fda9"
+  },
+  {
+    "key": "amulet_stormvial",
+    "file": "icon_amulet_stormvial.png",
+    "sha256": "8fff27c6adbb91f9027720f392f985dbda5dbe7a402fa6d81bac418c7a556a98",
+    "rawSha256": "14e8fc94fd1da7051eab48b6edf82742fa9099c67ee58b82b98764ccebfbade4"
+  }
+]

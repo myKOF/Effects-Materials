@@ -1,0 +1,439 @@
+[
+  {
+    "key": "dawnweave_helmet",
+    "slot": "helmet",
+    "strId": 2244,
+    "name": "晨曦織紋兜帽",
+    "prompt": "Use case: stylized-concept. Create ONE original high-quality dark fantasy ARPG inventory icon: an ivory and pale warm-yellow linen pilgrim hood, hollow opening with no face, softly pointed back, wrapped cowl neck, small round aged-brass sun clasp, fine stitched concentric sunray embroidery, realistic coarse woven fabric, gentle wear. Named Dawnweave hood, part of a pale cream cloth armor family. Detailed hand-painted digital illustration with convincing volume and material, warm upper-left light, subtle edge highlights, three-quarter view, silhouette legible at 48 pixels. Single isolated equipment item centered, fills 78% of a square 1024x1024 canvas, generous empty margins all sides, true transparent background. No other equipment, no people, no head, no mannequin, no scenery, no ground shadow, no glow cloud, no text, no letters, no labels, no frame, no watermark. Match the level of tactile fabric detail and restrained worn medieval materials of the user's existing inventory icons. Cloth must remain yellowish-white rather than brown or gold.",
+    "edits": [
+      "Precise object edit. Keep this exact ivory embroidered cloth hood unchanged: same silhouette, material, color, folds, sun embroidery and clasp, same angle and size. Remove ONLY the pale white mist/halo/glow and all colored fringe OUTSIDE the physical fabric edges, especially above and behind the top of the hood. This is an inventory cutout: exterior pixels must be completely transparent right up to clean fabric edges. No ambient haze, no drop shadow, no glow. Preserve the empty opening and the complete fabric outline. Real transparent background."
+    ]
+  },
+  {
+    "key": "dawnweave_shoulder",
+    "slot": "shoulder",
+    "strId": 2245,
+    "name": "晨曦織紋披肩",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of soft layered cloth shoulder mantles joined by a narrow embroidered neck strap, scalloped hems. Family design: Pale warm ivory and yellowish-white linen pilgrim clothing, sparse aged brass sun clasps, fine golden sunray stitched embroidery. Predominantly off-white cloth, very little metal. Soft flowing silhouette, coarse woven threads and layered hems."
+  },
+  {
+    "key": "dawnweave_chest",
+    "slot": "chest",
+    "strId": 2246,
+    "name": "晨曦織紋長袍",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: an empty full-length flowing long-sleeved linen robe, deep layered V neckline, narrow sun embroidered vertical stole, soft tied waist. Family design: Pale warm ivory and yellowish-white linen pilgrim clothing, sparse aged brass sun clasps, fine golden sunray stitched embroidery. Predominantly off-white cloth, very little metal. Soft flowing silhouette, coarse woven threads and layered hems."
+  },
+  {
+    "key": "dawnweave_belt",
+    "slot": "belt",
+    "strId": 2247,
+    "name": "晨曦織紋繫帶",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a wide folded linen sash belt arranged in a wearable oval, knotted fabric tails and a small round sun clasp. Family design: Pale warm ivory and yellowish-white linen pilgrim clothing, sparse aged brass sun clasps, fine golden sunray stitched embroidery. Predominantly off-white cloth, very little metal. Soft flowing silhouette, coarse woven threads and layered hems."
+  },
+  {
+    "key": "dawnweave_gloves",
+    "slot": "gloves",
+    "strId": 2248,
+    "name": "晨曦織紋手套",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of five-finger soft linen gloves with flared folded cuffs and fine sunray embroidery. Family design: Pale warm ivory and yellowish-white linen pilgrim clothing, sparse aged brass sun clasps, fine golden sunray stitched embroidery. Predominantly off-white cloth, very little metal. Soft flowing silhouette, coarse woven threads and layered hems."
+  },
+  {
+    "key": "dawnweave_wrist",
+    "slot": "wrist",
+    "strId": 2249,
+    "name": "晨曦織紋護腕",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of overlapping linen wrist wraps, tied cloth ends and tiny round brass sun buttons, no fingers. Family design: Pale warm ivory and yellowish-white linen pilgrim clothing, sparse aged brass sun clasps, fine golden sunray stitched embroidery. Predominantly off-white cloth, very little metal. Soft flowing silhouette, coarse woven threads and layered hems."
+  },
+  {
+    "key": "dawnweave_legs",
+    "slot": "legs",
+    "strId": 2250,
+    "name": "晨曦織紋長褲",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of loose ivory linen trousers with gathered waist, flowing folds and embroidered narrow ankle hems. Family design: Pale warm ivory and yellowish-white linen pilgrim clothing, sparse aged brass sun clasps, fine golden sunray stitched embroidery. Predominantly off-white cloth, very little metal. Soft flowing silhouette, coarse woven threads and layered hems."
+  },
+  {
+    "key": "dawnweave_boots",
+    "slot": "boots",
+    "strId": 2251,
+    "name": "晨曦織紋軟靴",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of soft ivory fabric ankle boots with folded cuffs, linen ties and sun-stitched toes, light tan soles. Family design: Pale warm ivory and yellowish-white linen pilgrim clothing, sparse aged brass sun clasps, fine golden sunray stitched embroidery. Predominantly off-white cloth, very little metal. Soft flowing silhouette, coarse woven threads and layered hems."
+  },
+  {
+    "key": "ivorypilgrim_helmet",
+    "slot": "helmet",
+    "strId": 2252,
+    "name": "象牙巡禮軟帽",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a rounded padded coif cap with two short earflaps, diamond quilting, rolled brow and wooden toggle chin strap, hollow opening. Family design: Yellowish-white and pale buttery cream padded cloth travel armor, diamond quilting, ochre cross-stitches and toggle closures, rolled edges. Compact practical structured silhouette, visibly cloth not leather or metal. Distinct from flowing embroidered robes."
+  },
+  {
+    "key": "ivorypilgrim_shoulder",
+    "slot": "shoulder",
+    "strId": 2253,
+    "name": "象牙巡禮肩墊",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of compact thick quilted crescent shoulder pads with layered rolled hems, joined with wooden toggles. Family design: Yellowish-white and pale buttery cream padded cloth travel armor, diamond quilting, ochre cross-stitches and toggle closures, rolled edges. Compact practical structured silhouette, visibly cloth not leather or metal. Distinct from flowing embroidered robes."
+  },
+  {
+    "key": "ivorypilgrim_chest",
+    "slot": "chest",
+    "strId": 2254,
+    "name": "象牙巡禮短衣",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: an empty waist-length diamond-quilted gambeson jacket, short stiff stand collar, asymmetrical wooden toggle front and short sleeves, no hood. Family design: Yellowish-white and pale buttery cream padded cloth travel armor, diamond quilting, ochre cross-stitches and toggle closures, rolled edges. Compact practical structured silhouette, visibly cloth not leather or metal. Distinct from flowing embroidered robes."
+  },
+  {
+    "key": "ivorypilgrim_belt",
+    "slot": "belt",
+    "strId": 2255,
+    "name": "象牙巡禮腰封",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a broad quilted cream cloth belt formed in a wearable oval, rectangular woven fastening, two small fabric pouches. Family design: Yellowish-white and pale buttery cream padded cloth travel armor, diamond quilting, ochre cross-stitches and toggle closures, rolled edges. Compact practical structured silhouette, visibly cloth not leather or metal. Distinct from flowing embroidered robes."
+  },
+  {
+    "key": "ivorypilgrim_gloves",
+    "slot": "gloves",
+    "strId": 2256,
+    "name": "象牙巡禮手套",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of compact five-finger quilted gloves with short square cuffs and ochre cross-stitch reinforcements. Family design: Yellowish-white and pale buttery cream padded cloth travel armor, diamond quilting, ochre cross-stitches and toggle closures, rolled edges. Compact practical structured silhouette, visibly cloth not leather or metal. Distinct from flowing embroidered robes."
+  },
+  {
+    "key": "ivorypilgrim_wrist",
+    "slot": "wrist",
+    "strId": 2257,
+    "name": "象牙巡禮腕套",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of thick rectangular quilted forearm cuffs with cream cord lacing, rolled edge, no fingers. Family design: Yellowish-white and pale buttery cream padded cloth travel armor, diamond quilting, ochre cross-stitches and toggle closures, rolled edges. Compact practical structured silhouette, visibly cloth not leather or metal. Distinct from flowing embroidered robes."
+  },
+  {
+    "key": "ivorypilgrim_legs",
+    "slot": "legs",
+    "strId": 2258,
+    "name": "象牙巡禮護腿",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of tapered diamond-quilted cloth trousers with reinforced padded knees and ochre stitched panels. Family design: Yellowish-white and pale buttery cream padded cloth travel armor, diamond quilting, ochre cross-stitches and toggle closures, rolled edges. Compact practical structured silhouette, visibly cloth not leather or metal. Distinct from flowing embroidered robes."
+  },
+  {
+    "key": "ivorypilgrim_boots",
+    "slot": "boots",
+    "strId": 2259,
+    "name": "象牙巡禮行靴",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of cream padded cloth mid-calf travel boots with three horizontal cord toggles and rolled tops, ochre fabric soles. Family design: Yellowish-white and pale buttery cream padded cloth travel armor, diamond quilting, ochre cross-stitches and toggle closures, rolled edges. Compact practical structured silhouette, visibly cloth not leather or metal. Distinct from flowing embroidered robes."
+  },
+  {
+    "key": "amberhunt_helmet",
+    "slot": "helmet",
+    "strId": 2260,
+    "name": "琥珀獵影獵帽",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a low-profile angular leather ranger cap with swept triangular brim, folded side flap, fine braided edging, hollow opening, no feather. Family design: Warm honey-yellow and orange amber leather ranger armor, slim angular leaf-shaped panels, braided edge stitching, small aged brass buckles. Predominantly golden orange leather, subtle wear and natural grain, agile asymmetrical silhouette. No cloth robe and no metal plate armor."
+  },
+  {
+    "key": "amberhunt_shoulder",
+    "slot": "shoulder",
+    "strId": 2261,
+    "name": "琥珀獵影肩甲",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of slim overlapping leaf-shaped amber leather pauldrons, one slightly longer, joined by a narrow buckled strap. Family design: Warm honey-yellow and orange amber leather ranger armor, slim angular leaf-shaped panels, braided edge stitching, small aged brass buckles. Predominantly golden orange leather, subtle wear and natural grain, agile asymmetrical silhouette. No cloth robe and no metal plate armor."
+  },
+  {
+    "key": "amberhunt_chest",
+    "slot": "chest",
+    "strId": 2262,
+    "name": "琥珀獵影獵衣",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: an empty fitted sleeveless leather ranger vest with overlapping diagonal leaf panels, a high cut collar and one crossing chest strap. Family design: Warm honey-yellow and orange amber leather ranger armor, slim angular leaf-shaped panels, braided edge stitching, small aged brass buckles. Predominantly golden orange leather, subtle wear and natural grain, agile asymmetrical silhouette. No cloth robe and no metal plate armor."
+  },
+  {
+    "key": "amberhunt_belt",
+    "slot": "belt",
+    "strId": 2263,
+    "name": "琥珀獵影獵帶",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a narrow orange amber leather utility belt in a wearable oval, two small tapered pouches and a leaf-shaped brass buckle. Family design: Warm honey-yellow and orange amber leather ranger armor, slim angular leaf-shaped panels, braided edge stitching, small aged brass buckles. Predominantly golden orange leather, subtle wear and natural grain, agile asymmetrical silhouette. No cloth robe and no metal plate armor."
+  },
+  {
+    "key": "amberhunt_gloves",
+    "slot": "gloves",
+    "strId": 2264,
+    "name": "琥珀獵影手套",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of slim five-finger orange leather ranger gloves with pointed extended cuffs and narrow braided seams. Family design: Warm honey-yellow and orange amber leather ranger armor, slim angular leaf-shaped panels, braided edge stitching, small aged brass buckles. Predominantly golden orange leather, subtle wear and natural grain, agile asymmetrical silhouette. No cloth robe and no metal plate armor."
+  },
+  {
+    "key": "amberhunt_wrist",
+    "slot": "wrist",
+    "strId": 2265,
+    "name": "琥珀獵影護腕",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of tapered orange leather bracers with leaf-shaped ridges and two narrow buckle straps, no fingers. Family design: Warm honey-yellow and orange amber leather ranger armor, slim angular leaf-shaped panels, braided edge stitching, small aged brass buckles. Predominantly golden orange leather, subtle wear and natural grain, agile asymmetrical silhouette. No cloth robe and no metal plate armor."
+  },
+  {
+    "key": "amberhunt_legs",
+    "slot": "legs",
+    "strId": 2266,
+    "name": "琥珀獵影皮褲",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of slim amber orange leather trousers with diagonal stitched thigh panels, flexible laced knees and fitted ankles. Family design: Warm honey-yellow and orange amber leather ranger armor, slim angular leaf-shaped panels, braided edge stitching, small aged brass buckles. Predominantly golden orange leather, subtle wear and natural grain, agile asymmetrical silhouette. No cloth robe and no metal plate armor."
+  },
+  {
+    "key": "amberhunt_boots",
+    "slot": "boots",
+    "strId": 2267,
+    "name": "琥珀獵影獵靴",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of slim honey orange leather ranger boots with pointed folded tops, diagonal side lacing and slightly pointed toes. Family design: Warm honey-yellow and orange amber leather ranger armor, slim angular leaf-shaped panels, braided edge stitching, small aged brass buckles. Predominantly golden orange leather, subtle wear and natural grain, agile asymmetrical silhouette. No cloth robe and no metal plate armor."
+  },
+  {
+    "key": "redwanderer_helmet",
+    "slot": "helmet",
+    "strId": 2268,
+    "name": "赤砂行者皮盔",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a thick rounded orange leather desert helmet with a broad brow band, padded neck flap and square rivets, hollow opening, no face. Family design: Warm ochre-yellow to burnt-orange thick desert leather armor, broad rectangular overlapping leather lamellae, dark orange rawhide seams, bone toggles and square bronze rivets. Bulky rounded rugged silhouette, visibly hide not metal. Distinct from slim leaf-shaped ranger leather."
+  },
+  {
+    "key": "redwanderer_shoulder",
+    "slot": "shoulder",
+    "strId": 2269,
+    "name": "赤砂行者肩衛",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of large rounded orange leather shoulder guards made of thick rectangular overlapping hide scales, square rivets. Family design: Warm ochre-yellow to burnt-orange thick desert leather armor, broad rectangular overlapping leather lamellae, dark orange rawhide seams, bone toggles and square bronze rivets. Bulky rounded rugged silhouette, visibly hide not metal. Distinct from slim leaf-shaped ranger leather."
+  },
+  {
+    "key": "redwanderer_chest",
+    "slot": "chest",
+    "strId": 2270,
+    "name": "赤砂行者皮甲",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: an empty broad sleeveless thick orange leather cuirass made of rectangular leather lamellae, low round collar, double horizontal bone toggles and split short skirt. Family design: Warm ochre-yellow to burnt-orange thick desert leather armor, broad rectangular overlapping leather lamellae, dark orange rawhide seams, bone toggles and square bronze rivets. Bulky rounded rugged silhouette, visibly hide not metal. Distinct from slim leaf-shaped ranger leather."
+  },
+  {
+    "key": "redwanderer_belt",
+    "slot": "belt",
+    "strId": 2271,
+    "name": "赤砂行者腰帶",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a wide thick burnt-orange leather belt formed in a wearable oval, large square bronze buckle and layered rectangular protective hip flaps. Family design: Warm ochre-yellow to burnt-orange thick desert leather armor, broad rectangular overlapping leather lamellae, dark orange rawhide seams, bone toggles and square bronze rivets. Bulky rounded rugged silhouette, visibly hide not metal. Distinct from slim leaf-shaped ranger leather."
+  },
+  {
+    "key": "redwanderer_gloves",
+    "slot": "gloves",
+    "strId": 2272,
+    "name": "赤砂行者手套",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of heavy five-finger ochre-orange leather gloves with square riveted knuckle pads and broad rolled cuffs. Family design: Warm ochre-yellow to burnt-orange thick desert leather armor, broad rectangular overlapping leather lamellae, dark orange rawhide seams, bone toggles and square bronze rivets. Bulky rounded rugged silhouette, visibly hide not metal. Distinct from slim leaf-shaped ranger leather."
+  },
+  {
+    "key": "redwanderer_wrist",
+    "slot": "wrist",
+    "strId": 2273,
+    "name": "赤砂行者臂甲",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of broad cylindrical burnt-orange leather vambraces with rectangular lamellar plates and three bone toggle closures, no fingers. Family design: Warm ochre-yellow to burnt-orange thick desert leather armor, broad rectangular overlapping leather lamellae, dark orange rawhide seams, bone toggles and square bronze rivets. Bulky rounded rugged silhouette, visibly hide not metal. Distinct from slim leaf-shaped ranger leather."
+  },
+  {
+    "key": "redwanderer_legs",
+    "slot": "legs",
+    "strId": 2274,
+    "name": "赤砂行者護褲",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of sturdy ochre-orange leather trousers with wide layered rectangular thigh guards and round reinforced knees. Family design: Warm ochre-yellow to burnt-orange thick desert leather armor, broad rectangular overlapping leather lamellae, dark orange rawhide seams, bone toggles and square bronze rivets. Bulky rounded rugged silhouette, visibly hide not metal. Distinct from slim leaf-shaped ranger leather."
+  },
+  {
+    "key": "redwanderer_boots",
+    "slot": "boots",
+    "strId": 2275,
+    "name": "赤砂行者厚靴",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of heavy rounded-toe orange hide desert boots with broad rolled tops, three wide square-buckle straps and thick soles. Family design: Warm ochre-yellow to burnt-orange thick desert leather armor, broad rectangular overlapping leather lamellae, dark orange rawhide seams, bone toggles and square bronze rivets. Bulky rounded rugged silhouette, visibly hide not metal. Distinct from slim leaf-shaped ranger leather."
+  },
+  {
+    "key": "blackoath_helmet",
+    "slot": "helmet",
+    "strId": 2276,
+    "name": "黑鋼誓衛戰盔",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a rounded closed dark iron great helm with a narrow horizontal visor and a single low central ridge, smooth rolled neck rim, no horns. Family design: Moderately dark graphite iron and gunmetal full plate armor, rounded domed surfaces, smooth rolled rims, small steel rivets and subtle fluted sunburst engraving. Restrained cool metallic highlights, dark brown straps only as accents, iron clearly visible rather than pitch-black. No bright gold, no spikes, no glowing effects."
+  },
+  {
+    "key": "blackoath_shoulder",
+    "slot": "shoulder",
+    "strId": 2277,
+    "name": "黑鋼誓衛肩鎧",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of rounded domed dark steel pauldrons with three smooth overlapping curved plates and small steel rivets. Family design: Moderately dark graphite iron and gunmetal full plate armor, rounded domed surfaces, smooth rolled rims, small steel rivets and subtle fluted sunburst engraving. Restrained cool metallic highlights, dark brown straps only as accents, iron clearly visible rather than pitch-black. No bright gold, no spikes, no glowing effects."
+  },
+  {
+    "key": "blackoath_chest",
+    "slot": "chest",
+    "strId": 2278,
+    "name": "黑鋼誓衛胸鎧",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: an empty rounded dark iron breastplate with broad domed chest, shallow sunburst fluting, smooth rolled neck and three overlapping curved lower fauld plates. Family design: Moderately dark graphite iron and gunmetal full plate armor, rounded domed surfaces, smooth rolled rims, small steel rivets and subtle fluted sunburst engraving. Restrained cool metallic highlights, dark brown straps only as accents, iron clearly visible rather than pitch-black. No bright gold, no spikes, no glowing effects."
+  },
+  {
+    "key": "blackoath_belt",
+    "slot": "belt",
+    "strId": 2279,
+    "name": "黑鋼誓衛鋼帶",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: an articulated dark iron plate belt in a wearable oval, smooth rounded rectangular links and a domed circular steel buckle. Family design: Moderately dark graphite iron and gunmetal full plate armor, rounded domed surfaces, smooth rolled rims, small steel rivets and subtle fluted sunburst engraving. Restrained cool metallic highlights, dark brown straps only as accents, iron clearly visible rather than pitch-black. No bright gold, no spikes, no glowing effects."
+  },
+  {
+    "key": "blackoath_gloves",
+    "slot": "gloves",
+    "strId": 2280,
+    "name": "黑鋼誓衛鐵手套",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of articulated five-finger dark iron gauntlets with rounded knuckle plates and flared curved cuffs. Family design: Moderately dark graphite iron and gunmetal full plate armor, rounded domed surfaces, smooth rolled rims, small steel rivets and subtle fluted sunburst engraving. Restrained cool metallic highlights, dark brown straps only as accents, iron clearly visible rather than pitch-black. No bright gold, no spikes, no glowing effects."
+  },
+  {
+    "key": "blackoath_wrist",
+    "slot": "wrist",
+    "strId": 2281,
+    "name": "黑鋼誓衛護臂",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of smoothly curved dark steel forearm vambraces with rolled rims, slim longitudinal flutes and dark leather closure straps, no hands. Family design: Moderately dark graphite iron and gunmetal full plate armor, rounded domed surfaces, smooth rolled rims, small steel rivets and subtle fluted sunburst engraving. Restrained cool metallic highlights, dark brown straps only as accents, iron clearly visible rather than pitch-black. No bright gold, no spikes, no glowing effects."
+  },
+  {
+    "key": "blackoath_legs",
+    "slot": "legs",
+    "strId": 2282,
+    "name": "黑鋼誓衛腿鎧",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a complete paired connected set of rounded dark iron thigh armor, domed knee cops and curved greaves arranged as empty armored legs, no boots. Family design: Moderately dark graphite iron and gunmetal full plate armor, rounded domed surfaces, smooth rolled rims, small steel rivets and subtle fluted sunburst engraving. Restrained cool metallic highlights, dark brown straps only as accents, iron clearly visible rather than pitch-black. No bright gold, no spikes, no glowing effects."
+  },
+  {
+    "key": "blackoath_boots",
+    "slot": "boots",
+    "strId": 2283,
+    "name": "黑鋼誓衛鐵靴",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of rounded dark steel sabaton boots with overlapping curved toe plates, low iron ankle guards and muted metallic highlights. Family design: Moderately dark graphite iron and gunmetal full plate armor, rounded domed surfaces, smooth rolled rims, small steel rivets and subtle fluted sunburst engraving. Restrained cool metallic highlights, dark brown straps only as accents, iron clearly visible rather than pitch-black. No bright gold, no spikes, no glowing effects."
+  },
+  {
+    "key": "frostbastion_helmet",
+    "slot": "helmet",
+    "strId": 2284,
+    "name": "霜鐵堡壘面盔",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: an angular dark iron sallet helmet with a long stepped rear neck guard, sharp squared brow, vertical slit visor and chamfered front, no horns. Family design: Dark weathered cold iron fortress plate armor, angular chamfered planes, geometric stepped ridges, heavy square rivets, thick beveled steel edges and charcoal leather joints. Gunmetal and desaturated slate highlights. Massive angular silhouette clearly different from rounded plate. No glowing ice, no bright silver, no gold or huge spikes."
+  },
+  {
+    "key": "frostbastion_shoulder",
+    "slot": "shoulder",
+    "strId": 2285,
+    "name": "霜鐵堡壘肩堡",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of large angular stepped dark iron pauldrons made of faceted trapezoid plates, square rivets and raised geometric ridges. Family design: Dark weathered cold iron fortress plate armor, angular chamfered planes, geometric stepped ridges, heavy square rivets, thick beveled steel edges and charcoal leather joints. Gunmetal and desaturated slate highlights. Massive angular silhouette clearly different from rounded plate. No glowing ice, no bright silver, no gold or huge spikes."
+  },
+  {
+    "key": "frostbastion_chest",
+    "slot": "chest",
+    "strId": 2286,
+    "name": "霜鐵堡壘重鎧",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: an empty broad angular dark iron cuirass with pronounced central keel ridge, squared neckline, layered trapezoid abdomen plates and heavy beveled hip tassets. Family design: Dark weathered cold iron fortress plate armor, angular chamfered planes, geometric stepped ridges, heavy square rivets, thick beveled steel edges and charcoal leather joints. Gunmetal and desaturated slate highlights. Massive angular silhouette clearly different from rounded plate. No glowing ice, no bright silver, no gold or huge spikes."
+  },
+  {
+    "key": "frostbastion_belt",
+    "slot": "belt",
+    "strId": 2287,
+    "name": "霜鐵堡壘鐵腰封",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a heavy dark iron armored belt in a wearable oval, angular trapezoid linked plates, hexagonal buckle and two short faceted tassets. Family design: Dark weathered cold iron fortress plate armor, angular chamfered planes, geometric stepped ridges, heavy square rivets, thick beveled steel edges and charcoal leather joints. Gunmetal and desaturated slate highlights. Massive angular silhouette clearly different from rounded plate. No glowing ice, no bright silver, no gold or huge spikes."
+  },
+  {
+    "key": "frostbastion_gloves",
+    "slot": "gloves",
+    "strId": 2288,
+    "name": "霜鐵堡壘重手套",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of heavy five-finger angular dark iron gauntlets, faceted knuckle ridges and squared flared segmented cuffs. Family design: Dark weathered cold iron fortress plate armor, angular chamfered planes, geometric stepped ridges, heavy square rivets, thick beveled steel edges and charcoal leather joints. Gunmetal and desaturated slate highlights. Massive angular silhouette clearly different from rounded plate. No glowing ice, no bright silver, no gold or huge spikes."
+  },
+  {
+    "key": "frostbastion_wrist",
+    "slot": "wrist",
+    "strId": 2289,
+    "name": "霜鐵堡壘重臂甲",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of angular dark iron forearm armor with raised central ridge, stepped layered outer plates and square rivets, no hands. Family design: Dark weathered cold iron fortress plate armor, angular chamfered planes, geometric stepped ridges, heavy square rivets, thick beveled steel edges and charcoal leather joints. Gunmetal and desaturated slate highlights. Massive angular silhouette clearly different from rounded plate. No glowing ice, no bright silver, no gold or huge spikes."
+  },
+  {
+    "key": "frostbastion_legs",
+    "slot": "legs",
+    "strId": 2290,
+    "name": "霜鐵堡壘重腿鎧",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a complete paired connected set of angular dark iron thigh guards, faceted diamond knee guards and sharply ridged greaves, arranged as empty armored legs, no boots. Family design: Dark weathered cold iron fortress plate armor, angular chamfered planes, geometric stepped ridges, heavy square rivets, thick beveled steel edges and charcoal leather joints. Gunmetal and desaturated slate highlights. Massive angular silhouette clearly different from rounded plate. No glowing ice, no bright silver, no gold or huge spikes."
+  },
+  {
+    "key": "frostbastion_boots",
+    "slot": "boots",
+    "strId": 2291,
+    "name": "霜鐵堡壘戰靴",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a pair of broad square-toe dark iron armored boots with angular segmented plates, faceted high ankle guards and thick beveled soles. Family design: Dark weathered cold iron fortress plate armor, angular chamfered planes, geometric stepped ridges, heavy square rivets, thick beveled steel edges and charcoal leather joints. Gunmetal and desaturated slate highlights. Massive angular silhouette clearly different from rounded plate. No glowing ice, no bright silver, no gold or huge spikes."
+  },
+  {
+    "key": "ring_sunseal",
+    "slot": "ring",
+    "strId": 2292,
+    "name": "日輪印戒",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a single thick aged-gold signet ring, round raised sun seal with radiating carved rays, dark engraved recesses, no gemstone. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  },
+  {
+    "key": "ring_amberleaf",
+    "slot": "ring",
+    "strId": 2293,
+    "name": "琥珀葉戒",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a single copper ring with two delicately sculpted overlapping leaves holding a large translucent orange amber cabochon. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  },
+  {
+    "key": "ring_moonpearl",
+    "slot": "ring",
+    "strId": 2294,
+    "name": "月露珠戒",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a single slim silver ring, asymmetrical crescent moon setting cradling a lustrous ivory pearl and tiny pale blue stone. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  },
+  {
+    "key": "ring_rubyfang",
+    "slot": "ring",
+    "strId": 2295,
+    "name": "赤牙戒環",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a single dark iron ring with two curved claw prongs holding a triangular deep red ruby, sharply angular band. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  },
+  {
+    "key": "ring_mossknot",
+    "slot": "ring",
+    "strId": 2296,
+    "name": "苔翠結戒",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a single bronze ring with an intricate open interwoven knot band and a rectangular forest green emerald. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  },
+  {
+    "key": "ring_sapphiretide",
+    "slot": "ring",
+    "strId": 2297,
+    "name": "藍潮螺戒",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a single polished silver spiral ring, wave-like open curled band framing an oval deep blue sapphire. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  },
+  {
+    "key": "ring_violetcrown",
+    "slot": "ring",
+    "strId": 2298,
+    "name": "紫曜冠戒",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a single aged gold ring with a low miniature crown setting and a faceted violet amethyst, beaded side shoulders. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  },
+  {
+    "key": "ring_obsidianeye",
+    "slot": "ring",
+    "strId": 2299,
+    "name": "黑曜守戒",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: a single broad weathered steel ring with a horizontal eye-shaped setting holding smooth black obsidian, precise tiny etched geometric grooves. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  },
+  {
+    "key": "amulet_dawncompass",
+    "slot": "amulet",
+    "strId": 2300,
+    "name": "曙光羅盤項鏈",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: one complete fine bronze chain necklace hanging in an oval loop, round antique compass pendant with an eight-point sun needle and small golden center stone. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  },
+  {
+    "key": "amulet_amberacorn",
+    "slot": "amulet",
+    "strId": 2301,
+    "name": "蜜珀橡實項鏈",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: one complete braided dark leather cord necklace in an oval loop, acorn-shaped translucent honey amber pendant in a sculpted bronze leaf cap. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  },
+  {
+    "key": "amulet_ivorymoon",
+    "slot": "amulet",
+    "strId": 2302,
+    "name": "象牙弦月項鏈",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: one complete delicate silver chain necklace in an oval loop, elegant ivory crescent moon pendant suspended from two points with one small dangling pearl. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  },
+  {
+    "key": "amulet_rubycrest",
+    "slot": "amulet",
+    "strId": 2303,
+    "name": "赤晶誓章項鏈",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: one complete heavy aged iron chain necklace in an oval loop, angular shield-shaped dark metal pendant with a deep red diamond-shaped ruby and engraved bevels. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  },
+  {
+    "key": "amulet_verdantkey",
+    "slot": "amulet",
+    "strId": 2304,
+    "name": "青枝古鑰項鏈",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: one complete antique gold chain necklace in an oval loop, ornate elongated key pendant with intertwined branch bow and a tiny square emerald. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  },
+  {
+    "key": "amulet_stormvial",
+    "slot": "amulet",
+    "strId": 2305,
+    "name": "風暴晶瓶項鏈",
+    "prompt": "Use case: stylized-concept. Create ONE original premium dark fantasy ARPG inventory equipment icon. Detailed hand-painted digital illustration, tactile medieval materials, fine craftsmanship, restrained weathering, convincing volume, warm upper-left light and subtle edge highlights. Three-quarter view, centered isolated object occupying 76 to 82 percent of a square canvas, ALL edges completely visible with generous clear margins. Genuine transparent background with clean alpha edges. No floor, no shadows outside the object, no white haze, no glow cloud, no colored fringe. No humans, body, face, mannequin, hands wearing the equipment, scenery, letters, text, border, watermark or additional equipment. Keep silhouettes clear and readable at 48 pixels. Subject: one complete braided bronze chain necklace in an oval loop, small tear-shaped blue crystal vial pendant with silver filigree cage, tiny cork cap, no magical fog. Authentic finely worked medieval jewelry, rich realistic material detail, no oversized magical effects."
+  }
+]

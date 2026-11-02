@@ -1,0 +1,484 @@
+TAP version 13
+# Subtest: 項鏈使用專用透明圖示，不再誤用寶石資源圖
+ok 1 - 項鏈使用專用透明圖示，不再誤用寶石資源圖
+  ---
+  duration_ms: 29.8776
+  type: 'test'
+  ...
+# Subtest: 六套防具八部位、八戒指及六項鏈全部具獨立名稱與正式PNG
+ok 2 - 六套防具八部位、八戒指及六項鏈全部具獨立名稱與正式PNG
+  ---
+  duration_ms: 120.3092
+  type: 'test'
+  ...
+# Subtest: 真實裝備生成、各品質前綴及JSON往返仍讀取相同新圖
+ok 3 - 真實裝備生成、各品質前綴及JSON往返仍讀取相同新圖
+  ---
+  duration_ms: 189.2162
+  type: 'test'
+  ...
+# Subtest: 舊存檔名稱、未知舊名稱與十二種武器均使用移入equipment的原圖
+ok 4 - 舊存檔名稱、未知舊名稱與十二種武器均使用移入equipment的原圖
+  ---
+  duration_ms: 10.5864
+  type: 'test'
+  ...
+# Subtest: tests\\equipment-background-removal.test.cjs
+ok 3 - tests\\equipment-background-removal.test.cjs
+  ---
+  duration_ms: 109.5877
+  type: 'test'
+  ...
+# Subtest: 全部品質新產出的裝備名稱與詳情使用級字前綴
+ok 6 - 全部品質新產出的裝備名稱與詳情使用級字前綴
+  ---
+  duration_ms: 58.3349
+  type: 'test'
+  ...
+# Subtest: 全部品質及歷史前綴讀檔更新，JSON往返後不重複加前綴
+ok 7 - 全部品質及歷史前綴讀檔更新，JSON往返後不重複加前綴
+  ---
+  duration_ms: 31.8945
+  type: 'test'
+  ...
+# Subtest: 三套裝備、背包、生產佇列與神鑄槽全部更新名稱並保留物品
+ok 8 - 三套裝備、背包、生產佇列與神鑄槽全部更新名稱並保留物品
+  ---
+  duration_ms: 15.2077
+  type: 'test'
+  ...
+# Subtest: 保留中的混合合成大成功以新前綴替換品質，支援新舊輸入
+ok 9 - 保留中的混合合成大成功以新前綴替換品質，支援新舊輸入
+  ---
+  duration_ms: 15.9428
+  type: 'test'
+  ...
+# Subtest: 空裝備部位會保留部位選取，且武器副欄仍匹配背包武器
+ok 10 - 空裝備部位會保留部位選取，且武器副欄仍匹配背包武器
+  ---
+  duration_ms: 3.1562
+  type: 'test'
+  ...
+# Subtest: 背包裝備選取仍以裝備目標部位作為裝備欄高亮部位
+ok 11 - 背包裝備選取仍以裝備目標部位作為裝備欄高亮部位
+  ---
+  duration_ms: 1.3284
+  type: 'test'
+  ...
+# Subtest: two-hand main/off-hand clicks transfer selection
+ok 12 - two-hand main/off-hand clicks transfer selection
+  ---
+  duration_ms: 3.8133
+  type: 'test'
+  ...
+# Subtest: inventory equip command preserves the destination slot after equipping
+ok 13 - inventory equip command preserves the destination slot after equipping
+  ---
+  duration_ms: 7.3494
+  type: 'test'
+  ...
+# Subtest: 選取空部位時，同部位背包保持正常、不同部位背包灰化
+ok 14 - 選取空部位時，同部位背包保持正常、不同部位背包灰化
+  ---
+  duration_ms: 2.0502
+  type: 'test'
+  ...
+# Subtest: 點擊裝備欄裝備時，只有裝備欄保留白框
+ok 15 - 點擊裝備欄裝備時，只有裝備欄保留白框
+  ---
+  duration_ms: 1.4434
+  type: 'test'
+  ...
+# Subtest: 點擊背包裝備時，背包保留白框、對應裝備欄改用亮起樣式
+ok 16 - 點擊背包裝備時，背包保留白框、對應裝備欄改用亮起樣式
+  ---
+  duration_ms: 1.4953
+  type: 'test'
+  ...
+# Subtest: 點擊背包雙手武器時，裝備欄主手與副手都亮起
+ok 17 - 點擊背包雙手武器時，裝備欄主手與副手都亮起
+  ---
+  duration_ms: 1.5782
+  type: 'test'
+  ...
+# Subtest: 空裝備格可點擊，且選取樣式套用於空格
+ok 18 - 空裝備格可點擊，且選取樣式套用於空格
+  ---
+  duration_ms: 6.8157
+  type: 'test'
+  ...
+# Subtest: 身上兩枚戒指及其他已穿裝備一律只顯示自身詳情
+ok 19 - 身上兩枚戒指及其他已穿裝備一律只顯示自身詳情
+  ---
+  duration_ms: 20.1673
+  type: 'test'
+  ...
+# Subtest: 背包戒指仍可與任一原目標戒指槽比較，一般裝備及武器同樣保留比較
+ok 20 - 背包戒指仍可與任一原目標戒指槽比較，一般裝備及武器同樣保留比較
+  ---
+  duration_ms: 15.6333
+  type: 'test'
+  ...
+# Subtest: 神鑄頁背包格沿用比較，法陣槽及無來源提示不作裝備比較
+ok 21 - 神鑄頁背包格沿用比較，法陣槽及無來源提示不作裝備比較
+  ---
+  duration_ms: 13.3297
+  type: 'test'
+  ...
+# Subtest: 關閉比較、空目標槽或相同裝備維持單卡
+ok 22 - 關閉比較、空目標槽或相同裝備維持單卡
+  ---
+  duration_ms: 8.4012
+  type: 'test'
+  ...
+# Subtest: 混合品質比較依原品質套框，包含神鑄神話與神鑄創世，混沌兩品質共用授權框
+ok 23 - 混合品質比較依原品質套框，包含神鑄神話與神鑄創世，混沌兩品質共用授權框
+  ---
+  duration_ms: 254.2006
+  type: 'test'
+  ...
+# Subtest: 只有複製副手的tips使用共用標記，主手、背包與實裝副手不誤標
+ok 24 - 只有複製副手的tips使用共用標記，主手、背包與實裝副手不誤標
+  ---
+  duration_ms: 18.7648
+  type: 'test'
+  ...
+# Subtest: 雙手武器在副手欄顯示同一把武器，但仍以視覺 duplicate 標記
+ok 25 - 雙手武器在副手欄顯示同一把武器，但仍以視覺 duplicate 標記
+  ---
+  duration_ms: 7.924
+  type: 'test'
+  ...
+# Subtest: 雙手武器裝備成功時，主手與副手都進入閃光狀態
+ok 26 - 雙手武器裝備成功時，主手與副手都進入閃光狀態
+  ---
+  duration_ms: 1.6142
+  type: 'test'
+  ...
+# Subtest: 神話裝備共用淡金色，複製副手使用銀藍底與清楚可見的共用標記
+ok 27 - 神話裝備共用淡金色，複製副手使用銀藍底與清楚可見的共用標記
+  ---
+  duration_ms: 3.8219
+  type: 'test'
+  ...
+# Subtest: 每種武器類型都有獨立圖示素材與資料映射
+ok 28 - 每種武器類型都有獨立圖示素材與資料映射
+  ---
+  duration_ms: 12.3443
+  type: 'test'
+  ...
+# Subtest: 裝備欄、背包與神鑄素材槽共用武器類型圖示選擇器
+ok 29 - 裝備欄、背包與神鑄素材槽共用武器類型圖示選擇器
+  ---
+  duration_ms: 1.2866
+  type: 'test'
+  ...
+# Subtest: 所有武器圖示都是帶 alpha 通道的 RGBA PNG
+ok 30 - 所有武器圖示都是帶 alpha 通道的 RGBA PNG
+  ---
+  duration_ms: 11.2193
+  type: 'test'
+  ...
+# Subtest: ancient 身上裝備原子入槽，備用套裝不動，卸料只回背包一份
+ok 31 - ancient 身上裝備原子入槽，備用套裝不動，卸料只回背包一份
+  ---
+  duration_ms: 117.4874
+  type: 'test'
+  ...
+# Subtest: ancient 穿戴來源存讀後三秒結算，成功／失敗沿用原配方 true
+ok 32 - ancient 穿戴來源存讀後三秒結算，成功／失敗沿用原配方 true
+  ---
+  duration_ms: 108.2233
+  type: 'test'
+  ...
+# Subtest: ancient 穿戴來源存讀後三秒結算，成功／失敗沿用原配方 false
+ok 33 - ancient 穿戴來源存讀後三秒結算，成功／失敗沿用原配方 false
+  ---
+  duration_ms: 81.6372
+  type: 'test'
+  ...
+# Subtest: imprint 身上裝備原子入槽，備用套裝不動，卸料只回背包一份
+ok 34 - imprint 身上裝備原子入槽，備用套裝不動，卸料只回背包一份
+  ---
+  duration_ms: 33.6923
+  type: 'test'
+  ...
+# Subtest: imprint 穿戴來源存讀後三秒結算，成功／失敗沿用原配方 true
+ok 35 - imprint 穿戴來源存讀後三秒結算，成功／失敗沿用原配方 true
+  ---
+  duration_ms: 68.4207
+  type: 'test'
+  ...
+# Subtest: imprint 穿戴來源存讀後三秒結算，成功／失敗沿用原配方 false
+ok 36 - imprint 穿戴來源存讀後三秒結算，成功／失敗沿用原配方 false
+  ---
+  duration_ms: 67.0916
+  type: 'test'
+  ...
+# Subtest: 鎖定／品質不符／精鑄滿額／滿槽／作業中／未解鎖／BOSS戰拒絕均不卸裝
+ok 37 - 鎖定／品質不符／精鑄滿額／滿槽／作業中／未解鎖／BOSS戰拒絕均不卸裝
+  ---
+  duration_ms: 199.7757
+  type: 'test'
+  ...
+# Subtest: 裝備神鑄不消耗穿戴裝備，背包已滿仍可直接移入單件法陣
+ok 38 - 裝備神鑄不消耗穿戴裝備，背包已滿仍可直接移入單件法陣
+  ---
+  duration_ms: 40.5302
+  type: 'test'
+  ...
+# Subtest: 身上清單只讀啟用套裝，與品質背包互斥且tooltip不誤用預覽套裝
+ok 39 - 身上清單只讀啟用套裝，與品質背包互斥且tooltip不誤用預覽套裝
+  ---
+  duration_ms: 3.1274
+  type: 'test'
+  ...
+# Subtest: STR：直接取字、位置參數、具名參數
+ok 40 - STR：直接取字、位置參數、具名參數
+  ---
+  duration_ms: 3.3885
+  type: 'test'
+  ...
+# Subtest: STR：缺參數保留原樣、null 變空字串、0 要顯示
+ok 41 - STR：缺參數保留原樣、null 變空字串、0 要顯示
+  ---
+  duration_ms: 1.4728
+  type: 'test'
+  ...
+# Subtest: STR：找不到編號回傳 [\#編號]，不丟例外
+ok 42 - STR：找不到編號回傳 [\#編號]，不丟例外
+  ---
+  duration_ms: 1.429
+  type: 'test'
+  ...
+# Subtest: 語言：簡體／英文空白時退回繁體，有填就用
+ok 43 - 語言：簡體／英文空白時退回繁體，有填就用
+  ---
+  duration_ms: 4.0771
+  type: 'test'
+  ...
+# Subtest: 資料檔：與 String.csv 同步（改了 Excel／CSV 要重跑 apply_strings.cjs）
+ok 44 - 資料檔：與 String.csv 同步（改了 Excel／CSV 要重跑 apply_strings.cjs）
+  ---
+  duration_ms: 31.5352
+  type: 'test'
+  ...
+# Subtest: 資料檔：\\n 還原成真換行，且每列至少有繁體中文
+ok 45 - 資料檔：\\n 還原成真換行，且每列至少有繁體中文
+  ---
+  duration_ms: 6.0242
+  type: 'test'
+  ...
+# Subtest: 產生器：重複編號、空繁中、替代字符不一致都會被擋
+ok 46 - 產生器：重複編號、空繁中、替代字符不一致都會被擋
+  ---
+  duration_ms: 403.4262
+  type: 'test'
+  ...
+# Subtest: 程式與 HTML 引用的 STR(編號)／data-str 編號都存在於資料檔
+ok 47 - 程式與 HTML 引用的 STR(編號)／data-str 編號都存在於資料檔
+  ---
+  duration_ms: 34.1541
+  type: 'test'
+  ...
+# Subtest: Worker 與主執行緒都載入 strings 檔，且 Worker 的版本由 bridge 以 sv= 傳入
+ok 48 - Worker 與主執行緒都載入 strings 檔，且 Worker 的版本由 bridge 以 sv= 傳入
+  ---
+  duration_ms: 0.9325
+  type: 'test'
+  ...
+# Subtest: 任務模塊已改為由表讀取（試點）：tasks.js 與 ui.js 的任務文字不再寫死
+ok 49 - 任務模塊已改為由表讀取（試點）：tasks.js 與 ui.js 的任務文字不再寫死
+  ---
+  duration_ms: 4.5651
+  type: 'test'
+  ...
+# Subtest: applyDom：data-str／data-str-html／data-str-attr 會被替換，載入時自動套用一次
+ok 50 - applyDom：data-str／data-str-html／data-str-attr 會被替換，載入時自動套用一次
+  ---
+  duration_ms: 1.2247
+  type: 'test'
+  ...
+# Subtest: 程式與 HTML 裡沒有寫死的顯示文字（全部走 String 表，AI_RULES 8.10）
+ok 51 - 程式與 HTML 裡沒有寫死的顯示文字（全部走 String 表，AI_RULES 8.10）
+  ---
+  duration_ms: 862.9087
+  type: 'test'
+  ...
+# Subtest: 每支用到 STR() 的 js 檔開頭都有安全網（單檔載入時不會丟 ReferenceError）
+ok 52 - 每支用到 STR() 的 js 檔開頭都有安全網（單檔載入時不會丟 ReferenceError）
+  ---
+  duration_ms: 27.3291
+  type: 'test'
+  ...
+# Subtest: CV-1 編輯器頁與主頁共用的遊戲腳本，版號逐一相同
+ok 53 - CV-1 編輯器頁與主頁共用的遊戲腳本，版號逐一相同
+  ---
+  duration_ms: 1.4021
+  type: 'test'
+  ...
+# Subtest: CV-2 編輯器頁載入的每一支遊戲腳本都帶版號（vendor 除外）
+ok 54 - CV-2 編輯器頁載入的每一支遊戲腳本都帶版號（vendor 除外）
+  ---
+  duration_ms: 0.2872
+  type: 'test'
+  ...
+# Subtest: CV-3 編輯器伺服器：遊戲腳本 no-store（連帶 ?v= 的請求），editor 自己的檔案維持 no-store，vendor 大檔維持 no-cache
+ok 55 - CV-3 編輯器伺服器：遊戲腳本 no-store（連帶 ?v= 的請求），editor 自己的檔案維持 no-store，vendor 大檔維持 no-cache
+  ---
+  duration_ms: 3158.5545
+  type: 'test'
+  ...
+# Subtest: 凍結的 Worker 指令表有 95 條且分類數量固定
+ok 56 - 凍結的 Worker 指令表有 95 條且分類數量固定
+  ---
+  duration_ms: 3.3509
+  type: 'test'
+  ...
+# Subtest: Worker 在每個模擬步驟後低延遲送出視覺事件
+ok 57 - Worker 在每個模擬步驟後低延遲送出視覺事件
+  ---
+  duration_ms: 0.4772
+  type: 'test'
+  ...
+# Subtest: 所有指令名稱、fn、args、resolve、limit 與 dirty metadata 格式合法
+ok 58 - 所有指令名稱、fn、args、resolve、limit 與 dirty metadata 格式合法
+  ---
+  duration_ms: 2.5027
+  type: 'test'
+  ...
+# Subtest: fn 非 null 的指令函式存在於模擬層原始碼
+ok 59 - fn 非 null 的指令函式存在於模擬層原始碼
+  ---
+  duration_ms: 49.6474
+  type: 'test'
+  ...
+# Subtest: 一般寶石指令不使用不存在的 gemId 實例參數
+ok 60 - 一般寶石指令不使用不存在的 gemId 實例參數
+  ---
+  duration_ms: 0.723
+  type: 'test'
+  ...
+# Subtest: validateCommand 接受合法參數與省略 optional 參數
+ok 61 - validateCommand 接受合法參數與省略 optional 參數
+  ---
+  duration_ms: 0.9673
+  type: 'test'
+  ...
+# Subtest: validateCommand 拒絕未知指令與缺少 required 參數
+ok 62 - validateCommand 拒絕未知指令與缺少 required 參數
+  ---
+  duration_ms: 0.5301
+  type: 'test'
+  ...
+# Subtest: validateCommand 拒絕 required 與 optional 參數的錯誤型別
+ok 63 - validateCommand 拒絕 required 與 optional 參數的錯誤型別
+  ---
+  duration_ms: 1.1766
+  type: 'test'
+  ...
+# Subtest: PANEL_KEYS 與模擬層實際 UI.dirty 鍵完全一致
+ok 64 - PANEL_KEYS 與模擬層實際 UI.dirty 鍵完全一致
+  ---
+  duration_ms: 16.7662
+  type: 'test'
+  ...
+# Subtest: blog 與 flog 只寫入事件佇列，不呼叫 DOM 或 postMessage
+ok 65 - blog 與 flog 只寫入事件佇列，不呼叫 DOM 或 postMessage
+  ---
+  duration_ms: 4.45
+  type: 'test'
+  ...
+# Subtest: shimDrainEvents 會原子清空目前事件批次
+ok 66 - shimDrainEvents 會原子清空目前事件批次
+  ---
+  duration_ms: 1.2596
+  type: 'test'
+  ...
+# Subtest: recordLoot shim 也合批進事件佇列
+ok 67 - recordLoot shim 也合批進事件佇列
+  ---
+  duration_ms: 1.5338
+  type: 'test'
+  ...
+# Subtest: shim 傳遞突刺光槍的長度、方向與飛行物欄位
+ok 68 - shim 傳遞突刺光槍的長度、方向與飛行物欄位
+  ---
+  duration_ms: 1.6421
+  type: 'test'
+  ...
+# Subtest: shim 保留敵人攻擊的來源與命中欄位
+ok 69 - shim 保留敵人攻擊的來源與命中欄位
+  ---
+  duration_ms: 1.719
+  type: 'test'
+  ...
+# Subtest: 技能施放飄字走低延遲佇列，一般傷害字仍走 tick 批次
+ok 70 - 技能施放飄字走低延遲佇列，一般傷害字仍走 tick 批次
+  ---
+  duration_ms: 2.8737
+  type: 'test'
+  ...
+# Subtest: 緊急佇列滿了：一次性事件擠掉最舊的持續刷新，而不是被後來的刷新擠掉
+ok 71 - 緊急佇列滿了：一次性事件擠掉最舊的持續刷新，而不是被後來的刷新擠掉
+  ---
+  duration_ms: 12.6471
+  type: 'test'
+  ...
+# Subtest: 緊急佇列滿了：進來的是刷新就直接丟它；進來的是一次性事件就擠掉最舊的刷新
+ok 72 - 緊急佇列滿了：進來的是刷新就直接丟它；進來的是一次性事件就擠掉最舊的刷新
+  ---
+  duration_ms: 7.7458
+  type: 'test'
+  ...
+# Subtest: 場域的第一則事件（誕生）比刷新值錢：滿了也擠得進來，而且不會被後來的刷新擠掉
+ok 73 - 場域的第一則事件（誕生）比刷新值錢：滿了也擠得進來，而且不會被後來的刷新擠掉
+  ---
+  duration_ms: 6.9378
+  type: 'test'
+  ...
+# Subtest: 誕生事件之間滿了：互相擠時維持丟最舊，但不會因此去擠一次性事件以外的東西
+ok 74 - 誕生事件之間滿了：互相擠時維持丟最舊，但不會因此去擠一次性事件以外的東西
+  ---
+  duration_ms: 5.7869
+  type: 'test'
+  ...
+# Subtest: 誕生事件永遠進得來：佇列全是一次性事件時，讓位的是最舊的那一件
+ok 75 - 誕生事件永遠進得來：佇列全是一次性事件時，讓位的是最舊的那一件
+  ---
+  duration_ms: 3.2765
+  type: 'test'
+  ...
+# Subtest: 場域沉默夠久之後再出現，重新算誕生；持續有刷新的不算
+ok 76 - 場域沉默夠久之後再出現，重新算誕生；持續有刷新的不算
+  ---
+  duration_ms: 1.7865
+  type: 'test'
+  ...
+# Subtest: 緊急佇列裡沒有持續刷新可讓時，維持原本的丟最舊（行為不變）
+ok 77 - 緊急佇列裡沒有持續刷新可讓時，維持原本的丟最舊（行為不變）
+  ---
+  duration_ms: 3.3233
+  type: 'test'
+  ...
+# Subtest: 緊急佇列上限是 512：引擎實測 600 隻敵人一步最多 465 件
+ok 78 - 緊急佇列上限是 512：引擎實測 600 隻敵人一步最多 465 件
+  ---
+  duration_ms: 1.6977
+  type: 'test'
+  ...
+# Subtest: 只有「aura 且帶 area.id」才算持續刷新：沒有 id 的光環與其他型態都是一次性事件
+ok 79 - 只有「aura 且帶 area.id」才算持續刷新：沒有 id 的光環與其他型態都是一次性事件
+  ---
+  duration_ms: 1.6599
+  type: 'test'
+  ...
+1..79
+# tests 79
+# suites 0
+# pass 79
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3361.0515
