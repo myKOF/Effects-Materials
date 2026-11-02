@@ -4,9 +4,9 @@ Failed tests:
 
 ✖ rarity table uses the specified fixed affix, enchant, and socket counts (24.328ms)
   AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
-  
+
   12 !== 11
-  
+
       at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\logs\equipment-art-20261102\baseline\tests\equipment-quality-counts.test.cjs:36:10)
       at Test.runInAsyncScope (node:async_hooks:227:14)
       at Test.run (node:internal/test_runner/test:1325:25)
@@ -21,9 +21,9 @@ Failed tests:
   }
 ✖ generated equipment has a fixed number of affixes and the configured sockets (12.4862ms)
   AssertionError [ERR_ASSERTION]: 普通
-  
+
   0 !== 1
-  
+
       at D:\MyGame\Idle-RPG\codex\logs\equipment-art-20261102\baseline\tests\equipment-quality-counts.test.cjs:51:12
       at Array.forEach (<anonymous>)
       at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\logs\equipment-art-20261102\baseline\tests\equipment-quality-counts.test.cjs:48:20)
