@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "npc": "desert_8",
+      "rank": "normal",
+      "gap": 0,
+      "hitCenter": 33.86063633333334,
+      "frames": {
+        "idle": 6,
+        "walk": 8,
+        "attack": 6,
+        "die": 6
+      },
+      "footCenters": [
+        64,
+        63.5,
+        64,
+        64,
+        64,
+        64.5
+      ],
+      "idleDrift": 1
+    },
+    {
+      "npc": "desert_8",
+      "rank": "elite",
+      "gap": 0,
+      "hitCenter": 47.404890866666676,
+      "frames": {
+        "idle": 6,
+        "walk": 8,
+        "attack": 6,
+        "die": 6
+      },
+      "footCenters": [
+        64,
+        63.5,
+        64,
+        64,
+        64,
+        64.5
+      ],
+      "idleDrift": 1
+    },
+    {
+      "npc": "desert_8",
+      "rank": "elite_adv",
+      "gap": 0,
+      "hitCenter": 57.56308176666668,
+      "frames": {
+        "idle": 6,
+        "walk": 8,
+        "attack": 6,
+        "die": 6
+      },
+      "footCenters": [
+        64,
+        63.5,
+        64,
+        64,
+        64,
+        64.5
+      ],
+      "idleDrift": 1
+    },
+    {
+      "npc": "desert_8",
+      "rank": "boss",
+      "gap": 0,
+      "hitCenter": 67.72127266666668,
+      "frames": {
+        "idle": 6,
+        "walk": 8,
+        "attack": 6,
+        "die": 6
+      },
+      "footCenters": [
+        64,
+        63.5,
+        64,
+        64,
+        64,
+        64.5
+      ],
+      "idleDrift": 1
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

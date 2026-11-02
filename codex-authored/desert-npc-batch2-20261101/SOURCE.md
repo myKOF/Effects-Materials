@@ -14,3 +14,5 @@ normalize-base.cjs保留初始六姿勢整理流程，normalize.cjs再套用新�
 GIF在聊天visualizations/desert-batch2：每款512×576，2×2顯示待機／移動／攻擊／死亡，36格×80ms循環；各動作依自身節奏播放，攻擊恢復待命、死亡停終幀後重播。validate.cjs逐點解碼Mote RLE與PNG核對RGBA、尺寸／透明外緣／不同姿勢及GIF延遲；步態量測與目視紀錄由相鄰步態包守門。
 
 重製：安裝package.json依賴後執行node normalize.cjs <preview-directory>，再node validate.cjs <preview-directory>。來源與輸出SHA保存在sources-sha256.json／sha256.json。export.cjs支援<game-root> --source-check／--apply／--check，由遊戲既有export_supplemental.cjs及素材庫設定解析位置。NPC.xlsx仍是動作選用、名稱與所有遊戲數值的權威；本批只更新四階級圖像欄與備註，沒有調整數值、縮放、技能或解鎖條件。詳見遊戲docs/AI_TASKS.md的NPC-ALL-NEW-20261101。
+
+2026-11-02半獸人待機修正：原六幀水平漂移17.5px，在Mote以原生幀平移校正為1px，六幀與像素／造型／速度保留；可編輯來源、偏移、前後GIF與驗證見idle-corrections/SOURCE.md。normalize在八幀walk之後套用此idle來源，其他角色與三動作保持。

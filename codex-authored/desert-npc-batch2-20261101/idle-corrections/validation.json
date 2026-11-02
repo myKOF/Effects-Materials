@@ -1,0 +1,34 @@
+{
+  "authoringTool": "RPG Mote Studio",
+  "shifts": [
+    [
+      -10,
+      1
+    ],
+    [
+      -4,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      8,
+      1
+    ]
+  ],
+  "sourceSHA256": "29eafed9cb63bd672d3eaa328cbaadf9b3d7ed2f94243077b0548458c75e324d",
+  "outputSHA256": "087f007142e01109837c1efc7c3f14984e788a2248a4dbed9c7cac3baaae9b47",
+  "frames": 6,
+  "frameMs": 160,
+  "originalPixelsPreserved": true
+}

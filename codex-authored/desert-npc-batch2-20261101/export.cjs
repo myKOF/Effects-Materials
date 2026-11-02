@@ -3,6 +3,7 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
 function exportAssets(game,mode){
  assert.ok(['--apply','--check','--source-check'].includes(mode));
+ require('./idle-corrections/apply.cjs').verify(__dirname);
  const extra=JSON.parse(fs.readFileSync(path.join(__dirname,'candidate-manifest.json'))),hashes=JSON.parse(fs.readFileSync(path.join(__dirname,'sha256.json')));
  const dir=path.join(path.resolve(game),'images/sprites/npc'),file=path.join(dir,'npc.json'),man=mode==='--source-check'?extra:JSON.parse(fs.readFileSync(file));
  for(const [stem,m]of Object.entries(extra.stems)){
