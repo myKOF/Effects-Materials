@@ -1,0 +1,12 @@
+'use strict';
+const fs=require('fs'),path=require('path'),crypto=require('crypto'),assert=require('assert/strict');
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+const record=JSON.parse(fs.readFileSync(path.join(__dirname,'metadata-review.json')));
+const game=path.resolve(process.argv[2]),dir=path.join(game,'images/sprites/npc'),manifest=JSON.parse(fs.readFileSync(path.join(dir,'npc.json')));
+assert.deepEqual(manifest.chars.plague_flies,record.after);
+const {facing:oldFacing,...oldOther}=record.before,{facing:newFacing,...newOther}=record.after;
+assert.equal(oldFacing,1);assert.equal(newFacing,-1);assert.deepEqual(oldOther,newOther,'preserve flight anchor and dimensions');
+const names=fs.readdirSync(dir).filter(f=>f.endsWith('.png')).sort(),hashes=Object.fromEntries(names.map(f=>[f,sha(fs.readFileSync(path.join(dir,f)))]));
+assert.equal(names.length,record.pngCount);assert.equal(sha(Buffer.from(JSON.stringify(hashes))),record.pngTreeSHA256,'all NPC bitmap bytes unchanged');
+for(const [file,hash]of Object.entries(record.characterPngSHA256))assert.equal(hashes[file],hash);
+console.log('Facing correction: plague_flies LEFT, flight anchor/dimensions retained, all '+names.length+' PNG hashes unchanged.');

@@ -1,0 +1,90 @@
+{
+  "mode": "after",
+  "passed": true,
+  "correct": 8,
+  "total": 8,
+  "checks": [
+    {
+      "rank": "normal",
+      "side": "left",
+      "animation": "walk",
+      "expectedVisualFacing": 1,
+      "actualVisualFacing": 1,
+      "correct": true,
+      "scale": -1.0855830769230768,
+      "anchorY": 1.3054
+    },
+    {
+      "rank": "elite",
+      "side": "left",
+      "animation": "walk",
+      "expectedVisualFacing": 1,
+      "actualVisualFacing": 1,
+      "correct": true,
+      "scale": -1.5198163076923075,
+      "anchorY": 1.3054
+    },
+    {
+      "rank": "elite_adv",
+      "side": "left",
+      "animation": "walk",
+      "expectedVisualFacing": 1,
+      "actualVisualFacing": 1,
+      "correct": true,
+      "scale": -1.8454912307692308,
+      "anchorY": 1.3054
+    },
+    {
+      "rank": "boss",
+      "side": "left",
+      "animation": "walk",
+      "expectedVisualFacing": 1,
+      "actualVisualFacing": 1,
+      "correct": true,
+      "scale": -2.1711661538461535,
+      "anchorY": 1.3054
+    },
+    {
+      "rank": "normal",
+      "side": "right",
+      "animation": "walk",
+      "expectedVisualFacing": -1,
+      "actualVisualFacing": -1,
+      "correct": true,
+      "scale": 1.0855830769230768,
+      "anchorY": 1.3054
+    },
+    {
+      "rank": "elite",
+      "side": "right",
+      "animation": "walk",
+      "expectedVisualFacing": -1,
+      "actualVisualFacing": -1,
+      "correct": true,
+      "scale": 1.5198163076923075,
+      "anchorY": 1.3054
+    },
+    {
+      "rank": "elite_adv",
+      "side": "right",
+      "animation": "walk",
+      "expectedVisualFacing": -1,
+      "actualVisualFacing": -1,
+      "correct": true,
+      "scale": 1.8454912307692308,
+      "anchorY": 1.3054
+    },
+    {
+      "rank": "boss",
+      "side": "right",
+      "animation": "walk",
+      "expectedVisualFacing": -1,
+      "actualVisualFacing": -1,
+      "correct": true,
+      "scale": 2.1711661538461535,
+      "anchorY": 1.3054
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

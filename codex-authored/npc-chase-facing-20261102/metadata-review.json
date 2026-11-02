@@ -1,0 +1,31 @@
+{
+  "character": "plague_flies",
+  "npc": "swamp_7",
+  "before": {
+    "cellW": 32,
+    "cellH": 32,
+    "anchorX": 0.5,
+    "anchorY": 1.3054,
+    "scale": 1.0732,
+    "facing": 1,
+    "height": 22
+  },
+  "after": {
+    "cellW": 32,
+    "cellH": 32,
+    "anchorX": 0.5,
+    "anchorY": 1.3054,
+    "scale": 1.0732,
+    "facing": -1,
+    "height": 22
+  },
+  "reason": "Original purchased-and-authorized artwork faces LEFT in idle/walk/attack; horizontal facing metadata incorrectly declared RIGHT. Correct only facing. Keep all bitmap pixels and flight anchor unchanged.",
+  "pngCount": 496,
+  "pngTreeSHA256": "1c3c7560a0e223853c90ba682b459ac685694002f19f3ca79f6a4f8fa1e53e15",
+  "characterPngSHA256": {
+    "plague_flies_attack.png": "a171f5f6811b151bf52c825807c54fdb6456b5ff7adce80f186e54698fde0641",
+    "plague_flies_die.png": "5b4078dbdcde5fe139fc84dce3009dce94fe215628981eb17e5e923cba0d78cd",
+    "plague_flies_idle.png": "117a49568f0f64ce29051c3bb5ebab64fd6a9ce20ecca84d39af99b293a073db",
+    "plague_flies_walk.png": "f2305fd93d5802130552c594803d378d072aee509078ff6332ecb1bb396ba64e"
+  }
+}
