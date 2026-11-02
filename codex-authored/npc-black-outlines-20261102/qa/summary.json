@@ -1,41 +1,45 @@
 {
-  "task": "NPC-BLACK-OUTLINES-20261102",
-  "branch": "codex/npc-black-outlines-20261102",
-  "base": "df6baf2e",
+  "task": "NPC-OUTLINE-1PX-20261103",
+  "branch": "ai/codex",
+  "base": "7a751116",
   "assets": 497,
   "npcStrips": 496,
   "npcCharacters": 124,
   "activeNpcCharacters": 120,
   "bossUsedFrames": 11,
   "framesIncludingUnusedBossCells": 3250,
-  "radiusPx": 2,
+  "radiusPx": 1,
+  "previousRadiusPx": 2,
   "rgbaValidation": {
     "assets": 497,
     "frames": 3250,
-    "newOpaquePixels": 1730746,
+    "newOpaquePixels": 740514,
     "originalColoredPixelsPreserved": 3729496,
-    "addedAtFrameBoundary": 0
+    "addedAtFrameBoundary": 0,
+    "removedDarkEdgePixels": 110729
   },
   "tests": {
-    "pass": 95,
+    "pass": 103,
     "fail": 0
   },
   "build": {
-    "files": 631,
+    "files": 633,
     "passed": true
   },
   "runtime": {
     "npcDefinitionsLoaded": 120,
     "bossFramesLoaded": 11,
-    "blackPixelsSampled": 9453,
-    "protectedFromInnerBlend": 9453,
-    "protectedFromOuterGlow": 9453,
+    "blackPixelsSampled": 5637,
+    "protectedFromInnerBlend": 5637,
+    "protectedFromOuterGlow": 5637,
     "errors": 0,
     "warnings": 0
   },
   "moteRoundtrip": {
     "width": 768,
     "height": 128,
-    "changedRGBA": 0
-  }
+    "byteDifferences": 0,
+    "dimensionsMatch": true
+  },
+  "excludedOpaqueBossPortraits": 10
 }

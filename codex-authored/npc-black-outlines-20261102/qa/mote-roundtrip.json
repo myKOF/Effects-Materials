@@ -1,6 +1,6 @@
 {
   "width": 768,
   "height": 128,
-  "rgbaChangedPixels": 0,
-  "layers": 2
+  "byteDifferences": 0,
+  "dimensionsMatch": true
 }

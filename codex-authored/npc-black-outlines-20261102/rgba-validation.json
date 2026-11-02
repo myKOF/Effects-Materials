@@ -1,7 +1,8 @@
 {
   "assets": 497,
   "frames": 3250,
-  "newOpaquePixels": 1730746,
+  "newOpaquePixels": 740514,
   "originalColoredPixelsPreserved": 3729496,
-  "addedAtFrameBoundary": 0
+  "addedAtFrameBoundary": 0,
+  "removedDarkEdgePixels": 110729
 }

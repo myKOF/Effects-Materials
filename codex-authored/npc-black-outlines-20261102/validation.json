@@ -2,3480 +2,3480 @@
   {
     "stem": "male_damned_idle",
     "frames": 5,
-    "changedPixels": 1633,
-    "addedPixels": 947,
-    "radius": 2
+    "changedPixels": 901,
+    "addedPixels": 215,
+    "radius": 1
   },
   {
     "stem": "male_damned_walk",
     "frames": 8,
-    "changedPixels": 2397,
-    "addedPixels": 1372,
-    "radius": 2
+    "changedPixels": 1326,
+    "addedPixels": 301,
+    "radius": 1
   },
   {
     "stem": "male_damned_attack",
     "frames": 6,
-    "changedPixels": 2061,
-    "addedPixels": 1246,
-    "radius": 2
+    "changedPixels": 1121,
+    "addedPixels": 306,
+    "radius": 1
   },
   {
     "stem": "male_damned_die",
     "frames": 7,
-    "changedPixels": 967,
-    "addedPixels": 198,
-    "radius": 2
+    "changedPixels": 807,
+    "addedPixels": 38,
+    "radius": 1
   },
   {
     "stem": "female_damned_idle",
     "frames": 5,
-    "changedPixels": 1858,
-    "addedPixels": 1084,
-    "radius": 2
+    "changedPixels": 1024,
+    "addedPixels": 250,
+    "radius": 1
   },
   {
     "stem": "female_damned_walk",
     "frames": 8,
-    "changedPixels": 2550,
-    "addedPixels": 1487,
-    "radius": 2
+    "changedPixels": 1402,
+    "addedPixels": 339,
+    "radius": 1
   },
   {
     "stem": "female_damned_attack",
     "frames": 6,
-    "changedPixels": 2197,
-    "addedPixels": 1300,
-    "radius": 2
+    "changedPixels": 1198,
+    "addedPixels": 301,
+    "radius": 1
   },
   {
     "stem": "female_damned_die",
     "frames": 7,
-    "changedPixels": 1017,
-    "addedPixels": 255,
-    "radius": 2
+    "changedPixels": 809,
+    "addedPixels": 47,
+    "radius": 1
   },
   {
     "stem": "twisted_damned_idle",
     "frames": 5,
-    "changedPixels": 1618,
-    "addedPixels": 934,
-    "radius": 2
+    "changedPixels": 889,
+    "addedPixels": 205,
+    "radius": 1
   },
   {
     "stem": "twisted_damned_walk",
     "frames": 8,
-    "changedPixels": 2462,
-    "addedPixels": 1400,
-    "radius": 2
+    "changedPixels": 1344,
+    "addedPixels": 282,
+    "radius": 1
   },
   {
     "stem": "twisted_damned_attack",
     "frames": 6,
-    "changedPixels": 2091,
-    "addedPixels": 1259,
-    "radius": 2
+    "changedPixels": 1137,
+    "addedPixels": 305,
+    "radius": 1
   },
   {
     "stem": "twisted_damned_die",
     "frames": 7,
-    "changedPixels": 1019,
-    "addedPixels": 247,
-    "radius": 2
+    "changedPixels": 820,
+    "addedPixels": 48,
+    "radius": 1
   },
   {
     "stem": "burning_damned_idle",
     "frames": 5,
-    "changedPixels": 2210,
-    "addedPixels": 1498,
-    "radius": 2
+    "changedPixels": 1516,
+    "addedPixels": 804,
+    "radius": 1
   },
   {
     "stem": "burning_damned_walk",
     "frames": 8,
-    "changedPixels": 3409,
-    "addedPixels": 2346,
-    "radius": 2
+    "changedPixels": 2317,
+    "addedPixels": 1254,
+    "radius": 1
   },
   {
     "stem": "burning_damned_attack",
     "frames": 6,
-    "changedPixels": 3153,
-    "addedPixels": 2289,
-    "radius": 2
+    "changedPixels": 2108,
+    "addedPixels": 1244,
+    "radius": 1
   },
   {
     "stem": "burning_damned_die",
     "frames": 7,
-    "changedPixels": 2344,
-    "addedPixels": 1927,
-    "radius": 2
+    "changedPixels": 1428,
+    "addedPixels": 1011,
+    "radius": 1
   },
   {
     "stem": "burning_damned_blue_idle",
     "frames": 5,
-    "changedPixels": 2210,
-    "addedPixels": 1498,
-    "radius": 2
+    "changedPixels": 1516,
+    "addedPixels": 804,
+    "radius": 1
   },
   {
     "stem": "burning_damned_blue_walk",
     "frames": 8,
-    "changedPixels": 3409,
-    "addedPixels": 2346,
-    "radius": 2
+    "changedPixels": 2317,
+    "addedPixels": 1254,
+    "radius": 1
   },
   {
     "stem": "burning_damned_blue_attack",
     "frames": 6,
-    "changedPixels": 3153,
-    "addedPixels": 2289,
-    "radius": 2
+    "changedPixels": 2108,
+    "addedPixels": 1244,
+    "radius": 1
   },
   {
     "stem": "burning_damned_blue_die",
     "frames": 7,
-    "changedPixels": 2344,
-    "addedPixels": 1927,
-    "radius": 2
+    "changedPixels": 1428,
+    "addedPixels": 1011,
+    "radius": 1
   },
   {
     "stem": "bloated_damned_idle",
     "frames": 5,
-    "changedPixels": 1563,
-    "addedPixels": 894,
-    "radius": 2
+    "changedPixels": 849,
+    "addedPixels": 180,
+    "radius": 1
   },
   {
     "stem": "bloated_damned_walk",
     "frames": 8,
-    "changedPixels": 2448,
-    "addedPixels": 1377,
-    "radius": 2
+    "changedPixels": 1332,
+    "addedPixels": 261,
+    "radius": 1
   },
   {
     "stem": "bloated_damned_die",
     "frames": 6,
-    "changedPixels": 4251,
-    "addedPixels": 3713,
-    "radius": 2
+    "changedPixels": 2413,
+    "addedPixels": 1875,
+    "radius": 1
   },
   {
     "stem": "burning_skull_idle",
     "frames": 5,
-    "changedPixels": 2214,
-    "addedPixels": 1973,
-    "radius": 2
+    "changedPixels": 1269,
+    "addedPixels": 1028,
+    "radius": 1
   },
   {
     "stem": "burning_skull_die",
     "frames": 7,
-    "changedPixels": 3934,
-    "addedPixels": 3934,
-    "radius": 2
+    "changedPixels": 1911,
+    "addedPixels": 1911,
+    "radius": 1
   },
   {
     "stem": "burning_skull_blue_idle",
     "frames": 5,
-    "changedPixels": 2214,
-    "addedPixels": 1973,
-    "radius": 2
+    "changedPixels": 1269,
+    "addedPixels": 1028,
+    "radius": 1
   },
   {
     "stem": "burning_skull_blue_die",
     "frames": 7,
-    "changedPixels": 3934,
-    "addedPixels": 3934,
-    "radius": 2
+    "changedPixels": 1911,
+    "addedPixels": 1911,
+    "radius": 1
   },
   {
     "stem": "skull_candle_idle",
     "frames": 6,
-    "changedPixels": 2539,
-    "addedPixels": 1382,
-    "radius": 2
+    "changedPixels": 1443,
+    "addedPixels": 286,
+    "radius": 1
   },
   {
     "stem": "skull_candle_die",
     "frames": 7,
-    "changedPixels": 5010,
-    "addedPixels": 5010,
-    "radius": 2
+    "changedPixels": 2543,
+    "addedPixels": 2543,
+    "radius": 1
   },
   {
     "stem": "demon_mine_idle",
     "frames": 6,
-    "changedPixels": 3612,
-    "addedPixels": 2400,
-    "radius": 2
+    "changedPixels": 2050,
+    "addedPixels": 838,
+    "radius": 1
   },
   {
     "stem": "demon_mine_die",
     "frames": 7,
-    "changedPixels": 4450,
-    "addedPixels": 4254,
-    "radius": 2
+    "changedPixels": 2163,
+    "addedPixels": 1967,
+    "radius": 1
   },
   {
     "stem": "demon_eye_idle",
     "frames": 7,
-    "changedPixels": 3143,
-    "addedPixels": 1832,
-    "radius": 2
+    "changedPixels": 1675,
+    "addedPixels": 364,
+    "radius": 1
   },
   {
     "stem": "demon_eye_die",
     "frames": 6,
-    "changedPixels": 3740,
-    "addedPixels": 3740,
-    "radius": 2
+    "changedPixels": 1905,
+    "addedPixels": 1905,
+    "radius": 1
   },
   {
     "stem": "flying_demon_head_idle",
     "frames": 5,
-    "changedPixels": 1677,
-    "addedPixels": 969,
-    "radius": 2
+    "changedPixels": 911,
+    "addedPixels": 203,
+    "radius": 1
   },
   {
     "stem": "flying_demon_head_die",
     "frames": 6,
-    "changedPixels": 3116,
-    "addedPixels": 3116,
-    "radius": 2
+    "changedPixels": 1563,
+    "addedPixels": 1563,
+    "radius": 1
   },
   {
     "stem": "plague_flies_idle",
     "frames": 4,
-    "changedPixels": 924,
-    "addedPixels": 719,
-    "radius": 2
+    "changedPixels": 508,
+    "addedPixels": 303,
+    "radius": 1
   },
   {
     "stem": "plague_flies_die",
     "frames": 5,
-    "changedPixels": 1569,
-    "addedPixels": 1569,
-    "radius": 2
+    "changedPixels": 845,
+    "addedPixels": 845,
+    "radius": 1
   },
   {
     "stem": "cheeky_devil_idle",
     "frames": 10,
-    "changedPixels": 4200,
-    "addedPixels": 2514,
-    "radius": 2
+    "changedPixels": 2606,
+    "addedPixels": 910,
+    "radius": 1
   },
   {
     "stem": "hell_giant_idle",
     "frames": 10,
-    "changedPixels": 9614,
-    "addedPixels": 4931,
-    "radius": 2
+    "changedPixels": 5920,
+    "addedPixels": 1225,
+    "radius": 1
   },
   {
     "stem": "old_demon_idle",
     "frames": 7,
-    "changedPixels": 6430,
-    "addedPixels": 3430,
-    "radius": 2
+    "changedPixels": 3602,
+    "addedPixels": 602,
+    "radius": 1
   },
   {
     "stem": "memento_skeleton_idle",
     "frames": 24,
-    "changedPixels": 19515,
-    "addedPixels": 10042,
-    "radius": 2
+    "changedPixels": 11521,
+    "addedPixels": 2048,
+    "radius": 1
   },
   {
     "stem": "the_devil_idle",
     "frames": 28,
-    "changedPixels": 30659,
-    "addedPixels": 16119,
-    "radius": 2
+    "changedPixels": 17717,
+    "addedPixels": 3177,
+    "radius": 1
   },
   {
     "stem": "large_skull_idle",
     "frames": 10,
-    "changedPixels": 9556,
-    "addedPixels": 5126,
-    "radius": 2
+    "changedPixels": 5423,
+    "addedPixels": 993,
+    "radius": 1
   },
   {
     "stem": "large_skull_attack",
     "frames": 10,
-    "changedPixels": 13205,
-    "addedPixels": 9172,
-    "radius": 2
+    "changedPixels": 7787,
+    "addedPixels": 3754,
+    "radius": 1
   },
   {
     "stem": "large_skull_die",
     "frames": 10,
-    "changedPixels": 6305,
-    "addedPixels": 1218,
-    "radius": 2
+    "changedPixels": 5329,
+    "addedPixels": 242,
+    "radius": 1
   },
   {
     "stem": "imp_idle",
     "frames": 10,
-    "changedPixels": 2522,
-    "addedPixels": 1257,
-    "radius": 2
+    "changedPixels": 1479,
+    "addedPixels": 214,
+    "radius": 1
   },
   {
     "stem": "imp_attack",
     "frames": 5,
-    "changedPixels": 1340,
-    "addedPixels": 686,
-    "radius": 2
+    "changedPixels": 776,
+    "addedPixels": 122,
+    "radius": 1
   },
   {
     "stem": "imp_walk",
     "frames": 8,
-    "changedPixels": 2521,
-    "addedPixels": 1332,
-    "radius": 2
+    "changedPixels": 1429,
+    "addedPixels": 240,
+    "radius": 1
   },
   {
     "stem": "imp_die",
     "frames": 6,
-    "changedPixels": 3494,
-    "addedPixels": 3494,
-    "radius": 2
+    "changedPixels": 1888,
+    "addedPixels": 1888,
+    "radius": 1
   },
   {
     "stem": "tree_damned_idle",
     "frames": 1,
-    "changedPixels": 496,
-    "addedPixels": 285,
-    "radius": 2
+    "changedPixels": 281,
+    "addedPixels": 70,
+    "radius": 1
   },
   {
     "stem": "tree_damned_die",
     "frames": 7,
-    "changedPixels": 1834,
-    "addedPixels": 583,
-    "radius": 2
+    "changedPixels": 1385,
+    "addedPixels": 134,
+    "radius": 1
   },
   {
     "stem": "bat_idle",
     "frames": 11,
-    "changedPixels": 4808,
-    "addedPixels": 2187,
-    "radius": 2
+    "changedPixels": 3436,
+    "addedPixels": 815,
+    "radius": 1
   },
   {
     "stem": "bat_attack",
     "frames": 11,
-    "changedPixels": 4361,
-    "addedPixels": 2400,
-    "radius": 2
+    "changedPixels": 3025,
+    "addedPixels": 1064,
+    "radius": 1
   },
   {
     "stem": "bat_die",
     "frames": 4,
-    "changedPixels": 1151,
-    "addedPixels": 547,
-    "radius": 2
+    "changedPixels": 788,
+    "addedPixels": 184,
+    "radius": 1
   },
   {
     "stem": "rat_idle",
     "frames": 10,
-    "changedPixels": 3391,
-    "addedPixels": 3171,
-    "radius": 2
+    "changedPixels": 1818,
+    "addedPixels": 1598,
+    "radius": 1
   },
   {
     "stem": "rat_walk",
     "frames": 8,
-    "changedPixels": 2932,
-    "addedPixels": 2824,
-    "radius": 2
+    "changedPixels": 1507,
+    "addedPixels": 1399,
+    "radius": 1
   },
   {
     "stem": "rat_attack",
     "frames": 12,
-    "changedPixels": 4171,
-    "addedPixels": 3863,
-    "radius": 2
+    "changedPixels": 2246,
+    "addedPixels": 1938,
+    "radius": 1
   },
   {
     "stem": "rat_die",
     "frames": 6,
-    "changedPixels": 1718,
-    "addedPixels": 1650,
-    "radius": 2
+    "changedPixels": 888,
+    "addedPixels": 820,
+    "radius": 1
   },
   {
     "stem": "slime_idle",
     "frames": 14,
-    "changedPixels": 3640,
-    "addedPixels": 3640,
-    "radius": 2
+    "changedPixels": 1764,
+    "addedPixels": 1764,
+    "radius": 1
   },
   {
     "stem": "slime_walk",
     "frames": 6,
-    "changedPixels": 1444,
-    "addedPixels": 1444,
-    "radius": 2
+    "changedPixels": 698,
+    "addedPixels": 698,
+    "radius": 1
   },
   {
     "stem": "slime_attack",
     "frames": 19,
-    "changedPixels": 6782,
-    "addedPixels": 6782,
-    "radius": 2
+    "changedPixels": 3315,
+    "addedPixels": 3315,
+    "radius": 1
   },
   {
     "stem": "slime_die",
     "frames": 11,
-    "changedPixels": 3245,
-    "addedPixels": 3228,
-    "radius": 2
+    "changedPixels": 1586,
+    "addedPixels": 1569,
+    "radius": 1
   },
   {
     "stem": "mimic_idle",
     "frames": 9,
-    "changedPixels": 2781,
-    "addedPixels": 2781,
-    "radius": 2
+    "changedPixels": 1403,
+    "addedPixels": 1403,
+    "radius": 1
   },
   {
     "stem": "mimic_walk",
     "frames": 6,
-    "changedPixels": 1678,
-    "addedPixels": 1678,
-    "radius": 2
+    "changedPixels": 828,
+    "addedPixels": 828,
+    "radius": 1
   },
   {
     "stem": "mimic_attack",
     "frames": 14,
-    "changedPixels": 6062,
-    "addedPixels": 6062,
-    "radius": 2
+    "changedPixels": 3180,
+    "addedPixels": 3180,
+    "radius": 1
   },
   {
     "stem": "mimic_die",
     "frames": 6,
-    "changedPixels": 1859,
-    "addedPixels": 1859,
-    "radius": 2
+    "changedPixels": 939,
+    "addedPixels": 939,
+    "radius": 1
   },
   {
     "stem": "burning_skull_walk",
     "frames": 8,
-    "changedPixels": 3542,
-    "addedPixels": 3158,
-    "radius": 2
+    "changedPixels": 2021,
+    "addedPixels": 1637,
+    "radius": 1
   },
   {
     "stem": "burning_skull_attack",
     "frames": 6,
-    "changedPixels": 2641,
-    "addedPixels": 2354,
-    "radius": 2
+    "changedPixels": 1498,
+    "addedPixels": 1211,
+    "radius": 1
   },
   {
     "stem": "demon_eye_walk",
     "frames": 8,
-    "changedPixels": 3594,
-    "addedPixels": 2097,
-    "radius": 2
+    "changedPixels": 1919,
+    "addedPixels": 422,
+    "radius": 1
   },
   {
     "stem": "demon_eye_attack",
     "frames": 6,
-    "changedPixels": 2690,
-    "addedPixels": 1559,
-    "radius": 2
+    "changedPixels": 1439,
+    "addedPixels": 308,
+    "radius": 1
   },
   {
     "stem": "demon_mine_walk",
     "frames": 8,
-    "changedPixels": 4820,
-    "addedPixels": 3198,
-    "radius": 2
+    "changedPixels": 2739,
+    "addedPixels": 1117,
+    "radius": 1
   },
   {
     "stem": "demon_mine_attack",
     "frames": 6,
-    "changedPixels": 3635,
-    "addedPixels": 2421,
-    "radius": 2
+    "changedPixels": 2077,
+    "addedPixels": 863,
+    "radius": 1
   },
   {
     "stem": "plague_flies_walk",
     "frames": 8,
-    "changedPixels": 1848,
-    "addedPixels": 1438,
-    "radius": 2
+    "changedPixels": 1016,
+    "addedPixels": 606,
+    "radius": 1
   },
   {
     "stem": "plague_flies_attack",
     "frames": 6,
-    "changedPixels": 1332,
-    "addedPixels": 1020,
-    "radius": 2
+    "changedPixels": 748,
+    "addedPixels": 436,
+    "radius": 1
   },
   {
     "stem": "memento_skeleton_walk",
     "frames": 8,
-    "changedPixels": 6232,
-    "addedPixels": 3216,
-    "radius": 2
+    "changedPixels": 3755,
+    "addedPixels": 739,
+    "radius": 1
   },
   {
     "stem": "memento_skeleton_attack",
     "frames": 6,
-    "changedPixels": 4999,
-    "addedPixels": 2710,
-    "radius": 2
+    "changedPixels": 2979,
+    "addedPixels": 690,
+    "radius": 1
   },
   {
     "stem": "memento_skeleton_die",
     "frames": 8,
-    "changedPixels": 5987,
-    "addedPixels": 3744,
-    "radius": 2
+    "changedPixels": 3501,
+    "addedPixels": 1258,
+    "radius": 1
   },
   {
     "stem": "tree_damned_walk",
     "frames": 8,
-    "changedPixels": 4045,
-    "addedPixels": 1594,
-    "radius": 2
+    "changedPixels": 2742,
+    "addedPixels": 291,
+    "radius": 1
   },
   {
     "stem": "tree_damned_attack",
     "frames": 6,
-    "changedPixels": 3027,
-    "addedPixels": 1755,
-    "radius": 2
+    "changedPixels": 1730,
+    "addedPixels": 458,
+    "radius": 1
   },
   {
     "stem": "cheeky_devil_walk",
     "frames": 8,
-    "changedPixels": 3357,
-    "addedPixels": 2021,
-    "radius": 2
+    "changedPixels": 2090,
+    "addedPixels": 746,
+    "radius": 1
   },
   {
     "stem": "cheeky_devil_attack",
     "frames": 6,
-    "changedPixels": 2575,
-    "addedPixels": 1566,
-    "radius": 2
+    "changedPixels": 1598,
+    "addedPixels": 582,
+    "radius": 1
   },
   {
     "stem": "cheeky_devil_die",
     "frames": 8,
-    "changedPixels": 2546,
-    "addedPixels": 1670,
-    "radius": 2
+    "changedPixels": 1549,
+    "addedPixels": 671,
+    "radius": 1
   },
   {
     "stem": "hell_giant_walk",
     "frames": 8,
-    "changedPixels": 8016,
-    "addedPixels": 4239,
-    "radius": 2
+    "changedPixels": 4976,
+    "addedPixels": 1190,
+    "radius": 1
   },
   {
     "stem": "hell_giant_attack",
     "frames": 6,
-    "changedPixels": 6323,
-    "addedPixels": 3500,
-    "radius": 2
+    "changedPixels": 3857,
+    "addedPixels": 1026,
+    "radius": 1
   },
   {
     "stem": "hell_giant_die",
     "frames": 8,
-    "changedPixels": 7107,
-    "addedPixels": 4540,
-    "radius": 2
+    "changedPixels": 4190,
+    "addedPixels": 1619,
+    "radius": 1
   },
   {
     "stem": "flying_demon_head_walk",
     "frames": 8,
-    "changedPixels": 2670,
-    "addedPixels": 1556,
-    "radius": 2
+    "changedPixels": 1448,
+    "addedPixels": 334,
+    "radius": 1
   },
   {
     "stem": "flying_demon_head_attack",
     "frames": 6,
-    "changedPixels": 2013,
-    "addedPixels": 1163,
-    "radius": 2
+    "changedPixels": 1090,
+    "addedPixels": 240,
+    "radius": 1
   },
   {
     "stem": "old_demon_walk",
     "frames": 8,
-    "changedPixels": 5547,
-    "addedPixels": 1617,
-    "radius": 2
+    "changedPixels": 4232,
+    "addedPixels": 302,
+    "radius": 1
   },
   {
     "stem": "old_demon_attack",
     "frames": 6,
-    "changedPixels": 5497,
-    "addedPixels": 2941,
-    "radius": 2
+    "changedPixels": 3101,
+    "addedPixels": 545,
+    "radius": 1
   },
   {
     "stem": "old_demon_die",
     "frames": 8,
-    "changedPixels": 5542,
-    "addedPixels": 3355,
-    "radius": 2
+    "changedPixels": 3124,
+    "addedPixels": 937,
+    "radius": 1
   },
   {
     "stem": "large_skull_walk",
     "frames": 8,
-    "changedPixels": 7675,
-    "addedPixels": 4143,
-    "radius": 2
+    "changedPixels": 4359,
+    "addedPixels": 827,
+    "radius": 1
   },
   {
     "stem": "bat_walk",
     "frames": 8,
-    "changedPixels": 3444,
-    "addedPixels": 1558,
-    "radius": 2
+    "changedPixels": 2464,
+    "addedPixels": 578,
+    "radius": 1
   },
   {
     "stem": "bloated_damned_attack",
     "frames": 6,
-    "changedPixels": 1893,
-    "addedPixels": 1088,
-    "radius": 2
+    "changedPixels": 1035,
+    "addedPixels": 230,
+    "radius": 1
   },
   {
     "stem": "skull_candle_walk",
     "frames": 8,
-    "changedPixels": 3405,
-    "addedPixels": 1856,
-    "radius": 2
+    "changedPixels": 1939,
+    "addedPixels": 390,
+    "radius": 1
   },
   {
     "stem": "skull_candle_attack",
     "frames": 6,
-    "changedPixels": 2576,
-    "addedPixels": 1420,
-    "radius": 2
+    "changedPixels": 1454,
+    "addedPixels": 298,
+    "radius": 1
   },
   {
     "stem": "burning_skull_blue_walk",
     "frames": 8,
-    "changedPixels": 3542,
-    "addedPixels": 3158,
-    "radius": 2
+    "changedPixels": 2021,
+    "addedPixels": 1637,
+    "radius": 1
   },
   {
     "stem": "burning_skull_blue_attack",
     "frames": 6,
-    "changedPixels": 2641,
-    "addedPixels": 2354,
-    "radius": 2
+    "changedPixels": 1498,
+    "addedPixels": 1211,
+    "radius": 1
   },
   {
     "stem": "the_devil_walk",
     "frames": 8,
-    "changedPixels": 8934,
-    "addedPixels": 4795,
-    "radius": 2
+    "changedPixels": 5130,
+    "addedPixels": 991,
+    "radius": 1
   },
   {
     "stem": "the_devil_attack",
     "frames": 6,
-    "changedPixels": 6752,
-    "addedPixels": 3614,
-    "radius": 2
+    "changedPixels": 3887,
+    "addedPixels": 749,
+    "radius": 1
   },
   {
     "stem": "the_devil_die",
     "frames": 8,
-    "changedPixels": 7143,
-    "addedPixels": 4352,
-    "radius": 2
+    "changedPixels": 4118,
+    "addedPixels": 1327,
+    "radius": 1
   },
   {
     "stem": "skeleton_warrior_sword_idle",
     "frames": 6,
-    "changedPixels": 5641,
-    "addedPixels": 3690,
-    "radius": 2
+    "changedPixels": 4472,
+    "addedPixels": 1302,
+    "radius": 1
   },
   {
     "stem": "skeleton_warrior_sword_walk",
     "frames": 8,
-    "changedPixels": 6484,
-    "addedPixels": 3524,
-    "radius": 2
+    "changedPixels": 3812,
+    "addedPixels": 852,
+    "radius": 1
   },
   {
     "stem": "skeleton_warrior_sword_attack",
     "frames": 6,
-    "changedPixels": 5484,
-    "addedPixels": 3644,
-    "radius": 2
+    "changedPixels": 4287,
+    "addedPixels": 1279,
+    "radius": 1
   },
   {
     "stem": "skeleton_warrior_sword_die",
     "frames": 6,
-    "changedPixels": 3933,
-    "addedPixels": 2636,
-    "radius": 2
+    "changedPixels": 2997,
+    "addedPixels": 938,
+    "radius": 1
   },
   {
     "stem": "skeleton_warrior_axe_idle",
     "frames": 6,
-    "changedPixels": 5403,
-    "addedPixels": 3403,
-    "radius": 2
+    "changedPixels": 4357,
+    "addedPixels": 1068,
+    "radius": 1
   },
   {
     "stem": "skeleton_warrior_axe_walk",
     "frames": 8,
-    "changedPixels": 6240,
-    "addedPixels": 3199,
-    "radius": 2
+    "changedPixels": 3622,
+    "addedPixels": 581,
+    "radius": 1
   },
   {
     "stem": "skeleton_warrior_axe_attack",
     "frames": 6,
-    "changedPixels": 5450,
-    "addedPixels": 3556,
-    "radius": 2
+    "changedPixels": 4695,
+    "addedPixels": 1233,
+    "radius": 1
   },
   {
     "stem": "skeleton_warrior_axe_die",
     "frames": 6,
-    "changedPixels": 3769,
-    "addedPixels": 2455,
-    "radius": 2
+    "changedPixels": 3134,
+    "addedPixels": 843,
+    "radius": 1
   },
   {
     "stem": "skeleton_mage_staff_idle",
     "frames": 6,
-    "changedPixels": 4691,
-    "addedPixels": 2632,
-    "radius": 2
+    "changedPixels": 4009,
+    "addedPixels": 574,
+    "radius": 1
   },
   {
     "stem": "skeleton_mage_staff_walk",
     "frames": 8,
-    "changedPixels": 5288,
-    "addedPixels": 2430,
-    "radius": 2
+    "changedPixels": 3281,
+    "addedPixels": 339,
+    "radius": 1
   },
   {
     "stem": "skeleton_mage_staff_attack",
     "frames": 6,
-    "changedPixels": 5239,
-    "addedPixels": 2980,
-    "radius": 2
+    "changedPixels": 4517,
+    "addedPixels": 734,
+    "radius": 1
   },
   {
     "stem": "skeleton_mage_staff_die",
     "frames": 6,
-    "changedPixels": 3462,
-    "addedPixels": 1921,
-    "radius": 2
+    "changedPixels": 3002,
+    "addedPixels": 431,
+    "radius": 1
   },
   {
     "stem": "skeleton_mage_book_idle",
     "frames": 6,
-    "changedPixels": 4908,
-    "addedPixels": 3257,
-    "radius": 2
+    "changedPixels": 3757,
+    "addedPixels": 1169,
+    "radius": 1
   },
   {
     "stem": "skeleton_mage_book_walk",
     "frames": 8,
-    "changedPixels": 5891,
-    "addedPixels": 3201,
-    "radius": 2
+    "changedPixels": 3472,
+    "addedPixels": 782,
+    "radius": 1
   },
   {
     "stem": "skeleton_mage_book_attack",
     "frames": 6,
-    "changedPixels": 5228,
-    "addedPixels": 3541,
-    "radius": 2
+    "changedPixels": 3973,
+    "addedPixels": 1312,
+    "radius": 1
   },
   {
     "stem": "skeleton_mage_book_die",
     "frames": 6,
-    "changedPixels": 3699,
-    "addedPixels": 2482,
-    "radius": 2
+    "changedPixels": 2824,
+    "addedPixels": 911,
+    "radius": 1
   },
   {
     "stem": "desert_slime_idle",
     "frames": 6,
-    "changedPixels": 2885,
-    "addedPixels": 1031,
-    "radius": 2
+    "changedPixels": 2098,
+    "addedPixels": 212,
+    "radius": 1
   },
   {
     "stem": "desert_slime_walk",
     "frames": 6,
-    "changedPixels": 3186,
-    "addedPixels": 1184,
-    "radius": 2
+    "changedPixels": 2294,
+    "addedPixels": 267,
+    "radius": 1
   },
   {
     "stem": "desert_slime_attack",
     "frames": 6,
-    "changedPixels": 3531,
-    "addedPixels": 1347,
-    "radius": 2
+    "changedPixels": 2535,
+    "addedPixels": 312,
+    "radius": 1
   },
   {
     "stem": "desert_slime_die",
     "frames": 6,
-    "changedPixels": 2715,
-    "addedPixels": 848,
-    "radius": 2
+    "changedPixels": 2088,
+    "addedPixels": 172,
+    "radius": 1
   },
   {
     "stem": "desert_goblin_idle",
     "frames": 6,
-    "changedPixels": 5273,
-    "addedPixels": 3170,
-    "radius": 2
+    "changedPixels": 3699,
+    "addedPixels": 862,
+    "radius": 1
   },
   {
     "stem": "desert_goblin_walk",
     "frames": 8,
-    "changedPixels": 7659,
-    "addedPixels": 4361,
-    "radius": 2
+    "changedPixels": 4379,
+    "addedPixels": 1019,
+    "radius": 1
   },
   {
     "stem": "desert_goblin_attack",
     "frames": 6,
-    "changedPixels": 6116,
-    "addedPixels": 3647,
-    "radius": 2
+    "changedPixels": 4252,
+    "addedPixels": 1051,
+    "radius": 1
   },
   {
     "stem": "desert_goblin_die",
     "frames": 6,
-    "changedPixels": 4186,
-    "addedPixels": 2444,
-    "radius": 2
+    "changedPixels": 2959,
+    "addedPixels": 672,
+    "radius": 1
   },
   {
     "stem": "desert_wolf_idle",
     "frames": 6,
-    "changedPixels": 3987,
-    "addedPixels": 2991,
-    "radius": 2
+    "changedPixels": 2196,
+    "addedPixels": 1200,
+    "radius": 1
   },
   {
     "stem": "desert_wolf_walk",
     "frames": 6,
-    "changedPixels": 4134,
-    "addedPixels": 3015,
-    "radius": 2
+    "changedPixels": 2309,
+    "addedPixels": 1183,
+    "radius": 1
   },
   {
     "stem": "desert_wolf_attack",
     "frames": 6,
-    "changedPixels": 4256,
-    "addedPixels": 3201,
-    "radius": 2
+    "changedPixels": 2385,
+    "addedPixels": 1326,
+    "radius": 1
   },
   {
     "stem": "desert_wolf_die",
     "frames": 6,
-    "changedPixels": 2993,
-    "addedPixels": 2154,
-    "radius": 2
+    "changedPixels": 1661,
+    "addedPixels": 820,
+    "radius": 1
   },
   {
     "stem": "desert_skeleton_idle",
     "frames": 6,
-    "changedPixels": 4888,
-    "addedPixels": 3089,
-    "radius": 2
+    "changedPixels": 2794,
+    "addedPixels": 989,
+    "radius": 1
   },
   {
     "stem": "desert_skeleton_walk",
     "frames": 8,
-    "changedPixels": 6500,
-    "addedPixels": 3996,
-    "radius": 2
+    "changedPixels": 3706,
+    "addedPixels": 1192,
+    "radius": 1
   },
   {
     "stem": "desert_skeleton_attack",
     "frames": 6,
-    "changedPixels": 5531,
-    "addedPixels": 3560,
-    "radius": 2
+    "changedPixels": 3260,
+    "addedPixels": 1282,
+    "radius": 1
   },
   {
     "stem": "desert_skeleton_die",
     "frames": 6,
-    "changedPixels": 3918,
-    "addedPixels": 2504,
-    "radius": 2
+    "changedPixels": 2279,
+    "addedPixels": 854,
+    "radius": 1
   },
   {
     "stem": "desert_shadow_bat_idle",
     "frames": 6,
-    "changedPixels": 4202,
-    "addedPixels": 2081,
-    "radius": 2
+    "changedPixels": 3608,
+    "addedPixels": 455,
+    "radius": 1
   },
   {
     "stem": "desert_shadow_bat_walk",
     "frames": 6,
-    "changedPixels": 3773,
-    "addedPixels": 1913,
-    "radius": 2
+    "changedPixels": 3258,
+    "addedPixels": 432,
+    "radius": 1
   },
   {
     "stem": "desert_shadow_bat_attack",
     "frames": 6,
-    "changedPixels": 4529,
-    "addedPixels": 2400,
-    "radius": 2
+    "changedPixels": 3881,
+    "addedPixels": 593,
+    "radius": 1
   },
   {
     "stem": "desert_shadow_bat_die",
     "frames": 6,
-    "changedPixels": 3171,
-    "addedPixels": 1493,
-    "radius": 2
+    "changedPixels": 2801,
+    "addedPixels": 303,
+    "radius": 1
   },
   {
     "stem": "desert_tree_spirit_idle",
     "frames": 6,
-    "changedPixels": 5956,
-    "addedPixels": 4418,
-    "radius": 2
+    "changedPixels": 3594,
+    "addedPixels": 2056,
+    "radius": 1
   },
   {
     "stem": "desert_tree_spirit_walk",
     "frames": 8,
-    "changedPixels": 9667,
-    "addedPixels": 5973,
-    "radius": 2
+    "changedPixels": 5725,
+    "addedPixels": 2031,
+    "radius": 1
   },
   {
     "stem": "desert_tree_spirit_attack",
     "frames": 6,
-    "changedPixels": 6660,
-    "addedPixels": 5093,
-    "radius": 2
+    "changedPixels": 3900,
+    "addedPixels": 2333,
+    "radius": 1
   },
   {
     "stem": "desert_tree_spirit_die",
     "frames": 6,
-    "changedPixels": 4563,
-    "addedPixels": 3445,
-    "radius": 2
+    "changedPixels": 2601,
+    "addedPixels": 1483,
+    "radius": 1
   },
   {
     "stem": "desert_lizard_warrior_idle",
     "frames": 6,
-    "changedPixels": 5372,
-    "addedPixels": 3707,
-    "radius": 2
+    "changedPixels": 3112,
+    "addedPixels": 1447,
+    "radius": 1
   },
   {
     "stem": "desert_lizard_warrior_walk",
     "frames": 8,
-    "changedPixels": 7110,
-    "addedPixels": 4904,
-    "radius": 2
+    "changedPixels": 4011,
+    "addedPixels": 1802,
+    "radius": 1
   },
   {
     "stem": "desert_lizard_warrior_attack",
     "frames": 6,
-    "changedPixels": 6110,
-    "addedPixels": 4324,
-    "radius": 2
+    "changedPixels": 3504,
+    "addedPixels": 1712,
+    "radius": 1
   },
   {
     "stem": "desert_lizard_warrior_die",
     "frames": 6,
-    "changedPixels": 4106,
-    "addedPixels": 2822,
-    "radius": 2
+    "changedPixels": 2387,
+    "addedPixels": 1091,
+    "radius": 1
   },
   {
     "stem": "desert_orc_idle",
     "frames": 6,
-    "changedPixels": 5428,
-    "addedPixels": 2988,
-    "radius": 2
+    "changedPixels": 4600,
+    "addedPixels": 904,
+    "radius": 1
   },
   {
     "stem": "desert_orc_walk",
     "frames": 8,
-    "changedPixels": 6611,
-    "addedPixels": 2802,
-    "radius": 2
+    "changedPixels": 4553,
+    "addedPixels": 634,
+    "radius": 1
   },
   {
     "stem": "desert_orc_attack",
     "frames": 6,
-    "changedPixels": 6274,
-    "addedPixels": 3562,
-    "radius": 2
+    "changedPixels": 5141,
+    "addedPixels": 1177,
+    "radius": 1
   },
   {
     "stem": "desert_orc_die",
     "frames": 6,
-    "changedPixels": 4198,
-    "addedPixels": 2284,
-    "radius": 2
+    "changedPixels": 3486,
+    "addedPixels": 685,
+    "radius": 1
   },
   {
     "stem": "npc_desert_9_idle",
     "frames": 6,
-    "changedPixels": 4850,
-    "addedPixels": 4433,
-    "radius": 2
+    "changedPixels": 2921,
+    "addedPixels": 2500,
+    "radius": 1
   },
   {
     "stem": "npc_desert_9_walk",
     "frames": 6,
-    "changedPixels": 5549,
-    "addedPixels": 5159,
-    "radius": 2
+    "changedPixels": 3291,
+    "addedPixels": 2899,
+    "radius": 1
   },
   {
     "stem": "npc_desert_9_attack",
     "frames": 6,
-    "changedPixels": 5905,
-    "addedPixels": 5609,
-    "radius": 2
+    "changedPixels": 3545,
+    "addedPixels": 3244,
+    "radius": 1
   },
   {
     "stem": "npc_desert_9_die",
     "frames": 6,
-    "changedPixels": 4541,
-    "addedPixels": 4209,
-    "radius": 2
+    "changedPixels": 2609,
+    "addedPixels": 2275,
+    "radius": 1
   },
   {
     "stem": "npc_desert_10_idle",
     "frames": 6,
-    "changedPixels": 4501,
-    "addedPixels": 3502,
-    "radius": 2
+    "changedPixels": 2631,
+    "addedPixels": 1584,
+    "radius": 1
   },
   {
     "stem": "npc_desert_10_walk",
     "frames": 6,
-    "changedPixels": 4125,
-    "addedPixels": 3200,
-    "radius": 2
+    "changedPixels": 2381,
+    "addedPixels": 1406,
+    "radius": 1
   },
   {
     "stem": "npc_desert_10_attack",
     "frames": 6,
-    "changedPixels": 4732,
-    "addedPixels": 3654,
-    "radius": 2
+    "changedPixels": 2775,
+    "addedPixels": 1629,
+    "radius": 1
   },
   {
     "stem": "npc_desert_10_die",
     "frames": 6,
-    "changedPixels": 3224,
-    "addedPixels": 2466,
-    "radius": 2
+    "changedPixels": 1878,
+    "addedPixels": 1074,
+    "radius": 1
   },
   {
     "stem": "npc_desert_11_idle",
     "frames": 6,
-    "changedPixels": 4968,
-    "addedPixels": 3271,
-    "radius": 2
+    "changedPixels": 3012,
+    "addedPixels": 1309,
+    "radius": 1
   },
   {
     "stem": "npc_desert_11_walk",
     "frames": 8,
-    "changedPixels": 6087,
-    "addedPixels": 3394,
-    "radius": 2
+    "changedPixels": 3705,
+    "addedPixels": 994,
+    "radius": 1
   },
   {
     "stem": "npc_desert_11_attack",
     "frames": 6,
-    "changedPixels": 5604,
-    "addedPixels": 3679,
-    "radius": 2
+    "changedPixels": 3327,
+    "addedPixels": 1394,
+    "radius": 1
   },
   {
     "stem": "npc_desert_11_die",
     "frames": 6,
-    "changedPixels": 3885,
-    "addedPixels": 2553,
-    "radius": 2
+    "changedPixels": 2318,
+    "addedPixels": 980,
+    "radius": 1
   },
   {
     "stem": "npc_desert_12_idle",
     "frames": 6,
-    "changedPixels": 5274,
-    "addedPixels": 4518,
-    "radius": 2
+    "changedPixels": 2938,
+    "addedPixels": 2153,
+    "radius": 1
   },
   {
     "stem": "npc_desert_12_walk",
     "frames": 6,
-    "changedPixels": 4656,
-    "addedPixels": 3904,
-    "radius": 2
+    "changedPixels": 2570,
+    "addedPixels": 1801,
+    "radius": 1
   },
   {
     "stem": "npc_desert_12_attack",
     "frames": 6,
-    "changedPixels": 5230,
-    "addedPixels": 4388,
-    "radius": 2
+    "changedPixels": 2912,
+    "addedPixels": 2041,
+    "radius": 1
   },
   {
     "stem": "npc_desert_12_die",
     "frames": 6,
-    "changedPixels": 3864,
-    "addedPixels": 3153,
-    "radius": 2
+    "changedPixels": 2155,
+    "addedPixels": 1424,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_1_idle",
     "frames": 6,
-    "changedPixels": 3864,
-    "addedPixels": 2574,
-    "radius": 2
+    "changedPixels": 2313,
+    "addedPixels": 1023,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_1_walk",
     "frames": 6,
-    "changedPixels": 4406,
-    "addedPixels": 3000,
-    "radius": 2
+    "changedPixels": 2587,
+    "addedPixels": 1181,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_1_attack",
     "frames": 6,
-    "changedPixels": 4773,
-    "addedPixels": 3279,
-    "radius": 2
+    "changedPixels": 2812,
+    "addedPixels": 1318,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_1_die",
     "frames": 6,
-    "changedPixels": 3456,
-    "addedPixels": 2301,
-    "radius": 2
+    "changedPixels": 2034,
+    "addedPixels": 879,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_2_idle",
     "frames": 6,
-    "changedPixels": 3960,
-    "addedPixels": 2784,
-    "radius": 2
+    "changedPixels": 2328,
+    "addedPixels": 1152,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_2_walk",
     "frames": 6,
-    "changedPixels": 4002,
-    "addedPixels": 2799,
-    "radius": 2
+    "changedPixels": 2333,
+    "addedPixels": 1130,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_2_attack",
     "frames": 6,
-    "changedPixels": 4209,
-    "addedPixels": 2908,
-    "radius": 2
+    "changedPixels": 2489,
+    "addedPixels": 1188,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_2_die",
     "frames": 6,
-    "changedPixels": 3508,
-    "addedPixels": 2443,
-    "radius": 2
+    "changedPixels": 2074,
+    "addedPixels": 1009,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_3_idle",
     "frames": 6,
-    "changedPixels": 3079,
-    "addedPixels": 2002,
-    "radius": 2
+    "changedPixels": 1795,
+    "addedPixels": 718,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_3_walk",
     "frames": 6,
-    "changedPixels": 3060,
-    "addedPixels": 2021,
-    "radius": 2
+    "changedPixels": 1786,
+    "addedPixels": 747,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_3_attack",
     "frames": 6,
-    "changedPixels": 3459,
-    "addedPixels": 2249,
-    "radius": 2
+    "changedPixels": 2037,
+    "addedPixels": 827,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_3_die",
     "frames": 6,
-    "changedPixels": 2717,
-    "addedPixels": 1801,
-    "radius": 2
+    "changedPixels": 1538,
+    "addedPixels": 622,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_4_idle",
     "frames": 6,
-    "changedPixels": 5138,
-    "addedPixels": 3522,
-    "radius": 2
+    "changedPixels": 2936,
+    "addedPixels": 1308,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_4_walk",
     "frames": 8,
-    "changedPixels": 6930,
-    "addedPixels": 3947,
-    "radius": 2
+    "changedPixels": 4185,
+    "addedPixels": 1185,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_4_attack",
     "frames": 6,
-    "changedPixels": 6122,
-    "addedPixels": 4598,
-    "radius": 2
+    "changedPixels": 3539,
+    "addedPixels": 2011,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_4_die",
     "frames": 6,
-    "changedPixels": 3570,
-    "addedPixels": 2548,
-    "radius": 2
+    "changedPixels": 2061,
+    "addedPixels": 1038,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_5_idle",
     "frames": 6,
-    "changedPixels": 4468,
-    "addedPixels": 3502,
-    "radius": 2
+    "changedPixels": 2522,
+    "addedPixels": 1556,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_5_walk",
     "frames": 8,
-    "changedPixels": 5697,
-    "addedPixels": 3844,
-    "radius": 2
+    "changedPixels": 3187,
+    "addedPixels": 1334,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_5_attack",
     "frames": 6,
-    "changedPixels": 4790,
-    "addedPixels": 3739,
-    "radius": 2
+    "changedPixels": 2660,
+    "addedPixels": 1609,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_5_die",
     "frames": 6,
-    "changedPixels": 3446,
-    "addedPixels": 2716,
-    "radius": 2
+    "changedPixels": 1892,
+    "addedPixels": 1162,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_6_idle",
     "frames": 6,
-    "changedPixels": 4910,
-    "addedPixels": 4624,
-    "radius": 2
+    "changedPixels": 2943,
+    "addedPixels": 2657,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_6_walk",
     "frames": 6,
-    "changedPixels": 5502,
-    "addedPixels": 5235,
-    "radius": 2
+    "changedPixels": 3258,
+    "addedPixels": 2991,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_6_attack",
     "frames": 6,
-    "changedPixels": 5726,
-    "addedPixels": 5504,
-    "radius": 2
+    "changedPixels": 3360,
+    "addedPixels": 3138,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_6_die",
     "frames": 6,
-    "changedPixels": 4319,
-    "addedPixels": 3995,
-    "radius": 2
+    "changedPixels": 2514,
+    "addedPixels": 2190,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_7_idle",
     "frames": 6,
-    "changedPixels": 5319,
-    "addedPixels": 3949,
-    "radius": 2
+    "changedPixels": 3594,
+    "addedPixels": 1978,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_7_walk",
     "frames": 6,
-    "changedPixels": 6158,
-    "addedPixels": 4736,
-    "radius": 2
+    "changedPixels": 4053,
+    "addedPixels": 2329,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_7_attack",
     "frames": 6,
-    "changedPixels": 6865,
-    "addedPixels": 5582,
-    "radius": 2
+    "changedPixels": 4437,
+    "addedPixels": 2867,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_7_die",
     "frames": 6,
-    "changedPixels": 4555,
-    "addedPixels": 3666,
-    "radius": 2
+    "changedPixels": 2962,
+    "addedPixels": 1944,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_8_idle",
     "frames": 6,
-    "changedPixels": 4207,
-    "addedPixels": 4014,
-    "radius": 2
+    "changedPixels": 2587,
+    "addedPixels": 2394,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_8_walk",
     "frames": 6,
-    "changedPixels": 4337,
-    "addedPixels": 4180,
-    "radius": 2
+    "changedPixels": 2607,
+    "addedPixels": 2450,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_8_attack",
     "frames": 6,
-    "changedPixels": 4907,
-    "addedPixels": 4761,
-    "radius": 2
+    "changedPixels": 2991,
+    "addedPixels": 2845,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_8_die",
     "frames": 6,
-    "changedPixels": 3770,
-    "addedPixels": 3645,
-    "radius": 2
+    "changedPixels": 2167,
+    "addedPixels": 2042,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_9_idle",
     "frames": 6,
-    "changedPixels": 3535,
-    "addedPixels": 2470,
-    "radius": 2
+    "changedPixels": 1938,
+    "addedPixels": 873,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_9_walk",
     "frames": 8,
-    "changedPixels": 4855,
-    "addedPixels": 2875,
-    "radius": 2
+    "changedPixels": 2711,
+    "addedPixels": 724,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_9_attack",
     "frames": 6,
-    "changedPixels": 5252,
-    "addedPixels": 4047,
-    "radius": 2
+    "changedPixels": 2876,
+    "addedPixels": 1671,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_9_die",
     "frames": 6,
-    "changedPixels": 2704,
-    "addedPixels": 1950,
-    "radius": 2
+    "changedPixels": 1480,
+    "addedPixels": 726,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_10_idle",
     "frames": 6,
-    "changedPixels": 4551,
-    "addedPixels": 4551,
-    "radius": 2
+    "changedPixels": 2621,
+    "addedPixels": 2621,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_10_walk",
     "frames": 6,
-    "changedPixels": 4827,
-    "addedPixels": 4827,
-    "radius": 2
+    "changedPixels": 2765,
+    "addedPixels": 2765,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_10_attack",
     "frames": 6,
-    "changedPixels": 4554,
-    "addedPixels": 4554,
-    "radius": 2
+    "changedPixels": 2554,
+    "addedPixels": 2554,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_10_die",
     "frames": 6,
-    "changedPixels": 3794,
-    "addedPixels": 3794,
-    "radius": 2
+    "changedPixels": 2153,
+    "addedPixels": 2153,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_11_idle",
     "frames": 6,
-    "changedPixels": 5363,
-    "addedPixels": 2763,
-    "radius": 2
+    "changedPixels": 3935,
+    "addedPixels": 787,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_11_walk",
     "frames": 8,
-    "changedPixels": 6622,
-    "addedPixels": 3058,
-    "radius": 2
+    "changedPixels": 4197,
+    "addedPixels": 576,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_11_attack",
     "frames": 6,
-    "changedPixels": 5888,
-    "addedPixels": 3195,
-    "radius": 2
+    "changedPixels": 4242,
+    "addedPixels": 934,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_11_die",
     "frames": 6,
-    "changedPixels": 3664,
-    "addedPixels": 2043,
-    "radius": 2
+    "changedPixels": 2550,
+    "addedPixels": 593,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_12_idle",
     "frames": 6,
-    "changedPixels": 5166,
-    "addedPixels": 4817,
-    "radius": 2
+    "changedPixels": 2884,
+    "addedPixels": 2535,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_12_walk",
     "frames": 6,
-    "changedPixels": 4556,
-    "addedPixels": 4198,
-    "radius": 2
+    "changedPixels": 2539,
+    "addedPixels": 2181,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_12_attack",
     "frames": 6,
-    "changedPixels": 4943,
-    "addedPixels": 4609,
-    "radius": 2
+    "changedPixels": 2732,
+    "addedPixels": 2398,
+    "radius": 1
   },
   {
     "stem": "npc_icefield_12_die",
     "frames": 6,
-    "changedPixels": 3288,
-    "addedPixels": 3094,
-    "radius": 2
+    "changedPixels": 1826,
+    "addedPixels": 1632,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_1_idle",
     "frames": 6,
-    "changedPixels": 4352,
-    "addedPixels": 3835,
-    "radius": 2
+    "changedPixels": 2511,
+    "addedPixels": 1945,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_1_walk",
     "frames": 6,
-    "changedPixels": 4674,
-    "addedPixels": 4117,
-    "radius": 2
+    "changedPixels": 2704,
+    "addedPixels": 2107,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_1_attack",
     "frames": 6,
-    "changedPixels": 4606,
-    "addedPixels": 4021,
-    "radius": 2
+    "changedPixels": 2677,
+    "addedPixels": 2056,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_1_die",
     "frames": 6,
-    "changedPixels": 3412,
-    "addedPixels": 2964,
-    "radius": 2
+    "changedPixels": 2019,
+    "addedPixels": 1545,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_2_idle",
     "frames": 6,
-    "changedPixels": 5872,
-    "addedPixels": 4249,
-    "radius": 2
+    "changedPixels": 3634,
+    "addedPixels": 2011,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_2_walk",
     "frames": 8,
-    "changedPixels": 6950,
-    "addedPixels": 4986,
-    "radius": 2
+    "changedPixels": 4131,
+    "addedPixels": 2166,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_2_attack",
     "frames": 6,
-    "changedPixels": 6958,
-    "addedPixels": 5103,
-    "radius": 2
+    "changedPixels": 4266,
+    "addedPixels": 2410,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_2_die",
     "frames": 6,
-    "changedPixels": 4864,
-    "addedPixels": 3599,
-    "radius": 2
+    "changedPixels": 2981,
+    "addedPixels": 1715,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_3_idle",
     "frames": 6,
-    "changedPixels": 5351,
-    "addedPixels": 3145,
-    "radius": 2
+    "changedPixels": 4080,
+    "addedPixels": 1050,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_3_walk",
     "frames": 6,
-    "changedPixels": 5580,
-    "addedPixels": 3287,
-    "radius": 2
+    "changedPixels": 4312,
+    "addedPixels": 1128,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_3_attack",
     "frames": 6,
-    "changedPixels": 5506,
-    "addedPixels": 3152,
-    "radius": 2
+    "changedPixels": 4312,
+    "addedPixels": 1045,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_3_die",
     "frames": 6,
-    "changedPixels": 4846,
-    "addedPixels": 2770,
-    "radius": 2
+    "changedPixels": 3764,
+    "addedPixels": 927,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_4_idle",
     "frames": 6,
-    "changedPixels": 5638,
-    "addedPixels": 4996,
-    "radius": 2
+    "changedPixels": 3272,
+    "addedPixels": 2630,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_4_walk",
     "frames": 6,
-    "changedPixels": 6025,
-    "addedPixels": 5328,
-    "radius": 2
+    "changedPixels": 3400,
+    "addedPixels": 2703,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_4_attack",
     "frames": 6,
-    "changedPixels": 6199,
-    "addedPixels": 5348,
-    "radius": 2
+    "changedPixels": 3462,
+    "addedPixels": 2611,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_4_die",
     "frames": 6,
-    "changedPixels": 5140,
-    "addedPixels": 4645,
-    "radius": 2
+    "changedPixels": 2888,
+    "addedPixels": 2393,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_5_idle",
     "frames": 6,
-    "changedPixels": 4973,
-    "addedPixels": 3696,
-    "radius": 2
+    "changedPixels": 3065,
+    "addedPixels": 1764,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_5_walk",
     "frames": 8,
-    "changedPixels": 6996,
-    "addedPixels": 5091,
-    "radius": 2
+    "changedPixels": 4112,
+    "addedPixels": 2207,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_5_attack",
     "frames": 6,
-    "changedPixels": 5956,
-    "addedPixels": 4329,
-    "radius": 2
+    "changedPixels": 3644,
+    "addedPixels": 1967,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_5_die",
     "frames": 6,
-    "changedPixels": 3415,
-    "addedPixels": 2657,
-    "radius": 2
+    "changedPixels": 2016,
+    "addedPixels": 1223,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_6_idle",
     "frames": 6,
-    "changedPixels": 3602,
-    "addedPixels": 3006,
-    "radius": 2
+    "changedPixels": 2042,
+    "addedPixels": 1429,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_6_walk",
     "frames": 6,
-    "changedPixels": 3391,
-    "addedPixels": 2803,
-    "radius": 2
+    "changedPixels": 1998,
+    "addedPixels": 1400,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_6_attack",
     "frames": 6,
-    "changedPixels": 3552,
-    "addedPixels": 2970,
-    "radius": 2
+    "changedPixels": 2058,
+    "addedPixels": 1463,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_6_die",
     "frames": 6,
-    "changedPixels": 2635,
-    "addedPixels": 2102,
-    "radius": 2
+    "changedPixels": 1536,
+    "addedPixels": 986,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_7_idle",
     "frames": 6,
-    "changedPixels": 6336,
-    "addedPixels": 4910,
-    "radius": 2
+    "changedPixels": 3907,
+    "addedPixels": 2451,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_7_walk",
     "frames": 8,
-    "changedPixels": 7877,
-    "addedPixels": 5331,
-    "radius": 2
+    "changedPixels": 4709,
+    "addedPixels": 2135,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_7_attack",
     "frames": 6,
-    "changedPixels": 6104,
-    "addedPixels": 4946,
-    "radius": 2
+    "changedPixels": 3662,
+    "addedPixels": 2447,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_7_die",
     "frames": 6,
-    "changedPixels": 4093,
-    "addedPixels": 3185,
-    "radius": 2
+    "changedPixels": 2520,
+    "addedPixels": 1573,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_8_idle",
     "frames": 6,
-    "changedPixels": 4570,
-    "addedPixels": 3478,
-    "radius": 2
+    "changedPixels": 2603,
+    "addedPixels": 1486,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_8_walk",
     "frames": 8,
-    "changedPixels": 6560,
-    "addedPixels": 4627,
-    "radius": 2
+    "changedPixels": 3757,
+    "addedPixels": 1824,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_8_attack",
     "frames": 6,
-    "changedPixels": 5276,
-    "addedPixels": 4065,
-    "radius": 2
+    "changedPixels": 3028,
+    "addedPixels": 1766,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_8_die",
     "frames": 6,
-    "changedPixels": 4107,
-    "addedPixels": 3162,
-    "radius": 2
+    "changedPixels": 2396,
+    "addedPixels": 1418,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_9_idle",
     "frames": 6,
-    "changedPixels": 3339,
-    "addedPixels": 2696,
-    "radius": 2
+    "changedPixels": 1919,
+    "addedPixels": 1265,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_9_walk",
     "frames": 6,
-    "changedPixels": 2854,
-    "addedPixels": 2255,
-    "radius": 2
+    "changedPixels": 1628,
+    "addedPixels": 1013,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_9_attack",
     "frames": 6,
-    "changedPixels": 3551,
-    "addedPixels": 2807,
-    "radius": 2
+    "changedPixels": 2065,
+    "addedPixels": 1303,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_9_die",
     "frames": 6,
-    "changedPixels": 2597,
-    "addedPixels": 2024,
-    "radius": 2
+    "changedPixels": 1479,
+    "addedPixels": 898,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_10_idle",
     "frames": 6,
-    "changedPixels": 6427,
-    "addedPixels": 4840,
-    "radius": 2
+    "changedPixels": 4192,
+    "addedPixels": 2484,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_10_walk",
     "frames": 8,
-    "changedPixels": 7930,
-    "addedPixels": 5398,
-    "radius": 2
+    "changedPixels": 4862,
+    "addedPixels": 2323,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_10_attack",
     "frames": 6,
-    "changedPixels": 7641,
-    "addedPixels": 5855,
-    "radius": 2
+    "changedPixels": 4986,
+    "addedPixels": 3044,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_10_die",
     "frames": 6,
-    "changedPixels": 4184,
-    "addedPixels": 3203,
-    "radius": 2
+    "changedPixels": 2696,
+    "addedPixels": 1639,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_11_idle",
     "frames": 6,
-    "changedPixels": 4910,
-    "addedPixels": 3886,
-    "radius": 2
+    "changedPixels": 2812,
+    "addedPixels": 1782,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_11_walk",
     "frames": 6,
-    "changedPixels": 4979,
-    "addedPixels": 3961,
-    "radius": 2
+    "changedPixels": 2895,
+    "addedPixels": 1876,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_11_attack",
     "frames": 6,
-    "changedPixels": 4863,
-    "addedPixels": 3924,
-    "radius": 2
+    "changedPixels": 2817,
+    "addedPixels": 1877,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_11_die",
     "frames": 6,
-    "changedPixels": 3292,
-    "addedPixels": 2547,
-    "radius": 2
+    "changedPixels": 1931,
+    "addedPixels": 1185,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_12_idle",
     "frames": 6,
-    "changedPixels": 5643,
-    "addedPixels": 4043,
-    "radius": 2
+    "changedPixels": 3411,
+    "addedPixels": 1805,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_12_walk",
     "frames": 8,
-    "changedPixels": 6919,
-    "addedPixels": 4891,
-    "radius": 2
+    "changedPixels": 4128,
+    "addedPixels": 2093,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_12_attack",
     "frames": 6,
-    "changedPixels": 6322,
-    "addedPixels": 4576,
-    "radius": 2
+    "changedPixels": 3883,
+    "addedPixels": 2137,
+    "radius": 1
   },
   {
     "stem": "npc_mist_forest_12_die",
     "frames": 6,
-    "changedPixels": 4078,
-    "addedPixels": 2904,
-    "radius": 2
+    "changedPixels": 2445,
+    "addedPixels": 1269,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_2_idle",
     "frames": 6,
-    "changedPixels": 5168,
-    "addedPixels": 2435,
-    "radius": 2
+    "changedPixels": 4169,
+    "addedPixels": 691,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_2_walk",
     "frames": 8,
-    "changedPixels": 6431,
-    "addedPixels": 2855,
-    "radius": 2
+    "changedPixels": 4348,
+    "addedPixels": 663,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_2_attack",
     "frames": 6,
-    "changedPixels": 6655,
-    "addedPixels": 3652,
-    "radius": 2
+    "changedPixels": 5039,
+    "addedPixels": 1136,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_2_die",
     "frames": 6,
-    "changedPixels": 5195,
-    "addedPixels": 2643,
-    "radius": 2
+    "changedPixels": 4213,
+    "addedPixels": 789,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_3_idle",
     "frames": 6,
-    "changedPixels": 5630,
-    "addedPixels": 3047,
-    "radius": 2
+    "changedPixels": 4183,
+    "addedPixels": 840,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_3_walk",
     "frames": 6,
-    "changedPixels": 6357,
-    "addedPixels": 3517,
-    "radius": 2
+    "changedPixels": 4834,
+    "addedPixels": 1020,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_3_attack",
     "frames": 6,
-    "changedPixels": 6359,
-    "addedPixels": 3432,
-    "radius": 2
+    "changedPixels": 4938,
+    "addedPixels": 976,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_3_die",
     "frames": 6,
-    "changedPixels": 4874,
-    "addedPixels": 2550,
-    "radius": 2
+    "changedPixels": 3839,
+    "addedPixels": 696,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_4_idle",
     "frames": 6,
-    "changedPixels": 5644,
-    "addedPixels": 3944,
-    "radius": 2
+    "changedPixels": 3657,
+    "addedPixels": 1611,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_4_walk",
     "frames": 6,
-    "changedPixels": 5756,
-    "addedPixels": 3983,
-    "radius": 2
+    "changedPixels": 3746,
+    "addedPixels": 1607,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_4_attack",
     "frames": 6,
-    "changedPixels": 5917,
-    "addedPixels": 4113,
-    "radius": 2
+    "changedPixels": 3868,
+    "addedPixels": 1668,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_4_die",
     "frames": 6,
-    "changedPixels": 5103,
-    "addedPixels": 3338,
-    "radius": 2
+    "changedPixels": 3495,
+    "addedPixels": 1347,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_5_idle",
     "frames": 6,
-    "changedPixels": 4307,
-    "addedPixels": 2300,
-    "radius": 2
+    "changedPixels": 3432,
+    "addedPixels": 522,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_5_walk",
     "frames": 6,
-    "changedPixels": 3871,
-    "addedPixels": 2026,
-    "radius": 2
+    "changedPixels": 3106,
+    "addedPixels": 446,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_5_attack",
     "frames": 6,
-    "changedPixels": 4576,
-    "addedPixels": 2702,
-    "radius": 2
+    "changedPixels": 3577,
+    "addedPixels": 786,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_5_die",
     "frames": 6,
-    "changedPixels": 3256,
-    "addedPixels": 1608,
-    "radius": 2
+    "changedPixels": 2706,
+    "addedPixels": 339,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_6_idle",
     "frames": 6,
-    "changedPixels": 5744,
-    "addedPixels": 3465,
-    "radius": 2
+    "changedPixels": 4010,
+    "addedPixels": 1365,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_6_walk",
     "frames": 8,
-    "changedPixels": 7015,
-    "addedPixels": 4064,
-    "radius": 2
+    "changedPixels": 4425,
+    "addedPixels": 1435,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_6_attack",
     "frames": 6,
-    "changedPixels": 7204,
-    "addedPixels": 4293,
-    "radius": 2
+    "changedPixels": 5125,
+    "addedPixels": 1643,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_6_die",
     "frames": 6,
-    "changedPixels": 4897,
-    "addedPixels": 2951,
-    "radius": 2
+    "changedPixels": 3535,
+    "addedPixels": 1177,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_7_idle",
     "frames": 6,
-    "changedPixels": 4709,
-    "addedPixels": 3354,
-    "radius": 2
+    "changedPixels": 2841,
+    "addedPixels": 1417,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_7_walk",
     "frames": 6,
-    "changedPixels": 4767,
-    "addedPixels": 3399,
-    "radius": 2
+    "changedPixels": 2840,
+    "addedPixels": 1419,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_7_attack",
     "frames": 6,
-    "changedPixels": 4610,
-    "addedPixels": 3403,
-    "radius": 2
+    "changedPixels": 2740,
+    "addedPixels": 1484,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_7_die",
     "frames": 6,
-    "changedPixels": 3373,
-    "addedPixels": 2398,
-    "radius": 2
+    "changedPixels": 2054,
+    "addedPixels": 1052,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_8_idle",
     "frames": 6,
-    "changedPixels": 3585,
-    "addedPixels": 2878,
-    "radius": 2
+    "changedPixels": 2017,
+    "addedPixels": 1307,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_8_walk",
     "frames": 6,
-    "changedPixels": 3907,
-    "addedPixels": 3120,
-    "radius": 2
+    "changedPixels": 2231,
+    "addedPixels": 1443,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_8_attack",
     "frames": 6,
-    "changedPixels": 3774,
-    "addedPixels": 3053,
-    "radius": 2
+    "changedPixels": 2145,
+    "addedPixels": 1423,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_8_die",
     "frames": 6,
-    "changedPixels": 3224,
-    "addedPixels": 2533,
-    "radius": 2
+    "changedPixels": 1827,
+    "addedPixels": 1134,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_10_idle",
     "frames": 6,
-    "changedPixels": 4640,
-    "addedPixels": 3878,
-    "radius": 2
+    "changedPixels": 2818,
+    "addedPixels": 2055,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_10_walk",
     "frames": 6,
-    "changedPixels": 3903,
-    "addedPixels": 3296,
-    "radius": 2
+    "changedPixels": 2351,
+    "addedPixels": 1741,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_10_attack",
     "frames": 6,
-    "changedPixels": 4637,
-    "addedPixels": 3911,
-    "radius": 2
+    "changedPixels": 2816,
+    "addedPixels": 2087,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_10_die",
     "frames": 6,
-    "changedPixels": 3396,
-    "addedPixels": 2899,
-    "radius": 2
+    "changedPixels": 2030,
+    "addedPixels": 1532,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_11_idle",
     "frames": 6,
-    "changedPixels": 3478,
-    "addedPixels": 2580,
-    "radius": 2
+    "changedPixels": 1984,
+    "addedPixels": 1086,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_11_walk",
     "frames": 8,
-    "changedPixels": 4516,
-    "addedPixels": 3311,
-    "radius": 2
+    "changedPixels": 2531,
+    "addedPixels": 1326,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_11_attack",
     "frames": 6,
-    "changedPixels": 4233,
-    "addedPixels": 3227,
-    "radius": 2
+    "changedPixels": 2414,
+    "addedPixels": 1401,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_11_die",
     "frames": 6,
-    "changedPixels": 3293,
-    "addedPixels": 2422,
-    "radius": 2
+    "changedPixels": 1886,
+    "addedPixels": 998,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_12_idle",
     "frames": 6,
-    "changedPixels": 4959,
-    "addedPixels": 3317,
-    "radius": 2
+    "changedPixels": 3046,
+    "addedPixels": 1386,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_12_walk",
     "frames": 8,
-    "changedPixels": 6477,
-    "addedPixels": 3549,
-    "radius": 2
+    "changedPixels": 4098,
+    "addedPixels": 1127,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_12_attack",
     "frames": 6,
-    "changedPixels": 5985,
-    "addedPixels": 4029,
-    "radius": 2
+    "changedPixels": 3764,
+    "addedPixels": 1783,
+    "radius": 1
   },
   {
     "stem": "npc_lava_mountain_12_die",
     "frames": 6,
-    "changedPixels": 3825,
-    "addedPixels": 2458,
-    "radius": 2
+    "changedPixels": 2379,
+    "addedPixels": 999,
+    "radius": 1
   },
   {
     "stem": "npc_swamp_6_idle",
     "frames": 6,
-    "changedPixels": 2767,
-    "addedPixels": 715,
-    "radius": 2
+    "changedPixels": 2505,
+    "addedPixels": 94,
+    "radius": 1
   },
   {
     "stem": "npc_swamp_6_walk",
     "frames": 6,
-    "changedPixels": 3545,
-    "addedPixels": 1201,
-    "radius": 2
+    "changedPixels": 2972,
+    "addedPixels": 214,
+    "radius": 1
   },
   {
     "stem": "npc_swamp_6_attack",
     "frames": 6,
-    "changedPixels": 3800,
-    "addedPixels": 1223,
-    "radius": 2
+    "changedPixels": 3239,
+    "addedPixels": 225,
+    "radius": 1
   },
   {
     "stem": "npc_swamp_6_die",
     "frames": 6,
-    "changedPixels": 2943,
-    "addedPixels": 745,
-    "radius": 2
+    "changedPixels": 2692,
+    "addedPixels": 65,
+    "radius": 1
   },
   {
     "stem": "npc_swamp_11_idle",
     "frames": 6,
-    "changedPixels": 4487,
-    "addedPixels": 2589,
-    "radius": 2
+    "changedPixels": 2998,
+    "addedPixels": 802,
+    "radius": 1
   },
   {
     "stem": "npc_swamp_11_walk",
     "frames": 6,
-    "changedPixels": 3700,
-    "addedPixels": 2256,
-    "radius": 2
+    "changedPixels": 2413,
+    "addedPixels": 725,
+    "radius": 1
   },
   {
     "stem": "npc_swamp_11_attack",
     "frames": 6,
-    "changedPixels": 4602,
-    "addedPixels": 2701,
-    "radius": 2
+    "changedPixels": 3149,
+    "addedPixels": 906,
+    "radius": 1
   },
   {
     "stem": "npc_swamp_11_die",
     "frames": 6,
-    "changedPixels": 3622,
-    "addedPixels": 2124,
-    "radius": 2
+    "changedPixels": 2432,
+    "addedPixels": 680,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_1_idle",
     "frames": 6,
-    "changedPixels": 4296,
-    "addedPixels": 3730,
-    "radius": 2
+    "changedPixels": 2529,
+    "addedPixels": 1963,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_1_walk",
     "frames": 6,
-    "changedPixels": 3375,
-    "addedPixels": 2949,
-    "radius": 2
+    "changedPixels": 1956,
+    "addedPixels": 1530,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_1_attack",
     "frames": 6,
-    "changedPixels": 4392,
-    "addedPixels": 3821,
-    "radius": 2
+    "changedPixels": 2584,
+    "addedPixels": 2013,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_1_die",
     "frames": 6,
-    "changedPixels": 2976,
-    "addedPixels": 2498,
-    "radius": 2
+    "changedPixels": 1763,
+    "addedPixels": 1285,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_2_idle",
     "frames": 6,
-    "changedPixels": 3519,
-    "addedPixels": 2869,
-    "radius": 2
+    "changedPixels": 1934,
+    "addedPixels": 1284,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_2_walk",
     "frames": 6,
-    "changedPixels": 3867,
-    "addedPixels": 3070,
-    "radius": 2
+    "changedPixels": 2186,
+    "addedPixels": 1389,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_2_attack",
     "frames": 6,
-    "changedPixels": 3457,
-    "addedPixels": 2820,
-    "radius": 2
+    "changedPixels": 1917,
+    "addedPixels": 1279,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_2_die",
     "frames": 6,
-    "changedPixels": 2514,
-    "addedPixels": 2058,
-    "radius": 2
+    "changedPixels": 1376,
+    "addedPixels": 918,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_3_idle",
     "frames": 6,
-    "changedPixels": 4648,
-    "addedPixels": 3456,
-    "radius": 2
+    "changedPixels": 2625,
+    "addedPixels": 1433,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_3_walk",
     "frames": 8,
-    "changedPixels": 6841,
-    "addedPixels": 3847,
-    "radius": 2
+    "changedPixels": 3914,
+    "addedPixels": 861,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_3_attack",
     "frames": 6,
-    "changedPixels": 6968,
-    "addedPixels": 5678,
-    "radius": 2
+    "changedPixels": 3969,
+    "addedPixels": 2679,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_3_die",
     "frames": 6,
-    "changedPixels": 4697,
-    "addedPixels": 3668,
-    "radius": 2
+    "changedPixels": 2600,
+    "addedPixels": 1570,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_4_idle",
     "frames": 6,
-    "changedPixels": 3022,
-    "addedPixels": 2395,
-    "radius": 2
+    "changedPixels": 1669,
+    "addedPixels": 981,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_4_walk",
     "frames": 6,
-    "changedPixels": 2863,
-    "addedPixels": 2324,
-    "radius": 2
+    "changedPixels": 1541,
+    "addedPixels": 957,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_4_attack",
     "frames": 6,
-    "changedPixels": 3022,
-    "addedPixels": 2431,
-    "radius": 2
+    "changedPixels": 1648,
+    "addedPixels": 1009,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_4_die",
     "frames": 6,
-    "changedPixels": 2438,
-    "addedPixels": 1941,
-    "radius": 2
+    "changedPixels": 1307,
+    "addedPixels": 776,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_5_idle",
     "frames": 6,
-    "changedPixels": 5345,
-    "addedPixels": 4377,
-    "radius": 2
+    "changedPixels": 2952,
+    "addedPixels": 1984,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_5_walk",
     "frames": 6,
-    "changedPixels": 5033,
-    "addedPixels": 4220,
-    "radius": 2
+    "changedPixels": 2700,
+    "addedPixels": 1887,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_5_attack",
     "frames": 6,
-    "changedPixels": 5092,
-    "addedPixels": 4296,
-    "radius": 2
+    "changedPixels": 2838,
+    "addedPixels": 2042,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_5_die",
     "frames": 6,
-    "changedPixels": 4044,
-    "addedPixels": 3323,
-    "radius": 2
+    "changedPixels": 2264,
+    "addedPixels": 1543,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_6_idle",
     "frames": 6,
-    "changedPixels": 5503,
-    "addedPixels": 4402,
-    "radius": 2
+    "changedPixels": 3193,
+    "addedPixels": 2092,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_6_walk",
     "frames": 8,
-    "changedPixels": 8176,
-    "addedPixels": 5365,
-    "radius": 2
+    "changedPixels": 4785,
+    "addedPixels": 1952,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_6_attack",
     "frames": 6,
-    "changedPixels": 6217,
-    "addedPixels": 4942,
-    "radius": 2
+    "changedPixels": 3584,
+    "addedPixels": 2307,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_6_die",
     "frames": 6,
-    "changedPixels": 3561,
-    "addedPixels": 2752,
-    "radius": 2
+    "changedPixels": 2081,
+    "addedPixels": 1271,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_7_idle",
     "frames": 6,
-    "changedPixels": 4853,
-    "addedPixels": 3862,
-    "radius": 2
+    "changedPixels": 2685,
+    "addedPixels": 1693,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_7_walk",
     "frames": 6,
-    "changedPixels": 5884,
-    "addedPixels": 4979,
-    "radius": 2
+    "changedPixels": 3274,
+    "addedPixels": 2366,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_7_attack",
     "frames": 6,
-    "changedPixels": 5547,
-    "addedPixels": 4648,
-    "radius": 2
+    "changedPixels": 3058,
+    "addedPixels": 2157,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_7_die",
     "frames": 6,
-    "changedPixels": 5112,
-    "addedPixels": 4196,
-    "radius": 2
+    "changedPixels": 2688,
+    "addedPixels": 1772,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_8_idle",
     "frames": 6,
-    "changedPixels": 5329,
-    "addedPixels": 4620,
-    "radius": 2
+    "changedPixels": 3343,
+    "addedPixels": 2613,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_8_walk",
     "frames": 6,
-    "changedPixels": 5880,
-    "addedPixels": 5204,
-    "radius": 2
+    "changedPixels": 3546,
+    "addedPixels": 2854,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_8_attack",
     "frames": 6,
-    "changedPixels": 6655,
-    "addedPixels": 5865,
-    "radius": 2
+    "changedPixels": 4042,
+    "addedPixels": 3237,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_8_die",
     "frames": 6,
-    "changedPixels": 4671,
-    "addedPixels": 4101,
-    "radius": 2
+    "changedPixels": 2732,
+    "addedPixels": 2150,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_10_idle",
     "frames": 6,
-    "changedPixels": 5500,
-    "addedPixels": 5120,
-    "radius": 2
+    "changedPixels": 3178,
+    "addedPixels": 2798,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_10_walk",
     "frames": 6,
-    "changedPixels": 5860,
-    "addedPixels": 5570,
-    "radius": 2
+    "changedPixels": 3291,
+    "addedPixels": 3001,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_10_attack",
     "frames": 6,
-    "changedPixels": 5584,
-    "addedPixels": 5382,
-    "radius": 2
+    "changedPixels": 3123,
+    "addedPixels": 2921,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_10_die",
     "frames": 6,
-    "changedPixels": 4758,
-    "addedPixels": 4435,
-    "radius": 2
+    "changedPixels": 2704,
+    "addedPixels": 2381,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_11_idle",
     "frames": 6,
-    "changedPixels": 4329,
-    "addedPixels": 4153,
-    "radius": 2
+    "changedPixels": 2427,
+    "addedPixels": 2251,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_11_walk",
     "frames": 6,
-    "changedPixels": 4436,
-    "addedPixels": 4247,
-    "radius": 2
+    "changedPixels": 2467,
+    "addedPixels": 2278,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_11_attack",
     "frames": 6,
-    "changedPixels": 4239,
-    "addedPixels": 4027,
-    "radius": 2
+    "changedPixels": 2385,
+    "addedPixels": 2173,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_11_die",
     "frames": 6,
-    "changedPixels": 3111,
-    "addedPixels": 2914,
-    "radius": 2
+    "changedPixels": 1770,
+    "addedPixels": 1573,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_12_idle",
     "frames": 6,
-    "changedPixels": 7122,
-    "addedPixels": 5925,
-    "radius": 2
+    "changedPixels": 3981,
+    "addedPixels": 2774,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_12_walk",
     "frames": 6,
-    "changedPixels": 5924,
-    "addedPixels": 4935,
-    "radius": 2
+    "changedPixels": 3306,
+    "addedPixels": 2311,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_12_attack",
     "frames": 6,
-    "changedPixels": 6624,
-    "addedPixels": 5505,
-    "radius": 2
+    "changedPixels": 3726,
+    "addedPixels": 2598,
+    "radius": 1
   },
   {
     "stem": "npc_thunder_peak_12_die",
     "frames": 6,
-    "changedPixels": 5313,
-    "addedPixels": 4213,
-    "radius": 2
+    "changedPixels": 3054,
+    "addedPixels": 1946,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_1_idle",
     "frames": 6,
-    "changedPixels": 5350,
-    "addedPixels": 4286,
-    "radius": 2
+    "changedPixels": 3433,
+    "addedPixels": 2265,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_1_walk",
     "frames": 6,
-    "changedPixels": 5590,
-    "addedPixels": 4570,
-    "radius": 2
+    "changedPixels": 3659,
+    "addedPixels": 2519,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_1_attack",
     "frames": 6,
-    "changedPixels": 6558,
-    "addedPixels": 5589,
-    "radius": 2
+    "changedPixels": 4212,
+    "addedPixels": 3081,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_1_die",
     "frames": 6,
-    "changedPixels": 4665,
-    "addedPixels": 3817,
-    "radius": 2
+    "changedPixels": 2852,
+    "addedPixels": 1854,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_2_idle",
     "frames": 6,
-    "changedPixels": 5046,
-    "addedPixels": 4120,
-    "radius": 2
+    "changedPixels": 3000,
+    "addedPixels": 1998,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_2_walk",
     "frames": 8,
-    "changedPixels": 6734,
-    "addedPixels": 4643,
-    "radius": 2
+    "changedPixels": 3859,
+    "addedPixels": 1751,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_2_attack",
     "frames": 6,
-    "changedPixels": 5877,
-    "addedPixels": 4781,
-    "radius": 2
+    "changedPixels": 3504,
+    "addedPixels": 2319,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_2_die",
     "frames": 6,
-    "changedPixels": 3721,
-    "addedPixels": 3016,
-    "radius": 2
+    "changedPixels": 2196,
+    "addedPixels": 1459,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_3_idle",
     "frames": 6,
-    "changedPixels": 5106,
-    "addedPixels": 4356,
-    "radius": 2
+    "changedPixels": 2922,
+    "addedPixels": 2154,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_3_walk",
     "frames": 8,
-    "changedPixels": 6779,
-    "addedPixels": 5329,
-    "radius": 2
+    "changedPixels": 3877,
+    "addedPixels": 2424,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_3_attack",
     "frames": 6,
-    "changedPixels": 4870,
-    "addedPixels": 4048,
-    "radius": 2
+    "changedPixels": 2818,
+    "addedPixels": 1992,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_3_die",
     "frames": 6,
-    "changedPixels": 3352,
-    "addedPixels": 2717,
-    "radius": 2
+    "changedPixels": 1947,
+    "addedPixels": 1300,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_4_idle",
     "frames": 6,
-    "changedPixels": 5107,
-    "addedPixels": 3934,
-    "radius": 2
+    "changedPixels": 3042,
+    "addedPixels": 1821,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_4_walk",
     "frames": 8,
-    "changedPixels": 7257,
-    "addedPixels": 4480,
-    "radius": 2
+    "changedPixels": 4456,
+    "addedPixels": 1646,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_4_attack",
     "frames": 6,
-    "changedPixels": 5716,
-    "addedPixels": 4328,
-    "radius": 2
+    "changedPixels": 3408,
+    "addedPixels": 1993,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_4_die",
     "frames": 6,
-    "changedPixels": 3677,
-    "addedPixels": 2766,
-    "radius": 2
+    "changedPixels": 2157,
+    "addedPixels": 1233,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_5_idle",
     "frames": 6,
-    "changedPixels": 4745,
-    "addedPixels": 3182,
-    "radius": 2
+    "changedPixels": 2849,
+    "addedPixels": 1286,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_5_walk",
     "frames": 8,
-    "changedPixels": 6455,
-    "addedPixels": 3535,
-    "radius": 2
+    "changedPixels": 3970,
+    "addedPixels": 992,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_5_attack",
     "frames": 6,
-    "changedPixels": 5031,
-    "addedPixels": 3568,
-    "radius": 2
+    "changedPixels": 2967,
+    "addedPixels": 1490,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_5_die",
     "frames": 6,
-    "changedPixels": 3447,
-    "addedPixels": 2360,
-    "radius": 2
+    "changedPixels": 2018,
+    "addedPixels": 929,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_6_idle",
     "frames": 6,
-    "changedPixels": 5867,
-    "addedPixels": 3625,
-    "radius": 2
+    "changedPixels": 3779,
+    "addedPixels": 1279,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_6_walk",
     "frames": 8,
-    "changedPixels": 7860,
-    "addedPixels": 4429,
-    "radius": 2
+    "changedPixels": 4909,
+    "addedPixels": 1443,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_6_attack",
     "frames": 6,
-    "changedPixels": 6039,
-    "addedPixels": 3718,
-    "radius": 2
+    "changedPixels": 3939,
+    "addedPixels": 1304,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_6_die",
     "frames": 6,
-    "changedPixels": 3814,
-    "addedPixels": 2301,
-    "radius": 2
+    "changedPixels": 2464,
+    "addedPixels": 765,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_7_idle",
     "frames": 6,
-    "changedPixels": 5591,
-    "addedPixels": 4280,
-    "radius": 2
+    "changedPixels": 3335,
+    "addedPixels": 2024,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_7_walk",
     "frames": 8,
-    "changedPixels": 7715,
-    "addedPixels": 4783,
-    "radius": 2
+    "changedPixels": 4705,
+    "addedPixels": 1742,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_7_attack",
     "frames": 6,
-    "changedPixels": 6263,
-    "addedPixels": 4948,
-    "radius": 2
+    "changedPixels": 3693,
+    "addedPixels": 2376,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_7_die",
     "frames": 6,
-    "changedPixels": 4113,
-    "addedPixels": 3344,
-    "radius": 2
+    "changedPixels": 2434,
+    "addedPixels": 1662,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_8_idle",
     "frames": 6,
-    "changedPixels": 4892,
-    "addedPixels": 4265,
-    "radius": 2
+    "changedPixels": 2802,
+    "addedPixels": 2175,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_8_walk",
     "frames": 6,
-    "changedPixels": 5424,
-    "addedPixels": 4776,
-    "radius": 2
+    "changedPixels": 3070,
+    "addedPixels": 2420,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_8_attack",
     "frames": 6,
-    "changedPixels": 5471,
-    "addedPixels": 4969,
-    "radius": 2
+    "changedPixels": 3110,
+    "addedPixels": 2606,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_8_die",
     "frames": 6,
-    "changedPixels": 5427,
-    "addedPixels": 4760,
-    "radius": 2
+    "changedPixels": 3273,
+    "addedPixels": 2605,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_9_idle",
     "frames": 6,
-    "changedPixels": 5312,
-    "addedPixels": 4130,
-    "radius": 2
+    "changedPixels": 3162,
+    "addedPixels": 1974,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_9_walk",
     "frames": 8,
-    "changedPixels": 7115,
-    "addedPixels": 4042,
-    "radius": 2
+    "changedPixels": 4300,
+    "addedPixels": 1223,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_9_attack",
     "frames": 6,
-    "changedPixels": 4886,
-    "addedPixels": 3798,
-    "radius": 2
+    "changedPixels": 2931,
+    "addedPixels": 1843,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_9_die",
     "frames": 6,
-    "changedPixels": 3723,
-    "addedPixels": 2920,
-    "radius": 2
+    "changedPixels": 2210,
+    "addedPixels": 1406,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_10_idle",
     "frames": 6,
-    "changedPixels": 5295,
-    "addedPixels": 5162,
-    "radius": 2
+    "changedPixels": 3079,
+    "addedPixels": 2946,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_10_walk",
     "frames": 6,
-    "changedPixels": 5108,
-    "addedPixels": 4967,
-    "radius": 2
+    "changedPixels": 3043,
+    "addedPixels": 2902,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_10_attack",
     "frames": 6,
-    "changedPixels": 5410,
-    "addedPixels": 5270,
-    "radius": 2
+    "changedPixels": 3215,
+    "addedPixels": 3075,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_10_die",
     "frames": 6,
-    "changedPixels": 4619,
-    "addedPixels": 4489,
-    "radius": 2
+    "changedPixels": 2716,
+    "addedPixels": 2586,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_11_idle",
     "frames": 6,
-    "changedPixels": 6200,
-    "addedPixels": 4489,
-    "radius": 2
+    "changedPixels": 3883,
+    "addedPixels": 1891,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_11_walk",
     "frames": 8,
-    "changedPixels": 8005,
-    "addedPixels": 5054,
-    "radius": 2
+    "changedPixels": 4738,
+    "addedPixels": 1731,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_11_attack",
     "frames": 6,
-    "changedPixels": 6258,
-    "addedPixels": 4468,
-    "radius": 2
+    "changedPixels": 3989,
+    "addedPixels": 1899,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_11_die",
     "frames": 6,
-    "changedPixels": 4298,
-    "addedPixels": 3019,
-    "radius": 2
+    "changedPixels": 2764,
+    "addedPixels": 1265,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_12_idle",
     "frames": 6,
-    "changedPixels": 5708,
-    "addedPixels": 3772,
-    "radius": 2
+    "changedPixels": 3670,
+    "addedPixels": 1495,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_12_walk",
     "frames": 6,
-    "changedPixels": 4678,
-    "addedPixels": 3105,
-    "radius": 2
+    "changedPixels": 2953,
+    "addedPixels": 1224,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_12_attack",
     "frames": 6,
-    "changedPixels": 4777,
-    "addedPixels": 3183,
-    "radius": 2
+    "changedPixels": 3022,
+    "addedPixels": 1266,
+    "radius": 1
   },
   {
     "stem": "npc_god_battlefield_12_die",
     "frames": 6,
-    "changedPixels": 3684,
-    "addedPixels": 2486,
-    "radius": 2
+    "changedPixels": 2297,
+    "addedPixels": 987,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_1_idle",
     "frames": 6,
-    "changedPixels": 5765,
-    "addedPixels": 3473,
-    "radius": 2
+    "changedPixels": 4267,
+    "addedPixels": 1310,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_1_walk",
     "frames": 6,
-    "changedPixels": 5592,
-    "addedPixels": 3419,
-    "radius": 2
+    "changedPixels": 4040,
+    "addedPixels": 1257,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_1_attack",
     "frames": 6,
-    "changedPixels": 5342,
-    "addedPixels": 3343,
-    "radius": 2
+    "changedPixels": 3829,
+    "addedPixels": 1263,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_1_die",
     "frames": 6,
-    "changedPixels": 4072,
-    "addedPixels": 2607,
-    "radius": 2
+    "changedPixels": 2857,
+    "addedPixels": 984,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_2_idle",
     "frames": 6,
-    "changedPixels": 6270,
-    "addedPixels": 3898,
-    "radius": 2
+    "changedPixels": 4664,
+    "addedPixels": 1542,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_2_walk",
     "frames": 8,
-    "changedPixels": 7874,
-    "addedPixels": 3518,
-    "radius": 2
+    "changedPixels": 5494,
+    "addedPixels": 927,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_2_attack",
     "frames": 6,
-    "changedPixels": 7865,
-    "addedPixels": 5476,
-    "radius": 2
+    "changedPixels": 5658,
+    "addedPixels": 2392,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_2_die",
     "frames": 6,
-    "changedPixels": 4414,
-    "addedPixels": 2787,
-    "radius": 2
+    "changedPixels": 3194,
+    "addedPixels": 1092,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_3_idle",
     "frames": 6,
-    "changedPixels": 5971,
-    "addedPixels": 5212,
-    "radius": 2
+    "changedPixels": 3555,
+    "addedPixels": 2784,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_3_walk",
     "frames": 6,
-    "changedPixels": 5749,
-    "addedPixels": 5157,
-    "radius": 2
+    "changedPixels": 3274,
+    "addedPixels": 2676,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_3_attack",
     "frames": 6,
-    "changedPixels": 5235,
-    "addedPixels": 4729,
-    "radius": 2
+    "changedPixels": 3072,
+    "addedPixels": 2557,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_3_die",
     "frames": 6,
-    "changedPixels": 4396,
-    "addedPixels": 3869,
-    "radius": 2
+    "changedPixels": 2540,
+    "addedPixels": 2000,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_4_idle",
     "frames": 6,
-    "changedPixels": 5105,
-    "addedPixels": 3999,
-    "radius": 2
+    "changedPixels": 3261,
+    "addedPixels": 2029,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_4_walk",
     "frames": 6,
-    "changedPixels": 5665,
-    "addedPixels": 4520,
-    "radius": 2
+    "changedPixels": 3592,
+    "addedPixels": 2305,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_4_attack",
     "frames": 6,
-    "changedPixels": 5826,
-    "addedPixels": 4732,
-    "radius": 2
+    "changedPixels": 3639,
+    "addedPixels": 2424,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_4_die",
     "frames": 6,
-    "changedPixels": 4804,
-    "addedPixels": 3961,
-    "radius": 2
+    "changedPixels": 3035,
+    "addedPixels": 2097,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_5_idle",
     "frames": 6,
-    "changedPixels": 7106,
-    "addedPixels": 4873,
-    "radius": 2
+    "changedPixels": 4490,
+    "addedPixels": 2149,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_5_walk",
     "frames": 6,
-    "changedPixels": 6821,
-    "addedPixels": 4724,
-    "radius": 2
+    "changedPixels": 4264,
+    "addedPixels": 2060,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_5_attack",
     "frames": 6,
-    "changedPixels": 6550,
-    "addedPixels": 4504,
-    "radius": 2
+    "changedPixels": 4128,
+    "addedPixels": 1983,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_5_die",
     "frames": 6,
-    "changedPixels": 5058,
-    "addedPixels": 3423,
-    "radius": 2
+    "changedPixels": 3158,
+    "addedPixels": 1437,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_6_idle",
     "frames": 6,
-    "changedPixels": 5662,
-    "addedPixels": 4077,
-    "radius": 2
+    "changedPixels": 3496,
+    "addedPixels": 1844,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_6_walk",
     "frames": 8,
-    "changedPixels": 8080,
-    "addedPixels": 4597,
-    "radius": 2
+    "changedPixels": 5108,
+    "addedPixels": 1563,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_6_attack",
     "frames": 6,
-    "changedPixels": 7056,
-    "addedPixels": 5008,
-    "radius": 2
+    "changedPixels": 4372,
+    "addedPixels": 2248,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_6_die",
     "frames": 6,
-    "changedPixels": 4466,
-    "addedPixels": 3131,
-    "radius": 2
+    "changedPixels": 2800,
+    "addedPixels": 1393,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_7_idle",
     "frames": 6,
-    "changedPixels": 5807,
-    "addedPixels": 3595,
-    "radius": 2
+    "changedPixels": 3910,
+    "addedPixels": 1190,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_7_walk",
     "frames": 6,
-    "changedPixels": 6353,
-    "addedPixels": 4031,
-    "radius": 2
+    "changedPixels": 4213,
+    "addedPixels": 1294,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_7_attack",
     "frames": 6,
-    "changedPixels": 6613,
-    "addedPixels": 4504,
-    "radius": 2
+    "changedPixels": 4368,
+    "addedPixels": 1693,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_7_die",
     "frames": 6,
-    "changedPixels": 5175,
-    "addedPixels": 3368,
-    "radius": 2
+    "changedPixels": 3375,
+    "addedPixels": 1207,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_8_idle",
     "frames": 6,
-    "changedPixels": 4660,
-    "addedPixels": 3661,
-    "radius": 2
+    "changedPixels": 2963,
+    "addedPixels": 1634,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_8_walk",
     "frames": 6,
-    "changedPixels": 4688,
-    "addedPixels": 3648,
-    "radius": 2
+    "changedPixels": 2997,
+    "addedPixels": 1619,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_8_attack",
     "frames": 6,
-    "changedPixels": 5334,
-    "addedPixels": 4175,
-    "radius": 2
+    "changedPixels": 3375,
+    "addedPixels": 1869,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_8_die",
     "frames": 6,
-    "changedPixels": 3941,
-    "addedPixels": 3044,
-    "radius": 2
+    "changedPixels": 2428,
+    "addedPixels": 1320,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_9_idle",
     "frames": 6,
-    "changedPixels": 5570,
-    "addedPixels": 3980,
-    "radius": 2
+    "changedPixels": 3561,
+    "addedPixels": 1662,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_9_walk",
     "frames": 8,
-    "changedPixels": 7400,
-    "addedPixels": 4400,
-    "radius": 2
+    "changedPixels": 4556,
+    "addedPixels": 1473,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_9_attack",
     "frames": 6,
-    "changedPixels": 7993,
-    "addedPixels": 5804,
-    "radius": 2
+    "changedPixels": 5189,
+    "addedPixels": 2484,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_9_die",
     "frames": 6,
-    "changedPixels": 4604,
-    "addedPixels": 3141,
-    "radius": 2
+    "changedPixels": 3091,
+    "addedPixels": 1309,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_10_idle",
     "frames": 6,
-    "changedPixels": 5330,
-    "addedPixels": 3513,
-    "radius": 2
+    "changedPixels": 3216,
+    "addedPixels": 1279,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_10_walk",
     "frames": 6,
-    "changedPixels": 4979,
-    "addedPixels": 3293,
-    "radius": 2
+    "changedPixels": 3013,
+    "addedPixels": 1252,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_10_attack",
     "frames": 6,
-    "changedPixels": 4884,
-    "addedPixels": 3205,
-    "radius": 2
+    "changedPixels": 2996,
+    "addedPixels": 1240,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_10_die",
     "frames": 6,
-    "changedPixels": 3566,
-    "addedPixels": 2382,
-    "radius": 2
+    "changedPixels": 2150,
+    "addedPixels": 923,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_11_idle",
     "frames": 6,
-    "changedPixels": 5311,
-    "addedPixels": 5054,
-    "radius": 2
+    "changedPixels": 3128,
+    "addedPixels": 2871,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_11_walk",
     "frames": 6,
-    "changedPixels": 5712,
-    "addedPixels": 5415,
-    "radius": 2
+    "changedPixels": 3370,
+    "addedPixels": 3073,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_11_attack",
     "frames": 6,
-    "changedPixels": 5983,
-    "addedPixels": 5698,
-    "radius": 2
+    "changedPixels": 3484,
+    "addedPixels": 3199,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_11_die",
     "frames": 6,
-    "changedPixels": 4701,
-    "addedPixels": 4410,
-    "radius": 2
+    "changedPixels": 2733,
+    "addedPixels": 2442,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_12_idle",
     "frames": 6,
-    "changedPixels": 7115,
-    "addedPixels": 5332,
-    "radius": 2
+    "changedPixels": 4508,
+    "addedPixels": 2651,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_12_walk",
     "frames": 8,
-    "changedPixels": 8601,
-    "addedPixels": 5862,
-    "radius": 2
+    "changedPixels": 5064,
+    "addedPixels": 2308,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_12_attack",
     "frames": 6,
-    "changedPixels": 7606,
-    "addedPixels": 6086,
-    "radius": 2
+    "changedPixels": 4681,
+    "addedPixels": 3076,
+    "radius": 1
   },
   {
     "stem": "npc_god_chaos_12_die",
     "frames": 6,
-    "changedPixels": 4588,
-    "addedPixels": 3482,
-    "radius": 2
+    "changedPixels": 2905,
+    "addedPixels": 1744,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_1_idle",
     "frames": 6,
-    "changedPixels": 5068,
-    "addedPixels": 4335,
-    "radius": 2
+    "changedPixels": 2855,
+    "addedPixels": 2122,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_1_walk",
     "frames": 6,
-    "changedPixels": 5007,
-    "addedPixels": 4300,
-    "radius": 2
+    "changedPixels": 2838,
+    "addedPixels": 2131,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_1_attack",
     "frames": 6,
-    "changedPixels": 4874,
-    "addedPixels": 4282,
-    "radius": 2
+    "changedPixels": 2716,
+    "addedPixels": 2124,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_1_die",
     "frames": 6,
-    "changedPixels": 5249,
-    "addedPixels": 4534,
-    "radius": 2
+    "changedPixels": 3028,
+    "addedPixels": 2313,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_2_idle",
     "frames": 6,
-    "changedPixels": 5220,
-    "addedPixels": 5088,
-    "radius": 2
+    "changedPixels": 2780,
+    "addedPixels": 2648,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_2_walk",
     "frames": 6,
-    "changedPixels": 4267,
-    "addedPixels": 4154,
-    "radius": 2
+    "changedPixels": 2278,
+    "addedPixels": 2165,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_2_attack",
     "frames": 6,
-    "changedPixels": 5139,
-    "addedPixels": 4995,
-    "radius": 2
+    "changedPixels": 2778,
+    "addedPixels": 2634,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_2_die",
     "frames": 6,
-    "changedPixels": 4034,
-    "addedPixels": 3930,
-    "radius": 2
+    "changedPixels": 2129,
+    "addedPixels": 2025,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_3_idle",
     "frames": 6,
-    "changedPixels": 4693,
-    "addedPixels": 4120,
-    "radius": 2
+    "changedPixels": 2666,
+    "addedPixels": 2093,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_3_walk",
     "frames": 8,
-    "changedPixels": 6454,
-    "addedPixels": 4783,
-    "radius": 2
+    "changedPixels": 3547,
+    "addedPixels": 1876,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_3_attack",
     "frames": 6,
-    "changedPixels": 6095,
-    "addedPixels": 5086,
-    "radius": 2
+    "changedPixels": 3482,
+    "addedPixels": 2473,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_3_die",
     "frames": 6,
-    "changedPixels": 3696,
-    "addedPixels": 3142,
-    "radius": 2
+    "changedPixels": 2100,
+    "addedPixels": 1545,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_4_idle",
     "frames": 6,
-    "changedPixels": 5455,
-    "addedPixels": 4422,
-    "radius": 2
+    "changedPixels": 3241,
+    "addedPixels": 2196,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_4_walk",
     "frames": 8,
-    "changedPixels": 7197,
-    "addedPixels": 5702,
-    "radius": 2
+    "changedPixels": 4056,
+    "addedPixels": 2558,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_4_attack",
     "frames": 6,
-    "changedPixels": 6275,
-    "addedPixels": 5034,
-    "radius": 2
+    "changedPixels": 3752,
+    "addedPixels": 2502,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_4_die",
     "frames": 6,
-    "changedPixels": 3857,
-    "addedPixels": 3128,
-    "radius": 2
+    "changedPixels": 2239,
+    "addedPixels": 1507,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_5_idle",
     "frames": 6,
-    "changedPixels": 4736,
-    "addedPixels": 3506,
-    "radius": 2
+    "changedPixels": 2728,
+    "addedPixels": 1480,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_5_walk",
     "frames": 8,
-    "changedPixels": 6539,
-    "addedPixels": 3995,
-    "radius": 2
+    "changedPixels": 3769,
+    "addedPixels": 1213,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_5_attack",
     "frames": 6,
-    "changedPixels": 4894,
-    "addedPixels": 3600,
-    "radius": 2
+    "changedPixels": 2845,
+    "addedPixels": 1513,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_5_die",
     "frames": 6,
-    "changedPixels": 3202,
-    "addedPixels": 2310,
-    "radius": 2
+    "changedPixels": 1902,
+    "addedPixels": 984,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_6_idle",
     "frames": 6,
-    "changedPixels": 5931,
-    "addedPixels": 5481,
-    "radius": 2
+    "changedPixels": 3215,
+    "addedPixels": 2765,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_6_walk",
     "frames": 6,
-    "changedPixels": 5691,
-    "addedPixels": 5257,
-    "radius": 2
+    "changedPixels": 3105,
+    "addedPixels": 2671,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_6_attack",
     "frames": 6,
-    "changedPixels": 6359,
-    "addedPixels": 5872,
-    "radius": 2
+    "changedPixels": 3451,
+    "addedPixels": 2964,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_6_die",
     "frames": 6,
-    "changedPixels": 4008,
-    "addedPixels": 3686,
-    "radius": 2
+    "changedPixels": 2191,
+    "addedPixels": 1869,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_7_idle",
     "frames": 6,
-    "changedPixels": 4277,
-    "addedPixels": 3550,
-    "radius": 2
+    "changedPixels": 2357,
+    "addedPixels": 1630,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_7_walk",
     "frames": 8,
-    "changedPixels": 5456,
-    "addedPixels": 4171,
-    "radius": 2
+    "changedPixels": 3017,
+    "addedPixels": 1732,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_7_attack",
     "frames": 6,
-    "changedPixels": 5399,
-    "addedPixels": 4451,
-    "radius": 2
+    "changedPixels": 3068,
+    "addedPixels": 2120,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_7_die",
     "frames": 6,
-    "changedPixels": 3306,
-    "addedPixels": 2724,
-    "radius": 2
+    "changedPixels": 1859,
+    "addedPixels": 1277,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_8_idle",
     "frames": 6,
-    "changedPixels": 3556,
-    "addedPixels": 3477,
-    "radius": 2
+    "changedPixels": 2001,
+    "addedPixels": 1922,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_8_walk",
     "frames": 6,
-    "changedPixels": 3799,
-    "addedPixels": 3742,
-    "radius": 2
+    "changedPixels": 2066,
+    "addedPixels": 2009,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_8_attack",
     "frames": 6,
-    "changedPixels": 4173,
-    "addedPixels": 4129,
-    "radius": 2
+    "changedPixels": 2337,
+    "addedPixels": 2293,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_8_die",
     "frames": 6,
-    "changedPixels": 3549,
-    "addedPixels": 3508,
-    "radius": 2
+    "changedPixels": 1997,
+    "addedPixels": 1956,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_9_idle",
     "frames": 6,
-    "changedPixels": 4636,
-    "addedPixels": 3263,
-    "radius": 2
+    "changedPixels": 2739,
+    "addedPixels": 1330,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_9_walk",
     "frames": 8,
-    "changedPixels": 6375,
-    "addedPixels": 3834,
-    "radius": 2
+    "changedPixels": 3679,
+    "addedPixels": 1129,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_9_attack",
     "frames": 6,
-    "changedPixels": 5331,
-    "addedPixels": 3755,
-    "radius": 2
+    "changedPixels": 3135,
+    "addedPixels": 1522,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_9_die",
     "frames": 6,
-    "changedPixels": 3522,
-    "addedPixels": 2396,
-    "radius": 2
+    "changedPixels": 2084,
+    "addedPixels": 917,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_10_idle",
     "frames": 6,
-    "changedPixels": 5294,
-    "addedPixels": 3743,
-    "radius": 2
+    "changedPixels": 3171,
+    "addedPixels": 1535,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_10_walk",
     "frames": 8,
-    "changedPixels": 6738,
-    "addedPixels": 4239,
-    "radius": 2
+    "changedPixels": 3894,
+    "addedPixels": 1381,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_10_attack",
     "frames": 6,
-    "changedPixels": 5438,
-    "addedPixels": 3785,
-    "radius": 2
+    "changedPixels": 3282,
+    "addedPixels": 1537,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_10_die",
     "frames": 6,
-    "changedPixels": 3732,
-    "addedPixels": 2468,
-    "radius": 2
+    "changedPixels": 2309,
+    "addedPixels": 955,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_11_idle",
     "frames": 6,
-    "changedPixels": 4188,
-    "addedPixels": 3480,
-    "radius": 2
+    "changedPixels": 2338,
+    "addedPixels": 1630,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_11_walk",
     "frames": 6,
-    "changedPixels": 4614,
-    "addedPixels": 3933,
-    "radius": 2
+    "changedPixels": 2503,
+    "addedPixels": 1822,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_11_attack",
     "frames": 6,
-    "changedPixels": 4759,
-    "addedPixels": 4168,
-    "radius": 2
+    "changedPixels": 2570,
+    "addedPixels": 1979,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_11_die",
     "frames": 6,
-    "changedPixels": 5083,
-    "addedPixels": 4439,
-    "radius": 2
+    "changedPixels": 2798,
+    "addedPixels": 2154,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_12_idle",
     "frames": 6,
-    "changedPixels": 5572,
-    "addedPixels": 4618,
-    "radius": 2
+    "changedPixels": 3248,
+    "addedPixels": 2294,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_12_walk",
     "frames": 8,
-    "changedPixels": 7053,
-    "addedPixels": 4598,
-    "radius": 2
+    "changedPixels": 3961,
+    "addedPixels": 1500,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_12_attack",
     "frames": 6,
-    "changedPixels": 5717,
-    "addedPixels": 4827,
-    "radius": 2
+    "changedPixels": 3245,
+    "addedPixels": 2354,
+    "radius": 1
   },
   {
     "stem": "npc_god_sanctuary_12_die",
     "frames": 6,
-    "changedPixels": 3505,
-    "addedPixels": 2936,
-    "radius": 2
+    "changedPixels": 1986,
+    "addedPixels": 1417,
+    "radius": 1
   },
   {
     "stem": "boss_generic",
     "frames": 15,
-    "changedPixels": 11451,
-    "addedPixels": 1920,
-    "radius": 2
+    "changedPixels": 13289,
+    "addedPixels": 482,
+    "radius": 1
   }
 ]
