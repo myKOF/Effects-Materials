@@ -1,0 +1,115 @@
+{
+  "review": "24 final poses visually checked: low complete left-facing serpent, continuous six-phase belly/tail undulation including wrap, horizontal biting, ground baseline, flattened dead pose. Ground and air positions separately checked for all four ranks in actual renderer.",
+  "tool": "built-in imagegen, existing nearest-neighbor normalizer",
+  "sourceSHA256": "f54cf88dd9e81090af5205e7b37e3b5d8c5700a1992dee5d23a23952e942f3d3",
+  "referenceSHA256": "2d66002a0fe4da8baf2f6b06c881ab4f85f46bee264aa90c4baa59df1b1b9ba0",
+  "pngSHA256": {
+    "npc_thunder_peak_4_idle": "5162ba845e617987d67490e283bf9315d3ff34102f5b507cf70e0c145473e378",
+    "npc_thunder_peak_4_walk": "704df8963115395c2ec0eda55ef15f906ba1dba65842c821ae14351348949dc7",
+    "npc_thunder_peak_4_attack": "6dcec832f46610c3cd07c0d8ffd4d574e74220b2c8496102abe446cb340475b1",
+    "npc_thunder_peak_4_die": "18fcb71a5e3f82c966b5621e6d340cd288b0875828bb13dc65bb4750f0debbdb"
+  },
+  "browser": {
+    "passed": true,
+    "checks": [
+      {
+        "npc": "swamp_7",
+        "rank": "normal",
+        "gap": 17.1226847556923,
+        "hitCenter": 29.064098601846148,
+        "frames": {
+          "idle": 4,
+          "walk": 8,
+          "attack": 6,
+          "die": 5
+        }
+      },
+      {
+        "npc": "swamp_7",
+        "rank": "elite",
+        "gap": 23.97175865796922,
+        "hitCenter": 40.6897380425846,
+        "frames": {
+          "idle": 4,
+          "walk": 8,
+          "attack": 6,
+          "die": 5
+        }
+      },
+      {
+        "npc": "swamp_7",
+        "rank": "elite_adv",
+        "gap": 29.108564084676917,
+        "hitCenter": 49.40896762313846,
+        "frames": {
+          "idle": 4,
+          "walk": 8,
+          "attack": 6,
+          "die": 5
+        }
+      },
+      {
+        "npc": "swamp_7",
+        "rank": "boss",
+        "gap": 34.2453695113846,
+        "hitCenter": 58.128197203692295,
+        "frames": {
+          "idle": 4,
+          "walk": 8,
+          "attack": 6,
+          "die": 5
+        }
+      },
+      {
+        "npc": "thunder_peak_4",
+        "rank": "normal",
+        "gap": 0,
+        "hitCenter": 13.293840769230771,
+        "frames": {
+          "idle": 6,
+          "walk": 6,
+          "attack": 6,
+          "die": 6
+        }
+      },
+      {
+        "npc": "thunder_peak_4",
+        "rank": "elite",
+        "gap": 0,
+        "hitCenter": 18.611377076923077,
+        "frames": {
+          "idle": 6,
+          "walk": 6,
+          "attack": 6,
+          "die": 6
+        }
+      },
+      {
+        "npc": "thunder_peak_4",
+        "rank": "elite_adv",
+        "gap": 0,
+        "hitCenter": 22.59952930769231,
+        "frames": {
+          "idle": 6,
+          "walk": 6,
+          "attack": 6,
+          "die": 6
+        }
+      },
+      {
+        "npc": "thunder_peak_4",
+        "rank": "boss",
+        "gap": 0,
+        "hitCenter": 26.587681538461542,
+        "frames": {
+          "idle": 6,
+          "walk": 6,
+          "attack": 6,
+          "die": 6
+        }
+      }
+    ],
+    "errors": [],
+    "warnings": []
+  }
+}

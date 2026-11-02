@@ -41,12 +41,12 @@
     "name": "嵐翼飛蛇",
     "key": "npc_thunder_peak_4",
     "batch": 13,
-    "nativeHeight": 54,
-    "height": 38,
+    "nativeHeight": 28,
+    "height": 24,
     "color": "嵐紫／霜藍",
     "type": "serpent",
-    "subject": "A STORM-WING FLYING SERPENT, complete sinuous slate-purple scaled snake with a full curling tail and two small attached batlike fins/wings behind its head, pale blue underside and ochre eyes.",
+    "subject": "Ground-crawling slate-purple serpent with icy blue belly, swept-back head crest and a full low horizontally undulating body and tail. User requested belly against ground, no flight or raised cobra coil.",
     "readyStartFallback": true,
-    "hoverLift": 14
+    "hoverLift": 0
   }
 ]

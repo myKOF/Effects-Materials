@@ -1733,29 +1733,29 @@
       "stem": "npc_thunder_peak_4_idle",
       "file": "batches/batch13/exports/npc_thunder_peak_4_idle.png",
       "native": "batches/batch13/mote/npc_thunder_peak_4_idle.mote",
-      "sha256": "2d66002a0fe4da8baf2f6b06c881ab4f85f46bee264aa90c4baa59df1b1b9ba0",
-      "nativeSHA256": "a51f046ba858017fa1471389dc02d3f0c29bc357e5f4b8cc006de3c5d43e7409"
+      "sha256": "5162ba845e617987d67490e283bf9315d3ff34102f5b507cf70e0c145473e378",
+      "nativeSHA256": "0d5db1a5064ebe570378425213c7ab725378b3606b74ffbcfbf9c1c8aadda35a"
     },
     {
       "stem": "npc_thunder_peak_4_walk",
       "file": "batches/batch13/exports/npc_thunder_peak_4_walk.png",
       "native": "batches/batch13/mote/npc_thunder_peak_4_walk.mote",
-      "sha256": "2c67db8be8be7185ac5aac4afd4085a7b1648c848060f5a04190efe0dec271b2",
-      "nativeSHA256": "9747f16126f811b5991b2f2abf56cdacc7ab09960b19fdbafd264ec718c0119f"
+      "sha256": "704df8963115395c2ec0eda55ef15f906ba1dba65842c821ae14351348949dc7",
+      "nativeSHA256": "7d95d8b4d389c617c4ab3bb204153b8d1682ddd4b867b6f8c27556c18505cbe6"
     },
     {
       "stem": "npc_thunder_peak_4_attack",
       "file": "batches/batch13/exports/npc_thunder_peak_4_attack.png",
       "native": "batches/batch13/mote/npc_thunder_peak_4_attack.mote",
-      "sha256": "410f475c8d13d01cd5efcd834986cd038e850b1ec985b1602e0a4bd061cba263",
-      "nativeSHA256": "d2c72c78f9aadb79c4393caed79f1f914ea683d7265366fa9be09379c8c7726c"
+      "sha256": "6dcec832f46610c3cd07c0d8ffd4d574e74220b2c8496102abe446cb340475b1",
+      "nativeSHA256": "b6a619a59b643828e935cc9c4e861572178d70d544e5b2c621a502754c3a8bb4"
     },
     {
       "stem": "npc_thunder_peak_4_die",
       "file": "batches/batch13/exports/npc_thunder_peak_4_die.png",
       "native": "batches/batch13/mote/npc_thunder_peak_4_die.mote",
-      "sha256": "f35adb3686fecdc9152e02eab97be329e6da88540206b21758ab6cebc10a1d96",
-      "nativeSHA256": "50f63df3e34587269b7b784c350eeec737237e2d524b5fec321844e51a03152f"
+      "sha256": "18fcb71a5e3f82c966b5621e6d340cd288b0875828bb13dc65bb4750f0debbdb",
+      "nativeSHA256": "5afd2a2095cbb726df7c8ff52e91ed8d8d45373052531cd38e3a6e4feba04b5c"
     },
     {
       "stem": "npc_thunder_peak_5_idle",

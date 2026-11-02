@@ -13,3 +13,5 @@
 驗證：sources-sha256.json 保留輸入雜湊，original-game-png-sha256.json 保存34張以外的原66張遊戲圖雜湊；sha256.json 保存本次34張匯出。validation.json 包含逐像素調色、透明、幀數、首尾與原生來源一致性。Mote 實際開啟並重匯出枯骨抄寫者攻擊，與輸出像素一致。正式 Pixi 載入16組角色與64個階級實體，驗四動作載入、攻擊接回當下待機／移動、死亡停幀及覆光；測試與交付詳見遊戲 docs/AI_TASKS.md。
 
 2026-11-02步態修正：依使用者指出的直接換腳／只動手問題，本包落地雙足角色的walk改由相鄰npc-walk-cycles-20261102保存的AI新繪八階段姿勢組成；原製作器保存為*-base.cjs，再套用該包步態。移動八幀、其他三動作保持，原生Mote及SHA同步，原色盤與角色尺寸／朝向保留。最終匯出要求來源／輸出SHA、腳部量測及visual-review.json目視SHA吻合。原來源與授權限制繼續適用。
+
+2026-11-02飛行定位：依使用者實拍，毒蚊群plague_flies錨點anchorY改為1.3054，以普通階級本體離地18px；四動作與所有PNG保持原位元，地面陰影／名牌保持原點，既有spriteHitBox依可見本體計算命中特效高度。plan.json保留新metadata，遊戲build_npc_sprites.py的lift=18可重建同結果；不改飛行路徑或戰鬥判定。
