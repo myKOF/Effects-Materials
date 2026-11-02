@@ -1,0 +1,174 @@
+✔ 封魔塔十位BOSS以外全部120種NPC四階級均使用新版四動作，含一般地圖的boss階級 (464.5456ms)
+✔ 重畫雙足怪物有八階段循環，腳部相鄰幀與8接1皆有變化，包含窄幅經過姿勢 (600.6002ms)
+✔ NPC更換同檔名的步態後，索引及每張PNG都使用同一快取版本且依索引切完所有幀 (9.8207ms)
+✔ 新版正式NPC四種動作皆有獨立有效圖像，四階級配置與正式資料一致 (39.8392ms)
+✔ onVfx：Preset接手近戰／遠程、命中／MISS都播哥布林攻擊，不重畫舊特效 (167.2554ms)
+✔ onVfx：退路每則事件只播一次動作與特效；死亡NPC不重播攻擊 (42.5471ms)
+✔ onVfx：延遲依原時序、Preset載入重試不重設已播放的攻擊幀 (24.8199ms)
+✔ onVfx到逐幀tickWorld：攻擊完整前進，移動不能打斷，完成接回當下移動或站立 (39.4493ms)
+✔ 既有NPC重排與新生共用表格倍率、本體不隨視窗變大，保留攻擊幀／朝向／死亡進度 (30.0344ms)
+✔ 真實視窗計算：NPC與玩家共用世界尺度，戰場尺寸與容量不改NPC體型及命中特效倍率 (1.5235ms)
+✔ 正式敵方出手事件播放攻擊，完成後接回當下移動／站立；死亡留在最後一幀 (32.3348ms)
+✔ NPC死亡入口同步隱藏光圈／整份血條／階級框，暫停不延遲，死亡動畫照常播完停幀 (169.3406ms)
+✔ 死亡快照、重複快照及未持留的死亡離場都隱藏；同ID新生的血條／光圈／框正常 (51.1875ms)
+✔ 零血量尚未進死亡狀態也不顯示血條／群組環，缺死亡素材退路與背景清理保持 (16.6217ms)
+✔ 實際朝左的NPC不可標成朝右，包含毒蚊群；原本朝右的圖保持方向 (1.435ms)
+✔ 毒蚊群四階級追擊、待機與攻擊均朝向玩家，跨越玩家後翻面，死亡保留原方向 (164.9614ms)
+✔ 正式tickWorld：左右兩側面向玩家，跨越玩家後翻面且不改變體型 (213.6649ms)
+✔ 正式tickWorld：貼身遲滯、進場、攻擊、死亡與暫停保持既有轉向語意 (19.1178ms)
+✔ 毒蚊群四動作共用飛行錨點，可見本體離地且命中特效對準空中本體 (109.8202ms)
+✔ 嵐翼飛蛇低伏貼地，六幀身體蜿蜒循環，死亡最後一幀攤平 (29.6376ms)
+✔ 落地人形與指定四足待機均納入腳部固定驗證 (2.3719ms)
+✔ skeleton_warrior_sword 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (34.8502ms)
+✔ skeleton_warrior_axe 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (28.7698ms)
+✔ skeleton_mage_staff 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (23.7617ms)
+✔ skeleton_mage_book 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (21.3943ms)
+✔ old_demon 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (12.8053ms)
+✔ desert_goblin 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (15.0159ms)
+✔ desert_skeleton 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (16.9332ms)
+✔ desert_tree_spirit 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (15.9799ms)
+✔ desert_lizard_warrior 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (15.1852ms)
+✔ desert_orc 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (10.8115ms)
+✔ npc_desert_11 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (13.8565ms)
+✔ npc_icefield_4 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (14.8133ms)
+✔ npc_icefield_5 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (14.9555ms)
+✔ npc_icefield_9 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (12.1717ms)
+✔ npc_icefield_11 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (15.5289ms)
+✔ npc_mist_forest_2 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (9.944ms)
+✔ npc_mist_forest_5 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (11.5255ms)
+✔ npc_mist_forest_7 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (15.0787ms)
+✔ npc_mist_forest_8 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (14.715ms)
+✔ npc_mist_forest_10 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (12.5214ms)
+✔ npc_mist_forest_12 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (10.5335ms)
+✔ npc_lava_mountain_2 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (10.4299ms)
+✔ npc_lava_mountain_6 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (10.5488ms)
+✔ npc_lava_mountain_11 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (11.3971ms)
+✔ npc_lava_mountain_12 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (9.7213ms)
+✔ npc_thunder_peak_3 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (9.4028ms)
+✔ npc_thunder_peak_6 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.4266ms)
+✔ npc_god_battlefield_2 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.4902ms)
+✔ npc_god_battlefield_3 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.5509ms)
+✔ npc_god_battlefield_4 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.4076ms)
+✔ npc_god_battlefield_5 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.6423ms)
+✔ npc_god_battlefield_6 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.8082ms)
+✔ npc_god_battlefield_7 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.7364ms)
+✔ npc_god_battlefield_9 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (9.097ms)
+✔ npc_god_battlefield_11 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.8398ms)
+✔ npc_god_chaos_2 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (9.1083ms)
+✔ npc_god_chaos_6 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.8908ms)
+✔ npc_god_chaos_9 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.5687ms)
+✔ npc_god_chaos_12 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.5236ms)
+✔ npc_god_sanctuary_3 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.8254ms)
+✔ npc_god_sanctuary_4 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.5263ms)
+✔ npc_god_sanctuary_5 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.6865ms)
+✔ npc_god_sanctuary_7 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.5298ms)
+✔ npc_god_sanctuary_9 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.6304ms)
+✔ npc_god_sanctuary_10 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (12.8003ms)
+✔ npc_god_sanctuary_12 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (11.6357ms)
+✔ bloated_damned 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (4.7906ms)
+✔ burning_damned 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (4.176ms)
+✔ burning_damned_blue 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (3.1851ms)
+✔ male_damned 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (3.5542ms)
+✔ female_damned 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (3.0616ms)
+✔ twisted_damned 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (3.251ms)
+✔ desert_wolf 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.8823ms)
+✔ npc_lava_mountain_3 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.3857ms)
+✔ npc_lava_mountain_7 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.4206ms)
+✔ npc_god_battlefield_12 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.9958ms)
+✔ npc_god_chaos_1 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.0594ms)
+✔ npc_god_chaos_5 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.5574ms)
+✔ npc_god_chaos_10 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.1025ms)
+✔ npc_icefield_1 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.9549ms)
+✔ npc_icefield_2 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.6065ms)
+✔ npc_mist_forest_1 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (8.0993ms)
+✔ npc_mist_forest_11 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.8471ms)
+✔ npc_thunder_peak_2 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.7061ms)
+✔ npc_thunder_peak_5 待機下肢逐像素固定，只有上身微幅呼吸，含尾幀接首幀 (7.4098ms)
+✔ NPC.csv 的移動速度／攻擊速度／攻擊距離與 NPC_CONFIG_TABLE 逐列一致 (43.092ms)
+✔ 套用流程能無損回寫三欄（dry-run 語意變更 0） (174.3381ms)
+✔ npcCombatProfile：表格值換成座標單位（1 米 = 10 單位），攻速為絕對值 (16.8922ms)
+✔ npcCombatProfile：攻速 = 表格攻速 × 階級係數 × 場景攻速倍率 (15.5836ms)
+✔ npcCombatProfile：表格留白＝0＝戰場預設，攻速以 1 次/秒計 (15.5804ms)
+✔ 生成的敵人身上帶著自己 NPC 的攻速、跑速、射程 (21.6604ms)
+✔ 攻擊表現看射程不看魔法型：24 米出投射物、6 米近身出手 (18.8129ms)
+✔ 敵人普攻計時：打不出去時釘在 0，不往負數累積（避免進射程後連續補打） (1.7988ms)
+✔ 框選四款被完整全身骷髏取代，四階級來源／名稱／四動作一致且舊圖退役保留 (57.635ms)
+✖ 兩隻法師四階級均為魔法遠程、24米射程及6米移速，生成及實際追擊沿用同一設定 (26.8529ms)
+✔ 法師真實普攻對魔防結算且送出遠程投射物、命中時序與傷害類型一致 (21.7333ms)
+✔ NPC-SPRITE-1 npc.json 的每個檔都存在，且圖寬＝格寬×幀數、圖高＝格高 (146.4239ms)
+✔ NPC-SPRITE-2 遊戲資料：每個 NPC 的 sprite 都指到 npc.json 裡的檔，且一定有站立圖 (19.7576ms)
+✔ NPC-SPRITE-3 現行正式角色全部有人使用；明確退役的舊圖保留但不可仍被配置 (12.0638ms)
+✖ NPC-SPRITE-4 NPC 表：每一列都有四個動作圖像欄與圖像備註，舊版圖像明確標示 (21.5026ms)
+✖ NPC-SPRITE-5 縮放比：NPC 表每列都有大於 0 的數字，寫進遊戲資料；改成 1.5 套用後 NPC_CONFIG_TABLE 與 pool 都會變 (49.1424ms)
+ℹ tests 102
+ℹ suites 0
+ℹ pass 99
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 844.9561
+
+✖ failing tests:
+
+test at tests\npc-skeleton-replacement.test.cjs:20:1
+✖ 兩隻法師四階級均為魔法遠程、24米射程及6米移速，生成及實際追擊沿用同一設定 (26.8529ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+  10 !== 6
+
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\npc-skeleton-replacement.test.cjs:23:68)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 10,
+    expected: 6,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\npc-sprites.test.cjs:69:1
+✖ NPC-SPRITE-4 NPC 表：每一列都有四個動作圖像欄與圖像備註，舊版圖像明確標示 (21.5026ms)
+  AssertionError [ERR_ASSERTION]: tower_boss_1 tower_boss 缺圖像備註
+      at D:\MyGame\Idle-RPG\codex\tests\npc-sprites.test.cjs:76:12
+      at Array.forEach (<anonymous>)
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\npc-sprites.test.cjs:75:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '',
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\npc-sprites.test.cjs:88:1
+✖ NPC-SPRITE-5 縮放比：NPC 表每列都有大於 0 的數字，寫進遊戲資料；改成 1.5 套用後 NPC_CONFIG_TABLE 與 pool 都會變 (49.1424ms)
+  AssertionError [ERR_ASSERTION]: The input was expected to not match the regular expression /scale:/. Input:
+
+  "  { name: '哥布林', emoji: '👺', attr: 'fire', weight: 1, id: 'desert_2', magic: false, runSpeed: 15, atkSpeed: 1, atkRange: 6, sightRanges: { normal: 50, elite: 50, elite_adv: 50, boss: 50 }, scale: 1.5, sprite: { idle: 'desert_goblin_idle', walk: 'desert_goblin_walk', attack: 'desert_goblin_attack', die: 'desert_goblin_die' }, skills: { elite: { rnd: [2, 2] }, elite_adv: { rnd: [3, 3] }, boss: { ex: ['e_fireball'], rnd: [3, 3] } } },"
+
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\npc-sprites.test.cjs:100:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "  { name: '哥布林', emoji: '👺', attr: 'fire', weight: 1, id: 'desert_2', magic: false, runSpeed: 15, atkSpeed: 1, atkRange: 6, sightRanges: { normal: 50, elite: 50, elite_adv: 50, boss: 50 }, scale: 1.5, sprite: { idle: 'desert_goblin_idle', walk: 'desert_goblin_walk', attack: 'desert_goblin_attack', die: 'desert_goblin_die' }, skills: { elite: { rnd: [2, 2] }, elite_adv: { rnd: [3, 3] }, boss: { ex: ['e_fireball'], rnd: [3, 3] } } },",
+    expected: /scale:/,
+    operator: 'doesNotMatch',
+    diff: 'simple'
+  }

@@ -1,0 +1,34 @@
+{
+  "task": "NPC-STATIONARY-IDLES-20261102",
+  "baselineGame": "bb4ba100",
+  "auditedGrounded": 66,
+  "corrected": 65,
+  "unchangedSingleFrame": "tree_damned",
+  "sourceCheck": "passed",
+  "exportCheck": "passed",
+  "idleTests": {
+    "pass": 66,
+    "fail": 0
+  },
+  "relatedTests": {
+    "pass": 99,
+    "fail": 3
+  },
+  "baselineFailures": [
+    "skeleton mage speed expected 6 but current HEAD configured 10",
+    "tower_boss_1 image note blank in HEAD",
+    "sprite test assumes goblin scale omitted but HEAD config has scale 1.5"
+  ],
+  "baselineVerification": "HEAD CSV and js/data.js were substituted in memory by read-only preloader, same three failures",
+  "build": {
+    "pass": true,
+    "files": 629
+  },
+  "browser": {
+    "rendererCharacters": 65,
+    "rendererAnimations": 260,
+    "consoleErrors": 0,
+    "moteRoundtripChangedPixels": 0
+  },
+  "scope": "Only 65 idle PNG changed; 431 other PNG and npc.json byte-identical."
+}

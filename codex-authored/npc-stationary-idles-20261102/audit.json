@@ -1,0 +1,596 @@
+[
+  {
+    "key": "skeleton_warrior_sword",
+    "lockY": 83,
+    "top": 38,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "skeleton_warrior_axe",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "skeleton_mage_staff",
+    "lockY": 85,
+    "top": 43,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "skeleton_mage_book",
+    "lockY": 83,
+    "top": 38,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "old_demon",
+    "lockY": 43,
+    "top": 9,
+    "bottom": 64,
+    "frames": 7,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "tree_damned",
+    "lockY": 44,
+    "top": 13,
+    "bottom": 64,
+    "frames": 1,
+    "changed": false,
+    "kind": "biped"
+  },
+  {
+    "key": "desert_goblin",
+    "lockY": 86,
+    "top": 44,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "desert_skeleton",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "desert_tree_spirit",
+    "lockY": 81,
+    "top": 31,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "desert_lizard_warrior",
+    "lockY": 85,
+    "top": 45,
+    "bottom": 111,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "desert_orc",
+    "lockY": 83,
+    "top": 38,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_desert_11",
+    "lockY": 85,
+    "top": 43,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_icefield_4",
+    "lockY": 85,
+    "top": 41,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_icefield_5",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_icefield_9",
+    "lockY": 91,
+    "top": 58,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_icefield_11",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_mist_forest_2",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_mist_forest_5",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 111,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_mist_forest_7",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_mist_forest_8",
+    "lockY": 85,
+    "top": 41,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_mist_forest_10",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 111,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_mist_forest_12",
+    "lockY": 84,
+    "top": 39,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_lava_mountain_2",
+    "lockY": 85,
+    "top": 41,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_lava_mountain_6",
+    "lockY": 85,
+    "top": 41,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_lava_mountain_11",
+    "lockY": 91,
+    "top": 58,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_lava_mountain_12",
+    "lockY": 85,
+    "top": 41,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_thunder_peak_3",
+    "lockY": 85,
+    "top": 42,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_thunder_peak_6",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_battlefield_2",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_battlefield_3",
+    "lockY": 85,
+    "top": 41,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_battlefield_4",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_battlefield_5",
+    "lockY": 85,
+    "top": 41,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_battlefield_6",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_battlefield_7",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_battlefield_9",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_battlefield_11",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 111,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_chaos_2",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_chaos_6",
+    "lockY": 85,
+    "top": 41,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_chaos_9",
+    "lockY": 84,
+    "top": 39,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_chaos_12",
+    "lockY": 83,
+    "top": 38,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_sanctuary_3",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_sanctuary_4",
+    "lockY": 85,
+    "top": 41,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_sanctuary_5",
+    "lockY": 85,
+    "top": 42,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_sanctuary_7",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_sanctuary_9",
+    "lockY": 85,
+    "top": 41,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_sanctuary_10",
+    "lockY": 84,
+    "top": 40,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "npc_god_sanctuary_12",
+    "lockY": 85,
+    "top": 41,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "biped"
+  },
+  {
+    "key": "bloated_damned",
+    "lockY": 47,
+    "top": 21,
+    "bottom": 64,
+    "frames": 5,
+    "changed": true,
+    "kind": "legacy-biped"
+  },
+  {
+    "key": "burning_damned",
+    "lockY": 46,
+    "top": 18,
+    "bottom": 64,
+    "frames": 5,
+    "changed": true,
+    "kind": "legacy-biped"
+  },
+  {
+    "key": "burning_damned_blue",
+    "lockY": 46,
+    "top": 18,
+    "bottom": 64,
+    "frames": 5,
+    "changed": true,
+    "kind": "legacy-biped"
+  },
+  {
+    "key": "male_damned",
+    "lockY": 47,
+    "top": 21,
+    "bottom": 64,
+    "frames": 5,
+    "changed": true,
+    "kind": "legacy-biped"
+  },
+  {
+    "key": "female_damned",
+    "lockY": 48,
+    "top": 22,
+    "bottom": 64,
+    "frames": 5,
+    "changed": true,
+    "kind": "legacy-biped"
+  },
+  {
+    "key": "twisted_damned",
+    "lockY": 47,
+    "top": 21,
+    "bottom": 64,
+    "frames": 5,
+    "changed": true,
+    "kind": "legacy-biped"
+  },
+  {
+    "key": "desert_wolf",
+    "lockY": 91,
+    "top": 58,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "quadruped"
+  },
+  {
+    "key": "npc_lava_mountain_3",
+    "lockY": 93,
+    "top": 64,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "quadruped"
+  },
+  {
+    "key": "npc_lava_mountain_7",
+    "lockY": 91,
+    "top": 59,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "quadruped"
+  },
+  {
+    "key": "npc_god_battlefield_12",
+    "lockY": 91,
+    "top": 58,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "quadruped"
+  },
+  {
+    "key": "npc_god_chaos_1",
+    "lockY": 91,
+    "top": 58,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "quadruped"
+  },
+  {
+    "key": "npc_god_chaos_5",
+    "lockY": 93,
+    "top": 62,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "quadruped"
+  },
+  {
+    "key": "npc_god_chaos_10",
+    "lockY": 90,
+    "top": 55,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "quadruped"
+  },
+  {
+    "key": "npc_icefield_1",
+    "lockY": 91,
+    "top": 59,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "quadruped"
+  },
+  {
+    "key": "npc_icefield_2",
+    "lockY": 91,
+    "top": 58,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "quadruped"
+  },
+  {
+    "key": "npc_mist_forest_1",
+    "lockY": 91,
+    "top": 59,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "quadruped"
+  },
+  {
+    "key": "npc_mist_forest_11",
+    "lockY": 91,
+    "top": 58,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "quadruped"
+  },
+  {
+    "key": "npc_thunder_peak_2",
+    "lockY": 91,
+    "top": 58,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "quadruped"
+  },
+  {
+    "key": "npc_thunder_peak_5",
+    "lockY": 91,
+    "top": 58,
+    "bottom": 112,
+    "frames": 6,
+    "changed": true,
+    "kind": "quadruped"
+  }
+]

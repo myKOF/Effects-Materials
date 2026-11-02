@@ -1,0 +1,1497 @@
+[
+  {
+    "key": "skeleton_warrior_sword",
+    "kind": "biped",
+    "top": 38,
+    "lockY": 83,
+    "beforeSHA256": "36764be8f8dce18fba370126cfe62009ebcfe0f7a0b89b5e1e821d7855fd6027",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "skeleton_warrior_sword",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "skeleton_warrior_axe",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "0b39b0f5f1016fa74a49a8da7cefe61bd92f862ffec24231af4682346112fc6f",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "skeleton_warrior_axe",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "skeleton_mage_staff",
+    "kind": "biped",
+    "top": 43,
+    "lockY": 85,
+    "beforeSHA256": "6a817d67c1873a642324b09d7400a3c15388b339785bf31316a78eb0101e8f3a",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7826,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "skeleton_mage_staff",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "skeleton_mage_book",
+    "kind": "biped",
+    "top": 38,
+    "lockY": 83,
+    "beforeSHA256": "4390e350c9db4b7b4827a7df4089b474e555a55b7c22836c30f96f188952a3c5",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "skeleton_mage_book",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "old_demon",
+    "kind": "biped",
+    "top": 9,
+    "lockY": 43,
+    "beforeSHA256": "e1155c6f4f66729844b19675d06d371836363d21abffa10fb1eb4a2680978b7d",
+    "character": {
+      "cellW": 80,
+      "cellH": 64,
+      "anchorX": 0.5062,
+      "anchorY": 1,
+      "scale": 1.0545,
+      "facing": -1,
+      "height": 58
+    },
+    "meta": {
+      "char": "old_demon",
+      "frames": 7,
+      "fps": 8,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "desert_goblin",
+    "kind": "biped",
+    "top": 44,
+    "lockY": 86,
+    "beforeSHA256": "acb683a3778a1ceb363ba2917406db76e982491fac5a4f0bfa224c22db88203d",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7353,
+      "facing": -1,
+      "height": 50
+    },
+    "meta": {
+      "char": "desert_goblin",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "desert_skeleton",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "bc3b75963ca7659ee4b3abf1d329663830b54cfd8e3e2234352863ff599bf9d0",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "desert_skeleton",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "desert_tree_spirit",
+    "kind": "biped",
+    "top": 31,
+    "lockY": 81,
+    "beforeSHA256": "23e27a7f33ca5fc0f7a3a9e7aa4f3118cc2b364a74bb3cfce7ca337a1cd5239f",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7561,
+      "facing": -1,
+      "height": 62
+    },
+    "meta": {
+      "char": "desert_tree_spirit",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "desert_lizard_warrior",
+    "kind": "biped",
+    "top": 45,
+    "lockY": 85,
+    "beforeSHA256": "732d6dd1e4e1c0311267b7a38ce91cca324a20ff06bbc5f12a80a01ceabda494",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.806,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "desert_lizard_warrior",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "desert_orc",
+    "kind": "biped",
+    "top": 38,
+    "lockY": 83,
+    "beforeSHA256": "087f007142e01109837c1efc7c3f14984e788a2248a4dbed9c7cac3baaae9b47",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7436,
+      "facing": -1,
+      "height": 58
+    },
+    "meta": {
+      "char": "desert_orc",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_desert_11",
+    "kind": "biped",
+    "top": 43,
+    "lockY": 85,
+    "beforeSHA256": "f5e3933a82eebd7c27c20cf5caa901aa5783afbcd4306f140ac225f939adda90",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7826,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_desert_11",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_icefield_4",
+    "kind": "biped",
+    "top": 41,
+    "lockY": 85,
+    "beforeSHA256": "ec22052cea9c8b3c6425240bffb4ff6953cd5c047810deddde006f8fbbd87729",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_icefield_4",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_icefield_5",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "fb5660102dd2782cbbdde7330d585f111a7e369c932350a6350158d298e7ec6e",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_icefield_5",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_icefield_9",
+    "kind": "biped",
+    "top": 58,
+    "lockY": 91,
+    "beforeSHA256": "f9cbdeba0897afeb9c0b2ac54051d3a4b8d2e9bc711c48f0a754cacc7b05d38b",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.9643,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_icefield_9",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_icefield_11",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "4e054bd33fdecf488b5fe2abe507d3fc6062ca5f96329bb0e38967a629d413c2",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_icefield_11",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_mist_forest_2",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "6514635535de1a526b73ff4838d5251f5ff5086e034daea213c3ccc86998b93e",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_mist_forest_2",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_mist_forest_5",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "075adf354acebca8df17aff712d288f7d6375c6b326c0ee7bd8ae2762bd7929d",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_mist_forest_5",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_mist_forest_7",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "d0bcf73a8177bbe8535b0d5590f9ae590d675d61bd827c7c9c22fe8a99faf72f",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_mist_forest_7",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_mist_forest_8",
+    "kind": "biped",
+    "top": 41,
+    "lockY": 85,
+    "beforeSHA256": "e050f34d66b85f66696884cd358936674e737cea5ff2a0c506f850fac3cf13f9",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_mist_forest_8",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_mist_forest_10",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "dc77e80b55c78f9b42be01d9616e297ec00dd6c9766631c1c04f1d9a8b9622e5",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7714,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_mist_forest_10",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_mist_forest_12",
+    "kind": "biped",
+    "top": 39,
+    "lockY": 84,
+    "beforeSHA256": "c3909ae463cb16b886c4ad8f6713cfddde762d72761c760c7b8acb4366448f8d",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_mist_forest_12",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_lava_mountain_2",
+    "kind": "biped",
+    "top": 41,
+    "lockY": 85,
+    "beforeSHA256": "e887d11c1fa40acc4cfe9d3609049a207a4dfbc1cf4ae76cf59bd080b4f4994c",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_lava_mountain_2",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_lava_mountain_6",
+    "kind": "biped",
+    "top": 41,
+    "lockY": 85,
+    "beforeSHA256": "c844154269e95fce7352a6307eaf7312cf068a8b362c2c113d74c87aaafa47ff",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_lava_mountain_6",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_lava_mountain_11",
+    "kind": "biped",
+    "top": 58,
+    "lockY": 91,
+    "beforeSHA256": "26e1cdde863cd3e5be71ae8c09434e5b777bf710783acbeb6ccbf29db9673503",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 1,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_lava_mountain_11",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_lava_mountain_12",
+    "kind": "biped",
+    "top": 41,
+    "lockY": 85,
+    "beforeSHA256": "19a528ebd55dfd6a35c1fbbc21b1fa7612f8478447cfb36edfed6be4692d6b75",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_lava_mountain_12",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_thunder_peak_3",
+    "kind": "biped",
+    "top": 42,
+    "lockY": 85,
+    "beforeSHA256": "cf2af15253a11eea268a9f1982a4893ba86f6d6da81642f5c8aaef74d1846f61",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_thunder_peak_3",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_thunder_peak_6",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "e5b5ebc51e4decd7c11ce2c428ce09bd203220de5881f7e07dac22dc78f3de62",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_thunder_peak_6",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_battlefield_2",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "b846065aee9d80f4e67e7a3ecb405ca450bba1e3c4215e67da3a1a02010c9bd9",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_battlefield_2",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_battlefield_3",
+    "kind": "biped",
+    "top": 41,
+    "lockY": 85,
+    "beforeSHA256": "601b3c0e2bc0ab70e21d9ce52c8f4bee8f8817255710aed2266f4f803a390c8d",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_battlefield_3",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_battlefield_4",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "ec282274b4e1a61272e48ac9aa4a85b672d24715d1d6ba8a67c6ea34e1f0512f",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_battlefield_4",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_battlefield_5",
+    "kind": "biped",
+    "top": 41,
+    "lockY": 85,
+    "beforeSHA256": "ec4f9ce2198cf5f5a4c1db5064af26ec4411ad465cf3b65923502962c2857f26",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_battlefield_5",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_battlefield_6",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "26b326d97b54c6bbe36db55757ac8bf6dbbbde33ec7d51c677267730d60840f2",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_battlefield_6",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_battlefield_7",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "6735a81064a4a38878c5db626e0de156b5127ecf6891093a243ac1dc7b58f06a",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_battlefield_7",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_battlefield_9",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "26ab31363d0c2c7098c7300ff3ef6b4011557d80893ab3925e6360b23c3549bf",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_battlefield_9",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_battlefield_11",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "eb609afdda279c346ecfc67b90180ff4660a3f334efb8c825c70e8c1471d4cf7",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_battlefield_11",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_chaos_2",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "29a2ca85923c9f537b452c774890d7288e1efa87b871768fdcde0c8417ee0393",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_chaos_2",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_chaos_6",
+    "kind": "biped",
+    "top": 41,
+    "lockY": 85,
+    "beforeSHA256": "2e1062e5f9f11427686abae3a8d7afef112d2feee1074aba0e0ef98ab44bdceb",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_chaos_6",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_chaos_9",
+    "kind": "biped",
+    "top": 39,
+    "lockY": 84,
+    "beforeSHA256": "99480ce1da1e56b1e737398afdfed2af280268a96371845b5f30f255c2165c0e",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_chaos_9",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_chaos_12",
+    "kind": "biped",
+    "top": 38,
+    "lockY": 83,
+    "beforeSHA256": "f3775f22f7e3bb50454a104115dd73839b7013a1c9d2eb1bbd0cc3a75923fd55",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_chaos_12",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_sanctuary_3",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "f8ff7b5b7eda125893e6d76fc54d686f3cc5f2fae3b8cbda0122be541a5e8ab9",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_sanctuary_3",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_sanctuary_4",
+    "kind": "biped",
+    "top": 41,
+    "lockY": 85,
+    "beforeSHA256": "54242e081908b2479a7de38c3850ee85ff22db4b9624a639d3d7b25268d8206c",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_sanctuary_4",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_sanctuary_5",
+    "kind": "biped",
+    "top": 42,
+    "lockY": 85,
+    "beforeSHA256": "3d80f57b9dec0d088956d950fd92787e8e6381912489bd4e21a9c5507868c37e",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_sanctuary_5",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_sanctuary_7",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "9eebfc805b1cb13a1445eab8d3a9596531b141511ef8c88ca134a59e09faa208",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_sanctuary_7",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_sanctuary_9",
+    "kind": "biped",
+    "top": 41,
+    "lockY": 85,
+    "beforeSHA256": "aec6cb79caa66ae39b80cbe90ccb999d3ace3e7926c4af90fad30dcd0c7a6b9c",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_sanctuary_9",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_sanctuary_10",
+    "kind": "biped",
+    "top": 40,
+    "lockY": 84,
+    "beforeSHA256": "4b8ea877b911eec569d095c0ca4c5cbb3a6288e36684797276bb8627f41fdcb1",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_sanctuary_10",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_sanctuary_12",
+    "kind": "biped",
+    "top": 41,
+    "lockY": 85,
+    "beforeSHA256": "76f0a655e8962c9018281a767d60dc1db3f206f2b72601fa717996d553d3e9e4",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.75,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "npc_god_sanctuary_12",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "bloated_damned",
+    "kind": "legacy-biped",
+    "top": 21,
+    "lockY": 47,
+    "beforeSHA256": "4f71e1bad4f8c9e61ae7c91159f6cb59b6098e976218d1964fee37a3ea892811",
+    "character": {
+      "cellW": 64,
+      "cellH": 64,
+      "anchorX": 0.4922,
+      "anchorY": 1,
+      "scale": 1.3488,
+      "facing": -1,
+      "height": 58
+    },
+    "meta": {
+      "char": "bloated_damned",
+      "frames": 5,
+      "fps": 8,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "burning_damned",
+    "kind": "legacy-biped",
+    "top": 18,
+    "lockY": 46,
+    "beforeSHA256": "3239525ec7721da54e11d473ecab55ae32a8e53a90d067dc2ea18c8d440d4f16",
+    "character": {
+      "cellW": 64,
+      "cellH": 64,
+      "anchorX": 0.4844,
+      "anchorY": 1,
+      "scale": 1.1739,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "burning_damned",
+      "frames": 5,
+      "fps": 8,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "burning_damned_blue",
+    "kind": "legacy-biped",
+    "top": 18,
+    "lockY": 46,
+    "beforeSHA256": "179ab8da4f4d662aa476803df52a356377281e7e5adb1ec4a374b7b61ebcf75b",
+    "character": {
+      "cellW": 64,
+      "cellH": 64,
+      "anchorX": 0.4844,
+      "anchorY": 1,
+      "scale": 1.1739,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "burning_damned_blue",
+      "frames": 5,
+      "fps": 8,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "male_damned",
+    "kind": "legacy-biped",
+    "top": 21,
+    "lockY": 47,
+    "beforeSHA256": "3741d60a8d31e46478d873e12f64bcad4ae86f75579916e92a3894c9f2983b2b",
+    "character": {
+      "cellW": 64,
+      "cellH": 64,
+      "anchorX": 0.4844,
+      "anchorY": 1,
+      "scale": 1.2857,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "male_damned",
+      "frames": 5,
+      "fps": 8,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "female_damned",
+    "kind": "legacy-biped",
+    "top": 22,
+    "lockY": 48,
+    "beforeSHA256": "1b2014f1189a0789e759656a915fa816b42b5458b2ebaf1f620d458ccb397f80",
+    "character": {
+      "cellW": 64,
+      "cellH": 64,
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "scale": 1.3171,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "female_damned",
+      "frames": 5,
+      "fps": 8,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "twisted_damned",
+    "kind": "legacy-biped",
+    "top": 21,
+    "lockY": 47,
+    "beforeSHA256": "4a70a86edb7edd21423834ce7755ae6c92b5b403ef8478f409d6e8f203e44b0c",
+    "character": {
+      "cellW": 64,
+      "cellH": 64,
+      "anchorX": 0.4688,
+      "anchorY": 1,
+      "scale": 1.2558,
+      "facing": -1,
+      "height": 54
+    },
+    "meta": {
+      "char": "twisted_damned",
+      "frames": 5,
+      "fps": 8,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "desert_wolf",
+    "kind": "quadruped",
+    "top": 58,
+    "lockY": 91,
+    "beforeSHA256": "0143a5054887e2421952b35c0ed57f2b257007a0121dc362a7763cfa39df6df4",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7037,
+      "facing": -1,
+      "height": 38
+    },
+    "meta": {
+      "char": "desert_wolf",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_lava_mountain_3",
+    "kind": "quadruped",
+    "top": 64,
+    "lockY": 93,
+    "beforeSHA256": "101fe88aeec6e7b5865abcb2925a28908efef6c965cc367587ea08a626997fa3",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7037,
+      "facing": -1,
+      "height": 38
+    },
+    "meta": {
+      "char": "npc_lava_mountain_3",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_lava_mountain_7",
+    "kind": "quadruped",
+    "top": 59,
+    "lockY": 91,
+    "beforeSHA256": "1523f71f62c0c597e6c251a6f02371617b1789c724dd1aea2ec9bc172fc1b6e8",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7037,
+      "facing": -1,
+      "height": 38
+    },
+    "meta": {
+      "char": "npc_lava_mountain_7",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_battlefield_12",
+    "kind": "quadruped",
+    "top": 58,
+    "lockY": 91,
+    "beforeSHA256": "7a11eaf816eeea5328382a7a5d1492824e05949141b5ba9f9581e8732768cd34",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7037,
+      "facing": -1,
+      "height": 38
+    },
+    "meta": {
+      "char": "npc_god_battlefield_12",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_chaos_1",
+    "kind": "quadruped",
+    "top": 58,
+    "lockY": 91,
+    "beforeSHA256": "67b65c0227746db7b589651045abbf22ac9ecac2392c3896a607d6df059d4ff4",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7037,
+      "facing": -1,
+      "height": 38
+    },
+    "meta": {
+      "char": "npc_god_chaos_1",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_chaos_5",
+    "kind": "quadruped",
+    "top": 62,
+    "lockY": 93,
+    "beforeSHA256": "d830bb411ef9e360e952cc5cdb0b031bb14409cf8115617962df6a2f8730296f",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7037,
+      "facing": -1,
+      "height": 38
+    },
+    "meta": {
+      "char": "npc_god_chaos_5",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_god_chaos_10",
+    "kind": "quadruped",
+    "top": 55,
+    "lockY": 90,
+    "beforeSHA256": "78ec9dc7d18ede63d23fa2e1748d628f5a83369fd20d6f632a94418196982632",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7037,
+      "facing": -1,
+      "height": 38
+    },
+    "meta": {
+      "char": "npc_god_chaos_10",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_icefield_1",
+    "kind": "quadruped",
+    "top": 59,
+    "lockY": 91,
+    "beforeSHA256": "f2581560c4e979cc0c994bd61d12ffaf561f0e88436613ed4948e9179d846217",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7037,
+      "facing": -1,
+      "height": 38
+    },
+    "meta": {
+      "char": "npc_icefield_1",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_icefield_2",
+    "kind": "quadruped",
+    "top": 58,
+    "lockY": 91,
+    "beforeSHA256": "9fae0eea888ff4424d685c54e768a5b7b23d035d449832ef3ad6443759409d6e",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7037,
+      "facing": -1,
+      "height": 38
+    },
+    "meta": {
+      "char": "npc_icefield_2",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_mist_forest_1",
+    "kind": "quadruped",
+    "top": 59,
+    "lockY": 91,
+    "beforeSHA256": "7f10f38708b4630981a1ed7c1c3391ec6019be5b1f45f84389e109672765f0f0",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7037,
+      "facing": -1,
+      "height": 38
+    },
+    "meta": {
+      "char": "npc_mist_forest_1",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_mist_forest_11",
+    "kind": "quadruped",
+    "top": 58,
+    "lockY": 91,
+    "beforeSHA256": "42e007f9d14cd603880557888c707a4df14edaca66adc874d285187936b0888b",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7037,
+      "facing": -1,
+      "height": 38
+    },
+    "meta": {
+      "char": "npc_mist_forest_11",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_thunder_peak_2",
+    "kind": "quadruped",
+    "top": 58,
+    "lockY": 91,
+    "beforeSHA256": "36e707f8450488ff9c13199219fd8aa84d4171c2f21ccce8af13b993eeab7291",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7037,
+      "facing": -1,
+      "height": 38
+    },
+    "meta": {
+      "char": "npc_thunder_peak_2",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  },
+  {
+    "key": "npc_thunder_peak_5",
+    "kind": "quadruped",
+    "top": 58,
+    "lockY": 91,
+    "beforeSHA256": "e95315b1529c3fd82482c89be84966290766532e6ee4775c6a836d7295886ef8",
+    "character": {
+      "cellW": 128,
+      "cellH": 128,
+      "anchorX": 0.5,
+      "anchorY": 0.875,
+      "scale": 0.7037,
+      "facing": -1,
+      "height": 38
+    },
+    "meta": {
+      "char": "npc_thunder_peak_5",
+      "frames": 6,
+      "fps": 6.25,
+      "loop": true,
+      "hold": false
+    }
+  }
+]

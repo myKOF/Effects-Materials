@@ -1,0 +1,80 @@
+✔ 框選四款被完整全身骷髏取代，四階級來源／名稱／四動作一致且舊圖退役保留 (40.4341ms)
+✖ 兩隻法師四階級均為魔法遠程、24米射程及6米移速，生成及實際追擊沿用同一設定 (20.0596ms)
+✔ 法師真實普攻對魔防結算且送出遠程投射物、命中時序與傷害類型一致 (21.1977ms)
+✔ NPC-SPRITE-1 npc.json 的每個檔都存在，且圖寬＝格寬×幀數、圖高＝格高 (121.3234ms)
+✔ NPC-SPRITE-2 遊戲資料：每個 NPC 的 sprite 都指到 npc.json 裡的檔，且一定有站立圖 (17.4009ms)
+✔ NPC-SPRITE-3 現行正式角色全部有人使用；明確退役的舊圖保留但不可仍被配置 (9.1075ms)
+✖ NPC-SPRITE-4 NPC 表：每一列都有四個動作圖像欄與圖像備註，舊版圖像明確標示 (16.927ms)
+✖ NPC-SPRITE-5 縮放比：NPC 表每列都有大於 0 的數字，寫進遊戲資料；改成 1.5 套用後 NPC_CONFIG_TABLE 與 pool 都會變 (39.4836ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 5
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 425.5644
+
+✖ failing tests:
+
+test at tests\npc-skeleton-replacement.test.cjs:20:1
+✖ 兩隻法師四階級均為魔法遠程、24米射程及6米移速，生成及實際追擊沿用同一設定 (20.0596ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+  10 !== 6
+
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\npc-skeleton-replacement.test.cjs:23:68)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 10,
+    expected: 6,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\npc-sprites.test.cjs:69:1
+✖ NPC-SPRITE-4 NPC 表：每一列都有四個動作圖像欄與圖像備註，舊版圖像明確標示 (16.927ms)
+  AssertionError [ERR_ASSERTION]: tower_boss_1 tower_boss 缺圖像備註
+      at D:\MyGame\Idle-RPG\codex\tests\npc-sprites.test.cjs:76:12
+      at Array.forEach (<anonymous>)
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\npc-sprites.test.cjs:75:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '',
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\npc-sprites.test.cjs:88:1
+✖ NPC-SPRITE-5 縮放比：NPC 表每列都有大於 0 的數字，寫進遊戲資料；改成 1.5 套用後 NPC_CONFIG_TABLE 與 pool 都會變 (39.4836ms)
+  AssertionError [ERR_ASSERTION]: The input was expected to not match the regular expression /scale:/. Input:
+
+  "  { name: '哥布林', emoji: '👺', attr: 'fire', weight: 1, id: 'desert_2', magic: false, runSpeed: 15, atkSpeed: 1, atkRange: 6, sightRanges: { normal: 50, elite: 50, elite_adv: 50, boss: 50 }, scale: 1.5, sprite: { idle: 'desert_goblin_idle', walk: 'desert_goblin_walk', attack: 'desert_goblin_attack', die: 'desert_goblin_die' }, skills: { elite: { rnd: [2, 2] }, elite_adv: { rnd: [3, 3] }, boss: { ex: ['e_fireball'], rnd: [3, 3] } } },"
+
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\npc-sprites.test.cjs:100:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "  { name: '哥布林', emoji: '👺', attr: 'fire', weight: 1, id: 'desert_2', magic: false, runSpeed: 15, atkSpeed: 1, atkRange: 6, sightRanges: { normal: 50, elite: 50, elite_adv: 50, boss: 50 }, scale: 1.5, sprite: { idle: 'desert_goblin_idle', walk: 'desert_goblin_walk', attack: 'desert_goblin_attack', die: 'desert_goblin_die' }, skills: { elite: { rnd: [2, 2] }, elite_adv: { rnd: [3, 3] }, boss: { ex: ['e_fireball'], rnd: [3, 3] } } },",
+    expected: /scale:/,
+    operator: 'doesNotMatch',
+    diff: 'simple'
+  }
