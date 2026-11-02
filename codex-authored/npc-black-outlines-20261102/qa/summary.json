@@ -1,0 +1,41 @@
+{
+  "task": "NPC-BLACK-OUTLINES-20261102",
+  "branch": "codex/npc-black-outlines-20261102",
+  "base": "df6baf2e",
+  "assets": 497,
+  "npcStrips": 496,
+  "npcCharacters": 124,
+  "activeNpcCharacters": 120,
+  "bossUsedFrames": 11,
+  "framesIncludingUnusedBossCells": 3250,
+  "radiusPx": 2,
+  "rgbaValidation": {
+    "assets": 497,
+    "frames": 3250,
+    "newOpaquePixels": 1730746,
+    "originalColoredPixelsPreserved": 3729496,
+    "addedAtFrameBoundary": 0
+  },
+  "tests": {
+    "pass": 95,
+    "fail": 0
+  },
+  "build": {
+    "files": 631,
+    "passed": true
+  },
+  "runtime": {
+    "npcDefinitionsLoaded": 120,
+    "bossFramesLoaded": 11,
+    "blackPixelsSampled": 9453,
+    "protectedFromInnerBlend": 9453,
+    "protectedFromOuterGlow": 9453,
+    "errors": 0,
+    "warnings": 0
+  },
+  "moteRoundtrip": {
+    "width": 768,
+    "height": 128,
+    "changedRGBA": 0
+  }
+}

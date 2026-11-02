@@ -12,7 +12,7 @@ function exportAssets(game,mode){
     assert.equal(sha(bytes),hashes[stem+'.png'],stem+' source hash');
     assert.equal(bytes.readUInt32BE(16),c.cellW*meta.frames,stem+' width');assert.equal(bytes.readUInt32BE(20),c.cellH,stem+' height');
     if(mode==='--source-check')continue;
-    const active=require('../npc-stationary-idles-20261102/export.cjs').resolve(stem,bytes);
+    const base=require('../npc-stationary-idles-20261102/export.cjs').resolve(stem,bytes);const active=require('../npc-black-outlines-20261102/export.cjs').resolve(stem,base);
     if(mode==='--apply')fs.writeFileSync(path.join(target,stem+'.png'),active);
     assert.equal(sha(fs.readFileSync(path.join(target,stem+'.png'))),sha(active),stem+' game hash');
     if(mode==='--apply')manifest.stems[stem]=meta;

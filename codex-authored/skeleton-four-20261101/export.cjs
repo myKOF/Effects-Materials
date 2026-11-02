@@ -8,7 +8,7 @@ function exportAssets(game,mode){
  for(const [stem,m]of Object.entries(extra.stems)){
   const c=extra.chars[m.char],bytes=fs.readFileSync(path.join(__dirname,'exports',stem+'.png'));assert.equal(sha(bytes),hashes[stem+'.png']);assert.equal(bytes.readUInt32BE(16),c.cellW*m.frames);assert.equal(bytes.readUInt32BE(20),c.cellH);
   if(mode==='--source-check')continue;
-  const active=require('../npc-stationary-idles-20261102/export.cjs').resolve(stem,bytes);
+  const base=require('../npc-stationary-idles-20261102/export.cjs').resolve(stem,bytes);const active=require('../npc-black-outlines-20261102/export.cjs').resolve(stem,base);
   if(mode==='--apply'){fs.writeFileSync(path.join(dir,stem+'.png'),active);man.stems[stem]=m;man.chars[m.char]=c;}
   assert.equal(sha(fs.readFileSync(path.join(dir,stem+'.png'))),sha(active));assert.deepEqual(man.stems[stem],m);assert.deepEqual(man.chars[m.char],c);
  }
