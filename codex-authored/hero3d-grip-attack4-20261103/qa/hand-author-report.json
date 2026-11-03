@@ -1,0 +1,82 @@
+{
+  "inputSha256": "32fe71418b889e5e79b437f0d00abde477e74dce24fed5abc7642262176f1a1b",
+  "outputSha256": "0f6621addf5179b240a9074ceaa9438d68ed7b76ee1eb795f55d7870bfbb4f1e",
+  "handVertices": 2807,
+  "handTriangles": 5622,
+  "handWatertight": true,
+  "removedBrokenHandTriangles": 359,
+  "existingAnimationsUnchanged": true,
+  "bladeShapeUnchanged": true,
+  "weaponTranslationOnly": [
+    -0.02276611328125,
+    0.056501567363739014,
+    0.05842228978872299
+  ],
+  "fingerContacts": [
+    {
+      "finger": "Index",
+      "axisY": 0.029,
+      "centerRadius": 0.0231,
+      "radius": 0.0085
+    },
+    {
+      "finger": "Middle",
+      "axisY": 0.01,
+      "centerRadius": 0.0236,
+      "radius": 0.009
+    },
+    {
+      "finger": "Ring",
+      "axisY": -0.01,
+      "centerRadius": 0.0228,
+      "radius": 0.0082
+    },
+    {
+      "finger": "Little",
+      "axisY": -0.028,
+      "centerRadius": 0.0218,
+      "radius": 0.0072
+    }
+  ],
+  "gripFrame": {
+    "bladeAxisInSword": [
+      0,
+      1,
+      0
+    ],
+    "edgeAxisInSword": [
+      1,
+      0,
+      0
+    ],
+    "normalAxisInSword": [
+      0,
+      0,
+      1
+    ],
+    "gripPointInSword": [
+      5.156991958618164,
+      -5.968463897705078,
+      -5.466228008270264
+    ],
+    "bladeRootInSword": [
+      5.156990051269531,
+      5.5315399169921875,
+      -5.466229438781738
+    ],
+    "bladeTipInSword": [
+      5.156991481781006,
+      79.49220275878906,
+      -5.466228485107422
+    ],
+    "type": "closed-diagonal-palm-grip",
+    "clearanceMeters": 0.0005,
+    "shaftRadiusX": 0.014,
+    "shaftRadiusZ": 0.014,
+    "skinTexelUV": [
+      0.7532389760017395,
+      0.5121369957923889
+    ]
+  },
+  "blenderVersion": "4.5.10 LTS"
+}

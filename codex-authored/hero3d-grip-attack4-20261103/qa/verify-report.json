@@ -1,0 +1,13 @@
+{
+  "limbErrorDeg": 0.00020800561478800106,
+  "faceForwardDuringSwing": 5.148726817004677e-7,
+  "sharpEdgeAlignment": 0.9999993939165319,
+  "loopMaxDeg": 1.170932132774238,
+  "sourceLoopMaxDeg": 1.1709053274505457,
+  "originalAnimationsAndAppearanceUnchanged": true,
+  "fixedRightGrip": true,
+  "noBackSwordReintroduced": true,
+  "sourceDuration": 2.366666793823242,
+  "candidateDuration": 2.366666793823242,
+  "footHeightError": 1.3464939260104947e-7
+}

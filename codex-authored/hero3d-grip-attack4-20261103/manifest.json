@@ -1,0 +1,118 @@
+{
+  "license": "User explicitly confirmed Role.glb and Attack4.glb authorized for game use and modification in chat on 2026-11-03",
+  "base": {
+    "package": "codex-authored/hero3d-role-20261103",
+    "commit": "c4b734b",
+    "path": "exports/role.glb",
+    "sha256": "32fe71418b889e5e79b437f0d00abde477e74dce24fed5abc7642262176f1a1b"
+  },
+  "knightSha256": "ad6645d1db9ebfd18240049e36d3db075ca2e3aa27b7f3c1e6e568a2ed435bc4",
+  "files": [
+    {
+      "source": "source/Attack4.glb",
+      "sha256": "5b81e538fabb69e9e026406d249a8c7fa3bbe0649097c25a965bff4b40e00836"
+    },
+    {
+      "source": "source/role-grip-fixed.glb",
+      "sha256": "0f6621addf5179b240a9074ceaa9438d68ed7b76ee1eb795f55d7870bfbb4f1e"
+    },
+    {
+      "source": "source/grip.blend",
+      "sha256": "0cb5aaff30f280562b49f74bee3d8de2a9ac6e32b04dfea333786b84d9bf8397"
+    },
+    {
+      "source": "source/role-attack4.blend",
+      "sha256": "4f44aa41e5a24ecc5e5a2a7580f26b5792dee05b411627b860e4b63512d8a7f2"
+    },
+    {
+      "source": "exports/role.glb",
+      "project": "images/models/hero3d/role.glb",
+      "sha256": "c03e9b99b9e444e920d4e2ad077f81dffdb12b8928b062677e679663da45fc07"
+    },
+    {
+      "source": "exports/role.json",
+      "project": "images/models/hero3d/role.json",
+      "sha256": "166ae88bdbf6e7d9e651a8eda025c2956762b97a7f157c950ae7f1e09f8af3ac"
+    },
+    {
+      "source": "exports/ROLE_SOURCE.md",
+      "project": "images/models/hero3d/ROLE_SOURCE.md",
+      "sha256": "fd0fb12baf549f16c513e8e39c4eb73a04e2353b5098098d852722c30cc17456"
+    },
+    {
+      "source": "tools/sculpt_grip.py",
+      "project": "tools/meshy-pipeline/blender/sculpt_grip.py",
+      "sha256": "e80d5e6e2e714b3373ffb5d426ccd1d7c871e074592e62d8077b83b625e931c8"
+    },
+    {
+      "source": "tools/mirror_attack.py",
+      "project": "tools/meshy-pipeline/blender/mirror_attack.py",
+      "sha256": "bcef956939795d865b3120103d4c7abe4a27adbda2cc6c6d804e0d8f2147c78d"
+    },
+    {
+      "source": "tools/export-role.cjs",
+      "project": "tools/meshy-pipeline/src/export-role.cjs",
+      "sha256": "f3b557ba87b15d55eab175f634707c66db4cfb8b2edde9fd3b42e531f40330fa"
+    },
+    {
+      "source": "qa/hand-author-report.json",
+      "sha256": "01e9b2c607ac8c290d6a2424687dec2c0d9594d60324742947bd3a71553359cb"
+    },
+    {
+      "source": "qa/attack-author-report.json",
+      "sha256": "f025e34a52414ba0b8f230278b5ae32d5d6b4517fb50a3bdebcf597763fc67a4"
+    },
+    {
+      "source": "qa/verify.mjs",
+      "sha256": "b61bd982a4b490b20dbeb6b2809a47e3f26647ebe9b40ec17a06a8e5131dee6d"
+    },
+    {
+      "source": "qa/verify-report.json",
+      "sha256": "b3367f5b314c0b165b01d0cb7fc099b177bcf12be1cd87095ac001e11ebb67ef"
+    },
+    {
+      "source": "qa/check_contact.py",
+      "sha256": "045cef2b3451945f3d3cc7dcc4074bb53033c32bcaf6987873e6787dac895f9a"
+    },
+    {
+      "source": "qa/contact-report.json",
+      "sha256": "98f7e56fca8caeedeb1d82a5901a3dbca8940a54e8bd4d19a060c9bf7d6801c7"
+    },
+    {
+      "source": "qa/game-verify.cjs",
+      "sha256": "ccb8f40d262de3871917f225ff72a0b0fd2d74f26764813cab393bc091a654cd"
+    },
+    {
+      "source": "qa/game-report.json",
+      "sha256": "1b37a57e1ff9693093ae86967d1339c6ee6c8002da50b4b7eedc9f022f727659"
+    },
+    {
+      "source": "qa/render.cjs",
+      "sha256": "afd9d987151f8c41f560fb3c9f82f5998466714bfdf430c3a4deb5106b19fdc5"
+    },
+    {
+      "source": "qa/render-report.json",
+      "sha256": "b125def4dce866f657798be6fb66b8ae36ff98ae6f044344d8b043a939cb9c46"
+    },
+    {
+      "source": "qa/fixed-hand-closeup-original.png",
+      "sha256": "ca600f078d07594ba53d7c392e6b1f3f989ac0746a0879de9bee894c5f953764"
+    },
+    {
+      "source": "qa/fixed-hand-closeup-side.png",
+      "sha256": "1251d155b75cd1c01b3328062a9d0826ae113dcdc72310699f6ac39ab050284f"
+    },
+    {
+      "source": "qa/fixed-hand-closeup-palm.png",
+      "sha256": "fd50c2c53a1a9191c195f7574ef8ce8a4e75501411f9f0f876c3cb106820a38f"
+    },
+    {
+      "source": "qa/game-attack4.png",
+      "sha256": "794db09a13c0898ebfbd3e965d9313cee9c830e55ea03d25bcfe77d7365d9326"
+    },
+    {
+      "source": "qa/attack4-fixed-grip-preview.gif",
+      "sha256": "c31f3c708b26b473a7eaa427dd2ed1b130bc44356ec97026bc016369c215b3cb"
+    }
+  ]
+}
