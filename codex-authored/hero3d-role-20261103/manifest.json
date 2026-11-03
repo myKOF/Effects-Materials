@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "knightSha256": "ad6645d1db9ebfd18240049e36d3db075ca2e3aa27b7f3c1e6e568a2ed435bc4",
+  "files": [
+    {
+      "source": "source/Role.glb",
+      "sha256": "2fb4f1856db958ca6377706966b7d2ecafdf7441e6de41dfb5b74c382643f7bd"
+    },
+    {
+      "source": "source/role.blend",
+      "sha256": "8d7a7ec90d1cd27368bc999f4acc751096e43e2b2eec66fe6abf5606af49a44b"
+    },
+    {
+      "source": "exports/role.glb",
+      "project": "images/models/hero3d/role.glb",
+      "sha256": "32fe71418b889e5e79b437f0d00abde477e74dce24fed5abc7642262176f1a1b"
+    },
+    {
+      "source": "exports/role.json",
+      "project": "images/models/hero3d/role.json",
+      "sha256": "f11258b25cc4e79bd59838bd0f1ea6cd0df49ede4328387fb89f21382fc5e60d"
+    },
+    {
+      "source": "tools/prepare_role.py",
+      "project": "tools/meshy-pipeline/blender/prepare_role.py",
+      "sha256": "3930059f05fbbf06f92a8f2343c2c30e21b40ecfb7ebef4e052032397134a9c3"
+    },
+    {
+      "source": "tools/export-role.cjs",
+      "project": "tools/meshy-pipeline/src/export-role.cjs",
+      "sha256": "19ced551c85db1064d015a2713a571f7bcef5ffcf81446679f6529949b439f9d"
+    },
+    {
+      "source": "SOURCE.md",
+      "project": "images/models/hero3d/ROLE_SOURCE.md",
+      "sha256": "f434038e7d578cd2f49ec53b8c9673444cd405a567553c35e22329a8254633fa"
+    },
+    {
+      "source": "qa/validation.json",
+      "sha256": "6a63e2d62d1f003acba12ee0a2f20fc106447644f77777c65b4147c8e553aff3"
+    }
+  ]
+}

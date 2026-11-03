@@ -1,0 +1,91 @@
+{
+  "author": {
+    "sourceSha256": "2fb4f1856db958ca6377706966b7d2ecafdf7441e6de41dfb5b74c382643f7bd",
+    "knightSha256": "ad6645d1db9ebfd18240049e36d3db075ca2e3aa27b7f3c1e6e568a2ed435bc4",
+    "outputSha256": "32fe71418b889e5e79b437f0d00abde477e74dce24fed5abc7642262176f1a1b",
+    "blenderVersion": "4.5.10 LTS",
+    "originalAnimationBinaryPreserved": true,
+    "originalRigPreserved": true,
+    "sourceAnimationIgnored": true,
+    "clips": [
+      "Attack1",
+      "Attack2",
+      "CombatIdle",
+      "Death",
+      "Run"
+    ],
+    "removedBackSwordVertices": 782,
+    "removedBackSwordTriangles": 438,
+    "bodyVertices": 29688,
+    "bodyTriangles": 9896,
+    "patchedBackFaces": 4,
+    "bladeBeforeMeters": 0.9245084002614021,
+    "bladeAfterMeters": 0.7396067202091218,
+    "bladeRatio": 0.8,
+    "gripBone": "Sword",
+    "textureSize": [
+      1024,
+      1024
+    ]
+  },
+  "preview": {
+    "frames": 79,
+    "fps": 12,
+    "sequence": [
+      [
+        "CombatIdle",
+        0,
+        1,
+        12,
+        0.7
+      ],
+      [
+        "Run",
+        0,
+        1.25,
+        15,
+        0.7
+      ],
+      [
+        "Attack1",
+        0.1,
+        1.4,
+        16,
+        0.7
+      ],
+      [
+        "Attack2",
+        0.1,
+        1.65,
+        19,
+        0.7
+      ],
+      [
+        "Attack2",
+        1.72,
+        3.11,
+        17,
+        0.7
+      ]
+    ],
+    "clip": {
+      "x": 862,
+      "y": 197,
+      "width": 707,
+      "height": 769
+    },
+    "errors": [],
+    "relevantWarnings": [],
+    "method": "Actual isolated index/Worker/Pixi/Hero3D. Combat paused and ticker stopped; original clips sampled frame by frame for HD. Hero3D opts.size=704 and built-in wheel zoom; QA read-only state hook in HTTP only; monsters/effects/HUD temporarily hidden for appearance preview; no product file changes."
+  },
+  "checks": {
+    "relatedTests": "25/25 passed",
+    "build": "passed",
+    "goldenKnightUnmodified": true
+  },
+  "limitations": [
+    "No long-duration or multiple browser performance test",
+    "Hardware headless D3D11 hit host graphics memory limits; final preview uses SwiftShader",
+    "Existing unused-preload browser notice and Node vendor module warning retained"
+  ]
+}
