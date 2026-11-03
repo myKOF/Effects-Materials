@@ -1,0 +1,21 @@
+{
+  "method": "Actual hand vertices: palm region -0.05<x<-0.015 and abs(y)<0.015 in the physical blade frame; thumb-only region y>0.045. Right hand requires fingerForward cross palmNormal point toward thumb. Blade tip must be on thumb side. Baseline and repaired use the same geometry query.",
+  "before": {
+    "palmVertices": 179,
+    "palmMeanDepthMeters": -0.004848556526532829,
+    "thumbVertices": 106,
+    "thumbMeanAxisMeters": 0.04961153367831426,
+    "rightHandOrientationProduct": -0.00024054432540729384,
+    "rightHand": false
+  },
+  "after": {
+    "palmVertices": 179,
+    "palmMeanDepthMeters": 0.004848605675394333,
+    "thumbVertices": 106,
+    "thumbMeanAxisMeters": 0.049611657763056934,
+    "rightHandOrientationProduct": 0.00024054736539567918,
+    "rightHand": true
+  },
+  "bothSkinsMatch": true,
+  "runtimeRegression": "tests/hero3d-forward-grip.test.cjs measures both meshes and all 72 Attack4 frames; previous shape fails actual right-hand criterion"
+}

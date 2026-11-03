@@ -1,0 +1,75 @@
+{
+  "source": "Existing user-authorized Role/Role1/Attack4, authorization preserved from previous manifests. No new external asset.",
+  "basePackage": "codex-authored/hero3d-grip-attack4-20261103",
+  "baseCommit": "89d34a3",
+  "baseExportSha256": "c03e9b99b9e444e920d4e2ad077f81dffdb12b8928b062677e679663da45fc07",
+  "approvedRoleSha256": "0ebd2dd1af1503f7236375bd5e146e84c02a01f2ac10823d2eb32a94dd27b7ad",
+  "knightSha256": "ad6645d1db9ebfd18240049e36d3db075ca2e3aa27b7f3c1e6e568a2ed435bc4",
+  "files": [
+    {
+      "source": "exports/role.glb",
+      "project": "images/models/hero3d/role.glb",
+      "sha256": "0ebd2dd1af1503f7236375bd5e146e84c02a01f2ac10823d2eb32a94dd27b7ad"
+    },
+    {
+      "source": "exports/role.json",
+      "project": "images/models/hero3d/role.json",
+      "sha256": "9a08d6891d60ce27413f1e94dc837ddc0753eaeb53ee5f4f226f74b8e14d5354"
+    },
+    {
+      "source": "exports/ROLE_SOURCE.md",
+      "project": "images/models/hero3d/ROLE_SOURCE.md",
+      "sha256": "881c4d3d45319debf404393c147a89cb91446212aa571ebb5e176b9e71410713"
+    },
+    {
+      "source": "source/role.blend",
+      "sha256": "979c101cb2e01eee26fba4b82bee831e0155b2b8fa277a5439b663502b985d64"
+    },
+    {
+      "source": "tools/forward_grip.py",
+      "project": "tools/meshy-pipeline/blender/forward_grip.py",
+      "sha256": "98f5f7b9ff6c28466d58b350503aa01338d0a1aeab62df49ec533261dfcff79e"
+    },
+    {
+      "source": "tools/export-role.cjs",
+      "project": "tools/meshy-pipeline/src/export-role.cjs",
+      "sha256": "cff901410c8793d894a87bd8cf51cb08255aa6a8d43831ae2d19f0198eb45469"
+    },
+    {
+      "source": "qa/author-report.json",
+      "sha256": "d58206428e2f483998e7a8084571e78c8f4ad1574d22c6042d9c4c76b31cc008"
+    },
+    {
+      "source": "qa/check_contact.py",
+      "sha256": "045cef2b3451945f3d3cc7dcc4074bb53033c32bcaf6987873e6787dac895f9a"
+    },
+    {
+      "source": "qa/contact-report.json",
+      "sha256": "ad9ad7e61d501be58b93258c2ab0b332daca7945ea36d4c092baba082d0e39d1"
+    },
+    {
+      "source": "qa/forward-hand-closeup-original.png",
+      "sha256": "85470e9f4a370d8d60fa105b083ccc24b25682c01e14d7b3f90f38be0f97a938"
+    },
+    {
+      "source": "qa/forward-hand-closeup-side.png",
+      "sha256": "2be98f88c6be56899cb52373e8868b53e27db2cbbae11dd17d2927e0170e5dd1"
+    },
+    {
+      "source": "qa/forward-hand-closeup-palm.png",
+      "sha256": "373cc31e8a4d0e0cbc6238e0fc2c56e5f46ef2910ea96f886845c098ed3503d0"
+    },
+    {
+      "source": "qa/closeup.cjs",
+      "sha256": "7453a502bf3067fd41b711191ccbb8e4526b457d2d6d401007c648706388b295"
+    },
+    {
+      "source": "qa/anatomy-report.json",
+      "sha256": "f9274580b9503b0c1cf3064f833d199b0caa803d30a147d2571cadc329b5fce7"
+    },
+    {
+      "source": "qa/blend-readback.json",
+      "sha256": "ca56077ef23aea5598e4e76ed18aecabc837745293ac8a725c0a9889e368a534"
+    }
+  ]
+}

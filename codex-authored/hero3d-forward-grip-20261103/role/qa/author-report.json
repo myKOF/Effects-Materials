@@ -1,0 +1,20 @@
+{
+  "inputSha256": "c03e9b99b9e444e920d4e2ad077f81dffdb12b8928b062677e679663da45fc07",
+  "outputSha256": "0ebd2dd1af1503f7236375bd5e146e84c02a01f2ac10823d2eb32a94dd27b7ad",
+  "forwardGripVersion": 1,
+  "handedness": "right",
+  "orientation": "forward",
+  "allSixAnimationBytesUnchanged": true,
+  "rigUnchanged": true,
+  "bladeOrientationUnchanged": true,
+  "bladeLengthUnchanged": true,
+  "gripTranslationMeters": [
+    -0.011641442775726318,
+    -0.0021382570266723633,
+    -0.04029756784439087
+  ],
+  "handVertices": 2807,
+  "handTriangles": 5622,
+  "handWatertight": true,
+  "blenderVersion": "4.5.10 LTS"
+}

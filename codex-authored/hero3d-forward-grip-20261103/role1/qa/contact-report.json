@@ -1,0 +1,24 @@
+{
+  "handVsSword": [
+    {
+      "primitive": 2,
+      "intersectingTrianglePairs": 0,
+      "minimumSurfaceDistance": 0.06203204393386841,
+      "verticesWithin1mm": 0
+    },
+    {
+      "primitive": 3,
+      "intersectingTrianglePairs": 0,
+      "minimumSurfaceDistance": 0.015316231176257133,
+      "verticesWithin1mm": 0
+    },
+    {
+      "primitive": 4,
+      "intersectingTrianglePairs": 0,
+      "minimumSurfaceDistance": 0.0003437368432059884,
+      "verticesWithin1mm": 283
+    }
+  ],
+  "handVertices": 2807,
+  "passed": true
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "skin": "role",
+    "actions": 6,
+    "allImagesPacked": true,
+    "images": 1
+  },
+  {
+    "skin": "role1",
+    "actions": 6,
+    "allImagesPacked": true,
+    "images": 2
+  }
+]
