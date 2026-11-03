@@ -1,0 +1,128 @@
+{
+  "source": "User-supplied Role1.glb, explicitly confirmed licensed in chat, 2026-11-03",
+  "approvedRolePackage": "codex-authored/hero3d-grip-attack4-20261103",
+  "approvedRoleAssetCommit": "89d34a3",
+  "approvedRoleSha256": "c03e9b99b9e444e920d4e2ad077f81dffdb12b8928b062677e679663da45fc07",
+  "knightSha256": "ad6645d1db9ebfd18240049e36d3db075ca2e3aa27b7f3c1e6e568a2ed435bc4",
+  "files": [
+    {
+      "source": "source/Role1.glb",
+      "sha256": "7a169dbae8130939e6ed05ef3d1130c8520d80a18c266ded5456fe8988881e58"
+    },
+    {
+      "source": "source/role1.blend",
+      "sha256": "2a7312972c1adf65f28e1ecee9655d8fa12e3740d4ee64928b897332c8e68c12"
+    },
+    {
+      "source": "exports/role1.glb",
+      "project": "images/models/hero3d/role1.glb",
+      "sha256": "dbcbfa643f3ed6911211cf4a6559cd9974697554534c52e3c244c1ef3abf2a4b"
+    },
+    {
+      "source": "exports/role1.json",
+      "project": "images/models/hero3d/role1.json",
+      "sha256": "7a41f7f3730e5f1591738dc4a134ca965554e409cb4c607a261ddd782bc27d98"
+    },
+    {
+      "source": "exports/ROLE1_SOURCE.md",
+      "project": "images/models/hero3d/ROLE1_SOURCE.md",
+      "sha256": "900009e23f3aba78d1c77d3fc14db3870cb5dd473b7e64660305f8abbb887fbb"
+    },
+    {
+      "source": "tools/prepare_role1.py",
+      "project": "tools/meshy-pipeline/blender/prepare_role1.py",
+      "sha256": "42ef546c7278964e04ee9f973631d4a78be1e8f5cc3a8cde969a6f7e2736823e"
+    },
+    {
+      "source": "tools/prepare_role.py",
+      "project": "tools/meshy-pipeline/blender/prepare_role.py",
+      "sha256": "3930059f05fbbf06f92a8f2343c2c30e21b40ecfb7ebef4e052032397134a9c3"
+    },
+    {
+      "source": "tools/sculpt_grip.py",
+      "project": "tools/meshy-pipeline/blender/sculpt_grip.py",
+      "sha256": "e80d5e6e2e714b3373ffb5d426ccd1d7c871e074592e62d8077b83b625e931c8"
+    },
+    {
+      "source": "tools/export-role1.cjs",
+      "project": "tools/meshy-pipeline/src/export-role1.cjs",
+      "sha256": "346df8e463222af16c0200b297b9c80ba11bccbc3bdde54dcfa8c042093dbd43"
+    },
+    {
+      "source": "qa/source-front.png",
+      "sha256": "507b223aece56abae2582444d3cf02231688f81e03eb9779c1681f5efdaaed0a"
+    },
+    {
+      "source": "qa/source-back.png",
+      "sha256": "fb1ac92b4d65495b6db39138396401498fb138b353d57dccaca5d62c643680c9"
+    },
+    {
+      "source": "qa/fixed-hand-closeup-original.png",
+      "sha256": "961a1131940fdb89489b6a439536d999323a72a34a2b88434f7355980e416223"
+    },
+    {
+      "source": "qa/fixed-hand-closeup-side.png",
+      "sha256": "5002656f22b5365a0cb45df7aba7c518e464050d470b40b039c08234741aeb52"
+    },
+    {
+      "source": "qa/fixed-hand-closeup-palm.png",
+      "sha256": "d91d64710144b17b0388b0d6dcb74883df11d495dc8c06f662a92e0af17e2e57"
+    },
+    {
+      "source": "qa/back-check.png",
+      "sha256": "4f8eb554730246f7a018a5c790f19e9fbdefd8e7f75ddadd0894dcbe84a79b8d"
+    },
+    {
+      "source": "qa/render.cjs",
+      "sha256": "4839577ffe38ff14dc91ba01da0917385f84e32be0bbfbaa1212a1739d7df929"
+    },
+    {
+      "source": "qa/render-report.json",
+      "sha256": "b125def4dce866f657798be6fb66b8ae36ff98ae6f044344d8b043a939cb9c46"
+    },
+    {
+      "source": "qa/game-verify.cjs",
+      "sha256": "05ff1155f35975a856053b91f7281046416051939a1a70cb12692091c871dd38"
+    },
+    {
+      "source": "qa/game-report.json",
+      "sha256": "586da56950206e33c851498a287fb9abc7468fc77e8e7e244d79468c92c94665"
+    },
+    {
+      "source": "qa/check_contact.py",
+      "sha256": "045cef2b3451945f3d3cc7dcc4074bb53033c32bcaf6987873e6787dac895f9a"
+    },
+    {
+      "source": "qa/contact-report.json",
+      "sha256": "98f7e56fca8caeedeb1d82a5901a3dbca8940a54e8bd4d19a060c9bf7d6801c7"
+    },
+    {
+      "source": "qa/state-verify.cjs",
+      "sha256": "64ab2ff9639717f0fe93501be340bb1837dff3de962254384f89331855bbab7d"
+    },
+    {
+      "source": "qa/state-report.json",
+      "sha256": "bd1d4f1bff87e3f753b7d9ccfa9734825b52f824351c96d1144c6860b0416537"
+    },
+    {
+      "source": "qa/game-gif.cjs",
+      "sha256": "0482a7907d1ecb1c8f0ecf852bd3f69795107f65f85f075cc8a715979f4505e6"
+    },
+    {
+      "source": "qa/game-gif-report.json",
+      "sha256": "34b80ffe8fe7b226093dc6841331fd774658b7ea3c3c4c4e72bc938b62904afd"
+    },
+    {
+      "source": "qa/role1-attack4-preview.gif",
+      "sha256": "75cc119d0e1e56f513b5a88aa090dc8f9d935a84de8ae1c93a15da5fc8324fd3"
+    },
+    {
+      "source": "qa/role1-in-game-attack4.gif",
+      "sha256": "5bd385bade0c18f8da215df766f06999ed861a397377e9f22dac5bfaf5e9a7fb"
+    },
+    {
+      "source": "qa/game-role1-attack4.png",
+      "sha256": "524e92ff90c50e0c1d43cdf908b95a04616fd786097e2825d25d8ec1d6a4ec47"
+    }
+  ]
+}

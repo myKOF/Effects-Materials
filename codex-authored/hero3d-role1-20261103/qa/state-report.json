@@ -1,0 +1,249 @@
+{
+  "rows": [
+    {
+      "name": "attack1",
+      "old": {
+        "cfg": {
+          "clip": "Attack1",
+          "loop": false,
+          "start": 0.1,
+          "hit": 0.78,
+          "end": 1.4
+        },
+        "time": 0.44000000000000006,
+        "paused": false,
+        "finished": false,
+        "speed": 2,
+        "yaw": 1.0546280720928518,
+        "yawTarget": 1.1
+      },
+      "next": {
+        "cfg": {
+          "clip": "Attack1",
+          "loop": false,
+          "start": 0.1,
+          "hit": 0.78,
+          "end": 1.4
+        },
+        "time": 0.44000000000000006,
+        "paused": false,
+        "finished": false,
+        "speed": 2,
+        "yaw": 1.0546280720928518,
+        "yawTarget": 1.1
+      }
+    },
+    {
+      "name": "attack2",
+      "old": {
+        "cfg": {
+          "clip": "Attack2",
+          "loop": false,
+          "start": 0.1,
+          "hit": 0.5,
+          "end": 1.65
+        },
+        "time": 0.44000000000000006,
+        "paused": false,
+        "finished": false,
+        "speed": 2,
+        "yaw": 1.0546280720928518,
+        "yawTarget": 1.1
+      },
+      "next": {
+        "cfg": {
+          "clip": "Attack2",
+          "loop": false,
+          "start": 0.1,
+          "hit": 0.5,
+          "end": 1.65
+        },
+        "time": 0.44000000000000006,
+        "paused": false,
+        "finished": false,
+        "speed": 2,
+        "yaw": 1.0546280720928518,
+        "yawTarget": 1.1
+      }
+    },
+    {
+      "name": "attack3",
+      "old": {
+        "cfg": {
+          "clip": "Attack2",
+          "loop": false,
+          "start": 1.72,
+          "hit": 2.34,
+          "end": 3.11
+        },
+        "time": 2.06,
+        "paused": false,
+        "finished": false,
+        "speed": 2,
+        "yaw": 1.0546280720928518,
+        "yawTarget": 1.1
+      },
+      "next": {
+        "cfg": {
+          "clip": "Attack2",
+          "loop": false,
+          "start": 1.72,
+          "hit": 2.34,
+          "end": 3.11
+        },
+        "time": 2.06,
+        "paused": false,
+        "finished": false,
+        "speed": 2,
+        "yaw": 1.0546280720928518,
+        "yawTarget": 1.1
+      }
+    },
+    {
+      "name": "attack4",
+      "old": {
+        "cfg": {
+          "clip": "Attack4",
+          "loop": false,
+          "start": 0,
+          "hit": 1.07,
+          "end": 2.3666
+        },
+        "time": 0.34,
+        "paused": false,
+        "finished": false,
+        "speed": 2,
+        "yaw": 1.0546280720928518,
+        "yawTarget": 1.1
+      },
+      "next": {
+        "cfg": {
+          "clip": "Attack4",
+          "loop": false,
+          "start": 0,
+          "hit": 1.07,
+          "end": 2.3666
+        },
+        "time": 0.34,
+        "paused": false,
+        "finished": false,
+        "speed": 2,
+        "yaw": 1.0546280720928518,
+        "yawTarget": 1.1
+      }
+    },
+    {
+      "name": "walk",
+      "old": {
+        "cfg": {
+          "clip": "Run",
+          "loop": true
+        },
+        "time": 0.34,
+        "paused": false,
+        "finished": false,
+        "speed": 2,
+        "yaw": 1.0546280720928518,
+        "yawTarget": 1.1
+      },
+      "next": {
+        "cfg": {
+          "clip": "Run",
+          "loop": true
+        },
+        "time": 0.34,
+        "paused": false,
+        "finished": false,
+        "speed": 2,
+        "yaw": 1.0546280720928518,
+        "yawTarget": 1.1
+      }
+    },
+    {
+      "name": "idle",
+      "old": {
+        "cfg": {
+          "clip": "CombatIdle",
+          "loop": true
+        },
+        "time": 0.34,
+        "paused": false,
+        "finished": false,
+        "speed": 2,
+        "yaw": 1.0546280720928518,
+        "yawTarget": 1.1
+      },
+      "next": {
+        "cfg": {
+          "clip": "CombatIdle",
+          "loop": true
+        },
+        "time": 0.34,
+        "paused": false,
+        "finished": false,
+        "speed": 2,
+        "yaw": 1.0546280720928518,
+        "yawTarget": 1.1
+      }
+    },
+    {
+      "name": "die",
+      "old": {
+        "cfg": {
+          "clip": "Death",
+          "loop": false,
+          "hold": true
+        },
+        "time": 1.1,
+        "paused": true,
+        "finished": false,
+        "speed": 2,
+        "yaw": 0.8,
+        "yawTarget": 1.1
+      },
+      "next": {
+        "cfg": {
+          "clip": "Death",
+          "loop": false,
+          "hold": true
+        },
+        "time": 1.1,
+        "paused": true,
+        "finished": false,
+        "speed": 2,
+        "yaw": 0.8,
+        "yawTarget": 1.1
+      }
+    },
+    {
+      "name": "rise",
+      "old": {
+        "cfg": {
+          "clip": "Death",
+          "loop": false,
+          "reverse": true
+        },
+        "time": 1.65,
+        "paused": true,
+        "finished": false,
+        "speed": 2,
+        "yaw": 0.8,
+        "yawTarget": 1.1
+      },
+      "next": {
+        "cfg": {
+          "clip": "Death",
+          "loop": false,
+          "reverse": true
+        },
+        "time": 1.65,
+        "paused": true,
+        "finished": false,
+        "speed": 2,
+        "yaw": 0.8,
+        "yawTarget": 1.1
+      }
+    }
+  ],
+  "errors": []
+}
