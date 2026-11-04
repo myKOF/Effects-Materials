@@ -1,0 +1,12 @@
+{
+  "frames": 84,
+  "fps": 30,
+  "width": 1600,
+  "height": 860,
+  "sourceFrames": 72,
+  "endHoldFrames": 12,
+  "errors": [],
+  "warnings": [],
+  "render": "Formal Hero3D with candidate model opts; diagnostic floor/forward arrow only in transient preview",
+  "gameFilesModified": false
+}

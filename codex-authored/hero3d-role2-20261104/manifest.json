@@ -1,0 +1,158 @@
+{
+  "source": "Role2.glb supplied and explicitly authorized for game and modification by user, 2026-11-04",
+  "basePackage": "codex-authored/hero3d-forward-grip-20261103/role1",
+  "baseCommit": "a920e56",
+  "approvedRoleSha256": "54f104457683618ee328edd05749476dffd11bc093e7dbeb92619f59a55b1222",
+  "knightSha256": "ad6645d1db9ebfd18240049e36d3db075ca2e3aa27b7f3c1e6e568a2ed435bc4",
+  "files": [
+    {
+      "source": "source/Role2.glb",
+      "sha256": "73c8e5667ef0dbf4b3394ae01e7f4193b0269d962d5f0f03949791dc81cd504f"
+    },
+    {
+      "source": "source/role2.blend",
+      "sha256": "7e157932c4377c851cca684978fe64d7eae7a1478960a8714254e496797097d5"
+    },
+    {
+      "source": "exports/role2.glb",
+      "project": "images/models/hero3d/role2.glb",
+      "sha256": "262c1f9f78280a09f3e0a3cb57b4896d8a540f709889f0963bd3400c96f0b089"
+    },
+    {
+      "source": "exports/role2.json",
+      "project": "images/models/hero3d/role2.json",
+      "sha256": "bd0d96c9c5421aa8a717cc3a71a4b9f34efb6697b7c7f29fdd6f02c1e78198a8"
+    },
+    {
+      "source": "exports/ROLE2_SOURCE.md",
+      "project": "images/models/hero3d/ROLE2_SOURCE.md",
+      "sha256": "e20afe8432da9e9a99c60282dc49597a5bed93cc462c7faa694b6aeca0409aa1"
+    },
+    {
+      "source": "tools/prepare_role2.py",
+      "project": "tools/meshy-pipeline/blender/prepare_role2.py",
+      "sha256": "fb0d73e5a1f444c890c7118f9da97bcb759652830580362bb6fa726f02b1a68b"
+    },
+    {
+      "source": "tools/export-role2.cjs",
+      "project": "tools/meshy-pipeline/src/export-role2.cjs",
+      "sha256": "5be991c5276026e250127534ba0dcb8e3e8d630d8127ba4e762847029a453a8c"
+    },
+    {
+      "source": "qa/source-front.png",
+      "sha256": "6703b34a20f17b8b8628c09550500bf7e603d9f7975d7c0c9c7fbcc340b8e822"
+    },
+    {
+      "source": "qa/source-back.png",
+      "sha256": "946ae60943c6f0ac7dc9bbc006c6c68389dfe4e5f6965871939f03f9e663cc86"
+    },
+    {
+      "source": "qa/source-side.png",
+      "sha256": "7cbb2163e6d1b8b84946a188c71d79f28ec3c037f3f988d5cfdf50b62595462c"
+    },
+    {
+      "source": "qa/game-verify.cjs",
+      "sha256": "44f00335d0d150776225924804023f93850c7130b41681d6727237ccdc7c1bb0"
+    },
+    {
+      "source": "qa/game-report.json",
+      "sha256": "b564b3230ddd121087d308304e74e29b19a02d9700eacb75101a235d6a2ad967"
+    },
+    {
+      "source": "qa/render.cjs",
+      "sha256": "5d7bfe9e20e06118feaae55cfde3a3462171b1150c848b399fd543fc7b5a68c9"
+    },
+    {
+      "source": "qa/render-report.json",
+      "sha256": "b125def4dce866f657798be6fb66b8ae36ff98ae6f044344d8b043a939cb9c46"
+    },
+    {
+      "source": "qa/blend-report.json",
+      "sha256": "dfd2a248c621142b357a5a3865fda50cf8d7db341cc3ee7227825c9665e34928"
+    },
+    {
+      "source": "qa/role2-attack4-hd.gif",
+      "sha256": "b88f40af30d6ed3148421f884c02763eb5e66f28c1e7c79a9de6eb4b469b6bae"
+    },
+    {
+      "source": "qa/hd-gif-readback.png",
+      "sha256": "b0becfdabfb607b55424ac7a6fe616a065489dc22f0d9126543a33d966259367"
+    },
+    {
+      "source": "qa/fixed-hand-closeup-original.png",
+      "sha256": "5bd401329ca0fdb1edcfb5a7909730f6d7bce5943731e9713461a6137c9ed69e"
+    },
+    {
+      "source": "qa/fixed-hand-closeup-side.png",
+      "sha256": "bb08b40b60d12947cd5d8a7122fd351ef76184986ea495e2085a0fc8dae08e72"
+    },
+    {
+      "source": "qa/fixed-hand-closeup-palm.png",
+      "sha256": "fe3c2f870c38045eed124f7dd3775f99dab945b6917e03d12e1b6db15fe2314e"
+    },
+    {
+      "source": "qa/back-check.png",
+      "sha256": "84ded31196777c4e2a95eccc122b883306a877c62e2b3386af2e3adf5abf6b4c"
+    },
+    {
+      "source": "qa/pose-0000.png",
+      "sha256": "4e5797ffaa4cd82f0809403e59bf31dbf8c9270a2a4671ea44d54a72160e895d"
+    },
+    {
+      "source": "qa/pose-0002.png",
+      "sha256": "9f9f6271b73b7d39644e489eaf873e025a2db697b5c17b61158c1a4deb1697d7"
+    },
+    {
+      "source": "qa/pose-0007.png",
+      "sha256": "7f898f0beb4e2d602642df015593a964706e61007fd39502361ca78d077bcfd9"
+    },
+    {
+      "source": "qa/pose-0015.png",
+      "sha256": "e1ce48fdf451cc245c85d241bf87fe8050f14b0a88550adb2f1f058ec8379a0a"
+    },
+    {
+      "source": "qa/pose-0019.png",
+      "sha256": "fe951d7a15761b9556c76fd760a97a7df75865299b8648821866d8ba522cd0e3"
+    },
+    {
+      "source": "qa/pose-0025.png",
+      "sha256": "8f7b971fe4fcb6f39fae81c21c60bd8b14af5b509fa87135e6eeaff40d90a757"
+    },
+    {
+      "source": "qa/pose-0035.png",
+      "sha256": "16ea05f8ba05433b73bf7e9957d336ba0736395cc51f046233433905328da489"
+    },
+    {
+      "source": "qa/game-gif.cjs",
+      "sha256": "475bed43b543b0e142f8665e00f26c2029ac1567c23bf9e71b19b7274381a94b"
+    },
+    {
+      "source": "qa/inset.html",
+      "sha256": "661f25a7d32dfcb7cd9cee4ed100d5a8d7210c999ae8de724a505d3a20e187bb"
+    },
+    {
+      "source": "qa/game-gif-report.json",
+      "sha256": "b5c8581bf6bddaea3d8cf3b2d4d657d2f257c625a7d65c5d4778660d36791ab3"
+    },
+    {
+      "source": "qa/role2-in-game-attack4.gif",
+      "sha256": "936afa170d187ec5406f2800e647520843da52b1cbdc7f8fb3586651eca4e192"
+    },
+    {
+      "source": "qa/game-gif-readback.png",
+      "sha256": "8206cc84d1620ec78ef4b4224c42d0dad90d1d93739a738fbcb1ffef8169fcd3"
+    },
+    {
+      "source": "qa/gif-report.json",
+      "sha256": "2b665e0099fe728d6a3d194145f1ae522b6b9efc024a7333f518c39316cb062e"
+    },
+    {
+      "source": "qa/pose-preview.cjs",
+      "sha256": "88f268ea477d0025ddac74fc54d282630949129e5fa3f8726474c353e171ab6f"
+    },
+    {
+      "source": "qa/closeup.cjs",
+      "sha256": "0f4dac17bd8408db7d69b4358c63a321e43a5e43905fe115bfce609b1c375c06"
+    }
+  ]
+}

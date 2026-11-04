@@ -1,0 +1,758 @@
+{
+  "picks": [
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack1",
+      "clip": "Attack1",
+      "span": 1299.9999999999998,
+      "speed": 1.2999999999999998
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack2",
+      "clip": "Attack2",
+      "span": 1549.9999999999998,
+      "speed": 1.5499999999999998
+    },
+    {
+      "anim": "attack3",
+      "clip": "Attack2",
+      "span": 1390,
+      "speed": 1.39
+    },
+    {
+      "anim": "attack4",
+      "clip": "Attack4",
+      "span": 2366.6,
+      "speed": 2.3666
+    }
+  ],
+  "picked4": {
+    "anim": "attack4",
+    "clip": "Attack4"
+  },
+  "afterCast": "attack4",
+  "returned": {
+    "anim": "walk",
+    "clip": "Run"
+  },
+  "clips": [
+    "Attack1",
+    "Attack2",
+    "CombatIdle",
+    "Death",
+    "Run",
+    "Attack4"
+  ],
+  "swaps": [
+    {
+      "skin": 1,
+      "model": "images/models/hero3d/role1.glb?v=20261103-role1-forward-grip-v1",
+      "clip": "Attack4",
+      "state": {
+        "cfg": {
+          "clip": "Attack4",
+          "loop": false,
+          "start": 0,
+          "hit": 1.07,
+          "end": 2.3666
+        },
+        "time": 1.1000000000000003,
+        "paused": false,
+        "finished": false,
+        "speed": 1,
+        "yaw": -1.3049593194579459,
+        "yawTarget": -1.304959319457947
+      },
+      "bodySame": true
+    },
+    {
+      "skin": 2,
+      "model": "images/models/hero3d/role2.glb?v=20261104-role2-v1",
+      "clip": "Attack4",
+      "state": {
+        "cfg": {
+          "clip": "Attack4",
+          "loop": false,
+          "start": 0,
+          "hit": 1.07,
+          "end": 2.3666
+        },
+        "time": 1.1000000000000003,
+        "paused": false,
+        "finished": false,
+        "speed": 1,
+        "yaw": -1.3049593194579459,
+        "yawTarget": -1.304959319457947
+      },
+      "bodySame": true
+    },
+    {
+      "skin": 2,
+      "model": "images/models/hero3d/role2.glb?v=20261104-role2-v1",
+      "clip": "Attack4",
+      "state": {
+        "cfg": {
+          "clip": "Attack4",
+          "loop": false,
+          "start": 0,
+          "hit": 1.07,
+          "end": 2.3666
+        },
+        "time": 1.1000000000000003,
+        "paused": false,
+        "finished": false,
+        "speed": 1,
+        "yaw": -1.3049593194579459,
+        "yawTarget": -1.304959319457947
+      },
+      "bodySame": true
+    },
+    {
+      "skin": 1,
+      "model": "images/models/hero3d/role1.glb?v=20261103-role1-forward-grip-v1",
+      "clip": "Attack4",
+      "state": {
+        "cfg": {
+          "clip": "Attack4",
+          "loop": false,
+          "start": 0,
+          "hit": 1.07,
+          "end": 2.3666
+        },
+        "time": 1.1000000000000003,
+        "paused": false,
+        "finished": false,
+        "speed": 1,
+        "yaw": -1.3049593194579459,
+        "yawTarget": -1.304959319457947
+      },
+      "bodySame": true
+    },
+    {
+      "skin": 0,
+      "model": "images/models/hero3d/role.glb?v=20261103-forward-grip-v1",
+      "clip": "Attack4",
+      "state": {
+        "cfg": {
+          "clip": "Attack4",
+          "loop": false,
+          "start": 0,
+          "hit": 1.07,
+          "end": 2.3666
+        },
+        "time": 1.1000000000000003,
+        "paused": false,
+        "finished": false,
+        "speed": 1,
+        "yaw": -1.3049593194579459,
+        "yawTarget": -1.304959319457947
+      },
+      "bodySame": true
+    },
+    {
+      "skin": 2,
+      "model": "images/models/hero3d/role2.glb?v=20261104-role2-v1",
+      "clip": "Attack4",
+      "state": {
+        "cfg": {
+          "clip": "Attack4",
+          "loop": false,
+          "start": 0,
+          "hit": 1.07,
+          "end": 2.3666
+        },
+        "time": 1.1000000000000003,
+        "paused": false,
+        "finished": false,
+        "speed": 1,
+        "yaw": -1.3049593194579459,
+        "yawTarget": -1.304959319457947
+      },
+      "bodySame": true
+    }
+  ],
+  "reloaded": {
+    "skin": 2,
+    "model": "images/models/hero3d/role2.glb?v=20261104-role2-v1"
+  },
+  "errors": [],
+  "warnings": [
+    "The resource http://127.0.0.1:14530/images/ui/heaven-power/dark-gold-seal.png?v=1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+  ],
+  "qa": "Real index + Worker + Pixi/Hero3D. Isolated localhost save. Paused after boot; transient exposes existing closure functions, direct body update for deterministic verification."
+}
