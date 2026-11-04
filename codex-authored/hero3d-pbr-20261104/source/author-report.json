@@ -1,0 +1,185 @@
+{
+  "blender": "4.5.10 LTS",
+  "models": {
+    "role": {
+      "sourcePackage": "hero3d-role-20261103",
+      "sourceSha256": "2fb4f1856db958ca6377706966b7d2ecafdf7441e6de41dfb5b74c382643f7bd",
+      "approvedModelSha256": "0ebd2dd1af1503f7236375bd5e146e84c02a01f2ac10823d2eb32a94dd27b7ad",
+      "maps": {
+        "normal": {
+          "file": "role-normal.png",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "eb74e63116447b66a5675dfd73b040561574e41bad6bc01e0089c469f003fbc5",
+          "channelMean": [
+            0.4952169358730316,
+            0.49620452523231506,
+            0.9788652062416077
+          ],
+          "bytes": 1841165
+        },
+        "metallic-roughness": {
+          "file": "role-metallic-roughness.png",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "421415eab8c1e0eb92a4b9fc074a34d11d3d493c1aa0adf4123874fb7e9c70cb",
+          "channelMean": [
+            0.9668987393379211,
+            0.5454080104827881,
+            0.05059242621064186
+          ],
+          "bytes": 1125396
+        }
+      },
+      "actions": 6,
+      "allUsedImagesPacked": true
+    },
+    "role1": {
+      "sourcePackage": "hero3d-role1-20261103",
+      "sourceSha256": "7a169dbae8130939e6ed05ef3d1130c8520d80a18c266ded5456fe8988881e58",
+      "approvedModelSha256": "54f104457683618ee328edd05749476dffd11bc093e7dbeb92619f59a55b1222",
+      "maps": {
+        "normal": {
+          "file": "role1-normal.png",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "6d81c7cf7e8168a67bc1ab0290fe505a70bff87667012a7540960368f16b7a4d",
+          "channelMean": [
+            0.49522536993026733,
+            0.49620527029037476,
+            0.978897750377655
+          ],
+          "bytes": 1926885
+        },
+        "metallic-roughness": {
+          "file": "role1-metallic-roughness.png",
+          "sourceSize": [
+            2048,
+            2048
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "622fa100b5cf1635ef7a13dfef0dbe93b6e625b20927bce07e3083757acd2945",
+          "channelMean": [
+            0.9996994137763977,
+            0.5636028051376343,
+            0.06895825266838074
+          ],
+          "bytes": 1300196
+        }
+      },
+      "actions": 6,
+      "allUsedImagesPacked": true
+    },
+    "role2": {
+      "sourcePackage": "hero3d-role2-20261104",
+      "sourceSha256": "73c8e5667ef0dbf4b3394ae01e7f4193b0269d962d5f0f03949791dc81cd504f",
+      "approvedModelSha256": "262c1f9f78280a09f3e0a3cb57b4896d8a540f709889f0963bd3400c96f0b089",
+      "maps": {
+        "normal": {
+          "file": "role2-normal.png",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "5e4a62123507623be174fd526bb41c1a1a4c751f257747a5a18b5963e6c11a0e",
+          "channelMean": [
+            0.49927863478660583,
+            0.49851420521736145,
+            0.9997555613517761
+          ],
+          "bytes": 1509143
+        },
+        "metallic-roughness": {
+          "file": "role2-metallic-roughness.png",
+          "sourceSize": [
+            2048,
+            2048
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "7a2eb0177bca1849c32e5d9c447b54e8df45e4cdadfae857b6863273eda10063",
+          "channelMean": [
+            0.999537467956543,
+            0.48935744166374207,
+            0.3221554458141327
+          ],
+          "bytes": 1507771
+        }
+      },
+      "actions": 6,
+      "allUsedImagesPacked": true
+    },
+    "role3": {
+      "sourcePackage": "hero3d-role3-20261104",
+      "sourceSha256": "d2c49d1bf12913203cbf082bbbb0b30aece20320a7ab2b5130bcbbee4c65ba67",
+      "approvedModelSha256": "663595d1f798df30df1d9630708605c82396c85195abaa9518a82c9275d4e519",
+      "maps": {
+        "normal": {
+          "file": "role3-normal.png",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "6a41875ea30b0c24bcf1869dfa3f7a0d391c716650ba577dcb6116688dce5a09",
+          "channelMean": [
+            0.49924182891845703,
+            0.49848422408103943,
+            0.999847412109375
+          ],
+          "bytes": 1505791
+        },
+        "metallic-roughness": {
+          "file": "role3-metallic-roughness.png",
+          "sourceSize": [
+            2048,
+            2048
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "a631c49a1b4a36fdd5cb8c04531be751c1ef350912070a868dbddf4c7e4bbe8a",
+          "channelMean": [
+            0.9996607303619385,
+            0.4201357364654541,
+            0.5649527907371521
+          ],
+          "bytes": 1518347
+        }
+      },
+      "actions": 6,
+      "allUsedImagesPacked": true
+    }
+  }
+}

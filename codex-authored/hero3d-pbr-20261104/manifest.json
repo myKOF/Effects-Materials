@@ -1,0 +1,404 @@
+{
+  "source": "PBR maps recovered from user-authorized Role, Role1, Role2 and Role3 original GLBs; source hashes and immutable packages recorded below. No new external assets.",
+  "gameBaseCommit": "ba72beca",
+  "models": {
+    "role": {
+      "sourcePackage": "hero3d-role-20261103",
+      "sourceSha256": "2fb4f1856db958ca6377706966b7d2ecafdf7441e6de41dfb5b74c382643f7bd",
+      "approvedModelSha256": "0ebd2dd1af1503f7236375bd5e146e84c02a01f2ac10823d2eb32a94dd27b7ad",
+      "maps": {
+        "normal": {
+          "file": "role-normal.png",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "eb74e63116447b66a5675dfd73b040561574e41bad6bc01e0089c469f003fbc5",
+          "channelMean": [
+            0.4952169358730316,
+            0.49620452523231506,
+            0.9788652062416077
+          ],
+          "bytes": 1841165
+        },
+        "metallic-roughness": {
+          "file": "role-metallic-roughness.png",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "421415eab8c1e0eb92a4b9fc074a34d11d3d493c1aa0adf4123874fb7e9c70cb",
+          "channelMean": [
+            0.9668987393379211,
+            0.5454080104827881,
+            0.05059242621064186
+          ],
+          "bytes": 1125396
+        }
+      },
+      "actions": 6,
+      "allUsedImagesPacked": true
+    },
+    "role1": {
+      "sourcePackage": "hero3d-role1-20261103",
+      "sourceSha256": "7a169dbae8130939e6ed05ef3d1130c8520d80a18c266ded5456fe8988881e58",
+      "approvedModelSha256": "54f104457683618ee328edd05749476dffd11bc093e7dbeb92619f59a55b1222",
+      "maps": {
+        "normal": {
+          "file": "role1-normal.png",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "6d81c7cf7e8168a67bc1ab0290fe505a70bff87667012a7540960368f16b7a4d",
+          "channelMean": [
+            0.49522536993026733,
+            0.49620527029037476,
+            0.978897750377655
+          ],
+          "bytes": 1926885
+        },
+        "metallic-roughness": {
+          "file": "role1-metallic-roughness.png",
+          "sourceSize": [
+            2048,
+            2048
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "622fa100b5cf1635ef7a13dfef0dbe93b6e625b20927bce07e3083757acd2945",
+          "channelMean": [
+            0.9996994137763977,
+            0.5636028051376343,
+            0.06895825266838074
+          ],
+          "bytes": 1300196
+        }
+      },
+      "actions": 6,
+      "allUsedImagesPacked": true
+    },
+    "role2": {
+      "sourcePackage": "hero3d-role2-20261104",
+      "sourceSha256": "73c8e5667ef0dbf4b3394ae01e7f4193b0269d962d5f0f03949791dc81cd504f",
+      "approvedModelSha256": "262c1f9f78280a09f3e0a3cb57b4896d8a540f709889f0963bd3400c96f0b089",
+      "maps": {
+        "normal": {
+          "file": "role2-normal.png",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "5e4a62123507623be174fd526bb41c1a1a4c751f257747a5a18b5963e6c11a0e",
+          "channelMean": [
+            0.49927863478660583,
+            0.49851420521736145,
+            0.9997555613517761
+          ],
+          "bytes": 1509143
+        },
+        "metallic-roughness": {
+          "file": "role2-metallic-roughness.png",
+          "sourceSize": [
+            2048,
+            2048
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "7a2eb0177bca1849c32e5d9c447b54e8df45e4cdadfae857b6863273eda10063",
+          "channelMean": [
+            0.999537467956543,
+            0.48935744166374207,
+            0.3221554458141327
+          ],
+          "bytes": 1507771
+        }
+      },
+      "actions": 6,
+      "allUsedImagesPacked": true
+    },
+    "role3": {
+      "sourcePackage": "hero3d-role3-20261104",
+      "sourceSha256": "d2c49d1bf12913203cbf082bbbb0b30aece20320a7ab2b5130bcbbee4c65ba67",
+      "approvedModelSha256": "663595d1f798df30df1d9630708605c82396c85195abaa9518a82c9275d4e519",
+      "maps": {
+        "normal": {
+          "file": "role3-normal.png",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "6a41875ea30b0c24bcf1869dfa3f7a0d391c716650ba577dcb6116688dce5a09",
+          "channelMean": [
+            0.49924182891845703,
+            0.49848422408103943,
+            0.999847412109375
+          ],
+          "bytes": 1505791
+        },
+        "metallic-roughness": {
+          "file": "role3-metallic-roughness.png",
+          "sourceSize": [
+            2048,
+            2048
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "a631c49a1b4a36fdd5cb8c04531be751c1ef350912070a868dbddf4c7e4bbe8a",
+          "channelMean": [
+            0.9996607303619385,
+            0.4201357364654541,
+            0.5649527907371521
+          ],
+          "bytes": 1518347
+        }
+      },
+      "actions": 6,
+      "allUsedImagesPacked": true
+    }
+  },
+  "files": [
+    {
+      "source": "exports/materials.json",
+      "sha256": "fef816dfab7ec74353dff1a49ebcd8f901a42ca4048b04badba6da6962dea832",
+      "project": "images/models/hero3d/pbr/materials.json"
+    },
+    {
+      "source": "exports/README.md",
+      "sha256": "bdc0c978cffba7b80b5b0793abe4706b8f92ef8b86bf7e6aa3ab7544f7cc8c53",
+      "project": "images/models/hero3d/pbr/README.md"
+    },
+    {
+      "source": "exports/role-metallic-roughness.png",
+      "sha256": "421415eab8c1e0eb92a4b9fc074a34d11d3d493c1aa0adf4123874fb7e9c70cb",
+      "project": "images/models/hero3d/pbr/role-metallic-roughness.png"
+    },
+    {
+      "source": "exports/role-normal.png",
+      "sha256": "eb74e63116447b66a5675dfd73b040561574e41bad6bc01e0089c469f003fbc5",
+      "project": "images/models/hero3d/pbr/role-normal.png"
+    },
+    {
+      "source": "exports/role1-metallic-roughness.png",
+      "sha256": "622fa100b5cf1635ef7a13dfef0dbe93b6e625b20927bce07e3083757acd2945",
+      "project": "images/models/hero3d/pbr/role1-metallic-roughness.png"
+    },
+    {
+      "source": "exports/role1-normal.png",
+      "sha256": "6d81c7cf7e8168a67bc1ab0290fe505a70bff87667012a7540960368f16b7a4d",
+      "project": "images/models/hero3d/pbr/role1-normal.png"
+    },
+    {
+      "source": "exports/role2-metallic-roughness.png",
+      "sha256": "7a2eb0177bca1849c32e5d9c447b54e8df45e4cdadfae857b6863273eda10063",
+      "project": "images/models/hero3d/pbr/role2-metallic-roughness.png"
+    },
+    {
+      "source": "exports/role2-normal.png",
+      "sha256": "5e4a62123507623be174fd526bb41c1a1a4c751f257747a5a18b5963e6c11a0e",
+      "project": "images/models/hero3d/pbr/role2-normal.png"
+    },
+    {
+      "source": "exports/role3-metallic-roughness.png",
+      "sha256": "a631c49a1b4a36fdd5cb8c04531be751c1ef350912070a868dbddf4c7e4bbe8a",
+      "project": "images/models/hero3d/pbr/role3-metallic-roughness.png"
+    },
+    {
+      "source": "exports/role3-normal.png",
+      "sha256": "6a41875ea30b0c24bcf1869dfa3f7a0d391c716650ba577dcb6116688dce5a09",
+      "project": "images/models/hero3d/pbr/role3-normal.png"
+    },
+    {
+      "source": "qa/blend-report.json",
+      "sha256": "dfd3d8726e153494af30bbdd6954dbc79a0cd72835fa6b4fc91d328b4a039d8a"
+    },
+    {
+      "source": "qa/compare.cjs",
+      "sha256": "8f25f0f6fb0fa5cb2b285c4373e811e9c12b8620ef76d8b3ca4da5bec5aed861"
+    },
+    {
+      "source": "qa/comparison-gif-readback.png",
+      "sha256": "5eb28b4c3b70cae4ba65c69054b5c79683e79c8cef4a228db8091d7585c1b963"
+    },
+    {
+      "source": "qa/comparison-report.json",
+      "sha256": "4e86ffdcb56b8a9ef66531bb8af5a645fc155efeab5fe00da1db99441358b2a5"
+    },
+    {
+      "source": "qa/game-gif-readback-report.json",
+      "sha256": "02a81a605c338b1ae45b0ba0968c3b59b993769f5eed834840566e83c096f40f"
+    },
+    {
+      "source": "qa/game-gif-readback.png",
+      "sha256": "ada562076d4ccddf3273ab33583c03f71dc0670c6d32fa39f4ff07242c48ff93"
+    },
+    {
+      "source": "qa/game-gif-report.json",
+      "sha256": "48d6dbd16cb5329e979dfe955814f5c357e663e46f9cb23c422c58db2888ff4e"
+    },
+    {
+      "source": "qa/game-gif.cjs",
+      "sha256": "fe23b02ed9eaa69a0848d446bfb84d1c77a5bd42ff0b4a8e4d3b92888c3a00bf"
+    },
+    {
+      "source": "qa/game-pbr.png",
+      "sha256": "67d45c5f3a84ae2ec62d666fb9022d8d01dc5d9e88404318cb1360b2e39467dd"
+    },
+    {
+      "source": "qa/game-report.json",
+      "sha256": "2c91f9e01402bbc6d06f55b547bc2f9df23cff5cd006b2d01729fd5164b25148"
+    },
+    {
+      "source": "qa/game-verify.cjs",
+      "sha256": "2cdee0b1eb7ec5c32fb581bd1511e67f1d188afbffdf245f4a7bfd97596920a5"
+    },
+    {
+      "source": "qa/gif-readback-report.json",
+      "sha256": "1fad8354d4d3a67cc9f0940c7b4378eb82fcb6e8480c1ba8816e5d8948b701ae"
+    },
+    {
+      "source": "qa/hero3d-before.js",
+      "sha256": "403a2a611131bfd5c5576943ece74332e69ab60126122fbc2d9b0facb0d10b3c"
+    },
+    {
+      "source": "qa/inset.html",
+      "sha256": "8e222039cc9c563ad09b4e61f8ed2a71db9b9fcb67577ebcfe082d01212f55df"
+    },
+    {
+      "source": "qa/lifecycle-report.json",
+      "sha256": "00f3dc13e49a0c9847da3f33f1d03e4b8a4d67eb1500e66f7a7d12057f1d1500"
+    },
+    {
+      "source": "qa/lifecycle.cjs",
+      "sha256": "aaa2e55bcdee27032656b7cd5c0232b21d51b89bf5590e2781c3912186f32266"
+    },
+    {
+      "source": "qa/pbr-before-after.gif",
+      "sha256": "6cd6a5d724f6af18fce2434402724f66d4d28a917a7ac3c475e27f1ae6bc92e5"
+    },
+    {
+      "source": "qa/pbr-comparison.png",
+      "sha256": "5f88169061790bce96bfe4157db1492f78fb43d07382fdcd73dcf0522cfcbabd"
+    },
+    {
+      "source": "qa/pbr-in-game.gif",
+      "sha256": "fa908aca71ae07a76dc8a43754e287c323ec48a318ce23f8514973f2bf571e39"
+    },
+    {
+      "source": "qa/preview-report.json",
+      "sha256": "3e7e1a7b3f4a9b0d37a27d26e4c5be58b468e6a16c757cad3abfd28edda85e67"
+    },
+    {
+      "source": "qa/preview.cjs",
+      "sha256": "8b0a26ac745db07ede90baa126d3ada7837d99807961d97ee8c9623dde2d2053"
+    },
+    {
+      "source": "qa/role-after.png",
+      "sha256": "90ebfa3bf7372167cd04ac124c12203d27231e0fe66035dfbd00abc69def66dd"
+    },
+    {
+      "source": "qa/role-back-attack.png",
+      "sha256": "88697518db72a95cd5993c378057d478185ae6883ef7437bc3682b9a1b57cdd6"
+    },
+    {
+      "source": "qa/role-before.png",
+      "sha256": "8362942ae0d51ba428dfd5bcf81fdd1f27a90aab48bdf61cde23c456df29800f"
+    },
+    {
+      "source": "qa/role1-after.png",
+      "sha256": "9f79743314c85e76bb2551689d2e5e70f1dd3cf0a5fcdb5b710e7f718afa5ec9"
+    },
+    {
+      "source": "qa/role1-back-attack.png",
+      "sha256": "9c8b9df275eac6c8b3e81a95451cb99d89d21848d743765436d5187125e887db"
+    },
+    {
+      "source": "qa/role1-before.png",
+      "sha256": "01c1968cc05201472eaab9748637c02ada7d5b1a7be5598adadbf8818fb70f85"
+    },
+    {
+      "source": "qa/role2-after.png",
+      "sha256": "b1a6fcd57e6d8e8905823cd5792a8dcb05c99019318c9e135cd8c1043da35a47"
+    },
+    {
+      "source": "qa/role2-back-attack.png",
+      "sha256": "3bde9e3fe7edb8b70b25d84755893379fd95c54c410a03fea20d974ccd615b3c"
+    },
+    {
+      "source": "qa/role2-before.png",
+      "sha256": "5201794f6d5a4a081026e04cbf015c895eb1686321022c835c69e93b1bc2f604"
+    },
+    {
+      "source": "qa/role3-after.png",
+      "sha256": "59754d2d1aa4e09d6665f8fb5c25bfb43bcbbc0d37b6cf518551ca928530b93e"
+    },
+    {
+      "source": "qa/role3-back-attack.png",
+      "sha256": "aef67f34eef8f414c649278274d273ff19774d78b9b9f3e0f623ab2d12c5689c"
+    },
+    {
+      "source": "qa/role3-before.png",
+      "sha256": "7cbfcc24640ec79dbd1af24eb9739ae52e9018818aa3d8fb87477cd6f08ca48b"
+    },
+    {
+      "source": "qa/verify_blends.py",
+      "sha256": "2c2661bb535683d8baba3ed1d125dae7cc1204e98995e8edd1e3fd36fea4c445"
+    },
+    {
+      "source": "source/author-report.json",
+      "sha256": "4e69e44bae09a377f46b68a89e652c6bff54d47c7e3931964c252b7cdbe7ed69"
+    },
+    {
+      "source": "source/role-pbr.blend",
+      "sha256": "38689e15aaedad712635374841c5e2c8e939493eaa85cbb3d4cb545effe4a357"
+    },
+    {
+      "source": "source/role1-pbr.blend",
+      "sha256": "358daa7accd86120877b2f5024538fa961550e0940f3473a3ec8b232377f07c5"
+    },
+    {
+      "source": "source/role2-pbr.blend",
+      "sha256": "dcde383ec0eb13783da2ccecb743a89dd5713bb441405eb466e895aa1ed0310e"
+    },
+    {
+      "source": "source/role3-pbr.blend",
+      "sha256": "53c5d67b82278840d3f17e4ddd41cbad9ae8958ea1e3a2cdd949a02f0cd70920"
+    },
+    {
+      "source": "tools/export-hero-pbr.cjs",
+      "sha256": "45480f88dced2b44ee64300dc12643c6f0ce1cf1824ac14104eb70fb6e485b06",
+      "project": "tools/meshy-pipeline/src/export-hero-pbr.cjs"
+    },
+    {
+      "source": "tools/restore_pbr.py",
+      "sha256": "efc94afdcc668e2ecc5db05666e4be68f7f46dd8a9c67db14cf9200ac4757218",
+      "project": "tools/meshy-pipeline/blender/restore_pbr.py"
+    }
+  ]
+}

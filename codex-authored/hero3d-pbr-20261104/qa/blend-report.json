@@ -1,0 +1,36 @@
+{
+  "role": {
+    "actions": 6,
+    "usedImages": 3,
+    "allPacked": true,
+    "normalColorSpaces": [
+      "Non-Color"
+    ]
+  },
+  "role1": {
+    "actions": 6,
+    "usedImages": 4,
+    "allPacked": true,
+    "normalColorSpaces": [
+      "Non-Color"
+    ]
+  },
+  "role2": {
+    "actions": 6,
+    "usedImages": 4,
+    "allPacked": true,
+    "normalColorSpaces": [
+      "Non-Color",
+      "Non-Color"
+    ]
+  },
+  "role3": {
+    "actions": 6,
+    "usedImages": 4,
+    "allPacked": true,
+    "normalColorSpaces": [
+      "Non-Color",
+      "Non-Color"
+    ]
+  }
+}
