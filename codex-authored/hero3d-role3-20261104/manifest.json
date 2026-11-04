@@ -1,0 +1,154 @@
+{
+  "source": "Role3.glb supplied and explicitly authorized for game use and modification by user, 2026-11-04",
+  "basePackage": "codex-authored/hero3d-forward-grip-20261103/role1",
+  "baseCommit": "a920e56",
+  "approvedRoleSha256": "54f104457683618ee328edd05749476dffd11bc093e7dbeb92619f59a55b1222",
+  "knightSha256": "ad6645d1db9ebfd18240049e36d3db075ca2e3aa27b7f3c1e6e568a2ed435bc4",
+  "files": [
+    {
+      "source": "source/Role3.glb",
+      "sha256": "d2c49d1bf12913203cbf082bbbb0b30aece20320a7ab2b5130bcbbee4c65ba67"
+    },
+    {
+      "source": "source/role3.blend",
+      "sha256": "c6000c86e2eb48f919b5ecec74a8b54f032e42c5f7c6795cd81c6ccecb464571"
+    },
+    {
+      "source": "source/role3.npz",
+      "sha256": "db62af18bc04675c6c9e2ef372ca97b1c99586d1d2ad02f1e53201c5b3ea6715"
+    },
+    {
+      "source": "exports/role3.glb",
+      "project": "images/models/hero3d/role3.glb",
+      "sha256": "663595d1f798df30df1d9630708605c82396c85195abaa9518a82c9275d4e519"
+    },
+    {
+      "source": "exports/role3.json",
+      "project": "images/models/hero3d/role3.json",
+      "sha256": "2ab934293d2e3fef8069e43a95086cbc2db6f6a5187083a087dc4edf5d3adcfb"
+    },
+    {
+      "source": "exports/ROLE3_SOURCE.md",
+      "project": "images/models/hero3d/ROLE3_SOURCE.md",
+      "sha256": "b3b69ee347ee7b7885beb66d59a654519837ebe79e0bf4ac069ee3ec5c2aad71"
+    },
+    {
+      "source": "tools/prepare_role3.py",
+      "project": "tools/meshy-pipeline/blender/prepare_role3.py",
+      "sha256": "eb09bc59aa06322e89775d83bf98513ca3c30d415ebb5f59c6354bc035904c96"
+    },
+    {
+      "source": "tools/export-role3.cjs",
+      "project": "tools/meshy-pipeline/src/export-role3.cjs",
+      "sha256": "ab378459dde3b5c962d86440cdcba96d88fc643761b6d626bafd6a9cdf8a7e37"
+    },
+    {
+      "source": "qa/source-front.png",
+      "sha256": "3bc8702f5396cae8636986d92ce839d81cca1b11cf2f1d935cb5984a75c93d93"
+    },
+    {
+      "source": "qa/source-back.png",
+      "sha256": "aad017d70ed608d9e2ce6640093fa1cd8f3095e9e82131fbcfc0a17473c62844"
+    },
+    {
+      "source": "qa/source-side.png",
+      "sha256": "7d5d4265ddab8717edc9c42155dafe46ac5eaba0a4491dc67e59e9a9e545f3c7"
+    },
+    {
+      "source": "qa/source-report.json",
+      "sha256": "4979298edade740f17f63d67c6a94139dc7856e2fe5157859e9c6846f01ebdb9"
+    },
+    {
+      "source": "qa/components.json",
+      "sha256": "c48e52415a3c65df0f999eb2ecf9f665ca9d6e14d690cc8bae41df9d1abe1bb0"
+    },
+    {
+      "source": "qa/components.py",
+      "sha256": "7c8cef6df0ecd19ce9a25b768538e5c6bde70e3602b87cff3cfc268686596c71"
+    },
+    {
+      "source": "qa/inspect.cjs",
+      "sha256": "7133d55a112e9c0f66c04caae3fc626d8f7e53a03238d9180d2bd6f41fcaa6ac"
+    },
+    {
+      "source": "qa/pose-preview.cjs",
+      "sha256": "a44cde77f7c569dcb3ba462c003a80cf85d798aab149c0f929230d6304cedb0e"
+    },
+    {
+      "source": "qa/blend-check.py",
+      "sha256": "156a15ff88919252e80e5bfdae2920c3052bd29e95997c6747467125a1faa16b"
+    },
+    {
+      "source": "qa/blend-report.json",
+      "sha256": "4c72926ac8a7a4a5394c74d0be718c9e6410d09b04aafb6331e535d3a2768f89"
+    },
+    {
+      "source": "qa/game-verify.cjs",
+      "sha256": "4798c132bbdd2510fc743fa6ee2e7c5f19620aca254510cfe8bd6ea8926faf7b"
+    },
+    {
+      "source": "qa/game-report.json",
+      "sha256": "b83cee21f419e883f930a26a9898efdc3e6162a6638d63650c3330b143519765"
+    },
+    {
+      "source": "qa/verify-persistence.cjs",
+      "sha256": "fb18f86209f19b1e09190952ed7ef8da35aa8c0505b2d52f058b497619df4946"
+    },
+    {
+      "source": "qa/persistence-report.json",
+      "sha256": "e8615d46715055c9f2cd943fff8960086d9b91752fa17d0277a4156506128f1a"
+    },
+    {
+      "source": "qa/game-gif.cjs",
+      "sha256": "1412606cd822fd5dbea8515e1af55ea823cae317d1690307d2ee2c5b8a6bea31"
+    },
+    {
+      "source": "qa/game-gif-report.json",
+      "sha256": "d687601c3d3ab01f4be95e7b6099d5ad817dc6f2a39f6a381f509f1a7d1f4b3f"
+    },
+    {
+      "source": "qa/inset.html",
+      "sha256": "4c99c3094acdaf8e06b5d73897aa2a4f8ee794c130d69be2f924a2c5bd17afbf"
+    },
+    {
+      "source": "qa/gif-check.py",
+      "sha256": "e44acdb91685665297a5bbc7e9eaf7694887ea4a504451e872038327eb700e12"
+    },
+    {
+      "source": "qa/gif-report.json",
+      "sha256": "8d1eebe30aebe8492798ceec9b1b4cf2c3f24b0e4d5eb81bfa2c4be8b9eabf5e"
+    },
+    {
+      "source": "qa/gif-readback.png",
+      "sha256": "f1a3638927f1537d69b9aa66198c16a67c11ffaee12b01585b2942b1b12c0f09"
+    },
+    {
+      "source": "qa/role3-attack-in-game.gif",
+      "sha256": "dcc522aaef8810eb7729c2e38a663b7f99761feecc5ff733647b4cd2feb94aad"
+    },
+    {
+      "source": "qa/poses/0000.png",
+      "sha256": "930bcc302b3e793fe34de91535aee296a005539fe9eaf515296455f573825b84"
+    },
+    {
+      "source": "qa/poses/0002.png",
+      "sha256": "60c7e109b30fe42d069b0bc0b018f8a7c207e7d3b3c47672d0bad49be0d90456"
+    },
+    {
+      "source": "qa/poses/0006.png",
+      "sha256": "db2bc88c5351e4ed834c663c3542ee330fb28337337ceaa74f203c60acdbbdfe"
+    },
+    {
+      "source": "qa/poses/0014.png",
+      "sha256": "cac33bdd9649ff3ec82f02e89cf5d3b142000cc160010b5bb21d03aa185c0e02"
+    },
+    {
+      "source": "qa/poses/0020.png",
+      "sha256": "c89627ccd023bdca6b10cdd6c525e12de8e15175e99aa21a7db005e8e147b46d"
+    },
+    {
+      "source": "qa/poses/0033.png",
+      "sha256": "3de561f0f030c9c63bb8a15db1a3017883a7ee8a8bf1fe493c97245188724277"
+    }
+  ]
+}

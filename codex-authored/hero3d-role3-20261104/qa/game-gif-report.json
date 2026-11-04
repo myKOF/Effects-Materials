@@ -1,0 +1,8 @@
+{
+  "width": 1600,
+  "height": 1000,
+  "frames": 84,
+  "fps": 30,
+  "errors": [],
+  "qa": "Real game index/Pixi/Worker, isolated save, GM 3 reincarnations. Paused deterministic Attack4 preview. Diagnostic hiding pause veil/NPCs/leftover FX to inspect the actor and setting body visible, 900px Hero3D canvas; added synchronized 580px hand closeup inset, built-in fullscreen+wheel. Explicitly render the real perspective scene target before app.render while paused; no production camera edits."
+}

@@ -1,0 +1,14 @@
+{
+  "saved": {
+    "skin": 3,
+    "model": "images/models/hero3d/role3.glb?v=20261104-role3-v1",
+    "reincarnations": 3
+  },
+  "loaded": {
+    "skin": 3,
+    "model": "images/models/hero3d/role3.glb?v=20261104-role3-v1",
+    "reincarnations": 3
+  },
+  "errors": [],
+  "warnings": []
+}
