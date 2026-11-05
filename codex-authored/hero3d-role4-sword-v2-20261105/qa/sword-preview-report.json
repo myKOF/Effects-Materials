@@ -1,0 +1,25 @@
+{
+  "turntable": {
+    "frames": 96,
+    "fps": 24,
+    "width": 800,
+    "height": 1055
+  },
+  "errors": [],
+  "bounds": [
+    0.2121538668870926,
+    0.9419999867677689,
+    0.041999999433755875
+  ],
+  "materials": [
+    "Blackened central steel",
+    "Polished silver cutting bevel",
+    "Reference crimson vine relief",
+    "Rebuilt guard with licensed high resolution ornament",
+    "Ruby lit facet",
+    "Crimson blade flame inlay",
+    "Ruby shadow facet",
+    "Black leather grip",
+    "Raised leather binding"
+  ]
+}
