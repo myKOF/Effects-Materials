@@ -1,0 +1,18 @@
+{
+  "allEightSwapsStateExact": true,
+  "state": {
+    "cfg": {
+      "clip": "Attack4",
+      "loop": false,
+      "start": 0,
+      "hit": 1.07,
+      "end": 2.3666
+    },
+    "time": 1.1000000000000003,
+    "paused": false,
+    "finished": false,
+    "speed": 1,
+    "yaw": 2.072483231764012,
+    "yawTarget": 2.0724832317640125
+  }
+}

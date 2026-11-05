@@ -1,0 +1,18 @@
+{
+  "geometricEdges": {
+    "quantization": 1e-06,
+    "singleEdges": 0,
+    "oddEdges": 0,
+    "coincidentEdges": 70
+  },
+  "cpuSkin": {
+    "clips": 6,
+    "samplesPerClip": 61,
+    "longestEdgeMetres": 0.2893870352258606
+  },
+  "tests": {
+    "passed": 62,
+    "failed": 0
+  },
+  "notes": "Independent shells remain closed. Forced weld merges touching armor; Blender reports 47 boundary and 68 nonmanifold edges after that topology-changing operation; native export edge parity is zero. No claim of one manifold sculpt. GIF uses actual game plus synchronized full-model inset with full-clip framing; recording FPS counter reflects headless capture load."
+}

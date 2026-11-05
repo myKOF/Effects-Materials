@@ -1,0 +1,64 @@
+{
+  "meshes": [
+    {
+      "name": "char1",
+      "vertices": 42892,
+      "faces": 25898,
+      "bodyWeldedBoundaryEdges": 47,
+      "bodyWeldedNonmanifoldEdges": 68
+    },
+    {
+      "name": "Icosphere",
+      "vertices": 42,
+      "faces": 80,
+      "bodyWeldedBoundaryEdges": 0,
+      "bodyWeldedNonmanifoldEdges": 0
+    }
+  ],
+  "actions": [
+    "Attack1",
+    "Attack2",
+    "Attack4",
+    "CombatIdle",
+    "Death",
+    "Run"
+  ],
+  "images": [
+    {
+      "name": "Authorized Role4 base 1024px",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "colorSpace": "sRGB"
+    },
+    {
+      "name": "Authorized Role4 mr 512px",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ],
+      "colorSpace": "Non-Color"
+    },
+    {
+      "name": "Authorized Role4 normal 512px",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ],
+      "colorSpace": "Non-Color"
+    },
+    {
+      "name": "guard-detail",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ],
+      "colorSpace": "sRGB"
+    }
+  ]
+}
