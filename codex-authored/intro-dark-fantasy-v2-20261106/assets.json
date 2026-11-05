@@ -1,0 +1,51 @@
+[
+  {
+    "name": "angel-fall-background",
+    "transparent": false,
+    "source": "images/angel-fall-background.webp",
+    "target": "images/intro-v2/angel-fall-background.webp",
+    "original": "originals/angel-fall-background.png"
+  },
+  {
+    "name": "angel-fall-angel",
+    "transparent": true,
+    "source": "images/angel-fall-angel.webp",
+    "target": "images/intro-v2/angel-fall-angel.webp",
+    "original": "originals/angel-fall-angel.png"
+  },
+  {
+    "name": "awakening-background",
+    "transparent": false,
+    "source": "images/awakening-background.webp",
+    "target": "images/intro-v2/awakening-background.webp",
+    "original": "originals/awakening-background.png"
+  },
+  {
+    "name": "awakening-angel",
+    "transparent": true,
+    "source": "images/awakening-angel.webp",
+    "target": "images/intro-v2/awakening-angel.webp",
+    "original": "originals/awakening-angel.png"
+  },
+  {
+    "name": "rise-and-quest-background",
+    "transparent": false,
+    "source": "images/rise-and-quest-background.webp",
+    "target": "images/intro-v2/rise-and-quest-background.webp",
+    "original": "originals/rise-and-quest-background.png"
+  },
+  {
+    "name": "rise-and-quest-angel",
+    "transparent": true,
+    "source": "images/rise-and-quest-angel.webp",
+    "target": "images/intro-v2/rise-and-quest-angel.webp",
+    "original": "originals/rise-and-quest-angel.png"
+  },
+  {
+    "name": "rising-angel",
+    "transparent": true,
+    "source": "images/rising-angel.webp",
+    "target": "images/intro-v2/rising-angel.webp",
+    "original": "originals/rising-angel.png"
+  }
+]
