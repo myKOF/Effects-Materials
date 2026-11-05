@@ -3,13 +3,14 @@
   "parentSource": "codex-authored/ancient-stars-20261105",
   "files": {
     "tools/ancient-stars/bake-glow.cjs": "b1703ec655c855632d0446faf8e712046fa3bcbc8d3942c4020e96c62376d159",
-    "tools/vfx/vfx-raster.cjs": "00b972bb07ef9e387870df99348d55a1d8fb213744a259216a9d33d4f4a1fe59",
-    "tools/vfx/vfx-image-facts.cjs": "600e1e1c2c8e5ee32b2edd94b72aa8a41641ae093a4c3114b3d138c161d7a85c",
+    "tools/vfx/vfx-raster.cjs": "c86f01f2a10bd1cf4d0df342ca0c03cf2f9531e85c7bfa001b1d42afbd884ad6",
+    "tools/vfx/vfx-image-facts.cjs": "1817338626cad12bf52b3bfb0eb65a61d9c29c1bdab5cdb48a609fde0687858f",
     "images/ui/ancient-star-gold.png": "7e2fa768cf1f32e824840c336579e41f9ec558ca12191eed9e34c6894ad911f3",
     "images/ui/ancient-star-gold-glow.png": "431c27c4c1a3652c0c36234210e450ec1f5f966b4282f862bdb524e1eef7cce9",
     "images/ui/ancient-star-blue.png": "10907e792321e1eb7898dc5c45f47f0601180e6be3c573757fd211e7193f4ea2",
     "images/ui/ancient-star-blue-glow.png": "5f1ede4b0242137bd57975dfb2eed50a51c9fd647aae0ac1d11ea4a6cd93eb72",
     "images/ui/ancient-star-light-blue.png": "0475457564545a37be33ba54a07ad2b536ad1ecb348264f88205df9563dcb3ef",
     "images/ui/ancient-star-light-blue-glow.png": "bdf3a53b06d06a264b930815937aa4f9bf369ad94a94b43f591a5c81fe009eab"
-  }
+  },
+  "codeLineEndings": "Source code normalized to LF for portable Git checkouts; PNG bytes unchanged"
 }
