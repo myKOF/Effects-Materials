@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "kind": "level-up-source",
+  "source": "Self-authored procedural celebration migrated from renderer commit 405279a2; no third-party artwork.",
+  "editing": "Edit level-up in VFX Editor, save to repo, reload game. Use --archive to preserve the edited source; --check verifies the archive. This tool does not regenerate or overwrite the repo preset.",
+  "files": {
+    "vfx/presets/level-up.json": "2e54987f6b113a60303b3ff1823cb46c3fb63906d5d6840d3e800ccc14538325",
+    "vfx/layouts/level-up.json": "911855335c067d2abd2c5452d0c5554e8dc64bd69017830c4c114ae45a243567",
+    "js/vfx-celebration.js": "6e61c75a88eab100431cc5376300e4230061346785894e4bd30bb9dca6378d1b",
+    "tests/fixtures/levelup-legacy-samples.json": "28f8acdbe1b1531d0eade0b5ce76376a7be3ff90b8313a5a808d0a43bcc1c346"
+  }
+}
