@@ -1,0 +1,37 @@
+{
+  "reference": "User-authorized codex-clipboard-c400eec7-e636-4887-ac31-ac3b7361012b.png, 2026-11-05",
+  "referenceSha256": "32978f8df8434f1861e7d9db1936d3d082359d7de8b218a1c8f52f16a853658a",
+  "sourceRoleSha256": "3d22a180e843ad253c23b8b555f53ebf742a8df595404df2b8957a05bfc8c9bb",
+  "outputSha256": "109b1bb0ef90b967e819fc1117ee779f8d4aa7db63710610fb51e45cfd2f854b",
+  "blenderVersion": "4.5.10 LTS",
+  "construction": "New solid geometry from the licensed visible design: straight tapered silver bevels, dark core, geometric crimson flame/vines, hooked guard, ruby, black wrapped grip and silver pommel",
+  "gripOriginMeters": [
+    0,
+    0,
+    0
+  ],
+  "bladeAxis": [
+    0,
+    1,
+    0
+  ],
+  "edgeAxis": [
+    1,
+    0,
+    0
+  ],
+  "faceAxis": [
+    0,
+    0,
+    1
+  ],
+  "gripRadiusMeters": 0.014,
+  "guardFromGripMeters": 0.115,
+  "bladeTipFromGripMeters": 0.806,
+  "pommelEndFromGripMeters": -0.136,
+  "triangles": 10396,
+  "vertices": 5204,
+  "license": "User explicitly states reference is licensed and requests exact replication; unseen reverse face uses matching symmetric detailing",
+  "detailSource": "New geometric outline and red inlay rebuilt from the authorized reference; fine guard color baked in Blender from authorized Role4 material",
+  "stage": "First independent sword candidate for user shape review; not yet installed in the game or Role4 character"
+}

@@ -1,0 +1,14 @@
+{
+  "glbBytes": 907972,
+  "meshes": [
+    {
+      "vertices": 10529,
+      "triangles": 10396,
+      "boundaryEdgesAfterWeld": 0,
+      "nonmanifoldEdgesAfterWeld": 4,
+      "validated": true
+    }
+  ],
+  "editableParts": 13,
+  "packedUsedImages": true
+}

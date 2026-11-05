@@ -1,0 +1,91 @@
+{
+  "stage": "independent sword review candidate; Role4 integration incomplete",
+  "authorization": "User explicitly states reference is licensed and requests replication; supplied Role4 model is its authorized detail source, 2026-11-05",
+  "files": [
+    {
+      "source": "exports/guard-detail.png",
+      "sha256": "e35a8ea3330cf5770aa6904416681321f6529228d1298cbb6d16c606f06d8fea"
+    },
+    {
+      "source": "exports/role4-sword.glb",
+      "sha256": "109b1bb0ef90b967e819fc1117ee779f8d4aa7db63710610fb51e45cfd2f854b"
+    },
+    {
+      "source": "exports/sword-report.json",
+      "sha256": "d6373b1c92ce727d671b0092c40c2fb9db6763aa5874c186402a27c3da19f4ac"
+    },
+    {
+      "source": "qa/reference-sword-detail.png",
+      "sha256": "33b3f0099825be4f40f1a4a7021824fe3f18c46c56404c50e502bd43a3f40abd"
+    },
+    {
+      "source": "qa/role4-sword-turntable.gif",
+      "sha256": "e25070161623b7f5ba7700fc4925603b8ffbfe287db1992a5af115f753937f21"
+    },
+    {
+      "source": "qa/sword-back.png",
+      "sha256": "245a4245cac5819ece315c4be0735ff4054c656d9cc2e817bbb4eb5ec3d652a5"
+    },
+    {
+      "source": "qa/sword-front.png",
+      "sha256": "0ed7fd7a172a4fa7eeca610ef2ea84a686e937b824e8f9b1bd74d7a1ad23692d"
+    },
+    {
+      "source": "qa/sword-gif-readback.png",
+      "sha256": "181b873f2d1857688f446a6b0b6b8c1dfaa8efa03e474e8a37f34da4e9f7844e"
+    },
+    {
+      "source": "qa/sword-gif-report.json",
+      "sha256": "e4c9d721e59a0cdb3f56285b22bda866048de1b7dd17edacea03db3f4808fec4"
+    },
+    {
+      "source": "qa/sword-guard.png",
+      "sha256": "18cfcb68f0a22607301f9fa8f7b5ef5be888ae7bf2be120dfd921a6b944cb545"
+    },
+    {
+      "source": "qa/sword-oblique.png",
+      "sha256": "fc100b32f1627414e8cd9bd8b58c9e158bab610918dde1654a92e897b9bdd3c7"
+    },
+    {
+      "source": "qa/sword-preview-report.json",
+      "sha256": "d6ec01e0989f2f7869726712161c4df0e310623ed6a1f8536fcd51650cc3d142"
+    },
+    {
+      "source": "qa/sword-preview.cjs",
+      "sha256": "2ea1e61c97c4aa674ccc64f6cce639d7e3b66b98253dedd29ac8899b8ec4c7d9"
+    },
+    {
+      "source": "qa/sword-side.png",
+      "sha256": "91756970102d0bf2f38b8aa30adff517112dce2b7f14beb76153e79b8392711b"
+    },
+    {
+      "source": "qa/sword-validation.json",
+      "sha256": "5a009dc2ae531518fdc0bde2a8aa41eb41abee553b3068ba8dc7df8eb1326e2f"
+    },
+    {
+      "source": "qa/verify-sword.py",
+      "sha256": "40373a1b688c0365d6606fe048958b5fb9922bd640aa4b0d97b7a74915490d3a"
+    },
+    {
+      "source": "README.md",
+      "sha256": "1726cbbfc18719463af9b5304c1fd0f11600dccd8584f4909a7e30604fff34d8"
+    },
+    {
+      "source": "source/role4-sword.blend",
+      "sha256": "32dea1f9ffa65b85e547d621e13212b77763aca1df97ff6f110d78aa1e9bd7ff"
+    },
+    {
+      "source": "source/Role4.glb",
+      "sha256": "3d22a180e843ad253c23b8b555f53ebf742a8df595404df2b8957a05bfc8c9bb"
+    },
+    {
+      "source": "source/sword-reference.png",
+      "sha256": "32978f8df8434f1861e7d9db1936d3d082359d7de8b218a1c8f52f16a853658a"
+    },
+    {
+      "source": "tools/build_role4_sword.py",
+      "sha256": "408fb2ac44b4a3ff48f23cb84dee780aa46430fe11380b7aafcadc68404c954d",
+      "project": "tools/meshy-pipeline/blender/build_role4_sword.py"
+    }
+  ]
+}
