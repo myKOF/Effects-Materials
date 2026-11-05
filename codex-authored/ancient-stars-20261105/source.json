@@ -1,0 +1,20 @@
+{
+  "task": "ANCIENT-STARS-20261105",
+  "source": "User-supplied star3.jpg, explicitly requested for this game's ancient equipment stars and recolored refinement variant in this session.",
+  "mode": "built-in image_gen",
+  "prompts": {
+    "gold": "Use case: background-extraction. Edit target: the provided star3.jpg. Extract ONLY the exact golden metallic six-point star emblem, removing the entire black and gray checkerboard and the glow outside the silhouette. Preserve its six pointed outline, proportions, sculpted gold facets, radial center, bronze edge and engraved curved panel details, no redesign. One centered complete star, facing front, upright, on genuinely transparent background. Keep narrow transparent padding on all sides. No checkerboard, no shadow rectangle, no text, no additional objects. Intended asset is a small equipment rarity icon. Output square transparent PNG.",
+    "blue": "Use case: precise-object-edit. Edit target: the attached transparent golden six-point star. Change ONLY the metal colors to luminous sapphire blue and cyan-silver highlights for a refined ancient equipment icon. Preserve exactly the same six-point silhouette, orientation, proportions, sculpted curved panels, engraved facet layout, central radial highlight and lighting. Deep navy shadows, rich cobalt midtones, bright icy cyan highlights. Complete centered single star with narrow transparent padding, genuinely transparent background. Do not hollow the star: the metal interior must remain opaque. No checkerboard, text, glow outside silhouette or additional objects.",
+    "lightBlue": "Use case: precise-object-edit. Edit target: the provided transparent blue six-point metal star. Create its LIGHT BLUE refinement tier, visibly much paler and lighter than the current deep cobalt blue star. Change ONLY palette: ice blue, pale sky blue metallic faces, silver-white highlights, medium azure outlines and shadows; avoid deep navy covering large areas. Preserve the EXACT six-point silhouette, size, orientation, proportions, sculpted curved panels, engraved facets, radial center highlight. Keep the whole metal interior opaque. One full centered star, genuinely transparent exterior with narrow padding. No checkerboard, text, background, shadows outside silhouette or added objects."
+  },
+  "resize": "Pillow alpha>16 bounding box, longest side 124, LANCZOS, centered 128x128 RGBA, PNG optimize compression 9",
+  "sha256": {
+    "reference/star3.jpg": "06093c53286801ecf85b2304b98c902fdb59a78861f70f7239b509a848f4ed04",
+    "originals/blue.png": "6aee46c4bbc3f88f1ca5bebdb4b4d0030d3ea4023c4ab04a2b3742e1df5b171a",
+    "originals/gold.png": "97c9b1dc2380e8f16b203505a7ef721c0a32828cedcd0e98a6e3138ff2f485c9",
+    "originals/light-blue.png": "235967a84c2937e344ec0fbe0256f79df36fdb788b7c0dbf232139eb6a1b77b4",
+    "icons/ancient-star-blue.png": "10907e792321e1eb7898dc5c45f47f0601180e6be3c573757fd211e7193f4ea2",
+    "icons/ancient-star-gold.png": "7e2fa768cf1f32e824840c336579e41f9ec558ca12191eed9e34c6894ad911f3",
+    "icons/ancient-star-light-blue.png": "0475457564545a37be33ba54a07ad2b536ad1ecb348264f88205df9563dcb3ef"
+  }
+}
