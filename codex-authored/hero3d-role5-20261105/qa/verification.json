@@ -10,7 +10,7 @@
     "longestEdgeMetres": 0.2678076426441821
   },
   "tests": {
-    "passed": 71,
+    "passed": 72,
     "failed": 0
   },
   "build": {
@@ -31,5 +31,6 @@
       "details": "Same real index/Worker/Pixi flow in isolated SwiftShader run: nine swaps, reload, material checks, four attacks and zero errors; original assertions retained."
     }
   ],
-  "limits": "No full-suite/mobile/long-duration or broad GPU compatibility claim. Dense independent armor shells retain coincident geometry; forced welding changes topology. Full source maps preserved (16.7MB first Role5 load). Capture FPS counter reflects headless recording load."
+  "limits": "No full-suite/mobile/long-duration or broad GPU compatibility claim. Dense independent armor shells retain coincident geometry; forced welding changes topology. Full source maps preserved (16.7MB first Role5 load). Capture FPS counter reflects headless recording load.",
+  "externalTextureFailureGuard": "Native test deliberately aborts Role5 base.jpg: creation rejects before renderer allocation, previous controller still draws and its context remains valid; valid native material associations also pass."
 }

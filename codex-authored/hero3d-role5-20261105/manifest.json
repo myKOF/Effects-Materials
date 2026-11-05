@@ -46,7 +46,7 @@
     },
     {
       "source": "exports/ROLE5_SOURCE.md",
-      "sha256": "dac663be3a4d768af84f70e884c6116476581640a4c71489b83bc37c5d11497c",
+      "sha256": "9be63535c2850b9414105a9f559e11728beea6ddb117eff6a4984c45d7f80465",
       "project": "images/models/hero3d/ROLE5_SOURCE.md"
     },
     {
@@ -204,11 +204,19 @@
     },
     {
       "source": "qa/verification.json",
-      "sha256": "1939cb608b77ba187e07a68067be189299986eeb1bb85b6cc7486ec407dccea4"
+      "sha256": "54905d994255af5fdb843eacb86ea9224a1e3784d50a367830e82a198d76b7ec"
     },
     {
       "source": "qa/prepare-source-preview.py",
       "sha256": "b2d79bd7c94763ddf641c90cbe1fd3a03224e5eec8479c7b1eac5a2d62f8f556"
+    },
+    {
+      "source": "qa/external-load-check.cjs",
+      "sha256": "47a2fccca33f736ebb00def6feee60b1d9279bde047571cafb9ed1e01c91ce57"
+    },
+    {
+      "source": "qa/external-load-check.json",
+      "sha256": "8f68494c8e98f8e4ac4c9314077b6efc6083c31ecd526133f2231e89024e6bf7"
     }
   ]
 }

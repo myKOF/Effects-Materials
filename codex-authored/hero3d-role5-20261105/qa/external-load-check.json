@@ -1,0 +1,35 @@
+{
+  "valid": {
+    "pbr": true,
+    "size": 512,
+    "memory": {
+      "geometries": 12,
+      "textures": 6
+    },
+    "contextLost": false,
+    "types": [
+      "MeshStandardMaterial",
+      "MeshStandardMaterial",
+      "MeshStandardMaterial",
+      "MeshStandardMaterial",
+      "MeshStandardMaterial",
+      "MeshStandardMaterial",
+      "MeshStandardMaterial",
+      "MeshStandardMaterial",
+      "MeshStandardMaterial",
+      "MeshStandardMaterial",
+      "MeshStandardMaterial",
+      "MeshStandardMaterial"
+    ]
+  },
+  "failed": {
+    "rejected": true,
+    "error": "Incomplete external PBR textures: baseColor",
+    "previousStillActive": true,
+    "previousContextLost": false
+  },
+  "expectedAbortedRequestErrors": [
+    "Failed to load resource: net::ERR_FAILED",
+    "THREE.GLTFLoader: Couldn't load texture role5/base.jpg?v=20261105-role5-v1"
+  ]
+}
