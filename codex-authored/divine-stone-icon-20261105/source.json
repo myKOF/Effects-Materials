@@ -1,0 +1,26 @@
+{
+  "task": "DIVINE-STONE-ICON-20261105",
+  "tool": "Built-in image_gen; transparent_background=true",
+  "provenance": "Reference supplied by user in this chat for editing; generated edit preview approved on 2026-11-05, followed by explicit instruction to integrate. No external downloaded artwork. Third-party ownership of reference not independently verified.",
+  "prompt": "Horizontally mirror the supplied rune stone including its engraved runes. Preserve its chunky slate silhouette, faceted cracks, painterly style and cyan rune illumination on the stone surface. Remove all background, external halo, particles, fog, ground and shadows. Center the complete stone on genuine transparent alpha with no frame, added symbols or text; make it readable as a small inventory icon.",
+  "reference": {
+    "file": "reference.png",
+    "sha256": "6a65445a6832d7f185f8279f4220f2d50712ec04506759263ffd261bf47c0ba6"
+  },
+  "approved": {
+    "file": "approved.png",
+    "sha256": "ae00043d1723e2c0bb4469c45ad9c1a5556783fbe3ce7ce64e33608b0f49b279"
+  },
+  "icon": {
+    "file": "icon_divine_stone.png",
+    "sha256": "4e2a14db0c9c7f5dce99ac2562bb7f320e064437bed5b72b89a91c8122c0523a"
+  },
+  "export": {
+    "size": [
+      128,
+      128
+    ],
+    "format": "RGBA PNG",
+    "resize": "Pillow LANCZOS from approved.png; whole square canvas preserved; no redraw, recrop, recolor or alpha removal"
+  }
+}
