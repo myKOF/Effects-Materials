@@ -1,0 +1,214 @@
+{
+  "source": "Role5.glb supplied by user; authorization for game use and modification explicitly confirmed in chat on 2026-11-05.",
+  "basePackage": "codex-authored/hero3d-role4-20261105",
+  "baseCommit": "642fc4c",
+  "approvedSwordCommit": "305cb39",
+  "dependencies": [
+    {
+      "source": "codex-authored/hero3d-role4-sword-v2-20261105/exports/role4-sword.glb",
+      "sha256": "9be98b40aee20fde05a3c5af928f64f5c22b0b51961668ce0eeae411c9334ea0"
+    },
+    {
+      "source": "codex-authored/hero3d-forward-grip-20261103/role1/exports/role1.glb",
+      "sha256": "54f104457683618ee328edd05749476dffd11bc093e7dbeb92619f59a55b1222"
+    }
+  ],
+  "preservedModels": {
+    "role.glb": "0ebd2dd1af1503f7236375bd5e146e84c02a01f2ac10823d2eb32a94dd27b7ad",
+    "role1.glb": "54f104457683618ee328edd05749476dffd11bc093e7dbeb92619f59a55b1222",
+    "role2.glb": "262c1f9f78280a09f3e0a3cb57b4896d8a540f709889f0963bd3400c96f0b089",
+    "role3.glb": "663595d1f798df30df1d9630708605c82396c85195abaa9518a82c9275d4e519",
+    "role4.glb": "db0fb548c75bbbac6291668b7445883926ed4aafddfff0f9485c8513b82924cc",
+    "sunbrand-knight.glb": "ad6645d1db9ebfd18240049e36d3db075ca2e3aa27b7f3c1e6e568a2ed435bc4"
+  },
+  "files": [
+    {
+      "source": "source/Role5.glb",
+      "sha256": "8f9dba13df728c8a87f22e149e5fa44e8d28ec3f7c5125ede08c91c69089f6c5"
+    },
+    {
+      "source": "source/role5.blend",
+      "sha256": "5b5bb9ca860dbed5e21e4a9053338f432fa0b7f27adc0f145e4857fe4bafee86"
+    },
+    {
+      "source": "source/role5.npz",
+      "sha256": "baf60e41c1cfa2a1e0ad2305d24ed23d9c4acb0a7ad5e2fa4126833490bffed8"
+    },
+    {
+      "source": "exports/role5.glb",
+      "sha256": "d83254f239be70ff1cd4f8eab66fc587b1657c05b1536fbbaa9ae8b4d6119c7d",
+      "project": "images/models/hero3d/role5.glb"
+    },
+    {
+      "source": "exports/role5.json",
+      "sha256": "b44065df7c8ef2857117e3500c30aba115d1e59ecb0c56b5b9819813b2038edb",
+      "project": "images/models/hero3d/role5.json"
+    },
+    {
+      "source": "exports/ROLE5_SOURCE.md",
+      "sha256": "dac663be3a4d768af84f70e884c6116476581640a4c71489b83bc37c5d11497c",
+      "project": "images/models/hero3d/ROLE5_SOURCE.md"
+    },
+    {
+      "source": "exports/role5/base.jpg",
+      "sha256": "cc2955255eb4bda37cd39121deb4a1aee111423e11dbd07d19d6be6ef81c5e8d",
+      "project": "images/models/hero3d/role5/base.jpg"
+    },
+    {
+      "source": "exports/role5/normal.png",
+      "sha256": "266b2a175593fddab63fdbe0faed1a64aa99dcc8844ddd5a54f833e91ea0bd70",
+      "project": "images/models/hero3d/role5/normal.png"
+    },
+    {
+      "source": "exports/role5/mr.jpg",
+      "sha256": "90734bb124d5f0905022be3aefb2733d75981f4665cf9c5296c8864dc1d9b9f7",
+      "project": "images/models/hero3d/role5/mr.jpg"
+    },
+    {
+      "source": "tools/prepare_role5.py",
+      "sha256": "e5e08cca0eb54b64e0c40f0c785f29853db0dd84ac537729fca3208ce953f5ff",
+      "project": "tools/meshy-pipeline/blender/prepare_role5.py"
+    },
+    {
+      "source": "tools/export-role5.cjs",
+      "sha256": "f10cfda15ef5a4678d8876619e529664b5f9ba48ca82b17bd23204ed13c8390f",
+      "project": "tools/meshy-pipeline/src/export-role5.cjs"
+    },
+    {
+      "source": "qa/source-front.png",
+      "sha256": "5acb00a3b19dbd843c202a54e819e98f16225c78aed8d7625dcfc74cd2a4f147"
+    },
+    {
+      "source": "qa/source-back.png",
+      "sha256": "a599d737f3c49d03cabd70393bb1cc2776ae98fd844ef99f327bfffb66bdc568"
+    },
+    {
+      "source": "qa/source-side.png",
+      "sha256": "48bdcaea87c43f65e7bcf9e94bbc2660ed5bdfc9902056a5455586b9954db7a7"
+    },
+    {
+      "source": "qa/game-report.json",
+      "sha256": "9ea8f6ef376012db6bd3e2dec056825c4b794b46b8f65355dd91084459ce9ae1"
+    },
+    {
+      "source": "qa/game-gif-report.json",
+      "sha256": "7a4d38e6747a8902fba95a6b9d054fcd8187a730b7892e2d111a22e3a9745d70"
+    },
+    {
+      "source": "qa/lifecycle-report.json",
+      "sha256": "10247f571841c3969516c1c73661848a1e64d369cc4e44774d16b071a899d8fc"
+    },
+    {
+      "source": "qa/sword-match.json",
+      "sha256": "ab52a1d88690c5f41a0e99d7780292335bd17a9cb699e3632d1680e13810f95e"
+    },
+    {
+      "source": "qa/state-match.json",
+      "sha256": "09af6e79a5a18773fddd887eb15f8ca337ebf083fab854f2589843a7dd3f842c"
+    },
+    {
+      "source": "qa/blend-check.json",
+      "sha256": "627d2558ab1f0b1a3013aedaa5ef4d56dcb1bc383a175c7b5876238ee91bd854"
+    },
+    {
+      "source": "qa/edges.json",
+      "sha256": "e11e56492d72c3b14e9772cc59c85232282cc36428605d16c1256f10484b1ae4"
+    },
+    {
+      "source": "qa/gif-readback.json",
+      "sha256": "beb1d1bee4d8dddb070b13e161ff6ad165304e147a181e565e97e5dde3cbd8e3"
+    },
+    {
+      "source": "qa/role5-game-attack.gif",
+      "sha256": "51bc1342ee1c0bdd9ce09e2f9878e780ef229623e752320076d766f39d2aa6d3"
+    },
+    {
+      "source": "qa/game-gif-readback.png",
+      "sha256": "6664dfdb1659fea0631a6090640f1f66950f7eec5bfb0e69bdac08d72c7df34c"
+    },
+    {
+      "source": "qa/fixed-hand-closeup-original.png",
+      "sha256": "1d982c80e4c64a1869608eb0dfa71287800c7d829db7dfd85dbbac3383546720"
+    },
+    {
+      "source": "qa/fixed-hand-closeup-side.png",
+      "sha256": "9c1bd1241154f0bb2425909f729e506b5e9a005e171631a0b0b8cb42d2014fa6"
+    },
+    {
+      "source": "qa/fixed-hand-closeup-palm.png",
+      "sha256": "a9e3bfccb7b3ee832bc810a3b453230595b4c67540c9e60da0cf58c094175a80"
+    },
+    {
+      "source": "qa/game-verify.cjs",
+      "sha256": "21593f082c33a21fc5a30e50d57f2497fdcf6db4cf1492a421b48c33c4a339dd"
+    },
+    {
+      "source": "qa/game-gif.cjs",
+      "sha256": "4c2282de753285ba7dde152ab7a4f0eaf7a6c97fb817ba35331b8893ca9b9a35"
+    },
+    {
+      "source": "qa/pose-preview.cjs",
+      "sha256": "8006e61eb05a7b4a03058b22b38316b7876588a2b08e1ed311db4b3e50ab9d35"
+    },
+    {
+      "source": "qa/closeup.cjs",
+      "sha256": "15555c3718208eb9c880f3ab08bd78ac7867c50e39a5df1cfe4951cc8afd9fa8"
+    },
+    {
+      "source": "qa/lifecycle.cjs",
+      "sha256": "ea8654227456d316be6552bf24ac5da4c9990b78369ab5f00100d05b8c993612"
+    },
+    {
+      "source": "qa/sword-match.cjs",
+      "sha256": "952f557e308e4d170ee90bf4fa3538541d98fb6857a5a338bc31dbe5b012c49b"
+    },
+    {
+      "source": "qa/blend-check.py",
+      "sha256": "3ea4f16eb322a4dd2fea23385d8925e893fd87db9f6fca18b9e3de0ed7f05f33"
+    },
+    {
+      "source": "qa/edges.cjs",
+      "sha256": "c18401acb59393b27c343e610a78ac66642fd37b49cdbe4ba2ca3091c9986a35"
+    },
+    {
+      "source": "qa/inset.html",
+      "sha256": "c9536272e91d89f80a92b1263e13ced2f1a64dd297063362c5e144f3f2b31698"
+    },
+    {
+      "source": "qa/inspect.cjs",
+      "sha256": "e0b689484d8ff7f8abadc2dc636375eeecb848a38794ed9afbaf47514939c23a"
+    },
+    {
+      "source": "qa/pose-0000.png",
+      "sha256": "48bc6c7ec352c657d52fe34b79dc6019f1442f1931085c8c99fb2851d8402d0d"
+    },
+    {
+      "source": "qa/pose-0002.png",
+      "sha256": "d174a72272b17eb4c6398d0770fafb5684487ab960dd296a8ae13e8c7ca2f29a"
+    },
+    {
+      "source": "qa/pose-0006.png",
+      "sha256": "771e8fa1fcaf66feef487e94f9be239024445c3452be66ae6427a32ed66369d3"
+    },
+    {
+      "source": "qa/pose-0015.png",
+      "sha256": "f2a264d377b9a558b88516b5ccc8cbaa0776b0ae8bc608c63264b225815f25ab"
+    },
+    {
+      "source": "qa/pose-0024.png",
+      "sha256": "21f8f6cdb70ccca72fbb0ae236dc1eeaef4a95ddacc059c0f04a361e354611da"
+    },
+    {
+      "source": "qa/pose-0035.png",
+      "sha256": "eaa19f08f92dc22869f0014d2590fcb6ca75595fab1beffa0c28b43aac6d2c0c"
+    },
+    {
+      "source": "qa/verification.json",
+      "sha256": "1939cb608b77ba187e07a68067be189299986eeb1bb85b6cc7486ec407dccea4"
+    },
+    {
+      "source": "qa/prepare-source-preview.py",
+      "sha256": "b2d79bd7c94763ddf641c90cbe1fd3a03224e5eec8479c7b1eac5a2d62f8f556"
+    }
+  ]
+}

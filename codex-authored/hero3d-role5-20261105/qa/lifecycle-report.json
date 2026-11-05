@@ -1,0 +1,70 @@
+{
+  "poses": [
+    {
+      "n": 5,
+      "clips": [
+        "Attack1",
+        "Attack2",
+        "CombatIdle",
+        "Death",
+        "Run",
+        "Attack4"
+      ],
+      "state": {
+        "pbr": true,
+        "size": 512,
+        "memory": {
+          "geometries": 12,
+          "textures": 6
+        },
+        "contextLost": false,
+        "types": [
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial"
+        ]
+      },
+      "disposals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "environmentDisposals": 1,
+      "after": {
+        "pbr": true,
+        "size": 512,
+        "memory": {
+          "geometries": 0,
+          "textures": 1
+        },
+        "contextLost": true,
+        "types": [
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial",
+          "MeshStandardMaterial"
+        ]
+      }
+    }
+  ],
+  "cleanErrors": [],
+  "cleanWarnings": []
+}

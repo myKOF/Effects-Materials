@@ -1,0 +1,35 @@
+{
+  "geometricEdges": {
+    "singleEdges": 0,
+    "oddEdges": 0,
+    "coincidentEdges": 135
+  },
+  "cpuSkin": {
+    "clips": 6,
+    "samplesPerClip": 61,
+    "longestEdgeMetres": 0.2678076426441821
+  },
+  "tests": {
+    "passed": 71,
+    "failed": 0
+  },
+  "build": {
+    "checkedFiles": 663,
+    "passed": true
+  },
+  "qaAttempts": [
+    {
+      "result": "failed",
+      "details": "First concurrent headless startup: Target crashed before initial ready wait. No game success claimed."
+    },
+    {
+      "result": "failed",
+      "details": "Default GPU headless backend completed switches but after reload reported base texture decode/load failure, invalid WebGL shader program, context lost. Cause not proven; not dismissed as a fixed product issue."
+    },
+    {
+      "result": "passed",
+      "details": "Same real index/Worker/Pixi flow in isolated SwiftShader run: nine swaps, reload, material checks, four attacks and zero errors; original assertions retained."
+    }
+  ],
+  "limits": "No full-suite/mobile/long-duration or broad GPU compatibility claim. Dense independent armor shells retain coincident geometry; forced welding changes topology. Full source maps preserved (16.7MB first Role5 load). Capture FPS counter reflects headless recording load."
+}
