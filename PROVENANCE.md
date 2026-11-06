@@ -30,6 +30,8 @@ preset 實際引用到的素材。所以
 
 | package | 來源 | 授權 | 署名義務 |
 |---|---|---|---|
+| `codex-authored/start-menu-title-20261106` | Codex 依使用者參考圖委託內建 ImageGen 製作，保留兩張來源及透明 WebP，詳見套件 SOURCE.md | 專案自製 | 無 |
+| `third-party/google-fonts/start-menu-20261106` | Google Fonts 的 Cinzel 與 Noto Serif TC，兩份 700 字重 WOFF2 | SIL OFL 1.1 | 隨字型保留著作權及授權原文 |
 | `particle-pack` | Kenney (kenney.nl) | CC0 | 無 |
 | `light-masks-1.0` | Kenney (kenney.nl) | CC0 | 無 |
 | `smoke-particles` | Kenney (kenney.nl) | CC0 | 無 |
