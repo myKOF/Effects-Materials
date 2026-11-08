@@ -1,0 +1,153 @@
+{
+  "first": {
+    "name": "第1層・骷髏王",
+    "entities": [
+      {
+        "id": "tb-float",
+        "x": 162,
+        "y": 643,
+        "state": "idle",
+        "lunge": 0,
+        "magic": true,
+        "npc": "tower_boss_1",
+        "sheet": "",
+        "anim": "attack",
+        "npc3d": true,
+        "clip": "Attack3"
+      }
+    ],
+    "plays": [
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack1"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack2"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack3"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack1"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack2"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack3"
+      }
+    ],
+    "created": 1,
+    "disposed": 0,
+    "portrait": [
+      {
+        "src": "images/sprites/boss/boss_skeleton_king.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king.png",
+        "width": 1080
+      }
+    ]
+  },
+  "death": {
+    "plays": [
+      {
+        "name": "attack",
+        "clip": "Attack1"
+      },
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack2"
+      },
+      {
+        "name": "die",
+        "clip": "Die"
+      }
+    ],
+    "created": 1,
+    "disposed": 1
+  },
+  "second": {
+    "entities": [
+      {
+        "id": "tb-float",
+        "x": 460,
+        "y": 981,
+        "state": "entering",
+        "lunge": 0,
+        "magic": true,
+        "npc": "tower_boss_2",
+        "sheet": "boss",
+        "anim": "idle",
+        "npc3d": false,
+        "clip": null
+      }
+    ],
+    "created": 1,
+    "disposed": 1
+  },
+  "errors": [],
+  "viewport": [
+    1440,
+    1000
+  ],
+  "isolatedContext": true
+}

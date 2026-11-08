@@ -1,0 +1,57 @@
+{
+  "npc": "tower_boss_1",
+  "model": "images/models/npc3d/boss1.glb",
+  "width": 1080,
+  "height": 1080,
+  "renderFps": 15,
+  "camera": "rear",
+  "playbackSpeed": 1,
+  "engine": "Blender EEVEE",
+  "clips": {
+    "Walk": {
+      "clip": "Walk",
+      "frames": 130,
+      "duration": 8.666666666666666,
+      "sourceDuration": 8.666666666666666,
+      "playbackSpeed": 1,
+      "loop": true,
+      "cameraSpan": 2.3628346920013428
+    },
+    "Attack1": {
+      "clip": "Attack1",
+      "frames": 88,
+      "duration": 5.866666666666666,
+      "sourceDuration": 5.866666666666666,
+      "playbackSpeed": 1,
+      "loop": false,
+      "cameraSpan": 4.061424732208252
+    },
+    "Attack2": {
+      "clip": "Attack2",
+      "frames": 45,
+      "duration": 2.966666666666667,
+      "sourceDuration": 2.966666666666667,
+      "playbackSpeed": 1,
+      "loop": false,
+      "cameraSpan": 3.1704306602478027
+    },
+    "Attack3": {
+      "clip": "Attack3",
+      "frames": 45,
+      "duration": 2.966666666666667,
+      "sourceDuration": 2.966666666666667,
+      "playbackSpeed": 1,
+      "loop": false,
+      "cameraSpan": 3.1821041107177734
+    },
+    "Die": {
+      "clip": "Die",
+      "frames": 33,
+      "duration": 2.1666666666666665,
+      "sourceDuration": 2.1666666666666665,
+      "playbackSpeed": 1,
+      "loop": false,
+      "cameraSpan": 3.687324285507202
+    }
+  }
+}

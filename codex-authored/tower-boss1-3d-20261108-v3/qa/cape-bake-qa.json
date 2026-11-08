@@ -1,0 +1,52 @@
+{
+  "source": "boss1.glb",
+  "sourceSha256": "f98852a55aa1e5fc08e71f4a7deac02e69884fe21d2b1e4234ae16c7fdc7f0d1",
+  "grid": [
+    15,
+    9
+  ],
+  "collisionMarginMeters": 0.028,
+  "floorMeters": 0.038,
+  "capeVertices": 3759,
+  "surfaceSamples": 5477,
+  "originalAnimationSha256": "0b38f84a0b3a6f3da90d1bba2d7ae61796536aaede61c7f4b1cf858c93edee99",
+  "clips": {
+    "Attack1": {
+      "frames": 353,
+      "maxBackwardCorrectionMeters": 1.0228385178375816,
+      "minCapeZ": 0.15503621506561893,
+      "maxInitialIntersectionPairs": 2254,
+      "maxResidualIntersectionPairs": 0
+    },
+    "Attack2": {
+      "frames": 179,
+      "maxBackwardCorrectionMeters": 0.8785945720985486,
+      "minCapeZ": 0.15199820056922747,
+      "maxInitialIntersectionPairs": 3842,
+      "maxResidualIntersectionPairs": 0
+    },
+    "Attack3": {
+      "frames": 179,
+      "maxBackwardCorrectionMeters": 0.9438367388357715,
+      "minCapeZ": 0.1562349779372243,
+      "maxInitialIntersectionPairs": 2635,
+      "maxResidualIntersectionPairs": 0
+    },
+    "Die": {
+      "frames": 131,
+      "maxBackwardCorrectionMeters": 1.3133569787899029,
+      "minCapeZ": 0.03799999999999992,
+      "maxInitialIntersectionPairs": 1178,
+      "maxResidualIntersectionPairs": 0
+    },
+    "Walk": {
+      "frames": 521,
+      "maxBackwardCorrectionMeters": 0.984792525523985,
+      "minCapeZ": 0.168362823508478,
+      "maxInitialIntersectionPairs": 2095,
+      "maxResidualIntersectionPairs": 0
+    }
+  },
+  "bakeFps": 60,
+  "outputSha256": "2e945e89db9210f8ce18fc52a7d3f272cdeafb1eec7f626f116c8e5ad9e67fce"
+}

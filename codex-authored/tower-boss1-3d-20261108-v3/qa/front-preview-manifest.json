@@ -1,0 +1,21 @@
+{
+  "npc": "tower_boss_1",
+  "model": "images/models/npc3d/boss1.glb",
+  "width": 1080,
+  "height": 1080,
+  "renderFps": 25,
+  "camera": "front",
+  "playbackSpeed": 0.2,
+  "engine": "Blender EEVEE",
+  "clips": {
+    "Attack3": {
+      "clip": "Attack3",
+      "frames": 371,
+      "duration": 14.833333333333334,
+      "sourceDuration": 2.966666666666667,
+      "playbackSpeed": 0.2,
+      "loop": false,
+      "cameraSpan": 3.3816936016082764
+    }
+  }
+}

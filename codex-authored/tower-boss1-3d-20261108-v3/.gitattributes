@@ -1,0 +1,2 @@
+# Preserve audited upstream assets byte-for-byte, including original line endings.
+sources/makehuman/** binary

@@ -1,0 +1,68 @@
+[
+  {
+    "file": "BOSS1_Walk_HD.gif",
+    "framesDecoded": 130,
+    "dimensions": [
+      1080,
+      1144
+    ],
+    "totalMilliseconds": 8670,
+    "loop": 0,
+    "sha256": "f5a4a6b50811e2965c56558aed0fe9acb1650bac22bf0a966c62ba9ae26f49aa"
+  },
+  {
+    "file": "BOSS1_Attack1_HD.gif",
+    "framesDecoded": 88,
+    "dimensions": [
+      1080,
+      1144
+    ],
+    "totalMilliseconds": 6170,
+    "loop": 0,
+    "sha256": "468a719e13f2649ff693e309a95ce5db64ca314312633607975d7323eca3fdb8"
+  },
+  {
+    "file": "BOSS1_Attack2_HD.gif",
+    "framesDecoded": 45,
+    "dimensions": [
+      1080,
+      1144
+    ],
+    "totalMilliseconds": 3300,
+    "loop": 0,
+    "sha256": "dd4352d5083ed09f7bd4e1ac8ef787a725418ebb7835b93ed9fa33e70af753c6"
+  },
+  {
+    "file": "BOSS1_Attack3_HD.gif",
+    "framesDecoded": 45,
+    "dimensions": [
+      1080,
+      1144
+    ],
+    "totalMilliseconds": 3300,
+    "loop": 0,
+    "sha256": "c4063fef52f32c35b6ca37afbd0a340d262b897a52436f5b93fe751abbf24d8d"
+  },
+  {
+    "file": "BOSS1_Die_HD.gif",
+    "framesDecoded": 33,
+    "dimensions": [
+      1080,
+      1144
+    ],
+    "totalMilliseconds": 3050,
+    "loop": 0,
+    "sha256": "69ae37e275339784b60ef8602b356166891ca101b2ac3953c988888b23cd3e5e"
+  },
+  {
+    "file": "BOSS1_actions_HD.gif",
+    "framesDecoded": 130,
+    "dimensions": [
+      1920,
+      1200
+    ],
+    "totalMilliseconds": 8670,
+    "loop": 0,
+    "sha256": "ef19ef188661506dfa6e3eaeeeb819fc014337079527d01a860fb1327e3aa87b"
+  }
+]
