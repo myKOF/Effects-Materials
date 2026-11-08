@@ -1,0 +1,27 @@
+{
+  "Attack1": {
+    "minWeaponMeshZ": 0.041138291358947754,
+    "minBodyZ": -0.1722332239151001,
+    "weaponBelowFloorFrames": []
+  },
+  "Attack2": {
+    "minWeaponMeshZ": 0.04070335626602173,
+    "minBodyZ": -0.191787987947464,
+    "weaponBelowFloorFrames": []
+  },
+  "Attack3": {
+    "minWeaponMeshZ": 0.2089594304561615,
+    "minBodyZ": -0.14955779910087585,
+    "weaponBelowFloorFrames": []
+  },
+  "Die": {
+    "minWeaponMeshZ": 0.038051679730415344,
+    "minBodyZ": -0.22458428144454956,
+    "weaponBelowFloorFrames": []
+  },
+  "Walk": {
+    "minWeaponMeshZ": 0.1503475308418274,
+    "minBodyZ": -0.020409196615219116,
+    "weaponBelowFloorFrames": []
+  }
+}

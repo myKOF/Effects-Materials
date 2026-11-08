@@ -1,0 +1,19 @@
+﻿{
+    "new_headers":  [
+                        "3D模型",
+                        "3D站立動作",
+                        "3D移動動作",
+                        "3D攻擊1動作",
+                        "3D攻擊2動作",
+                        "3D攻擊3動作",
+                        "3D死亡動作"
+                    ],
+    "corrupt_load":  0,
+    "old_cells_and_formulas_unchanged":  true,
+    "boss_rows":  10,
+    "excel":  "16.0",
+    "columns":  29,
+    "rows":  491,
+    "normal_open":  true,
+    "sha256":  "5DBF8C766C5FF22004FDB8570A8AE19980FB43E44954B239878B32AD29B1324F"
+}

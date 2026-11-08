@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "task": "TOWER-BOSS1-3D-PREVIEW-20261108",
+  "license": "User confirmed self-created/generated; authorized game use and modification, 2026-11-08",
+  "status": "3D preview prepared; game renderer integration awaits preview review",
+  "files": [
+    {
+      "source": "sources/BOSS1_Walk.glb",
+      "sha256": "57f25a7a22ff299968e659a8abe3eb8e2d6e3f670c7f065e4af355eedf8965aa"
+    },
+    {
+      "source": "sources/BOSS1_Attack1.glb",
+      "sha256": "bbba59140681e125318398b157c7e67c6ea0b17379b98833c971c6e4f47b7b9a"
+    },
+    {
+      "source": "sources/BOSS1_Attack2.glb",
+      "sha256": "83f98ae01b2a266d5bd335110874a703833fa2985fc81917791cc325123b0e5a"
+    },
+    {
+      "source": "sources/BOSS1_Attack3.glb",
+      "sha256": "5c66dfaef36662647e4400171d3e1d96fd9d065d6327bfd1801489a0705dbf41"
+    },
+    {
+      "source": "sources/BOSS1_Die.glb",
+      "sha256": "da1cf3e807abfc266325cad5933bdc5f76201ac502c8b7fa2796540590548a6d"
+    },
+    {
+      "source": "editable/BOSS1_preview.blend",
+      "sha256": "cdf215fd79ac319358ecf2a379633c81a5e34f3949cdd716f53dc6a8544e8de4"
+    },
+    {
+      "source": "exports/boss1.glb",
+      "sha256": "1ca38595ef56240640b0b893d3298769ad4854f31b15e0896d86009562d84f99",
+      "project": "images/models/npc3d/boss1.glb"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/prepare_tower_boss1.py",
+      "sha256": "23eb2ceea05408f34a3ead31523145e56c092469e76c08bbb34efcfb8e047e6f",
+      "project": "tools/meshy-pipeline/blender/prepare_tower_boss1.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/render_tower_boss1.py",
+      "sha256": "5a1cbc1d68258097322a7d5865d7f153b674263035e7012669a5c377df137da0",
+      "project": "tools/meshy-pipeline/blender/render_tower_boss1.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/package_tower_boss1.py",
+      "sha256": "7df4fc8a9d9d7c8302f01b89799d6b35c71718e71f5099052bac0e50e1ac8f94",
+      "project": "tools/meshy-pipeline/package_tower_boss1.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/src/export-tower-boss1.cjs",
+      "sha256": "5a34c5de192f069feba537b9c3ea6fa4ca3657a23eedf18d064ae5d4ea385061",
+      "project": "tools/meshy-pipeline/src/export-tower-boss1.cjs"
+    },
+    {
+      "source": "project/docs/assets/TOWER_BOSS1_3D_SOURCE.md",
+      "sha256": "6fede865ec011aa3b3f18a58d65072d7a4126a1a38e9ba06a8f7fdbb109cd80e",
+      "project": "docs/assets/TOWER_BOSS1_3D_SOURCE.md"
+    },
+    {
+      "source": "qa/rig-qa.json",
+      "sha256": "6da2a57906ee65495453c6fa4f817111c7fe1125227ae2da64f87c6348609896"
+    },
+    {
+      "source": "qa/export-geometry-qa.json",
+      "sha256": "6b97b2bdc3c3ffed1412ee81bb6d944177d8ba26412ae01bd65c96dd32c7c5ff"
+    },
+    {
+      "source": "qa/npc-native-receipt.json",
+      "sha256": "2982440fab551a1210c1b6184905ac0e674ae19fbca58ace07b087fa0677cfd7"
+    }
+  ]
+}

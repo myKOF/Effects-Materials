@@ -1,0 +1,58 @@
+{
+  "blender": "5.2.3 LTS",
+  "license": "User confirmed self-created/generated and authorized game use/modification in chat, 2026-11-08",
+  "sourceSha256": {
+    "BOSS1_Walk.glb": "57f25a7a22ff299968e659a8abe3eb8e2d6e3f670c7f065e4af355eedf8965aa",
+    "BOSS1_Attack1.glb": "bbba59140681e125318398b157c7e67c6ea0b17379b98833c971c6e4f47b7b9a",
+    "BOSS1_Attack2.glb": "83f98ae01b2a266d5bd335110874a703833fa2985fc81917791cc325123b0e5a",
+    "BOSS1_Attack3.glb": "5c66dfaef36662647e4400171d3e1d96fd9d065d6327bfd1801489a0705dbf41",
+    "BOSS1_Die.glb": "da1cf3e807abfc266325cad5933bdc5f76201ac502c8b7fa2796540590548a6d"
+  },
+  "weaponBone": "Sword_R",
+  "weaponParent": "mixamorig:RightHand",
+  "swordSourceFaces": 436,
+  "closedHandVertices": 716,
+  "clips": {
+    "Walk": {
+      "frames": 261,
+      "fps": 30,
+      "duration": 8.666666666666666,
+      "gripErrorMeters": 4.3800289799866286e-07,
+      "minBladeTipZ": 0.15143822133541107,
+      "loop": true
+    },
+    "Attack1": {
+      "frames": 177,
+      "fps": 30,
+      "duration": 5.866666666666666,
+      "gripErrorMeters": 5.364418029785156e-07,
+      "minBladeTipZ": 0.04284140467643738,
+      "loop": false
+    },
+    "Attack2": {
+      "frames": 90,
+      "fps": 30,
+      "duration": 2.966666666666667,
+      "gripErrorMeters": 4.6552715753952587e-07,
+      "minBladeTipZ": 0.04076268896460533,
+      "loop": false
+    },
+    "Attack3": {
+      "frames": 90,
+      "fps": 30,
+      "duration": 2.966666666666667,
+      "gripErrorMeters": 5.349911174480987e-07,
+      "minBladeTipZ": 0.2104945182800293,
+      "loop": false
+    },
+    "Die": {
+      "frames": 66,
+      "fps": 30,
+      "duration": 2.1666666666666665,
+      "gripErrorMeters": 4.541799621024183e-07,
+      "minBladeTipZ": 0.04005202278494835,
+      "loop": false
+    }
+  },
+  "outputSha256": "1ca38595ef56240640b0b893d3298769ad4854f31b15e0896d86009562d84f99"
+}
