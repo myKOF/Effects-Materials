@@ -1,0 +1,72 @@
+{
+  "Walk": {
+    "sha256": "1a1d8680a44b3eec5e043944584ae9cfa021965e20b010e6536eb30dc9ca1033",
+    "frames": 174,
+    "size": [
+      1080,
+      1144
+    ],
+    "durationMs": 8700,
+    "loop": 0
+  },
+  "Attack1": {
+    "sha256": "41f54775a6e0394f7407e7a7934d1dcd80e09a511cee56e895e4622383addff7",
+    "frames": 118,
+    "size": [
+      1080,
+      1144
+    ],
+    "durationMs": 6200,
+    "loop": 0
+  },
+  "Attack2": {
+    "sha256": "d3a577ab18269588868d082476673f69049bfa0b01408f7247aa8a2b6b4ac113",
+    "frames": 60,
+    "size": [
+      1080,
+      1144
+    ],
+    "durationMs": 3300,
+    "loop": 0
+  },
+  "Attack3": {
+    "sha256": "3f09dfd10074c5afc5c54b20d8ebad23b49018836d2740d9a727546a16bb96c5",
+    "frames": 60,
+    "size": [
+      1080,
+      1144
+    ],
+    "durationMs": 3300,
+    "loop": 0
+  },
+  "Die": {
+    "sha256": "bc7d5c947be935394ec4d6d2ea00a35bf23ce5b21c099f711569e01042337270",
+    "frames": 44,
+    "size": [
+      1080,
+      1144
+    ],
+    "durationMs": 3050,
+    "loop": 0
+  },
+  "overview": {
+    "sha256": "e5961fe13ad84037a59aeca0bfeefadd31e2fdea745c6267f07abdae73bd440c",
+    "frames": 173,
+    "size": [
+      1920,
+      1200
+    ],
+    "durationMs": 8650
+  },
+  "portrait": {
+    "mode": "RGBA",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  }
+}

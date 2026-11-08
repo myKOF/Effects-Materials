@@ -1,0 +1,72 @@
+{
+  "sha256": "6bf58a6026d0d0214e91bff12cd5dbb9fdd344fa1d248ea26d4870f692c03043",
+  "capeVertices": 3759,
+  "samplingFps": 60,
+  "clips": {
+    "Attack1": {
+      "frames": 353,
+      "maxCapeBoneRise": -0.09972512722015381,
+      "maxHemAboveAttachment": -0.5160531401634216,
+      "minCapeVertexZ": 0.15503627061843872,
+      "minWeaponVertexZ": 0.035372644662857056,
+      "maxGripError": 6.42653067494864e-07,
+      "minHandBackOutwardDot": 0.08139602839946747,
+      "minThumbToBladeDot": 0.8840322606265545,
+      "maxBodyIntersectionPairs": 0,
+      "intersectionSamples": 353,
+      "maxApprovedGripPoseError": 0
+    },
+    "Attack2": {
+      "frames": 179,
+      "maxCapeBoneRise": -0.17235471308231354,
+      "maxHemAboveAttachment": -0.6193296313285828,
+      "minCapeVertexZ": 0.15199816226959229,
+      "minWeaponVertexZ": 0.03509184718132019,
+      "maxGripError": 7.348554137908192e-07,
+      "minHandBackOutwardDot": -0.999978594481945,
+      "minThumbToBladeDot": 0.8840323835611343,
+      "maxBodyIntersectionPairs": 0,
+      "intersectionSamples": 179,
+      "maxApprovedGripPoseError": 0
+    },
+    "Attack3": {
+      "frames": 179,
+      "maxCapeBoneRise": -0.21997633576393127,
+      "maxHemAboveAttachment": -0.6586369276046753,
+      "minCapeVertexZ": 0.156235009431839,
+      "minWeaponVertexZ": 0.0353492796421051,
+      "maxGripError": 5.360794996306255e-07,
+      "minHandBackOutwardDot": -0.9953236728906631,
+      "minThumbToBladeDot": 0.8840322755277157,
+      "maxBodyIntersectionPairs": 0,
+      "intersectionSamples": 179,
+      "maxApprovedGripPoseError": 0
+    },
+    "Die": {
+      "frames": 131,
+      "maxCapeBoneRise": -0.015726447105407715,
+      "maxHemAboveAttachment": -0.18604892492294312,
+      "minCapeVertexZ": 0.03800004720687866,
+      "minWeaponVertexZ": 0.034382402896881104,
+      "maxGripError": 5.413860715801999e-07,
+      "minHandBackOutwardDot": -0.9999507573666051,
+      "minThumbToBladeDot": 0.8840322196483612,
+      "maxBodyIntersectionPairs": 0,
+      "intersectionSamples": 131,
+      "maxApprovedGripPoseError": 0
+    },
+    "Walk": {
+      "frames": 521,
+      "maxCapeBoneRise": -0.4226749837398529,
+      "maxHemAboveAttachment": -0.8665746450424194,
+      "minCapeVertexZ": 0.1683628261089325,
+      "minWeaponVertexZ": 0.15989676117897034,
+      "maxGripError": 5.942275935885434e-07,
+      "minHandBackOutwardDot": 0.963206079788506,
+      "minThumbToBladeDot": 0.8840322259347886,
+      "maxBodyIntersectionPairs": 0,
+      "intersectionSamples": 521,
+      "maxApprovedGripPoseError": 0
+    }
+  }
+}

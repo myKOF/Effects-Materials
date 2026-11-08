@@ -1,0 +1,15 @@
+{
+  "styleDefinitionsIdentical": true,
+  "sheets": {
+    "xl/worksheets/sheet1.xml": {
+      "cellStylesCompared": 18054,
+      "rowAttributesIdentical": true,
+      "columnAndNativeFormattingIdentical": true
+    },
+    "xl/worksheets/sheet2.xml": {
+      "cellStylesCompared": 6481,
+      "rowAttributesIdentical": true,
+      "columnAndNativeFormattingIdentical": true
+    }
+  }
+}

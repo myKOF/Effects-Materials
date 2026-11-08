@@ -1,0 +1,186 @@
+{
+  "variant": {
+    "name": "第3層・骷髏王Ⅲ",
+    "entities": [
+      {
+        "id": "tb-float",
+        "x": -599,
+        "y": -325,
+        "state": "idle",
+        "lunge": 0,
+        "magic": true,
+        "npc": "tower_boss_3",
+        "sheet": "",
+        "anim": "attack",
+        "npc3d": true,
+        "clip": "Attack3"
+      }
+    ],
+    "plays": [
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack1"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack2"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack3"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack1"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack2"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack3"
+      }
+    ],
+    "createdDefs": [
+      {
+        "file": "images/models/npc3d/boss3.glb",
+        "clips": {
+          "idle": "Walk",
+          "walk": "Walk",
+          "attack1": "Attack1",
+          "attack2": "Attack2",
+          "attack3": "Attack3",
+          "die": "Die"
+        }
+      }
+    ],
+    "disposed": 0,
+    "portrait": [
+      {
+        "src": "images/sprites/boss/boss_skeleton_king_lv3.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king_lv3.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king_lv3.png",
+        "width": 1080
+      }
+    ]
+  },
+  "death": {
+    "plays": [
+      {
+        "name": "attack",
+        "clip": "Attack2"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "die",
+        "clip": "Die"
+      }
+    ],
+    "created": 1,
+    "disposed": 1
+  },
+  "fourth": {
+    "entities": [
+      {
+        "id": "tb-float",
+        "x": -476,
+        "y": -397,
+        "state": "entering",
+        "lunge": 0,
+        "magic": false,
+        "npc": "tower_boss_4",
+        "sheet": "boss",
+        "anim": "idle",
+        "npc3d": false,
+        "clip": null
+      }
+    ],
+    "created": 1,
+    "disposed": 1
+  },
+  "first": {
+    "name": "第1層・骷髏王",
+    "createdDefs": [
+      {
+        "file": "images/models/npc3d/boss3.glb",
+        "clips": {
+          "idle": "Walk",
+          "walk": "Walk",
+          "attack1": "Attack1",
+          "attack2": "Attack2",
+          "attack3": "Attack3",
+          "die": "Die"
+        }
+      },
+      {
+        "file": "images/models/npc3d/boss1.glb",
+        "clips": {
+          "idle": "Walk",
+          "walk": "Walk",
+          "attack1": "Attack1",
+          "attack2": "Attack2",
+          "attack3": "Attack3",
+          "die": "Die"
+        }
+      }
+    ],
+    "disposed": 1
+  },
+  "errors": [],
+  "warnings": [
+    "Oscillator.frequency.value 16319.6 outside nominal range [-16000, 16000]; value will be clamped.",
+    "Oscillator.frequency.value 16044.3 outside nominal range [-16000, 16000]; value will be clamped.",
+    "Oscillator.frequency.value 16433.4 outside nominal range [-16000, 16000]; value will be clamped."
+  ],
+  "viewport": [
+    1440,
+    1000
+  ],
+  "isolatedContext": true
+}
