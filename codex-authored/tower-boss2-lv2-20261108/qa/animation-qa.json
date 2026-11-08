@@ -1,0 +1,38 @@
+{
+  "referenceSha256": "2e945e89db9210f8ce18fc52a7d3f272cdeafb1eec7f626f116c8e5ad9e67fce",
+  "variantSha256": "aadf8f4d14eecbd3bd90b3d92732a5bb3c85a2d377c93aee7214777cc3202ca9",
+  "jointsCompared": 194,
+  "samplingFps": 60,
+  "clips": {
+    "Attack1": {
+      "samples": 353,
+      "maxSkinMatrixError": 1.6570091247558594e-05,
+      "worstJoint": "mixamorig:RightToeBase",
+      "worstSourceSeconds": 2.1166666666666667
+    },
+    "Attack2": {
+      "samples": 179,
+      "maxSkinMatrixError": 1.6808509826660156e-05,
+      "worstJoint": "mixamorig:RightUpLeg",
+      "worstSourceSeconds": 1.2333333333333334
+    },
+    "Attack3": {
+      "samples": 179,
+      "maxSkinMatrixError": 1.3709068298339844e-05,
+      "worstJoint": "Bone_007",
+      "worstSourceSeconds": 2.6666666666666665
+    },
+    "Die": {
+      "samples": 131,
+      "maxSkinMatrixError": 1.710653305053711e-05,
+      "worstJoint": "mixamorig:RightToe_End",
+      "worstSourceSeconds": 1.1666666666666667
+    },
+    "Walk": {
+      "samples": 521,
+      "maxSkinMatrixError": 1.3589859008789062e-05,
+      "worstJoint": "Bone_007",
+      "worstSourceSeconds": 8.033333333333333
+    }
+  }
+}

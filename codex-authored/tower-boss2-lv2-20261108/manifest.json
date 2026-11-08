@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "tasks": [
+    "TOWER-BOSS2-LV2-20261108"
+  ],
+  "license": "Model/material/motions user-created or generated; authorized for game and modification in this chat 2026-11-08. Anatomical hand: official MakeHuman MPFB CC0.",
+  "makehumanRevision": "b1a2dc98776da9d1eea751b159d42cf61778fe2e",
+  "status": "Second tower BOSS Skeleton King II; all five approved motions, fresh rigid sword bone, baked cape; native Excel and real browser verified.",
+  "files": [
+    {
+      "source": "sources/BOSS1_LV2.glb",
+      "sha256": "9aca658fa82927d6dea44eda59c5d063ee9b93de447719225d3f7465bd178e63"
+    },
+    {
+      "source": "sources/BOSS1_approved_motions.glb",
+      "sha256": "2e945e89db9210f8ce18fc52a7d3f272cdeafb1eec7f626f116c8e5ad9e67fce"
+    },
+    {
+      "source": "sources/makehuman/src/mpfb/data/3dobjs/base.obj",
+      "sha256": "bea00279464133e86b634220cd2774ebf3b470de280d11222a6b2269e4a8d950",
+      "raw": true
+    },
+    {
+      "source": "sources/makehuman/src/mpfb/data/rigs/standard/rig.mixamo.json",
+      "sha256": "d6a466af6d708ecead566dce763fc75ec58150d007fb7902019bb95ed7483965",
+      "raw": true
+    },
+    {
+      "source": "sources/makehuman/src/mpfb/data/rigs/standard/weights.mixamo.json",
+      "sha256": "a7635fb2e8733385d17002e79eb6b872e45dd157ef696934c6a75c6b0e064dae",
+      "raw": true
+    },
+    {
+      "source": "sources/makehuman/LICENSE.ASSETS.md",
+      "sha256": "5f3ab0cf6f7ebe92efe4b83213131c617d308d164eeefd5da230373640b0c226",
+      "raw": true
+    },
+    {
+      "source": "editable/BOSS1_anatomical_hand.blend",
+      "sha256": "8dfee3c0c4da57a52608413e99693ddb903c8a818ebfcb7e49e8be802be77b7c"
+    },
+    {
+      "source": "editable/hand-source.json",
+      "sha256": "a653bd4517fd4010898d1e4a14c22af3010428e38b5ae72ee390fbd03e961892"
+    },
+    {
+      "source": "editable/BOSS2_preview.blend",
+      "sha256": "40237e5355d778c5a10bae6a03ae3a1a6850f2f9b2b26c49df0e329320c02c05"
+    },
+    {
+      "source": "exports/boss2.glb",
+      "sha256": "aadf8f4d14eecbd3bd90b3d92732a5bb3c85a2d377c93aee7214777cc3202ca9",
+      "project": "images/models/npc3d/boss2.glb"
+    },
+    {
+      "source": "exports/boss_skeleton_king_lv2.png",
+      "sha256": "dbe4ecb1d0540055fdde5a2c34af2694019b2c77bb31a79f8485a536a70bfd24",
+      "project": "images/sprites/boss/boss_skeleton_king_lv2.png"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/prepare_tower_boss_variant.py",
+      "sha256": "7eb1d24b4a89d0dcd96b95c3459db3fb7ff4cd15574b7c2c8858d119648c15b9",
+      "project": "tools/meshy-pipeline/blender/prepare_tower_boss_variant.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/qa_tower_boss_variant.py",
+      "sha256": "961bfef998f3c4814aefd9ac8e0546c1de497a4d2049235e9d76a9304a9bddb4",
+      "project": "tools/meshy-pipeline/blender/qa_tower_boss_variant.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/qa_tower_boss1.py",
+      "sha256": "be2b67d82cc2d1d99bc79ef0295e7f36d9d20d42855ed3143da8f225b48dcb97",
+      "project": "tools/meshy-pipeline/blender/qa_tower_boss1.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/render_tower_boss1.py",
+      "sha256": "6d0be0ff3822a8fe7708820618aa9e8401c54703c3bf0289f79354a8f69636e5",
+      "project": "tools/meshy-pipeline/blender/render_tower_boss1.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/package_tower_boss1.py",
+      "sha256": "3eafdb00fda1b8739aa24b67e21daff7a87b529ac6a379813017f5900df6c63c",
+      "project": "tools/meshy-pipeline/package_tower_boss1.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/src/export-tower-boss2.cjs",
+      "sha256": "3b7e04dd71a54f2c492527dff34d3277d0090213c4b6a96deea22fab02f5d6a5",
+      "project": "tools/meshy-pipeline/src/export-tower-boss2.cjs"
+    },
+    {
+      "source": "project/docs/assets/TOWER_BOSS2_3D_SOURCE.md",
+      "sha256": "01dc0195c4d77db28ae0877960cf10e447f682c41ca3ed762b7a85ef07c9ca80",
+      "project": "docs/assets/TOWER_BOSS2_3D_SOURCE.md"
+    },
+    {
+      "source": "project/images/models/npc3d/MAKEHUMAN_LICENSE.txt",
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+      "project": "images/models/npc3d/MAKEHUMAN_LICENSE.txt"
+    },
+    {
+      "source": "qa/variant-qa.json",
+      "sha256": "5876c2cd2c3e871fbe6ffb290f47a4d0e7a390543c1e019050507e740042a2b2"
+    },
+    {
+      "source": "qa/animation-qa.json",
+      "sha256": "4c1105cc35461f47fd2b5eac9a238ed80872df4f6320e67d9f6d49495d781b16"
+    },
+    {
+      "source": "qa/geometry-qa.json",
+      "sha256": "e04ae39084f0723c7d5de07309bff6384d21704a93cb3f1f64399d5246138802"
+    },
+    {
+      "source": "qa/portrait-source.json",
+      "sha256": "afb77d4c083322b33d4f34ff7244f9cc4f4bf23c74536f49596165f7334662cc"
+    },
+    {
+      "source": "qa/preview-manifest.json",
+      "sha256": "04feb99316b2114980c53ac9b24f8f5fb7234f9ce30c0582b6b1c72d71a04649"
+    },
+    {
+      "source": "qa/gif-verification.json",
+      "sha256": "99b89e4226cf4946dc8b041dc63250dcaeab7d4671f92ceb9947da0d701de596"
+    },
+    {
+      "source": "qa/runtime-verification.json",
+      "sha256": "8f97f6d228867f1dbb6e3020dd4c29d8c30d1cef52ad212ac3b9b08a87aa30ca"
+    },
+    {
+      "source": "qa/npc-native-receipt.json",
+      "sha256": "b63af1d6c5b1a2ca4dc3c6519582fea54c9bb8066ef79482149b33dda964c207"
+    },
+    {
+      "source": "qa/verify-runtime.cjs",
+      "sha256": "9b8047beffe5ce8dbb4bf2c2fdc404956a98cb49656df47ac074fb7bb4dca96d"
+    },
+    {
+      "source": "qa/verify-gifs.py",
+      "sha256": "f4fce7419ee4f9c25d2373b49b02e25a638ded3c260fafbd4f7e2b77a078949a"
+    }
+  ]
+}

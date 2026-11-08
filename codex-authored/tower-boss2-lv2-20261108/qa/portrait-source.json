@@ -1,0 +1,11 @@
+{
+  "model": "images/models/npc3d/boss2.glb",
+  "modelSha256": "aadf8f4d14eecbd3bd90b3d92732a5bb3c85a2d377c93aee7214777cc3202ca9",
+  "clip": "Walk",
+  "frame": 0,
+  "dimensions": [
+    1080,
+    1080
+  ],
+  "transparent": true
+}

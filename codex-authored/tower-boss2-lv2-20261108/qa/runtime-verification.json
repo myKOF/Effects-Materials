@@ -1,0 +1,205 @@
+{
+  "second": {
+    "name": "第2層・骷髏王Ⅱ",
+    "entities": [
+      {
+        "id": "tb-float",
+        "x": 58,
+        "y": -82,
+        "state": "idle",
+        "lunge": 0,
+        "magic": true,
+        "npc": "tower_boss_2",
+        "sheet": "",
+        "anim": "attack",
+        "npc3d": true,
+        "clip": "Attack2"
+      }
+    ],
+    "plays": [
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack1"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack2"
+      },
+      {
+        "name": "walk",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack3"
+      },
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack1"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack2"
+      }
+    ],
+    "createdDefs": [
+      {
+        "file": "images/models/npc3d/boss2.glb",
+        "clips": {
+          "idle": "Walk",
+          "walk": "Walk",
+          "attack1": "Attack1",
+          "attack2": "Attack2",
+          "attack3": "Attack3",
+          "die": "Die"
+        }
+      }
+    ],
+    "disposed": 0,
+    "portrait": [
+      {
+        "src": "images/sprites/boss/boss_skeleton_king_lv2.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king_lv2.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king_lv2.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king_lv2.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king_lv2.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king_lv2.png",
+        "width": 1080
+      },
+      {
+        "src": "images/sprites/boss/boss_skeleton_king_lv2.png",
+        "width": 1080
+      }
+    ]
+  },
+  "death": {
+    "plays": [
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "attack",
+        "clip": "Attack2"
+      },
+      {
+        "name": "idle",
+        "clip": "Walk"
+      },
+      {
+        "name": "die",
+        "clip": "Die"
+      }
+    ],
+    "created": 1,
+    "disposed": 1
+  },
+  "third": {
+    "entities": [
+      {
+        "id": "tb-float",
+        "x": 354,
+        "y": 0,
+        "state": "entering",
+        "lunge": 0,
+        "magic": true,
+        "npc": "tower_boss_3",
+        "sheet": "boss",
+        "anim": "idle",
+        "npc3d": false,
+        "clip": null
+      }
+    ],
+    "created": 1,
+    "disposed": 1
+  },
+  "first": {
+    "name": "第1層・骷髏王",
+    "createdDefs": [
+      {
+        "file": "images/models/npc3d/boss2.glb",
+        "clips": {
+          "idle": "Walk",
+          "walk": "Walk",
+          "attack1": "Attack1",
+          "attack2": "Attack2",
+          "attack3": "Attack3",
+          "die": "Die"
+        }
+      },
+      {
+        "file": "images/models/npc3d/boss1.glb",
+        "clips": {
+          "idle": "Walk",
+          "walk": "Walk",
+          "attack1": "Attack1",
+          "attack2": "Attack2",
+          "attack3": "Attack3",
+          "die": "Die"
+        }
+      }
+    ],
+    "disposed": 1
+  },
+  "errors": [],
+  "warnings": [
+    "Oscillator.frequency.value 16581.8 outside nominal range [-16000, 16000]; value will be clamped.",
+    "Oscillator.frequency.value 16263.2 outside nominal range [-16000, 16000]; value will be clamped."
+  ],
+  "viewport": [
+    1440,
+    1000
+  ],
+  "isolatedContext": true
+}
