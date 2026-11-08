@@ -1,0 +1,53 @@
+{
+  "macro": {
+    "gender": 1,
+    "age": 0.5,
+    "muscle": 0.45,
+    "weight": 0.45,
+    "proportions": 0.5,
+    "height": 0.5,
+    "cupsize": 0.5,
+    "firmness": 0.5,
+    "race": {
+      "asian": 0.33,
+      "caucasian": 0.33,
+      "african": 0.33
+    }
+  },
+  "mpfbRevision": "b1a2dc98776da9d1eea751b159d42cf61778fe2e",
+  "sources": {
+    "src/mpfb/data/3dobjs/base.obj": "bea00279464133e86b634220cd2774ebf3b470de280d11222a6b2269e4a8d950",
+    "src/mpfb/data/rigs/standard/rig.mixamo.json": "d6a466af6d708ecead566dce763fc75ec58150d007fb7902019bb95ed7483965",
+    "src/mpfb/data/rigs/standard/weights.mixamo.json": "a7635fb2e8733385d17002e79eb6b872e45dd157ef696934c6a75c6b0e064dae",
+    "LICENSE.ASSETS.md": "5f3ab0cf6f7ebe92efe4b83213131c617d308d164eeefd5da230373640b0c226"
+  },
+  "license": "CC0 1.0 Universal",
+  "handVertices": 6573,
+  "scale": 1.284403849882561,
+  "dorsalNormalRest": [
+    0.2850269675254822,
+    -0.9585195183753967,
+    0.0
+  ],
+  "thumbTipRest": [
+    -0.7792205810546875,
+    0.009086238220334053,
+    1.3025155067443848
+  ],
+  "thumbDistalAxisRest": [
+    -0.3585381805896759,
+    0.2998946011066437,
+    -0.8840326070785522
+  ],
+  "thumbBladeAlignment": 0.8840326070785522,
+  "targetWrist": [
+    -0.6321539282798767,
+    -0.018702713772654533,
+    1.3700504302978516
+  ],
+  "targetGrip": [
+    -0.7749999761581421,
+    -0.02500000037252903,
+    1.3550000190734863
+  ]
+}

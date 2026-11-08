@@ -1,0 +1,56 @@
+{
+  "sha256": "f98852a55aa1e5fc08e71f4a7deac02e69884fe21d2b1e4234ae16c7fdc7f0d1",
+  "capeVertices": 3759,
+  "clips": {
+    "Attack1": {
+      "frames": 177,
+      "maxCapeBoneRise": -0.09972518682479858,
+      "maxHemAboveAttachment": -0.5135259628295898,
+      "minCapeVertexZ": 0.1365426778793335,
+      "minWeaponVertexZ": 0.035373568534851074,
+      "maxGripError": 5.503352079576071e-07,
+      "minHandBackOutwardDot": 0.08139489591121674,
+      "minThumbToBladeDot": 0.8840323463082314
+    },
+    "Attack2": {
+      "frames": 90,
+      "maxCapeBoneRise": -0.1723548173904419,
+      "maxHemAboveAttachment": -0.6168436110019684,
+      "minCapeVertexZ": 0.15217195451259613,
+      "minWeaponVertexZ": 0.03526431322097778,
+      "maxGripError": 6.782893345797683e-07,
+      "minHandBackOutwardDot": -0.9999785870313644,
+      "minThumbToBladeDot": 0.884032279253006
+    },
+    "Attack3": {
+      "frames": 90,
+      "maxCapeBoneRise": -0.21997638046741486,
+      "maxHemAboveAttachment": -0.6563462615013123,
+      "minCapeVertexZ": 0.1563914716243744,
+      "minWeaponVertexZ": 0.03534993529319763,
+      "maxGripError": 4.6552715753952587e-07,
+      "minHandBackOutwardDot": -0.9283072259277105,
+      "minThumbToBladeDot": 0.8840323002077639
+    },
+    "Die": {
+      "frames": 66,
+      "maxCapeBoneRise": -0.01605251431465149,
+      "maxHemAboveAttachment": -0.18093252182006836,
+      "minCapeVertexZ": 0.027288615703582764,
+      "minWeaponVertexZ": 0.03503847122192383,
+      "maxGripError": 4.6000924826959166e-07,
+      "minHandBackOutwardDot": -0.9999508509645239,
+      "minThumbToBladeDot": 0.8840323146432638
+    },
+    "Walk": {
+      "frames": 261,
+      "maxCapeBoneRise": -0.422675222158432,
+      "maxHemAboveAttachment": -0.8664602041244507,
+      "minCapeVertexZ": 0.16851301491260529,
+      "minWeaponVertexZ": 0.15989840030670166,
+      "maxGripError": 5.802371344696742e-07,
+      "minHandBackOutwardDot": 0.9632059093564749,
+      "minThumbToBladeDot": 0.8840322941541672
+    }
+  }
+}

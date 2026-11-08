@@ -1,0 +1,16 @@
+{
+  "file": "BOSS1_Attack3_HD.gif",
+  "sha256": "a964cd01d12140c787df2a1f107c2c9f684036278931724d66f335a1445dd747",
+  "framesDecoded": 371,
+  "dimensions": [
+    1080,
+    1144
+  ],
+  "loop": 0,
+  "playbackSpeed": 0.2,
+  "camera": "front",
+  "sourceSeconds": 2.966666666666667,
+  "motionSeconds": 14.833333333333334,
+  "totalGifMilliseconds": 15140,
+  "endHoldMilliseconds": 300
+}

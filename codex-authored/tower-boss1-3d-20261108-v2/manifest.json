@@ -1,0 +1,129 @@
+{
+  "version": 2,
+  "task": "TOWER-BOSS1-3D-REV2-20261108",
+  "license": "Original five GLBs: user-created/generated, game use/modification authorized in chat 2026-11-08. Anatomical hand: official MakeHuman MPFB CC0 1.0 Universal.",
+  "makehumanSource": "https://github.com/makehumancommunity/mpfb2",
+  "makehumanRevision": "b1a2dc98776da9d1eea751b159d42cf61778fe2e",
+  "status": "Revised 3D preview ready for user review; game renderer integration pending",
+  "preview": {
+    "camera": "front",
+    "motion": "Attack3",
+    "speed": 0.2,
+    "sourceSpeedUnchanged": true
+  },
+  "files": [
+    {
+      "source": "sources/BOSS1_Walk.glb",
+      "sha256": "57f25a7a22ff299968e659a8abe3eb8e2d6e3f670c7f065e4af355eedf8965aa"
+    },
+    {
+      "source": "sources/BOSS1_Attack1.glb",
+      "sha256": "bbba59140681e125318398b157c7e67c6ea0b17379b98833c971c6e4f47b7b9a"
+    },
+    {
+      "source": "sources/BOSS1_Attack2.glb",
+      "sha256": "83f98ae01b2a266d5bd335110874a703833fa2985fc81917791cc325123b0e5a"
+    },
+    {
+      "source": "sources/BOSS1_Attack3.glb",
+      "sha256": "5c66dfaef36662647e4400171d3e1d96fd9d065d6327bfd1801489a0705dbf41"
+    },
+    {
+      "source": "sources/BOSS1_Die.glb",
+      "sha256": "da1cf3e807abfc266325cad5933bdc5f76201ac502c8b7fa2796540590548a6d"
+    },
+    {
+      "source": "sources/makehuman/src/mpfb/data/3dobjs/base.obj",
+      "sha256": "bea00279464133e86b634220cd2774ebf3b470de280d11222a6b2269e4a8d950"
+    },
+    {
+      "source": "sources/makehuman/src/mpfb/data/rigs/standard/rig.mixamo.json",
+      "sha256": "b4e491bacdcae797e53b7692169cf6a160c50fcc1eda5f0982e92fac1561ae56"
+    },
+    {
+      "source": "sources/makehuman/src/mpfb/data/rigs/standard/weights.mixamo.json",
+      "sha256": "4561be4d7c0093d70e3dba4fbacbbbb6d66781573779fb12a0509cefa181b8ae"
+    },
+    {
+      "source": "sources/makehuman/LICENSE.ASSETS.md",
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c"
+    },
+    {
+      "source": "editable/BOSS1_preview.blend",
+      "sha256": "95168232d1ad34306f5447d3c287317b972c77810c7f2d0076f4714d59365b20"
+    },
+    {
+      "source": "editable/BOSS1_anatomical_hand.blend",
+      "sha256": "8dfee3c0c4da57a52608413e99693ddb903c8a818ebfcb7e49e8be802be77b7c"
+    },
+    {
+      "source": "editable/hand-source.json",
+      "sha256": "a653bd4517fd4010898d1e4a14c22af3010428e38b5ae72ee390fbd03e961892"
+    },
+    {
+      "source": "exports/boss1.glb",
+      "sha256": "f98852a55aa1e5fc08e71f4a7deac02e69884fe21d2b1e4234ae16c7fdc7f0d1",
+      "project": "images/models/npc3d/boss1.glb"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/prepare_tower_boss1.py",
+      "sha256": "003b4520b2986bc3093c6759a813b7b0e6ee31b9c64a02d6e21ebe23d8e85864",
+      "project": "tools/meshy-pipeline/blender/prepare_tower_boss1.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/build_tower_boss_hand.py",
+      "sha256": "7e08ac2d43792cf3b6cc7019fa50c6e3461b05ded84455881c4c6c6321e33962",
+      "project": "tools/meshy-pipeline/blender/build_tower_boss_hand.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/qa_tower_boss1.py",
+      "sha256": "55223083082c4eb038256a3aea57bbe6b3b6470e0129338c2ca04c232d7319a6",
+      "project": "tools/meshy-pipeline/blender/qa_tower_boss1.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/render_tower_boss1.py",
+      "sha256": "2ba1faef32329b147e71c765882fd2563c64dbbdf9bbfedeafa10f30b3ac4d04",
+      "project": "tools/meshy-pipeline/blender/render_tower_boss1.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/package_tower_boss1.py",
+      "sha256": "7e5b59c410c2aef4db67ef27364992e0c9168ce3d94d24c4f08dab30e187f10b",
+      "project": "tools/meshy-pipeline/package_tower_boss1.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/src/export-tower-boss1.cjs",
+      "sha256": "66b12ce2f3089dda920b19bf47d0228ed4b780bfddc12c6b083576ef8bb075e9",
+      "project": "tools/meshy-pipeline/src/export-tower-boss1.cjs"
+    },
+    {
+      "source": "project/docs/assets/TOWER_BOSS1_3D_SOURCE.md",
+      "sha256": "ab23b81ceb433c28581f99e1be5e06018877357e0c8a41264144fc20119e680e",
+      "project": "docs/assets/TOWER_BOSS1_3D_SOURCE.md"
+    },
+    {
+      "source": "project/images/models/npc3d/MAKEHUMAN_LICENSE.txt",
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+      "project": "images/models/npc3d/MAKEHUMAN_LICENSE.txt"
+    },
+    {
+      "source": "qa/rig-qa.json",
+      "sha256": "38d5720217b63782543ce5e688b02fe9aa284409bbfebe83697d34a9fa4c5394"
+    },
+    {
+      "source": "qa/export-geometry-qa.json",
+      "sha256": "7e328e206b72336fa155bbcadd92c189afe04378cdb86d690b4fd354b0d4d08c"
+    },
+    {
+      "source": "qa/preview-manifest.json",
+      "sha256": "d2b5814395a3f0dcd4cdd87a6457b5553c3e5c1a3532fb606e14c44c54ab5755"
+    },
+    {
+      "source": "qa/gif-report.json",
+      "sha256": "567794e57d8a95f8979ff13db6d7b618c0610ccdc4c42e98747d5fb3ba498220"
+    },
+    {
+      "source": "qa/gif-verification.json",
+      "sha256": "67365c7bdc3114dabb4c0899e59a73e6d065900540bb4838c0bca011cee4cb63"
+    }
+  ]
+}

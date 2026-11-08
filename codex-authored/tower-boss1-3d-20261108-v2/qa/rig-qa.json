@@ -1,0 +1,81 @@
+{
+  "blender": "5.2.3 LTS",
+  "license": "User confirmed self-created/generated and authorized game use/modification in chat, 2026-11-08",
+  "sourceSha256": {
+    "BOSS1_Walk.glb": "57f25a7a22ff299968e659a8abe3eb8e2d6e3f670c7f065e4af355eedf8965aa",
+    "BOSS1_Attack1.glb": "bbba59140681e125318398b157c7e67c6ea0b17379b98833c971c6e4f47b7b9a",
+    "BOSS1_Attack2.glb": "83f98ae01b2a266d5bd335110874a703833fa2985fc81917791cc325123b0e5a",
+    "BOSS1_Attack3.glb": "5c66dfaef36662647e4400171d3e1d96fd9d065d6327bfd1801489a0705dbf41",
+    "BOSS1_Die.glb": "da1cf3e807abfc266325cad5933bdc5f76201ac502c8b7fa2796540590548a6d"
+  },
+  "weaponBone": "Sword_R",
+  "weaponParent": "mixamorig:RightHand",
+  "swordSourceFaces": 436,
+  "closedHandVertices": 6573,
+  "capeBones": [
+    "Cape_Upper",
+    "Cape_Middle",
+    "Cape_Lower"
+  ],
+  "capeVertices": 3755,
+  "gripReferenceRollDegrees": 77.23489789919586,
+  "handSourceSha256": "8dfee3c0c4da57a52608413e99693ddb903c8a818ebfcb7e49e8be802be77b7c",
+  "dorsalNormalRest": [
+    0.2850269675254822,
+    -0.9585195183753967,
+    0.0
+  ],
+  "thumbDistalAxisRest": [
+    -0.3585381805896759,
+    0.2998946011066437,
+    -0.8840326070785522
+  ],
+  "thumbTipRest": [
+    -0.7792205810546875,
+    0.009086238220334053,
+    1.3025155067443848
+  ],
+  "clips": {
+    "Walk": {
+      "frames": 261,
+      "fps": 30,
+      "duration": 8.666666666666666,
+      "gripErrorMeters": 5.397430144630323e-07,
+      "minBladeTipZ": 0.15920139849185944,
+      "loop": true
+    },
+    "Attack1": {
+      "frames": 177,
+      "fps": 30,
+      "duration": 5.866666666666666,
+      "gripErrorMeters": 4.933162140025749e-07,
+      "minBladeTipZ": 0.034452442079782486,
+      "loop": false
+    },
+    "Attack2": {
+      "frames": 90,
+      "fps": 30,
+      "duration": 2.966666666666667,
+      "gripErrorMeters": 5.057621821307283e-07,
+      "minBladeTipZ": 0.033900901675224304,
+      "loop": false
+    },
+    "Attack3": {
+      "frames": 90,
+      "fps": 30,
+      "duration": 2.966666666666667,
+      "gripErrorMeters": 4.6552715753952587e-07,
+      "minBladeTipZ": 0.03608027845621109,
+      "loop": false
+    },
+    "Die": {
+      "frames": 66,
+      "fps": 30,
+      "duration": 2.1666666666666665,
+      "gripErrorMeters": 4.5783196376971053e-07,
+      "minBladeTipZ": 0.0379994660615921,
+      "loop": false
+    }
+  },
+  "outputSha256": "f98852a55aa1e5fc08e71f4a7deac02e69884fe21d2b1e4234ae16c7fdc7f0d1"
+}

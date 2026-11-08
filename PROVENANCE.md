@@ -19,6 +19,13 @@ preset 實際引用到的素材。所以
 
 ## 各 package
 
+### codex-authored/tower-boss1-3d-20261108-v2
+
+- 2026-11-08：封魔塔 BOSS1 披風／握劍修訂，保留第一版套件。五個原始 GLB 為使用者自製／自行生成，已於聊天明確授權本遊戲使用及修改；沿用角色、貼圖、劍裝飾及五動作。
+- 新手部採官方 MakeHuman MPFB 的 CC0 人體拓樸，版本 b1a2dc98776da9d1eea751b159d42cf61778fe2e，經 Blender 指骨握拳、擬合與權重修整。套件保存 base.obj、rig／weights.mixamo.json、LICENSE.ASSETS.md、MakeHuman 完整參數／來源 SHA、人體及手部可編輯 Blend，並隨遊戲匯出 CC0 授權原文。
+- 使用者的兩張握劍參考圖僅作姿勢判讀，未匯入套件。披風／手臂動畫及握柄由 Codex 編修；五動作保持原時長。第三招正面 0.2 倍速只供聊天 GIF 檢視。
+- manifest.json 記錄來源、工具、可編輯檔、GLB 及 QA；project/docs/assets/TOWER_BOSS1_3D_SOURCE.md 記錄重建與限制。PNG／GIF 不納入 Git；保留渲染與 GIF 驗證結果。此 3D 模型不是 VFX Preset，不加入 VFX 專用索引。
+
 ### codex-authored/equipment-icons-20261031
 
 - 2026-11-01：依使用者實際裝備欄截圖要求，使用內建 imagegen 對全部28張做黑底移除；新增 alpha-sources，保留原始黑底來源，遊戲匯出改為帶實際alpha的透明RGBA PNG。source.json保留原生圖與去背來源雜湊及提示，alpha-validation.json記錄逐圖透明像素與角落驗證。
