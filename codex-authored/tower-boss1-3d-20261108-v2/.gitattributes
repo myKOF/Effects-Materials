@@ -1,2 +1,2 @@
 # Keep the authorized upstream OBJ byte-for-byte, including its original CRLF.
-sources/makehuman/**/*.obj -text
+sources/makehuman/**/*.obj binary
