@@ -1,0 +1,56 @@
+{
+  "Treant_actions_HD.gif": {
+    "size": [
+      1920,
+      1200
+    ],
+    "frames": 118,
+    "durationMs": 5900,
+    "loop": 0
+  },
+  "Treant_Attack1_HD.gif": {
+    "size": [
+      1080,
+      1144
+    ],
+    "frames": 90,
+    "durationMs": 4800,
+    "loop": 0
+  },
+  "Treant_Attack2_HD.gif": {
+    "size": [
+      1080,
+      1144
+    ],
+    "frames": 56,
+    "durationMs": 3100,
+    "loop": 0
+  },
+  "Treant_Attack3_HD.gif": {
+    "size": [
+      1080,
+      1144
+    ],
+    "frames": 118,
+    "durationMs": 6200,
+    "loop": 0
+  },
+  "Treant_Die_HD.gif": {
+    "size": [
+      1080,
+      1144
+    ],
+    "frames": 44,
+    "durationMs": 3050,
+    "loop": 0
+  },
+  "Treant_Walk_HD.gif": {
+    "size": [
+      1080,
+      1144
+    ],
+    "frames": 60,
+    "durationMs": 3000,
+    "loop": 0
+  }
+}

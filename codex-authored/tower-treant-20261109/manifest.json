@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "tasks": [
+    "TOWER-TREANT-ACTIONS-20261109"
+  ],
+  "license": "All five BOSS2 models/motions are user-created or generated; authorized for game and modification in this chat. Portrait is a render of that model; no third-party art.",
+  "status": "Second tower boss treant, five native motions; attack horizontal root fixed, original mesh/materials retained; editable scene reopened with all five actions.",
+  "files": [
+    {
+      "source": "sources/BOSS2_Walk.glb",
+      "sha256": "1c7a5f9f6b0d8d3500e36ba8b3bbbd11b37e7daf5308f82583da618147bea7bc"
+    },
+    {
+      "source": "sources/BOSS2_Attack1.glb",
+      "sha256": "e62025a3f2515b86c0396b021b062a7e624856f94497d8daa86ab8969274192d"
+    },
+    {
+      "source": "sources/BOSS2_Attack2.glb",
+      "sha256": "f5c9ee8fbedc462434d6a8e6bc9d6a600baba6750459081849ecada931c4c403"
+    },
+    {
+      "source": "sources/BOSS2_Attack3.glb",
+      "sha256": "43b24275cbebd191d3aa4e0d3ef72f96665e59ad4536b3c0dd56a29339cd151a"
+    },
+    {
+      "source": "sources/BOSS2_Die.glb",
+      "sha256": "6aa4b5a88f67fdebd6a4b30c2b73084b89141da7a7d90f3a8b0a4084385376ac"
+    },
+    {
+      "source": "exports/treant.glb",
+      "sha256": "f4de6ce8b9aee60e36031c58c3799441372eb0252f0d657ecc5b0dc1fb008e6c",
+      "project": "images/models/npc3d/treant.glb"
+    },
+    {
+      "source": "exports/boss_treant.png",
+      "sha256": "7a3344e3ff229e7c3d1430ddd1105045eda02ee72eb185480a31aedf9674d258",
+      "project": "images/sprites/boss/boss_treant.png"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/src/prepare-tower-treant.cjs",
+      "sha256": "b2610dc49475c7ac4c77bc9a9f78acd509e140fe7c6e7c0d75bc208ee6489296",
+      "project": "tools/meshy-pipeline/src/prepare-tower-treant.cjs"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/src/export-tower-treant.cjs",
+      "sha256": "1eb6ea9af2c08409f3669a26256f5dd956b36130cc27790a0127f87d6ff59ba8",
+      "project": "tools/meshy-pipeline/src/export-tower-treant.cjs"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/render_tower_treant.py",
+      "sha256": "aa61ab9493b2bdf1793b87b2545152c7df69a50444c5fa0ced8356751bdccba0",
+      "project": "tools/meshy-pipeline/blender/render_tower_treant.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/package_tower_treant.py",
+      "sha256": "1807997f082d43afccbc41333f0e8eb2ab867f988770cd6a45edbdaf13c27cc3",
+      "project": "tools/meshy-pipeline/package_tower_treant.py"
+    },
+    {
+      "source": "project/docs/assets/TOWER_TREANT_SOURCE.md",
+      "sha256": "948b8099170e296fbaf6c7eeffd800f5661139425c92c46ac7238fc0326ca156",
+      "project": "docs/assets/TOWER_TREANT_SOURCE.md"
+    },
+    {
+      "source": "shared/render_tower_boss1.py",
+      "sha256": "6d0be0ff3822a8fe7708820618aa9e8401c54703c3bf0289f79354a8f69636e5"
+    },
+    {
+      "source": "shared/package_tower_boss1.py",
+      "sha256": "3eafdb00fda1b8739aa24b67e21daff7a87b529ac6a379813017f5900df6c63c"
+    },
+    {
+      "source": "editable/Treant_preview.blend",
+      "sha256": "de84fa7cf0c5b59821e38636fc62b9b8b59597b1b6f1a921e534185599162174"
+    },
+    {
+      "source": "editable/Treant_portrait_scene.blend",
+      "sha256": "dd2df1fe41df77b3a33fe37733c8bb6ed610f1556ae33c4129887738f4f40c6a"
+    },
+    {
+      "source": "editable/portrait-recipe.py",
+      "sha256": "7fad407bc95c1be6fb2ed7f8550cee3bc3ae13a2e448f56caae07140e67ce8f5"
+    },
+    {
+      "source": "editable/portrait-config/CSV/NPC.csv",
+      "sha256": "03ef3fbb8edefda358375730abf8be6fee421d86f599cc261316cad7e212cbc4"
+    },
+    {
+      "source": "qa/model-build-qa.json",
+      "sha256": "d4d2aefbb9c57ce602f36cdcc5cf9c882386e89783740649a5fb4106547a7015"
+    },
+    {
+      "source": "qa/asset-table-qa.json",
+      "sha256": "178ee6b4866108c09b4c09813cfcfb1323a6d42c90f43b473f41a13de3cb7fcd"
+    },
+    {
+      "source": "qa/xlsx-format-qa.json",
+      "sha256": "d3d765552ebb10f182005f5c020498e85196a87ba6bb68e38a9cc735adc13f71"
+    },
+    {
+      "source": "qa/npc-native-receipt.json",
+      "sha256": "4a2277fa06ac0825896c47075402ee9925e9eef935ab3f9754d194376a5e81a0"
+    },
+    {
+      "source": "qa/editable-qa.log",
+      "sha256": "a9eae05699bea8260455310837a2ae89cba2bc806f32bed924f74d3186615833"
+    },
+    {
+      "source": "qa/runtime-verification.json",
+      "sha256": "a2bb5a9a33bb6b8b663628369ee71b2e03359551e9fe513dbfe3e754d54c1e15"
+    },
+    {
+      "source": "qa/preview-manifest.json",
+      "sha256": "157135506a61eb5e41c23828f9630c3fe740a3f812cc9e5decf1ad5a6d019437"
+    },
+    {
+      "source": "qa/preview-gif-report.json",
+      "sha256": "2a6ec64851295bec3680c42284075a0032fbbfdaa965f63f62aa6a800b78f2bc"
+    },
+    {
+      "source": "qa/preview-gif-verified.json",
+      "sha256": "215770b28b4989d47930a0a79c7653f9f6b6344e84775935bc264d5e2d1ecf5d"
+    },
+    {
+      "source": "qa/portrait-source.json",
+      "sha256": "60fc4ab52fe87232bd70c8be26644873a22eaaa5f71cbd3b7e136b27f81a1f29"
+    },
+    {
+      "source": "qa/chain-flake-check.json",
+      "sha256": "c132d8d9d9832b62b21f52c97001e28c67e863890cbac7a1f4d55454d72d7bee"
+    },
+    {
+      "source": "qa/focused-final.tap",
+      "sha256": "c78f2ab776492cf80c7f80ae29e79438f2de7d4a8e09b9b294ec116593db77a7"
+    },
+    {
+      "source": "qa/regression-final.tap",
+      "sha256": "65a2be0e59b1bffdd588d4c76f05f94a48588c8173cc38236bbacb7f21139afb"
+    },
+    {
+      "source": "qa/baseline.tap",
+      "sha256": "5de7a4e60705dd62d734e265c907addcf525369d8f45f674b103a148c0bb1052"
+    }
+  ]
+}

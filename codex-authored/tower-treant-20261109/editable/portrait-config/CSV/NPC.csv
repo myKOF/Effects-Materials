@@ -1,0 +1,2 @@
+NPC識別碼,類型,3D模型,3D站立動作,3D移動動作
+tower_boss_2,tower_boss,../../exports/treant.glb,Unsteady_Walk,Unsteady_Walk

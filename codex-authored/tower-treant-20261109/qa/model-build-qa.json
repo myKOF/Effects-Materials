@@ -1,0 +1,41 @@
+{
+  "sources": [
+    {
+      "file": "BOSS2_Walk.glb",
+      "sha256": "1c7a5f9f6b0d8d3500e36ba8b3bbbd11b37e7daf5308f82583da618147bea7bc",
+      "semantic": "Walk",
+      "clip": "Unsteady_Walk",
+      "duration": 2.9666666984558105
+    },
+    {
+      "file": "BOSS2_Attack1.glb",
+      "sha256": "e62025a3f2515b86c0396b021b062a7e624856f94497d8daa86ab8969274192d",
+      "semantic": "Attack1",
+      "clip": "Weapon_Combo_2",
+      "duration": 4.5
+    },
+    {
+      "file": "BOSS2_Attack2.glb",
+      "sha256": "f5c9ee8fbedc462434d6a8e6bc9d6a600baba6750459081849ecada931c4c403",
+      "semantic": "Attack2",
+      "clip": "Attack",
+      "duration": 2.799999952316284
+    },
+    {
+      "file": "BOSS2_Attack3.glb",
+      "sha256": "43b24275cbebd191d3aa4e0d3ef72f96665e59ad4536b3c0dd56a29339cd151a",
+      "semantic": "Attack3",
+      "clip": "Basic_Jump",
+      "duration": 5.866666793823242
+    },
+    {
+      "file": "BOSS2_Die.glb",
+      "sha256": "6aa4b5a88f67fdebd6a4b30c2b73084b89141da7a7d90f3a8b0a4084385376ac",
+      "semantic": "Die",
+      "clip": "Shot_and_Fall_Forward",
+      "duration": 2.1666667461395264
+    }
+  ],
+  "horizontalAttackRoot": "fixed x/z at first key; vertical motion retained",
+  "outputSha256": "f4de6ce8b9aee60e36031c58c3799441372eb0252f0d657ecc5b0dc1fb008e6c"
+}

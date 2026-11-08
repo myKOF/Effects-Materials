@@ -1,0 +1,48 @@
+✔ NPC 3D metadata round-trips all tower rows and preserves their gameplay data (180.3608ms)
+✔ changing a clip in the NPC table changes only that boss binding (121.2974ms)
+✔ mistyped clips, missing models and model-less action bindings stop table application (51.3287ms)
+✔ empty model and clip cells clear a binding while preserving the legacy image (115.1656ms)
+✔ boss1: sword is a separate rigid mesh under the right hand and all five clips exist (21.6715ms)
+✔ boss2: sword is a separate rigid mesh under the right hand and all five clips exist (15.6634ms)
+✔ boss3: sword is a separate rigid mesh under the right hand and all five clips exist (14.3881ms)
+✔ all three bosses retain distinct supplied base-color textures (31.2431ms)
+✔ walk time follows actual world speed and visual size; stopping and pause do not advance feet (3.481ms)
+✔ movement rate never changes attack or death timing; returning to walk uses latest displacement (1.4453ms)
+✔ NPC animation advances with the same delta as displacement, including slow frames and pause (2.9331ms)
+✔ only explicitly configured NPCs request a model and share the approved material renderer (3.0228ms)
+✔ idle holds Walk first pose, movement resumes Walk, all three attacks cycle, death holds (1.714ms)
+✔ missing clips release the controller and repeated disposal releases resources once (4.4253ms)
+✔ walk-only models hold a standing pose for missing attacks and fade from a held death pose (1.1163ms)
+✔ a late asynchronous model cannot replace a removed or reused enemy (9.0029ms)
+✔ all 50 tower bosses approach or stand to act at opening, without a retreat target (1410.8421ms)
+✔ basic attacks hold the full animation, pause an existing route, then resume the same fixed target (25.4754ms)
+✔ tower spells lock ordinary movement even when the archetype permits wild movement; min-range spells never trigger opening retreat (20.7487ms)
+✔ tower reposition has a fixed endpoint while the player moves (21.1587ms)
+✔ a full live tower skill loadout cannot starve an existing movement route (90.7282ms)
+✔ 50 independent bosses and all three tower tiers keep pursuit and moving repo targets within one fixed arena (916.2029ms)
+✔ projected repo endpoint completes at a corner rather than running forever into the boundary (13.0349ms)
+✔ knockback and any forced motion are constrained with body clearance, including early tick returns (15.1593ms)
+✔ arena geometry uses double the reference view on every axis and late renderer entry uses the authoritative center (18.0061ms)
+✔ 開場：BOSS 站在我方正前方、帶 tb-float 定址，塔戰站位與野外共用同一個 bfPlayerPos 參照 (61.3523ms)
+✔ 交戰：雙方對衝後才出手，普攻一律在近戰距離內、BOSS 攻擊一律在射程內，限時燒掉不到一秒 (26.5857ms)
+✔ 打不到時冷卻停在 ready 不累積：BOSS 走不過來就不出手、也不攢一堆攻擊 (28.1312ms)
+✔ 結束：清掉塔戰站位參照，畫面據此回到野外 (17.5089ms)
+✔ 登場：轉場期間限時不走、雙方不動也不出手，結束後才開打；回野外時出怪延後同樣長度 (16.8213ms)
+✔ treant has one original skin, one unarmed mesh and five finite native clips; attacks are horizontally in-place (13.4439ms)
+✔ 凍結的 Worker 指令表有 96 條且分類數量固定 (2.4737ms)
+✔ Worker 在每個模擬步驟後低延遲送出視覺事件 (0.6858ms)
+✔ 所有指令名稱、fn、args、resolve、limit 與 dirty metadata 格式合法 (2.1622ms)
+✔ fn 非 null 的指令函式存在於模擬層原始碼 (37.0156ms)
+✔ 一般寶石指令不使用不存在的 gemId 實例參數 (0.2825ms)
+✔ validateCommand 接受合法參數與省略 optional 參數 (0.7407ms)
+✔ validateCommand 拒絕未知指令與缺少 required 參數 (0.426ms)
+✔ validateCommand 拒絕 required 與 optional 參數的錯誤型別 (0.7911ms)
+✔ PANEL_KEYS 與模擬層實際 UI.dirty 鍵完全一致 (12.1461ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 40
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1735.751

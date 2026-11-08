@@ -1,0 +1,65 @@
+{
+  "originalWalkBinaryRetained": true,
+  "geometryMaterialsSkinIdentical": true,
+  "onlyAuthorizedNpcCellsChanged": [
+    {
+      "row": 483,
+      "column": 2
+    },
+    {
+      "row": 483,
+      "column": 6
+    },
+    {
+      "row": 483,
+      "column": 7
+    },
+    {
+      "row": 483,
+      "column": 8
+    },
+    {
+      "row": 483,
+      "column": 9
+    },
+    {
+      "row": 483,
+      "column": 10
+    },
+    {
+      "row": 483,
+      "column": 28
+    },
+    {
+      "row": 483,
+      "column": 29
+    },
+    {
+      "row": 483,
+      "column": 30
+    },
+    {
+      "row": 483,
+      "column": 31
+    },
+    {
+      "row": 483,
+      "column": 32
+    },
+    {
+      "row": 483,
+      "column": 33
+    },
+    {
+      "row": 483,
+      "column": 34
+    }
+  ],
+  "modelClips": [
+    "Unsteady_Walk",
+    "Weapon_Combo_2",
+    "Attack",
+    "Basic_Jump",
+    "Shot_and_Fall_Forward"
+  ]
+}

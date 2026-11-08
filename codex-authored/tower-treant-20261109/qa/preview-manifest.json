@@ -1,0 +1,57 @@
+{
+  "npc": "tower_boss_2",
+  "model": "images/models/npc3d/treant.glb",
+  "width": 1080,
+  "height": 1080,
+  "renderFps": 20,
+  "camera": "three-quarter",
+  "playbackSpeed": 1,
+  "engine": "Blender EEVEE",
+  "clips": {
+    "Walk": {
+      "clip": "Unsteady_Walk",
+      "frames": 60,
+      "duration": 2.966666666666667,
+      "sourceDuration": 2.966666666666667,
+      "playbackSpeed": 1,
+      "loop": true,
+      "cameraSpan": 2.8482401371002197
+    },
+    "Attack1": {
+      "clip": "Weapon_Combo_2",
+      "frames": 90,
+      "duration": 4.5,
+      "sourceDuration": 4.5,
+      "playbackSpeed": 1,
+      "loop": false,
+      "cameraSpan": 2.8210902214050293
+    },
+    "Attack2": {
+      "clip": "Attack",
+      "frames": 56,
+      "duration": 2.8,
+      "sourceDuration": 2.8,
+      "playbackSpeed": 1,
+      "loop": false,
+      "cameraSpan": 2.7069664001464844
+    },
+    "Attack3": {
+      "clip": "Basic_Jump",
+      "frames": 118,
+      "duration": 5.866666666666666,
+      "sourceDuration": 5.866666666666666,
+      "playbackSpeed": 1,
+      "loop": false,
+      "cameraSpan": 3.556215286254883
+    },
+    "Die": {
+      "clip": "Shot_and_Fall_Forward",
+      "frames": 44,
+      "duration": 2.1666666666666665,
+      "sourceDuration": 2.1666666666666665,
+      "playbackSpeed": 1,
+      "loop": false,
+      "cameraSpan": 3.247878074645996
+    }
+  }
+}

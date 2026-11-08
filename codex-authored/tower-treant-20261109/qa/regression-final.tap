@@ -1,0 +1,528 @@
+✔ 距離＝到原點的直線距離扣掉體型；越近數字越小 (28.4041ms)
+✔ BOSS 體型較大，同樣的中心距離下牠比較近（邊緣先碰到我方） (14.6806ms)
+✔ 沒有座標的實體視為最遠，不會插隊搶走普攻目標 (15.3952ms)
+✔ 走到近戰距離內才打得到；遠處的敵人打不到人 (13.4354ms)
+✔ 魔法系敵人是遠程：同樣的距離，物理打不到、魔法打得到 (13.7823ms)
+✔ 沒有座標時不擋攻擊（高塔沿用舊行為） (19.0279ms)
+✔ 生成站位落在生成半徑上，且彼此不重疊 (13.5203ms)
+✔ 補波時把既有敵人算進容量，超過上限的不會生出來 (23.4876ms)
+✔ 每個 tick 朝我方逼近，走到接觸距離就停住不再前進 (24.0638ms)
+✔ 敵人跑速符合 BF_ENEMY_SPEED（與我方速度各自獨立） (14.689ms)
+✔ 進場中的敵人不參與逼近（還沒進畫面） (14.7851ms)
+✔ 同伴互相推開，不會疊在同一點 (20.6478ms)
+✔ 我方會朝目標跑，進到近戰距離就停下來 (16.9017ms)
+✔ 我方跑速符合 BF_PLAYER_SPEED (18.071ms)
+✔ 場上沒有敵人時往前推進（地板才會捲動，不是呆站） (27.1259ms)
+✔ 起步與停步用不同門檻：站著打的時候不會被推擠推得一直補小步 (15.6553ms)
+✔ 敵人追的是我方當前位置，不會跟著我方平移 (53.2977ms)
+✔ 追兵會拉出前後隊形：近的先到，遠的還在路上 (20.9001ms)
+✔ 我方移動後，生成的新敵人圍著我方而不是原點 (15.2624ms)
+✔ 技能共用的舊主目標選法維持最近／鎖定；自動搜敵另測搜尋圈 (16.9308ms)
+✔ 同距離時隨機挑一個（不是永遠挑同一隻） (17.7002ms)
+✔ 連鎖在範圍內隨機擴散：不重複、不原地打同一隻 (20.4768ms)
+✔ 範圍設定值解析沿用既有寫法（資料表不必改） (15.3803ms)
+✔ n×n 換算成半徑：越大的範圍打到越遠的敵人 (14.7841ms)
+✔ 範圍以主目標為圓心展開：圈內的打到、圈外的打不到 (24.4487ms)
+✔ 單體不產生區域；全體打到所有存活敵人 (21.2596ms)
+✔ 領域記住的是圓，之後每跳重問誰站在裡面 (13.8798ms)
+✔ 投射物飛行時間隨距離增加，並夾在上下限之間 (26.6059ms)
+✔ 施法期間我方不移動 (20.0729ms)
+✔ 敵人有自己的攻擊距離時，打不打得到以牠自己的射程為準（不再看 magic） (14.5879ms)
+✔ 沒有 atkRange 的敵人沿用舊規則（高塔 BOSS、測試替身不受影響） (14.3195ms)
+✔ 遠程／近戰以射程判定：6 米是近戰、24 米是遠程，與魔法型無關 (14.44ms)
+✔ 遠程敵人走到射程內側就停下來站樁；近戰敵人仍貼到接觸距離 (56.2403ms)
+✔ 敵人的移動速度各自獨立：有 runSpeed 用自己的，沒有才用 BF_ENEMY_SPEED (18.4431ms)
+✔ 拉近技能能把站在射程邊緣的遠程敵人拉到玩家身邊 (14.4615ms)
+✔ ELITE-DATA-1 敵人技能都在 ELITE_AFFIXES 裡，arch 接得上引擎 (109.1747ms)
+✔ ELITE-DATA-2 隨機技能池剛好是文件的 17 種 (45.6724ms)
+✖ ELITE-DATA-3 文件規則逐項核對（冷卻、數量、距離、持續） (53.6227ms)
+✔ ELITE-DATA-4 特效：每個引用的 Preset 都存在，而且全是敵人專用（en- 開頭），不與玩家技能共用 (48.4022ms)
+✔ ELITE-DATA-5 preset id 不寫在引擎程式裡（特效一律由 Skills2 表填入） (1.3487ms)
+✔ ELITE-DATA-6 技能 id 的說明、顏色、表上欄位完整；被動技能沒有冷卻 (47.5089ms)
+✔ ELITE-DATA-7 要同伴才有意義的技能（火鏈、復仇…）有標 needs，單獨一隻抽不到 (87.3425ms)
+✔ ELITE-DATA-8 護盾的光罩整份標 perspective:false（走 billboard 層，不受視角方向與 FOV 影響） (65.5671ms)
+✔ ELITE-DATA-9 狀態型特效都在 Status 表：護盾／庇護光環／不死鳥掛無敵護罩，狂暴、復仇／血祭、再生、詛咒各有狀態與特效 (60.9644ms)
+✔ 菁英裝備與材料掉落率均在一般基礎上乘以菁英掉落倍率（ELITE_DROP_MULT=1.5） (40.8109ms)
+✔ ELITE-ENGINE-1 每個技能單獨跑 30 秒都不丟例外（引擎不會把戰鬥迴圈拖下水） (4870.7676ms)
+✔ ELITE-ENGINE-2 跑位：菁英以上每 4~8 秒換位置，換完仍打得到玩家；小兵不跑位 (75.6077ms)
+✔ ELITE-ENGINE-3 跑位間隔吃參數（repoMin／repoMax） (50.103ms)
+✔ ELITE-ENGINE-3b 跑位時加速（repoSpeed）：目標點跟著玩家走，用平常的跑速追不上；小兵擠不動跑位中的高級敵人 (35.1407ms)
+✔ ELITE-ENGINE-4c 火鏈連成一圈：2 隻一條線、3 隻三角形、4 隻四邊形 (157.471ms)
+✔ ELITE-ENGINE-4d 火鏈：有怪物死亡、整圈重排時，剩下的鏈條角度不變（不會轉 180°）；移動中的鏈條帶著速度 (35.8572ms)
+✖ ELITE-ENGINE-4f 火鏈：怪物多時中點瞬移（夥伴換人／被擠開）不會被估成極大速度而讓鏈條飛出畫面 (34.066ms)
+✔ ELITE-ENGINE-4e 火鏈怪：跑位間隔 1.5~3 秒（比全域短）、守在 hover 距離而不是貼臉 (37.4376ms)
+✔ ELITE-ENGINE-4b 火鏈：距離越遠鏈環越多（換鏈環數不同的 Preset），鏈環本身只小幅拉長 (34.8991ms)
+✔ ELITE-ENGINE-4 火鏈：同群夥伴之間常駐一條鏈，玩家踩上去持續受傷；單獨一隻沒有鏈 (40.3873ms)
+✔ ELITE-ENGINE-4b 火鏈夥伴挑最近的，且太遠（超過最長鏈環數的兩倍長）就不連 (29.1873ms)
+✔ ELITE-ENGINE-5 火鏈的跑位：施放時先跑到玩家另一側（夥伴→玩家連線的延伸線） (33.5368ms)
+✔ ELITE-ENGINE-6 秘法加持：核心預警 → 順時針旋轉光束；站在光束上持續受傷，光束掃過才會中 (38.2869ms)
+✔ ELITE-ENGINE-7b 熔火火徑：一幀跑很遠也沿路補滿（不留斷層）；場域滿了先收自己最舊的 (24.056ms)
+✔ ELITE-ENGINE-7 熔火：移動留下火徑（8 秒），死亡後原地核心 3 秒後大範圍自爆 (32.017ms)
+✔ ELITE-ENGINE-8 瘟疫：跑位後在腳下留 20 秒毒水窪，踏進去持續受傷 (51.8336ms)
+✔ ELITE-ENGINE-9 帶電：每次被擊中向四周散出 2~4 顆電火花；火花飛過玩家才受傷，且節流 (28.7671ms)
+✔ ELITE-ENGINE-10 毒素加持：中心毒圈（半徑 4 米）→ 十字毒球以 12 米／秒向外長到 36 米，固定不旋轉、持續 16 秒 (32.4739ms)
+✔ ELITE-ENGINE-10b 毒素加持：十字朝向＝敵人面對玩家的方向（斜來就是斜十字），Preset 與判定同角度 (27.5428ms)
+✔ ELITE-ENGINE-11 冰爆：多顆冰晶先膨脹 2~3 秒，炸裂時範圍內的玩家被冰凍；離開範圍不受影響 (38.5692ms)
+✔ ELITE-ENGINE-12 冰凍脈衝：冰球追著玩家飄，周圍定時脈衝；同時只有 1 顆 (27.286ms)
+✔ ELITE-ENGINE-12b 同技能全場同時最多 5 個，有一個消失才能再放 (25.4714ms)
+✔ ELITE-ENGINE-13 迫擊：拋射數顆火球，落點先預警，第一發落在玩家腳下 (23.5241ms)
+✔ ELITE-ENGINE-13b 迫擊：在 24 米內先往外跑，跑到 24 米外才放 (37.5509ms)
+✔ ELITE-ENGINE-13c 迫擊：被玩家追著 3 秒還拉不開，就直接放（停下來，不再繼續退） (42.2679ms)
+✔ ELITE-ENGINE-13d 迫擊：本來就在 24 米外，直接放、不跑位 (30.1409ms)
+✔ ELITE-ENGINE-14 築牆：近戰隔著牆打不到（雙方），遠程不受影響；玩家走不過牆；牆 7 秒後消失 (28.7588ms)
+✔ ELITE-ENGINE-14b 築牆：每次 2~3 面整塊岩壁，每面 18 米長、3.9 米厚（五片岩石） (4212.5944ms)
+✔ ELITE-ENGINE-14b2 縮窄後預警與牆事件一致，舊厚度邊帶可通行、穿牆仍被阻擋 (23.3042ms)
+✔ ELITE-ENGINE-14c 築牆：牆角度吸附到 15° 倍數，並使用對應角度那張整面岩壁 Preset (108.4444ms)
+✔ ELITE-ENGINE-15 漩渦：先有暗影引力場，再以 60 米/秒把玩家拉到牠身邊；拉扯中玩家走位暫停 (35.1102ms)
+✔ ELITE-ENGINE-15b 漩渦只在「拉得動、拉得有感」時才會被抽到：貼身或太遠都不放 (25.2796ms)
+✔ ELITE-ENGINE-16 護盾：持續 3 秒完全免疫所有傷害，結束後恢復 (26.3005ms)
+✔ ELITE-ENGINE-17 強命：生命 +50% (19.9464ms)
+✔ ELITE-ENGINE-18 復仇：同群每死一隻，存活的復仇者體積 +20%、攻擊與攻速 +20%（可疊加） (24.9365ms)
+✔ ELITE-ENGINE-19 召喚：2~4 隻與召喚者同屬性的普通怪；召喚者死後牠們最大生命 −90% (38.0537ms)
+✖ ELITE-ENGINE-20 飛彈：3~5 枚，先朝後方飛出再轉彎衝向玩家；鎖定落點，走位就躲得掉 (21.8254ms)
+✔ ELITE-ENGINE-21 雷霆風暴：2~3 下落雷在玩家周圍 6 米內，先預警，爆炸半徑 8 米 (36.1109ms)
+✖ ELITE-ENGINE-22 封魔塔：BOSS 也放技能（專屬 1~2＋隨機 4~6），塔戰 tick 驅動引擎，玩家被技能打死＝失敗 (26.5848ms)
+✔ ELITE-ENGINE-23 專屬技能沿用的行為不退步：旋風斬、野蠻衝鋒、連鎖閃電、不死鳥、自爆、分裂都跑得起來 (136.8634ms)
+✔ ELITE-ENGINE-24 玩家死亡或離開時 eliteReset 清掉所有預警、場域、光束、冰球、火花、牆、拉扯 (40.9589ms)
+✔ ELITE-ENGINE-25 經過正式的擊殺流程（onFieldKill）：小兵陣亡也會讓同群復仇者變強；召喚師死亡縮水召喚物 (69.8733ms)
+✔ ELITE-GROUP-1 菁英關每一波都是菁英群：每群 2~4 隻，群數受菁英表限制 (358.8266ms)
+✔ ELITE-GROUP-2 全員菁英或「菁英帶小兵」；技能只在菁英身上，各自依 NPC 表配（菁英 2 個、高級菁英 3 個隨機） (1480.0394ms)
+✔ ELITE-GROUP-3 高級菁英機率吃參數（普通關／菁英關各一個）；0＝完全不出現、100＝全是高級 (191.2636ms)
+✖ ELITE-GROUP-4 體型與數值：菁英 1.6、高級菁英 2.2；高級菁英的生命／攻擊倍率吃參數 (65.0443ms)
+✔ ELITE-GROUP-5 野外 BOSS：1 個專屬技能（NPC 表）＋3 個隨機技能，體型 3.4，會跑位 (76.1255ms)
+✔ ELITE-GROUP-6 普通關也會遇到菁英群；機率吃參數表（0＝不會遇到） (86.4588ms)
+✔ ELITE-GROUP-7 小兵倍率與獎勵倍率吃參數（沿用） (160.763ms)
+✔ ELITE-PARAMS-1 參數表有「4-菁英群組」剩下的 8 列（高級敵人、封魔塔BOSS玩家技能等全域設定），且與 data.js 一致（apply_params 試跑不報變更） (254.6547ms)
+✔ ELITE-PARAMS-2 改參數表的格子，試跑會列出 ELITE_GROUP 的變更（證明錨點接得上） (315.4993ms)
+✔ ELITE-PARAMS-3 Zones 表格式打錯的區間格會被擋下並指出是哪一張地圖、哪一欄 (5.876ms)
+✔ ELITE-PARAMS-4 Zones 表整欄空白、數值為負、區間上下界顛倒、關卡沒被涵蓋，都會被擋下 (14.7733ms)
+✔ 真實普攻選招邏輯可抽到四招，且從不連抽同招 (8.2879ms)
+✔ 第四招播放中不被技能插隊，技能仍只使用原三招 (2.2547ms)
+✔ attack4有獨立GLB動畫與完整起手收招，沿用既有普攻速度調整 (9.719ms)
+(node:29056) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\MyGame\Idle-RPG\codex\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ 攻擊動作只播有用的一段：start／hit／end，不整段照播 (3.702ms)
+✔ 3D 普攻四個動作混著出，不連續兩下同一招 (0.3673ms)
+✔ 3D 施法：出手動作播放中不插施法動作；其餘時候快速播完（0.3 秒內，使用者 2026-10-31） (0.3331ms)
+✔ 3D 出手動作一律播完：目標剛死、角色開始移動也不切成跑步（使用者 2026-10-29） (0.5921ms)
+✔ 3D 技能動作與普攻一樣在三個攻擊動作間隨機（不連續兩下同一招），施法中不被普攻蓋掉 (0.2983ms)
+✔ 3D 起身：死亡動作倒著播，一般死亡由起身時間驅動、大地守護由復活倒數驅動 (1.7932ms)
+✔ 3D 主角也有穿透式輪廓：輪廓貼圖由 3D 畫布剪影每幀算出，走 2D 同一套輪廓圖層 (0.5685ms)
+✔ 3D 主角調色與補光：金／銀／披風調色、自發光、背後冷色邊緣光 (0.2103ms)
+✔ 3D 模型修正仍在：盔甲剛性、披風只小幅伸縮、手腕不超限、劍沒有尖刺、握劍與劈砍軌跡 (564.2466ms)
+✔ Attack2 的播放區間與腳本的收招設定一致（end＝收招結束、start＝起始姿勢） (7.4961ms)
+✔ Attack3 的播放區間與腳本的第二個片段一致（start＝片段開頭、end＝收招結束） (1.4956ms)
+✔ 3D 披風碰撞：披風拆成獨立網格、用骨骼膠囊碰撞體推開穿進身體的布料、再鬆弛 (6.8553ms)
+(node:17228) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\MyGame\Idle-RPG\codex\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ role是右手正握：掌面、拇指與實際劍身同時符合；整段第四招刃口朝前 (121.3922ms)
+✔ role1是右手正握：掌面、拇指與實際劍身同時符合；整段第四招刃口朝前 (38.6699ms)
+✔ 正式環境即使留有3D偏好，也不啟用、不顯示控制或下載模型 (15.5511ms)
+✔ 內測兩種按鈕與提示用新編號，轉生及傳奇字串保持原意 (18.5952ms)
+✔ GLB保留來源的五個動畫、綁定與嵌入貼圖 (15.0061ms)
+(node:17440) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\MyGame\Idle-RPG\codex\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ native gait measures grounded foot travel, ignores fast lifted swing, and restores the loaded skeleton (66.7057ms)
+(node:3016) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\MyGame\Idle-RPG\codex\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ 四套已核准模型逐位保持，PBR旁載貼圖均存在且配置不套到固定UV握劍手 (136.3527ms)
+✔ 原生PBR材質保留頂點色，法線與MR用線性色彩／glTF方向，手部共用材質不被污染 (83.4111ms)
+✔ 旁載任一貼圖失敗時不部分改材質，包含晚到的貼圖也釋放；未知外觀不下載 (12.4732ms)
+✔ 配置失敗可重試，成功後同頁共用配置但每個控制器擁有自己的貼圖 (28.1605ms)
+✔ 切換外觀先釋放共享貼圖／環境再關renderer及獨立context，重複dispose安全 (2.2185ms)
+✔ 0轉Role、1轉Role1、2轉Role2、3轉Role3、4轉Role4、5轉以上Role5；無效數值保持基礎外觀 (6.3137ms)
+✔ 當場1轉交換身體及輪廓，保留實際動作秒數、速度與朝向並釋放舊資源 (3.6791ms)
+✔ 轉生數快速變動時過期載入會釋放，回到同一目標仍可重新載入 (2.7888ms)
+✔ 新皮膚失敗保留原模型，不因每次header快照重複下載；正式服不建立載入 (4.4773ms)
+✔ 讀入已1轉存檔時第一次載入就選新皮膚 (2.9768ms)
+✔ 1轉到2轉保持揮擊進度，同一2轉不重載 (2.2081ms)
+✔ 1轉與2轉請求交錯時只有最新2轉模型接入；2轉載入失敗保留1轉 (4.1773ms)
+✔ 已2轉存檔開局直接載Role2 (3.7559ms)
+✔ 2轉到3轉保留完整動作狀態，同一3轉不重載 (2.3835ms)
+✔ 2轉與3轉交錯只接最新3轉；3轉失敗保持Role2且回2轉不重載 (8.36ms)
+✔ 3轉存檔開局直接載Role3；3轉請求過期回2轉不替換現況 (4.4238ms)
+✔ Role1六段動畫每個取樣及骨架與0轉完全相同，手與劍幾何沿用修正結果 (128.5137ms)
+✔ 3轉升4轉保持攻擊進度；同一4轉不重載 (2.6758ms)
+✔ 3／4轉請求競態、4轉載入失敗及已4轉存檔開局 (7.683ms)
+✔ 4轉升5轉保存攻擊狀態；6轉沿用Role5；已5轉存檔直接載入 (3.9859ms)
+✔ 4／5轉交錯僅最新5轉生效；5轉失敗或返回4轉保留現況 (5.5593ms)
+✔ 新人物沿用黃金騎士所有動作、骨架、握劍與手腕資料，跑步也不替換 (6.5338ms)
+✔ 新劍劍身筆直平整、長度為附件劍身80%，全部剛性綁在原Sword骨骼 (123.9049ms)
+✔ 所有新網格索引、權重、貼圖與材質有效，人體不混入Sword權重 (333.5964ms)
+(node:11392) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\MyGame\Idle-RPG\codex\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ 2轉外觀保持原骨架、六段動畫取樣、正握手部及原劍模型 (213.8361ms)
+✔ 修復後手腿沒有跨骨骼橋面，網格索引／權重／手套頂點色有效 (426.4565ms)
+✔ 六段動作逐姿勢蒙皮沒有手腿拉成長三角面的缺陷 (1078.8682ms)
+(node:9860) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\MyGame\Idle-RPG\codex\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ 3轉外觀保持原骨架、六段動畫取樣、正握手部及原劍模型 (209.0134ms)
+✔ 修復後手腿沒有跨骨骼橋面，網格索引／權重／手套頂點色有效 (453.2903ms)
+✔ 六段動作逐姿勢蒙皮沒有手腿拉成長三角面的缺陷 (2832.5287ms)
+✔ 雙手均無腿部權重，授權來源與修復報告可追溯 (350.0414ms)
+(node:1072) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\MyGame\Idle-RPG\codex\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ 4轉外觀保持原骨架、六段動畫取樣、正握手部及核准新劍 (159.1797ms)
+✔ 修復後手腿沒有跨骨骼橋面，網格索引／權重／手套頂點色有效 (538.8622ms)
+✔ 六段動作逐姿勢蒙皮沒有手腿拉成長三角面的缺陷 (3054.9443ms)
+✔ 雙手均無腿部權重，授權來源與修復報告可追溯 (436.4496ms)
+✔ 新劍沿原握點／刃向剛性綁Sword，頭部中立朝前且材質完整內嵌 (72.0971ms)
+✔ 實際GLB補面無單邊／奇數幾何邊且成品SHA與修復紀錄一致 (91.3895ms)
+(node:10572) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\MyGame\Idle-RPG\codex\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ 5轉外觀保持原骨架、六段動畫取樣、正握手部及核准新劍 (154.7764ms)
+✔ 修復後手腿沒有跨骨骼橋面，網格索引／權重／手套頂點色有效 (725.769ms)
+✔ 六段動作逐姿勢蒙皮沒有手腿拉成長三角面的缺陷 (3412.2367ms)
+✔ 雙手均無腿部權重，授權來源與修復報告可追溯 (559.2079ms)
+✔ 新劍沿原握點／刃向剛性綁Sword，頭部中立朝前且原始PBR完整保留 (65.7118ms)
+✔ 實際GLB補面無單邊／奇數幾何邊且成品SHA與修復紀錄一致 (101.1798ms)
+✔ 原圖三貼圖2048px逐位保留；補面使用原甲片UV及原PBR貼圖 (65.0289ms)
+✔ 旁載貼圖缺失時拒絕換模並去重清理，完整材質不受影響 (2.383ms)
+✔ NPC-SKILL-1 欄位：技能特效欄已移除，新增專屬技能與隨機技能數量上下限 (18.3322ms)
+✔ NPC-SKILL-2 每個 NPC 有 normal／elite／elite_adv／boss 四列；另有 50 列 tower_boss（封魔塔每關一列） (17.4458ms)
+✔ NPC-SKILL-3 文件規定的技能數量：菁英 2 隨機；高級菁英 3 隨機；野外 BOSS 1 專屬＋3 隨機；封魔塔 BOSS 1~2 專屬＋4~6 隨機 (135.2694ms)
+✖ NPC-SKILL-4 資料同步：套用後 js/data.js 一致（NPC pool 的 skills、BOSS_LIST 的 skills 與 id） (701.1438ms)
+✔ NPC-SKILL-5 套用檢查：未知專屬技能、隨機數量超出技能池、上限小於下限、未知類型、專屬技能重複都會中止 (871.6363ms)
+✖ NPC-SKILL-6 基本資料只認 normal 列：改其他類型列的名稱不會影響遊戲；改 tower_boss 列的名稱、屬性會寫回 BOSS_LIST (432.026ms)
+✔ NPC-SKILL-7 Skills2 的敵人技能列：有「類別」欄、只有 enemy 列進 ENEMY_SKILLS2，玩家技能不受影響 (71.4485ms)
+✔ NPC 3D metadata round-trips all tower rows and preserves their gameplay data (332.8436ms)
+✔ changing a clip in the NPC table changes only that boss binding (319.2885ms)
+✔ mistyped clips, missing models and model-less action bindings stop table application (160.0442ms)
+✔ empty model and clip cells clear a binding while preserving the legacy image (722.2156ms)
+✔ boss1: sword is a separate rigid mesh under the right hand and all five clips exist (70.1678ms)
+✔ boss2: sword is a separate rigid mesh under the right hand and all five clips exist (56.8581ms)
+✔ boss3: sword is a separate rigid mesh under the right hand and all five clips exist (48.7155ms)
+✔ all three bosses retain distinct supplied base-color textures (149.8245ms)
+✔ walk time follows actual world speed and visual size; stopping and pause do not advance feet (4.1279ms)
+✔ movement rate never changes attack or death timing; returning to walk uses latest displacement (1.3269ms)
+✔ NPC animation advances with the same delta as displacement, including slow frames and pause (4.582ms)
+✔ only explicitly configured NPCs request a model and share the approved material renderer (4.4304ms)
+✔ idle holds Walk first pose, movement resumes Walk, all three attacks cycle, death holds (4.3493ms)
+✔ missing clips release the controller and repeated disposal releases resources once (5.7671ms)
+✔ walk-only models hold a standing pose for missing attacks and fade from a held death pose (1.737ms)
+✔ a late asynchronous model cannot replace a removed or reused enemy (10.2005ms)
+✔ 煉獄之塔開放 101～150 層，且 BOSS 套用合併參數公式 (41.6223ms)
+✔ 煉獄之塔 BOSS 名稱與等級使用橘色樣式 (20.161ms)
+✔ 參數表包含合併的高塔樓層與攻擊/生命倍率 (2.454ms)
+✔ STR：直接取字、位置參數、具名參數 (3.6814ms)
+✔ STR：缺參數保留原樣、null 變空字串、0 要顯示 (1.4602ms)
+✔ STR：找不到編號回傳 [#編號]，不丟例外 (1.3855ms)
+✔ 語言：簡體／英文空白時退回繁體，有填就用 (4.7257ms)
+✔ 資料檔：與 String.csv 同步（改了 Excel／CSV 要重跑 apply_strings.cjs） (49.5712ms)
+✔ 資料檔：\n 還原成真換行，且每列至少有繁體中文 (13.7423ms)
+✔ 產生器：重複編號、空繁中、替代字符不一致都會被擋 (1619.362ms)
+✔ 程式與 HTML 引用的 STR(編號)／data-str 編號都存在於資料檔 (53.8057ms)
+✔ Worker 與主執行緒都載入 strings 檔，且 Worker 的版本由 bridge 以 sv= 傳入 (2.4951ms)
+✔ 任務模塊已改為由表讀取（試點）：tasks.js 與 ui.js 的任務文字不再寫死 (23.3316ms)
+✔ applyDom：data-str／data-str-html／data-str-attr 會被替換，載入時自動套用一次 (11.4874ms)
+✔ 程式與 HTML 裡沒有寫死的顯示文字（全部走 String 表，AI_RULES 8.10） (1766.6441ms)
+✔ 每支用到 STR() 的 js 檔開頭都有安全網（單檔載入時不會丟 ReferenceError） (27.8853ms)
+✔ all 50 tower bosses approach or stand to act at opening, without a retreat target (3383.3429ms)
+✔ basic attacks hold the full animation, pause an existing route, then resume the same fixed target (38.3043ms)
+✔ tower spells lock ordinary movement even when the archetype permits wild movement; min-range spells never trigger opening retreat (40.7274ms)
+✔ tower reposition has a fixed endpoint while the player moves (36.7267ms)
+✔ a full live tower skill loadout cannot starve an existing movement route (167.7421ms)
+✔ 50 independent bosses and all three tower tiers keep pursuit and moving repo targets within one fixed arena (2245.7017ms)
+✔ projected repo endpoint completes at a corner rather than running forever into the boundary (31.9018ms)
+✔ knockback and any forced motion are constrained with body clearance, including early tick returns (32.4163ms)
+✔ arena geometry uses double the reference view on every axis and late renderer entry uses the authoritative center (37.829ms)
+✔ 缺欄預設開啟：正式Worker勝利通知含倒數，確認後下一層只扣一次費用 (161.7509ms)
+✔ 關閉設定經正式Worker面板及存讀保留，不自動接關；可重新開啟 (148.9095ms)
+✔ death 不推進，確認後回到野外 (129.3601ms)
+✔ timeout 不推進，確認後回到野外 (92.9213ms)
+✔ flee 不推進，確認後回到野外 (115.8608ms)
+✔ 同層連挑含最後一場、僅挑一次與手動停止連挑皆不轉入推進 (238.146ms)
+✔ 最高層停止；第50與100層可跨塔別挑戰下一層 (358.5903ms)
+✔ 金幣不足不排倒數；倒數期間金幣變少或下層未解鎖不扣款、不開戰 (267.4197ms)
+✔ 停止推進或倒數期間取消勾選立即取消續戰 (150.428ms)
+✔ UI checkbox走Worker指令與面板確認，結算停止按鈕讀取對應文案 (17.5747ms)
+✔ tower auto challenge shows result modal with countdown before next fight (29.4119ms)
+✔ 開場：BOSS 站在我方正前方、帶 tb-float 定址，塔戰站位與野外共用同一個 bfPlayerPos 參照 (89.3241ms)
+✔ 交戰：雙方對衝後才出手，普攻一律在近戰距離內、BOSS 攻擊一律在射程內，限時燒掉不到一秒 (53.883ms)
+✔ 打不到時冷卻停在 ready 不累積：BOSS 走不過來就不出手、也不攢一堆攻擊 (59.3561ms)
+✔ 結束：清掉塔戰站位參照，畫面據此回到野外 (59.2344ms)
+✔ 登場：轉場期間限時不走、雙方不動也不出手，結束後才開打；回野外時出怪延後同樣長度 (70.0417ms)
+✔ TBF-1 NPC 表有 50 個獨立 tower_boss，Excel、CSV 與執行資料依關卡一致 (122.9642ms)
+✔ TBF-2 樓層對應：第 n 關用 tower_boss_n，51／101 層回到第 1 關那列 (69.5072ms)
+✔ TBF-3 每關倍率乘在樓層公式上，只影響那一關；元素附傷跟著攻擊走、防禦同時作用於物防與魔防 (29.468ms)
+✔ TBF-4 套用：倍率寫進 BOSS_LIST、空白或 1 不寫入；非法值與其他類型填寫都會中止 (1229.4445ms)
+✔ TBF-5 套用：可增減關數（從 1 依序），魔法型決定元素；新增的列不需要舊資料 (418.894ms)
+✔ TBF-6 單關速度與倍率可獨立調整，僅該列及其後續塔別沿用 (676.1882ms)
+✔ TBMA-1 NPC 表 tower_boss 列已填移動／攻擊三欄，且寫進 BOSS_LIST (4.0911ms)
+✔ TBMA-2 改表上的數值只影響那一隻；留白＝欄位不寫入（戰場預設）；填 0 中止套用 (823.8379ms)
+✔ TBMA-3 extract 會把 BOSS_LIST 的三項寫回表格（往返一致） (28.1973ms)
+✔ TBMA-4 makeBoss 用表上的攻速（絕對值，不分塔），移速與射程換成戰場座標 (10.8208ms)
+✔ TBMA-5 參數表與 formula.js 不再有塔 BOSS 攻速（避免兩套攻速並存） (8.9428ms)
+✔ first tower boss becomes Skeleton King without changing stats; floor 11 uses its own row with the same look (6.3433ms)
+✔ 高塔 BOSS 挑戰費用使用 CSV 的三段樓層公式 (92.0853ms)
+✔ 高塔倒數固定寬度，DPS 資訊不會隨計時文字左右跳動 (5.2558ms)
+✔ 高塔倒數使用逐幀插值，避免只隨 UI 迴圈跳動 (9.4512ms)
+✔ Canvas 開戰保留樓層與 BOSS／獎勵資訊，挑戰改為撤退，連挑停用；退出後恢復 (10.5701ms)
+✔ 非戰鬥時仍受指令等待鎖保護，無 Canvas 的戰鬥保留原 DOM 與撤退入口 (3.8695ms)
+✔ 較新的 battle 開戰狀態也顯示撤退；指令鎖解除後可撤退但不可連挑 (14.0267ms)
+✔ 撤退入口共用 tower.flee 與等待鎖；停用／等待中／退出後不送指令 (5.4792ms)
+✔ floor：停用／塔快照開戰／較新的 battle 開戰狀態皆不送指令，退出才可挑戰 (4.7166ms)
+✔ auto：停用／塔快照開戰／較新的 battle 開戰狀態皆不送指令，退出才可挑戰 (3.4952ms)
+✔ 第1層首通與重複通關皆只扣挑戰費、不給金幣或記錄金幣掉落 (157.0406ms)
+✔ 第35層首通與重複通關皆只扣挑戰費、不給金幣或記錄金幣掉落 (80.1537ms)
+✔ 第51層首通與重複通關皆只扣挑戰費、不給金幣或記錄金幣掉落 (71.625ms)
+✔ 第101層首通與重複通關皆只扣挑戰費、不給金幣或記錄金幣掉落 (80.3378ms)
+✔ 第150層首通與重複通關皆只扣挑戰費、不給金幣或記錄金幣掉落 (75.5147ms)
+✖ 全塔樓層不再有BOSS hover或技能施放說明，顯示正式配置的真言等級與名稱 (58.5228ms)
+✖ 同層多個真言完整列出，停用／非整數門檻不顯示，原技能解鎖保留 (77.3467ms)
+✖ 附魔開關兩種狀態均不再顯示附魔書獎勵，其他材料仍顯示 (47.9218ms)
+✔ 上方塔戰撤退與塔戰資訊同時顯示，退場時一併隱藏 (6.2676ms)
+✔ battle：登場及等待首個開戰快照時兩處倒數固定 60 秒，不延用舊場錨點 (3.5014ms)
+✔ tower：登場及等待首個開戰快照時兩處倒數固定 60 秒，不延用舊場錨點 (2.5291ms)
+✔ 正式 elapsed 推進才建立新錨點，倒數平滑且暫停／連挑不沿用上一場時間 (2.4409ms)
+✔ 高塔 BOSS 經驗為對應普通怪物經驗的 2 倍 (54.8727ms)
+✔ 高塔 BOSS 單次生命傷害最高為最大生命 20%，至少五次才會死亡 (48.9507ms)
+✔ 地獄之塔 51~100 層套用攻擊與生命倍率，並限制魔魂本源掉落規則 (25.0568ms)
+✔ 高塔通關流程會發放 BOSS 經驗並套用經驗加成 (21.2816ms)
+✔ 高塔戰鬥總結統計攻擊輸出，包含護盾與溢出傷害 (2.5068ms)
+✔ treant has one original skin, one unarmed mesh and five finite native clips; attacks are horizontally in-place (42.1813ms)
+✔ CV-1 編輯器頁與主頁共用的遊戲腳本，版號逐一相同 (2.6491ms)
+✔ CV-2 編輯器頁載入的每一支遊戲腳本都帶版號（vendor 除外） (0.492ms)
+✔ CV-3 編輯器伺服器：遊戲腳本 no-store（連帶 ?v= 的請求），editor 自己的檔案維持 no-store，vendor 大檔維持 no-cache (3302.3229ms)
+✔ 凍結的 Worker 指令表有 96 條且分類數量固定 (5.6599ms)
+✔ Worker 在每個模擬步驟後低延遲送出視覺事件 (0.8391ms)
+✔ 所有指令名稱、fn、args、resolve、limit 與 dirty metadata 格式合法 (4.1277ms)
+✔ fn 非 null 的指令函式存在於模擬層原始碼 (68.2191ms)
+✔ 一般寶石指令不使用不存在的 gemId 實例參數 (0.6089ms)
+✔ validateCommand 接受合法參數與省略 optional 參數 (1.4663ms)
+✔ validateCommand 拒絕未知指令與缺少 required 參數 (0.8409ms)
+✔ validateCommand 拒絕 required 與 optional 參數的錯誤型別 (1.662ms)
+✔ PANEL_KEYS 與模擬層實際 UI.dirty 鍵完全一致 (20.483ms)
+✔ blog 與 flog 只寫入事件佇列，不呼叫 DOM 或 postMessage (9.4018ms)
+✔ shimDrainEvents 會原子清空目前事件批次 (2.7274ms)
+✔ recordLoot shim 也合批進事件佇列 (2.6815ms)
+✔ shim 傳遞突刺光槍的長度、方向與飛行物欄位 (3.5303ms)
+✔ shim 保留敵人攻擊的來源與命中欄位 (2.26ms)
+✔ 技能施放飄字走低延遲佇列，一般傷害字仍走 tick 批次 (3.4154ms)
+✔ 緊急佇列滿了：一次性事件擠掉最舊的持續刷新，而不是被後來的刷新擠掉 (17.7479ms)
+✔ 緊急佇列滿了：進來的是刷新就直接丟它；進來的是一次性事件就擠掉最舊的刷新 (11.8729ms)
+✔ 場域的第一則事件（誕生）比刷新值錢：滿了也擠得進來，而且不會被後來的刷新擠掉 (14.9637ms)
+✔ 誕生事件之間滿了：互相擠時維持丟最舊，但不會因此去擠一次性事件以外的東西 (8.5945ms)
+✔ 誕生事件永遠進得來：佇列全是一次性事件時，讓位的是最舊的那一件 (4.6544ms)
+✔ 場域沉默夠久之後再出現，重新算誕生；持續有刷新的不算 (2.7845ms)
+✔ 緊急佇列裡沒有持續刷新可讓時，維持原本的丟最舊（行為不變） (5.6181ms)
+✔ 緊急佇列上限是 512：引擎實測 600 隻敵人一步最多 465 件 (3.0212ms)
+✔ 只有「aura 且帶 area.id」才算持續刷新：沒有 id 的光環與其他型態都是一次性事件 (12.3442ms)
+ℹ tests 294
+ℹ suites 0
+ℹ pass 284
+ℹ fail 10
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10992.7044
+
+✖ failing tests:
+
+test at tests\elite-data.test.cjs:45:1
+✖ ELITE-DATA-3 文件規則逐項核對（冷卻、數量、距離、持續） (53.6227ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+
+    [
+  +   20,
+  +   20
+  -   6,
+  -   10
+    ]
+
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\elite-data.test.cjs:54:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 20, 20 ],
+    expected: [ 6, 10 ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\elite-engine.test.cjs:149:1
+✖ ELITE-ENGINE-4f 火鏈：怪物多時中點瞬移（夥伴換人／被擠開）不會被估成極大速度而讓鏈條飛出畫面 (34.066ms)
+  AssertionError [ERR_ASSERTION]: 正常走動有速度
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\elite-engine.test.cjs:158:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\elite-engine.test.cjs:786:1
+✖ ELITE-ENGINE-20 飛彈：3~5 枚，先朝後方飛出再轉彎衝向玩家；鎖定落點，走位就躲得掉 (21.8254ms)
+  AssertionError [ERR_ASSERTION]: 每枚兩段（後方 → 衝刺）：5
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\elite-engine.test.cjs:794:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\elite-engine.test.cjs:834:1
+✖ ELITE-ENGINE-22 封魔塔：BOSS 也放技能（專屬 1~2＋隨機 4~6），塔戰 tick 驅動引擎，玩家被技能打死＝失敗 (26.5848ms)
+  AssertionError [ERR_ASSERTION]: 體型 5~7 倍：3
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\elite-engine.test.cjs:852:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\elite-groups.test.cjs:86:1
+✖ ELITE-GROUP-4 體型與數值：菁英 1.6、高級菁英 2.2；高級菁英的生命／攻擊倍率吃參數 (65.0443ms)
+  AssertionError [ERR_ASSERTION]: elite:1,elite_adv:1.1
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\elite-groups.test.cjs:104:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\npc-elite-skills.test.cjs:63:1
+✖ NPC-SKILL-4 資料同步：套用後 js/data.js 一致（NPC pool 的 skills、BOSS_LIST 的 skills 與 id） (701.1438ms)
+  AssertionError [ERR_ASSERTION]: 備註欄是自動產生的，改了技能請重新產生 CSV
+  + actual - expected
+  ... Skipped lines
+
+    'NPC識別碼,NPC名稱,所屬地圖識別碼,類型,屬性,外觀,站立圖像,移動圖像,攻擊圖像,死亡圖像,圖像備註,縮放比,移動速度(米/秒),攻擊速度(次/秒),攻擊距離(米),視野範圍(米),魔法型（1是／0否）,出現權重,生命倍率,攻擊倍率,防禦倍率,命中倍率,閃避倍率,專屬技能,隨機技能下限,隨機技能上限,備註,3D模型,3D站立動作,3D移動動作,3D攻擊1動作,3D攻擊2動作,3D攻擊3動作,3D死亡動作\n' +
+      'desert_1,史萊姆,desert,normal,ice,🟢,desert_slime_idle,desert_slime_walk,desert_slime_attack,desert_slime_die,,1.04,10,0.75,24,50,1,5,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\n' +
+      'desert_1,史萊姆,desert,elite,ice,🟢,desert_slime_idle,desert_slime_walk,desert_slime_attack,desert_slime_die,,1.04,10,0.75,24,50,1,5,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\n' +
+      'desert_1,史萊姆,desert,elite_adv,ice,🟢,desert_slime_idle,desert_slime_walk,desert_slime_attack,desert_slime_die,,1.04,10,0.75,24,50,1,5,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\n' +
+      'desert_1,史萊姆,desert,boss,ice,🟢,desert_slime_idle,desert_slime_walk,desert_slime_attack,desert_slime_die,,1.04,10,0.75,24,50,1,5,,,,,,e_poisonspit,3,3,野外BOSS｜專屬：劇毒吐息（吐出數團毒液，命中的目標會中毒。）｜隨機：從隨機技能池抽 3 個,,,,,,,\n' +
+  ...
+      'Icefield_1,寒霜狼,Icefield,elite_adv,lightning,🐺,npc_icefield_1_idle,npc_icefield_1_walk,npc_icefield_1_attack,npc_icefield_1_die,,1.6,24,1,24,50,1,5,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\n' +
+  +   'Icefield_1,寒霜狼,Icefield,boss,lightning,🐺,npc_icefield_1_idle,npc_icefield_1_walk,npc_icefield_1_attack,npc_icefield_1_die,,1.6,24,1,24,50,1,5,,,,,,e_icesh'... 106534 more characters
+  -   'Icefield_1,寒霜狼,Icefield,boss,lightning,🐺,npc_icefield_1_idle,npc_icefield_1_walk,npc_icefield_1_attack,npc_icefield_1_die,,1.6,24,1,24,50,1,5,,,,,,e_icesh'... 106709 more characters
+
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\npc-elite-skills.test.cjs:76:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'NPC識別碼,NPC名稱,所屬地圖識別碼,類型,屬性,外觀,站立圖像,移動圖像,攻擊圖像,死亡圖像,圖像備註,縮放比,移動速度(米/秒),攻擊速度(次/秒),攻擊距離(米),視野範圍(米),魔法型（1是／0否）,出現權重,生命倍率,攻擊倍率,防禦倍率,命中倍率,閃避倍率,專屬技能,隨機技能下限,隨機技能上限,備註,3D模型,3D站立動作,3D移動動作,3D攻擊1動作,3D攻擊2動作,3D攻擊3動作,3D死亡動作\ndesert_1,史萊姆,desert,normal,ice,🟢,desert_slime_idle,desert_slime_walk,desert_slime_attack,desert_slime_die,,1.04,10,0.75,24,50,1,5,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_1,史萊姆,desert,elite,ice,🟢,desert_slime_idle,desert_slime_walk,desert_slime_attack,desert_slime_die,,1.04,10,0.75,24,50,1,5,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_1,史萊姆,desert,elite_adv,ice,🟢,desert_slime_idle,desert_slime_walk,desert_slime_attack,desert_slime_die,,1.04,10,0.75,24,50,1,5,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_1,史萊姆,desert,boss,ice,🟢,desert_slime_idle,desert_slime_walk,desert_slime_attack,desert_slime_die,,1.04,10,0.75,24,50,1,5,,,,,,e_poisonspit,3,3,野外BOSS｜專屬：劇毒吐息（吐出數團毒液，命中的目標會中毒。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_2,哥布林,desert,normal,fire,👺,desert_goblin_idle,desert_goblin_walk,desert_goblin_attack,desert_goblin_die,,1.2000000000000002,15,1,6,50,0,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_2,哥布林,desert,elite,fire,👺,desert_goblin_idle,desert_goblin_walk,desert_goblin_attack,desert_goblin_die,,1.2000000000000002,15,1,6,50,0,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_2,哥布林,desert,elite_adv,fire,👺,desert_goblin_idle,desert_goblin_walk,desert_goblin_attack,desert_goblin_die,,1.2000000000000002,15,1,6,50,0,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_2,哥布林,desert,boss,fire,👺,desert_goblin_idle,desert_goblin_walk,desert_goblin_attack,desert_goblin_die,,1.2000000000000002,15,1,6,50,0,1,,,,,,e_fireball,3,3,野外BOSS｜專屬：烈焰火球（丟出一顆巨大的火球，落地炸開並點燃目標。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_3,野狼,desert,normal,ice,🐺,desert_wolf_idle,desert_wolf_walk,desert_wolf_attack,desert_wolf_die,,1.6,24,1.5,6,50,1,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_3,野狼,desert,elite,ice,🐺,desert_wolf_idle,desert_wolf_walk,desert_wolf_attack,desert_wolf_die,,1.6,24,1.5,6,50,1,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_3,野狼,desert,elite_adv,ice,🐺,desert_wolf_idle,desert_wolf_walk,desert_wolf_attack,desert_wolf_die,,1.6,24,1.5,6,50,1,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_3,野狼,desert,boss,ice,🐺,desert_wolf_idle,desert_wolf_walk,desert_wolf_attack,desert_wolf_die,,1.6,24,1.5,6,50,1,1,,,,,,e_charge,3,3,野外BOSS｜專屬：野蠻衝鋒（先在你身上標出紅圈，隨後高速衝撞過來，撞上會被擊退並短暫暈眩。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_4,骷髏兵,desert,normal,fire,💀,desert_skeleton_idle,desert_skeleton_walk,desert_skeleton_attack,desert_skeleton_die,,1.36,10,1,6,50,0,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_4,骷髏兵,desert,elite,fire,💀,desert_skeleton_idle,desert_skeleton_walk,desert_skeleton_attack,desert_skeleton_die,,1.36,10,1,6,50,0,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_4,骷髏兵,desert,elite_adv,fire,💀,desert_skeleton_idle,desert_skeleton_walk,desert_skeleton_attack,desert_skeleton_die,,1.36,10,1,6,50,0,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_4,骷髏兵,desert,boss,fire,💀,desert_skeleton_idle,desert_skeleton_walk,desert_skeleton_attack,desert_skeleton_die,,1.36,10,1,6,50,0,1,,,,,,e_splitter,3,3,野外BOSS｜專屬：分裂（死亡時分裂成數隻較弱的分身。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_5,暗影蝠,desert,normal,fire,🦇,desert_shadow_bat_idle,desert_shadow_bat_walk,desert_shadow_bat_attack,desert_shadow_bat_die,,1.2000000000000002,18,1,24,50,1,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_5,暗影蝠,desert,elite,fire,🦇,desert_shadow_bat_idle,desert_shadow_bat_walk,desert_shadow_bat_attack,desert_shadow_bat_die,,1.2000000000000002,18,1,24,50,1,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_5,暗影蝠,desert,elite_adv,fire,🦇,desert_shadow_bat_idle,desert_shadow_bat_walk,desert_shadow_bat_attack,desert_shadow_bat_die,,1.2000000000000002,18,1,24,50,1,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_5,暗影蝠,desert,boss,fire,🦇,desert_shadow_bat_idle,desert_shadow_bat_walk,desert_shadow_bat_attack,desert_shadow_bat_die,,1.2000000000000002,18,1,24,50,1,1,,,,,,e_vampiric,3,3,野外BOSS｜專屬：嗜血（每次擊中你都會把造成傷害的一部分吸成自己的生命。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_6,樹妖,desert,normal,fire,🌳,desert_tree_spirit_idle,desert_tree_spirit_walk,desert_tree_spirit_attack,desert_tree_spirit_die,,1.6,10,0.75,6,50,0,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_6,樹妖,desert,elite,fire,🌳,desert_tree_spirit_idle,desert_tree_spirit_walk,desert_tree_spirit_attack,desert_tree_spirit_die,,1.6,10,0.75,6,50,0,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_6,樹妖,desert,elite_adv,fire,🌳,desert_tree_spirit_idle,desert_tree_spirit_walk,desert_tree_spirit_attack,desert_tree_spirit_die,,1.6,10,0.75,6,50,0,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_6,樹妖,desert,boss,fire,🌳,desert_tree_spirit_idle,desert_tree_spirit_walk,desert_tree_spirit_attack,desert_tree_spirit_die,,1.6,10,0.75,6,50,0,1,,,,,,e_regen,3,3,野外BOSS｜專屬：再生（持續回復自身生命，不盡快擊殺就會越打越久。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_7,蜥蜴戰士,desert,normal,fire,🦎,desert_lizard_warrior_idle,desert_lizard_warrior_walk,desert_lizard_warrior_attack,desert_lizard_warrior_die,,1.4800000000000002,15,1,6,50,1,3,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_7,蜥蜴戰士,desert,elite,fire,🦎,desert_lizard_warrior_idle,desert_lizard_warrior_walk,desert_lizard_warrior_attack,desert_lizard_warrior_die,,1.4800000000000002,15,1,6,50,1,3,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_7,蜥蜴戰士,desert,elite_adv,fire,🦎,desert_lizard_warrior_idle,desert_lizard_warrior_walk,desert_lizard_warrior_attack,desert_lizard_warrior_die,,1.4800000000000002,15,1,6,50,1,3,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_7,蜥蜴戰士,desert,boss,fire,🦎,desert_lizard_warrior_idle,desert_lizard_warrior_walk,desert_lizard_warrior_attack,desert_lizard_warrior_die,,1.4800000000000002,15,1,6,50,1,3,,,,,,e_moltenblast,3,3,野外BOSS｜專屬：熔岩爆裂（鎖定你腳下的位置，火紅魔法陣亮起後爆發烈焰；離開圈外即可躲開。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_8,半獸人,desert,normal,fire,🐗,desert_orc_idle,desert_orc_walk,desert_orc_attack,desert_orc_die,,1.4800000000000002,24,1.5,6,50,0,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_8,半獸人,desert,elite,fire,🐗,desert_orc_idle,desert_orc_walk,desert_orc_attack,desert_orc_die,,1.4800000000000002,24,1.5,6,50,0,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_8,半獸人,desert,elite_adv,fire,🐗,desert_orc_idle,desert_orc_walk,desert_orc_attack,desert_orc_die,,1.4800000000000002,24,1.5,6,50,0,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_8,半獸人,desert,boss,fire,🐗,desert_orc_idle,desert_orc_walk,desert_orc_attack,desert_orc_die,,1.4800000000000002,24,1.5,6,50,0,1,,,,,,e_enrage,3,3,野外BOSS｜專屬：狂暴（生命降到一定比例時進入狂暴，攻擊力與攻擊速度大幅提升。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_9,幽靈,desert,normal,fire,👻,npc_desert_9_idle,npc_desert_9_walk,npc_desert_9_attack,npc_desert_9_die,,1.6,15,0.75,24,50,1,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_9,幽靈,desert,elite,fire,👻,npc_desert_9_idle,npc_desert_9_walk,npc_desert_9_attack,npc_desert_9_die,,1.6,15,0.75,24,50,1,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_9,幽靈,desert,elite_adv,fire,👻,npc_desert_9_idle,npc_desert_9_walk,npc_desert_9_attack,npc_desert_9_die,,1.6,15,0.75,24,50,1,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_9,幽靈,desert,boss,fire,👻,npc_desert_9_idle,npc_desert_9_walk,npc_desert_9_attack,npc_desert_9_die,,1.6,15,0.75,24,50,1,1,,,,,,e_darkorbs,3,3,野外BOSS｜專屬：暗影彈幕（連續射出數顆暗影彈，逐發追向你。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_10,石像鬼,desert,normal,fire,🗿,npc_desert_10_idle,npc_desert_10_walk,npc_desert_10_attack,npc_desert_10_die,,2,24,1,6,50,0,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_10,石像鬼,desert,elite,fire,🗿,npc_desert_10_idle,npc_desert_10_walk,npc_desert_10_attack,npc_desert_10_die,,2,24,1,6,50,0,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_10,石像鬼,desert,elite_adv,fire,🗿,npc_desert_10_idle,npc_desert_10_walk,npc_desert_10_attack,npc_desert_10_die,,2,24,1,6,50,0,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_10,石像鬼,desert,boss,fire,🗿,npc_desert_10_idle,npc_desert_10_walk,npc_desert_10_attack,npc_desert_10_die,,2,24,1,6,50,0,1,,,,,,e_quake,3,3,野外BOSS｜專屬：地裂震擊（重擊大地，以自身為中心震裂出大範圍衝擊，被波及者會被震暈。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_11,牛頭人,desert,normal,fire,🐂,npc_desert_11_idle,npc_desert_11_walk,npc_desert_11_attack,npc_desert_11_die,,1.7600000000000002,15,1.5,6,50,1,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_11,牛頭人,desert,elite,fire,🐂,npc_desert_11_idle,npc_desert_11_walk,npc_desert_11_attack,npc_desert_11_die,,1.7600000000000002,15,1.5,6,50,1,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_11,牛頭人,desert,elite_adv,fire,🐂,npc_desert_11_idle,npc_desert_11_walk,npc_desert_11_attack,npc_desert_11_die,,1.7600000000000002,15,1.5,6,50,1,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_11,牛頭人,desert,boss,fire,🐂,npc_desert_11_idle,npc_desert_11_walk,npc_desert_11_attack,npc_desert_11_die,,1.7600000000000002,15,1.5,6,50,1,1,,,,,,e_charge,3,3,野外BOSS｜專屬：野蠻衝鋒（先在你身上標出紅圈，隨後高速衝撞過來，撞上會被擊退並短暫暈眩。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_12,雙足飛龍,desert,normal,fire,🐉,npc_desert_12_idle,npc_desert_12_walk,npc_desert_12_attack,npc_desert_12_die,,2.4000000000000004,24,1,36,50,0,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_12,雙足飛龍,desert,elite,fire,🐉,npc_desert_12_idle,npc_desert_12_walk,npc_desert_12_attack,npc_desert_12_die,,2.4000000000000004,24,1,36,50,0,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_12,雙足飛龍,desert,elite_adv,fire,🐉,npc_desert_12_idle,npc_desert_12_walk,npc_desert_12_attack,npc_desert_12_die,,2.4000000000000004,24,1,36,50,0,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_12,雙足飛龍,desert,boss,fire,🐉,npc_desert_12_idle,npc_desert_12_walk,npc_desert_12_attack,npc_desert_12_die,,2.4000000000000004,24,1,36,50,0,1,,,,,,e_meteor,3,3,野外BOSS｜專屬：隕石雨（在你身邊降下數顆隕石，落點先出現紅圈預警，倒數結束後爆炸並使你燃燒。）｜隨機：從隨機技能池抽 3 個,,,,,,,\nIcefield_1,寒霜狼,Icefield,normal,lightning,🐺,npc_icefield_1_idle,npc_icefield_1_walk,npc_icefield_1_attack,npc_icefield_1_die,,1.6,24,1,24,50,1,5,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\nIcefield_1,寒霜狼,Icefield,elite,lightning,🐺,npc_icefield_1_idle,npc_icefield_1_walk,npc_icefield_1_attack,npc_icefield_1_die,,1.6,24,1,24,50,1,5,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\nIcefield_1,寒霜狼,Icefield,elite_adv,lightning,🐺,npc_icefield_1_idle,npc_icefield_1_walk,npc_icefield_1_attack,npc_icefield_1_die,,1.6,24,1,24,50,1,5,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\nIcefield_1,寒霜狼,Icefield,boss,lightning,🐺,npc_icefield_1_idle,npc_icefield_1_walk,npc_icefield_1_attack,npc_icefield_1_die,,1.6,24,1,24,50,1,5,,,,,,e_icesh'... 106534 more characters,
+    expected: 'NPC識別碼,NPC名稱,所屬地圖識別碼,類型,屬性,外觀,站立圖像,移動圖像,攻擊圖像,死亡圖像,圖像備註,縮放比,移動速度(米/秒),攻擊速度(次/秒),攻擊距離(米),視野範圍(米),魔法型（1是／0否）,出現權重,生命倍率,攻擊倍率,防禦倍率,命中倍率,閃避倍率,專屬技能,隨機技能下限,隨機技能上限,備註,3D模型,3D站立動作,3D移動動作,3D攻擊1動作,3D攻擊2動作,3D攻擊3動作,3D死亡動作\ndesert_1,史萊姆,desert,normal,ice,🟢,desert_slime_idle,desert_slime_walk,desert_slime_attack,desert_slime_die,,1.04,10,0.75,24,50,1,5,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_1,史萊姆,desert,elite,ice,🟢,desert_slime_idle,desert_slime_walk,desert_slime_attack,desert_slime_die,,1.04,10,0.75,24,50,1,5,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_1,史萊姆,desert,elite_adv,ice,🟢,desert_slime_idle,desert_slime_walk,desert_slime_attack,desert_slime_die,,1.04,10,0.75,24,50,1,5,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_1,史萊姆,desert,boss,ice,🟢,desert_slime_idle,desert_slime_walk,desert_slime_attack,desert_slime_die,,1.04,10,0.75,24,50,1,5,,,,,,e_poisonspit,3,3,野外BOSS｜專屬：劇毒吐息（吐出數團毒液，命中的目標會中毒。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_2,哥布林,desert,normal,fire,👺,desert_goblin_idle,desert_goblin_walk,desert_goblin_attack,desert_goblin_die,,1.2000000000000002,15,1,6,50,0,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_2,哥布林,desert,elite,fire,👺,desert_goblin_idle,desert_goblin_walk,desert_goblin_attack,desert_goblin_die,,1.2000000000000002,15,1,6,50,0,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_2,哥布林,desert,elite_adv,fire,👺,desert_goblin_idle,desert_goblin_walk,desert_goblin_attack,desert_goblin_die,,1.2000000000000002,15,1,6,50,0,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_2,哥布林,desert,boss,fire,👺,desert_goblin_idle,desert_goblin_walk,desert_goblin_attack,desert_goblin_die,,1.2000000000000002,15,1,6,50,0,1,,,,,,e_fireball,3,3,野外BOSS｜專屬：烈焰火球（丟出一顆巨大的火球，落地炸開並點燃目標。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_3,野狼,desert,normal,ice,🐺,desert_wolf_idle,desert_wolf_walk,desert_wolf_attack,desert_wolf_die,,1.6,24,1.5,6,50,1,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_3,野狼,desert,elite,ice,🐺,desert_wolf_idle,desert_wolf_walk,desert_wolf_attack,desert_wolf_die,,1.6,24,1.5,6,50,1,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_3,野狼,desert,elite_adv,ice,🐺,desert_wolf_idle,desert_wolf_walk,desert_wolf_attack,desert_wolf_die,,1.6,24,1.5,6,50,1,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_3,野狼,desert,boss,ice,🐺,desert_wolf_idle,desert_wolf_walk,desert_wolf_attack,desert_wolf_die,,1.6,24,1.5,6,50,1,1,,,,,,e_charge,3,3,野外BOSS｜專屬：野蠻衝鋒（先在你身上標出紅圈，隨後高速衝撞過來，撞上會被擊退並短暫暈眩。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_4,骷髏兵,desert,normal,fire,💀,desert_skeleton_idle,desert_skeleton_walk,desert_skeleton_attack,desert_skeleton_die,,1.36,10,1,6,50,0,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_4,骷髏兵,desert,elite,fire,💀,desert_skeleton_idle,desert_skeleton_walk,desert_skeleton_attack,desert_skeleton_die,,1.36,10,1,6,50,0,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_4,骷髏兵,desert,elite_adv,fire,💀,desert_skeleton_idle,desert_skeleton_walk,desert_skeleton_attack,desert_skeleton_die,,1.36,10,1,6,50,0,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_4,骷髏兵,desert,boss,fire,💀,desert_skeleton_idle,desert_skeleton_walk,desert_skeleton_attack,desert_skeleton_die,,1.36,10,1,6,50,0,1,,,,,,e_splitter,3,3,野外BOSS｜專屬：分裂（死亡時分裂成數隻較弱的分身。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_5,暗影蝠,desert,normal,fire,🦇,desert_shadow_bat_idle,desert_shadow_bat_walk,desert_shadow_bat_attack,desert_shadow_bat_die,,1.2000000000000002,18,1,24,50,1,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_5,暗影蝠,desert,elite,fire,🦇,desert_shadow_bat_idle,desert_shadow_bat_walk,desert_shadow_bat_attack,desert_shadow_bat_die,,1.2000000000000002,18,1,24,50,1,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_5,暗影蝠,desert,elite_adv,fire,🦇,desert_shadow_bat_idle,desert_shadow_bat_walk,desert_shadow_bat_attack,desert_shadow_bat_die,,1.2000000000000002,18,1,24,50,1,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_5,暗影蝠,desert,boss,fire,🦇,desert_shadow_bat_idle,desert_shadow_bat_walk,desert_shadow_bat_attack,desert_shadow_bat_die,,1.2000000000000002,18,1,24,50,1,1,,,,,,e_vampiric,3,3,野外BOSS｜專屬：嗜血（每次擊中你都會把造成傷害的一部分吸成自己的生命。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_6,樹妖,desert,normal,fire,🌳,desert_tree_spirit_idle,desert_tree_spirit_walk,desert_tree_spirit_attack,desert_tree_spirit_die,,1.6,10,0.75,6,50,0,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_6,樹妖,desert,elite,fire,🌳,desert_tree_spirit_idle,desert_tree_spirit_walk,desert_tree_spirit_attack,desert_tree_spirit_die,,1.6,10,0.75,6,50,0,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_6,樹妖,desert,elite_adv,fire,🌳,desert_tree_spirit_idle,desert_tree_spirit_walk,desert_tree_spirit_attack,desert_tree_spirit_die,,1.6,10,0.75,6,50,0,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_6,樹妖,desert,boss,fire,🌳,desert_tree_spirit_idle,desert_tree_spirit_walk,desert_tree_spirit_attack,desert_tree_spirit_die,,1.6,10,0.75,6,50,0,1,,,,,,e_regen,3,3,野外BOSS｜專屬：再生（持續回復自身生命，不盡快擊殺就會越打越久。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_7,蜥蜴戰士,desert,normal,fire,🦎,desert_lizard_warrior_idle,desert_lizard_warrior_walk,desert_lizard_warrior_attack,desert_lizard_warrior_die,,1.4800000000000002,15,1,6,50,1,3,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_7,蜥蜴戰士,desert,elite,fire,🦎,desert_lizard_warrior_idle,desert_lizard_warrior_walk,desert_lizard_warrior_attack,desert_lizard_warrior_die,,1.4800000000000002,15,1,6,50,1,3,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_7,蜥蜴戰士,desert,elite_adv,fire,🦎,desert_lizard_warrior_idle,desert_lizard_warrior_walk,desert_lizard_warrior_attack,desert_lizard_warrior_die,,1.4800000000000002,15,1,6,50,1,3,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_7,蜥蜴戰士,desert,boss,fire,🦎,desert_lizard_warrior_idle,desert_lizard_warrior_walk,desert_lizard_warrior_attack,desert_lizard_warrior_die,,1.4800000000000002,15,1,6,50,1,3,,,,,,e_moltenblast,3,3,野外BOSS｜專屬：熔岩爆裂（鎖定你腳下的位置，火紅魔法陣亮起後爆發烈焰；離開圈外即可躲開。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_8,半獸人,desert,normal,fire,🐗,desert_orc_idle,desert_orc_walk,desert_orc_attack,desert_orc_die,,1.4800000000000002,24,1.5,6,50,0,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_8,半獸人,desert,elite,fire,🐗,desert_orc_idle,desert_orc_walk,desert_orc_attack,desert_orc_die,,1.4800000000000002,24,1.5,6,50,0,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_8,半獸人,desert,elite_adv,fire,🐗,desert_orc_idle,desert_orc_walk,desert_orc_attack,desert_orc_die,,1.4800000000000002,24,1.5,6,50,0,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_8,半獸人,desert,boss,fire,🐗,desert_orc_idle,desert_orc_walk,desert_orc_attack,desert_orc_die,,1.4800000000000002,24,1.5,6,50,0,1,,,,,,e_enrage,3,3,野外BOSS｜專屬：狂暴（生命降到一定比例時進入狂暴，攻擊力與攻擊速度大幅提升。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_9,幽靈,desert,normal,fire,👻,npc_desert_9_idle,npc_desert_9_walk,npc_desert_9_attack,npc_desert_9_die,,1.6,15,0.75,24,50,1,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_9,幽靈,desert,elite,fire,👻,npc_desert_9_idle,npc_desert_9_walk,npc_desert_9_attack,npc_desert_9_die,,1.6,15,0.75,24,50,1,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_9,幽靈,desert,elite_adv,fire,👻,npc_desert_9_idle,npc_desert_9_walk,npc_desert_9_attack,npc_desert_9_die,,1.6,15,0.75,24,50,1,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_9,幽靈,desert,boss,fire,👻,npc_desert_9_idle,npc_desert_9_walk,npc_desert_9_attack,npc_desert_9_die,,1.6,15,0.75,24,50,1,1,,,,,,e_darkorbs,3,3,野外BOSS｜專屬：暗影彈幕（連續射出數顆暗影彈，逐發追向你。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_10,石像鬼,desert,normal,fire,🗿,npc_desert_10_idle,npc_desert_10_walk,npc_desert_10_attack,npc_desert_10_die,,2,24,1,6,50,0,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_10,石像鬼,desert,elite,fire,🗿,npc_desert_10_idle,npc_desert_10_walk,npc_desert_10_attack,npc_desert_10_die,,2,24,1,6,50,0,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_10,石像鬼,desert,elite_adv,fire,🗿,npc_desert_10_idle,npc_desert_10_walk,npc_desert_10_attack,npc_desert_10_die,,2,24,1,6,50,0,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_10,石像鬼,desert,boss,fire,🗿,npc_desert_10_idle,npc_desert_10_walk,npc_desert_10_attack,npc_desert_10_die,,2,24,1,6,50,0,1,,,,,,e_quake,3,3,野外BOSS｜專屬：地裂震擊（重擊大地，以自身為中心震裂出大範圍衝擊，被波及者會被震暈。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_11,牛頭人,desert,normal,fire,🐂,npc_desert_11_idle,npc_desert_11_walk,npc_desert_11_attack,npc_desert_11_die,,1.7600000000000002,15,1.5,6,50,1,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_11,牛頭人,desert,elite,fire,🐂,npc_desert_11_idle,npc_desert_11_walk,npc_desert_11_attack,npc_desert_11_die,,1.7600000000000002,15,1.5,6,50,1,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_11,牛頭人,desert,elite_adv,fire,🐂,npc_desert_11_idle,npc_desert_11_walk,npc_desert_11_attack,npc_desert_11_die,,1.7600000000000002,15,1.5,6,50,1,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_11,牛頭人,desert,boss,fire,🐂,npc_desert_11_idle,npc_desert_11_walk,npc_desert_11_attack,npc_desert_11_die,,1.7600000000000002,15,1.5,6,50,1,1,,,,,,e_charge,3,3,野外BOSS｜專屬：野蠻衝鋒（先在你身上標出紅圈，隨後高速衝撞過來，撞上會被擊退並短暫暈眩。）｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_12,雙足飛龍,desert,normal,fire,🐉,npc_desert_12_idle,npc_desert_12_walk,npc_desert_12_attack,npc_desert_12_die,,2.4000000000000004,24,1,36,50,0,1,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\ndesert_12,雙足飛龍,desert,elite,fire,🐉,npc_desert_12_idle,npc_desert_12_walk,npc_desert_12_attack,npc_desert_12_die,,2.4000000000000004,24,1,36,50,0,1,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\ndesert_12,雙足飛龍,desert,elite_adv,fire,🐉,npc_desert_12_idle,npc_desert_12_walk,npc_desert_12_attack,npc_desert_12_die,,2.4000000000000004,24,1,36,50,0,1,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\ndesert_12,雙足飛龍,desert,boss,fire,🐉,npc_desert_12_idle,npc_desert_12_walk,npc_desert_12_attack,npc_desert_12_die,,2.4000000000000004,24,1,36,50,0,1,,,,,,e_meteor,3,3,野外BOSS｜專屬：隕石雨（在你身邊降下數顆隕石，落點先出現紅圈預警，倒數結束後爆炸並使你燃燒。）｜隨機：從隨機技能池抽 3 個,,,,,,,\nIcefield_1,寒霜狼,Icefield,normal,lightning,🐺,npc_icefield_1_idle,npc_icefield_1_walk,npc_icefield_1_attack,npc_icefield_1_die,,1.6,24,1,24,50,1,5,,,,,,,,,普通攻擊，沒有特殊技能。,,,,,,,\nIcefield_1,寒霜狼,Icefield,elite,lightning,🐺,npc_icefield_1_idle,npc_icefield_1_walk,npc_icefield_1_attack,npc_icefield_1_die,,1.6,24,1,24,50,1,5,,,,,,,2,2,菁英｜隨機：從隨機技能池抽 2 個,,,,,,,\nIcefield_1,寒霜狼,Icefield,elite_adv,lightning,🐺,npc_icefield_1_idle,npc_icefield_1_walk,npc_icefield_1_attack,npc_icefield_1_die,,1.6,24,1,24,50,1,5,,,,,,,3,3,高級菁英｜隨機：從隨機技能池抽 3 個,,,,,,,\nIcefield_1,寒霜狼,Icefield,boss,lightning,🐺,npc_icefield_1_idle,npc_icefield_1_walk,npc_icefield_1_attack,npc_icefield_1_die,,1.6,24,1,24,50,1,5,,,,,,e_icesh'... 106709 more characters,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\npc-elite-skills.test.cjs:102:1
+✖ NPC-SKILL-6 基本資料只認 normal 列：改其他類型列的名稱不會影響遊戲；改 tower_boss 列的名稱、屬性會寫回 BOSS_LIST (432.026ms)
+  AssertionError [ERR_ASSERTION]: 圖檔不受表控制
+  + actual - expected
+
+  + 'sprites/boss/boss_skeleton_king.png'
+  - 'sprites/boss/boss_flame.png'
+                       ^
+
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\npc-elite-skills.test.cjs:114:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'sprites/boss/boss_skeleton_king.png',
+    expected: 'sprites/boss/boss_flame.png',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\tower-rewards-ui.test.cjs:62:1
+✖ 全塔樓層不再有BOSS hover或技能施放說明，顯示正式配置的真言等級與名稱 (58.5228ms)
+  ReferenceError: divineStoneIconHTML is not defined
+      at towerRewardRows (evalmachine.<anonymous>:7:13)
+      at Object.towerDetailHTML (evalmachine.<anonymous>:13:17)
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\tower-rewards-ui.test.cjs:66:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+
+test at tests\tower-rewards-ui.test.cjs:82:1
+✖ 同層多個真言完整列出，停用／非整數門檻不顯示，原技能解鎖保留 (77.3467ms)
+  ReferenceError: divineStoneIconHTML is not defined
+      at towerRewardRows (evalmachine.<anonymous>:7:13)
+      at Object.towerDetailHTML (evalmachine.<anonymous>:13:17)
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\tower-rewards-ui.test.cjs:93:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+
+test at tests\tower-rewards-ui.test.cjs:101:1
+✖ 附魔開關兩種狀態均不再顯示附魔書獎勵，其他材料仍顯示 (47.9218ms)
+  ReferenceError: divineStoneIconHTML is not defined
+      at Object.towerRewardRows (evalmachine.<anonymous>:7:13)
+      at TestContext.<anonymous> (D:\MyGame\Idle-RPG\codex\tests\tower-rewards-ui.test.cjs:104:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7)

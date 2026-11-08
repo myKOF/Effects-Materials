@@ -1,0 +1,62 @@
+[
+  {
+    "mode": "current",
+    "run": 1,
+    "pass": true
+  },
+  {
+    "mode": "current",
+    "run": 2,
+    "pass": true
+  },
+  {
+    "mode": "current",
+    "run": 3,
+    "pass": false
+  },
+  {
+    "mode": "current",
+    "run": 4,
+    "pass": true
+  },
+  {
+    "mode": "current",
+    "run": 5,
+    "pass": true
+  },
+  {
+    "mode": "current",
+    "run": 6,
+    "pass": true
+  },
+  {
+    "mode": "baseline",
+    "run": 1,
+    "pass": true
+  },
+  {
+    "mode": "baseline",
+    "run": 2,
+    "pass": true
+  },
+  {
+    "mode": "baseline",
+    "run": 3,
+    "pass": true
+  },
+  {
+    "mode": "baseline",
+    "run": 4,
+    "pass": true
+  },
+  {
+    "mode": "baseline",
+    "run": 5,
+    "pass": false
+  },
+  {
+    "mode": "baseline",
+    "run": 6,
+    "pass": true
+  }
+]
