@@ -1,0 +1,28 @@
+{
+  "stylesXmlIdentical": true,
+  "sheets": {
+    "xl/worksheets/sheet1.xml": {
+      "cellStylesCompared": 18054,
+      "nativeObjectsAndStylePreserved": true,
+      "maxColumnWidthChange": 0.05078125,
+      "maxRowHeightChangePoints": 0.5999999999999996
+    },
+    "xl/worksheets/sheet2.xml": {
+      "cellStylesCompared": 6481,
+      "nativeObjectsAndStylePreserved": true,
+      "maxColumnWidthChange": 0.05078125,
+      "maxRowHeightChangePoints": 2.3999999999999986
+    }
+  },
+  "nativeDimensionNormalization": "Excel native save rounded row heights/column widths for the local display metrics; cell styles and layout features preserved.",
+  "portrait": {
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaRange": [
+      0,
+      255
+    ]
+  }
+}

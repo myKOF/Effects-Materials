@@ -1,0 +1,13 @@
+{
+  "source": {
+    "normal": "71842af6c5c5308ef408ca2b4c9e983638b6a98593adde04cfd6a3e99d639053",
+    "baseColor": "e40e0b2919a5dfe92dd5b07d2583dd0b5c644b80ab98795a0125d4cec43ab46e",
+    "metallicRoughness": "6974993fdfc6f2aac34a0750fd71ba172563d020c395a448315db6d00846adc0"
+  },
+  "output": {
+    "normal": "71842af6c5c5308ef408ca2b4c9e983638b6a98593adde04cfd6a3e99d639053",
+    "baseColor": "e40e0b2919a5dfe92dd5b07d2583dd0b5c644b80ab98795a0125d4cec43ab46e",
+    "metallicRoughness": "6974993fdfc6f2aac34a0750fd71ba172563d020c395a448315db6d00846adc0"
+  },
+  "allTextureBytesIdentical": true
+}

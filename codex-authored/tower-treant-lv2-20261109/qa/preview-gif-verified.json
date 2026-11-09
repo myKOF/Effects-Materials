@@ -1,0 +1,56 @@
+[
+  {
+    "file": "Treant_LV2_actions_HD.gif",
+    "frames": 118,
+    "size": [
+      1920,
+      1200
+    ],
+    "durationMs": 5900
+  },
+  {
+    "file": "Treant_LV2_Attack1_HD.gif",
+    "frames": 45,
+    "size": [
+      720,
+      784
+    ],
+    "durationMs": 4800
+  },
+  {
+    "file": "Treant_LV2_Attack2_HD.gif",
+    "frames": 28,
+    "size": [
+      720,
+      784
+    ],
+    "durationMs": 3100
+  },
+  {
+    "file": "Treant_LV2_Attack3_HD.gif",
+    "frames": 59,
+    "size": [
+      720,
+      784
+    ],
+    "durationMs": 6200
+  },
+  {
+    "file": "Treant_LV2_Die_HD.gif",
+    "frames": 22,
+    "size": [
+      720,
+      784
+    ],
+    "durationMs": 3050
+  },
+  {
+    "file": "Treant_LV2_Walk_HD.gif",
+    "frames": 60,
+    "size": [
+      720,
+      784
+    ],
+    "durationMs": 3000
+  }
+]

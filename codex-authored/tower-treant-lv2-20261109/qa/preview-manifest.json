@@ -1,0 +1,52 @@
+{
+  "npc": "tower_boss_12",
+  "model": "images/models/npc3d/treant_lv2.glb",
+  "modelSha256": "251fa3fee269ce8d072f8a05227ccf62f3ee43418b835c00925f086d028d3f31",
+  "width": 720,
+  "height": 720,
+  "renderFps": 20,
+  "playbackSpeed": 1,
+  "engine": "Blender EEVEE",
+  "blender": "4.5.10 LTS",
+  "clips": {
+    "Walk": {
+      "clip": "Unsteady_Walk",
+      "frames": 60,
+      "duration": 2.966666666666667,
+      "sourceDuration": 2.966666666666667,
+      "playbackSpeed": 1
+    },
+    "Attack1": {
+      "clip": "Weapon_Combo_2",
+      "frames": 45,
+      "duration": 4.5,
+      "sourceDuration": 4.5,
+      "playbackSpeed": 1,
+      "fps": 10
+    },
+    "Attack2": {
+      "clip": "Attack",
+      "frames": 28,
+      "duration": 2.8,
+      "sourceDuration": 2.8,
+      "playbackSpeed": 1,
+      "fps": 10
+    },
+    "Attack3": {
+      "clip": "Basic_Jump",
+      "frames": 59,
+      "duration": 5.866666666666666,
+      "sourceDuration": 5.866666666666666,
+      "playbackSpeed": 1,
+      "fps": 10
+    },
+    "Die": {
+      "clip": "Shot_and_Fall_Forward",
+      "frames": 22,
+      "duration": 2.1666666666666665,
+      "sourceDuration": 2.1666666666666665,
+      "playbackSpeed": 1,
+      "fps": 10
+    }
+  }
+}

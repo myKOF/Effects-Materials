@@ -1,0 +1,13 @@
+{
+  "blender": "4.5.10 LTS",
+  "actions": [
+    "Attack",
+    "Basic_Jump",
+    "Shot_and_Fall_Forward",
+    "Unsteady_Walk",
+    "Weapon_Combo_2"
+  ],
+  "bones": 58,
+  "packedImages": 6,
+  "reopened": true
+}

@@ -1,0 +1,75 @@
+﻿{
+    "outputSha256":  "FB4C823E91872AC2C5E1FD7E24E47EEF1E947C2B013D6D43742AF8755507E80A",
+    "cellsCompared":  28365,
+    "shapesAfter":  7,
+    "nativeNormalReopen":  true,
+    "changes":  [
+                    {
+                        "cell":  "B493",
+                        "before":  "骷髏王Ⅱ",
+                        "after":  "樹人Ⅱ"
+                    },
+                    {
+                        "cell":  "F493",
+                        "before":  "💀",
+                        "after":  "🌳"
+                    },
+                    {
+                        "cell":  "G493",
+                        "before":  "sprites/boss/boss_skeleton_king_lv2.png",
+                        "after":  "sprites/boss/boss_treant_lv2.png"
+                    },
+                    {
+                        "cell":  "H493",
+                        "before":  "sprites/boss/boss_skeleton_king_lv2.png",
+                        "after":  "sprites/boss/boss_treant_lv2.png"
+                    },
+                    {
+                        "cell":  "I493",
+                        "before":  "sprites/boss/boss_skeleton_king_lv2.png",
+                        "after":  "sprites/boss/boss_treant_lv2.png"
+                    },
+                    {
+                        "cell":  "J493",
+                        "before":  "sprites/boss/boss_skeleton_king_lv2.png",
+                        "after":  "sprites/boss/boss_treant_lv2.png"
+                    },
+                    {
+                        "cell":  "AB493",
+                        "before":  "images/models/npc3d/boss2.glb",
+                        "after":  "images/models/npc3d/treant_lv2.glb"
+                    },
+                    {
+                        "cell":  "AC493",
+                        "before":  "Walk",
+                        "after":  "Unsteady_Walk"
+                    },
+                    {
+                        "cell":  "AD493",
+                        "before":  "Walk",
+                        "after":  "Unsteady_Walk"
+                    },
+                    {
+                        "cell":  "AE493",
+                        "before":  "Attack1",
+                        "after":  "Weapon_Combo_2"
+                    },
+                    {
+                        "cell":  "AF493",
+                        "before":  "Attack2",
+                        "after":  "Attack"
+                    },
+                    {
+                        "cell":  "AG493",
+                        "before":  "Attack3",
+                        "after":  "Basic_Jump"
+                    },
+                    {
+                        "cell":  "AH493",
+                        "before":  "Die",
+                        "after":  "Shot_and_Fall_Forward"
+                    }
+                ],
+    "sourceSha256":  "EE3F2BBD33C3B6B039E512E304CFDA3C7DBE91D92820FB765D7C2F7AD2E2671C",
+    "shapesBefore":  7
+}

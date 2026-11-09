@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "tasks": [
+    "TOWER-TREANT-LV2-20261109"
+  ],
+  "stage": 2,
+  "license": "User-created/generated BOSS2 series, authorized for this game and modification; original supplied GLB surface and first-stage approved motions retained; no additional third-party art.",
+  "status": "Stage 2 treant; all first-stage motions, exact supplied PBR/UV, Blender editable source and native NPC integration.",
+  "files": [
+    {
+      "source": "sources/BOSS2_LV2.glb",
+      "sha256": "403d4a38bbbd21c9337d1de5d6ca0fc2ac8675b99e80e313550e82506aed9648"
+    },
+    {
+      "source": "sources/approved-first-stage.glb",
+      "sha256": "f4de6ce8b9aee60e36031c58c3799441372eb0252f0d657ecc5b0dc1fb008e6c"
+    },
+    {
+      "source": "exports/treant_lv2.glb",
+      "sha256": "251fa3fee269ce8d072f8a05227ccf62f3ee43418b835c00925f086d028d3f31",
+      "project": "images/models/npc3d/treant_lv2.glb"
+    },
+    {
+      "source": "exports/boss_treant_lv2.png",
+      "sha256": "fa4752f4f1dd2a34a6aab365c50f3c1c54b852c20163a18cabe19f4af19d317c",
+      "project": "images/sprites/boss/boss_treant_lv2.png"
+    },
+    {
+      "source": "editable/Treant_LV2.blend",
+      "sha256": "08a690730959847c4499d6616aa49450461b33476e97d75c807c217f73e5ef51"
+    },
+    {
+      "source": "editable/portrait-scene.blend",
+      "sha256": "74c04fe951c157eb1b7561ecc6fb2f558516c9053ae09bd337bded854889ec9e"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/prepare_tower_treant_variant.py",
+      "sha256": "1cdd204378a7d7d7923a1ff048130f7503445a12b1618fa06bcb4885874f3884",
+      "project": "tools/meshy-pipeline/blender/prepare_tower_treant_variant.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/qa_tower_treant_variant.py",
+      "sha256": "748251602f6160b7938a86eaa9a9a346de33e1ecc642bec78b4135b4ba7b23f3",
+      "project": "tools/meshy-pipeline/blender/qa_tower_treant_variant.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/render_tower_treant_lv2.py",
+      "sha256": "708611c98f8febc9e39cb2d7fe1e0b012c41b2e4f87709cb302aeb85cae20c9a",
+      "project": "tools/meshy-pipeline/blender/render_tower_treant_lv2.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/package_tower_treant_lv2.py",
+      "sha256": "3f68f3c89c74f7cc01187cb88a6a038ef540e88db7ead1ef169248aa695e3690",
+      "project": "tools/meshy-pipeline/package_tower_treant_lv2.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/src/export-tower-treant-lv2.cjs",
+      "sha256": "0c1f3f3beb54b8ac4e845d62df9867fa7eae7fd62ab8154159ddc8f372b94863",
+      "project": "tools/meshy-pipeline/src/export-tower-treant-lv2.cjs"
+    },
+    {
+      "source": "project/docs/assets/TOWER_TREANT_LV2_SOURCE.md",
+      "sha256": "461ed3cd0a2e0020c6c91943ac2da8f05bf0ca5a037ced85ad4a253283702ab8",
+      "project": "docs/assets/TOWER_TREANT_LV2_SOURCE.md"
+    },
+    {
+      "source": "shared/render_tower_treant.py",
+      "sha256": "aa61ab9493b2bdf1793b87b2545152c7df69a50444c5fa0ced8356751bdccba0"
+    },
+    {
+      "source": "shared/render_tower_boss1.py",
+      "sha256": "6d0be0ff3822a8fe7708820618aa9e8401c54703c3bf0289f79354a8f69636e5"
+    },
+    {
+      "source": "shared/package_tower_boss1.py",
+      "sha256": "3eafdb00fda1b8739aa24b67e21daff7a87b529ac6a379813017f5900df6c63c"
+    },
+    {
+      "source": "qa/surface-qa.json",
+      "sha256": "9d066cc5ce572abd8dfda5360fc8476f756c8ce677258151d08b658f57f72fa4"
+    },
+    {
+      "source": "qa/animation-qa.json",
+      "sha256": "4ce7973ccf4fa3f555435fb7ce43679519732ada62d3a47be6502f9d8fd7f1b6"
+    },
+    {
+      "source": "qa/texture-qa.json",
+      "sha256": "020d8ebdab31904a0c7a68328b0d340769e62fc726a6af13aac9f7ef73610315"
+    },
+    {
+      "source": "qa/editable-qa.json",
+      "sha256": "e0b4e6d93f2b9644970413344c6c8da6894a36aa4f9cd9db7e6c6dd26b8568d2"
+    },
+    {
+      "source": "qa/npc-native-receipt.json",
+      "sha256": "561b683c56a5d2de25a2af3aed5810e35eefe97cb0c8230dc263a24153d9a088"
+    },
+    {
+      "source": "qa/portrait-source.json",
+      "sha256": "3f9f90af20b83c514f785691a06397293b91ad3489a71c73a02665008fa9e39f"
+    },
+    {
+      "source": "qa/integration-tests.tap",
+      "sha256": "37d2308e3b0fea71ec2640dac377e84705e893a89b7043ed99e1fc9a0ef163d4"
+    },
+    {
+      "source": "qa/runtime-regression.tap",
+      "sha256": "a8931d613c08ae68e5cb7461bf148ba8d071df07d4d7ddf8e766c39db44c7552"
+    },
+    {
+      "source": "qa/both-stages-table-qa.json",
+      "sha256": "c086fc519e0330132779860def01f5f2292f2265d32be52c851b774ef29c50ce"
+    },
+    {
+      "source": "qa/xlsx-format-qa.json",
+      "sha256": "26c54c6c58bf5a7d2c6fe5712001492f4af6b6645ee3cb863198706f06a6bb4d"
+    },
+    {
+      "source": "qa/preview-manifest.json",
+      "sha256": "dcf7a9f06ce6154e71a48a68cd342adc7673e5c7e5abacd31918a205145cd317"
+    },
+    {
+      "source": "qa/preview-gif-report.json",
+      "sha256": "b8d0f19c79dba540aa882fef9473169050d19102e563762c23e232a83841f3c4"
+    },
+    {
+      "source": "qa/preview-gif-verified.json",
+      "sha256": "16941e95168065a609f926cd5ea0356366d9da99e6fa12205f392e6a58accfd8"
+    },
+    {
+      "source": "qa/game-runtime-qa.json",
+      "sha256": "c5052b937ae018670f699bbab8b62bab4c8c10512ea41f5c9df63d3bdb125383"
+    },
+    {
+      "source": "qa/build-final.log",
+      "sha256": "02e36f4a0b4c64ab9aa71984779d4f61de91ac246d3645fb9bead0c049d930f3"
+    },
+    {
+      "source": "qa/game-runtime-final-qa.json",
+      "sha256": "0a1239347bd79346121ed3554953dbb6dc6d344e27ee3f93ebf4a3cf561d7736"
+    }
+  ]
+}

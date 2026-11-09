@@ -1,0 +1,98 @@
+{
+  "boot": {
+    "started": true,
+    "booted": true,
+    "alive": true,
+    "deadReason": null,
+    "safeMode": false,
+    "restarts": 0,
+    "maxRestarts": 3,
+    "slowLoop": null,
+    "hitRate": 0,
+    "persistAgeSec": null,
+    "silentMs": 81,
+    "upTimeSec": 1,
+    "ticks": 0,
+    "events": 0,
+    "errors": 0,
+    "persists": 0,
+    "catchupSec": 0,
+    "pendingCommands": 0,
+    "persistErrors": 0,
+    "lastDirty": [],
+    "lastView": null,
+    "shimDiag": null,
+    "measure": null,
+    "lastError": null
+  },
+  "stages": [
+    {
+      "floor": 12,
+      "entity": {
+        "id": "tb-float",
+        "x": 260,
+        "y": 0,
+        "state": "idle",
+        "lunge": 0,
+        "magic": true,
+        "npc": "tower_boss_12",
+        "sheet": "",
+        "anim": "cast",
+        "npc3d": true,
+        "clip": "Weapon_Combo_2"
+      },
+      "models": [
+        {
+          "file": "images/models/npc3d/treant_lv2.glb",
+          "clips": [
+            "Attack",
+            "Basic_Jump",
+            "Shot_and_Fall_Forward",
+            "Unsteady_Walk",
+            "Weapon_Combo_2"
+          ]
+        }
+      ]
+    },
+    {
+      "floor": 22,
+      "entity": {
+        "id": "tb-float",
+        "x": 411,
+        "y": 0,
+        "state": "idle",
+        "lunge": 0,
+        "magic": true,
+        "npc": "tower_boss_22",
+        "sheet": "",
+        "anim": "cast",
+        "npc3d": true,
+        "clip": "Weapon_Combo_2"
+      },
+      "models": [
+        {
+          "file": "images/models/npc3d/treant_lv2.glb",
+          "clips": [
+            "Attack",
+            "Basic_Jump",
+            "Shot_and_Fall_Forward",
+            "Unsteady_Walk",
+            "Weapon_Combo_2"
+          ]
+        },
+        {
+          "file": "images/models/npc3d/treant_lv3.glb",
+          "clips": [
+            "Attack",
+            "Basic_Jump",
+            "Shot_and_Fall_Forward",
+            "Unsteady_Walk",
+            "Weapon_Combo_2"
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

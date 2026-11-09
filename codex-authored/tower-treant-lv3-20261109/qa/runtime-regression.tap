@@ -1,0 +1,954 @@
+TAP version 13
+# Subtest: 連鎖隨機擴散：第一跳打主目標，之後在剩下的敵人之間隨機挑
+ok 1 - 連鎖隨機擴散：第一跳打主目標，之後在剩下的敵人之間隨機挑
+  ---
+  duration_ms: 647.1184
+  type: 'test'
+  ...
+# Subtest: 連鎖的下一跳一定往外跳，不會停在原地
+ok 2 - 連鎖的下一跳一定往外跳，不會停在原地
+  ---
+  duration_ms: 25.9766
+  type: 'test'
+  ...
+# Subtest: 場上只有一個敵人時連鎖仍打滿次數（與改造前行為一致）
+ok 3 - 場上只有一個敵人時連鎖仍打滿次數（與改造前行為一致）
+  ---
+  duration_ms: 72.2858
+  type: 'test'
+  ...
+# Subtest: 距離＝到原點的直線距離扣掉體型；越近數字越小
+ok 4 - 距離＝到原點的直線距離扣掉體型；越近數字越小
+  ---
+  duration_ms: 422.9298
+  type: 'test'
+  ...
+# Subtest: BOSS 體型較大，同樣的中心距離下牠比較近（邊緣先碰到我方）
+ok 5 - BOSS 體型較大，同樣的中心距離下牠比較近（邊緣先碰到我方）
+  ---
+  duration_ms: 20.9486
+  type: 'test'
+  ...
+# Subtest: 沒有座標的實體視為最遠，不會插隊搶走普攻目標
+ok 6 - 沒有座標的實體視為最遠，不會插隊搶走普攻目標
+  ---
+  duration_ms: 105.9354
+  type: 'test'
+  ...
+# Subtest: 走到近戰距離內才打得到；遠處的敵人打不到人
+ok 7 - 走到近戰距離內才打得到；遠處的敵人打不到人
+  ---
+  duration_ms: 459.2953
+  type: 'test'
+  ...
+# Subtest: 魔法系敵人是遠程：同樣的距離，物理打不到、魔法打得到
+ok 8 - 魔法系敵人是遠程：同樣的距離，物理打不到、魔法打得到
+  ---
+  duration_ms: 308.1866
+  type: 'test'
+  ...
+# Subtest: 沒有座標時不擋攻擊（高塔沿用舊行為）
+ok 9 - 沒有座標時不擋攻擊（高塔沿用舊行為）
+  ---
+  duration_ms: 346.9404
+  type: 'test'
+  ...
+# Subtest: 生成站位落在生成半徑上，且彼此不重疊
+ok 10 - 生成站位落在生成半徑上，且彼此不重疊
+  ---
+  duration_ms: 277.6346
+  type: 'test'
+  ...
+# Subtest: 補波時把既有敵人算進容量，超過上限的不會生出來
+ok 11 - 補波時把既有敵人算進容量，超過上限的不會生出來
+  ---
+  duration_ms: 59.0578
+  type: 'test'
+  ...
+# Subtest: 每個 tick 朝我方逼近，走到接觸距離就停住不再前進
+ok 12 - 每個 tick 朝我方逼近，走到接觸距離就停住不再前進
+  ---
+  duration_ms: 135.185
+  type: 'test'
+  ...
+# Subtest: 敵人跑速符合 BF_ENEMY_SPEED（與我方速度各自獨立）
+ok 13 - 敵人跑速符合 BF_ENEMY_SPEED（與我方速度各自獨立）
+  ---
+  duration_ms: 304.3823
+  type: 'test'
+  ...
+# Subtest: 進場中的敵人不參與逼近（還沒進畫面）
+ok 14 - 進場中的敵人不參與逼近（還沒進畫面）
+  ---
+  duration_ms: 160.5708
+  type: 'test'
+  ...
+# Subtest: 同伴互相推開，不會疊在同一點
+ok 15 - 同伴互相推開，不會疊在同一點
+  ---
+  duration_ms: 440.3278
+  type: 'test'
+  ...
+# Subtest: 我方會朝目標跑，進到近戰距離就停下來
+ok 16 - 我方會朝目標跑，進到近戰距離就停下來
+  ---
+  duration_ms: 718.8696
+  type: 'test'
+  ...
+# Subtest: 我方跑速符合 BF_PLAYER_SPEED
+ok 17 - 我方跑速符合 BF_PLAYER_SPEED
+  ---
+  duration_ms: 1013.4105
+  type: 'test'
+  ...
+# Subtest: 場上沒有敵人時往前推進（地板才會捲動，不是呆站）
+ok 18 - 場上沒有敵人時往前推進（地板才會捲動，不是呆站）
+  ---
+  duration_ms: 552.0041
+  type: 'test'
+  ...
+# Subtest: 起步與停步用不同門檻：站著打的時候不會被推擠推得一直補小步
+ok 19 - 起步與停步用不同門檻：站著打的時候不會被推擠推得一直補小步
+  ---
+  duration_ms: 492.5046
+  type: 'test'
+  ...
+# Subtest: 敵人追的是我方當前位置，不會跟著我方平移
+ok 20 - 敵人追的是我方當前位置，不會跟著我方平移
+  ---
+  duration_ms: 947.759
+  type: 'test'
+  ...
+# Subtest: 追兵會拉出前後隊形：近的先到，遠的還在路上
+ok 21 - 追兵會拉出前後隊形：近的先到，遠的還在路上
+  ---
+  duration_ms: 378.7745
+  type: 'test'
+  ...
+# Subtest: 我方移動後，生成的新敵人圍著我方而不是原點
+ok 22 - 我方移動後，生成的新敵人圍著我方而不是原點
+  ---
+  duration_ms: 391.061
+  type: 'test'
+  ...
+# Subtest: 技能共用的舊主目標選法維持最近／鎖定；自動搜敵另測搜尋圈
+ok 23 - 技能共用的舊主目標選法維持最近／鎖定；自動搜敵另測搜尋圈
+  ---
+  duration_ms: 448.8792
+  type: 'test'
+  ...
+# Subtest: 同距離時隨機挑一個（不是永遠挑同一隻）
+ok 24 - 同距離時隨機挑一個（不是永遠挑同一隻）
+  ---
+  duration_ms: 354.7217
+  type: 'test'
+  ...
+# Subtest: 連鎖在範圍內隨機擴散：不重複、不原地打同一隻
+ok 25 - 連鎖在範圍內隨機擴散：不重複、不原地打同一隻
+  ---
+  duration_ms: 521.243
+  type: 'test'
+  ...
+# Subtest: 範圍設定值解析沿用既有寫法（資料表不必改）
+ok 26 - 範圍設定值解析沿用既有寫法（資料表不必改）
+  ---
+  duration_ms: 357.7204
+  type: 'test'
+  ...
+# Subtest: n×n 換算成半徑：越大的範圍打到越遠的敵人
+ok 27 - n×n 換算成半徑：越大的範圍打到越遠的敵人
+  ---
+  duration_ms: 189.3477
+  type: 'test'
+  ...
+# Subtest: 範圍以主目標為圓心展開：圈內的打到、圈外的打不到
+ok 28 - 範圍以主目標為圓心展開：圈內的打到、圈外的打不到
+  ---
+  duration_ms: 267.5531
+  type: 'test'
+  ...
+# Subtest: 單體不產生區域；全體打到所有存活敵人
+ok 29 - 單體不產生區域；全體打到所有存活敵人
+  ---
+  duration_ms: 402.6889
+  type: 'test'
+  ...
+# Subtest: 領域記住的是圓，之後每跳重問誰站在裡面
+ok 30 - 領域記住的是圓，之後每跳重問誰站在裡面
+  ---
+  duration_ms: 444.2802
+  type: 'test'
+  ...
+# Subtest: 投射物飛行時間隨距離增加，並夾在上下限之間
+ok 31 - 投射物飛行時間隨距離增加，並夾在上下限之間
+  ---
+  duration_ms: 348.8777
+  type: 'test'
+  ...
+# Subtest: 施法期間我方不移動
+ok 32 - 施法期間我方不移動
+  ---
+  duration_ms: 413.9421
+  type: 'test'
+  ...
+# Subtest: 敵人有自己的攻擊距離時，打不打得到以牠自己的射程為準（不再看 magic）
+ok 33 - 敵人有自己的攻擊距離時，打不打得到以牠自己的射程為準（不再看 magic）
+  ---
+  duration_ms: 371.9067
+  type: 'test'
+  ...
+# Subtest: 沒有 atkRange 的敵人沿用舊規則（高塔 BOSS、測試替身不受影響）
+ok 34 - 沒有 atkRange 的敵人沿用舊規則（高塔 BOSS、測試替身不受影響）
+  ---
+  duration_ms: 313.0598
+  type: 'test'
+  ...
+# Subtest: 遠程／近戰以射程判定：6 米是近戰、24 米是遠程，與魔法型無關
+ok 35 - 遠程／近戰以射程判定：6 米是近戰、24 米是遠程，與魔法型無關
+  ---
+  duration_ms: 282.4815
+  type: 'test'
+  ...
+# Subtest: 遠程敵人走到射程內側就停下來站樁；近戰敵人仍貼到接觸距離
+ok 36 - 遠程敵人走到射程內側就停下來站樁；近戰敵人仍貼到接觸距離
+  ---
+  duration_ms: 693.4732
+  type: 'test'
+  ...
+# Subtest: 敵人的移動速度各自獨立：有 runSpeed 用自己的，沒有才用 BF_ENEMY_SPEED
+ok 37 - 敵人的移動速度各自獨立：有 runSpeed 用自己的，沒有才用 BF_ENEMY_SPEED
+  ---
+  duration_ms: 315.8097
+  type: 'test'
+  ...
+# Subtest: 拉近技能能把站在射程邊緣的遠程敵人拉到玩家身邊
+ok 38 - 拉近技能能把站在射程邊緣的遠程敵人拉到玩家身邊
+  ---
+  duration_ms: 364.9343
+  type: 'test'
+  ...
+# Subtest: 真實普攻選招邏輯可抽到四招，且從不連抽同招
+ok 39 - 真實普攻選招邏輯可抽到四招，且從不連抽同招
+  ---
+  duration_ms: 5.5639
+  type: 'test'
+  ...
+# Subtest: 第四招播放中不被技能插隊，技能仍只使用原三招
+ok 40 - 第四招播放中不被技能插隊，技能仍只使用原三招
+  ---
+  duration_ms: 2.1456
+  type: 'test'
+  ...
+# Subtest: attack4有獨立GLB動畫與完整起手收招，沿用既有普攻速度調整
+ok 41 - attack4有獨立GLB動畫與完整起手收招，沿用既有普攻速度調整
+  ---
+  duration_ms: 63.1942
+  type: 'test'
+  ...
+# (node:19512) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to D:\\MyGame\\Idle-RPG\\codex\\package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: 攻擊動作只播有用的一段：start／hit／end，不整段照播
+ok 42 - 攻擊動作只播有用的一段：start／hit／end，不整段照播
+  ---
+  duration_ms: 1.6695
+  type: 'test'
+  ...
+# Subtest: 3D 普攻四個動作混著出，不連續兩下同一招
+ok 43 - 3D 普攻四個動作混著出，不連續兩下同一招
+  ---
+  duration_ms: 1.1965
+  type: 'test'
+  ...
+# Subtest: 3D 施法：出手動作播放中不插施法動作；其餘時候快速播完（0.3 秒內，使用者 2026-10-31）
+ok 44 - 3D 施法：出手動作播放中不插施法動作；其餘時候快速播完（0.3 秒內，使用者 2026-10-31）
+  ---
+  duration_ms: 0.3168
+  type: 'test'
+  ...
+# Subtest: 3D 出手動作一律播完：目標剛死、角色開始移動也不切成跑步（使用者 2026-10-29）
+ok 45 - 3D 出手動作一律播完：目標剛死、角色開始移動也不切成跑步（使用者 2026-10-29）
+  ---
+  duration_ms: 0.4529
+  type: 'test'
+  ...
+# Subtest: 3D 技能動作與普攻一樣在三個攻擊動作間隨機（不連續兩下同一招），施法中不被普攻蓋掉
+ok 46 - 3D 技能動作與普攻一樣在三個攻擊動作間隨機（不連續兩下同一招），施法中不被普攻蓋掉
+  ---
+  duration_ms: 0.3047
+  type: 'test'
+  ...
+# Subtest: 3D 起身：死亡動作倒著播，一般死亡由起身時間驅動、大地守護由復活倒數驅動
+ok 47 - 3D 起身：死亡動作倒著播，一般死亡由起身時間驅動、大地守護由復活倒數驅動
+  ---
+  duration_ms: 0.9154
+  type: 'test'
+  ...
+# Subtest: 3D 主角也有穿透式輪廓：輪廓貼圖由 3D 畫布剪影每幀算出，走 2D 同一套輪廓圖層
+ok 48 - 3D 主角也有穿透式輪廓：輪廓貼圖由 3D 畫布剪影每幀算出，走 2D 同一套輪廓圖層
+  ---
+  duration_ms: 15.5032
+  type: 'test'
+  ...
+# Subtest: 3D 主角調色與補光：金／銀／披風調色、自發光、背後冷色邊緣光
+ok 49 - 3D 主角調色與補光：金／銀／披風調色、自發光、背後冷色邊緣光
+  ---
+  duration_ms: 0.1803
+  type: 'test'
+  ...
+# Subtest: 3D 模型修正仍在：盔甲剛性、披風只小幅伸縮、手腕不超限、劍沒有尖刺、握劍與劈砍軌跡
+ok 50 - 3D 模型修正仍在：盔甲剛性、披風只小幅伸縮、手腕不超限、劍沒有尖刺、握劍與劈砍軌跡
+  ---
+  duration_ms: 2340.7215
+  type: 'test'
+  ...
+# Subtest: Attack2 的播放區間與腳本的收招設定一致（end＝收招結束、start＝起始姿勢）
+ok 51 - Attack2 的播放區間與腳本的收招設定一致（end＝收招結束、start＝起始姿勢）
+  ---
+  duration_ms: 1.6509
+  type: 'test'
+  ...
+# Subtest: Attack3 的播放區間與腳本的第二個片段一致（start＝片段開頭、end＝收招結束）
+ok 52 - Attack3 的播放區間與腳本的第二個片段一致（start＝片段開頭、end＝收招結束）
+  ---
+  duration_ms: 1.2554
+  type: 'test'
+  ...
+# Subtest: 3D 披風碰撞：披風拆成獨立網格、用骨骼膠囊碰撞體推開穿進身體的布料、再鬆弛
+ok 53 - 3D 披風碰撞：披風拆成獨立網格、用骨骼膠囊碰撞體推開穿進身體的布料、再鬆弛
+  ---
+  duration_ms: 1.4026
+  type: 'test'
+  ...
+# (node:8316) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to D:\\MyGame\\Idle-RPG\\codex\\package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: role是右手正握：掌面、拇指與實際劍身同時符合；整段第四招刃口朝前
+ok 54 - role是右手正握：掌面、拇指與實際劍身同時符合；整段第四招刃口朝前
+  ---
+  duration_ms: 167.4055
+  type: 'test'
+  ...
+# Subtest: role1是右手正握：掌面、拇指與實際劍身同時符合；整段第四招刃口朝前
+ok 55 - role1是右手正握：掌面、拇指與實際劍身同時符合；整段第四招刃口朝前
+  ---
+  duration_ms: 96.9434
+  type: 'test'
+  ...
+# Subtest: 正式環境即使留有3D偏好，也不啟用、不顯示控制或下載模型
+ok 56 - 正式環境即使留有3D偏好，也不啟用、不顯示控制或下載模型
+  ---
+  duration_ms: 44.9736
+  type: 'test'
+  ...
+# Subtest: 內測兩種按鈕與提示用新編號，轉生及傳奇字串保持原意
+ok 57 - 內測兩種按鈕與提示用新編號，轉生及傳奇字串保持原意
+  ---
+  duration_ms: 113.9912
+  type: 'test'
+  ...
+# Subtest: GLB保留來源的五個動畫、綁定與嵌入貼圖
+ok 58 - GLB保留來源的五個動畫、綁定與嵌入貼圖
+  ---
+  duration_ms: 3.3604
+  type: 'test'
+  ...
+# (node:23720) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to D:\\MyGame\\Idle-RPG\\codex\\package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: native gait measures grounded foot travel, ignores fast lifted swing, and restores the loaded skeleton
+ok 59 - native gait measures grounded foot travel, ignores fast lifted swing, and restores the loaded skeleton
+  ---
+  duration_ms: 109.0164
+  type: 'test'
+  ...
+# (node:24616) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to D:\\MyGame\\Idle-RPG\\codex\\package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: 四套已核准模型逐位保持，PBR旁載貼圖均存在且配置不套到固定UV握劍手
+ok 60 - 四套已核准模型逐位保持，PBR旁載貼圖均存在且配置不套到固定UV握劍手
+  ---
+  duration_ms: 894.7778
+  type: 'test'
+  ...
+# Subtest: 原生PBR材質保留頂點色，法線與MR用線性色彩／glTF方向，手部共用材質不被污染
+ok 61 - 原生PBR材質保留頂點色，法線與MR用線性色彩／glTF方向，手部共用材質不被污染
+  ---
+  duration_ms: 132.6727
+  type: 'test'
+  ...
+# Subtest: 旁載任一貼圖失敗時不部分改材質，包含晚到的貼圖也釋放；未知外觀不下載
+ok 62 - 旁載任一貼圖失敗時不部分改材質，包含晚到的貼圖也釋放；未知外觀不下載
+  ---
+  duration_ms: 18.2107
+  type: 'test'
+  ...
+# Subtest: 配置失敗可重試，成功後同頁共用配置但每個控制器擁有自己的貼圖
+ok 63 - 配置失敗可重試，成功後同頁共用配置但每個控制器擁有自己的貼圖
+  ---
+  duration_ms: 73.5368
+  type: 'test'
+  ...
+# Subtest: 切換外觀先釋放共享貼圖／環境再關renderer及獨立context，重複dispose安全
+ok 64 - 切換外觀先釋放共享貼圖／環境再關renderer及獨立context，重複dispose安全
+  ---
+  duration_ms: 1.3344
+  type: 'test'
+  ...
+# Subtest: 0轉Role、1轉Role1、2轉Role2、3轉Role3、4轉Role4、5轉以上Role5；無效數值保持基礎外觀
+ok 65 - 0轉Role、1轉Role1、2轉Role2、3轉Role3、4轉Role4、5轉以上Role5；無效數值保持基礎外觀
+  ---
+  duration_ms: 8.7589
+  type: 'test'
+  ...
+# Subtest: 當場1轉交換身體及輪廓，保留實際動作秒數、速度與朝向並釋放舊資源
+ok 66 - 當場1轉交換身體及輪廓，保留實際動作秒數、速度與朝向並釋放舊資源
+  ---
+  duration_ms: 2.9977
+  type: 'test'
+  ...
+# Subtest: 轉生數快速變動時過期載入會釋放，回到同一目標仍可重新載入
+ok 67 - 轉生數快速變動時過期載入會釋放，回到同一目標仍可重新載入
+  ---
+  duration_ms: 2.3571
+  type: 'test'
+  ...
+# Subtest: 新皮膚失敗保留原模型，不因每次header快照重複下載；正式服不建立載入
+ok 68 - 新皮膚失敗保留原模型，不因每次header快照重複下載；正式服不建立載入
+  ---
+  duration_ms: 6.0991
+  type: 'test'
+  ...
+# Subtest: 讀入已1轉存檔時第一次載入就選新皮膚
+ok 69 - 讀入已1轉存檔時第一次載入就選新皮膚
+  ---
+  duration_ms: 2.4787
+  type: 'test'
+  ...
+# Subtest: 1轉到2轉保持揮擊進度，同一2轉不重載
+ok 70 - 1轉到2轉保持揮擊進度，同一2轉不重載
+  ---
+  duration_ms: 2.444
+  type: 'test'
+  ...
+# Subtest: 1轉與2轉請求交錯時只有最新2轉模型接入；2轉載入失敗保留1轉
+ok 71 - 1轉與2轉請求交錯時只有最新2轉模型接入；2轉載入失敗保留1轉
+  ---
+  duration_ms: 5.3149
+  type: 'test'
+  ...
+# Subtest: 已2轉存檔開局直接載Role2
+ok 72 - 已2轉存檔開局直接載Role2
+  ---
+  duration_ms: 7.3807
+  type: 'test'
+  ...
+# Subtest: 2轉到3轉保留完整動作狀態，同一3轉不重載
+ok 73 - 2轉到3轉保留完整動作狀態，同一3轉不重載
+  ---
+  duration_ms: 24.3233
+  type: 'test'
+  ...
+# Subtest: 2轉與3轉交錯只接最新3轉；3轉失敗保持Role2且回2轉不重載
+ok 74 - 2轉與3轉交錯只接最新3轉；3轉失敗保持Role2且回2轉不重載
+  ---
+  duration_ms: 56.3716
+  type: 'test'
+  ...
+# Subtest: 3轉存檔開局直接載Role3；3轉請求過期回2轉不替換現況
+ok 75 - 3轉存檔開局直接載Role3；3轉請求過期回2轉不替換現況
+  ---
+  duration_ms: 4.202
+  type: 'test'
+  ...
+# Subtest: Role1六段動畫每個取樣及骨架與0轉完全相同，手與劍幾何沿用修正結果
+ok 76 - Role1六段動畫每個取樣及骨架與0轉完全相同，手與劍幾何沿用修正結果
+  ---
+  duration_ms: 299.9292
+  type: 'test'
+  ...
+# Subtest: 3轉升4轉保持攻擊進度；同一4轉不重載
+ok 77 - 3轉升4轉保持攻擊進度；同一4轉不重載
+  ---
+  duration_ms: 2.1607
+  type: 'test'
+  ...
+# Subtest: 3／4轉請求競態、4轉載入失敗及已4轉存檔開局
+ok 78 - 3／4轉請求競態、4轉載入失敗及已4轉存檔開局
+  ---
+  duration_ms: 35.7893
+  type: 'test'
+  ...
+# Subtest: 4轉升5轉保存攻擊狀態；6轉沿用Role5；已5轉存檔直接載入
+ok 79 - 4轉升5轉保存攻擊狀態；6轉沿用Role5；已5轉存檔直接載入
+  ---
+  duration_ms: 4.0585
+  type: 'test'
+  ...
+# Subtest: 4／5轉交錯僅最新5轉生效；5轉失敗或返回4轉保留現況
+ok 80 - 4／5轉交錯僅最新5轉生效；5轉失敗或返回4轉保留現況
+  ---
+  duration_ms: 6.0377
+  type: 'test'
+  ...
+# Subtest: 新人物沿用黃金騎士所有動作、骨架、握劍與手腕資料，跑步也不替換
+ok 81 - 新人物沿用黃金騎士所有動作、骨架、握劍與手腕資料，跑步也不替換
+  ---
+  duration_ms: 4.9851
+  type: 'test'
+  ...
+# Subtest: 新劍劍身筆直平整、長度為附件劍身80%，全部剛性綁在原Sword骨骼
+ok 82 - 新劍劍身筆直平整、長度為附件劍身80%，全部剛性綁在原Sword骨骼
+  ---
+  duration_ms: 180.5385
+  type: 'test'
+  ...
+# Subtest: 所有新網格索引、權重、貼圖與材質有效，人體不混入Sword權重
+ok 83 - 所有新網格索引、權重、貼圖與材質有效，人體不混入Sword權重
+  ---
+  duration_ms: 578.514
+  type: 'test'
+  ...
+# (node:27680) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to D:\\MyGame\\Idle-RPG\\codex\\package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: 2轉外觀保持原骨架、六段動畫取樣、正握手部及原劍模型
+ok 84 - 2轉外觀保持原骨架、六段動畫取樣、正握手部及原劍模型
+  ---
+  duration_ms: 340.2102
+  type: 'test'
+  ...
+# Subtest: 修復後手腿沒有跨骨骼橋面，網格索引／權重／手套頂點色有效
+ok 85 - 修復後手腿沒有跨骨骼橋面，網格索引／權重／手套頂點色有效
+  ---
+  duration_ms: 533.7735
+  type: 'test'
+  ...
+# Subtest: 六段動作逐姿勢蒙皮沒有手腿拉成長三角面的缺陷
+ok 86 - 六段動作逐姿勢蒙皮沒有手腿拉成長三角面的缺陷
+  ---
+  duration_ms: 1354.5872
+  type: 'test'
+  ...
+# (node:26888) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to D:\\MyGame\\Idle-RPG\\codex\\package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: 3轉外觀保持原骨架、六段動畫取樣、正握手部及原劍模型
+ok 87 - 3轉外觀保持原骨架、六段動畫取樣、正握手部及原劍模型
+  ---
+  duration_ms: 295.2608
+  type: 'test'
+  ...
+# Subtest: 修復後手腿沒有跨骨骼橋面，網格索引／權重／手套頂點色有效
+ok 88 - 修復後手腿沒有跨骨骼橋面，網格索引／權重／手套頂點色有效
+  ---
+  duration_ms: 652.5677
+  type: 'test'
+  ...
+# Subtest: 六段動作逐姿勢蒙皮沒有手腿拉成長三角面的缺陷
+ok 89 - 六段動作逐姿勢蒙皮沒有手腿拉成長三角面的缺陷
+  ---
+  duration_ms: 8489.503
+  type: 'test'
+  ...
+# Subtest: 雙手均無腿部權重，授權來源與修復報告可追溯
+ok 90 - 雙手均無腿部權重，授權來源與修復報告可追溯
+  ---
+  duration_ms: 4020.2761
+  type: 'test'
+  ...
+# (node:9748) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to D:\\MyGame\\Idle-RPG\\codex\\package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: 4轉外觀保持原骨架、六段動畫取樣、正握手部及核准新劍
+ok 91 - 4轉外觀保持原骨架、六段動畫取樣、正握手部及核准新劍
+  ---
+  duration_ms: 334.2343
+  type: 'test'
+  ...
+# Subtest: 修復後手腿沒有跨骨骼橋面，網格索引／權重／手套頂點色有效
+ok 92 - 修復後手腿沒有跨骨骼橋面，網格索引／權重／手套頂點色有效
+  ---
+  duration_ms: 854.8129
+  type: 'test'
+  ...
+# Subtest: 六段動作逐姿勢蒙皮沒有手腿拉成長三角面的缺陷
+ok 93 - 六段動作逐姿勢蒙皮沒有手腿拉成長三角面的缺陷
+  ---
+  duration_ms: 22906.1928
+  type: 'test'
+  ...
+# Subtest: 雙手均無腿部權重，授權來源與修復報告可追溯
+ok 94 - 雙手均無腿部權重，授權來源與修復報告可追溯
+  ---
+  duration_ms: 4218.6846
+  type: 'test'
+  ...
+# Subtest: 新劍沿原握點／刃向剛性綁Sword，頭部中立朝前且材質完整內嵌
+ok 95 - 新劍沿原握點／刃向剛性綁Sword，頭部中立朝前且材質完整內嵌
+  ---
+  duration_ms: 695.8438
+  type: 'test'
+  ...
+# Subtest: 實際GLB補面無單邊／奇數幾何邊且成品SHA與修復紀錄一致
+ok 96 - 實際GLB補面無單邊／奇數幾何邊且成品SHA與修復紀錄一致
+  ---
+  duration_ms: 862.2391
+  type: 'test'
+  ...
+# (node:19616) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/MyGame/Idle-RPG/codex/js/vendor/three/three.module.min.js is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to D:\\MyGame\\Idle-RPG\\codex\\package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: 5轉外觀保持原骨架、六段動畫取樣、正握手部及核准新劍
+ok 97 - 5轉外觀保持原骨架、六段動畫取樣、正握手部及核准新劍
+  ---
+  duration_ms: 490.7944
+  type: 'test'
+  ...
+# Subtest: 修復後手腿沒有跨骨骼橋面，網格索引／權重／手套頂點色有效
+ok 98 - 修復後手腿沒有跨骨骼橋面，網格索引／權重／手套頂點色有效
+  ---
+  duration_ms: 1274.7094
+  type: 'test'
+  ...
+# Subtest: 六段動作逐姿勢蒙皮沒有手腿拉成長三角面的缺陷
+ok 99 - 六段動作逐姿勢蒙皮沒有手腿拉成長三角面的缺陷
+  ---
+  duration_ms: 16031.1976
+  type: 'test'
+  ...
+# Subtest: 雙手均無腿部權重，授權來源與修復報告可追溯
+ok 100 - 雙手均無腿部權重，授權來源與修復報告可追溯
+  ---
+  duration_ms: 1500.3152
+  type: 'test'
+  ...
+# Subtest: 新劍沿原握點／刃向剛性綁Sword，頭部中立朝前且原始PBR完整保留
+ok 101 - 新劍沿原握點／刃向剛性綁Sword，頭部中立朝前且原始PBR完整保留
+  ---
+  duration_ms: 280.1065
+  type: 'test'
+  ...
+# Subtest: 實際GLB補面無單邊／奇數幾何邊且成品SHA與修復紀錄一致
+ok 102 - 實際GLB補面無單邊／奇數幾何邊且成品SHA與修復紀錄一致
+  ---
+  duration_ms: 427.5031
+  type: 'test'
+  ...
+# Subtest: 原圖三貼圖2048px逐位保留；補面使用原甲片UV及原PBR貼圖
+ok 103 - 原圖三貼圖2048px逐位保留；補面使用原甲片UV及原PBR貼圖
+  ---
+  duration_ms: 653.4528
+  type: 'test'
+  ...
+# Subtest: 旁載貼圖缺失時拒絕換模並去重清理，完整材質不受影響
+ok 104 - 旁載貼圖缺失時拒絕換模並去重清理，完整材質不受影響
+  ---
+  duration_ms: 77.1926
+  type: 'test'
+  ...
+# Subtest: walk time follows actual world speed and visual size; stopping and pause do not advance feet
+ok 105 - walk time follows actual world speed and visual size; stopping and pause do not advance feet
+  ---
+  duration_ms: 35.2366
+  type: 'test'
+  ...
+# Subtest: movement rate never changes attack or death timing; returning to walk uses latest displacement
+ok 106 - movement rate never changes attack or death timing; returning to walk uses latest displacement
+  ---
+  duration_ms: 1.198
+  type: 'test'
+  ...
+# Subtest: NPC animation advances with the same delta as displacement, including slow frames and pause
+ok 107 - NPC animation advances with the same delta as displacement, including slow frames and pause
+  ---
+  duration_ms: 31.2184
+  type: 'test'
+  ...
+# Subtest: only explicitly configured NPCs request a model and share the approved material renderer
+ok 108 - only explicitly configured NPCs request a model and share the approved material renderer
+  ---
+  duration_ms: 29.0782
+  type: 'test'
+  ...
+# Subtest: idle holds Walk first pose, movement resumes Walk, all three attacks cycle, death holds
+ok 109 - idle holds Walk first pose, movement resumes Walk, all three attacks cycle, death holds
+  ---
+  duration_ms: 9.6752
+  type: 'test'
+  ...
+# Subtest: missing clips release the controller and repeated disposal releases resources once
+ok 110 - missing clips release the controller and repeated disposal releases resources once
+  ---
+  duration_ms: 3.7729
+  type: 'test'
+  ...
+# Subtest: walk-only models hold a standing pose for missing attacks and fade from a held death pose
+ok 111 - walk-only models hold a standing pose for missing attacks and fade from a held death pose
+  ---
+  duration_ms: 1.0166
+  type: 'test'
+  ...
+# Subtest: a late asynchronous model cannot replace a removed or reused enemy
+ok 112 - a late asynchronous model cannot replace a removed or reused enemy
+  ---
+  duration_ms: 199.9606
+  type: 'test'
+  ...
+# Subtest: all 50 tower bosses approach or stand to act at opening, without a retreat target
+ok 113 - all 50 tower bosses approach or stand to act at opening, without a retreat target
+  ---
+  duration_ms: 58639.0387
+  type: 'test'
+  ...
+# Subtest: basic attacks hold the full animation, pause an existing route, then resume the same fixed target
+ok 114 - basic attacks hold the full animation, pause an existing route, then resume the same fixed target
+  ---
+  duration_ms: 846.8086
+  type: 'test'
+  ...
+# Subtest: tower spells lock ordinary movement even when the archetype permits wild movement; min-range spells never trigger opening retreat
+ok 115 - tower spells lock ordinary movement even when the archetype permits wild movement; min-range spells never trigger opening retreat
+  ---
+  duration_ms: 812.7721
+  type: 'test'
+  ...
+# Subtest: tower reposition has a fixed endpoint while the player moves
+ok 116 - tower reposition has a fixed endpoint while the player moves
+  ---
+  duration_ms: 1369.7505
+  type: 'test'
+  ...
+# Subtest: a full live tower skill loadout cannot starve an existing movement route
+ok 117 - a full live tower skill loadout cannot starve an existing movement route
+  ---
+  duration_ms: 2466.8227
+  type: 'test'
+  ...
+# Subtest: 50 independent bosses and all three tower tiers keep pursuit and moving repo targets within one fixed arena
+ok 118 - 50 independent bosses and all three tower tiers keep pursuit and moving repo targets within one fixed arena
+  ---
+  duration_ms: 5209.6806
+  type: 'test'
+  ...
+# Subtest: projected repo endpoint completes at a corner rather than running forever into the boundary
+ok 119 - projected repo endpoint completes at a corner rather than running forever into the boundary
+  ---
+  duration_ms: 567.4373
+  type: 'test'
+  ...
+# Subtest: knockback and any forced motion are constrained with body clearance, including early tick returns
+ok 120 - knockback and any forced motion are constrained with body clearance, including early tick returns
+  ---
+  duration_ms: 560.6033
+  type: 'test'
+  ...
+# Subtest: arena geometry uses double the reference view on every axis and late renderer entry uses the authoritative center
+ok 121 - arena geometry uses double the reference view on every axis and late renderer entry uses the authoritative center
+  ---
+  duration_ms: 372.6514
+  type: 'test'
+  ...
+# Subtest: 開場：BOSS 站在我方正前方、帶 tb-float 定址，塔戰站位與野外共用同一個 bfPlayerPos 參照
+ok 122 - 開場：BOSS 站在我方正前方、帶 tb-float 定址，塔戰站位與野外共用同一個 bfPlayerPos 參照
+  ---
+  duration_ms: 132.5278
+  type: 'test'
+  ...
+# Subtest: 交戰：雙方對衝後才出手，普攻一律在近戰距離內、BOSS 攻擊一律在射程內，限時燒掉不到一秒
+ok 123 - 交戰：雙方對衝後才出手，普攻一律在近戰距離內、BOSS 攻擊一律在射程內，限時燒掉不到一秒
+  ---
+  duration_ms: 482.0356
+  type: 'test'
+  ...
+# Subtest: 打不到時冷卻停在 ready 不累積：BOSS 走不過來就不出手、也不攢一堆攻擊
+ok 124 - 打不到時冷卻停在 ready 不累積：BOSS 走不過來就不出手、也不攢一堆攻擊
+  ---
+  duration_ms: 449.5856
+  type: 'test'
+  ...
+# Subtest: 結束：清掉塔戰站位參照，畫面據此回到野外
+ok 125 - 結束：清掉塔戰站位參照，畫面據此回到野外
+  ---
+  duration_ms: 353.6165
+  type: 'test'
+  ...
+# Subtest: 登場：轉場期間限時不走、雙方不動也不出手，結束後才開打；回野外時出怪延後同樣長度
+ok 126 - 登場：轉場期間限時不走、雙方不動也不出手，結束後才開打；回野外時出怪延後同樣長度
+  ---
+  duration_ms: 186.5268
+  type: 'test'
+  ...
+# Subtest: second-stage treant retains all first-stage joints, motion targets and timings with its own surface
+ok 127 - second-stage treant retains all first-stage joints, motion targets and timings with its own surface
+  ---
+  duration_ms: 210.9367
+  type: 'test'
+  ...
+# Subtest: treant has one original skin, one unarmed mesh and five finite native clips; attacks are horizontally in-place
+ok 128 - treant has one original skin, one unarmed mesh and five finite native clips; attacks are horizontally in-place
+  ---
+  duration_ms: 29.9161
+  type: 'test'
+  ...
+# Subtest: 凍結的 Worker 指令表有 96 條且分類數量固定
+ok 129 - 凍結的 Worker 指令表有 96 條且分類數量固定
+  ---
+  duration_ms: 4.6593
+  type: 'test'
+  ...
+# Subtest: Worker 在每個模擬步驟後低延遲送出視覺事件
+ok 130 - Worker 在每個模擬步驟後低延遲送出視覺事件
+  ---
+  duration_ms: 0.669
+  type: 'test'
+  ...
+# Subtest: 所有指令名稱、fn、args、resolve、limit 與 dirty metadata 格式合法
+ok 131 - 所有指令名稱、fn、args、resolve、limit 與 dirty metadata 格式合法
+  ---
+  duration_ms: 2.0455
+  type: 'test'
+  ...
+# Subtest: fn 非 null 的指令函式存在於模擬層原始碼
+ok 132 - fn 非 null 的指令函式存在於模擬層原始碼
+  ---
+  duration_ms: 291.8054
+  type: 'test'
+  ...
+# Subtest: 一般寶石指令不使用不存在的 gemId 實例參數
+ok 133 - 一般寶石指令不使用不存在的 gemId 實例參數
+  ---
+  duration_ms: 2.9796
+  type: 'test'
+  ...
+# Subtest: validateCommand 接受合法參數與省略 optional 參數
+ok 134 - validateCommand 接受合法參數與省略 optional 參數
+  ---
+  duration_ms: 1.1382
+  type: 'test'
+  ...
+# Subtest: validateCommand 拒絕未知指令與缺少 required 參數
+ok 135 - validateCommand 拒絕未知指令與缺少 required 參數
+  ---
+  duration_ms: 0.6705
+  type: 'test'
+  ...
+# Subtest: validateCommand 拒絕 required 與 optional 參數的錯誤型別
+ok 136 - validateCommand 拒絕 required 與 optional 參數的錯誤型別
+  ---
+  duration_ms: 1.1515
+  type: 'test'
+  ...
+# Subtest: PANEL_KEYS 與模擬層實際 UI.dirty 鍵完全一致
+ok 137 - PANEL_KEYS 與模擬層實際 UI.dirty 鍵完全一致
+  ---
+  duration_ms: 366.6721
+  type: 'test'
+  ...
+# Subtest: blog 與 flog 只寫入事件佇列，不呼叫 DOM 或 postMessage
+ok 138 - blog 與 flog 只寫入事件佇列，不呼叫 DOM 或 postMessage
+  ---
+  duration_ms: 48.087
+  type: 'test'
+  ...
+# Subtest: shimDrainEvents 會原子清空目前事件批次
+ok 139 - shimDrainEvents 會原子清空目前事件批次
+  ---
+  duration_ms: 2.3004
+  type: 'test'
+  ...
+# Subtest: recordLoot shim 也合批進事件佇列
+ok 140 - recordLoot shim 也合批進事件佇列
+  ---
+  duration_ms: 2.6943
+  type: 'test'
+  ...
+# Subtest: shim 傳遞突刺光槍的長度、方向與飛行物欄位
+ok 141 - shim 傳遞突刺光槍的長度、方向與飛行物欄位
+  ---
+  duration_ms: 6.137
+  type: 'test'
+  ...
+# Subtest: shim 保留敵人攻擊的來源與命中欄位
+ok 142 - shim 保留敵人攻擊的來源與命中欄位
+  ---
+  duration_ms: 3.0853
+  type: 'test'
+  ...
+# Subtest: 技能施放飄字走低延遲佇列，一般傷害字仍走 tick 批次
+ok 143 - 技能施放飄字走低延遲佇列，一般傷害字仍走 tick 批次
+  ---
+  duration_ms: 3.2664
+  type: 'test'
+  ...
+# Subtest: 緊急佇列滿了：一次性事件擠掉最舊的持續刷新，而不是被後來的刷新擠掉
+ok 144 - 緊急佇列滿了：一次性事件擠掉最舊的持續刷新，而不是被後來的刷新擠掉
+  ---
+  duration_ms: 17.6787
+  type: 'test'
+  ...
+# Subtest: 緊急佇列滿了：進來的是刷新就直接丟它；進來的是一次性事件就擠掉最舊的刷新
+ok 145 - 緊急佇列滿了：進來的是刷新就直接丟它；進來的是一次性事件就擠掉最舊的刷新
+  ---
+  duration_ms: 43.765
+  type: 'test'
+  ...
+# Subtest: 場域的第一則事件（誕生）比刷新值錢：滿了也擠得進來，而且不會被後來的刷新擠掉
+ok 146 - 場域的第一則事件（誕生）比刷新值錢：滿了也擠得進來，而且不會被後來的刷新擠掉
+  ---
+  duration_ms: 6.7239
+  type: 'test'
+  ...
+# Subtest: 誕生事件之間滿了：互相擠時維持丟最舊，但不會因此去擠一次性事件以外的東西
+ok 147 - 誕生事件之間滿了：互相擠時維持丟最舊，但不會因此去擠一次性事件以外的東西
+  ---
+  duration_ms: 8.4886
+  type: 'test'
+  ...
+# Subtest: 誕生事件永遠進得來：佇列全是一次性事件時，讓位的是最舊的那一件
+ok 148 - 誕生事件永遠進得來：佇列全是一次性事件時，讓位的是最舊的那一件
+  ---
+  duration_ms: 3.2304
+  type: 'test'
+  ...
+# Subtest: 場域沉默夠久之後再出現，重新算誕生；持續有刷新的不算
+ok 149 - 場域沉默夠久之後再出現，重新算誕生；持續有刷新的不算
+  ---
+  duration_ms: 2.0548
+  type: 'test'
+  ...
+# Subtest: 緊急佇列裡沒有持續刷新可讓時，維持原本的丟最舊（行為不變）
+ok 150 - 緊急佇列裡沒有持續刷新可讓時，維持原本的丟最舊（行為不變）
+  ---
+  duration_ms: 3.8952
+  type: 'test'
+  ...
+# Subtest: 緊急佇列上限是 512：引擎實測 600 隻敵人一步最多 465 件
+ok 151 - 緊急佇列上限是 512：引擎實測 600 隻敵人一步最多 465 件
+  ---
+  duration_ms: 5.4071
+  type: 'test'
+  ...
+# Subtest: 只有「aura 且帶 area.id」才算持續刷新：沒有 id 的光環與其他型態都是一次性事件
+ok 152 - 只有「aura 且帶 area.id」才算持續刷新：沒有 id 的光環與其他型態都是一次性事件
+  ---
+  duration_ms: 2.3743
+  type: 'test'
+  ...
+1..152
+# tests 152
+# suites 0
+# pass 152
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 115586.144

@@ -1,0 +1,33 @@
+{
+  "approvedSha256": "f4de6ce8b9aee60e36031c58c3799441372eb0252f0d657ecc5b0dc1fb008e6c",
+  "variantSha256": "d8a555c99ecd356049dd90c02ebe6ba397e7e0e35a6034e2c50e8d28575fa263",
+  "jointsCompared": 58,
+  "samplingFps": 60,
+  "clips": {
+    "Attack": {
+      "seconds": 2.8,
+      "samples": 169,
+      "maxSkinMatrixError": 4.649162292480469e-06
+    },
+    "Basic_Jump": {
+      "seconds": 5.866666666666666,
+      "samples": 353,
+      "maxSkinMatrixError": 3.4570693969726562e-06
+    },
+    "Shot_and_Fall_Forward": {
+      "seconds": 2.1666666666666665,
+      "samples": 131,
+      "maxSkinMatrixError": 3.0994415283203125e-06
+    },
+    "Unsteady_Walk": {
+      "seconds": 2.966666666666667,
+      "samples": 179,
+      "maxSkinMatrixError": 2.3245811462402344e-06
+    },
+    "Weapon_Combo_2": {
+      "seconds": 4.5,
+      "samples": 271,
+      "maxSkinMatrixError": 5.349516868591309e-06
+    }
+  }
+}

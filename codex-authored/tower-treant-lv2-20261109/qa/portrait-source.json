@@ -1,0 +1,10 @@
+{
+  "model": "images/models/npc3d/treant_lv2.glb",
+  "modelSha256": "251fa3fee269ce8d072f8a05227ccf62f3ee43418b835c00925f086d028d3f31",
+  "dimensions": [
+    1080,
+    1080
+  ],
+  "transparent": true,
+  "clip": "Unsteady_Walk"
+}

@@ -1,0 +1,161 @@
+{
+  "changes": [
+    {
+      "row": 493,
+      "column": 2,
+      "before": "骷髏王Ⅱ",
+      "after": "樹人Ⅱ"
+    },
+    {
+      "row": 493,
+      "column": 6,
+      "before": "💀",
+      "after": "🌳"
+    },
+    {
+      "row": 493,
+      "column": 7,
+      "before": "sprites/boss/boss_skeleton_king_lv2.png",
+      "after": "sprites/boss/boss_treant_lv2.png"
+    },
+    {
+      "row": 493,
+      "column": 8,
+      "before": "sprites/boss/boss_skeleton_king_lv2.png",
+      "after": "sprites/boss/boss_treant_lv2.png"
+    },
+    {
+      "row": 493,
+      "column": 9,
+      "before": "sprites/boss/boss_skeleton_king_lv2.png",
+      "after": "sprites/boss/boss_treant_lv2.png"
+    },
+    {
+      "row": 493,
+      "column": 10,
+      "before": "sprites/boss/boss_skeleton_king_lv2.png",
+      "after": "sprites/boss/boss_treant_lv2.png"
+    },
+    {
+      "row": 493,
+      "column": 28,
+      "before": "images/models/npc3d/boss2.glb",
+      "after": "images/models/npc3d/treant_lv2.glb"
+    },
+    {
+      "row": 493,
+      "column": 29,
+      "before": "Walk",
+      "after": "Unsteady_Walk"
+    },
+    {
+      "row": 493,
+      "column": 30,
+      "before": "Walk",
+      "after": "Unsteady_Walk"
+    },
+    {
+      "row": 493,
+      "column": 31,
+      "before": "Attack1",
+      "after": "Weapon_Combo_2"
+    },
+    {
+      "row": 493,
+      "column": 32,
+      "before": "Attack2",
+      "after": "Attack"
+    },
+    {
+      "row": 493,
+      "column": 33,
+      "before": "Attack3",
+      "after": "Basic_Jump"
+    },
+    {
+      "row": 493,
+      "column": 34,
+      "before": "Die",
+      "after": "Shot_and_Fall_Forward"
+    },
+    {
+      "row": 503,
+      "column": 2,
+      "before": "骷髏王Ⅱ",
+      "after": "樹人Ⅲ"
+    },
+    {
+      "row": 503,
+      "column": 6,
+      "before": "💀",
+      "after": "🌳"
+    },
+    {
+      "row": 503,
+      "column": 7,
+      "before": "sprites/boss/boss_skeleton_king_lv2.png",
+      "after": "sprites/boss/boss_treant_lv3.png"
+    },
+    {
+      "row": 503,
+      "column": 8,
+      "before": "sprites/boss/boss_skeleton_king_lv2.png",
+      "after": "sprites/boss/boss_treant_lv3.png"
+    },
+    {
+      "row": 503,
+      "column": 9,
+      "before": "sprites/boss/boss_skeleton_king_lv2.png",
+      "after": "sprites/boss/boss_treant_lv3.png"
+    },
+    {
+      "row": 503,
+      "column": 10,
+      "before": "sprites/boss/boss_skeleton_king_lv2.png",
+      "after": "sprites/boss/boss_treant_lv3.png"
+    },
+    {
+      "row": 503,
+      "column": 28,
+      "before": "images/models/npc3d/boss2.glb",
+      "after": "images/models/npc3d/treant_lv3.glb"
+    },
+    {
+      "row": 503,
+      "column": 29,
+      "before": "Walk",
+      "after": "Unsteady_Walk"
+    },
+    {
+      "row": 503,
+      "column": 30,
+      "before": "Walk",
+      "after": "Unsteady_Walk"
+    },
+    {
+      "row": 503,
+      "column": 31,
+      "before": "Attack1",
+      "after": "Weapon_Combo_2"
+    },
+    {
+      "row": 503,
+      "column": 32,
+      "before": "Attack2",
+      "after": "Attack"
+    },
+    {
+      "row": 503,
+      "column": 33,
+      "before": "Attack3",
+      "after": "Basic_Jump"
+    },
+    {
+      "row": 503,
+      "column": 34,
+      "before": "Die",
+      "after": "Shot_and_Fall_Forward"
+    }
+  ],
+  "otherRowsUnchanged": true
+}
