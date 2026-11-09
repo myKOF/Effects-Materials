@@ -1,0 +1,62 @@
+{
+  "functionalStatus": "PASS",
+  "consoleStatus": "zero page errors; known warnings recorded, not a zero-warning run",
+  "swapHeaders": [
+    0,
+    5,
+    6,
+    7,
+    8,
+    6,
+    7
+  ],
+  "selectedSkins": [
+    0,
+    5,
+    6,
+    7,
+    7,
+    6,
+    7
+  ],
+  "reloads": [
+    {
+      "skin": 7,
+      "model": "images/models/hero3d/role7.glb?v=20261109-role7-v1",
+      "header": 7
+    },
+    {
+      "skin": 6,
+      "model": "images/models/hero3d/role6.glb?v=20261109-role6-v1",
+      "header": 6
+    }
+  ],
+  "failedAssetFallback": {
+    "skin": 6,
+    "sameController": true,
+    "disposed": false,
+    "enabled": true
+  },
+  "randomAttacks": [
+    "attack1",
+    "attack4",
+    "attack3",
+    "attack2"
+  ],
+  "baselineAudioFrequencyWarningReproduced": true,
+  "existingUnusedPreloadDeclarationUnchanged": true,
+  "preloadWarningCount": 1,
+  "preloadWarningNotReproducedInShortBaselineIdle": true,
+  "firstStrictConsoleCheck": "Failed only because it required zero warnings; native game functional checks passed. Original report retained.",
+  "knownWarnings": [
+    "The resource [isolated origin]/images/ui/heaven-power/dark-gold-seal.png?v=1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "Oscillator.frequency.value 16126.7 outside nominal range [-16000, 16000]; value will be clamped.",
+    "Oscillator.frequency.value 16652.2 outside nominal range [-16000, 16000]; value will be clamped.",
+    "Oscillator.frequency.value 16187.9 outside nominal range [-16000, 16000]; value will be clamped."
+  ],
+  "sourceReportHashes": {
+    "current": "c319e794c0cf4a51a59dadb213fcd61a6037863ec9fe01e668ba5c326e7380a1",
+    "baseline": "287a489dd0b9484e722186bbf2174522760a425f32cff49f5ba5459d057664f2"
+  },
+  "baselineCommit": "dcc45f288f2c13adf199e792fe40d4dfe9759179"
+}

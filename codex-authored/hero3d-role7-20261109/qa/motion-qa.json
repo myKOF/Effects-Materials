@@ -1,0 +1,32 @@
+{
+  "Attack1": {
+    "maxAxisDegrees": 0.0000024148365394514667,
+    "maxGripDriftMeters": 1.6609381764540015e-7,
+    "maxWristDegrees": 48.001879629121014
+  },
+  "Attack2": {
+    "maxAxisDegrees": 0.0000024148365394514667,
+    "maxGripDriftMeters": 2.4768522258002894e-7,
+    "maxWristDegrees": 48.04320480654922
+  },
+  "CombatIdle": {
+    "maxAxisDegrees": 0.000002699869328381916,
+    "maxGripDriftMeters": 1.5954495148359885e-7,
+    "maxWristDegrees": 21.111575927396046
+  },
+  "Death": {
+    "maxAxisDegrees": 83.71272428327146,
+    "maxGripDriftMeters": 0.0831722201010624,
+    "maxWristDegrees": 48.00000569274084
+  },
+  "Run": {
+    "maxAxisDegrees": 0.0000024148365394514667,
+    "maxGripDriftMeters": 2.3563495984967446e-7,
+    "maxWristDegrees": 34.10760352618673
+  },
+  "Attack4": {
+    "maxAxisDegrees": 0.000005598568198963992,
+    "maxGripDriftMeters": 1.2334927552389212e-7,
+    "maxWristDegrees": 48.04299310417001
+  }
+}

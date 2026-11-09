@@ -1,0 +1,12 @@
+{
+  "authoring": "Original procedural Blender sword matching the authorized Role7 armor palette",
+  "outputSha256": "d61a41a1f1174bc8704197f9b1d97f90f36449058f034fef3c8fbbfc5348078f",
+  "blenderVersion": "4.5.10 LTS",
+  "parts": 61,
+  "triangles": 7922,
+  "gripRadiusMeters": 0.0135,
+  "guardRootY": 0.115,
+  "bladeTipY": 0.99,
+  "pommelEndY": -0.06165,
+  "axes": "blade +Y / edge +X / front +Z; original Role6 grip origin"
+}

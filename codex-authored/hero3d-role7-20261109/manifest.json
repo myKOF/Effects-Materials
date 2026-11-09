@@ -1,0 +1,161 @@
+{
+  "stage": "Role6 approved checkpoint and Role7 production integration authorized by user",
+  "license": "Role7.glb explicitly authorized by user for this game and modification, 2026-11-09; new sword authored procedurally with Blender",
+  "files": [
+    {
+      "source": "source/Role7.glb",
+      "sha256": "43017e0faa6a242afb923741648882993b51807fea666566d344b1c54a556a01"
+    },
+    {
+      "source": "source/role7.blend",
+      "sha256": "18dd716f0e1302d80d01527df55a03364369c586ed291a72ec7ef27547327b3c"
+    },
+    {
+      "source": "source/role7-sword.blend",
+      "sha256": "0d3567422a4b11fdfe414b73f5a1520d238ea66645d5ed56d0b926a0e9cb95e5"
+    },
+    {
+      "source": "exports/role7.glb",
+      "sha256": "a77c2a8063c1bf3652914c11973164a1f959f0532bd602243086d40e4a58d771",
+      "project": "images/models/hero3d/role7.glb"
+    },
+    {
+      "source": "exports/role7.json",
+      "sha256": "53c466d0aaa5fa34300cce589aa7a7afde4e70a53e368c835245927a643ad61e",
+      "project": "images/models/hero3d/role7.json"
+    },
+    {
+      "source": "exports/role7/base.jpg",
+      "sha256": "836f82da1674ee517192dfef3a4d682a4abf880ad248025bf2ee70d4c2d545d2",
+      "project": "images/models/hero3d/role7/base.jpg"
+    },
+    {
+      "source": "exports/role7/normal.png",
+      "sha256": "23dcc9bde0c26be0503c305b069833719fdd946c4dbdaea2a61c850c3ac4ad2e",
+      "project": "images/models/hero3d/role7/normal.png"
+    },
+    {
+      "source": "exports/role7/mr.jpg",
+      "sha256": "67335bd2b1640c3bf1265fb346222612e94cb0203f3bf6b286b7193bdca23103",
+      "project": "images/models/hero3d/role7/mr.jpg"
+    },
+    {
+      "source": "exports/role7-sword.glb",
+      "sha256": "d61a41a1f1174bc8704197f9b1d97f90f36449058f034fef3c8fbbfc5348078f"
+    },
+    {
+      "source": "exports/role7-sword.json",
+      "sha256": "dd66c9ff3deda6e8390920011e331f27203d9cd601b95f97b36b5b0e880f42df"
+    },
+    {
+      "source": "qa/source-comparison.json",
+      "sha256": "96f986e40163d09e19a661eb20aadf9f5d2f7bbd71d9d6e1c727eb9adee590d8"
+    },
+    {
+      "source": "qa/native-qa.json",
+      "sha256": "bcfde24f7a40561645aa63fdc14143b6388e2fb94d78d3ffb58e76aa15761130"
+    },
+    {
+      "source": "qa/motion-qa.json",
+      "sha256": "e02bcc70438c807fc246703a8c4d9fac93ed3f1b826de9a873df046bbb48d627"
+    },
+    {
+      "source": "qa/gif-qa.json",
+      "sha256": "15872f434ac0c29dcf46f5718e510d7fcc95000a4228635b200fbf33fde74237"
+    },
+    {
+      "source": "qa/game-validation.json",
+      "sha256": "cf1f4c827316e986313e629684308b38abeec4ad982ce14b84419c21c6a4d8dd"
+    },
+    {
+      "source": "qa/game-qa.json",
+      "sha256": "c319e794c0cf4a51a59dadb213fcd61a6037863ec9fe01e668ba5c326e7380a1"
+    },
+    {
+      "source": "qa/baseline-game-qa.json",
+      "sha256": "287a489dd0b9484e722186bbf2174522760a425f32cff49f5ba5459d057664f2"
+    },
+    {
+      "source": "tools/blender/build_role7_sword.py",
+      "sha256": "269b7cd7d214e8807450237101397ff5660423390e8478d9f0da933bf9d3790f",
+      "project": "tools/meshy-pipeline/blender/build_role7_sword.py"
+    },
+    {
+      "source": "tools/blender/prepare_role7.py",
+      "sha256": "23dc58e67f01b3f1f5ea89561620e67b00e5325d05f6455e83c6e59ca5c826ef",
+      "project": "tools/meshy-pipeline/blender/prepare_role7.py"
+    },
+    {
+      "source": "tools/blender/validate_role7.py",
+      "sha256": "3e7966a274d5aa2d8b346debae7780c967efcf4b9faf9615689790ec47e39356",
+      "project": "tools/meshy-pipeline/blender/validate_role7.py"
+    },
+    {
+      "source": "tools/src/export-role7.cjs",
+      "sha256": "026e9fbd18b956cf6bef7316331df0ad8b35301daa8ea90e7e106ed51e5d38d9",
+      "project": "tools/meshy-pipeline/src/export-role7.cjs"
+    },
+    {
+      "source": "README.md",
+      "sha256": "9979af8bfc18234df0f0292b7f437eb47fb442c4aadb33ded127d770490dccc8",
+      "project": "docs/assets/HERO3D_ROLE6_ROLE7_SOURCE.md"
+    }
+  ],
+  "dependencies": [
+    {
+      "source": "codex-authored/hero3d-role6-candidate-20261109/exports/role6.glb",
+      "sha256": "a051e9dd30526b5934110e17d3d4a9a814e5eb30c85a371fac60584aaca09a1c",
+      "project": "images/models/hero3d/role6.glb"
+    },
+    {
+      "source": "codex-authored/hero3d-role6-candidate-20261109/exports/role6.json",
+      "sha256": "833acc56143fa24c1af25e8a2292aa91bb801e9d5ba2049a3cc8afe5a8d3120b",
+      "project": "images/models/hero3d/role6.json"
+    },
+    {
+      "source": "codex-authored/hero3d-role6-candidate-20261109/exports/role6/base.png",
+      "sha256": "3280c202f1f2c47a7c5e27ebb5f190561bec272b2abe2f299f35414625f24df1",
+      "project": "images/models/hero3d/role6/base.png"
+    },
+    {
+      "source": "codex-authored/hero3d-role6-candidate-20261109/exports/role6/normal.png",
+      "sha256": "3b477fa6812ce99142b8c8d55e1ea2fb50d2a52893be058bed7993b95f4dc389",
+      "project": "images/models/hero3d/role6/normal.png"
+    },
+    {
+      "source": "codex-authored/hero3d-role6-candidate-20261109/exports/role6/mr.png",
+      "sha256": "0ceaa69e7f9b24312b28625926af309ef1c97b0359114152a95fc27f445c90ae",
+      "project": "images/models/hero3d/role6/mr.png"
+    },
+    {
+      "source": "codex-authored/hero3d-role6-candidate-20261109/source/Role6.glb",
+      "sha256": "cdfe8ccab67419b94dffb805a45b06d5370196dd21b43d36a8945a38a77be901"
+    },
+    {
+      "source": "codex-authored/hero3d-role6-candidate-20261109/qa/accepted-four-fingers.npz",
+      "sha256": "82cf131044cb30029caa5a9737d57aa18f03f31d81df14bf2805928de8d85ba1"
+    },
+    {
+      "source": "codex-authored/hero3d-role6-candidate-20261109/tools/blender/prepare_role6.py",
+      "sha256": "23c79a7336fbb612af759e51b2c4391c6764df1e2b7930721abc254500288f73"
+    }
+  ],
+  "preservedModels": {
+    "images/models/hero3d/role.glb": "0ebd2dd1af1503f7236375bd5e146e84c02a01f2ac10823d2eb32a94dd27b7ad",
+    "images/models/hero3d/role1.glb": "54f104457683618ee328edd05749476dffd11bc093e7dbeb92619f59a55b1222",
+    "images/models/hero3d/role2.glb": "262c1f9f78280a09f3e0a3cb57b4896d8a540f709889f0963bd3400c96f0b089",
+    "images/models/hero3d/role3.glb": "663595d1f798df30df1d9630708605c82396c85195abaa9518a82c9275d4e519",
+    "images/models/hero3d/role4.glb": "db0fb548c75bbbac6291668b7445883926ed4aafddfff0f9485c8513b82924cc",
+    "images/models/hero3d/role5.glb": "d83254f239be70ff1cd4f8eab66fc587b1657c05b1536fbbaa9ae8b4d6119c7d",
+    "images/models/hero3d/sunbrand-knight.glb": "ad6645d1db9ebfd18240049e36d3db075ca2e3aa27b7f3c1e6e568a2ed435bc4"
+  },
+  "role6SourceCommit": "116aa9994f484a7fb81fa750ce1d73a9c6c6ce83",
+  "qaSummary": {
+    "regressionTests": 91,
+    "regressionPass": 91,
+    "buildFiles": 700,
+    "gameplay": "real Worker 0/5/6/7/8/6/7 switches; both saved 6 and 7 reload; missing 7 map preserves 6; random four attacks",
+    "browserWarnings": "Existing audio warning reproduced against original HEAD; unchanged preload declaration warning recorded, not reproduced in short idle attempt",
+    "allSixAnimationsAndNonWeaponGeometryExactToRole6": true
+  }
+}

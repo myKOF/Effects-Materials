@@ -1,0 +1,33 @@
+{
+  "modelSha256": "a77c2a8063c1bf3652914c11973164a1f959f0532bd602243086d40e4a58d771",
+  "allSixClipsAndRigExactToApprovedRole6": true,
+  "allNonWeaponGeometryAndUvExactToApprovedRole6": true,
+  "swordRigidlyOnRightSwordBone": true,
+  "shieldAndHardwareRigidlyOnLeftForearm": true,
+  "shieldRodLengthRatio": 0.3,
+  "actualNewSwordContact": {
+    "Index": {
+      "vertices": 47,
+      "minGapMeters": 0.00013496720930561423,
+      "maxGapMeters": 0.0009651874424889684
+    },
+    "Middle": {
+      "vertices": 27,
+      "minGapMeters": 0.0001635143271414563,
+      "maxGapMeters": 0.0009654245222918689
+    },
+    "Ring": {
+      "vertices": 77,
+      "minGapMeters": 0.00017571797070559114,
+      "maxGapMeters": 0.0009654927998781204
+    },
+    "Pinky": {
+      "vertices": 39,
+      "minGapMeters": 7.874518632888794e-05,
+      "maxGapMeters": 0.0025612711906433105
+    }
+  },
+  "originalRole7TextureHashesExact": true,
+  "nativeActions": 6,
+  "packedOriginalTextures": 3
+}

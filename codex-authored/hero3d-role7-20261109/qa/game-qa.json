@@ -1,0 +1,1284 @@
+{
+  "swaps": [
+    {
+      "skin": 0,
+      "model": "images/models/hero3d/role.glb?v=20261103-forward-grip-v1",
+      "bodySame": true,
+      "sameController": true,
+      "previous": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": false,
+        "contextLost": false,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "current": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": false,
+        "contextLost": false,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "header": 0
+    },
+    {
+      "skin": 5,
+      "model": "images/models/hero3d/role5.glb?v=20261105-role5-v1",
+      "bodySame": true,
+      "sameController": false,
+      "previous": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": true,
+        "contextLost": true,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "current": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": false,
+        "contextLost": false,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "header": 5
+    },
+    {
+      "skin": 6,
+      "model": "images/models/hero3d/role6.glb?v=20261109-role6-v1",
+      "bodySame": true,
+      "sameController": false,
+      "previous": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": true,
+        "contextLost": true,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "current": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": false,
+        "contextLost": false,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "header": 6
+    },
+    {
+      "skin": 7,
+      "model": "images/models/hero3d/role7.glb?v=20261109-role7-v1",
+      "bodySame": true,
+      "sameController": false,
+      "previous": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": true,
+        "contextLost": true,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "current": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": false,
+        "contextLost": false,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "header": 7
+    },
+    {
+      "skin": 7,
+      "model": "images/models/hero3d/role7.glb?v=20261109-role7-v1",
+      "bodySame": true,
+      "sameController": true,
+      "previous": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": false,
+        "contextLost": false,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "current": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": false,
+        "contextLost": false,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "header": 8
+    },
+    {
+      "skin": 6,
+      "model": "images/models/hero3d/role6.glb?v=20261109-role6-v1",
+      "bodySame": true,
+      "sameController": false,
+      "previous": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": true,
+        "contextLost": true,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "current": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": false,
+        "contextLost": false,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "header": 6
+    },
+    {
+      "skin": 7,
+      "model": "images/models/hero3d/role7.glb?v=20261109-role7-v1",
+      "bodySame": true,
+      "sameController": false,
+      "previous": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": true,
+        "contextLost": true,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "current": {
+        "pbr": true,
+        "size": 1024,
+        "environment": true,
+        "disposed": false,
+        "contextLost": false,
+        "materials": [
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": true,
+            "mr": true
+          },
+          {
+            "type": "MeshStandardMaterial",
+            "normal": false,
+            "mr": false
+          }
+        ]
+      },
+      "header": 7
+    }
+  ],
+  "reloads": [
+    {
+      "skin": 7,
+      "model": "images/models/hero3d/role7.glb?v=20261109-role7-v1",
+      "header": 7
+    },
+    {
+      "skin": 6,
+      "model": "images/models/hero3d/role6.glb?v=20261109-role6-v1",
+      "header": 6
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "The resource http://127.0.0.1:8689/images/ui/heaven-power/dark-gold-seal.png?v=1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "Oscillator.frequency.value 16126.7 outside nominal range [-16000, 16000]; value will be clamped.",
+    "Oscillator.frequency.value 16652.2 outside nominal range [-16000, 16000]; value will be clamped.",
+    "Oscillator.frequency.value 16187.9 outside nominal range [-16000, 16000]; value will be clamped."
+  ],
+  "failedAssetErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "THREE.GLTFLoader: Couldn't load texture role7/base.jpg?v=20261109-role7-v1"
+  ],
+  "failedAssetWarnings": [
+    "[battle-renderer] 轉生外觀載入失敗，保留目前人物： Error: Incomplete external PBR textures: baseColor\n    at validateExternalPbr (http://127.0.0.1:8689/js/hero3d.js?v=20261109-role6-role7-v1:150:11)\n    at Object.create (http://127.0.0.1:8689/js/hero3d.js?v=20261109-role6-role7-v1:504:42)"
+  ],
+  "failedAssetFallback": {
+    "skin": 6,
+    "sameController": true,
+    "disposed": false,
+    "enabled": true
+  },
+  "randomAttacks": [
+    "attack1",
+    "attack4",
+    "attack3",
+    "attack2"
+  ],
+  "qa": "Real index, native Worker and GM header changes; isolated fresh origin. Existing closure exposes are diagnostic only. Expected missing-map phase separated.",
+  "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   \"The resource http://127.0.0.1:8689/images/ui/heaven-power/dark-gold-seal.png?v=1 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.\",\n+   'Oscillator.frequency.value 16126.7 outside nominal range [-16000, 16000]; value will be clamped.',\n+   'Oscillator.frequency.value 16652.2 outside nominal range [-16000, 16000]; value will be clamped.',\n+   'Oscillator.frequency.value 16187.9 outside nominal range [-16000, 16000]; value will be clamped.'\n+ ]\n- []\n\n    at C:\\Users\\user\\.codex\\visualizations\\2026\\11\\03\\01a1a127-4f3c-7fb1-b99c-9c6b3a6f9a86\\role7-20261109\\game-verify.cjs:95:12"
+}
