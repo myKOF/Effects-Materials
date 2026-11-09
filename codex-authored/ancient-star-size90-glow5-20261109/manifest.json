@@ -1,0 +1,33 @@
+{
+  "task": "ANCIENT-STAR-SIZE-GLOW-20261109",
+  "sourcePackage": "codex-authored/ancient-stars-20261105",
+  "previousBakedPackage": "codex-authored/ancient-star-baked-glow-20261106",
+  "source": "Existing user-provided star artwork and approved generated variants; code-native offline bake, no new third-party art.",
+  "bake": {
+    "cssPixelsToRaster": 7.6,
+    "outlineRadius": 1,
+    "shadowBlur": [
+      1,
+      3,
+      5
+    ],
+    "padding": 64,
+    "outputSize": 256
+  },
+  "display": {
+    "previousTransform": 2,
+    "transform": 1.8,
+    "relativeScale": 0.9
+  },
+  "files": {
+    "images/ui/ancient-star-gold.png": "7e2fa768cf1f32e824840c336579e41f9ec558ca12191eed9e34c6894ad911f3",
+    "images/ui/ancient-star-light-blue.png": "0475457564545a37be33ba54a07ad2b536ad1ecb348264f88205df9563dcb3ef",
+    "images/ui/ancient-star-blue.png": "10907e792321e1eb7898dc5c45f47f0601180e6be3c573757fd211e7193f4ea2",
+    "images/ui/ancient-star-gold-glow.png": "5e4dd567f4efbae059fe71b62d319e7e383e76d4a1e3cac2b6f87ce6a899ad88",
+    "images/ui/ancient-star-light-blue-glow.png": "31edc93b0cc062a92c355c1ff2b536a1fe2d06be6f3304151f2b6a92a2092dfa",
+    "images/ui/ancient-star-blue-glow.png": "ff9da9457da1d6d4aa3fd782a5ec2c80c44568c167037d9086fa9286924155ba",
+    "tools/ancient-stars/bake-glow.cjs": "aaca2b661b7eeb6361306c83c08171150de5ff6595d363ad5d3ad68a6ed4c94d",
+    "tools/vfx/vfx-raster.cjs": "00b972bb07ef9e387870df99348d55a1d8fb213744a259216a9d33d4f4a1fe59",
+    "tools/vfx/vfx-image-facts.cjs": "600e1e1c2c8e5ee32b2edd94b72aa8a41641ae093a4c3114b3d138c161d7a85c"
+  }
+}
