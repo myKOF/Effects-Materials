@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "created": "2026-11-09",
+  "status": "first-review-candidate",
+  "tool": "built-in image_gen",
+  "references": "User-authorized project Role / Role1 / Role2 / Role3 models",
+  "export": {
+    "format": "webp",
+    "width": 256,
+    "height": 256,
+    "quality": 92,
+    "effort": 6
+  },
+  "files": [
+    {
+      "source": "originals/rebirth-0.png",
+      "project": null,
+      "sha256": "fe7676188eb8e5511baf7519fdd6ad223b315551e7ed90b439c8de527d3942ef"
+    },
+    {
+      "source": "references/rebirth-0.png",
+      "project": null,
+      "sha256": "291226f814891d54e82368874a7c5333e75370408d97ce1273d31eb41589c5d4"
+    },
+    {
+      "source": "exports/rebirth-0.webp",
+      "project": "images/ui/hero-portraits/rebirth-0.webp",
+      "sha256": "65a378727ee172cae95f37414357f5badc7d9cdf74f8469724cfe0174becc6e2"
+    },
+    {
+      "source": "originals/rebirth-1.png",
+      "project": null,
+      "sha256": "dd154e491294bff54e0c36f07c3a6bf1f032936a017d2b68c637d114eca8b2ac"
+    },
+    {
+      "source": "references/rebirth-1.png",
+      "project": null,
+      "sha256": "507b223aece56abae2582444d3cf02231688f81e03eb9779c1681f5efdaaed0a"
+    },
+    {
+      "source": "exports/rebirth-1.webp",
+      "project": "images/ui/hero-portraits/rebirth-1.webp",
+      "sha256": "d860fd9c18d1254844bd50d54468ff6120b569cd39825ddeb5e67c90d87d95b1"
+    },
+    {
+      "source": "originals/rebirth-2.png",
+      "project": null,
+      "sha256": "65baf8172bd4019b5fcca6e88a2a49fac23c5849bf9e537dc13322cdb0bccc75"
+    },
+    {
+      "source": "references/rebirth-2.png",
+      "project": null,
+      "sha256": "6703b34a20f17b8b8628c09550500bf7e603d9f7975d7c0c9c7fbcc340b8e822"
+    },
+    {
+      "source": "exports/rebirth-2.webp",
+      "project": "images/ui/hero-portraits/rebirth-2.webp",
+      "sha256": "62fff7e8d1117f3e02697b54aa668142922871e96947e91b97f3e4c7e9a1493f"
+    },
+    {
+      "source": "originals/rebirth-3.png",
+      "project": null,
+      "sha256": "54ce2136661e3a53d3d7d39208f6ed1ee246fcc9851fcd6310d038b915584bbd"
+    },
+    {
+      "source": "references/rebirth-3.png",
+      "project": null,
+      "sha256": "3bc8702f5396cae8636986d92ce839d81cca1b11cf2f1d935cb5984a75c93d93"
+    },
+    {
+      "source": "exports/rebirth-3.webp",
+      "project": "images/ui/hero-portraits/rebirth-3.webp",
+      "sha256": "1be17563a1afd8adf8495ddfe286a7fabe2cb23819450730df43cbbb6b9cc295"
+    },
+    {
+      "source": "prompts.json",
+      "project": "docs/assets/CHARACTER_PORTRAITS_PROMPTS.json",
+      "sha256": "cc026eecb25f192af7d63c92bcb2523ba626be033417a9d286974e8566447c77"
+    },
+    {
+      "source": "SOURCE.md",
+      "project": "docs/assets/CHARACTER_PORTRAITS_SOURCE.md",
+      "sha256": "42c83e48da776141c23c9d891233717f6276294d72baac044216268f820322ea"
+    },
+    {
+      "source": "export-character-portraits.cjs",
+      "project": "tools/meshy-pipeline/src/export-character-portraits.cjs",
+      "sha256": "34bd350a08fdca163a5ee5249d740d6a93c64c51286611194de5fa656e7934e8"
+    }
+  ]
+}
