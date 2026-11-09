@@ -1,0 +1,305 @@
+{
+  "version": 1,
+  "created": "2026-11-09",
+  "tool": "built-in image_gen",
+  "files": [
+    {
+      "source": "originals/relic-01.png",
+      "sha256": "c6231f4b26658bf99715104572bbddb5037762e6156e12e50cf271eb17e66598"
+    },
+    {
+      "source": "exports/relic-01.webp",
+      "sha256": "457f6b227dd590e041714fbcf617c661c64234641c86580173ec5b57dd963ba7",
+      "project": "images/relics/relic-01.webp"
+    },
+    {
+      "source": "originals/relic-02.png",
+      "sha256": "03a57fb8e21f7abc53f0ccb1b0e8840fcaef9701077d8ba484e45ba3c8f90d59"
+    },
+    {
+      "source": "exports/relic-02.webp",
+      "sha256": "6a6e85ff010065a5de1116a5e0d37df8f560796279bca0487f8e3cf070ca8d66",
+      "project": "images/relics/relic-02.webp"
+    },
+    {
+      "source": "originals/relic-03.png",
+      "sha256": "3bade9f5386086721d515aea1235392e2177f50c748ed947ec72580432cfa248"
+    },
+    {
+      "source": "exports/relic-03.webp",
+      "sha256": "46c9b08411004443cf5f4f243c436c7835ff660eaf642d33e9ddd5f0d9f26a7d",
+      "project": "images/relics/relic-03.webp"
+    },
+    {
+      "source": "originals/relic-04.png",
+      "sha256": "cdcf163d110b5fa3569d0a7132af9e6fb7058150ea445858459f5c25c7853fcb"
+    },
+    {
+      "source": "exports/relic-04.webp",
+      "sha256": "e8bff9e38cb2503e0287044585f53154addeca025e02652e2abc3b7655c34732",
+      "project": "images/relics/relic-04.webp"
+    },
+    {
+      "source": "originals/relic-05.png",
+      "sha256": "d3ee07c947d9adaa3a81ae838ed2fd7fc5aab4f29702060f960d6c21a5ce845b"
+    },
+    {
+      "source": "exports/relic-05.webp",
+      "sha256": "eb6ad266b1043a6b5dd05f573b62252fb8680d2e515b9dee263d05442f5f5dbb",
+      "project": "images/relics/relic-05.webp"
+    },
+    {
+      "source": "originals/relic-06.png",
+      "sha256": "0d93fe27e4c55fc909b6cbf9f1651e4bf517f14a8150be3378839946155f3fb1"
+    },
+    {
+      "source": "exports/relic-06.webp",
+      "sha256": "a626c8206dd2ebe627cd286e1ff556023bf9fd5ae0a9bf4a2b2310e827f5ddf4",
+      "project": "images/relics/relic-06.webp"
+    },
+    {
+      "source": "originals/relic-07.png",
+      "sha256": "fbf93ee600200b79ca26fd55794c0f07657e0004b7afac6506b6617fcfd8ef43"
+    },
+    {
+      "source": "exports/relic-07.webp",
+      "sha256": "f292509ca76ded8a0628e82b9007c15275221fd333191dc7cf990f262f8ae8f5",
+      "project": "images/relics/relic-07.webp"
+    },
+    {
+      "source": "originals/relic-08.png",
+      "sha256": "d51f3c849edb0dd6b5e357eec785f9d7a3693f503c15a702cb68e471c91ed34c"
+    },
+    {
+      "source": "exports/relic-08.webp",
+      "sha256": "d0be1115a7652cd9ef0bcf0b8fe1a1635cfea961fa665e727e073705c4490ac8",
+      "project": "images/relics/relic-08.webp"
+    },
+    {
+      "source": "originals/relic-09.png",
+      "sha256": "5726d8f57d12155ec03c3e9a09201763c0585a85baddda2dafa5a483211e4640"
+    },
+    {
+      "source": "exports/relic-09.webp",
+      "sha256": "6022a525f45213c655725795161765de1bda159fd5163cafed26980b65cbda04",
+      "project": "images/relics/relic-09.webp"
+    },
+    {
+      "source": "originals/relic-10.png",
+      "sha256": "2b4e08f0950e5cf0846a79ed02e6decdcffaf74f98c6550bd3499cfcfe08febf"
+    },
+    {
+      "source": "exports/relic-10.webp",
+      "sha256": "091a9193da93fcc20e0dd18ab0301ff7d6c5d9151a84aa9ee62dfa316d14b76a",
+      "project": "images/relics/relic-10.webp"
+    },
+    {
+      "source": "originals/relic-11.png",
+      "sha256": "85d2a8571c67e4c8417d64773cd6db18ba92007b76e86d31da0072dcd771bd07"
+    },
+    {
+      "source": "exports/relic-11.webp",
+      "sha256": "f3424efb54dbd7109761b9fef04cc0d67844dd9a9be1e4fb493de454cb854b20",
+      "project": "images/relics/relic-11.webp"
+    },
+    {
+      "source": "originals/relic-12.png",
+      "sha256": "adfcafe87e9b29140707de05c3d798b4c563d8cbfa35e9e10cdb40f4cf3284fe"
+    },
+    {
+      "source": "exports/relic-12.webp",
+      "sha256": "188597c6a9a1de529ffb962445c543f055e84776c695290a82e26bf0f191baf9",
+      "project": "images/relics/relic-12.webp"
+    },
+    {
+      "source": "originals/relic-13.png",
+      "sha256": "3c52b028c1cb718b396c6f991869ce8121c23d743d2e9d1e577e3f6883cddd48"
+    },
+    {
+      "source": "exports/relic-13.webp",
+      "sha256": "e765fcd398f479d93364a2551be746239350b44a6c414b5defdfbf55a8e64a21",
+      "project": "images/relics/relic-13.webp"
+    },
+    {
+      "source": "originals/relic-14.png",
+      "sha256": "2e8c6d119ff449273095d4a335054c2b29f727c7692968b2c6fa0fdcae763f58"
+    },
+    {
+      "source": "exports/relic-14.webp",
+      "sha256": "888085796c936892dc87ccb38e9ab5662bdb2d826bdd31a6fe8f9ce271bfe377",
+      "project": "images/relics/relic-14.webp"
+    },
+    {
+      "source": "originals/relic-15.png",
+      "sha256": "a31150226e2a8196431eb8577211156b32fdb2571217314af4a27e552eba718d"
+    },
+    {
+      "source": "exports/relic-15.webp",
+      "sha256": "44ed390059b1bb120828f216bb91d82490859f6ca68bfb3a2de311c91d814c65",
+      "project": "images/relics/relic-15.webp"
+    },
+    {
+      "source": "originals/relic-16.png",
+      "sha256": "7b8db3319d7be9a176b44d503a8c5ac0cc148f9858dcb0053c8298b14ef8dc00"
+    },
+    {
+      "source": "exports/relic-16.webp",
+      "sha256": "e59ba3b69feb42ca67b6ad6406cf9022c96fc27235455fdd5b15770e3371c426",
+      "project": "images/relics/relic-16.webp"
+    },
+    {
+      "source": "originals/relic-17.png",
+      "sha256": "ab5de334efb41739dd8ed23dc8dc54a85511b60d619e259aaa28973dd0965e93"
+    },
+    {
+      "source": "exports/relic-17.webp",
+      "sha256": "4590ee5ab3c38f10279f49d866888e137afef9b90df6af86dae4718cd798337c",
+      "project": "images/relics/relic-17.webp"
+    },
+    {
+      "source": "originals/relic-18.png",
+      "sha256": "1ee60bcd5ab98ddb52c61b4076c236f156a12377d6496a737e88975b39a64cca"
+    },
+    {
+      "source": "exports/relic-18.webp",
+      "sha256": "629827796afa31b2c5b634ad5d427247f4f35e15461e3d7448f60c2a91c795ba",
+      "project": "images/relics/relic-18.webp"
+    },
+    {
+      "source": "originals/relic-19.png",
+      "sha256": "f2bf1e482113f2d989c697b8758bf5d05bd4969bba70b3680d9dea0501e8622a"
+    },
+    {
+      "source": "exports/relic-19.webp",
+      "sha256": "c0a1c975d2f452f2c9458c3282993a59b3fff3e2166a50fc36bb19d6099589ac",
+      "project": "images/relics/relic-19.webp"
+    },
+    {
+      "source": "originals/relic-20.png",
+      "sha256": "39594130764bf4cdadd0f4516fe9e82cd8510351c4317022928f54d60e166781"
+    },
+    {
+      "source": "exports/relic-20.webp",
+      "sha256": "9f504b3aba655440d1212686ce11f3493a39595ccf2ec72f156e9b0c80687212",
+      "project": "images/relics/relic-20.webp"
+    },
+    {
+      "source": "originals/relic-21.png",
+      "sha256": "319e31a8f52b6c0519c8108d1a26ebcf8b868cebf9ccee62f3b36db2daf7012c"
+    },
+    {
+      "source": "exports/relic-21.webp",
+      "sha256": "65430a3c39a13c35dffa5f60f97ad2a5713a498ba75b8fb1e182fd716d9d9a6b",
+      "project": "images/relics/relic-21.webp"
+    },
+    {
+      "source": "originals/relic-22.png",
+      "sha256": "c0ce8758637b62c7bdcb08a71d460ea220ed58376a776cacb9ff8653f104c98b"
+    },
+    {
+      "source": "exports/relic-22.webp",
+      "sha256": "624fc18160970c05440c59de9b5731ad8ee87b4c3500c16267db268f40e1f42a",
+      "project": "images/relics/relic-22.webp"
+    },
+    {
+      "source": "originals/relic-23.png",
+      "sha256": "015be28dcefc0ac0c83f7be5131ade15f299b10263f086e28188e61f1ea88d03"
+    },
+    {
+      "source": "exports/relic-23.webp",
+      "sha256": "31260218b2311f349fb68577966b5f3466acd480fa345f6096a24efb4b75e5eb",
+      "project": "images/relics/relic-23.webp"
+    },
+    {
+      "source": "originals/relic-24.png",
+      "sha256": "f9f5d803216c968cf2d0e0352ed478eb84402d404c82cc5f31d359b72517469d"
+    },
+    {
+      "source": "exports/relic-24.webp",
+      "sha256": "3d3292b4953e3ef734e5a8ca10c427633815d7e5df1c98efb5907b325ec4d7eb",
+      "project": "images/relics/relic-24.webp"
+    },
+    {
+      "source": "originals/relic-25.png",
+      "sha256": "fad56b383fb5a74387231634645cf8414f25f096df4937c722deb5132220969d"
+    },
+    {
+      "source": "exports/relic-25.webp",
+      "sha256": "7fd408d3814506f57e916e9e24b088cbdc2ab7ddff6c46d4ab9864e3d5616a16",
+      "project": "images/relics/relic-25.webp"
+    },
+    {
+      "source": "originals/relic-26.png",
+      "sha256": "fda0cd0cb3703c4da399aa333355a6c509668ac5d5daa4885f84e9cffaf73967"
+    },
+    {
+      "source": "exports/relic-26.webp",
+      "sha256": "57d938d07bd9b0f37e2853df155be6a16f61c9f537d04ab7195541d9de6b07c2",
+      "project": "images/relics/relic-26.webp"
+    },
+    {
+      "source": "originals/relic-27.png",
+      "sha256": "8d84b46fad269fb216b84bd066e9347c52170084aaa93f671ebadce9f0d9070f"
+    },
+    {
+      "source": "exports/relic-27.webp",
+      "sha256": "73f06bcfb264ca7ff7ecbcdacc1feafa6fd1c0ee24dedc4df49aed0bade84d73",
+      "project": "images/relics/relic-27.webp"
+    },
+    {
+      "source": "originals/relic-28.png",
+      "sha256": "57dba97432cf40aa6070742379990448964b22123378e256353c01e3c9f817b4"
+    },
+    {
+      "source": "exports/relic-28.webp",
+      "sha256": "f4d93043bb3129436ec13f1966f0af695af316d8e2747ef3b219db285c13616f",
+      "project": "images/relics/relic-28.webp"
+    },
+    {
+      "source": "originals/relic-29.png",
+      "sha256": "c714497328f61e490c74c862e5498aa99a0c444d283a616f42d5f5ebd6555fa1"
+    },
+    {
+      "source": "exports/relic-29.webp",
+      "sha256": "bf424d01863c1d71186ac1b61e106d28904086e582da5b3b6ed8a3a44af612a5",
+      "project": "images/relics/relic-29.webp"
+    },
+    {
+      "source": "originals/relic-30.png",
+      "sha256": "229176803dfea9d65ed3146e7d60768781fdd0baf7791dd390b795800c1d89f9"
+    },
+    {
+      "source": "exports/relic-30.webp",
+      "sha256": "c52d6b6cba31a7db80fe409782041de13faa0dba7a97e4882d70f66057d944b6",
+      "project": "images/relics/relic-30.webp"
+    },
+    {
+      "source": "originals/relic-31.png",
+      "sha256": "f1a816e45cd4f6b57110375755727c6fae5586db38b5afc6cc4cd1c2fec9236b"
+    },
+    {
+      "source": "exports/relic-31.webp",
+      "sha256": "5b27467efdddee5d0792675ad56445b6a00e87c0f5fa2f4191753653fa33e4a4",
+      "project": "images/relics/relic-31.webp"
+    },
+    {
+      "source": "originals/relic-32.png",
+      "sha256": "672425791d243b2b168efdc84a12151dfb447a10e046fba4d4ef8c9c75775949"
+    },
+    {
+      "source": "exports/relic-32.webp",
+      "sha256": "992f94c461bb6392565f5ff12d57fbfa2fcbbea40106404f0c1c945af89b36f9",
+      "project": "images/relics/relic-32.webp"
+    },
+    {
+      "source": "PROMPTS.json",
+      "sha256": "6bd936c9f7293848bc9da2004d98d7d96059668e04a13859cc8d66ba58535d81",
+      "project": "docs/assets/RELIC_ICONS_PROMPTS.json"
+    },
+    {
+      "source": "SOURCE.md",
+      "sha256": "f3861df6ba5e0c61ccd6d07c7b888a71fa90248678d923c171b72c4fadfe4e60",
+      "project": "docs/assets/RELIC_ICONS_SOURCE.md"
+    }
+  ]
+}
