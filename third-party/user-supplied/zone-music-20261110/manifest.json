@@ -1,0 +1,42 @@
+{
+  "sourceCommit": "6c84d97afaa766321a249506837c0fda00689241",
+  "provenance": "Preserved byte-for-byte from the existing user-authored BGM adjustment commit; no audio generated, edited, downloaded or newly selected by this integration. Source/licensing details beyond the existing commit were not supplied.",
+  "files": [
+    {
+      "source": "blades-of-the-rising-sun.mp3",
+      "project": "audio/zones/blades-of-the-rising-sun.mp3",
+      "sha256": "1fde84906a3c99253a95381b28ce01c565f8fc4f8026a7d9d4b545df35014119",
+      "bytes": 4335139
+    },
+    {
+      "source": "desert-of-frozen-hearts.mp3",
+      "project": "audio/zones/desert-of-frozen-hearts.mp3",
+      "sha256": "3c5c27a8c61bd74ba24fe51a5ee915224f5c0301d06d89f95ec6afd5b1c6c319",
+      "bytes": 4300031
+    },
+    {
+      "source": "desert-of-frozen-hearts_2.mp3",
+      "project": "audio/zones/desert-of-frozen-hearts_2.mp3",
+      "sha256": "8ef3b18d8b716b807b74259523d4c6fd53a6a5854ea1bc26add24f4eb1cc5e73",
+      "bytes": 4221664
+    },
+    {
+      "source": "mystic-forest-ascent.mp3",
+      "project": "audio/zones/mystic-forest-ascent.mp3",
+      "sha256": "e22f6d27885cfb9c8c8f50e5c35ade0a9aa6136ae2b4b810dc61033164a19df2",
+      "bytes": 4235457
+    },
+    {
+      "source": "mystic-forest-ascent_2.mp3",
+      "project": "audio/zones/mystic-forest-ascent_2.mp3",
+      "sha256": "e22f6d27885cfb9c8c8f50e5c35ade0a9aa6136ae2b4b810dc61033164a19df2",
+      "bytes": 4235457
+    },
+    {
+      "source": "tower-of-sin.mp3",
+      "project": "audio/zones/tower-of-sin.mp3",
+      "sha256": "36dcd4bcae43531d25618f0005e943c3c524f56ccf2c73c3a5e4c0295747e798",
+      "bytes": 4335139
+    }
+  ]
+}
