@@ -1,0 +1,138 @@
+{
+  "stage": "user accepted temporary checkpoint; runtime integration pending",
+  "date": "2026-11-09",
+  "license": "User explicitly confirmed Role6.glb and artwork authorized for this game, modification and modeling from artwork. Sword and mount hardware authored with Blender. Original hand surfaces and PBR retained.",
+  "modelSha256": "a051e9dd30526b5934110e17d3d4a9a814e5eb30c85a371fac60584aaca09a1c",
+  "files": [
+    {
+      "source": "source/Role6.glb",
+      "sha256": "cdfe8ccab67419b94dffb805a45b06d5370196dd21b43d36a8945a38a77be901"
+    },
+    {
+      "source": "source/reference.png",
+      "sha256": "21aa2e0a0c3779dec19ac3b6d20384e2529ebf6950c9d6526813fda019065e5c"
+    },
+    {
+      "source": "dependencies/role1.glb",
+      "sha256": "54f104457683618ee328edd05749476dffd11bc093e7dbeb92619f59a55b1222"
+    },
+    {
+      "source": "source/role6.blend",
+      "sha256": "47377cda50743c7d3643541040667d9cc99f9d13942d3e7d9eec21f4644e6351"
+    },
+    {
+      "source": "source/role6-sword.blend",
+      "sha256": "8bae1171f6b8bf92eb1958cfd2f69d0246654fdfd6965f4ed031d1254e0805de"
+    },
+    {
+      "source": "exports/role6.glb",
+      "sha256": "a051e9dd30526b5934110e17d3d4a9a814e5eb30c85a371fac60584aaca09a1c",
+      "project": "tools/meshy-pipeline/candidates/role6-20261109/role6.glb"
+    },
+    {
+      "source": "exports/role6.json",
+      "sha256": "833acc56143fa24c1af25e8a2292aa91bb801e9d5ba2049a3cc8afe5a8d3120b",
+      "project": "tools/meshy-pipeline/candidates/role6-20261109/role6.json"
+    },
+    {
+      "source": "exports/role6-sword.glb",
+      "sha256": "45b6259f4a16c0c3e9de49ef7cdafcecb82711c9bb9458324d54fa9476a7ede6",
+      "project": "tools/meshy-pipeline/candidates/role6-20261109/role6-sword.glb"
+    },
+    {
+      "source": "exports/role6-sword.json",
+      "sha256": "0d9138399cbeb32708b992124b91e0c3b1709aeca2296df23a9a71d00b49a28e",
+      "project": "tools/meshy-pipeline/candidates/role6-20261109/role6-sword.json"
+    },
+    {
+      "source": "exports/role6/base.png",
+      "sha256": "3280c202f1f2c47a7c5e27ebb5f190561bec272b2abe2f299f35414625f24df1",
+      "project": "tools/meshy-pipeline/candidates/role6-20261109/role6/base.png"
+    },
+    {
+      "source": "exports/role6/normal.png",
+      "sha256": "3b477fa6812ce99142b8c8d55e1ea2fb50d2a52893be058bed7993b95f4dc389",
+      "project": "tools/meshy-pipeline/candidates/role6-20261109/role6/normal.png"
+    },
+    {
+      "source": "exports/role6/mr.png",
+      "sha256": "0ceaa69e7f9b24312b28625926af309ef1c97b0359114152a95fc27f445c90ae",
+      "project": "tools/meshy-pipeline/candidates/role6-20261109/role6/mr.png"
+    },
+    {
+      "source": "qa/accepted-four-fingers.npz",
+      "sha256": "82cf131044cb30029caa5a9737d57aa18f03f31d81df14bf2805928de8d85ba1"
+    },
+    {
+      "source": "qa/native-grip-qa.json",
+      "sha256": "826c09ae1a3ea2b8549b4bd851a2910bc460dcb3e1236f62a36ac19d6a20b2e7"
+    },
+    {
+      "source": "qa/grip-motion-verification.json",
+      "sha256": "e02bcc70438c807fc246703a8c4d9fac93ed3f1b826de9a873df046bbb48d627"
+    },
+    {
+      "source": "qa/gif-qa.json",
+      "sha256": "1daedec460ed3c59f6a28a98d2d70608fc9dd35be815b60bd1bebe891178509e"
+    },
+    {
+      "source": "qa/wrist-original.json",
+      "sha256": "86ff80c6ba0fc835bd5b322ee654839d2402dea1917a7029559cfec7cf89cdb9"
+    },
+    {
+      "source": "tools/blender/build_role6_sword.py",
+      "sha256": "1d58a580972e7393804a2a02e001adfaca094d5412d16dfcda14873f9fc142b9",
+      "project": "tools/meshy-pipeline/blender/build_role6_sword.py"
+    },
+    {
+      "source": "tools/blender/prepare_role6.py",
+      "sha256": "23c79a7336fbb612af759e51b2c4391c6764df1e2b7930721abc254500288f73",
+      "project": "tools/meshy-pipeline/blender/prepare_role6.py"
+    },
+    {
+      "source": "tools/blender/pose_role6_hands.py",
+      "sha256": "979bad0c9f3289a6f00f4ef23b6de28e98c5b8267e9a94c0830f31130ab9ae91",
+      "project": "tools/meshy-pipeline/blender/pose_role6_hands.py"
+    },
+    {
+      "source": "tools/blender/limit_role6_wrists.py",
+      "sha256": "3925b0aea8856932a6f121a6f8da0f136ee8de80a3ed393b263aac9a48e7e601",
+      "project": "tools/meshy-pipeline/blender/limit_role6_wrists.py"
+    },
+    {
+      "source": "tools/blender/validate_role6_candidate.py",
+      "sha256": "7168a387ad0afb0e47d4cf7a53ba3ce0a43f0ce9d70aeec4216e575f9a98382e",
+      "project": "tools/meshy-pipeline/blender/validate_role6_candidate.py"
+    },
+    {
+      "source": "tools/src/validate-role6-motion.cjs",
+      "sha256": "9d568db5dc3fa7d80b337e149686c49a74170776c99af671f61a0d72d669448c",
+      "project": "tools/meshy-pipeline/src/validate-role6-motion.cjs"
+    },
+    {
+      "source": "tools/src/export-role6-candidate.cjs",
+      "sha256": "dfe4e1251dd861faefab2cedf8e1985bc589e5c6790bcca02c76c06f2274742b",
+      "project": "tools/meshy-pipeline/src/export-role6-candidate.cjs"
+    },
+    {
+      "source": "README.md",
+      "sha256": "d558cbba27dca5f3f627ec79753fd52a5a9e79949ba3d7a6801da478fdfce0c8",
+      "project": "docs/assets/HERO3D_ROLE6_CANDIDATE.md"
+    }
+  ],
+  "dependencies": [],
+  "preservedModels": {
+    "role.glb": "0ebd2dd1af1503f7236375bd5e146e84c02a01f2ac10823d2eb32a94dd27b7ad",
+    "role1.glb": "54f104457683618ee328edd05749476dffd11bc093e7dbeb92619f59a55b1222",
+    "role2.glb": "262c1f9f78280a09f3e0a3cb57b4896d8a540f709889f0963bd3400c96f0b089",
+    "role3.glb": "663595d1f798df30df1d9630708605c82396c85195abaa9518a82c9275d4e519",
+    "role4.glb": "db0fb548c75bbbac6291668b7445883926ed4aafddfff0f9485c8513b82924cc",
+    "role5.glb": "d83254f239be70ff1cd4f8eab66fc587b1657c05b1536fbbaa9ae8b4d6119c7d",
+    "sunbrand-knight.glb": "ad6645d1db9ebfd18240049e36d3db075ca2e3aa27b7f3c1e6e568a2ed435bc4"
+  },
+  "knownLimitations": [
+    "Runtime six-rebirth selection and cache unchanged; full gameplay validation pending.",
+    "All-clip contact cleanup pending; existing Attack1 bracer/shield and Attack2 hilt/bracer contact noted.",
+    "Death retains original sword-release animation."
+  ]
+}

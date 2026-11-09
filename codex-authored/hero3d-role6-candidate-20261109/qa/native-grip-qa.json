@@ -1,0 +1,45 @@
+{
+  "modelSha256": "a051e9dd30526b5934110e17d3d4a9a814e5eb30c85a371fac60584aaca09a1c",
+  "acceptedFourFingerMaximumShiftMeters": {
+    "Index": 0.0,
+    "Middle": 0.0,
+    "Ring": 0.0,
+    "Pinky": 0.0
+  },
+  "actualHiltSurfaceContact": {
+    "Index": {
+      "vertices": 47,
+      "minGapMeters": 0.00013496720930561423,
+      "maxGapMeters": 0.0009651875006966293
+    },
+    "Middle": {
+      "vertices": 27,
+      "minGapMeters": 0.0001635143271414563,
+      "maxGapMeters": 0.0009654241730459034
+    },
+    "Ring": {
+      "vertices": 77,
+      "minGapMeters": 0.00017290945106651634,
+      "maxGapMeters": 0.0009654923342168331
+    },
+    "Pinky": {
+      "vertices": 39,
+      "minGapMeters": 7.874518632888794e-05,
+      "maxGapMeters": 0.0025672204792499542
+    }
+  },
+  "bodyMotionSamplesExactExceptRequestedWrists": true,
+  "separateHandArmorRigidlyBound": true,
+  "originalPbrHashesExact": true,
+  "thumbSegmentLengthsPreserved": true,
+  "thumbRestSegmentLengthsMeters": [
+    0.024061312700740484,
+    0.027963679773976315
+  ],
+  "thumbPosedSegmentLengthsMeters": [
+    0.024061321163000755,
+    0.027963691027327306
+  ],
+  "blendActions": 6,
+  "packedOriginalTextures": 3
+}
