@@ -1,0 +1,202 @@
+{
+  "boot": {
+    "started": true,
+    "booted": true,
+    "alive": true,
+    "deadReason": null,
+    "safeMode": false,
+    "restarts": 0,
+    "maxRestarts": 3,
+    "slowLoop": null,
+    "hitRate": 0,
+    "persistAgeSec": null,
+    "silentMs": 28,
+    "upTimeSec": 0,
+    "ticks": 0,
+    "events": 0,
+    "errors": 0,
+    "persists": 0,
+    "catchupSec": 0,
+    "pendingCommands": 0,
+    "persistErrors": 0,
+    "lastDirty": [],
+    "lastView": null,
+    "shimDiag": null,
+    "measure": null,
+    "lastError": null
+  },
+  "stages": [
+    {
+      "floor": 3,
+      "entity": {
+        "id": "tb-float",
+        "x": 253,
+        "y": -1,
+        "state": "idle",
+        "lunge": 0,
+        "magic": true,
+        "npc": "tower_boss_3",
+        "sheet": "",
+        "anim": "walk",
+        "npc3d": true,
+        "clip": "Running"
+      },
+      "models": [
+        {
+          "file": "images/models/npc3d/boss3_character.glb",
+          "clips": [
+            "Running",
+            "Basic_Jump",
+            "Right_Hand_Sword_Slash",
+            "Shield_Push_Left",
+            "Shot_and_Fall_Forward"
+          ]
+        }
+      ],
+      "moves": [
+        {
+          "distance": 4.098945248427485,
+          "dt": 0.01669999999999891,
+          "speed": 0.205586840294337,
+          "clip": "Running"
+        },
+        {
+          "distance": 1.0293315423861347,
+          "dt": 0.016700000000000728,
+          "speed": 0.051627188603122556,
+          "clip": "Running"
+        },
+        {
+          "distance": 1.017077592540093,
+          "dt": 0.01669999999999891,
+          "speed": 0.05101257906889752,
+          "clip": "Running"
+        },
+        {
+          "distance": 1.0109506212690529,
+          "dt": 0.016600000000000364,
+          "speed": 0.05101072794569933,
+          "clip": "Running"
+        }
+      ],
+      "plays": [
+        {
+          "semantic": "idle",
+          "clip": "Running",
+          "rate": 0.5
+        },
+        {
+          "semantic": "walk",
+          "clip": "Running",
+          "rate": 0
+        },
+        {
+          "semantic": "idle",
+          "clip": "Running",
+          "rate": 0.5
+        },
+        {
+          "semantic": "cast",
+          "clip": "Basic_Jump",
+          "rate": 1.3803921867819393
+        },
+        {
+          "semantic": "idle",
+          "clip": "Running",
+          "rate": 0.5
+        },
+        {
+          "semantic": "cast",
+          "clip": "Right_Hand_Sword_Slash",
+          "rate": 0.35294117647058826
+        },
+        {
+          "semantic": "idle",
+          "clip": "Running",
+          "rate": 0.5
+        },
+        {
+          "semantic": "cast",
+          "clip": "Shield_Push_Left",
+          "rate": 0.5568627750172335
+        },
+        {
+          "semantic": "idle",
+          "clip": "Running",
+          "rate": 0.5
+        },
+        {
+          "semantic": "walk",
+          "clip": "Running",
+          "rate": 0
+        }
+      ]
+    }
+  ],
+  "finalPlays": [
+    {
+      "semantic": "idle",
+      "clip": "Running",
+      "rate": 0.5
+    },
+    {
+      "semantic": "walk",
+      "clip": "Running",
+      "rate": 0
+    },
+    {
+      "semantic": "idle",
+      "clip": "Running",
+      "rate": 0.5
+    },
+    {
+      "semantic": "cast",
+      "clip": "Basic_Jump",
+      "rate": 1.3803921867819393
+    },
+    {
+      "semantic": "idle",
+      "clip": "Running",
+      "rate": 0.5
+    },
+    {
+      "semantic": "cast",
+      "clip": "Right_Hand_Sword_Slash",
+      "rate": 0.35294117647058826
+    },
+    {
+      "semantic": "idle",
+      "clip": "Running",
+      "rate": 0.5
+    },
+    {
+      "semantic": "cast",
+      "clip": "Shield_Push_Left",
+      "rate": 0.5568627750172335
+    },
+    {
+      "semantic": "idle",
+      "clip": "Running",
+      "rate": 0.5
+    },
+    {
+      "semantic": "walk",
+      "clip": "Running",
+      "rate": 0
+    },
+    {
+      "semantic": "attack",
+      "clip": "Basic_Jump",
+      "rate": 1.4606051869300498
+    },
+    {
+      "semantic": "die",
+      "clip": "Shot_and_Fall_Forward",
+      "rate": 0.5
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Oscillator.frequency.value 16224.8 outside nominal range [-16000, 16000]; value will be clamped."
+  ]
+}

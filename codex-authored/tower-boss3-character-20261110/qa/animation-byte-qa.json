@@ -1,0 +1,30 @@
+{
+  "walkBinaryPrefixUnchanged": true,
+  "clips": {
+    "Walk": {
+      "channels": 120,
+      "exactOutputChannels": 120,
+      "allTimeInputsIdentical": true
+    },
+    "Attack1": {
+      "channels": 120,
+      "exactOutputChannels": 119,
+      "allTimeInputsIdentical": true
+    },
+    "Attack2": {
+      "channels": 120,
+      "exactOutputChannels": 119,
+      "allTimeInputsIdentical": true
+    },
+    "Attack3": {
+      "channels": 120,
+      "exactOutputChannels": 119,
+      "allTimeInputsIdentical": true
+    },
+    "Die": {
+      "channels": 120,
+      "exactOutputChannels": 120,
+      "allTimeInputsIdentical": true
+    }
+  }
+}

@@ -1,0 +1,65 @@
+﻿{
+    "outputSha256":  "0A72C278DB1A93A9FB1E632E30F45EBEBD1C881018E551AC5E7686CDF1B100C8",
+    "cellsCompared":  28365,
+    "shapesAfter":  7,
+    "nativeNormalReopen":  true,
+    "changes":  [
+                    {
+                        "cell":  "G484",
+                        "before":  "sprites/boss/boss_skeleton_king_lv3.png",
+                        "after":  "sprites/boss/boss3_walk.png"
+                    },
+                    {
+                        "cell":  "H484",
+                        "before":  "sprites/boss/boss_skeleton_king_lv3.png",
+                        "after":  "sprites/boss/boss3_walk.png"
+                    },
+                    {
+                        "cell":  "I484",
+                        "before":  "sprites/boss/boss_skeleton_king_lv3.png",
+                        "after":  "sprites/boss/boss3_walk.png"
+                    },
+                    {
+                        "cell":  "J484",
+                        "before":  "sprites/boss/boss_skeleton_king_lv3.png",
+                        "after":  "sprites/boss/boss3_walk.png"
+                    },
+                    {
+                        "cell":  "AB484",
+                        "before":  "images/models/npc3d/boss3.glb",
+                        "after":  "images/models/npc3d/boss3_walk.glb"
+                    },
+                    {
+                        "cell":  "AC484",
+                        "before":  "Walk",
+                        "after":  "Running"
+                    },
+                    {
+                        "cell":  "AD484",
+                        "before":  "Walk",
+                        "after":  "Running"
+                    },
+                    {
+                        "cell":  "AE484",
+                        "before":  "Attack1",
+                        "after":  ""
+                    },
+                    {
+                        "cell":  "AF484",
+                        "before":  "Attack2",
+                        "after":  ""
+                    },
+                    {
+                        "cell":  "AG484",
+                        "before":  "Attack3",
+                        "after":  ""
+                    },
+                    {
+                        "cell":  "AH484",
+                        "before":  "Die",
+                        "after":  ""
+                    }
+                ],
+    "sourceSha256":  "BBB6A0DA9CB82C4E2C055A0542DE510BB9314AE2227552F459746BFDA1F13B81",
+    "shapesBefore":  7
+}

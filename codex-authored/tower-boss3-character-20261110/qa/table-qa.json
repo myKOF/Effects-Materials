@@ -1,0 +1,71 @@
+{
+  "changes": [
+    {
+      "row": 484,
+      "column": 7,
+      "before": "sprites/boss/boss_skeleton_king_lv3.png",
+      "after": "sprites/boss/boss3_character.png"
+    },
+    {
+      "row": 484,
+      "column": 8,
+      "before": "sprites/boss/boss_skeleton_king_lv3.png",
+      "after": "sprites/boss/boss3_character.png"
+    },
+    {
+      "row": 484,
+      "column": 9,
+      "before": "sprites/boss/boss_skeleton_king_lv3.png",
+      "after": "sprites/boss/boss3_character.png"
+    },
+    {
+      "row": 484,
+      "column": 10,
+      "before": "sprites/boss/boss_skeleton_king_lv3.png",
+      "after": "sprites/boss/boss3_character.png"
+    },
+    {
+      "row": 484,
+      "column": 28,
+      "before": "images/models/npc3d/boss3.glb",
+      "after": "images/models/npc3d/boss3_character.glb"
+    },
+    {
+      "row": 484,
+      "column": 29,
+      "before": "Walk",
+      "after": "Running"
+    },
+    {
+      "row": 484,
+      "column": 30,
+      "before": "Walk",
+      "after": "Running"
+    },
+    {
+      "row": 484,
+      "column": 31,
+      "before": "Attack1",
+      "after": "Basic_Jump"
+    },
+    {
+      "row": 484,
+      "column": 32,
+      "before": "Attack2",
+      "after": "Right_Hand_Sword_Slash"
+    },
+    {
+      "row": 484,
+      "column": 33,
+      "before": "Attack3",
+      "after": "Shield_Push_Left"
+    },
+    {
+      "row": 484,
+      "column": 34,
+      "before": "Die",
+      "after": "Shot_and_Fall_Forward"
+    }
+  ],
+  "other49RowsUnchanged": true
+}

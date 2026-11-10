@@ -1,0 +1,12 @@
+{
+  "reopened": true,
+  "actions": [
+    "Basic_Jump",
+    "Right_Hand_Sword_Slash",
+    "Running",
+    "Shield_Push_Left",
+    "Shot_and_Fall_Forward"
+  ],
+  "bones": 47,
+  "packedImages": 3
+}

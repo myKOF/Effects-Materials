@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "tasks": [
+    "TOWER-BOSS3-WALK-20261110"
+  ],
+  "license": "User-created/generated BOSS series supplied for this game and modification; all five original files retained, no additional third-party art.",
+  "status": "Third tower boss, original walk surface and five native motions; horizontal attack root fixed with vertical motion retained; editable Blender and native table integration verified.",
+  "files": [
+    {
+      "source": "sources/BOSS3_Walk.glb",
+      "sha256": "70d9ccc58d5e927aaa8a534bee8aa57175a21fda8193fd8ef5f5a7afbbd3256e"
+    },
+    {
+      "source": "sources/BOSS3_Attack1.glb",
+      "sha256": "44b0351398e2cbd747b5ab0a83e7625e17a002e63c24da9c25cefba6a3eee9d1"
+    },
+    {
+      "source": "sources/BOSS3_Attack2.glb",
+      "sha256": "072963072295391b90b7c6a4735fe6cb08af915020b4ef7b71e0589b2121e9b0"
+    },
+    {
+      "source": "sources/BOSS3_Attack3.glb",
+      "sha256": "f7cc0f3300d39e0fd44f723b04bdd3b108956f729238a5de552e4aad3befe3a6"
+    },
+    {
+      "source": "sources/BOSS3_Die.glb",
+      "sha256": "9317cf7c68436d4876651522ad0027d4d283aa56406fd3336aa329dc5aacdb5f"
+    },
+    {
+      "source": "exports/boss3_character.glb",
+      "sha256": "47330ede8adcd84eed9aaad38f6f6b156913bba0fd840da569db40ab540f7b4e",
+      "project": "images/models/npc3d/boss3_character.glb"
+    },
+    {
+      "source": "exports/boss3_character.png",
+      "sha256": "f8e23bb06d27cb158166a117508fa89f0fe6fa84af613110dda4c2daca7c2b8c",
+      "project": "images/sprites/boss/boss3_character.png"
+    },
+    {
+      "source": "editable/BOSS3_Character.blend",
+      "sha256": "69f64420132428f89e09df878a678ab59ce4bb312aa33fef27b209c5b9e6c8fa"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/src/prepare-tower-boss3-character.cjs",
+      "sha256": "d0edd663bfcdaca1635c0946beb2f21d3fdea8e87b2aa2bf4f6fc0da34431734",
+      "project": "tools/meshy-pipeline/src/prepare-tower-boss3-character.cjs"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/prepare_tower_boss3_character.py",
+      "sha256": "5c343fa4b6818342203ee5ba146843d76c905465da9d99558ea8e961bcddc0c6",
+      "project": "tools/meshy-pipeline/blender/prepare_tower_boss3_character.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/src/export-tower-boss3-character.cjs",
+      "sha256": "1f4b5ce27d397d9d4fd33f6ad47b7ec69e0b933497783d1efe5f8d76d15a53b0",
+      "project": "tools/meshy-pipeline/src/export-tower-boss3-character.cjs"
+    },
+    {
+      "source": "project/docs/assets/TOWER_BOSS3_CHARACTER_SOURCE.md",
+      "sha256": "3661467585b098f896fc41bb90323286b6235b60d1e8fb6b955282e7be3b3dcd",
+      "project": "docs/assets/TOWER_BOSS3_CHARACTER_SOURCE.md"
+    },
+    {
+      "source": "qa/animation-byte-qa.json",
+      "sha256": "71fb4c12cc8085b567da448206fa3102218e11870d45587bde2428a57d38d365"
+    },
+    {
+      "source": "qa/table-qa.json",
+      "sha256": "d2e4b6f3e037eb2586af4e63b4f92645775d35bc21088c89ca63cb69e7230f0d"
+    },
+    {
+      "source": "qa/model-build-qa.json",
+      "sha256": "2778f8854c00ded7048d4293a117412167cb1f21ff1c798a2977c2b596d465e8"
+    },
+    {
+      "source": "qa/format-portrait-qa.json",
+      "sha256": "b9c1c51ec48e3ae2a03ad1281a7bb0627d3cf313e2fe7954371c4928035d5347"
+    },
+    {
+      "source": "qa/editable-qa.json",
+      "sha256": "392a239455c6fc2eecc8b3d2e68da9e47c1aecbaa8dbd0b42df39e7821ef43c2"
+    },
+    {
+      "source": "qa/npc-native-receipt.json",
+      "sha256": "5c3a4804bea9b8499d7ea4714c564fa79a4d34ba76faddfdb5b359d931152d3b"
+    },
+    {
+      "source": "qa/build.log",
+      "sha256": "a4aaa71c81e139d17500debf0884c4658d4134943a424613c53023e522c3b88a"
+    },
+    {
+      "source": "qa/model-qa.json",
+      "sha256": "fab1bcd0fbe16578c1a02ab296e9752d05f2ce834b4ee89c682e5a3af777a903"
+    },
+    {
+      "source": "qa/npc-walk-receipt.json",
+      "sha256": "3278bac994fcf1e2a11a4cbf603aad19786bef36b0bd25b188d8a5046c5ca4c3"
+    },
+    {
+      "source": "qa/regression.tap",
+      "sha256": "28c5fcb63435b1bd6d70b715d1cb1135c16d959e1979930f1e75ca934bd82d2e"
+    },
+    {
+      "source": "qa/game-runtime-qa.json",
+      "sha256": "0395c909f043380d80dee6b78ab541b17699526a5e0ab6337e930f8046636db1"
+    }
+  ]
+}

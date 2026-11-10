@@ -1,0 +1,25 @@
+{
+  "stylesIdentical": true,
+  "sheets": {
+    "xl/worksheets/sheet1.xml": {
+      "cellStyles": 18054,
+      "changedNativeProperties": [],
+      "rowsIdentical": true
+    },
+    "xl/worksheets/sheet2.xml": {
+      "cellStyles": 6481,
+      "changedNativeProperties": [],
+      "rowsIdentical": true
+    }
+  },
+  "portrait": {
+    "size": [
+      1080,
+      1080
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  }
+}
