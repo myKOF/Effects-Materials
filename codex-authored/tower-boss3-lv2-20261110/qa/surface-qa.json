@@ -1,0 +1,21 @@
+{
+  "blender": "4.5.10 LTS",
+  "approvedSha256": "47330ede8adcd84eed9aaad38f6f6b156913bba0fd840da569db40ab540f7b4e",
+  "variantSha256": "f6b3149cef3081f4b62dc4afa254690c77ccb954fedf8194de0312e45e4edcb1",
+  "outputSha256": "4807786de03ece3d91f869f774d0a122acba7f0ffafa4bb00d5ebab34552118c",
+  "vertices": 16451,
+  "donorVertices": 16450,
+  "scaleToApproved": 1.0094339998322748,
+  "matchedTriangles": 10452,
+  "maxRestSurfaceError": 8.841817589200218e-07,
+  "bones": 47,
+  "actions": [
+    "Basic_Jump",
+    "Right_Hand_Sword_Slash",
+    "Running",
+    "Shield_Push_Left",
+    "Shot_and_Fall_Forward"
+  ],
+  "geometryAndWeights": "approved, unchanged",
+  "materialAndUV": "supplied BOSS3_2.glb, exact triangle/corner mapping"
+}

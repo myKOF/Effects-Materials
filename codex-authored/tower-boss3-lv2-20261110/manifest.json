@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "tasks": [
+    "TOWER-BOSS3-LV2-20261110"
+  ],
+  "license": "User-created/generated BOSS series supplied for game use and modification; new BOSS3_2 surface and approved first-stage motions, no additional third-party art.",
+  "status": "BOSS3 second stage, exact supplied PBR/UV fitted to approved first-stage geometry/skin and all five motions; editable Blender and native NPC integration verified.",
+  "files": [
+    {
+      "source": "sources/BOSS3_2.glb",
+      "sha256": "f6b3149cef3081f4b62dc4afa254690c77ccb954fedf8194de0312e45e4edcb1"
+    },
+    {
+      "source": "sources/approved-first-stage.glb",
+      "sha256": "47330ede8adcd84eed9aaad38f6f6b156913bba0fd840da569db40ab540f7b4e"
+    },
+    {
+      "source": "exports/boss3_character_lv2.glb",
+      "sha256": "4807786de03ece3d91f869f774d0a122acba7f0ffafa4bb00d5ebab34552118c",
+      "project": "images/models/npc3d/boss3_character_lv2.glb"
+    },
+    {
+      "source": "exports/boss3_character_lv2.png",
+      "sha256": "27d3acfc21377f795bd76f1a77c00da384bf9d44f97c8bcc9afb029a8fda6307",
+      "project": "images/sprites/boss/boss3_character_lv2.png"
+    },
+    {
+      "source": "editable/BOSS3_LV2.blend",
+      "sha256": "0f77c852c798e6f563b998cdf1f5a48e262598ab227458836057df609d2df3fd"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/blender/prepare_tower_boss3_variant.py",
+      "sha256": "1ef2aea1e0569e7967ae321254fb17b4a7f4be319c2ab0994ce514eaa5ad9c8a",
+      "project": "tools/meshy-pipeline/blender/prepare_tower_boss3_variant.py"
+    },
+    {
+      "source": "project/tools/meshy-pipeline/src/export-tower-boss3-lv2.cjs",
+      "sha256": "e83dcbdba8ff393dd3d4f415e44c7b6950c7b475300aed24543a5d9592189d99",
+      "project": "tools/meshy-pipeline/src/export-tower-boss3-lv2.cjs"
+    },
+    {
+      "source": "project/docs/assets/TOWER_BOSS3_LV2_SOURCE.md",
+      "sha256": "2118c8f7907b6f40416f7a07a738ed06733f74db1272e4d24d7d3391b49234b9",
+      "project": "docs/assets/TOWER_BOSS3_LV2_SOURCE.md"
+    },
+    {
+      "source": "shared/qa_tower_treant_variant.py",
+      "sha256": "748251602f6160b7938a86eaa9a9a346de33e1ecc642bec78b4135b4ba7b23f3"
+    },
+    {
+      "source": "shared/prepare_tower_boss3_character.py",
+      "sha256": "5c343fa4b6818342203ee5ba146843d76c905465da9d99558ea8e961bcddc0c6"
+    },
+    {
+      "source": "qa/surface-qa.json",
+      "sha256": "e061b33c8527cc0387c79872ce7d781d5dea29d9dc185b9dc4dba37db3925193"
+    },
+    {
+      "source": "qa/animation-qa.json",
+      "sha256": "902805b1851a0addb45ed08b8678f48b1ced9ffc24e450da4c785c7aefedfb54"
+    },
+    {
+      "source": "qa/portrait-receipt.json",
+      "sha256": "082fabfa995df8f4b7b31181f26cdd9f1401519c5c853bdae94f8367c263c62f"
+    },
+    {
+      "source": "qa/texture-qa.json",
+      "sha256": "52b00af15ae3013ba249af30286acf0fc222595d1482f08cd1a79859af82734c"
+    },
+    {
+      "source": "qa/table-qa.json",
+      "sha256": "596aec3f2aa69b49c16cf9cc3a0e664821fc70eb100369a3a03631c6d22d1dc9"
+    },
+    {
+      "source": "qa/format-qa.json",
+      "sha256": "cb55cb40ca17f4acbdc41f1816678b4d58541f2b6e813f8625b104b9b49ad5e1"
+    },
+    {
+      "source": "qa/editable-qa.json",
+      "sha256": "b23979c250b4a7129226fd74dbeac1a5d372cfc9da73e318771e2d6f556da864"
+    },
+    {
+      "source": "qa/npc-native-receipt.json",
+      "sha256": "6d011b17278d710d04aebb7cd84b090d3ad893dce7bb6e6d7a8ab9d04b2b6aa8"
+    },
+    {
+      "source": "qa/build.log",
+      "sha256": "a4aaa71c81e139d17500debf0884c4658d4134943a424613c53023e522c3b88a"
+    },
+    {
+      "source": "qa/tests.tap",
+      "sha256": "1f63a6dfa5042b9bb0c39c4b35ca83207b15999b1d346298193dd56b9b177f0c"
+    },
+    {
+      "source": "qa/runtime-qa.json",
+      "sha256": "c2b252497e2b387b81b9f7c0d5cd026c6ad20922afeee388325dae69b1e74db0"
+    }
+  ]
+}

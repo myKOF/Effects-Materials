@@ -1,0 +1,5 @@
+
+> idle-rpg@1.0.0 build
+> node tools/build_check.cjs
+
+✅ build 通過：709 個檔案語法/編譯檢查全數 OK，無空檔。

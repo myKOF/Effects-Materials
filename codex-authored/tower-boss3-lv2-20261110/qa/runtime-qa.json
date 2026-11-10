@@ -1,0 +1,220 @@
+{
+  "state": {
+    "models": [
+      {
+        "file": "images/models/npc3d/boss3_character_lv2.glb",
+        "clips": [
+          "Basic_Jump",
+          "Right_Hand_Sword_Slash",
+          "Running",
+          "Shield_Push_Left",
+          "Shot_and_Fall_Forward"
+        ]
+      }
+    ],
+    "moves": [
+      {
+        "distance": 7.536658855339295,
+        "dt": 0.016700000000000728,
+        "rate": 0.35423522820231707
+      },
+      {
+        "distance": 1.8672915929716183,
+        "dt": 0.016600000000000364,
+        "rate": 0.0882944522124474
+      },
+      {
+        "distance": 1.901037834698003,
+        "dt": 0.01669999999999891,
+        "rate": 0.08935187118340684
+      },
+      {
+        "distance": 1.8560428524343173,
+        "dt": 0.016700000000000728,
+        "rate": 0.08723703381101902
+      }
+    ],
+    "plays": [
+      {
+        "semantic": "idle",
+        "clip": "Running",
+        "rate": 0.5
+      },
+      {
+        "semantic": "walk",
+        "clip": "Running",
+        "rate": 0
+      },
+      {
+        "semantic": "idle",
+        "clip": "Running",
+        "rate": 0.5
+      },
+      {
+        "semantic": "cast",
+        "clip": "Basic_Jump",
+        "rate": 4.888888994852702
+      },
+      {
+        "semantic": "attack",
+        "clip": "Right_Hand_Sword_Slash",
+        "rate": 2.65017667844523
+      },
+      {
+        "semantic": "idle",
+        "clip": "Running",
+        "rate": 0.5
+      },
+      {
+        "semantic": "cast",
+        "clip": "Shield_Push_Left",
+        "rate": 1.3148147530025907
+      },
+      {
+        "semantic": "idle",
+        "clip": "Running",
+        "rate": 0.5
+      },
+      {
+        "semantic": "cast",
+        "clip": "Basic_Jump",
+        "rate": 2.933333396911621
+      },
+      {
+        "semantic": "idle",
+        "clip": "Running",
+        "rate": 0.5
+      },
+      {
+        "semantic": "cast",
+        "clip": "Right_Hand_Sword_Slash",
+        "rate": 0.9375
+      },
+      {
+        "semantic": "walk",
+        "clip": "Running",
+        "rate": 0
+      }
+    ],
+    "renderer": {
+      "player": {
+        "x": 156,
+        "y": 0,
+        "walking": false,
+        "facing": 1,
+        "anim": "attack2",
+        "dir": 0,
+        "texAnim": "attack2",
+        "frame": 1,
+        "animSpeed": 0.917,
+        "dead": false,
+        "fallK": 0,
+        "rotDeg": 0,
+        "reviveText": null
+      },
+      "home": {
+        "x": 156.29999999999998,
+        "y": 0
+      },
+      "entities": [
+        {
+          "id": "tb-float",
+          "x": 253,
+          "y": -5,
+          "state": "idle",
+          "lunge": 0,
+          "magic": true,
+          "npc": "tower_boss_13",
+          "sheet": "",
+          "anim": "walk",
+          "npc3d": true,
+          "clip": "Running"
+        }
+      ]
+    },
+    "worker": {
+      "started": true,
+      "booted": true,
+      "alive": true,
+      "deadReason": null,
+      "safeMode": false,
+      "restarts": 0,
+      "maxRestarts": 3,
+      "slowLoop": null,
+      "hitRate": 5.459508644222028,
+      "persistAgeSec": null,
+      "silentMs": 66,
+      "upTimeSec": 9,
+      "ticks": 40,
+      "events": 168,
+      "errors": 0,
+      "persists": 0,
+      "catchupSec": 0,
+      "pendingCommands": 0,
+      "persistErrors": 0,
+      "lastDirty": [
+        "battle"
+      ],
+      "lastView": {
+        "gold": 999999038192,
+        "scrap": 500,
+        "essence": 100,
+        "dust": 0,
+        "ancientEssence": 0,
+        "soulOrigin": 0,
+        "demonSeed": 0,
+        "gems": 0,
+        "books": 0,
+        "level": 1,
+        "xp": 0,
+        "xpMax": 60,
+        "hp": 1.0458999999999998,
+        "hpMax": 425,
+        "mp": 105.40614999999991,
+        "mpMax": 110,
+        "shield": 0,
+        "stage": 1,
+        "zone": "desert",
+        "gt": 8.220999999999997,
+        "simT": 8.220999999999997,
+        "paused": false,
+        "towerActive": true,
+        "forgeBusy": false,
+        "taskIdx": 0,
+        "taskProg": 0,
+        "taskReady": false
+      },
+      "shimDiag": {
+        "dom": {
+          "querySelectorAll": 3
+        },
+        "ui": {
+          "flog": 1,
+          "blog": 41,
+          "clearTowerFloatLayers": 1,
+          "playCombatVfx": 73,
+          "floatText": 47
+        },
+        "storage": {
+          "getItem": 1
+        }
+      },
+      "measure": null,
+      "lastError": null
+    }
+  },
+  "death": {
+    "semantic": "die",
+    "clip": "Shot_and_Fall_Forward",
+    "rate": 0.5
+  },
+  "errors": [],
+  "warnings": [
+    "Oscillator.frequency.value 16267.7 outside nominal range [-16000, 16000]; value will be clamped.",
+    "Oscillator.frequency.value 16607.6 outside nominal range [-16000, 16000]; value will be clamped."
+  ],
+  "knownWarnings": [
+    "Oscillator.frequency.value 16267.7 outside nominal range [-16000, 16000]; value will be clamped.",
+    "Oscillator.frequency.value 16607.6 outside nominal range [-16000, 16000]; value will be clamped."
+  ]
+}

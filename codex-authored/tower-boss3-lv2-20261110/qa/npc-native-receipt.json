@@ -1,0 +1,65 @@
+﻿{
+    "outputSha256":  "15182E551714FEAF2EEE3121432562CA4885083D4299041C96BF1E6FA7ADB450",
+    "cellsCompared":  28365,
+    "shapesAfter":  7,
+    "nativeNormalReopen":  true,
+    "changes":  [
+                    {
+                        "cell":  "G494",
+                        "before":  "sprites/boss/boss_thunder.png",
+                        "after":  "sprites/boss/boss3_character_lv2.png"
+                    },
+                    {
+                        "cell":  "H494",
+                        "before":  "sprites/boss/boss_thunder.png",
+                        "after":  "sprites/boss/boss3_character_lv2.png"
+                    },
+                    {
+                        "cell":  "I494",
+                        "before":  "sprites/boss/boss_thunder.png",
+                        "after":  "sprites/boss/boss3_character_lv2.png"
+                    },
+                    {
+                        "cell":  "J494",
+                        "before":  "sprites/boss/boss_thunder.png",
+                        "after":  "sprites/boss/boss3_character_lv2.png"
+                    },
+                    {
+                        "cell":  "AB494",
+                        "before":  "",
+                        "after":  "images/models/npc3d/boss3_character_lv2.glb"
+                    },
+                    {
+                        "cell":  "AC494",
+                        "before":  "",
+                        "after":  "Running"
+                    },
+                    {
+                        "cell":  "AD494",
+                        "before":  "",
+                        "after":  "Running"
+                    },
+                    {
+                        "cell":  "AE494",
+                        "before":  "",
+                        "after":  "Basic_Jump"
+                    },
+                    {
+                        "cell":  "AF494",
+                        "before":  "",
+                        "after":  "Right_Hand_Sword_Slash"
+                    },
+                    {
+                        "cell":  "AG494",
+                        "before":  "",
+                        "after":  "Shield_Push_Left"
+                    },
+                    {
+                        "cell":  "AH494",
+                        "before":  "",
+                        "after":  "Shot_and_Fall_Forward"
+                    }
+                ],
+    "sourceSha256":  "B8EF84F71D444E7B51812288FCDBF52334BF45FC2AAE056B40EF9B27AA30F4EF",
+    "shapesBefore":  7
+}

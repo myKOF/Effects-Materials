@@ -1,0 +1,23 @@
+{
+  "stylesIdentical": true,
+  "sheets": {
+    "xl/worksheets/sheet1.xml": {
+      "cellStyles": 18054,
+      "formatIdentical": true
+    },
+    "xl/worksheets/sheet2.xml": {
+      "cellStyles": 6481,
+      "formatIdentical": true
+    }
+  },
+  "portrait": {
+    "size": [
+      1080,
+      1080
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  }
+}

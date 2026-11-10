@@ -1,0 +1,71 @@
+{
+  "changes": [
+    {
+      "row": 494,
+      "column": 7,
+      "before": "sprites/boss/boss_thunder.png",
+      "after": "sprites/boss/boss3_character_lv2.png"
+    },
+    {
+      "row": 494,
+      "column": 8,
+      "before": "sprites/boss/boss_thunder.png",
+      "after": "sprites/boss/boss3_character_lv2.png"
+    },
+    {
+      "row": 494,
+      "column": 9,
+      "before": "sprites/boss/boss_thunder.png",
+      "after": "sprites/boss/boss3_character_lv2.png"
+    },
+    {
+      "row": 494,
+      "column": 10,
+      "before": "sprites/boss/boss_thunder.png",
+      "after": "sprites/boss/boss3_character_lv2.png"
+    },
+    {
+      "row": 494,
+      "column": 28,
+      "before": "",
+      "after": "images/models/npc3d/boss3_character_lv2.glb"
+    },
+    {
+      "row": 494,
+      "column": 29,
+      "before": "",
+      "after": "Running"
+    },
+    {
+      "row": 494,
+      "column": 30,
+      "before": "",
+      "after": "Running"
+    },
+    {
+      "row": 494,
+      "column": 31,
+      "before": "",
+      "after": "Basic_Jump"
+    },
+    {
+      "row": 494,
+      "column": 32,
+      "before": "",
+      "after": "Right_Hand_Sword_Slash"
+    },
+    {
+      "row": 494,
+      "column": 33,
+      "before": "",
+      "after": "Shield_Push_Left"
+    },
+    {
+      "row": 494,
+      "column": 34,
+      "before": "",
+      "after": "Shot_and_Fall_Forward"
+    }
+  ],
+  "other49RowsUnchanged": true
+}
