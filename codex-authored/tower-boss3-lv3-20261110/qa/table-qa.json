@@ -1,0 +1,49 @@
+{
+  "onlyRequestedCellsChanged": true,
+  "diff": [
+    {
+      "row": 504,
+      "column": 7
+    },
+    {
+      "row": 504,
+      "column": 8
+    },
+    {
+      "row": 504,
+      "column": 9
+    },
+    {
+      "row": 504,
+      "column": 10
+    },
+    {
+      "row": 504,
+      "column": 28
+    },
+    {
+      "row": 504,
+      "column": 29
+    },
+    {
+      "row": 504,
+      "column": 30
+    },
+    {
+      "row": 504,
+      "column": 31
+    },
+    {
+      "row": 504,
+      "column": 32
+    },
+    {
+      "row": 504,
+      "column": 33
+    },
+    {
+      "row": 504,
+      "column": 34
+    }
+  ]
+}

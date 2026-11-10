@@ -1,0 +1,33 @@
+{
+  "approvedSha256": "47330ede8adcd84eed9aaad38f6f6b156913bba0fd840da569db40ab540f7b4e",
+  "variantSha256": "4185787cccb0ae44740ebcde2e5df019088aad8981be038a13e53629f74dfd4f",
+  "jointsCompared": 47,
+  "samplingFps": 60,
+  "clips": {
+    "Basic_Jump": {
+      "seconds": 5.866666666666666,
+      "samples": 353,
+      "maxSkinMatrixError": 5.342066287994385e-06
+    },
+    "Right_Hand_Sword_Slash": {
+      "seconds": 1.5,
+      "samples": 91,
+      "maxSkinMatrixError": 8.27014446258545e-06
+    },
+    "Running": {
+      "seconds": 0.6333333333333333,
+      "samples": 39,
+      "maxSkinMatrixError": 6.556510925292969e-06
+    },
+    "Shield_Push_Left": {
+      "seconds": 2.3666666666666667,
+      "samples": 143,
+      "maxSkinMatrixError": 6.318092346191406e-06
+    },
+    "Shot_and_Fall_Forward": {
+      "seconds": 2.1666666666666665,
+      "samples": 131,
+      "maxSkinMatrixError": 6.794929504394531e-06
+    }
+  }
+}

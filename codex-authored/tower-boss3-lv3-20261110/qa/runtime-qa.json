@@ -1,0 +1,270 @@
+{
+  "models": [
+    {
+      "file": "images/models/npc3d/boss3_character_lv3.glb",
+      "clips": [
+        "Basic_Jump",
+        "Right_Hand_Sword_Slash",
+        "Running",
+        "Shield_Push_Left",
+        "Shot_and_Fall_Forward"
+      ]
+    }
+  ],
+  "plays": [
+    {
+      "semantic": "idle",
+      "clip": "Running",
+      "rate": 0.5
+    },
+    {
+      "semantic": "cast",
+      "clip": "Basic_Jump",
+      "rate": 1.0274372668692193
+    },
+    {
+      "semantic": "cast",
+      "clip": "Right_Hand_Sword_Slash",
+      "rate": 0.75
+    },
+    {
+      "semantic": "idle",
+      "clip": "Running",
+      "rate": 0.5
+    },
+    {
+      "semantic": "cast",
+      "clip": "Shield_Push_Left",
+      "rate": 1.3148147530025907
+    },
+    {
+      "semantic": "idle",
+      "clip": "Running",
+      "rate": 0.5
+    },
+    {
+      "semantic": "cast",
+      "clip": "Basic_Jump",
+      "rate": 1.7254902334774243
+    },
+    {
+      "semantic": "idle",
+      "clip": "Running",
+      "rate": 0.5
+    },
+    {
+      "semantic": "cast",
+      "clip": "Right_Hand_Sword_Slash",
+      "rate": 0.2626970227670753
+    },
+    {
+      "semantic": "walk",
+      "clip": "Running",
+      "rate": 0
+    },
+    {
+      "semantic": "idle",
+      "clip": "Running",
+      "rate": 0.5
+    },
+    {
+      "semantic": "cast",
+      "clip": "Shield_Push_Left",
+      "rate": 1.4791665971279144
+    },
+    {
+      "semantic": "die",
+      "clip": "Shot_and_Fall_Forward",
+      "rate": 0.5
+    }
+  ],
+  "moves": [
+    {
+      "distance": 7.516829023992796,
+      "dt": 0.016700000000000728,
+      "rate": 0.3323976794363143
+    },
+    {
+      "distance": 1.8735639929853862,
+      "dt": 0.01669999999999709,
+      "rate": 0.08284987214104685
+    },
+    {
+      "distance": 2.0315754111626734,
+      "dt": 0.016600000000002182,
+      "rate": 0.0903783986421162
+    },
+    {
+      "distance": 1.7832717444165056,
+      "dt": 0.016700000000000728,
+      "rate": 0.07885710686732293
+    },
+    {
+      "distance": 1.929996643295438,
+      "dt": 0.01669999999999709,
+      "rate": 0.08534535021399926
+    },
+    {
+      "distance": 1.8622774602324619,
+      "dt": 0.01680000000000291,
+      "rate": 0.08186059321453289
+    },
+    {
+      "distance": 4.401746724185768,
+      "dt": 0.03319999999999709,
+      "rate": 0.09790993186231348
+    },
+    {
+      "distance": 1.4333893165304301,
+      "dt": 0.016700000000000728,
+      "rate": 0.063385142993506
+    },
+    {
+      "distance": 1.7155525680808008,
+      "dt": 0.016700000000000728,
+      "rate": 0.07586253335827028
+    },
+    {
+      "distance": 2.0428619439155975,
+      "dt": 0.016599999999998546,
+      "rate": 0.09088050097652461
+    },
+    {
+      "distance": 1.738125626859378,
+      "dt": 0.016700000000000728,
+      "rate": 0.07686072452795491
+    },
+    {
+      "distance": 1.8397044014538844,
+      "dt": 0.016700000000000728,
+      "rate": 0.08135258523776033
+    },
+    {
+      "distance": 1.8509909342067807,
+      "dt": 0.016700000000000728,
+      "rate": 0.08185168097134295
+    },
+    {
+      "distance": 1.975142760852621,
+      "dt": 0.016700000000000728,
+      "rate": 0.08734173255335115
+    },
+    {
+      "distance": 1.7381256268593503,
+      "dt": 0.0165,
+      "rate": 0.07779236967375044
+    },
+    {
+      "distance": 1.862277460232462,
+      "dt": 0.016799999999999274,
+      "rate": 0.08186059321455062
+    },
+    {
+      "distance": 2.031575411162673,
+      "dt": 0.016599999999998546,
+      "rate": 0.09037839864213598
+    },
+    {
+      "distance": 6.027007050425015,
+      "dt": 0.016700000000000728,
+      "rate": 0.26651705807237214
+    }
+  ],
+  "renderer": {
+    "player": {
+      "x": 156,
+      "y": 0,
+      "walking": false,
+      "facing": 1,
+      "anim": "idle",
+      "dir": 0,
+      "texAnim": "idle",
+      "frame": 7,
+      "animSpeed": 0.25,
+      "dead": false,
+      "fallK": 0,
+      "rotDeg": 0,
+      "reviveText": null
+    },
+    "home": {
+      "x": 156,
+      "y": 0
+    },
+    "entities": []
+  },
+  "worker": {
+    "started": true,
+    "booted": true,
+    "alive": true,
+    "deadReason": null,
+    "safeMode": false,
+    "restarts": 0,
+    "maxRestarts": 3,
+    "slowLoop": null,
+    "hitRate": 0,
+    "persistAgeSec": 1,
+    "silentMs": 282,
+    "upTimeSec": 18,
+    "ticks": 73,
+    "events": 355,
+    "errors": 0,
+    "persists": 1,
+    "catchupSec": 0,
+    "pendingCommands": 0,
+    "persistErrors": 0,
+    "lastDirty": [
+      "battle"
+    ],
+    "lastView": {
+      "gold": 999997227292,
+      "scrap": 506,
+      "essence": 126,
+      "dust": 0,
+      "ancientEssence": 0,
+      "soulOrigin": 0,
+      "demonSeed": 0,
+      "gems": 2,
+      "books": 0,
+      "level": 23,
+      "xp": 53535,
+      "xpMax": 69466,
+      "hp": 1.2717999999999996,
+      "hpMax": 1305,
+      "mp": 101.73689999999976,
+      "mpMax": 198,
+      "shield": 0,
+      "stage": 1,
+      "zone": "desert",
+      "gt": 16.62799999999998,
+      "simT": 16.62799999999998,
+      "paused": false,
+      "towerActive": true,
+      "forgeBusy": false,
+      "taskIdx": 0,
+      "taskProg": 0,
+      "taskReady": false
+    },
+    "shimDiag": {
+      "dom": {
+        "querySelectorAll": 3
+      },
+      "ui": {
+        "flog": 3,
+        "blog": 98,
+        "clearTowerFloatLayers": 1,
+        "playCombatVfx": 144,
+        "floatText": 101,
+        "showTowerResultModal": 1
+      },
+      "storage": {
+        "getItem": 1
+      }
+    },
+    "measure": null,
+    "lastError": null
+  },
+  "errors": [],
+  "warnings": [
+    "Oscillator.frequency.value 16405.7 outside nominal range [-16000, 16000]; value will be clamped."
+  ]
+}

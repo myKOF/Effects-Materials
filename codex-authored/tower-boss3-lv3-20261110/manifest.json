@@ -1,0 +1,95 @@
+{
+  "task": "TOWER-BOSS3-LV3-20261110",
+  "author": "Codex",
+  "authorization": "User supplied third-stage BOSS3_3.glb and requested first-stage five motions and game integration; user-created/generated series authorization retained from this chat.",
+  "files": [
+    {
+      "source": "sources/BOSS3_3.glb",
+      "sha256": "35586ec14cfc2c33518023700c545058b973f1344b272325fbabc98bd933ba45"
+    },
+    {
+      "source": "sources/boss3_character-approved.glb",
+      "sha256": "47330ede8adcd84eed9aaad38f6f6b156913bba0fd840da569db40ab540f7b4e"
+    },
+    {
+      "source": "exports/boss3_character_lv3.glb",
+      "sha256": "4185787cccb0ae44740ebcde2e5df019088aad8981be038a13e53629f74dfd4f",
+      "project": "images/models/npc3d/boss3_character_lv3.glb"
+    },
+    {
+      "source": "exports/boss3_character_lv3.png",
+      "sha256": "4e89e2ed84a0882863790b94676067bfee03e1d6e1e97f4805bf368af277ed1a",
+      "project": "images/sprites/boss/boss3_character_lv3.png"
+    },
+    {
+      "source": "exports/export-tower-boss3-lv3.cjs",
+      "sha256": "d28c207522c3cfa572c397dc4995a424e61c1f9bba165b9aea6d851a4e5c7eb5",
+      "project": "tools/meshy-pipeline/src/export-tower-boss3-lv3.cjs"
+    },
+    {
+      "source": "exports/TOWER_BOSS3_LV3_SOURCE.md",
+      "sha256": "d742680c4e78b7f27d8375282dec6298b84c5171801fc0a9ed8a359c9b7619fa",
+      "project": "docs/assets/TOWER_BOSS3_LV3_SOURCE.md"
+    },
+    {
+      "source": "editable/BOSS3_LV3.blend",
+      "sha256": "c9a38fbfaf6fbc338d21c50b5406edacc7c604b96ad0a05e261a6005d62afff3"
+    },
+    {
+      "source": "shared/prepare_tower_boss3_variant.py",
+      "sha256": "1ef2aea1e0569e7967ae321254fb17b4a7f4be319c2ab0994ce514eaa5ad9c8a"
+    },
+    {
+      "source": "shared/qa_tower_treant_variant.py",
+      "sha256": "748251602f6160b7938a86eaa9a9a346de33e1ecc642bec78b4135b4ba7b23f3"
+    },
+    {
+      "source": "shared/prepare_tower_boss3_character.py",
+      "sha256": "5c343fa4b6818342203ee5ba146843d76c905465da9d99558ea8e961bcddc0c6"
+    },
+    {
+      "source": "qa/surface-qa.json",
+      "sha256": "9b793bfba272943d3678ab678063898d783c32f30c38d28ae2b3d0946dedbadc"
+    },
+    {
+      "source": "qa/animation-qa.json",
+      "sha256": "f6bd74f46dcbf8d1e3f165dc40ba6f7513460b43d089661a4f2f0535bc0300b6"
+    },
+    {
+      "source": "qa/texture-qa.json",
+      "sha256": "ba53240b06f16fb23e9d57ea8e432338f109aa5f0382af13f152cc422a67dd74"
+    },
+    {
+      "source": "qa/format-qa.json",
+      "sha256": "ec38997c12cdedf22cebc0e096a898f5f2bc69115e578b414a23c9a3885c8217"
+    },
+    {
+      "source": "qa/editable-qa.json",
+      "sha256": "4054be09837edb8075339d3a5cd106b385265d9ad76ec4bd03e5814ba3d07077"
+    },
+    {
+      "source": "qa/table-qa.json",
+      "sha256": "a2b8c8be0c9171b7e409d61363ddd7a810d1198dbf2cafa290cab38f5aaf68e8"
+    },
+    {
+      "source": "qa/npc-native-receipt.json",
+      "sha256": "ac25850e2fabb1db5483a60c3d2d333d2c4715fcb0b5c0884557ac7b3772bfd0"
+    },
+    {
+      "source": "qa/runtime-qa.json",
+      "sha256": "413b8c5938c957f751fd5412388ce0b7ef59bc77a2fe92c31c171f01b03a48ae"
+    },
+    {
+      "source": "qa/tests.tap",
+      "sha256": "edf17dd2d332c6d78e05c1bd54fc1e975eab573168b60a554c430fe98ab52ee3"
+    },
+    {
+      "source": "qa/build.log",
+      "sha256": "a4aaa71c81e139d17500debf0884c4658d4134943a424613c53023e522c3b88a"
+    },
+    {
+      "source": "qa/portrait-qa.json",
+      "sha256": "39aa302d57f31a34e9021b95146b35901f46f8c909bcd09df184983eaade07e1"
+    }
+  ]
+}

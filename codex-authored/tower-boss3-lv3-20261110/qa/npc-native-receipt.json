@@ -1,0 +1,65 @@
+{
+  "sourceSha256": "15182E551714FEAF2EEE3121432562CA4885083D4299041C96BF1E6FA7ADB450",
+  "nativeNormalReopen": true,
+  "cellsCompared": 28365,
+  "outputSha256": "723B422F9931275FA2676F4B8ACDDF69C5AB75CC5A8EF50AE56287EFAC31393B",
+  "shapesAfter": 7,
+  "changes": [
+    {
+      "before": "sprites/boss/boss_thunder.png",
+      "cell": "G504",
+      "after": "sprites/boss/boss3_character_lv3.png"
+    },
+    {
+      "before": "sprites/boss/boss_thunder.png",
+      "cell": "H504",
+      "after": "sprites/boss/boss3_character_lv3.png"
+    },
+    {
+      "before": "sprites/boss/boss_thunder.png",
+      "cell": "I504",
+      "after": "sprites/boss/boss3_character_lv3.png"
+    },
+    {
+      "before": "sprites/boss/boss_thunder.png",
+      "cell": "J504",
+      "after": "sprites/boss/boss3_character_lv3.png"
+    },
+    {
+      "before": "",
+      "cell": "AB504",
+      "after": "images/models/npc3d/boss3_character_lv3.glb"
+    },
+    {
+      "before": "",
+      "cell": "AC504",
+      "after": "Running"
+    },
+    {
+      "before": "",
+      "cell": "AD504",
+      "after": "Running"
+    },
+    {
+      "before": "",
+      "cell": "AE504",
+      "after": "Basic_Jump"
+    },
+    {
+      "before": "",
+      "cell": "AF504",
+      "after": "Right_Hand_Sword_Slash"
+    },
+    {
+      "before": "",
+      "cell": "AG504",
+      "after": "Shield_Push_Left"
+    },
+    {
+      "before": "",
+      "cell": "AH504",
+      "after": "Shot_and_Fall_Forward"
+    }
+  ],
+  "shapesBefore": 7
+}
