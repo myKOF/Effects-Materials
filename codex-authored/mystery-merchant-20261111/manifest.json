@@ -40,6 +40,14 @@
     {
       "source": "mystery-merchant-shop.webp",
       "sha256": "585567e54b63a2dbcdfa90b2ba9776571b724645147659f18dc700b3aa9a3e2f"
+    },
+    {
+      "source": "tray-source.png",
+      "sha256": "bc0ad6715bff1e86f80e5ed271fe6a1fc7c4b160e80c80038a9372e8e0013769"
+    },
+    {
+      "source": "mystery-merchant-tray.webp",
+      "sha256": "8ae1ae07313d51ae66dc660a53d3f4719fbcdb83380d89ef7a98fef17d41f6d0"
     }
   ],
   "shopBackground": {
@@ -56,6 +64,23 @@
       "premultiplied": false,
       "hasAlpha": false,
       "size": 157692
+    }
+  },
+  "stockTray": {
+    "prompt": "Use case: stylized-concept. Produce a premium dark fantasy RPG merchant inventory tray illustration, a wide 2.5:1 rectangle, viewed exactly straight-on as a flat game UI surface with no perspective. Original art. The rectangular tavern signboard is assembled of broad dark walnut planks with gently uneven hand-hewn ends, visible horizontal grain, warm chestnut highlights and discreet gaps. An ornate deeply carved walnut rim runs on all four sides with elegant antique brass/bronze relief, curled leaf engraving at the four corners, small round rivets and restrained jewel studs set in the outer corners. Richly detailed, believable aged bronze, polished ridges and carved creases. Frame width limited to the outermost 7 percent of the height, and corner ornaments confined to the outer edge; leave the entire interior visually quiet for a game inventory grid. Interior is an opaque, softly lit rustic wood surface across its full width and height, with dark broad horizontal planks and subtle legible grain, deep chestnut with softly worn amber streaks, completely empty. Have the frame almost touch all four image edges, maximum one percent padding; any visible pixels outside the irregular board silhouette should be true transparent alpha. No cast shadow extending into the canvas margins. Single board, no character, no items, no text, no labels, no numbers, no UI controls, no slots, no scene or background outside the board. Painterly realism matching an amber lantern-lit dark fantasy shop, clean readable silhouette and crisp decorated edges. The center covers the majority of the image and should be recognizably wood, with clear visual contrast between dark wood panel and gilded detailed border.",
+    "original": {
+      "width": 1983,
+      "height": 793,
+      "alpha": true
+    },
+    "exportInfo": {
+      "format": "webp",
+      "width": 1820,
+      "height": 728,
+      "channels": 4,
+      "premultiplied": true,
+      "hasAlpha": true,
+      "size": 483016
     }
   }
 }
