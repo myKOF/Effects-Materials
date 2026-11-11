@@ -32,6 +32,30 @@
     {
       "source": "mystery-merchant.webp",
       "sha256": "788e1fdda2778b82213ac274a020dfd0abe54a312c88f2a4375781716539e4f2"
+    },
+    {
+      "source": "shop-source.png",
+      "sha256": "6fb8d1705ed7c0909c9ebe313973ae2a06dedbc81e548fdc77d00d11a1244d1d"
+    },
+    {
+      "source": "mystery-merchant-shop.webp",
+      "sha256": "585567e54b63a2dbcdfa90b2ba9776571b724645147659f18dc700b3aa9a3e2f"
     }
-  ]
+  ],
+  "shopBackground": {
+    "prompt": "Use case: stylized-concept. Create one original background painting for a dark fantasy RPG mysterious merchant panel. Ultra-wide 3:1 landscape banner, viewed straight into a medieval magical general store from the customer's eye level. Render ONLY the environment as a full-bleed painting. A separately supplied masked merchant portrait will occupy the left third in the foreground, so keep that left third a darker, lower-detail charcoal stone arch and soft shadowed wood. Use the center and right two thirds to visibly display merchandise along shallow, back-wall walnut shelves, within the central 75 percent of the image height: several cut amethyst and emerald gemstones on a small velvet tray, oval slate rune stones engraved with simple bright glyphs, a clearly recognizable steel breastplate and one sheathed sword, a varied cluster of glass potion bottles with muted blue, green and wine liquid, and a few small leather pouches and books. Arrange readable small clusters, atmospheric depth, uncluttered dark lower third especially center-right where real UI controls will overlay, with no large bright foreground counter. Warm amber lantern illumination in upper center, restrained jewel tones against soot-gray masonry and dark aged walnut, painterly realistic hand-crafted details, dark antique-gold fantasy RPG art direction, rich shadows but objects remain clearly identifiable at 1000×350 display. Single continuous interior scene edge to edge. No characters, hands, text, lettering, logo, frames, buttons, UI, borders, or modern items.",
+    "original": {
+      "width": 2172,
+      "height": 724
+    },
+    "exportInfo": {
+      "format": "webp",
+      "width": 1800,
+      "height": 600,
+      "channels": 3,
+      "premultiplied": false,
+      "hasAlpha": false,
+      "size": 157692
+    }
+  }
 }
