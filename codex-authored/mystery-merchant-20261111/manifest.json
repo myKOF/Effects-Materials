@@ -1,0 +1,37 @@
+{
+  "generator": "Codex built-in imagegen",
+  "license": "Original generated artwork for Idle-RPG. No third-party image inputs.",
+  "layoutReference": "User screenshot used to determine portrait size and position only.",
+  "prompts": [
+    "Use case: stylized-concept. ORIGINAL hand-painted dark fantasy RPG half-body portrait of a masked mysterious merchant for a charcoal stone and antique-gold game UI. Square composition, genuinely transparent background with alpha, isolated single character. Fully contained hood and shoulders, upper body ending at waist with a softly tapered silhouette. An elegant mature East Asian traveling merchant, wearing a dark fitted cloth mask that clearly covers nose and mouth, no visible lips, with striking attentive eyes visible under a charcoal teal hood. Three-quarter turn slightly toward viewer right, layered embroidered coat, antique gold clasp and trim, muted wine lining, leather strap and pouches. One hand presents a small violet jewel near chest. Refined realistic anatomy and hand-painted brushwork, warm amber lantern key light, muted teal rim. Readable at 344px. Premium original game character illustration. No frame, text, logos, background scenery, borders, UI, or excessive effects.",
+    "Use case: precise-object-edit. Preserve the exact masked mysterious merchant, face, eyes, hood, embroidery, cloak, belt, painterly lighting and genuinely transparent background of the provided original character. Replace the gem-holding gesture with a welcoming invitation. The merchant extends their own LEFT forearm naturally toward the viewer, on the right side of the image. Left hand relaxed, open palm facing diagonally upward, with all five anatomically correct fingers loosely open and naturally curved. The palm is clearly empty. Remove the purple gem completely; no item is held in either hand. Keep the left elbow bent near waist and the inviting hand fully inside the square, with comfortable margins. Keep the waist-up framing and isolated alpha cutout. No text, no frame, no added props or effects."
+  ],
+  "original": {
+    "width": 1254,
+    "height": 1254,
+    "alpha": true
+  },
+  "exportInfo": {
+    "format": "webp",
+    "width": 688,
+    "height": 688,
+    "channels": 4,
+    "premultiplied": true,
+    "hasAlpha": true,
+    "size": 117414
+  },
+  "files": [
+    {
+      "source": "masked-base.png",
+      "sha256": "909d02b31417031212be054d7d5c26e4cac7f40b72e8b10b0788af829162d8b3"
+    },
+    {
+      "source": "source.png",
+      "sha256": "36d1936c0b0ce4c7b24053875c4dc817b2afb8e2505281b0e0abca0826905c72"
+    },
+    {
+      "source": "mystery-merchant.webp",
+      "sha256": "788e1fdda2778b82213ac274a020dfd0abe54a312c88f2a4375781716539e4f2"
+    }
+  ]
+}
