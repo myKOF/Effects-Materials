@@ -1,0 +1,15 @@
+{
+  "tool": "內建 ImageGen",
+  "edits": [
+    {
+      "source": "荒原底圖中央拱門裁圖 (600, 0, 480, 368)",
+      "output": "originals/open-arch-dark-edit.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact crop of a game background. Erase all the suspended interior Gothic stone tracery in the main pointed arch opening: the large center quatrefoil, the two smaller quatrefoils, the delicate curving lattice and hanging pointed prongs attached to the arch. Fill their silhouettes with seamless, soft dark brown-gray clouded sky that matches the existing sky immediately below the tracery. Leave the heavy curved stone ribs that form the pointed opening intact, including its narrow innermost rim. The resulting opening is uninterrupted cloudy sky right up to the pointed apex. Preserve the exact source composition, framing, border positions, arch geometry, columns, side statues, stone texture, sky and lighting outside the tracery area. This will be composited back into the full painting. Keep all edges and the four sides of the input registered in the output, same aspect ratio and crop. No labels, new objects, or new sources of light."
+    },
+    {
+      "source": "originals/gate-light-original.png",
+      "output": "originals/open-arch-light-edit.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact crop of a game background's bright sky overlay. Erase all suspended interior Gothic stone tracery in the main pointed arch opening at the top center: the large center quatrefoil, both smaller quatrefoils and the delicate hanging curved lattice and prongs. Fill their silhouettes with a continuation of the existing soft warm gray-white clouds and diagonal shafts of pale light, keeping the current lighting and atmosphere. Leave the heavy curved stone ribs that form the pointed opening intact, including its narrow innermost rim. The opening is uninterrupted sky right up to the top of the crop. Preserve exact source composition, framing, border positions, arch geometry, columns, side statues, sky and lighting outside the tracery area. This will be composited back into the source. Keep all edges and the four sides of the input registered in the output, same aspect ratio and crop. No labels, new objects, or new sources of light."
+    }
+  ]
+}
