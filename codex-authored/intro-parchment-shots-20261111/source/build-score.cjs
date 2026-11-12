@@ -2,7 +2,9 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
-const { firstDuration, secondStart, fallClearAt, whiteLightAt, fallTime, thirdStart, thirdDuration, thirdBeamAt, thirdHopeAt, thirdDiveAt, thirdGroundAt, thirdFadeAt, duration } = require('./shot-timing.js');
+const { spawnSync } = require('node:child_process');
+const { firstDuration, pullStart, pullEnd, secondStart, fallClearAt, whiteLightAt, fallTime, thirdStart, thirdDuration, thirdBeamAt, thirdHopeAt, thirdDiveAt, thirdGroundAt, thirdFadeAt, duration } = require('./shot-timing.js');
+const effectsOnly = process.argv.includes('--sfx');
 const rate = 48000;
 const frames = Math.round(rate * duration);
 const firstFrames = rate * firstDuration;
@@ -48,6 +50,30 @@ function metal(t, at, hz, gain) {
 let low = 0;
 let grit = 0;
 let side = 0;
+if (effectsOnly) {
+  // 第一鏡只保存混音。按鏡頭拉遠與戰場顯露時點重新合成風、翼動與遠處戰聲。
+  for (let i = 0; i < firstFrames; i++) {
+    const t = i / rate;
+    const raw = random();
+    low += (raw - low) * 0.009;
+    grit += (raw - grit) * 0.108;
+    side += (random() - side) * 0.061;
+    const battle = smooth(pullStart, pullEnd, t);
+    const wing = Math.sin(t * 3.4 + 0.6) ** 6;
+    const air = low * (0.35 + wing * 0.22) + (grit - low) * (0.13 + battle * 0.32);
+    const impacts = impact(t, 4.37, 38, 0.11) + impact(t, 5.71, 44, 0.063) +
+      impact(t, 7.02, 35, 0.10) + impact(t, 8.16, 41, 0.074);
+    const armour = metal(t, 0.77, 392, 0.042) + metal(t, 2.44, 277, 0.035) +
+      metal(t, 5.47, 311, 0.022) + metal(t, 7.53, 248, 0.027);
+    const fade = smooth(0, 0.54, t) * (1 - smooth(firstDuration - 0.35, firstDuration, t));
+    const mid = (air + armour + impacts) * fade;
+    const stereo = side * (0.034 + battle * 0.06) * fade;
+    wave.writeInt16LE(Math.round(32700 * Math.tanh(mid + stereo)), 44 + i * 4);
+    wave.writeInt16LE(Math.round(32700 * Math.tanh(mid - stereo)), 46 + i * 4);
+  }
+  seed = 27634;
+  low = grit = side = 0;
+}
 const endingNotes = [[55, 0.048], [73.416, 0.043], [110, 0.03], [164.81, 0.022], [220, 0.014]];
 for (let i = firstFrames; i < heavenlyFrames; i++) {
   const time = i / rate;
@@ -73,7 +99,7 @@ for (let i = firstFrames; i < heavenlyFrames; i++) {
       (0.74 + 0.26 * tone(0.42 + index * 0.11, t)), 0) * smooth(0.54, 3.12, t) * (1 - smooth(6.11, fallIntoAbyss + 0.36, t));
   const fade = smooth(firstDuration, firstDuration + 0.15, time) * (1 - smooth(thirdStart - 0.32, thirdStart, time));
   const white = smooth(0.12, 1.50, lightTime) * (tone(261.63, t) * 0.064 + tone(523.25, t) * 0.030 + tone(659.25, t) * 0.018);
-  const mid = (air + stone + collapse + chime + grief + white) * fade;
+  const mid = (air + stone + collapse + chime + (effectsOnly ? 0 : grief) + (effectsOnly ? 0 : white)) * fade;
   const stereo = side * (0.052 + 0.063 * transitionWind + 0.070 * falling) * fade;
   wave.writeInt16LE(Math.round(32700 * Math.tanh(mid + stereo)), 44 + i * 4);
   wave.writeInt16LE(Math.round(32700 * Math.tanh(mid - stereo)), 46 + i * 4);
@@ -88,25 +114,36 @@ for (let i = heavenlyFrames; i < frames; i++) {
   const ink = smooth(0.79, thirdHopeAt, t);
   const air = (low * (0.24 + 0.22 * ink) + (raw - low) * 0.028) * (0.76 + 0.24 * tone(0.53, t));
   const chime = metal(t, 0.39, 698.46, 0.039) + metal(t, 0.79, 523.25, 0.021) + metal(t, 1.14, 1046.5, 0.016);
-  const shadow = ink * (0.044 * tone(55, t) + 0.034 * tone(58.27, t + 0.3) + 0.023 * tone(82.407, t)) +
-    impact(t, 1.48, 44, 0.032) + impact(t, 2.43, 38, 0.077) + impact(t, 3.18, 36, 0.057);
+  const shadowNotes = ink * (0.044 * tone(55, t) + 0.034 * tone(58.27, t + 0.3) + 0.023 * tone(82.407, t));
+  const shadow = (effectsOnly ? 0 : shadowNotes) + impact(t, 1.48, 44, 0.032) +
+    impact(t, 2.43, 38, 0.077) + impact(t, 3.18, 36, 0.057);
   const beamAge = Math.max(0, t - thirdBeamAt);
   const beam = smooth(thirdBeamAt, thirdHopeAt - 0.13, t) * (1 - smooth(thirdHopeAt, thirdHopeAt + 0.28, t)) *
     (tone(196, beamAge, 118 * beamAge ** 2) * 0.023 + (raw - low) * 0.035);
   const hopeAge = Math.max(0, t - thirdHopeAt);
-  const hope = smooth(0, 0.26, hopeAge) * (tone(261.63, hopeAge) * 0.031 + tone(392, hopeAge) * 0.021) +
+  const hopeNotes = smooth(0, 0.26, hopeAge) * (tone(261.63, hopeAge) * 0.031 + tone(392, hopeAge) * 0.021);
+  const hope = (effectsOnly ? 0 : hopeNotes) +
     metal(t, thirdHopeAt, 783.99, 0.087) + metal(t, thirdHopeAt + 0.15, 1046.5, 0.032) + impact(t, thirdHopeAt, 59, 0.037);
   const fade = smooth(0, 0.44, t) * (1 - smooth(thirdFadeAt, thirdDuration, t));
   const windPeak = smooth(thirdDiveAt, thirdDiveAt + 0.79, t) * (1 - smooth(thirdDiveAt + 0.86, thirdGroundAt + 0.38, t));
   const diveWind = windPeak * (low * 0.43 + (raw - low) * 0.07 + tone(48, t, 1.4 * Math.sin(t * 1.3)) * 0.059);
-  const ground = smooth(thirdGroundAt - 0.28, thirdGroundAt + 0.80, t) *
-    (0.028 * tone(130.81, t) + 0.017 * tone(196, t) + low * 0.16);
+  const groundNotes = 0.028 * tone(130.81, t) + 0.017 * tone(196, t);
+  const ground = smooth(thirdGroundAt - 0.28, thirdGroundAt + 0.80, t) * ((effectsOnly ? 0 : groundNotes) + low * 0.16);
   const mid = (air + chime + shadow * (1 - 0.70 * smooth(thirdHopeAt, thirdHopeAt + 0.50, t)) + beam + hope + diveWind + ground) * fade;
   const stereo = side * (0.051 + 0.057 * ink + 0.082 * windPeak) * fade;
   wave.writeInt16LE(Math.round(32700 * Math.tanh(mid + stereo)), 44 + i * 4);
   wave.writeInt16LE(Math.round(32700 * Math.tanh(mid - stereo)), 46 + i * 4);
 }
-if (!wave.subarray(44, 44 + firstFrames * 4).equals(source.subarray(44))) {
-  throw Error('Approved first-shot audio changed');
+if (effectsOnly) {
+  const result = spawnSync(process.env.PARCHMENT_FFMPEG || 'ffmpeg', [
+    '-hide_banner', '-loglevel', 'error', '-y', '-f', 'wav', '-i', 'pipe:0',
+    '-c:a', 'libmp3lame', '-b:a', '160k', path.join(__dirname, '..', 'web', 'shot-01-03-sfx.mp3')
+  ], { input: wave, stdio: ['pipe', 'inherit', 'inherit'], windowsHide: true });
+  if (result.error) throw result.error;
+  if (result.status !== 0) throw Error('FFmpeg effects export failed with exit ' + result.status);
+} else {
+  if (!wave.subarray(44, 44 + firstFrames * 4).equals(source.subarray(44))) {
+    throw Error('Approved first-shot audio changed');
+  }
+  fs.writeFileSync(path.join(__dirname, 'assets', 'score.wav'), wave);
 }
-fs.writeFileSync(path.join(__dirname, 'assets', 'score.wav'), wave);
