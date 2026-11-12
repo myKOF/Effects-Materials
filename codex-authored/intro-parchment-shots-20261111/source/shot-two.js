@@ -5,23 +5,97 @@ function makeOpeningSequence(first, assets, helpers) {
     context, width, height, matte, layer, random, lerp, smooth, bloom, pageFinish,
     dawnFog, templePlacement, templeSpirePlacement, templeFires, drawTempleSmoke, drawTempleFire
   } = helpers;
-  const { duration, firstDuration, secondStart, secondDuration, transitionDuration, fallTime, whiteLightAt } = OPENING_SHOT_TIMING;
+  const { duration, firstDuration, secondStart, secondDuration, transitionDuration, fallTime, fallClearAt, whiteLightAt } = OPENING_SHOT_TIMING;
   const incoming = layer(width, height + matte * 2, { alpha: false });
   const sky = assets['heaven-sky'];
   const abyss = assets['cloud-abyss'];
-  const commander = assets['archangel-fall-ivory'];
+  const commander = composeCommander(assets['archangel-fall-regalia'], assets['archangel-hood-edit'], assets['archangel-right-hand']);
   const commanderWing = assets.wing;
-  const troops = assets['angels-fall-faces'];
+  const troops = softenDistantFigures(assets['angels-fall-faces']);
   const smoke = assets['collapse-smoke'];
   const lightCloud = makeLightCloud(smoke);
   const ashPuff = makeAshPuff(smoke, false);
   const ashPuffFlipped = makeAshPuff(smoke, true);
 
   const landing = { x: width * 0.59, y: height * 0.57 };
+  const flashOrigin = { x: width * 0.572, y: matte + height * 0.784 };
   const commanderPose = { centerX: 0.582, centerY: 0.599, backX: 0.567, backY: 0.630 };
+  // Anchors follow the painted armor and tabard in the commander cel.
+  const commanderBurnSites = [
+    // u, v, flame scale, intensity, phase offset, flow deflection
+    [0.704, 0.503, 0.103, 1.00, 0.13,  0.03],
+    [0.486, 0.568, 0.111, 1.00, 0.62, -0.11],
+    [0.661, 0.770, 0.085, 0.93, 1.34,  0.13],
+    [0.384, 0.462, 0.093, 0.96, 0.93, -0.19],
+    [0.280, 0.292, 0.075, 0.89, 1.75, -0.09],
+    [0.371, 0.338, 0.067, 0.78, 1.10, 0.08],
+    [0.454, 0.791, 0.052, 0.67, 2.09,  0.14]
+  ];
+  const commanderCombustion = makeCommanderCombustion(layer, random, smooth);
+  const commanderAsh = makeCommanderAsh(commanderCombustion, random, lerp, smooth, bloom);
+  const commanderLighting = layer(commander.width, commander.height, { alpha: true });
+  const debrisRandom = random(528941);
+  const commanderDebris = Array.from({ length: 36 }, (_, i) => ({
+    phase: debrisRandom(),
+    speed: lerp(0.61, 1.52, debrisRandom()),
+    distance: lerp(1.55, 4.9, debrisRandom()),
+    offset: lerp(-0.86, 0.86, debrisRandom()),
+    size: lerp(0.013, 0.061, debrisRandom() ** 1.8),
+    spin: lerp(-7, 7, debrisRandom()),
+    ember: i % 5 < 2
+  }));
   const crown = splitSpire(0.38, true);
   const pedestal = splitSpire(0.38, false);
   const distantFires = [templeFires[1], templeFires[3], templeFires[5]];
+
+  function composeCommander(original, editedHood, editedHand) {
+    const { width, height } = original;
+    if (editedHood.width !== width || editedHood.height !== height) {
+      throw new Error('The hood artwork must align with the original commander cel');
+    }
+    const hood = new Path2D(
+      'M1197 509 L1419 510 L1423 800 L1290 800 L1284 745 ' +
+      'C1264 724 1240 711 1217 700 C1194 689 1171 684 1148 678 ' +
+      'C1129 674 1117 661 1118 647 C1119 628 1128 614 1143 605 ' +
+      'C1156 598 1171 589 1179 576 C1187 563 1194 550 1193 536 Z'
+    );
+    // The lower edge of this mask follows the curved gold cuff on the raised arm.
+    const hand = new Path2D(
+      'M1050 120 H1280 V320 H1180 ' +
+      'C1169 321 1162 306 1144 303 C1127 298 1114 304 1104 313 L1050 318 Z'
+    );
+    const result = layer(width, height, { alpha: true });
+    result.drawImage(original, 0, 0);
+    applyCommanderPatch(result, editedHood, hood, [22, 5], 1.8);
+    applyCommanderPatch(result, editedHand, hand, [950, 76, 376.2, 376.2], 2.0);
+    return result.canvas;
+  }
+
+  function applyCommanderPatch(result, image, shape, placement, feather) {
+    const { width, height } = result.canvas;
+    const mask = layer(width, height, { alpha: true });
+    mask.filter = 'blur(' + feather + 'px)';
+    mask.fill(shape);
+
+    const patch = layer(width, height, { alpha: true });
+    patch.imageSmoothingQuality = 'high';
+    patch.drawImage(image, ...placement);
+    patch.globalCompositeOperation = 'destination-in';
+    patch.drawImage(mask.canvas, 0, 0);
+
+    result.globalCompositeOperation = 'destination-out';
+    result.drawImage(mask.canvas, 0, 0);
+    result.globalCompositeOperation = 'lighter';
+    result.drawImage(patch.canvas, 0, 0);
+    result.globalCompositeOperation = 'source-over';
+  }
+
+  function softenDistantFigures(image) {
+    const ctx = layer(image.width, image.height, { alpha: true });
+    ctx.filter = 'blur(5.5px) contrast(0.91) saturate(0.79)';
+    ctx.drawImage(image, 0, 0);
+    return ctx.canvas;
+  }
 
   function makeLightCloud(image) {
     const ctx = layer(image.width, image.height);
@@ -80,10 +154,28 @@ function makeOpeningSequence(first, assets, helpers) {
     [ 317,  18, 2.45, 2.45,  84, 3, 0.65,  869, 573],
     [1371,-121, 2.61, 2.31,  90, 2, 0.69, 1294, 505],
     [1855, 443, 2.30, 2.49, 147, 0, 0.91, 1342, 749],
-    [ 108, 114, 2.48, 2.54, 100, 2, 0.71,  925, 716]
+    [ 108, 114, 2.48, 2.54, 100, 2, 0.71,  925, 716],
+    // Additional trajectories occupy gaps across the sky and remain visible into the descent.
+    [-222, 374, 2.19, 2.58, 140, 2, 0.85, 822, 709],
+    [-68, -30, 2.25, 2.62, 93, 0, 0.70, 794, 597],
+    [107, 268, 2.76, 2.37, 97, 3, 0.81, 972, 758],
+    [306, 143, 2.14, 2.62, 136, 1, 0.74, 1006, 674],
+    [425, 115, 2.68, 2.38, 90, 0, 0.81, 1036, 515],
+    [594, 454, 1.83, 2.57, 111, 2, 0.84, 1063, 744],
+    [799, 98, 2.87, 2.23, 126, 3, 0.80, 1101, 652],
+    [897, 246, 2.70, 2.41, 93, 1, 0.82, 1151, 762],
+    [999, 435, 2.07, 2.60, 78, 0, 0.78, 1152, 768],
+    [1110, 217, 2.98, 2.27, 138, 2, 0.82, 1156, 683],
+    [1275, 351, 2.30, 2.61, 95, 3, 0.81, 1228, 768],
+    [1307, 139, 2.91, 2.29, 106, 1, 0.72, 1289, 777],
+    [1509, 65, 2.68, 2.33, 119, 0, 0.74, 1323, 552],
+    [1593, 141, 2.94, 2.24, 95, 2, 0.83, 1345, 737],
+    [1766, 70, 2.64, 2.36, 93, 3, 0.67, 1379, 485],
+    [2015, 200, 2.63, 2.44, 128, 0, 0.69, 1411, 598],
+    [2146, 395, 2.14, 2.60, 105, 1, 0.83, 1456, 777]
   ].map(([x, y, start, travel, size, pose, depth, endX, endY], i) => ({
     x, y, start, travel, size, pose, depth, endX, endY, phase: i * 0.329
-  }));
+  })).sort((a, b) => a.depth - b.depth);
   const commanderFlight = { x: 818, y: 207, start: 2.13, travel: 2.38, endX: 1102, endY: 654 };
   const fallRate = 0.5;
   const crowdDistance = 1.35;
@@ -96,6 +188,8 @@ function makeOpeningSequence(first, assets, helpers) {
     [633, 707, 555, 369, 0.634, 0.761]
   ];
 
+  // A unit cycle also accepts negative time during the incoming dissolve.
+  const cyclePhase = phase => phase - Math.floor(phase);
   const streamRandom = random(90189);
   const sparks = Array.from({ length: 24 }, () => ({
     offset: streamRandom(),
@@ -217,7 +311,7 @@ function makeOpeningSequence(first, assets, helpers) {
     ctx.fill();
 
     for (const spark of sparks) {
-      const age = (t * (0.9 + spark.brightness * 0.3) + spark.offset + phase) % 1;
+      const age = cyclePhase(t * (0.9 + spark.brightness * 0.3) + spark.offset + phase);
       const tailX = -size * (0.10 + age * spark.length);
       const tailY = size * spark.spread * (0.16 + age * 0.79) + Math.sin(age * 6 + phase) * size * 0.047;
       const flare = Math.sin(age * Math.PI) ** 1.12;
@@ -318,14 +412,47 @@ function makeOpeningSequence(first, assets, helpers) {
     const [sx, sy, sw, sh, anchorX, anchorY] = poseBoxes[pose];
     const displayH = scale * sh / sw;
 
-    drawBattleWake(ctx, px, py, scale, heading, t, phase, alpha);
+    drawBattleWake(ctx, px, py, scale * 1.16, heading, t, phase, alpha);
     drawLightWings(ctx, px, py, scale * 0.95, heading, t * 0.7, phase, alpha * 0.70);
     ctx.save();
-    ctx.globalAlpha = alpha;
+    ctx.globalAlpha = alpha * 0.83;
     ctx.translate(px, py);
     ctx.rotate(tilt);
+    ctx.scale(figure.endX < figure.x ? -1 : 1, 1);
     ctx.drawImage(troops, sx, sy, sw, sh,
       -scale * anchorX, -displayH * anchorY, scale, displayH);
+    ctx.restore();
+    drawCrowdCombustion(ctx, px, py, scale, heading, t, phase, alpha);
+  }
+
+  function drawCrowdCombustion(ctx, x, y, size, heading, t, phase, alpha) {
+    ctx.save();
+    ctx.translate(x, y);
+    ctx.rotate(heading);
+    ctx.globalCompositeOperation = 'screen';
+
+    const flicker = 0.72 + 0.28 * Math.sin(t * 19 + phase * 6) ** 2;
+    const length = size * (3.05 + 0.65 * Math.sin(phase * 7) ** 2);
+    const trail = ctx.createLinearGradient(-length, 0, size * 0.35, 0);
+    trail.addColorStop(0, 'rgba(193,65,24,0)');
+    trail.addColorStop(0.35, 'rgba(220,84,28,0.22)');
+    trail.addColorStop(0.76, 'rgba(255,143,60,0.56)');
+    trail.addColorStop(1, 'rgba(255,213,141,0.83)');
+    ctx.fillStyle = trail;
+    ctx.globalAlpha = alpha * flicker * 0.54;
+    for (const side of [-1, 1]) {
+      const wave = Math.sin(t * 10.5 + phase * 9 + side);
+      const offset = side * size * 0.091;
+      const tongue = length * (side === 1 ? 0.71 : 1);
+      ctx.beginPath();
+      ctx.moveTo(size * 0.30, offset * 0.40);
+      ctx.bezierCurveTo(-size * 0.02, offset * 2.4, -tongue * 0.48, offset * (1.7 + wave), -tongue, offset * 0.65);
+      ctx.bezierCurveTo(-tongue * 0.51, offset * (0.48 + wave), -size * 0.38, offset * 0.30, size * 0.30, offset * 0.40);
+      ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+    bloom(ctx, size * 0.12, 0, size * 0.56, size * 0.27, '255,128,53', alpha * 0.42 * flicker);
+    bloom(ctx, size * 0.17, 0, size * 0.22, size * 0.097, '255,222,155', alpha * 0.37 * flicker);
     ctx.restore();
   }
 
@@ -335,7 +462,7 @@ function makeOpeningSequence(first, assets, helpers) {
     ctx.rotate(heading);
     const heat = 0.59 + 0.36 * Math.sin(phase * 8) ** 2;
     for (let i = 0; i < 5; i++) {
-      const age = (t * (0.64 + i * 0.014) + i / 5 + phase) % 1;
+      const age = cyclePhase(t * (0.64 + i * 0.014) + i / 5 + phase);
       const span = size * (0.34 + age * 0.79);
       const dx = -size * (0.21 + 3.55 * age);
       const dy = size * age * 0.21 * Math.sin(age * 7 + phase * 13 + i * 1.2);
@@ -380,7 +507,7 @@ function makeOpeningSequence(first, assets, helpers) {
     ctx.rotate(heading);
     for (const side of [-1, 1]) {
       for (let i = 0; i < 8; i++) {
-        const age = (i / 8 + t * 0.84 + (side > 0 ? 0.065 : 0)) % 1;
+        const age = cyclePhase(i / 8 + t * 0.84 + (side > 0 ? 0.065 : 0));
         const distance = -size * (0.05 + age * 3.7);
         const bend = side * size * (0.21 + age * 0.37) + Math.sin(age * 9 + side) * size * age * 0.22;
         const span = size * (0.28 + age * 0.73);
@@ -391,6 +518,116 @@ function makeOpeningSequence(first, assets, helpers) {
       }
     }
     ctx.restore();
+  }
+
+  function commanderFirelight(t, alpha) {
+    if (alpha <= 0.001) return commander;
+    const ctx = commanderLighting;
+    ctx.globalCompositeOperation = 'source-over';
+    ctx.clearRect(0, 0, commander.width, commander.height);
+    ctx.drawImage(commander, 0, 0);
+    ctx.globalCompositeOperation = 'source-atop';
+    for (const [u, v, span, energy, phase] of commanderBurnSites) {
+      const radius = commander.width * span;
+      const x = commander.width * u;
+      const y = commander.height * v;
+      const pulse = 0.67 + 0.25 * Math.sin(t * 12.8 + phase * 9) + 0.08 * Math.sin(t * 21.1);
+      const heat = alpha * energy;
+      bloom(ctx, x - radius * 0.22, y - radius * 0.12, radius * 1.12, radius * 0.65, '76,40,23', heat * 0.24);
+      bloom(ctx, x, y, radius * 0.78, radius * 0.53, '253,127,47', heat * pulse * 0.40);
+      bloom(ctx, x + radius * 0.08, y + radius * 0.06, radius * 0.34, radius * 0.23,
+        '255,213,139', heat * pulse * 0.52);
+    }
+    return ctx.canvas;
+  }
+
+  function drawCommanderFlames(ctx, radius, t, phase, alpha) {
+    const pulse = 0.78 + 0.16 * Math.sin(t * 13.6 + phase * 7) + 0.06 * Math.sin(t * 26.1 + phase * 13);
+    ctx.globalCompositeOperation = 'screen';
+    bloom(ctx, -radius * 0.29, 0, radius * 1.65, radius * 0.72, '217,78,28', alpha * pulse * 0.61);
+    bloom(ctx, radius * 0.016, 0, radius * 0.48, radius * 0.28, '255,172,77', alpha * pulse * 0.66);
+    ctx.globalCompositeOperation = 'source-over';
+    ctx.globalAlpha = alpha * (0.81 + pulse * 0.19);
+    commanderCombustion.fire(ctx, radius, t + phase);
+    ctx.save();
+    ctx.globalCompositeOperation = 'screen';
+    ctx.globalAlpha = alpha * pulse * 0.41;
+    ctx.scale(1.20, 0.74);
+    commanderCombustion.fire(ctx, radius * 0.74, t * 1.13 + phase + 0.18);
+    ctx.restore();
+  }
+
+  function drawCommanderDebris(ctx, radius, t, phase, alpha) {
+    for (const particle of commanderDebris) {
+      const { speed, distance, offset, size, spin, ember } = particle;
+      const age = cyclePhase(particle.phase + phase * 0.17 + t * speed);
+      const flight = Math.sin(Math.PI * age) ** 0.78 * (1 - age * 0.38);
+      const trailing = -radius * (0.1 + distance * age + 0.39 * age * age);
+      const crosswind = radius * (offset * (0.32 + age * 1.67) +
+        age * 0.24 * Math.sin(9.2 * age + particle.phase * 5 + phase));
+      const chip = Math.max(0.6, radius * size * (1 - age * 0.45));
+      ctx.globalCompositeOperation = ember ? 'screen' : 'source-over';
+      ctx.globalAlpha = alpha * flight * (ember ? 1 : 0.81);
+      if (ember) {
+        const streak = radius * (0.045 + size * 3.0) * (1 - age * 0.42);
+        const hue = Math.round(lerp(197, 105, age));
+        const edge = crosswind + streak * offset * 0.13;
+        const glow = ctx.createLinearGradient(trailing - streak, edge, trailing, crosswind);
+        glow.addColorStop(0, 'rgba(173,54,20,0)');
+        glow.addColorStop(0.49, 'rgba(237,' + hue + ',44,0.32)');
+        glow.addColorStop(1, 'rgba(255,221,151,0.91)');
+        ctx.fillStyle = glow;
+        ctx.beginPath();
+        ctx.moveTo(trailing - streak, edge);
+        ctx.quadraticCurveTo(trailing - streak * 0.30, crosswind - chip * 0.38,
+          trailing + chip * 0.32, crosswind);
+        ctx.quadraticCurveTo(trailing - streak * 0.26, crosswind + chip * 0.44, trailing - streak, edge);
+        ctx.fill();
+        ctx.fillStyle = 'rgba(255,229,170,' + (1 - age * 0.60) + ')';
+        ctx.beginPath();
+        ctx.ellipse(trailing, crosswind, chip * 0.52, chip * 0.33, offset * 0.21, 0, Math.PI * 2);
+        ctx.fill();
+        if (chip > 2.1) bloom(ctx, trailing, crosswind, chip * 4.8, chip * 2.5, '255,100,26', 0.57);
+      } else {
+        ctx.save();
+        ctx.translate(trailing, crosswind);
+        ctx.rotate(spin * age + phase);
+        ctx.fillStyle = '#342622';
+        ctx.beginPath();
+        ctx.moveTo(-chip * 0.95, -chip * 0.14);
+        ctx.lineTo(chip * 0.21, -chip * 0.62);
+        ctx.lineTo(chip * 0.83, chip * 0.07);
+        ctx.lineTo(chip * 0.12, chip * 0.40);
+        ctx.closePath();
+        ctx.fill();
+        ctx.restore();
+      }
+    }
+  }
+
+  function drawCommanderBurning(ctx, x, y, size, h, heading, t, alpha, foreground) {
+    if (alpha <= 0.001) return;
+    for (const [u, v, span, energy, phase, deflection] of commanderBurnSites) {
+      const radius = size * span;
+      const heat = alpha * energy;
+      ctx.save();
+      ctx.translate(x + size * u, y + h * v);
+      ctx.rotate(heading + deflection + 0.089 * Math.sin(phase * 4 + t * 2.9));
+      if (foreground) {
+        ctx.globalAlpha = heat * 0.19;
+        commanderCombustion.smoke(ctx, radius * 0.68, t * 0.91 + phase);
+        ctx.globalAlpha = 1;
+        drawCommanderFlames(ctx, radius, t, phase, heat);
+        drawCommanderDebris(ctx, radius, t, phase, heat);
+      } else {
+        ctx.globalAlpha = heat * 0.87;
+        commanderCombustion.smoke(ctx, radius * 1.10, t * 0.93 + phase);
+        ctx.globalAlpha = heat * 0.25;
+        ctx.rotate(-0.14);
+        commanderCombustion.smoke(ctx, radius * 1.43, t * 0.89 + phase + 0.24);
+      }
+      ctx.restore();
+    }
   }
 
   function drawCommanderWings(ctx, x, y, size, t, alpha) {
@@ -431,9 +668,9 @@ function makeOpeningSequence(first, assets, helpers) {
     ctx.restore();
   }
 
-  function drawCommander(ctx, t, pull, seconds) {
+  function drawCommander(ctx, t, pull, seconds, fallOpacity) {
     const fall = projectFall(commanderFlight, t, pull);
-    const alpha = fall.visible;
+    const alpha = fall.visible * fallOpacity;
     if (alpha <= 0) return;
     const tracking = smooth(2.14, 5.35, t);
     const size = 1740 / (1 + 7.75 * pull ** 1.28) * fall.approach;
@@ -447,6 +684,7 @@ function makeOpeningSequence(first, assets, helpers) {
     const rootY = y + h * backY;
     const heading = lerp(0.83, fall.heading, tracking);
     const close = 1 - smooth(1.85, 4.45, t);
+    const fireAlpha = alpha * (1 - smooth(4.0, 6.2, t));
 
     ctx.save();
     ctx.translate(cx, cy);
@@ -455,9 +693,14 @@ function makeOpeningSequence(first, assets, helpers) {
       size * 0.24, heading, seconds, alpha * close);
     drawBattleWake(ctx, rootX, rootY, size * lerp(0.21, 0.62, pull), heading,
       seconds, 0.45, alpha * (0.59 + 0.23 * (1 - close)));
+    drawCommanderBurning(ctx, x, y, size, h, heading, seconds, fireAlpha, false);
     drawCommanderWings(ctx, rootX, rootY, size, seconds, alpha);
     ctx.globalAlpha = alpha;
-    ctx.drawImage(commander, x, y, size, h);
+    ctx.drawImage(commanderFirelight(seconds, fireAlpha), x, y, size, h);
+    ctx.globalAlpha = 1;
+    commanderAsh.drawClouds(ctx, x, y, size, h, heading, seconds, fireAlpha);
+    drawCommanderBurning(ctx, x, y, size, h, heading, seconds, fireAlpha, true);
+    commanderAsh.drawFragments(ctx, x, y, size, h, heading, seconds, fireAlpha);
     ctx.restore();
   }
 
@@ -481,11 +724,12 @@ function makeOpeningSequence(first, assets, helpers) {
   }
 
   function drawWhiteOpening(ctx, t) {
-    if (t < whiteLightAt) return;
-    const progress = Math.min(1, (t - whiteLightAt) / (secondDuration - whiteLightAt));
-    const y = landing.y + matte;
-    const radius = 3 + 2220 * progress ** 3.10;
-    const light = ctx.createRadialGradient(landing.x, y, 0, landing.x, y, radius);
+    if (t < whiteLightAt - 1e-9) return;
+    const elapsed = Math.max(0, t - whiteLightAt);
+    const progress = Math.min(1, elapsed / (secondDuration - whiteLightAt));
+    const { x, y } = flashOrigin;
+    const radius = 10 + 32 * smooth(0, 0.28, elapsed) + 2180 * progress ** 2.75;
+    const light = ctx.createRadialGradient(x, y, 0, x, y, radius);
     light.addColorStop(0, '#fff');
     light.addColorStop(0.22, '#fffff5');
     light.addColorStop(0.49, 'rgba(255,247,219,0.78)');
@@ -493,9 +737,9 @@ function makeOpeningSequence(first, assets, helpers) {
     light.addColorStop(1, 'rgba(255,232,190,0)');
     ctx.save();
     ctx.globalCompositeOperation = 'screen';
-    ctx.globalAlpha = smooth(whiteLightAt, whiteLightAt + 0.11, t);
+    ctx.globalAlpha = lerp(0.84, 1, smooth(whiteLightAt, whiteLightAt + 0.12, t));
     ctx.fillStyle = light;
-    ctx.fillRect(0, 0, width, height + 2 * matte);
+    ctx.fillRect(0, matte, width, height);
     ctx.globalCompositeOperation = 'source-over';
     ctx.globalAlpha = smooth(secondDuration - 0.52, secondDuration - 0.18, t);
     ctx.fillStyle = '#fff';
@@ -519,8 +763,11 @@ function makeOpeningSequence(first, assets, helpers) {
 
     drawAtmosphere(ctx, t, pull, group);
     drawAir(ctx, seconds, lerp(0.35, 1.44, close) * (1 - 0.88 * smooth(5.30, 8.18, t)), lerp(0.79, 1.8, close));
-    if (group > 0) for (const figure of meteorFlight) drawFallingFigure(ctx, figure, t, group, pull);
-    drawCommander(ctx, t, pull, seconds);
+    const fallOpacity = 1 - smooth(fallClearAt - 0.24, fallClearAt, seconds);
+    if (fallOpacity > 0) {
+      if (group > 0) for (const figure of meteorFlight) drawFallingFigure(ctx, figure, t, group * fallOpacity, pull);
+      drawCommander(ctx, t, pull, seconds, fallOpacity);
+    }
     drawAir(ctx, seconds, 0.97 * close, 1.67, true);
     pageFinish(ctx);
 
@@ -536,14 +783,15 @@ function makeOpeningSequence(first, assets, helpers) {
       first(t);
       return;
     }
-    if (t >= secondStart) {
-      renderSecond(context, t - secondStart);
+    const secondTime = t - secondStart;
+    if (secondTime >= 0) {
+      renderSecond(context, secondTime);
       return;
     }
 
     const progress = (t - firstDuration) / transitionDuration;
     first(firstDuration, smooth(0, 1, progress));
-    renderSecond(incoming, 0);
+    renderSecond(incoming, secondTime);
     context.save();
     context.globalAlpha = smooth(0.19, 1, progress);
     context.filter = 'blur(' + (13 * (1 - progress)).toFixed(2) + 'px)';

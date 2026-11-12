@@ -7,7 +7,7 @@ const { spawn } = require('node:child_process');
 const { once } = require('node:events');
 const { mkdtemp, rm } = require('node:fs/promises');
 const os = require('node:os');
-const { duration, pullStart, pullEnd, firstDuration, secondStart, whiteLightAt } = require('./shot-timing.js');
+const { duration, pullStart, pullEnd, firstDuration, secondStart, fallClearAt, whiteLightAt } = require('./shot-timing.js');
 const { pathToFileURL } = require('node:url');
 
 const root = __dirname;
@@ -89,6 +89,9 @@ async function main() {
     const infantry = await evalPage('openingShot.infantry');
     if (infantry.current !== infantry.previous + Math.round(infantry.previous * 0.5)) throw Error('Unexpected infantry count');
     console.log('Infantry increased from ' + infantry.previous + ' to ' + infantry.current);
+    const airborne = await evalPage('openingShot.airborne');
+    if (airborne !== Math.round(infantry.current * 0.5)) throw Error('Unexpected airborne count');
+    console.log('Airborne army: ' + airborne);
     await evalPage('document.querySelector("button").click()');
     let state;
     for (let attempt = 0; attempt < 30; attempt++) {
@@ -104,13 +107,21 @@ async function main() {
     if (fileTest) {
       const audioReady = await evalPage('document.querySelector("audio").duration === ' + duration);
       if (!audioReady) throw Error('Local WAV did not load');
-      await evalPage('slider.value = ' + (firstDuration - 0.16) + '; slider.dispatchEvent(new Event("input")); document.querySelector("button").click();');
+      await evalPage("const sampledFrames = []; const originalRender = openingShot.render; openingShot.render = time => { sampledFrames.push(time); return originalRender(time); }; " +
+        'slider.value = ' + (firstDuration - 0.16) + '; slider.dispatchEvent(new Event("input")); document.querySelector("button").click();');
       let crossed = false;
       for (let i = 0; i < 28 && !crossed; i++) {
         crossed = await evalPage('Number(slider.value) >= ' + (secondStart + 0.14));
         if (!crossed) await new Promise(resolve => setTimeout(resolve, 120));
       }
       if (!crossed) throw Error('Playback did not cross into the second shot');
+      const playback = await evalPage('openingShot.render = originalRender; sampledFrames');
+      const overlap = playback.filter(time => time > firstDuration && time < secondStart);
+      const longestStep = playback.slice(2).reduce((max, time, i) => Math.max(max, time - playback[i + 1]), 0);
+      if (overlap.length < 4 || longestStep >= 0.48) {
+        throw Error('Preview did not present continuous transition frames: ' + JSON.stringify(playback));
+      }
+      console.log('Live dissolve: ' + overlap.length + ' frames; largest time step ' + longestStep.toFixed(3) + 's');
       await evalPage('slider.value = ' + (duration - 0.3) + '; slider.dispatchEvent(new Event("input")); document.querySelector("button").click();');
       let end;
       for (let attempt = 0; attempt < 30; attempt++) {
@@ -127,13 +138,61 @@ async function main() {
     const whiteEnd = await evalPage('openingShot.render(openingShot.duration); document.querySelector("canvas").getContext("2d").getImageData(0,0,1920,1080).data.every(value => value === 255)');
     if (!whiteEnd) throw Error("Expected full-screen white ending");
 
+    const dissolveSamples = await evalPage(`(() => {
+      const ctx = document.querySelector('canvas').getContext('2d');
+      const original = ctx.drawImage;
+      const marks = [];
+      ctx.drawImage = function (source, ...args) {
+        if (source instanceof HTMLCanvasElement && source.width === ctx.canvas.width &&
+            source.height === ctx.canvas.height && args.length === 2) {
+          const pixels = source.getContext('2d').getImageData(720, 286, 456, 350).data;
+          let hash = 2166136261;
+          for (let i = 0; i < pixels.length; i += 8) hash = Math.imul(hash ^ pixels[i], 16777619);
+          marks.push(hash >>> 0);
+        }
+        return original.call(this, source, ...args);
+      };
+      try {
+        const { firstDuration, transitionDuration } = OPENING_SHOT_TIMING;
+        for (const progress of [0.36, 0.58, 0.83]) openingShot.render(firstDuration + progress * transitionDuration);
+      } finally {
+        delete ctx.drawImage;
+      }
+      return marks;
+    })()`);
+    if (dissolveSamples.length !== 3 || new Set(dissolveSamples).size !== 3) {
+      throw Error('Incoming shot must animate inside the dissolve: ' + JSON.stringify(dissolveSamples));
+    }
+    console.log('Incoming shot motion verified at three points inside the dissolve');
+
+    const flash = await evalPage(`(() => {
+      const canvas = document.querySelector('canvas');
+      const ctx = canvas.getContext('2d');
+      const { secondStart, fallClearAt, whiteLightAt } = OPENING_SHOT_TIMING;
+      const read = time => {
+        openingShot.render(secondStart + time);
+        const radius = 64;
+        const x = Math.floor(canvas.width * 0.572);
+        const y = Math.floor(90 + (canvas.height - 180) * 0.784);
+        const pixels = ctx.getImageData(x - radius, y, 2 * radius, 1).data;
+        let lit = 0;
+        for (let i = 0; i < pixels.length; i += 4) if (pixels[i] > 160) lit++;
+        return lit;
+      };
+      return [read(fallClearAt), read(whiteLightAt - 1 / 30), read(whiteLightAt), read(whiteLightAt + 0.30)];
+    })()`);
+    if (Math.abs(whiteLightAt - fallClearAt - 0.5) > 1e-9 || flash[0] !== 0 || flash[1] !== 0 || flash[2] < 3 || flash[3] <= flash[2] + 10) {
+      throw Error('Expected a half-second dark beat followed by a visible, expanding light: ' + JSON.stringify(flash));
+    }
+    console.log('Abyss light begins after 0.5s and expands on screen');
+
     const capture = async (time, type, quality) => {
       const data = await evalPage('openingShot.render(' + time + '); document.querySelector("canvas").toDataURL(' +
         JSON.stringify(type) + ',' + quality + ').split(",")[1]');
       return Buffer.from(data, 'base64');
     };
     const stillDir = process.env.SHOT_STILLS || root;
-    for (const [label, t] of [['close', pullStart - 0.1], ['wide', firstDuration - 0.97], ['transition', firstDuration + 0.45], ['portrait', secondStart + 0.47], ['pullback', secondStart + 2.63], ['skyfall', secondStart + 4.38], ['abyss', secondStart + 7.80], ['white-point', secondStart + whiteLightAt + 0.31], ['white-out', duration - 1 / 30]]) {
+    for (const [label, t] of [['close', pullStart - 0.1], ['wide', firstDuration - 0.97], ['transition', firstDuration + 0.45], ['portrait', secondStart + 0.47], ['pullback', secondStart + 2.63], ['skyfall', secondStart + 4.38], ['abyss', secondStart + 6.82], ['abyss-clear', secondStart + fallClearAt], ['flash-onset', secondStart + whiteLightAt + 0.10], ['white-point', secondStart + whiteLightAt + 0.60], ['white-out', duration - 1 / 30], ['air-reveal', pullEnd + 0.75], ['embers', secondStart + 1.28]]) {
       fs.writeFileSync(path.join(stillDir, label + '.jpg'), await capture(t, 'image/jpeg', 0.95));
     }
     if (process.argv.includes('--stills')) return;
@@ -143,7 +202,7 @@ async function main() {
       '-hide_banner', '-loglevel', 'error', '-y', '-f', 'image2pipe', '-framerate', String(fps), '-vcodec', 'mjpeg',
       '-i', 'pipe:0', '-i', path.join(root, 'assets', 'score.wav'), '-c:v', 'libx264', '-preset', 'medium',
       '-crf', '17', '-pix_fmt', 'yuv420p', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709',
-      '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', '-t', String(duration), path.join(root, 'opening-shots-01-02-ribbon-fall.mp4')
+      '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', '-t', String(duration), path.join(root, 'opening-shots-01-02-abyss-half-second.mp4')
     ], { windowsHide: true, stdio: ['pipe', 'inherit', 'inherit'] });
     const done = once(encoder, 'exit');
     for (let i = 0; i < Math.round(duration * fps); i++) {

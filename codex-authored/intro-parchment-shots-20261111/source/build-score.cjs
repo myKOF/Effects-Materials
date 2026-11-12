@@ -2,10 +2,11 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
-const { firstDuration, secondStart, fallIntoAbyss, whiteLightAt, fallTime, duration } = require('./shot-timing.js');
+const { firstDuration, secondStart, fallClearAt, whiteLightAt, fallTime, duration } = require('./shot-timing.js');
 const rate = 48000;
 const frames = Math.round(rate * duration);
 const firstFrames = rate * firstDuration;
+const fallIntoAbyss = fallTime(fallClearAt);
 const source = fs.readFileSync(path.join(__dirname, 'assets', 'score-shot-one.wav'));
 if (source.toString('ascii', 0, 4) !== 'RIFF' || source.toString('ascii', 36, 40) !== 'data' ||
     source.readUInt16LE(22) !== 2 || source.readUInt32LE(24) !== rate ||

@@ -37,6 +37,12 @@
   }
 
   // Source rectangles isolate the four generated ink silhouettes in the atlas.
+  const airDemonPoses = [
+    // Each pair contains the raised and lowered wing poses for one species.
+    [[16, 10, 508, 514, 284, 228], [12, 551, 499, 440, 262, 141]],
+    [[538, 6, 531, 473, 271, 245], [530, 584, 525, 350, 276, 129]],
+    [[1093, 43, 413, 448, 230, 192], [1083, 607, 442, 354, 211, 125]]
+  ].map(pair => pair.map(([x, y, w, h, ax, ay]) => ({ x, y, w, h, ax, ay })));
   const demonSprites = [[93, 5, 424, 593], [672, 79, 537, 506], [92, 621, 403, 621], [643, 671, 547, 573]];
 
   // Each fog sheet has a distinct, stationary ink texture. Its translation and
@@ -861,10 +867,12 @@
       ctx.globalAlpha = 0.37;
       ctx.drawImage(veil, 605 - t * 14, -170 + t * 4, 1740, 550);
       ctx.globalAlpha = 1;
+      assets.airArmy.drawLayer(ctx, t, false);
       drawTempleRuins(ctx, assets.temples, assets.templeSpire, t, wind);
       ctx.globalAlpha = 0.62;
       ctx.drawImage(dawnFog, -160 + t * 17, 425, 2030, 245);
     });
+    withCamera(ctx, camera, 0.68, () => assets.airArmy.drawLayer(ctx, t, true));
     withCamera(ctx, camera, 0.78, () => {
       ctx.globalAlpha = 0.65;
       ctx.drawImage(darkFog, 326 - t * 18, 438, 1760, 310);
@@ -994,7 +1002,7 @@
     };
   }
 
-  const names = ['valley', 'valley-clean', 'temples', 'temple-roofs', 'temple-details', 'temple-spire', 'angel', 'wing', 'demons', 'ledge', 'colossus', 'ember', 'siege', 'heaven-sky', 'cloud-abyss', 'archangel-fall-ivory', 'angels-fall-faces', 'collapse-smoke'];
+  const names = ['valley', 'valley-clean', 'temples', 'temple-roofs', 'temple-details', 'temple-spire', 'angel', 'wing', 'demons', 'air-demon-atlas', 'ledge', 'colossus', 'ember', 'siege', 'heaven-sky', 'cloud-abyss', 'archangel-fall-regalia', 'archangel-hood-edit', 'archangel-right-hand', 'angels-fall-faces', 'collapse-smoke'];
   window.openingShot = {
     duration,
     infantry: Object.freeze({ previous: baseTroopCount, current: troops.length }),
@@ -1006,6 +1014,10 @@
       assets.temples = templeFoundation(openTempleCenter(cleaned));
       assets.templeSpire = templeSpirePlate(assets['temple-spire']);
       assets.sprites = demonSprites;
+      assets.airArmy = makeAirArmy(troops.length, assets['air-demon-atlas'], airDemonPoses, {
+        random, smooth, lerp, pullStart, pullEnd
+      });
+      window.openingShot.airborne = assets.airArmy.count;
       for (const name of ['colossus', 'ember', 'siege']) {
         const image = assets[name];
         assets[name] = { image, bounds: [0, 0, image.width, image.height] };
