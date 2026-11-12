@@ -1,0 +1,11 @@
+{
+  "tool": "Built-in ImageGen",
+  "shared": "Stylized-concept, single premium closed dark-fantasy treasure chest inventory icon, isolated on genuinely transparent alpha canvas, centered, square canvas. Camera near front, slightly above to see lid and turned 12 degrees to show right side. Compact wide chest about 1.4:1, full silhouette with small safe margins. Hand-painted realistic AAA action RPG prop, engraved metal, sculpted corner protectors and a readable large central clasp, beautiful sharp rim highlights from upper left and clear midtones legible when shrunk to 90 pixels against charcoal UI. Textures are tangible, with clean broad value shapes. Only one chest, fully closed; no words, no lettering, no numbers, no graphic border, no platform, no floor, no cast shadow, no haze, no detached particles, no objects outside silhouette.",
+  "variants": {
+    "bronze": "Cool silvery-white brushed iron frame and riveted gunmetal panels, finely incised geometric corner detailing and a broad silver keyhole clasp, softly worn metallic edges. Strictly neutral steel gray, charcoal, and silver white. Avoid all brown, gold, and bronze hues.",
+    "fine": "Deep sapphire-blue enamel panels inset into pale polished silver-steel ribs, decorative wave engraving, sharply cut blue sapphire in a large faceted steel clasp, finely chased border and stepped lid.",
+    "epic": "Amethyst-purple lacquer and violet crystal panels in carved midnight steel, graceful gothic arches and filigree, vivid faceted amethyst as the central lock and lilac edge highlights.",
+    "legendary": "Rich burnt-orange lacquer and deeply engraved warm brass, red-amber gemstone in a large sculpted flame-shaped lock, bold gilded sun rays in relief and substantial decorated corner guards, glowing amber reflections inside the silhouette.",
+    "mythic": "Black obsidian plates with radiant rich antique-gold sculpted relief, lavish cathedral-inspired stepped lid, winged heraldic ornaments merging into gold corners, a prominent polished pale-gold celestial gemstone set in a golden sunburst lock. Opulent, commanding broad gold shapes against black."
+  }
+}

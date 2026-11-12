@@ -1,0 +1,13 @@
+{
+  "originals/bronze.png": "589ee2ce7b726748ce4e63a885873cd3b9689443103e76b1b1220b5861c1951c",
+  "web/bronze.webp": "024d4a19c03a9fc8cab42005af3cf4ae04ee4206d7423fb567dbd994d4effa35",
+  "originals/fine.png": "6952af5e694417572d6408c802ad191943de1f271ffff0a8dfc2998135890c77",
+  "web/fine.webp": "63adf94c5a3d8d52ba7310ac72367a81601cc78d2bf1b531184f1ab5bd4bcbf0",
+  "originals/epic.png": "8363bad2986b2cfea2d727fc2e027876a0cb8a56e5426158fc114d0cb993f72c",
+  "web/epic.webp": "fac5da5c3b7bb011c0b769258c8d83ac821ab0cb4d979f75bb8d050730073b91",
+  "originals/legendary.png": "84879cf7c517c5888b786243543cf2d278006ab1b86b3120cf8afdcf6fb0509f",
+  "web/legendary.webp": "fce06250b45fcddf794ce9e3cfec01c8801558af1d6b4c364282d6b8d17ee3cd",
+  "originals/mythic.png": "d86d42d0ddf337ee089078603961229952ac318a1535e8c372c06c0da533000a",
+  "web/mythic.webp": "b377524d5e7b6d2cd061e0a89018a6979b841b5ef99fe4883d4a48339ccf9f07",
+  "PROMPTS.json": "f6a9eabb7545a3ed3f8c69abd6dd243c6bbf246cab5506bf76701e5029b7a5b7"
+}
