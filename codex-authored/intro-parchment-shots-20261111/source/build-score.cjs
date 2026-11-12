@@ -2,10 +2,11 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
-const { firstDuration, secondStart, fallClearAt, whiteLightAt, fallTime, duration } = require('./shot-timing.js');
+const { firstDuration, secondStart, fallClearAt, whiteLightAt, fallTime, thirdStart, thirdDuration, thirdBeamAt, thirdHopeAt, thirdDiveAt, thirdGroundAt, thirdFadeAt, duration } = require('./shot-timing.js');
 const rate = 48000;
 const frames = Math.round(rate * duration);
 const firstFrames = rate * firstDuration;
+const heavenlyFrames = Math.round(rate * thirdStart);
 const fallIntoAbyss = fallTime(fallClearAt);
 const source = fs.readFileSync(path.join(__dirname, 'assets', 'score-shot-one.wav'));
 if (source.toString('ascii', 0, 4) !== 'RIFF' || source.toString('ascii', 36, 40) !== 'data' ||
@@ -48,7 +49,7 @@ let low = 0;
 let grit = 0;
 let side = 0;
 const endingNotes = [[55, 0.048], [73.416, 0.043], [110, 0.03], [164.81, 0.022], [220, 0.014]];
-for (let i = firstFrames; i < frames; i++) {
+for (let i = firstFrames; i < heavenlyFrames; i++) {
   const time = i / rate;
   const local = time - secondStart;
   const t = fallTime(local);
@@ -70,10 +71,38 @@ for (let i = firstFrames; i < frames; i++) {
   const grief = endingNotes.reduce((sum, [hz, gain], index) =>
     sum + gain * (tone(hz, t, index * 0.65) + 0.28 * tone(hz * 1.006, t)) *
       (0.74 + 0.26 * tone(0.42 + index * 0.11, t)), 0) * smooth(0.54, 3.12, t) * (1 - smooth(6.11, fallIntoAbyss + 0.36, t));
-  const fade = smooth(firstDuration, firstDuration + 0.15, time) * (1 - smooth(duration - 0.32, duration, time));
+  const fade = smooth(firstDuration, firstDuration + 0.15, time) * (1 - smooth(thirdStart - 0.32, thirdStart, time));
   const white = smooth(0.12, 1.50, lightTime) * (tone(261.63, t) * 0.064 + tone(523.25, t) * 0.030 + tone(659.25, t) * 0.018);
   const mid = (air + stone + collapse + chime + grief + white) * fade;
   const stereo = side * (0.052 + 0.063 * transitionWind + 0.070 * falling) * fade;
+  wave.writeInt16LE(Math.round(32700 * Math.tanh(mid + stereo)), 44 + i * 4);
+  wave.writeInt16LE(Math.round(32700 * Math.tanh(mid - stereo)), 46 + i * 4);
+}
+low = 0;
+side = 0;
+for (let i = heavenlyFrames; i < frames; i++) {
+  const t = (i - heavenlyFrames) / rate;
+  const raw = random();
+  low += (raw - low) * 0.009;
+  side += (random() - side) * 0.027;
+  const ink = smooth(0.79, thirdHopeAt, t);
+  const air = (low * (0.24 + 0.22 * ink) + (raw - low) * 0.028) * (0.76 + 0.24 * tone(0.53, t));
+  const chime = metal(t, 0.39, 698.46, 0.039) + metal(t, 0.79, 523.25, 0.021) + metal(t, 1.14, 1046.5, 0.016);
+  const shadow = ink * (0.044 * tone(55, t) + 0.034 * tone(58.27, t + 0.3) + 0.023 * tone(82.407, t)) +
+    impact(t, 1.48, 44, 0.032) + impact(t, 2.43, 38, 0.077) + impact(t, 3.18, 36, 0.057);
+  const beamAge = Math.max(0, t - thirdBeamAt);
+  const beam = smooth(thirdBeamAt, thirdHopeAt - 0.13, t) * (1 - smooth(thirdHopeAt, thirdHopeAt + 0.28, t)) *
+    (tone(196, beamAge, 118 * beamAge ** 2) * 0.023 + (raw - low) * 0.035);
+  const hopeAge = Math.max(0, t - thirdHopeAt);
+  const hope = smooth(0, 0.26, hopeAge) * (tone(261.63, hopeAge) * 0.031 + tone(392, hopeAge) * 0.021) +
+    metal(t, thirdHopeAt, 783.99, 0.087) + metal(t, thirdHopeAt + 0.15, 1046.5, 0.032) + impact(t, thirdHopeAt, 59, 0.037);
+  const fade = smooth(0, 0.44, t) * (1 - smooth(thirdFadeAt, thirdDuration, t));
+  const windPeak = smooth(thirdDiveAt, thirdDiveAt + 0.79, t) * (1 - smooth(thirdDiveAt + 0.86, thirdGroundAt + 0.38, t));
+  const diveWind = windPeak * (low * 0.43 + (raw - low) * 0.07 + tone(48, t, 1.4 * Math.sin(t * 1.3)) * 0.059);
+  const ground = smooth(thirdGroundAt - 0.28, thirdGroundAt + 0.80, t) *
+    (0.028 * tone(130.81, t) + 0.017 * tone(196, t) + low * 0.16);
+  const mid = (air + chime + shadow * (1 - 0.70 * smooth(thirdHopeAt, thirdHopeAt + 0.50, t)) + beam + hope + diveWind + ground) * fade;
+  const stereo = side * (0.051 + 0.057 * ink + 0.082 * windPeak) * fade;
   wave.writeInt16LE(Math.round(32700 * Math.tanh(mid + stereo)), 44 + i * 4);
   wave.writeInt16LE(Math.round(32700 * Math.tanh(mid - stereo)), 46 + i * 4);
 }

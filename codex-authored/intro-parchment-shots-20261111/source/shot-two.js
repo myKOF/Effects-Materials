@@ -5,7 +5,7 @@ function makeOpeningSequence(first, assets, helpers) {
     context, width, height, matte, layer, random, lerp, smooth, bloom, pageFinish,
     dawnFog, templePlacement, templeSpirePlacement, templeFires, drawTempleSmoke, drawTempleFire
   } = helpers;
-  const { duration, firstDuration, secondStart, secondDuration, transitionDuration, fallTime, fallClearAt, whiteLightAt } = OPENING_SHOT_TIMING;
+  const { thirdStart, firstDuration, secondStart, secondDuration, transitionDuration, fallTime, fallClearAt, whiteLightAt } = OPENING_SHOT_TIMING;
   const incoming = layer(width, height + matte * 2, { alpha: false });
   const sky = assets['heaven-sky'];
   const abyss = assets['cloud-abyss'];
@@ -778,7 +778,7 @@ function makeOpeningSequence(first, assets, helpers) {
   }
 
   return function render(seconds) {
-    const t = Math.max(0, Math.min(duration, seconds));
+    const t = Math.max(0, Math.min(thirdStart, seconds));
     if (t <= firstDuration) {
       first(t);
       return;

@@ -4,7 +4,7 @@
   const width = 1920;
   const height = 900;
   const matte = 90;
-  const { duration, firstDuration, pullStart, pullEnd } = OPENING_SHOT_TIMING;
+  const { duration, thirdStart, firstDuration, pullStart, pullEnd } = OPENING_SHOT_TIMING;
   const canvas = document.querySelector('canvas');
   const context = canvas.getContext('2d', { alpha: false });
   const caption = '神界未日…';
@@ -1002,7 +1002,7 @@
     };
   }
 
-  const names = ['valley', 'valley-clean', 'temples', 'temple-roofs', 'temple-details', 'temple-spire', 'angel', 'wing', 'demons', 'air-demon-atlas', 'ledge', 'colossus', 'ember', 'siege', 'heaven-sky', 'cloud-abyss', 'archangel-fall-regalia', 'archangel-hood-edit', 'archangel-right-hand', 'angels-fall-faces', 'collapse-smoke'];
+  const names = ['valley', 'valley-clean', 'temples', 'temple-roofs', 'temple-details', 'temple-spire', 'angel', 'wing', 'demons', 'air-demon-atlas', 'ledge', 'colossus', 'ember', 'siege', 'heaven-sky', 'cloud-abyss', 'archangel-fall-regalia', 'archangel-hood-edit', 'archangel-right-hand', 'angels-fall-faces', 'collapse-smoke', 'mortal-map', 'desert-surface'];
   window.openingShot = {
     duration,
     infantry: Object.freeze({ previous: baseTroopCount, current: troops.length }),
@@ -1024,11 +1024,18 @@
       }
       assets.angelInk = makeAngelInk(assets.angel);
       assets.wing = softenWingBoundary(assets.wing);
-      const render = makeOpeningSequence(makeScene(assets), assets, {
+      const renderHeaven = makeOpeningSequence(makeScene(assets), assets, {
         context, width, height, matte, layer, random, lerp, smooth, bloom, pageFinish,
         dawnFog, templePlacement, templeSpirePlacement,
         templeFires, drawTempleSmoke, drawTempleFire
       });
+      const renderMap = makeMortalMap(assets['mortal-map'], assets['desert-surface'], assets['collapse-smoke'], {
+        context, width, height, matte, layer, random, lerp, smooth, bloom, pageFinish
+      });
+      function render(seconds) {
+        if (seconds <= thirdStart) renderHeaven(seconds);
+        else renderMap(Math.min(seconds, duration) - thirdStart);
+      }
       render(1.35);
       window.openingShot.render = render;
       window.openingShot.sprites = assets.sprites;

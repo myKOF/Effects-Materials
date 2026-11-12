@@ -7,7 +7,7 @@ const { spawn } = require('node:child_process');
 const { once } = require('node:events');
 const { mkdtemp, rm } = require('node:fs/promises');
 const os = require('node:os');
-const { duration, pullStart, pullEnd, firstDuration, secondStart, fallClearAt, whiteLightAt } = require('./shot-timing.js');
+const { duration, pullStart, pullEnd, firstDuration, secondStart, fallClearAt, whiteLightAt, thirdStart, thirdBeamAt, thirdHopeAt, thirdDiveAt, thirdGroundAt } = require('./shot-timing.js');
 const { pathToFileURL } = require('node:url');
 
 const root = __dirname;
@@ -135,8 +135,8 @@ async function main() {
       return;
     }
     await evalPage('document.fonts.ready.then(() => true)');
-    const whiteEnd = await evalPage('openingShot.render(openingShot.duration); document.querySelector("canvas").getContext("2d").getImageData(0,0,1920,1080).data.every(value => value === 255)');
-    if (!whiteEnd) throw Error("Expected full-screen white ending");
+    const whiteEnd = await evalPage('openingShot.render(OPENING_SHOT_TIMING.thirdStart); document.querySelector("canvas").getContext("2d").getImageData(0,0,1920,1080).data.every(value => value === 255)');
+    if (!whiteEnd) throw Error("Expected full-screen white between the second and third shots");
 
     const dissolveSamples = await evalPage(`(() => {
       const ctx = document.querySelector('canvas').getContext('2d');
@@ -192,7 +192,7 @@ async function main() {
       return Buffer.from(data, 'base64');
     };
     const stillDir = process.env.SHOT_STILLS || root;
-    for (const [label, t] of [['close', pullStart - 0.1], ['wide', firstDuration - 0.97], ['transition', firstDuration + 0.45], ['portrait', secondStart + 0.47], ['pullback', secondStart + 2.63], ['skyfall', secondStart + 4.38], ['abyss', secondStart + 6.82], ['abyss-clear', secondStart + fallClearAt], ['flash-onset', secondStart + whiteLightAt + 0.10], ['white-point', secondStart + whiteLightAt + 0.60], ['white-out', duration - 1 / 30], ['air-reveal', pullEnd + 0.75], ['embers', secondStart + 1.28]]) {
+    for (const [label, t] of [['close', pullStart - 0.1], ['wide', firstDuration - 0.97], ['transition', firstDuration + 0.45], ['portrait', secondStart + 0.47], ['pullback', secondStart + 2.63], ['skyfall', secondStart + 4.38], ['abyss', secondStart + 6.82], ['abyss-clear', secondStart + fallClearAt], ['flash-onset', secondStart + whiteLightAt + 0.10], ['white-point', secondStart + whiteLightAt + 0.60], ['white-out', thirdStart - 1 / 30], ['mortal-reveal', thirdStart + 0.8], ['mortal-starlight', thirdStart + 1.5], ['mortal-push-mid', thirdStart + 3.15], ['mortal-encroachment', thirdStart + thirdBeamAt - 0.10], ['mortal-beam', thirdStart + thirdBeamAt + 0.29], ['mortal-hope', thirdStart + thirdHopeAt + 0.30], ['mortal-dive', thirdStart + thirdDiveAt + 0.71], ['mortal-passage', thirdStart + thirdDiveAt + 0.98], ['mortal-surface', thirdStart + thirdGroundAt + 0.83], ['mortal-dark', duration - 1 / 30], ['air-reveal', pullEnd + 0.75], ['embers', secondStart + 1.28]]) {
       fs.writeFileSync(path.join(stillDir, label + '.jpg'), await capture(t, 'image/jpeg', 0.95));
     }
     if (process.argv.includes('--stills')) return;
@@ -202,7 +202,7 @@ async function main() {
       '-hide_banner', '-loglevel', 'error', '-y', '-f', 'image2pipe', '-framerate', String(fps), '-vcodec', 'mjpeg',
       '-i', 'pipe:0', '-i', path.join(root, 'assets', 'score.wav'), '-c:v', 'libx264', '-preset', 'medium',
       '-crf', '17', '-pix_fmt', 'yuv420p', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709',
-      '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', '-t', String(duration), path.join(root, 'opening-shots-01-02-abyss-half-second.mp4')
+      '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', '-t', String(duration), path.join(root, 'opening-shots-01-03-desert-ground-dive.mp4')
     ], { windowsHide: true, stdio: ['pipe', 'inherit', 'inherit'] });
     const done = once(encoder, 'exit');
     for (let i = 0; i < Math.round(duration * fps); i++) {

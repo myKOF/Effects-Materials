@@ -10,6 +10,13 @@ const OPENING_SHOT_TIMING = (() => {
   const fallClearAt = 9;
   const whiteLightAt = fallClearAt + 0.5;
   const secondDuration = whiteLightAt + 1.4;
+  const thirdStart = Math.round((secondStart + secondDuration) * 1000) / 1000;
+  const thirdDuration = 9.5;
+  const thirdBeamAt = 4.42;
+  const thirdHopeAt = 4.83;
+  const thirdDiveAt = 5.18;
+  const thirdGroundAt = 6.44;
+  const thirdFadeAt = 8.56;
   function fallTime(seconds) {
     const stretchStart = 3.18;
     const stretchEnd = unretimedFallEnd + fallExtension;
@@ -19,7 +26,8 @@ const OPENING_SHOT_TIMING = (() => {
   return Object.freeze({
     pullStart: 3.3, pullEnd: 4.4,
     firstDuration, transitionDuration, secondStart, secondDuration, fallClearAt, whiteLightAt, fallTime,
-    duration: Math.round((secondStart + secondDuration) * 1000) / 1000
+    thirdStart, thirdDuration, thirdBeamAt, thirdHopeAt, thirdDiveAt, thirdGroundAt, thirdFadeAt,
+    duration: thirdStart + thirdDuration
   });
 })();
 
