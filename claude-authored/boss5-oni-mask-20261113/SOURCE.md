@@ -63,7 +63,12 @@
 
 | 檔案 | 說明 | SHA-256 |
 | --- | --- | --- |
-| `boss5_game.glb` | 遊戲用 GLB（與 `images/models/npc3d/boss5.glb` 逐位元相同）：Walk／攻擊1～3 的水平位移固定（只保留前傾、飄浮起伏、壓扁、顫抖），死亡碎片散布限制在 NPC 畫布內（|深度| ≤ 3.0 m、|橫向| ≤ 2.4 m） | `2a02ed7953503b7d86c2ee0125ea184fc60e8abd22407ba109e09b888fc1b898` |
+| `boss5_game.glb` | 遊戲用 GLB（與 `images/models/npc3d/boss5.glb` 逐位元相同）：Walk／攻擊2／攻擊3 的水平位移固定；攻擊1 因 BOSS 改近戰只保留 0.9 m 前撲；死亡碎片散布限制在 NPC 畫布內（深度 ≤ 3.0 m、橫向 ≤ 2.4 m）；面具與後腦材質 baseColorFactor 乘 0.5（遊戲 ACES 曝光會把飽和朱紅曬成粉紅，`tools/boss5/patch-game-glb.cjs`） | `c72afd9ed63fd8351e7d9b288e0538dc1e219c434b4588b6329fa9518e444ff8` |
 | `boss5_oni.png` | 1080×1080 透明頭像（Walk 首格、右前方 22°），與 `images/sprites/boss/boss5_oni.png` 相同 | `ef098e32138dfd6b01841eb0f650db9e12f4fe4ab9a48f9999b63017c7d00519` |
 
 - 產生方式：`build_rig.py --game`、`render_portrait.py`（`node tools/boss5/build_all.cjs` 會一併產出）。`boss5.glb` 仍保留含 6 m 衝撞位移的版本供日後由程式驅動時使用。
+
+## 戰鬥特效 Preset（2026-11-13）
+
+- `vfx/oni-skull-green.png`（SHA-256 `7039b85ed101c3590be6fa5d94433ee57b9b8a817d3cd37fe31d263c208fc07a`）：綠色小骷髏側面 256×256 透明圖，由 `boss5_skull.glb` 渲染（`render_skull_sprite.py`），供 `boss-oni-skull`／`boss-oni-ram-hit`／`boss-oni-skull-hit` 使用。
+- 八份 Preset 在遊戲專案 `vfx/presets/boss-oni-*.json`（製作腳本 `tools/vfx/authoring/author/boss-oni.cjs`），播放邏輯 `js/boss-oni-fx.js`，說明見 `docs/assets/BOSS5_SOURCE.md`。
