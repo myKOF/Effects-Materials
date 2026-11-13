@@ -72,3 +72,16 @@
 
 - `vfx/oni-skull-green.png`（SHA-256 `7039b85ed101c3590be6fa5d94433ee57b9b8a817d3cd37fe31d263c208fc07a`）：綠色小骷髏側面 256×256 透明圖，由 `boss5_skull.glb` 渲染（`render_skull_sprite.py`），供 `boss-oni-skull`／`boss-oni-ram-hit`／`boss-oni-skull-hit` 使用。
 - 八份 Preset 在遊戲專案 `vfx/presets/boss-oni-*.json`（製作腳本 `tools/vfx/authoring/author/boss-oni.cjs`），播放邏輯 `js/boss-oni-fx.js`，說明見 `docs/assets/BOSS5_SOURCE.md`。
+
+## 另外兩個貼圖版本（2026-11-13，Lv2 藍／Lv3 紫）
+
+使用者提供 `BOSS5_2.glb`（藍）、`BOSS5_3.glb`（紫）：與原版同一個網格（12,021 頂點，只多一個 UV 接縫頂點）、不同的三張 PBR 貼圖。動作與骨架整套重做套用（`node tools/boss5/build_all.cjs <來源> <輸出> ` ；變體要設 `BOSS5_HORN_REF=<原版輸出>/_work/front_albedo.png`，角的位置才從原版紅色面具取得，後腦底色改取臉部最常見色）。遊戲用檔案與頭像：
+
+| 檔案 | SHA-256 |
+| --- | --- |
+| `BOSS5_2_source_user.glb` | `1de23247a6d62247aae72048eb8f3675c77cb8d287cdc9d5ade6087d998a6bff` |
+| `BOSS5_3_source_user.glb` | `861b4b8e5c96c25e6499b823121b47d8cca011b83ddb26528f9c6283690000c8` |
+| `boss5_lv2_game.glb`（＝ images/models/npc3d/boss5_lv2.glb） | `04814f6f30a6b5ddb5904d74e240e194344b42e5f70d878031cf48237bd1171e` |
+| `boss5_lv3_game.glb`（＝ boss5_lv3.glb） | `7a03402cfa3a746b6d5ef9212acf8e914a230d5f89d623d8b18a699e943138e8` |
+| `boss5_oni_lv2.png` | `1ce37b4bdee90ac919348e43df9c5af3e0077f79d6e22f5377940ec96e416712` |
+| `boss5_oni_lv3.png` | `28e174d4546849d5bd8dc04d959a5ee3a9ec365781500c0d621d7a220bacbe43` |
