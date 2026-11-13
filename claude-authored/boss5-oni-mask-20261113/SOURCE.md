@@ -58,3 +58,12 @@
 ## 單位說明（重要）
 
 動作與預覽裡的「米」是模型自己的座標（1 單位＝1 m，面具高約 2 m），**不等於遊戲的米**（遊戲 1 米＝10 座標單位，3D 模型另依 NPC 表「縮放比」縮放上畫面）。攻擊 1 的 6 m、火焰 15 m、骷髏 60 m 是設計意圖，接進遊戲時要以遊戲米重新換算。見遊戲專案 `docs/assets/BOSS5_SOURCE.md`。
+
+## 遊戲用版本（2026-11-13 接入第5隻封魔塔BOSS）
+
+| 檔案 | 說明 | SHA-256 |
+| --- | --- | --- |
+| `boss5_game.glb` | 遊戲用 GLB（與 `images/models/npc3d/boss5.glb` 逐位元相同）：Walk／攻擊1～3 的水平位移固定（只保留前傾、飄浮起伏、壓扁、顫抖），死亡碎片散布限制在 NPC 畫布內（|深度| ≤ 3.0 m、|橫向| ≤ 2.4 m） | `2a02ed7953503b7d86c2ee0125ea184fc60e8abd22407ba109e09b888fc1b898` |
+| `boss5_oni.png` | 1080×1080 透明頭像（Walk 首格、右前方 22°），與 `images/sprites/boss/boss5_oni.png` 相同 | `ef098e32138dfd6b01841eb0f650db9e12f4fe4ab9a48f9999b63017c7d00519` |
+
+- 產生方式：`build_rig.py --game`、`render_portrait.py`（`node tools/boss5/build_all.cjs` 會一併產出）。`boss5.glb` 仍保留含 6 m 衝撞位移的版本供日後由程式驅動時使用。
