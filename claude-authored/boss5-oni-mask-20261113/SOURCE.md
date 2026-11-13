@@ -85,3 +85,8 @@
 | `boss5_lv3_game.glb`（＝ boss5_lv3.glb） | `7a03402cfa3a746b6d5ef9212acf8e914a230d5f89d623d8b18a699e943138e8` |
 | `boss5_oni_lv2.png` | `1ce37b4bdee90ac919348e43df9c5af3e0077f79d6e22f5377940ec96e416712` |
 | `boss5_oni_lv3.png` | `28e174d4546849d5bd8dc04d959a5ee3a9ec365781500c0d621d7a220bacbe43` |
+
+## 藍／紫版的小骷髏與火焰顏色（2026-11-13）
+
+- 紅版（第5層）：綠色小骷髏＋橘色火焰；藍版（第15層）：青藍小骷髏＋藍白火焰；紫版（第25層）：紫色小骷髏＋紫色火焰。眼睛紅光、紅霧、撞擊、碎裂三版共用。
+- 小骷髏貼圖由綠版色相轉換（`tools/boss5/hue_shift.py`）：`vfx/oni-skull-blue.png`（SHA-256 `79266501e0bf4e416554ce645fcd387e02c1f5da2f9b445bce19f7966505d34f`）、`vfx/oni-skull-purple.png`（`498a71f08e88e28118bb77c4a52d0523d3f3e124bc7a10b5f4a252b6fed9a77f`）。Preset 為 `boss-oni-{spit,skull,skull-hit,flame}-{blue,purple}`（`tools/vfx/authoring/author/boss-oni.cjs` 的 PALETTES）。
