@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>開頭動畫｜第二鏡・大天使長與群翼墜落</title>
+<style>
+@font-face { font-family: OpeningSerif; src: url(../extended-shot-one/assets/noto-serif-tc-bold.woff2); font-weight: 700; }
+:root { color-scheme:dark; font-family: "Microsoft JhengHei",system-ui,sans-serif; background:#15100d; color:#efe4cc; }
+body { min-height:100dvh; margin:0; display:grid; place-items:center; }
+main { width:min(100%, 1120px); }
+canvas { display:block; width:100%; height:auto; background:#0b0807; }
+.controls { box-sizing:border-box; display:flex; align-items:center; gap:14px; padding:14px 18px; }
+button { font:inherit; min-width:5em; padding:.4em .7em; border:1px solid #705842; background:#241a14; color:inherit; border-radius:4px; }
+button:enabled { cursor:pointer; }
+input { flex:1; min-width:4em; accent-color:#d6b381; }
+output { min-width:3.5em; text-align:right; font-variant-numeric:tabular-nums; }
+.capture .controls { display:none; }
+.capture main { width:100%; }
+.capture body { display:block; }
+</style>
+</head>
+<body>
+<main>
+  <canvas width="1920" height="1080" role="img" aria-label="大天使長與群翼墜入深淵"></canvas>
+  <div class="controls">
+    <button type="button" disabled>播放</button>
+    <input aria-label="播放進度" type="range" min="0" step="0.01" value="0" disabled>
+    <output>0.00 秒</output>
+  </div>
+</main>
+<audio preload="auto" src="assets/shot-two-preview.wav"></audio>
+<script src="../source/shot-fire.js"></script>
+<script src="../source/shot-ash.js"></script>
+<script src="shot-timing.js"></script>
+<script src="commander-reference.js"></script>
+<script src="shot-two.js"></script>
+<script src="shot.js"></script>
+<script src="preview.js"></script>
+</body>
+</html>

@@ -386,8 +386,8 @@
 
 
   const wingBackRoots = {
-    left: { x: -24, y: -249, angle: 0.42 },
-    right: { x: 6, y: -246, angle: 0.29 }
+    left: { x: -19, y: -270, angle: 0.42 },
+    right: { x: 3, y: -269, angle: 0.29 }
   };
 
   function positionWing(ctx, side, t, wind) {
@@ -396,36 +396,6 @@
     ctx.translate(root.x, root.y);
     ctx.scale(left ? 1 : -1, 1);
     ctx.rotate(root.angle + Math.sin(t * 2.04 + side) * 0.075 + wind * 0.15);
-  }
-
-  // Paint a few short strands in front of the backplate so their roots
-  // are visible while the large ribbons remain behind the silhouette.
-  function drawWingAttachment(ctx, side, t, wind) {
-    ctx.save();
-    positionWing(ctx, side, t, wind);
-    ctx.globalCompositeOperation = 'screen';
-    const pulse = 0.81 + 0.11 * Math.sin(t * 4.2 + side) + wind * 0.08;
-    bloom(ctx, -1, 0, 17, 11, '255,193,104', pulse * 0.43);
-    const length = side < 0 ? 64 : 82;
-    const shine = ctx.createLinearGradient(0, 0, -length, 0);
-    shine.addColorStop(0, 'rgba(255,193,94,0.68)');
-    shine.addColorStop(0.30, 'rgba(255,225,160,0.68)');
-    shine.addColorStop(0.63, 'rgba(255,229,171,0.28)');
-    shine.addColorStop(1, 'rgba(255,224,160,0)');
-    ctx.fillStyle = shine;
-    for (let i = -1; i <= 1; i++) {
-      const len = length * (1 - Math.abs(i) * 0.12);
-      const rise = Math.sin(t * 3.7 + side + i) * 3.5;
-      const bend = 9 + i * 6.4;
-      const thickness = i === 0 ? 5.1 : 2.0;
-      ctx.globalAlpha = pulse * (i === 0 ? 0.80 : 0.50);
-      ctx.beginPath();
-      ctx.moveTo(0.5, i * 1.2);
-      ctx.bezierCurveTo(-len * 0.28, bend - thickness, -len * 0.57, -6 + i * 3, -len, i * 7 + rise);
-      ctx.bezierCurveTo(-len * 0.55, -4 + i * 3 + thickness, -len * 0.26, bend + thickness, 0.5, i * 1.2);
-      ctx.fill();
-    }
-    ctx.restore();
   }
 
   // Piecewise shear keeps both sides of every strip on the same curve.
@@ -439,18 +409,23 @@
     const yScale = height / image.height;
     const displacement = x => {
       const u = (x - rootX) / rootX;
-      return -u * Math.sin(t * 3.7 + u * 3.3 + side) * (17 + wind * 15);
+      const distance = (rootX - x) * xScale;
+      const clearance = (left ? 18 : 21) * smooth(14, 63, distance) *
+        (1 - smooth(66, 153, distance));
+      const flutter = -u * Math.sin(t * 3.7 + u * 3.3 + side) * (17 + wind * 15);
+      return flutter - clearance;
     };
     ctx.save();
     positionWing(ctx, side, t, wind);
-    ctx.globalAlpha = left ? 0.79 : 0.80;
     ctx.globalCompositeOperation = 'screen';
     for (let i = 0; i < 48; i++) {
       const x = i * step;
       const y = displacement(x);
       const shear = (displacement(x + step) - y) / step;
       const length = Math.min(step + 0.42, image.width - x);
+      const distance = (rootX - x) * xScale;
       ctx.save();
+      ctx.globalAlpha = lerp(0.64, left ? 0.79 : 0.80, smooth(26, 90, distance));
       ctx.transform(xScale, shear, 0, yScale, -rootX * xScale, -height * 0.5 + y - x * shear);
       ctx.drawImage(image, x, 0, length, image.height, x, 0, length, image.height);
       ctx.restore();
@@ -465,9 +440,7 @@
     const listening = smooth(1.78, 2.92, t) * (1 - smooth(5.4, 8.3, t));
     const rocking = 0.007 * Math.sin(t * 1.63) + wind * 0.018 - listening * .019;
     ctx.transform(1, 0, -rocking, 1 + 0.007 * Math.sin(t * 2.5), 0, 0);
-    bloom(ctx, -9, -248, 224, 131, '255,203,113', 0.15 + wind * 0.09);
-    drawWing(ctx, wing, 1, t, wind);
-    drawWing(ctx, wing, -1, t, wind);
+    bloom(ctx, -8, -278, 224, 105, '255,203,113', 0.15 + wind * 0.09);
 
     const w = hero.height * angel.width / angel.height;
     const x = -w * hero.anchorX;
@@ -487,8 +460,16 @@
     ctx.globalAlpha = 0.34 - 0.11 * smooth(pullStart, pullEnd, t);
     drawPortrait(assets.angelInk);
     ctx.globalAlpha = 1;
-    drawWingAttachment(ctx, -1, t, wind);
-    drawWingAttachment(ctx, 1, t, wind);
+
+    // In this rear view the two scapulae face the camera. Paint each full
+    // set of ribbons continuously from its socket on the visible backplate.
+    ctx.globalCompositeOperation = 'screen';
+    for (const [side, root] of [[-1, wingBackRoots.left], [1, wingBackRoots.right]]) {
+      const contact = 0.18 + 0.025 * Math.sin(t * 2.1 + side);
+      bloom(ctx, root.x - side * 4, root.y - 2, 8, 4.5, '255,192,111', contact);
+      drawWing(ctx, wing, side, t, wind);
+    }
+    ctx.globalCompositeOperation = 'source-over';
 
     const travel = smooth(0.75, 2.55, t);
     const glint = Math.sin(Math.PI * travel) ** 2;
@@ -530,7 +511,13 @@
   function softenWingBoundary(image) {
     const { width, height } = image;
     const wing = layer(width, height);
-    wing.drawImage(image, 0, 0);
+    // Narrow only the section adjacent to the two wing roots.
+    for (let x = 0; x < width; x++) {
+      const fromRoot = 0.94 - x / width;
+      const span = height * lerp(0.60, 1, smooth(0.035, 0.41, fromRoot));
+      const drop = height * 0.10 * smooth(0.17, 0.70, fromRoot);
+      wing.drawImage(image, x, 0, 1, height, x, (height - span) * 0.5 + drop, 1, span);
+    }
     wing.globalCompositeOperation = 'destination-in';
     const falloff = wing.createLinearGradient(0, 0, 0, height);
     falloff.addColorStop(0, '#000');
